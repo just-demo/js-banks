@@ -1,0 +1,944 @@
+{
+  "1": {
+    "alias": "privatbank",
+    "name": "ПриватБанк",
+    "site": "http://privatbank.ua/"
+  },
+  "2": {
+    "alias": "oschadbank",
+    "name": "Ощадбанк",
+    "site": "http://www.oschadbank.ua/ua/"
+  },
+  "3": {
+    "alias": "ing",
+    "name": "ІНГ Банк Україна",
+    "site": "http://www.ingbankukraine.com/ua/home"
+  },
+  "4": {
+    "alias": "citibank",
+    "name": "Сітібанк (Україна)",
+    "site": "https://www.citigroup.com/citi/about/countrypresence/ukraine.html"
+  },
+  "6": {
+    "alias": "otp-bank",
+    "name": "ОТП Банк",
+    "site": "http://otpbank.com.ua/"
+  },
+  "7": {
+    "alias": "premium",
+    "name": "Преміум",
+    "site": "http://www.bank-premium.com/"
+  },
+  "11": {
+    "alias": "brokbiznesbank",
+    "name": "Брокбізнесбанк",
+    "site": "http://www.bankbb.com.ua/"
+  },
+  "12": {
+    "alias": "upb",
+    "name": "УПБ",
+    "site": "http://upb.ua/"
+  },
+  "13": {
+    "alias": "credit-europe-bank",
+    "name": "Кредит Європа Банк",
+    "site": "http://www.crediteurope.com.ua/"
+  },
+  "14": {
+    "alias": "rwsbank",
+    "name": "РВС Банк",
+    "site": "http://www.rwsbank.com.ua/"
+  },
+  "15": {
+    "alias": "ukreximbank",
+    "name": "Укрексімбанк",
+    "site": "https://www.eximb.com/ukr/personal/"
+  },
+  "16": {
+    "alias": "sberbank",
+    "name": "Сбербанк",
+    "site": "http://www.sberbank.ua"
+  },
+  "17": {
+    "alias": "creditprombank",
+    "name": "Кредитпромбанк",
+    "site": "http://kreditprombank.com"
+  },
+  "18": {
+    "alias": "bank-vostok",
+    "name": "Банк Восток",
+    "site": "http://www.bankvostok.com.ua/"
+  },
+  "19": {
+    "alias": "nadra",
+    "name": "Надра",
+    "site": "http://www.nadrabank.ua/site/page.php"
+  },
+  "20": {
+    "alias": "platinumbank",
+    "name": "Платинум Банк",
+    "site": "http://platinumbank.com.ua/"
+  },
+  "21": {
+    "alias": "marfinbank",
+    "name": "МТБ Банк",
+    "site": "http://marfinbank.ua/"
+  },
+  "22": {
+    "alias": "stolichnyi",
+    "name": "Банк Столичний",
+    "site": "http://stolychnyi.ua/"
+  },
+  "23": {
+    "alias": "pivdenny",
+    "name": "Банк Південний",
+    "site": "http://bank.com.ua/"
+  },
+  "24": {
+    "alias": "arkada",
+    "name": "Аркада",
+    "site": "http://www.arkada.ua/rus/"
+  },
+  "25": {
+    "alias": "fortuna-bank",
+    "name": "Фортуна-банк",
+    "site": "http://www.fortuna-bank.ua"
+  },
+  "26": {
+    "alias": "ufw-bank",
+    "name": "УФС-Банк",
+    "site": "http://www.ufw-bank.com/"
+  },
+  "27": {
+    "alias": "express-bank",
+    "name": "Експрес-Банк",
+    "site": "http://www.expres-bank.ua"
+  },
+  "28": {
+    "alias": "integral",
+    "name": "Інтеграл-банк",
+    "site": "http://www.integral.com.ua"
+  },
+  "31": {
+    "alias": "unexbank",
+    "name": "Юнекс Банк",
+    "site": "http://unexbank.ua/"
+  },
+  "32": {
+    "alias": "agroprosperis-bank",
+    "name": "Агропросперіс Банк",
+    "site": "http://www.ap-bank.com/"
+  },
+  "33": {
+    "alias": "zakhidinkombank",
+    "name": "Західінкомбанк",
+    "site": "http://www.inkom.lutsk.ua"
+  },
+  "34": {
+    "alias": "artem-bank",
+    "name": "Артем-банк",
+    "site": "http://www.artembank.com.ua"
+  },
+  "35": {
+    "alias": "ukrgasbank",
+    "name": "Укргазбанк",
+    "site": "http://ukrgasbank.com/"
+  },
+  "36": {
+    "alias": "bank-veles",
+    "name": "Банк Велес"
+  },
+  "37": {
+    "alias": "ukrincombank",
+    "name": "Унікомбанк",
+    "site": "http://www.unicombank.com.ua"
+  },
+  "38": {
+    "alias": "bni",
+    "name": "Національні інвестиції",
+    "site": "http://www.jsbni.kiev.ua/"
+  },
+  "39": {
+    "alias": "olympic-ukraine",
+    "name": "Грін Банк",
+    "site": "http://www.greenbank.com.ua/"
+  },
+  "40": {
+    "alias": "khreschatyk",
+    "name": "Хрещатик",
+    "site": "http://www.xcitybank.com.ua/"
+  },
+  "42": {
+    "alias": "globus",
+    "name": "Глобус",
+    "site": "http://www.globusbank.com.ua/"
+  },
+  "43": {
+    "alias": "credit-dnepr",
+    "name": "Кредит Дніпро",
+    "site": "http://www.creditdnepr.com.ua/"
+  },
+  "44": {
+    "alias": "iboxbank",
+    "name": "Айбокс Банк (АгроКомБанк)",
+    "site": "http://www.iboxbank.online/"
+  },
+  "45": {
+    "alias": "credit-optima",
+    "name": "Кредит Оптима",
+    "site": "http://www.credit-optima.com.ua"
+  },
+  "46": {
+    "alias": "radabank",
+    "name": "Радабанк",
+    "site": "http://www.radabank.com.ua/"
+  },
+  "48": {
+    "alias": "cib",
+    "name": "Комерційний Індустріальний Банк",
+    "site": "http://cib.com.ua/ru/"
+  },
+  "49": {
+    "alias": "ubrr",
+    "name": "Український банк реконструкції та розвитку",
+    "site": "http://www.ubrr.com.ua/"
+  },
+  "50": {
+    "alias": "dongorbank",
+    "name": "Донгорбанк",
+    "site": "http://www.dongorbank.com/"
+  },
+  "51": {
+    "alias": "ubb",
+    "name": "УкрБізнесБанк",
+    "site": "http://ubb.com.ua/"
+  },
+  "52": {
+    "alias": "creditwest-bank",
+    "name": "Кредитвест Банк",
+    "site": "https://www.creditwest.ua/uk/"
+  },
+  "53": {
+    "alias": "vbr",
+    "name": "Всеукраїнський банк розвитку",
+    "site": "http://www.vbr-bank.com.ua/"
+  },
+  "54": {
+    "alias": "poltava-bank",
+    "name": "Полтава-Банк",
+    "site": "http://www.poltavabank.com"
+  },
+  "56": {
+    "alias": "zlatobank",
+    "name": "Златобанк",
+    "site": "http://www.zbank.com.ua/"
+  },
+  "57": {
+    "alias": "bis",
+    "name": "Банк Інвестицій та Заощаджень",
+    "site": "http://www.bisbank.com.ua/"
+  },
+  "58": {
+    "alias": "aval",
+    "name": "Райффайзен Банк Аваль",
+    "site": "http://www.aval.ua/"
+  },
+  "59": {
+    "alias": "asvio_bank",
+    "name": "Асвіо Банк",
+    "site": "http://www.asviobank.ua"
+  },
+  "60": {
+    "alias": "tavrika",
+    "name": "Таврика",
+    "site": "http://www.tavrika.com/ru/"
+  },
+  "61": {
+    "alias": "oksi-bank",
+    "name": "ОКСІ Банк",
+    "site": "http://www.okcibank.com.ua/"
+  },
+  "62": {
+    "alias": "diamantbank",
+    "name": "Діамантбанк",
+    "site": "http://www.diamantbank.ua/"
+  },
+  "63": {
+    "alias": "alfa-bank",
+    "name": "Альфа-Банк",
+    "site": "https://alfabank.ua"
+  },
+  "64": {
+    "alias": "ukrgazprombank",
+    "name": "Укргазпромбанк",
+    "site": "http://www.ugpb.com/"
+  },
+  "66": {
+    "alias": "investbank",
+    "name": "Інвестбанк",
+    "site": "http://www.investbank.com.ua/"
+  },
+  "67": {
+    "alias": "bg-bank",
+    "name": "БГ Банк",
+    "site": "http://www.bgbank.com.ua"
+  },
+  "68": {
+    "alias": "pivdencombank",
+    "name": "Південкомбанк",
+    "site": "http://pivdencombank.com/"
+  },
+  "69": {
+    "alias": "prime-bank",
+    "name": "Прайм-банк",
+    "site": "http://www.prime-bank.kiev.ua/"
+  },
+  "70": {
+    "alias": "bta-bank",
+    "name": "БТА Банк",
+    "site": "http://www.btabank.ua/"
+  },
+  "71": {
+    "alias": "apeks-bank",
+    "name": "Апекс-банк",
+    "site": "http://www.apeksbank.com.ua"
+  },
+  "72": {
+    "alias": "legbank",
+    "name": "Легбанк",
+    "site": "http://www.legbank.kiev.ua"
+  },
+  "73": {
+    "alias": "finansovaya-iniciativa",
+    "name": "Фінансова Ініціатива",
+    "site": "http://www.the-bank.com.ua/"
+  },
+  "74": {
+    "alias": "ukrcapital",
+    "name": "Український капітал",
+    "site": "http://www.ukrcapital.com.ua"
+  },
+  "75": {
+    "alias": "zembank",
+    "name": "Земельний банк",
+    "site": "http://www.zembank.kharkov.ua/"
+  },
+  "76": {
+    "alias": "active-bank",
+    "name": "Актив-Банк",
+    "site": "http://www.activebank.com.ua"
+  },
+  "77": {
+    "alias": "industrialbank",
+    "name": "Індустріалбанк",
+    "site": "http://industrialbank.ua/"
+  },
+  "78": {
+    "alias": "kievskaya-rus",
+    "name": "Київська Русь",
+    "site": "http://www.kruss.kiev.ua/"
+  },
+  "79": {
+    "alias": "finrostbank",
+    "name": "Фінростбанк",
+    "site": "http://www.frb.com.ua/"
+  },
+  "80": {
+    "alias": "megabank",
+    "name": "Мегабанк",
+    "site": "https://www.megabank.ua"
+  },
+  "81": {
+    "alias": "vtb-bank",
+    "name": "ВТБ Банк",
+    "site": "https://vtb.ua/"
+  },
+  "82": {
+    "alias": "volksbank",
+    "name": "ВіЕс Банк",
+    "site": "http://www.vsbank.com.ua/"
+  },
+  "83": {
+    "alias": "contract",
+    "name": "Контракт",
+    "site": "http://www.kontrakt.ua/ru/"
+  },
+  "84": {
+    "alias": "taskombank",
+    "name": "Таскомбанк",
+    "site": "http://www.tascombank.com.ua/"
+  },
+  "85": {
+    "alias": "ideabank",
+    "name": "Ідея Банк",
+    "site": "https://www.ideabank.ua/"
+  },
+  "86": {
+    "alias": "skybank",
+    "name": "Скай Банк",
+    "site": "https://www.sky.bank/"
+  },
+  "87": {
+    "alias": "altbank",
+    "name": "Альтбанк",
+    "site": "http://altbank.ua"
+  },
+  "88": {
+    "alias": "vpbank",
+    "name": "Східно-промисловий банк",
+    "site": "http://www.vpbank.com.ua/"
+  },
+  "89": {
+    "alias": "vernum-bank",
+    "name": "Вернум Банк",
+    "site": "http://www.vernumbank.com/"
+  },
+  "90": {
+    "alias": "pku",
+    "name": "Петрокоммерц-Україна",
+    "site": "http://www.pcbu.com.ua/"
+  },
+  "91": {
+    "alias": "profin-bank",
+    "name": "ПроФін Банк",
+    "site": "http://www.profinbank.com"
+  },
+  "92": {
+    "alias": "real-bank",
+    "name": "Реал банк",
+    "site": "http://realbank.com.ua"
+  },
+  "93": {
+    "alias": "daniel",
+    "name": "Даніель",
+    "site": "http://www.danielbank.kiev.ua/"
+  },
+  "94": {
+    "alias": "europrombank",
+    "name": "Європромбанк",
+    "site": "http://europrombank.kiev.ua"
+  },
+  "95": {
+    "alias": "accordbank",
+    "name": "Акордбанк",
+    "site": "http://accordbank.com.ua/"
+  },
+  "96": {
+    "alias": "classic-bank",
+    "name": "Класикбанк",
+    "site": "http://www.bankclassic.com"
+  },
+  "97": {
+    "alias": "demark",
+    "name": "Демарк",
+    "site": "http://www.bankdemark.com/"
+  },
+  "98": {
+    "alias": "interbank",
+    "name": "Інтербанк",
+    "site": "http://www.interbank.kiev.ua/"
+  },
+  "99": {
+    "alias": "bank-familnyi",
+    "name": "Банк Фамільний",
+    "site": "http://www.fbank.com.ua/"
+  },
+  "100": {
+    "alias": "bank-boguslav",
+    "name": "Банк Богуслав",
+    "site": "http://www.bankboguslav.com.ua/"
+  },
+  "101": {
+    "alias": "basis",
+    "name": "Базис",
+    "site": "http://www.basis.com.ua/"
+  },
+  "102": {
+    "alias": "axiomabank",
+    "name": "Аксіома",
+    "site": "http://www.axiomabank.com"
+  },
+  "103": {
+    "alias": "citycommercebank",
+    "name": "Міський Комерційний Банк",
+    "site": "http://www.citycommercebank.com/"
+  },
+  "104": {
+    "alias": "policombank",
+    "name": "Полікомбанк",
+    "site": "http://www.policombank.com/"
+  },
+  "105": {
+    "alias": "finexbank",
+    "name": "Фінексбанк",
+    "site": "http://www.finexbank.com.ua/"
+  },
+  "106": {
+    "alias": "finbank",
+    "name": "Фінбанк",
+    "site": "http://www.finbank.odessa.ua/"
+  },
+  "108": {
+    "alias": "grant",
+    "name": "Банк Грант",
+    "site": "http://www.grant.kharkov.ua/"
+  },
+  "109": {
+    "alias": "zemelnyi-kapital",
+    "name": "Банк Земельний Капітал",
+    "site": "https://www.zemcap.com/ru.html"
+  },
+  "110": {
+    "alias": "eurogasbank",
+    "name": "Єврогазбанк",
+    "site": "http://www.egb.kiev.ua/"
+  },
+  "113": {
+    "alias": "porto-franko",
+    "name": "Порто-Франко",
+    "site": "http://www.porto-franco.com/"
+  },
+  "114": {
+    "alias": "alliance",
+    "name": "Банк Альянс",
+    "site": "https://bankalliance.ua/"
+  },
+  "115": {
+    "alias": "cambio",
+    "name": "Банк Камбіо",
+    "site": "http://www.cambio.com.ua/"
+  },
+  "116": {
+    "alias": "cominvestbank",
+    "name": "Комінвестбанк",
+    "site": "http://www.atcominvestbank.com/"
+  },
+  "117": {
+    "alias": "ukoopspilka",
+    "name": "Укоопспілка",
+    "site": "http://www.bankukoopspilka.kiev.ua"
+  },
+  "118": {
+    "alias": "mercury",
+    "name": "Меркурій",
+    "site": "http://www.mercury-bank.com/"
+  },
+  "119": {
+    "alias": "eurobank",
+    "name": "Євробанк",
+    "site": "http://www.eurobank-ua.com/"
+  },
+  "120": {
+    "alias": "trust-capital",
+    "name": "Траст-капітал",
+    "site": "http://www.tc-bank.com/ua.html"
+  },
+  "122": {
+    "alias": "rccf",
+    "name": "Ренесанс Кредит",
+    "site": "https://pumb.ua/ru"
+  },
+  "123": {
+    "alias": "universal-bank",
+    "name": "Універсал Банк",
+    "site": "http://universalbank.com.ua/"
+  },
+  "124": {
+    "alias": "ukrcommunbank",
+    "name": "Укркомунбанк",
+    "site": "http://www.abucb.com/"
+  },
+  "125": {
+    "alias": "metabank",
+    "name": "МетаБанк",
+    "site": "http://www.mbank.com.ua/"
+  },
+  "126": {
+    "alias": "bank-trust",
+    "name": "Банк Траст",
+    "site": "http://banktrust.com.ua/"
+  },
+  "127": {
+    "alias": "promeconombank",
+    "name": "Промекономбанк",
+    "site": "http://www.peb.com.ua"
+  },
+  "128": {
+    "alias": "ksgbank",
+    "name": "КСГ Банк",
+    "site": "http://www.ksgbank.com.ua/"
+  },
+  "129": {
+    "alias": "ukrsocbank",
+    "name": "Укрсоцбанк",
+    "site": "https://www.ukrsotsbank.com/"
+  },
+  "131": {
+    "alias": "morskoy",
+    "name": "Морський"
+  },
+  "132": {
+    "alias": "fib",
+    "name": "Перший Інвестиційний Банк",
+    "site": "http://www.pinbank.ua/"
+  },
+  "134": {
+    "alias": "zolotye-vorota",
+    "name": "Банк Золоті ворота",
+    "site": "http://goldengate.kharkov.ua/"
+  },
+  "135": {
+    "alias": "forward-bank",
+    "name": "Банк Форвард",
+    "site": "http://forward-bank.com/"
+  },
+  "136": {
+    "alias": "lvov",
+    "name": "Львів",
+    "site": "http://www.banklviv.com/"
+  },
+  "137": {
+    "alias": "expobank",
+    "name": "Експобанк",
+    "site": "http://www.expobank.ua/"
+  },
+  "138": {
+    "alias": "imexbank",
+    "name": "Імексбанк",
+    "site": "http://imexbank.com.ua/"
+  },
+  "139": {
+    "alias": "avtokrazbank",
+    "name": "Автокразбанк",
+    "site": "http://www.avtokrazbank.ua/"
+  },
+  "140": {
+    "alias": "misto-bank",
+    "name": "Місто Банк",
+    "site": "http://www.mistobank.com.ua/"
+  },
+  "141": {
+    "alias": "terra-bank",
+    "name": "Терра банк",
+    "site": "http://www.terrabank.ua/"
+  },
+  "142": {
+    "alias": "bm-bank",
+    "name": "БМ Банк",
+    "site": "http://www.bmbank.com.ua/"
+  },
+  "143": {
+    "alias": "procredit-bank",
+    "name": "ПроКредит Банк",
+    "site": "http://procreditbank.com.ua/"
+  },
+  "144": {
+    "alias": "energobank",
+    "name": "Енергобанк",
+    "site": "http://www.energobank.com.ua/"
+  },
+  "145": {
+    "alias": "new",
+    "name": "Новий",
+    "site": "http://www.banknew.dp.ua"
+  },
+  "146": {
+    "alias": "clearing-house",
+    "name": "Кліринговий Дім",
+    "site": "http://www.clhs.kiev.ua/"
+  },
+  "147": {
+    "alias": "finansy-i-kredit",
+    "name": "Фінанси та Кредит",
+    "site": "http://www.fcbank.com.ua/ru/"
+  },
+  "148": {
+    "alias": "pumb",
+    "name": "ПУМБ",
+    "site": "http://pumb.ua/"
+  },
+  "149": {
+    "alias": "ukrinbank",
+    "name": "Укрінбанк",
+    "site": "http://www.ukrinbank.com/"
+  },
+  "150": {
+    "alias": "piraeus-bank",
+    "name": "Піреус Банк",
+    "site": "http://www.piraeusbank.ua"
+  },
+  "151": {
+    "alias": "credit-agricole",
+    "name": "Креді Агріколь Банк",
+    "site": "https://credit-agricole.ua"
+  },
+  "154": {
+    "alias": "fidobank",
+    "name": "Фідобанк",
+    "site": "https://fidobank.ua"
+  },
+  "155": {
+    "alias": "pravex-bank",
+    "name": "Правекс банк",
+    "site": "https://www.pravex.com.ua/"
+  },
+  "156": {
+    "alias": "vab-bank",
+    "name": "ВіЕйБі Банк",
+    "site": "http://www.vab.ua/"
+  },
+  "157": {
+    "alias": "kredobank",
+    "name": "Кредобанк",
+    "site": "http://www.kredobank.com.ua/"
+  },
+  "158": {
+    "alias": "kiev",
+    "name": "Київ",
+    "site": "http://www.bank.kiev.ua/"
+  },
+  "159": {
+    "alias": "ukrsibbank",
+    "name": "Укрсиббанк",
+    "site": "https://my.ukrsibbank.com/ua/personal/"
+  },
+  "160": {
+    "alias": "bank-forum",
+    "name": "Форум Банк",
+    "site": "http://www.forum.ua"
+  },
+  "161": {
+    "alias": "rodovid-bank",
+    "name": "Родовід банк",
+    "site": "http://rodovidbank.com/"
+  },
+  "162": {
+    "alias": "aktabank",
+    "name": "АктаБанк",
+    "site": "http://www.aktabank.com/"
+  },
+  "166": {
+    "alias": "bank-3-4",
+    "name": "Банк 3/4",
+    "site": "https://www.bank34.ua/"
+  },
+  "174": {
+    "alias": "delta-bank",
+    "name": "Дельта Банк",
+    "site": "http://deltabank.com.ua/"
+  },
+  "184": {
+    "alias": "inprombank",
+    "name": "Інпромбанк",
+    "site": "http://www.inprombank.ua"
+  },
+  "191": {
+    "alias": "concord",
+    "name": "Конкорд",
+    "site": "http://www.concord.ua/"
+  },
+  "196": {
+    "alias": "ii-bank",
+    "name": "Міжнародний Інвестиційний Банк",
+    "site": "http://www.ii-bank.com.ua"
+  },
+  "198": {
+    "alias": "motor-bank",
+    "name": "Мотор-банк",
+    "site": "http://motor-bank.ua/"
+  },
+  "199": {
+    "alias": "narodniy-kapital",
+    "name": "Народний Капітал",
+    "site": "http://nkbank.com.ua/"
+  },
+  "200": {
+    "alias": "natsionalniy-kredit",
+    "name": "Банк Національний кредит",
+    "site": "http://www.bnk.ua"
+  },
+  "209": {
+    "alias": "prominvestbank",
+    "name": "Промінвестбанк",
+    "site": "http://www.pib.ua/"
+  },
+  "210": {
+    "alias": "pfb",
+    "name": "ПФБ",
+    "site": "http://www.pfb.com.ua/"
+  },
+  "211": {
+    "alias": "rd-bank",
+    "name": "Ерде Банк",
+    "site": "http://www.rdbank.com.ua"
+  },
+  "222": {
+    "alias": "soyuz",
+    "name": "Союз",
+    "site": "http://www.banksoyuz.com.ua/"
+  },
+  "223": {
+    "alias": "starokievskiy-bank",
+    "name": "Старокиївський Банк",
+    "site": "http://www.oldbank.com"
+  },
+  "224": {
+    "alias": "tk-credit",
+    "name": "ТК Кредит",
+    "site": "http://www.tkcredit.kiev.ua/"
+  },
+  "225": {
+    "alias": "tmm-bank",
+    "name": "Фінанс Банк",
+    "site": "http://www.financebank.com.ua/"
+  },
+  "229": {
+    "alias": "a-bank",
+    "name": "А-Банк",
+    "site": "http://a-bank.com.ua"
+  },
+  "233": {
+    "alias": "ukrstroyinvestbank",
+    "name": "Укрбудінвестбанк",
+    "site": "https://ubib.com.ua"
+  },
+  "249": {
+    "alias": "center",
+    "name": "Центр",
+    "site": "http://www.bankcenter.com.ua/ua/"
+  },
+  "271": {
+    "alias": "bank-sich",
+    "name": "Січ",
+    "site": "http://www.sichbank.com.ua/"
+  },
+  "272": {
+    "alias": "radical-bank",
+    "name": "Радикал Банк",
+    "site": "http://radicalbank.ua/"
+  },
+  "273": {
+    "alias": "avantbank",
+    "name": "Авант-Банк",
+    "site": "http://avantbank.ua/"
+  },
+  "461": {
+    "alias": "divi-bank",
+    "name": "Діві Банк",
+    "site": "http://dvbank.ua/"
+  },
+  "462": {
+    "alias": "inter-credit-bank",
+    "name": "ІнтерКредитБанк",
+    "site": "http://intercreditbank.com.ua"
+  },
+  "463": {
+    "alias": "melior",
+    "name": "Меліор Банк",
+    "site": "http://www.meliorbank.com"
+  },
+  "464": {
+    "alias": "smartbank",
+    "name": "Смартбанк",
+    "site": "http://smartbank.kiev.ua/"
+  },
+  "465": {
+    "alias": "sf",
+    "name": "Банк Софійський",
+    "site": "http://sf-bank.com.ua"
+  },
+  "466": {
+    "alias": "standart",
+    "name": "Стандарт",
+    "site": "http://www.standart-bank.com.ua/"
+  },
+  "467": {
+    "alias": "chbrr",
+    "name": "Чорноморський банк розвитку та реконструкції"
+  },
+  "468": {
+    "alias": "capital",
+    "name": "Капітал",
+    "site": "http://bills95.wix.com/bank-capital"
+  },
+  "469": {
+    "alias": "financial-partner",
+    "name": "Фінансовий Партнер",
+    "site": "http://www.bank-fp.com.ua/"
+  },
+  "470": {
+    "alias": "unisonbank",
+    "name": "Банк Юнісон",
+    "site": "http://www.unisonbank.com.ua/"
+  },
+  "472": {
+    "alias": "mihailovskiy",
+    "name": "Михайлівський",
+    "site": "http://www.mbank.kiev.ua/"
+  },
+  "473": {
+    "alias": "dzbank",
+    "name": "Держзембанк",
+    "site": "http://www.dzbank.com.ua/"
+  },
+  "524": {
+    "alias": "unionstandardbank",
+    "name": "Юніон Стандард Банк",
+    "site": "https://unionstandard.bank/ru/"
+  },
+  "525": {
+    "alias": "sebcorpratebank",
+    "name": "СЕБ Корпоративний Банк",
+    "site": "https://sebgroup.com/about-seb/our-locations/international-network/seb-in-ukraine"
+  },
+  "526": {
+    "alias": "bankportal",
+    "name": "Банк Портал",
+    "site": "http://bank-portal.com.ua/"
+  },
+  "559": {
+    "alias": "crystalbank",
+    "name": "Кристалбанк",
+    "site": "https://crystalbank.com.ua/"
+  },
+  "561": {
+    "alias": "vectorbank",
+    "name": "Вектор Банк",
+    "site": "http://www.vectorbank.com.ua/ru/"
+  },
+  "562": {
+    "alias": "avangardbank",
+    "name": "Банк Авангард",
+    "site": "http://www.avgd.ua/"
+  },
+  "563": {
+    "alias": "bankalpari",
+    "name": "Альпарі Банк",
+    "site": "http://bankalpari.com/"
+  },
+  "564": {
+    "alias": "bankgefest",
+    "name": "Гефест",
+    "site": "http://www.bankgefest.com.ua"
+  },
+  "565": {
+    "alias": "db",
+    "name": "Дойче Банк",
+    "site": "https://www.db.com/ukraine/"
+  },
+  "566": {
+    "alias": "investtrustbank",
+    "name": "Інвестиційно-трастовий банк",
+    "site": "http://investtrustbank.com.ua/"
+  },
+  "609": {
+    "alias": "settlement",
+    "name": "Розрахунковий центр",
+    "site": "http://settlement.com.ua"
+  },
+  "658": {
+    "alias": "monobank",
+    "name": "monobank",
+    "site": "https://monobank.com.ua"
+  }
+}
