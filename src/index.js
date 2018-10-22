@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import AppBanks from "./AppBanks";
-import AppBankList from "./AppBankList";
-import AppBankGovList from "./AppBankGovList";
+import App from "./App";
 
-ReactDOM.render(<AppBankGovList />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

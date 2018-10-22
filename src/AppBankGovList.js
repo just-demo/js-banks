@@ -16,7 +16,7 @@ class AppBankGovList extends Component {
             banks: []
         };
 
-        fetch('banks.gov.json')
+        fetch('/banks.gov.json')
             .then(banks => banks.json())
             .then(banks => this.setState({banks: banks}));
     }

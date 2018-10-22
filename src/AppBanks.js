@@ -13,12 +13,12 @@ class AppBanks extends Component {
             ratings: {}
         };
 
-        fetch('bank-details.json')
+        fetch('/bank-details.json')
             .then(banks => banks.json())
             .then(banks => this.setState({banks: banks}));
 
 
-        fetch('bank-ratings.json')
+        fetch('/bank-ratings.json')
             .then(ratings => ratings.json())
             .then(ratings => this.setState({ratings: ratings}));
     }
