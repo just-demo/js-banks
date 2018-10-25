@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Link, Route} from 'react-router-dom';
+import {HashRouter, Link, Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css'
 import AppBanks from "./AppBanks";
 import AppBankGovList from "./AppBankGovList";
 import AppBankList from "./AppBankList";
 
 const App = () => (
-    <Router>
+    <HashRouter>
         <div>
             <div>
                 <Link to="/">Ratings</Link>
@@ -20,7 +20,7 @@ const App = () => (
                 <Route path="/banks/gov" component={AppBankGovList}/>
             </div>
         </div>
-    </Router>
+    </HashRouter>
 );
 
 export default App;
