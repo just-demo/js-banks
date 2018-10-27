@@ -8,9 +8,9 @@ module.exports = {
     // https://bank.gov.ua/control/uk/publish/article?art_id=75535&cat_id=17823466
     // https://www.bank.gov.ua/control/bankdict/banks
     // https://bank.gov.ua/control/uk/bankdict/search?name=&type=369&region=&mfo=&edrpou=&size=&group=&fromDate=&toDate=
-    getBanks: function() {
+    getBanks: function () {
         const banks = {};
-        Object.values(utils.fromJson(utils.readFile(this.jsonBanksFile()))).forEach(bank => {
+        utils.fromJson(utils.readFile(this.jsonBanksFile())).forEach(bank => {
             bank.name = names.bankName(bank.name);
             if (banks[bank.name]) {
                 console.log('Duplicate bank name', bank.name);
@@ -24,11 +24,13 @@ module.exports = {
     fetchAndSaveAllHtml: function () {
         // this.fetchAndSaveBanks();
         // this.extractAndSaveBanks();
+        // this.fetchAndSaveBankDetails();
+        this.extractAndSaveBankDetails();
     },
 
     fetchAndSaveBanks: function () {
         let page = 0;
-        let html = utils.readURL('https://bank.gov.ua/control/bankdict/banks');
+        const html = utils.readURL('https://bank.gov.ua/control/bankdict/banks');
         utils.writeFile(this.htmlBanksFile(page), html);
         const regex = /<li>\s+?<a href="(.+?)">/g;
         let matches;
@@ -37,6 +39,16 @@ module.exports = {
             console.log(link);
             utils.writeFile(this.htmlBanksFile(++page), utils.readURL(link));
         }
+    },
+
+    fetchAndSaveBankDetails: function () {
+        utils.fromJson(utils.readFile(this.jsonBanksFile())).forEach(bank => {
+            console.log(bank.name);
+            utils.writeFile(
+                this.htmlBankDetailsFile(bank.name.toUpperCase()),
+                utils.readURL('https://bank.gov.ua/control/uk/bankdict/bank?id=' + bank.id)
+            );
+        });
     },
 
     ////////// json \\\\\\\\\\
@@ -50,6 +62,25 @@ module.exports = {
         utils.writeFile(this.jsonBanksFile(), utils.toJson(banks));
     },
 
+    extractAndSaveBankDetails: function () {
+        const synonyms = [];
+        utils.fromJson(utils.readFile(this.jsonBanksFile())).forEach(bank => {
+            const html = utils.readFile(this.htmlBankDetailsFile(bank.name.toUpperCase()));
+            const fullName = this.extractBankPureName(html.match(/<td.*?>Назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
+            const names = new Set();
+            names.add(bank.name.toUpperCase());
+            names.add(fullName.toUpperCase());
+            Array.from(names).forEach(name => {
+                names.add(name.replace(/\s*-\s*/g, '-'));
+                names.add(name.replace(/\s+/g, '-'));
+            });
+            if (names.size > 1) {
+                synonyms.push(Array.from(names));
+            }
+        });
+        utils.writeFile(this.jsonBankNamesFile(), utils.toJson(synonyms));
+    },
+
     extractBanks: function (page) {
         const banks = [];
         const html = utils.readFile(this.htmlBanksFile(page));
@@ -57,8 +88,13 @@ module.exports = {
 
         let matches;
         while ((matches = regex.exec(html))) {
+            const link = matches[1].trim();
+            const linkMatch = link.match(/<a href=".*?(\d+)">\s*(.+?)\s*<\/a>/);
+            const id = linkMatch[1];
+            const name = this.extractBankPureName(linkMatch[2]);
             banks.push({
-                name: this.extractBankPureName(matches[1]),
+                id: id,
+                name: name,
                 date: matches[4].split('.').reverse().map(part => part.trim()).join('-')
             });
         }
@@ -66,17 +102,10 @@ module.exports = {
         return banks;
     },
 
-    extractBankPureName(bankFullName) {
-        let name = bankFullName.trim();
-        let match = name.match(/<a.*?>\s*(.+?)\s*<\/a>/);
+    extractBankPureName(name) {
+        const match = name.match(/[\S\s]*&#034;(.+?)&#034;[\S\s]*/);
         if (!match) {
-            console.log(name);
-            return name;
-        }
-        name = match[1];
-        match = name.match(/[\S\s]*&#034;(.+?)&#034;[\S\s]*/);
-        if (!match) {
-            console.log(name);
+            console.log('No quotes:', name);
             return name;
         }
         return match[1];
@@ -87,8 +116,16 @@ module.exports = {
         return path.resolve(this.htmlFolder(), 'banks', page + '.html');
     },
 
+    htmlBankDetailsFile: function (bankName) {
+        return path.resolve(this.htmlFolder(), 'banks', 'details', bankName.toUpperCase() + '.html');
+    },
+
     jsonBanksFile: function () {
         return path.resolve(this.jsonFolder(), 'banks.json');
+    },
+
+    jsonBankNamesFile: function () {
+        return path.resolve('.', 'names', 'banks.json');
     },
 
     htmlFolder: function () {
