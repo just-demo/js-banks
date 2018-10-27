@@ -1,6 +1,7 @@
 let utils = require('./utils');
 let path = require('path');
 let _ = require('lodash');
+let names = require('./names');
 
 module.exports = {
     // https://bank.gov.ua/control/portalmap -> Банківський нагляд -> Реорганізація, припинення та ліквідація
@@ -10,11 +11,11 @@ module.exports = {
     getBanks: function() {
         const banks = {};
         Object.values(utils.fromJson(utils.readFile(this.jsonBanksFile()))).forEach(bank => {
-            const id = this.buildBankId(bank.name);
-            if (banks[id]) {
-                console.log(id + ': ' + bank.name + ' != ' + banks[id].name);
+            bank.name = names.bankName(bank.name);
+            if (banks[bank.name]) {
+                console.log('Duplicate bank name', bank.name);
             }
-            banks[id] = bank;
+            banks[bank.name] = bank;
         });
         return banks;
     },
@@ -79,10 +80,6 @@ module.exports = {
             return name;
         }
         return match[1];
-    },
-
-    buildBankId(name) {
-        return name.toLowerCase();
     },
 
     ////////// files \\\\\\\\\\

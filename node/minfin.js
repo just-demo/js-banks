@@ -1,5 +1,6 @@
 let utils = require('./utils');
 let path = require('path');
+let names = require('./names');
 
 module.exports = {
     dates: [
@@ -14,11 +15,11 @@ module.exports = {
     getBanks: function() {
         const banks = {};
         Object.values(utils.fromJson(utils.readFile(this.jsonBanksFile()))).forEach(bank => {
-            const id = bank.name.toLowerCase();
-            if (banks[id]) {
-                console.log(id + ': ' + bank.name + ' != ' + banks[id]);
+            bank.name = names.bankName(bank.name);
+            if (banks[bank.name]) {
+                console.log('Duplicate bank name', bank.name);
             }
-            banks[id] = bank.name;
+            banks[bank.name] = bank.name;
         });
         return banks;
     },

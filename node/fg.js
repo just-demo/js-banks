@@ -1,6 +1,7 @@
 let utils = require('./utils');
 let path = require('path');
 let _ = require('lodash');
+let names = require('./names');
 
 module.exports = {
     // https://www.bank.gov.ua/control/bankdict/banks
@@ -8,7 +9,8 @@ module.exports = {
     getActiveBanks: function () {
         const banks = {};
         utils.fromJson(utils.readFile(this.jsonActiveBanksFile())).forEach(bank => {
-            banks[this.buildBankId(bank.name)] = bank;
+            bank.name = names.bankName(bank.name);
+            banks[bank.name] = bank;
         });
         return banks;
     },
@@ -19,11 +21,11 @@ module.exports = {
             utils.fromJson(utils.readFile(this.jsonActiveBanksFile())),
             utils.fromJson(utils.readFile(this.jsonNotPayingBanksFile()))
         ).forEach(bank => {
-            const id = this.buildBankId(bank.name);
-            if (banks[id]) {
-                console.log(id + ': ' + bank.name + ' != ' + banks[id].name);
+            bank.name = names.bankName(bank.name);
+            if (banks[bank.name]) {
+                console.log('Duplicate bank name', bank.name);
             }
-            banks[id] = bank;
+            banks[bank.name] = bank;
         });
         return banks;
     },
@@ -48,7 +50,7 @@ module.exports = {
     fetchAndSaveBankDetails: function () {
         this.extractNotPayingBanks().forEach(bank => {
             console.log(bank.name);
-            const file = this.htmlBankFile(this.buildBankId(bank.name));
+            const file = this.htmlBankFile(bank.name.toUpperCase());
             if (!utils.fileExists(file)) {
                 utils.writeFile(file, utils.readURL('http://www.fg.gov.ua' + bank.link));
             }
@@ -148,10 +150,6 @@ module.exports = {
             });
         }
         return banks;
-    },
-
-    buildBankId(name) {
-        return name.toLowerCase();
     },
 
     ////////// files \\\\\\\\\\
