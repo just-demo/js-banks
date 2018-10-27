@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import {HashRouter, Link, Route} from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.css'
 import AppBanks from "./AppBanks";
 import AppBankGovList from "./AppBankGovList";
 import AppBankList from "./AppBankList";
@@ -9,11 +8,11 @@ import AppBankList from "./AppBankList";
 const App = () => (
     <HashRouter>
         <div>
-            <div>
-                <Link to="/">Ratings</Link>
-                <Link to="/banks">Banks</Link>
-                <Link to="/banks/gov">Gov Banks</Link>
-            </div>
+            <nav className="nav">
+                <Link className="nav-link" to="/">Ratings</Link>
+                <Link className="nav-link" to="/banks">Banks</Link>
+                <Link className="nav-link" to="/banks/gov">Gov Banks</Link>
+            </nav>
             <div>
                 <Route exact path="/" component={AppBanks}/>
                 <Route exact path="/banks" component={AppBankList}/>
