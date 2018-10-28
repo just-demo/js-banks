@@ -68,11 +68,11 @@ module.exports = {
             const html = utils.readFile(this.htmlBankDetailsFile(bank.name.toUpperCase()));
             const fullName = this.extractBankPureName(html.match(/<td.*?>Назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
             const names = new Set();
-            names.add(bank.name.toUpperCase());
-            names.add(fullName.toUpperCase());
-            Array.from(names).forEach(name => {
-                names.add(name.replace(/\s*-\s*/g, '-'));
-                names.add(name.replace(/\s+/g, '-'));
+            [bank.name.toUpperCase(), fullName.toUpperCase()].forEach(name1 => {
+                const name2 = name1.replace(/\s*-\s*/g, '-');
+                const name3 = name2.replace(/\s+/g, '-');
+                const name4 = name3.replace(/-/g, ' ');
+                [name1, name2, name3, name4].forEach(name => names.add(name));
             });
             if (names.size > 1) {
                 synonyms.push(Array.from(names));
