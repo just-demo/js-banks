@@ -13,13 +13,13 @@ const App = () => (
                 <Link className="nav-link" to="/">Ratings</Link>
                 <Link className="nav-link" to="/banks">Banks</Link>
                 <Link className="nav-link" to="/banks/gov">Gov Banks</Link>
-                <Link className="nav-link" to="/banks/abf">ABF</Link>
+                <Link className="nav-link" to="/banks/dbf">DBF</Link>
             </nav>
             <div>
                 <Route exact path="/" component={AppBanks}/>
                 <Route exact path="/banks" component={AppBankList}/>
                 <Route path="/banks/gov" component={AppBankGovList}/>
-                <Route path="/banks/abf" component={AppDBFList}/>
+                <Route path="/banks/dbf" component={AppDBFList}/>
             </div>
         </div>
     </HashRouter>

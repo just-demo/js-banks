@@ -45,11 +45,15 @@ class AppBankGovList extends Component {
                 <table className="banks">
                     <tbody>
                     <tr>
+                        <th>Active</th>
+                        <th><a href="https://bank.gov.ua/control/uk/bankdict/search">RCUCRU.dbf</a></th>
                         <th><a href="https://bank.gov.ua">bank.gov.ua</a></th>
                         <th><a href="http://www.fg.gov.ua">www.fg.gov.ua</a></th>
                     </tr>
                     {this.state.banks.map(bank => (
                         <tr key={bank.id} style={this.styleForBank(bank)}>
+                            <td>{bank.active ? 'Yes' : 'No'}</td>
+                            <td>{bank.dbf}</td>
                             <td>{bank.bg}</td>
                             <td>{bank.fg}</td>
                         </tr>
@@ -62,14 +66,14 @@ class AppBankGovList extends Component {
 
     styleForBank(bank) {
         let color;
-        if (bank.bg === bank.fg) {
+        if (bank.dbf && bank.bg && bank.fg) {
             color = 'green';
-        } else if (bank.bg && bank.fg) {
-            color = 'yellow';
-        } else if (bank.bg) {
+        } else if (bank.dbf && bank.active) {
             color = 'red';
-        } else {
+        } else if (bank.dbf) {
             color = 'orange';
+        } else {
+            color = 'yellow';
         }
 
         const style = {
