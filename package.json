@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "^4.1.3",
     "dbf-parser": "0.0.1",
+    "iconv-lite": "^0.4.24",
     "lodash": "^4.17.11",
     "node-dbf": "^0.4.0",
     "react": "^16.5.2",
