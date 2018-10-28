@@ -6,10 +6,10 @@ let utils = require('./utils');
 
 // minfin.fetchAndSaveAllHtml();
 // fg.fetchAndSaveAllHtml();
-// bankGov.fetchAndSaveAllHtml();
+bankGov.fetchAndSaveAllHtml();
 
 // compareBanks();
-compareGovBanks();
+// compareGovBanks();
 // console.log(bankGov.getBanks());
 
 function compareBanks() {

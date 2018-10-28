@@ -25,7 +25,8 @@ module.exports = {
         // this.fetchAndSaveBanks();
         // this.extractAndSaveBanks();
         // this.fetchAndSaveBankDetails();
-        this.extractAndSaveBankDetails();
+        // this.extractAndSaveBankDetails();
+        this.fetchAndSaveBanksByIds();
     },
 
     fetchAndSaveBanks: function () {
@@ -45,10 +46,25 @@ module.exports = {
         utils.fromJson(utils.readFile(this.jsonBanksFile())).forEach(bank => {
             console.log(bank.name);
             utils.writeFile(
-                this.htmlBankDetailsFile(bank.name.toUpperCase()),
+                this.htmlBankByNameFile(bank.name.toUpperCase()),
                 utils.readURL('https://bank.gov.ua/control/uk/bankdict/bank?id=' + bank.id)
             );
         });
+    },
+
+    fetchAndSaveBanksByIds: function () {
+        for (let id = 10300; id < 100000; id++) {
+            if (!(id % 100)) {
+                console.log('id:', id);
+            }
+            const html = utils.readURL('https://bank.gov.ua/control/uk/bankdict/bank?id=' + id);
+            const type = html.match(/<td.*?>Тип<\/td>\s*?<td.*?>(.+?)<\/td>/);
+            if (type && type[1] === 'Банк') {
+                // const longName = html.match(/<td.*?>Назва<\/td>\s*?<td.*?>(.+?)<\/td>/);
+                // const shortName = html.match(/<td.*?>Коротка назва<\/td>\s*?<td.*?>(.+?)<\/td>/);
+                utils.writeFile(this.htmlBankByIdFile((Math.floor(id / 1000) + 1) * 1000, id), html);
+            }
+        }
     },
 
     ////////// json \\\\\\\\\\
@@ -65,7 +81,7 @@ module.exports = {
     extractAndSaveBankDetails: function () {
         const synonyms = [];
         utils.fromJson(utils.readFile(this.jsonBanksFile())).forEach(bank => {
-            const html = utils.readFile(this.htmlBankDetailsFile(bank.name.toUpperCase()));
+            const html = utils.readFile(this.htmlBankByNameFile(bank.name.toUpperCase()));
             const fullName = this.extractBankPureName(html.match(/<td.*?>Назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
             const names = new Set();
             [bank.name.toUpperCase(), fullName.toUpperCase()].forEach(name1 => {
@@ -116,8 +132,12 @@ module.exports = {
         return path.resolve(this.htmlFolder(), 'banks', page + '.html');
     },
 
-    htmlBankDetailsFile: function (bankName) {
+    htmlBankByNameFile: function (bankName) {
         return path.resolve(this.htmlFolder(), 'banks', 'details', bankName.toUpperCase() + '.html');
+    },
+
+    htmlBankByIdFile: function (subFolder, bankId) {
+        return path.resolve(this.htmlFolder(), 'banks', 'ids', '' + subFolder, bankId + '.html');
     },
 
     jsonBanksFile: function () {
