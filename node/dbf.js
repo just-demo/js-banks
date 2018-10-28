@@ -1,29 +1,36 @@
 let Parser = require('node-dbf').default;
 let iconv = require('iconv-lite');
-// import Parser from 'node-dbf'
-// let Parser = require('dbf-parser');
 
-let parser = new Parser('/home/pc/Downloads/RCUKRU.DBF', {encoding: 'binary'});
+module.exports = {
+    fetchAndExtractDbf() {
+        let parser = new Parser('/home/pc/Downloads/RCUKRU.DBF', {encoding: 'binary'});
 
-const banks = [];
-parser.on('record', (record) => {
-    banks.push({
-        shortName: decode(record.SHORTNAME),
-        fullName: decode(record.FULLNAME)
-    });
-});
+        const banks = [];
+        parser.on('record', (record) => {
+            banks.push({
+                shortName: this.decode(record.SHORTNAME),
+                fullName: this.decode(record.FULLNAME)
+            });
+        });
 
-parser.on('end', () => {
-    console.log(JSON.stringify(banks));
-});
+        parser.on('end', () => {
+            // TODO: shortName is prepended with extra data and fullName is empty, that is why using java parser instead for now...
+            console.log(banks);
+        });
 
-parser.parse();
+        parser.parse();
+    },
 
-function decode(value) {
-    return iconv.decode(iconv.encode(value, 'binary'), 'cp866')
-        .replace(/Ї/g, 'Є')
-        .replace(/°/g, 'Ї')
-        .replace(/∙/g, 'ї')
-        .replace(/Ў/g, 'І')
-        .replace(/ў/g, 'і');
-}
+    decode(value) {
+        return this.fixChars(iconv.decode(iconv.encode(value, 'binary'), 'cp866'));
+    },
+
+    fixChars(value) {
+        return value
+            .replace(/Ї/g, 'Є')
+            .replace(/°/g, 'Ї')
+            .replace(/∙/g, 'ї')
+            .replace(/Ў/g, 'І')
+            .replace(/ў/g, 'і');
+    }
+};

@@ -3,10 +3,12 @@ let fg = require('./fg');
 let bankGov = require('./bank.gov');
 let _ = require('lodash');
 let utils = require('./utils');
+let dbf = require('./dbf');
 
 // minfin.fetchAndSaveAllHtml();
 // fg.fetchAndSaveAllHtml();
-bankGov.fetchAndSaveAllHtml();
+// bankGov.fetchAndSaveAllHtml();
+dbf.fetchAndExtractDbf();
 
 // compareBanks();
 // compareGovBanks();
