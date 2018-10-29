@@ -2,6 +2,8 @@ let utils = require('./utils');
 let path = require('path');
 let _ = require('lodash');
 let names = require('./names');
+let convert = require('xml-js');
+let iconv = require('iconv-lite');
 
 module.exports = {
     // https://bank.gov.ua/control/portalmap -> Банківський нагляд -> Реорганізація, припинення та ліквідація
@@ -22,15 +24,12 @@ module.exports = {
         return banks;
     },
 
-
-
-    ////////// xml to json \\\\\\\\\\
-    convertXmlToJson() {
-        // https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0&json
-        let convert = require('xml-js');
-        let xml = utils.readFile('./bg/xml/banks.api.xml', 'cp1251');
-        let json = convert.xml2js(xml, {compact: true});
-        json = json['BANKBRANCH']['ROW'].map(row => _.forOwn(row, (value, key) => row[key] = value['_text'] || value['_cdata']));
+    ////////// xml and json \\\\\\\\\\
+    fetchAndSaveApiData() {
+        const xml = utils.readURL('https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251');
+        const json = convert.xml2js(xml, {compact: true})['BANKBRANCH']['ROW']
+            .map(row => _.forOwn(row, (value, key) => row[key] = value['_text'] || value['_cdata']));
+        utils.writeFile('./bg/xml/banks.api.xml', xml);
         utils.writeFile('./bg/json/banks.api.json', utils.toJson(json));
     },
 

@@ -14,7 +14,7 @@ let dbf = require('./dbf');
 // compareGovBanks();
 // console.log(bankGov.getBanks());
 
-bankGov.convertXmlToJson();
+bankGov.fetchAndSaveApiData();
 
 function compareBanks() {
     const bgBanks = bankGov.getBanks();

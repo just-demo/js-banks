@@ -19,12 +19,9 @@ module.exports = {
         return fs.existsSync(file);
     },
 
-    readURL: function(url) {
-        return request('GET', url, {
-            headers: {
-                'User-Agent': 'javascript'
-            }
-        }).getBody('utf8');
+    readURL: function(url, encoding) {
+        const response = request('GET', url, {headers: {'User-Agent': 'javascript'}});
+        return encoding ? iconv.decode(response.getBody(), encoding) : response.getBody('utf8');
     },
 
     toJson: function(object) {
