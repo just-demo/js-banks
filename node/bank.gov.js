@@ -22,6 +22,18 @@ module.exports = {
         return banks;
     },
 
+
+
+    ////////// xml to json \\\\\\\\\\
+    convertXmlToJson() {
+        // https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0&json
+        let convert = require('xml-js');
+        let xml = utils.readFile('./bg/xml/banks.api.xml', 'cp1251');
+        let json = convert.xml2js(xml, {compact: true});
+        json = json['BANKBRANCH']['ROW'].map(row => _.forOwn(row, (value, key) => row[key] = value['_text'] || value['_cdata']));
+        utils.writeFile('./bg/json/banks.api.json', utils.toJson(json));
+    },
+
     ////////// html \\\\\\\\\\
     fetchAndSaveAllHtml: function () {
         // this.fetchAndSaveBanks();
