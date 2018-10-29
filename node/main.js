@@ -14,7 +14,32 @@ let dbf = require('./dbf');
 // compareGovBanks();
 // console.log(bankGov.getBanks());
 
-bankGov.fetchAndSaveApiData();
+compareGovApiBanks();
+
+function compareGovApiBanks() {
+    const dbfBanks = dbf.getBanks();
+    const apiBanks = bankGov.getBanksApi();
+    const dbfBankIds = Object.keys(dbfBanks);
+    const apiBankIds = Object.keys(apiBanks);
+    console.log(dbfBankIds.length);
+    console.log(apiBankIds.length);
+    console.log(_.intersection(dbfBankIds, apiBankIds).length);
+    console.log(_.union(dbfBankIds, apiBankIds).length);
+    _.union(dbfBankIds, apiBankIds).forEach(id => {
+        // TODO: need id?
+        // if (dbfBanks[id].id !== apiBanks[id].id) {
+        //     console.log('Id mismatch: ', id, dbfBanks[id].id, apiBanks[id].id);
+        // }
+        if (dbfBanks[id].active !== apiBanks[id].active) {
+            // TODO: ФІНАНСОВА ІНІЦІАТИВА ???
+            console.log('Active mismatch: ', id, dbfBanks[id].active, apiBanks[id].active);
+        }
+        if (dbfBanks[id].dateOpen !== apiBanks[id].dateOpen) {
+            // TODO: compare with bg.getBanks()...name
+            console.log('DateOpen mismatch: ', id, dbfBanks[id].dateOpen, apiBanks[id].dateOpen);
+        }
+    });
+}
 
 function compareBanks() {
     const bgBanks = bankGov.getBanks();

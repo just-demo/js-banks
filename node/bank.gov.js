@@ -24,13 +24,31 @@ module.exports = {
         return banks;
     },
 
+    getBanksApi: function () {
+        const banks = {};
+        utils.fromJson(utils.readFile(this.jsonBanksApiFile())).forEach(record => {
+            const name = names.bankName(this.extractBankPureName(record['SHORTNAME']));
+            if (banks[name]) {
+                console.log('Duplicate bank name', name);
+            }
+            banks[name] = {
+                id: parseInt(record['NKB']),
+                shortName: name,
+                dateOpen: record['D_OPEN'].split('.').reverse().join('-'),
+                // 'Нормальний', 'Режим ліквідації', 'Реорганізація', 'Неплатоспроможний'
+                active: ['Нормальний'.toUpperCase(), 'Реорганізація'.toUpperCase()].includes(record['N_STAN'].toUpperCase())
+            };
+        });
+        return banks;
+    },
+
     ////////// xml and json \\\\\\\\\\
     fetchAndSaveApiData() {
         const xml = utils.readURL('https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251');
         const json = convert.xml2js(xml, {compact: true})['BANKBRANCH']['ROW']
             .map(row => _.forOwn(row, (value, key) => row[key] = value['_text'] || value['_cdata']));
         utils.writeFile('./bg/xml/banks.api.xml', xml);
-        utils.writeFile('./bg/json/banks.api.json', utils.toJson(json));
+        utils.writeFile(this.jsonBanksApiFile(), utils.toJson(json));
     },
 
     ////////// html \\\\\\\\\\
@@ -95,7 +113,7 @@ module.exports = {
         const synonyms = [];
         utils.fromJson(utils.readFile(this.jsonBanksFile())).forEach(bank => {
             const html = utils.readFile(this.htmlBankByNameFile(bank.name.toUpperCase()));
-            const fullName = this.extractBankPureName(html.match(/<td.*?>Назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
+            const fullName = this.extractBankPureNameSPC(html.match(/<td.*?>Назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
             const names = new Set();
             [bank.name.toUpperCase(), fullName.toUpperCase()].forEach(name1 => {
                 const name2 = name1.replace(/\s*-\s*/g, '-');
@@ -120,7 +138,7 @@ module.exports = {
             const link = matches[1].trim();
             const linkMatch = link.match(/<a href=".*?(\d+)">\s*(.+?)\s*<\/a>/);
             const id = linkMatch[1];
-            const name = this.extractBankPureName(linkMatch[2]);
+            const name = this.extractBankPureNameSPC(linkMatch[2]);
             banks.push({
                 id: id,
                 name: name,
@@ -131,7 +149,7 @@ module.exports = {
         return banks;
     },
 
-    extractBankPureName(name) {
+    extractBankPureNameSPC(name) {
         const match = name.match(/[\S\s]*&#034;(.+?)&#034;[\S\s]*/);
         if (!match) {
             console.log('No quotes:', name);
@@ -139,6 +157,16 @@ module.exports = {
         }
         return match[1];
     },
+
+    extractBankPureName(bankFullName) {
+        const match = bankFullName.match(/.*["](.+?)["]/);
+        if (!match) {
+            console.log('Full name is pure name:', bankFullName);
+            return bankFullName;
+        }
+        return match[1];
+    },
+
 
     ////////// files \\\\\\\\\\
     htmlBanksFile: function (page) {
@@ -155,6 +183,10 @@ module.exports = {
 
     jsonBanksFile: function () {
         return path.resolve(this.jsonFolder(), 'banks.json');
+    },
+
+    jsonBanksApiFile: function () {
+        return path.resolve(this.jsonFolder(), 'banks.api.json');
     },
 
     jsonBankNamesFile: function () {
