@@ -1,0 +1,4743 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<BANKBRANCH>
+    <ROW>
+        <GLMFO>300012</GLMFO>
+        <N_GOL>ПАТ "Промінвестбанк"</N_GOL>
+        <NAME_E><![CDATA[Public stock company "Joint-Stock Commercial Industrial & Investment Bank" (скорочена назва - PSC Prominvestbank)]]></NAME_E>
+        <KOD_EDRPOU>00039002</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "Промінвестбанк"</SHORTNAME>
+        <NKB>003</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>00326804026347000000</DEPCODE>
+        <P_IND>01001</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>пpовулок Шевченка, 12</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>26.08.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300023</GLMFO>
+        <N_GOL>АТ "УКРСОЦБАНК"</N_GOL>
+        <NAME_E>JOINT-STOCK COMPANY "UKRSOTSBANK" (скорочена назва - JSC "UKRSOTSBANK")</NAME_E>
+        <KOD_EDRPOU>00039019</KOD_EDRPOU>
+        <SHORTNAME>АТ "УКРСОЦБАНК"</SHORTNAME>
+        <NKB>005</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>00526804026524000000</DEPCODE>
+        <P_IND>03150</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Ковпака, 29</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>205-45-55</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>27.09.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300056</GLMFO>
+        <N_GOL>ПАТ "ЛЕГБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "LEGBANK" (скорочена назва - PUJSC "LEGBANK")</NAME_E>
+        <KOD_EDRPOU>14291780</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ЛЕГБАНК"</SHORTNAME>
+        <NKB>013</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>01326804026703000000</DEPCODE>
+        <P_IND>01033</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Жилянська, 27</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>2204464</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>27.02.2015</D_STAN>
+        <D_OPEN>08.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300119</GLMFO>
+        <N_GOL>АТ "БАНК АЛЬЯНС"</N_GOL>
+        <NAME_E>JOINT STOCK COMPANY "BANK ALLIANCE" (скорочена назва - JSC "BANK ALLIANCE")</NAME_E>
+        <KOD_EDRPOU>14360506</KOD_EDRPOU>
+        <SHORTNAME>АТ "БАНК АЛЬЯНС"</SHORTNAME>
+        <NKB>029</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>02926804026722000000</DEPCODE>
+        <P_IND>04053</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Січових Стрільців, будинок 50</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>4124285</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>10.03.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300120</GLMFO>
+        <N_GOL>"БАНК ПЕТРОКОММЕРЦ-УКРАЇНА"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "PETROCOMMERCE-UKRAINE BANK" (скорочена назва - PJSC "PETROCOMMERCE-UKRAINE BANK")</NAME_E>
+        <KOD_EDRPOU>22906155</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА"</SHORTNAME>
+        <NKB>283</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>28326804026723000000</DEPCODE>
+        <P_IND>01601</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Велика Житомирська, 20</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>21.04.2016</D_STAN>
+        <D_OPEN>26.09.1996</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300131</GLMFO>
+        <N_GOL>АТ"БАНК"ФІНАНСИ ТА КРЕДИТ"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "BANK "FINANCE AND CREDIT" (скорочена назва - JSC BANK "FINANCE AND CREDIT")</NAME_E>
+        <KOD_EDRPOU>09807856</KOD_EDRPOU>
+        <SHORTNAME>АТ "БАНК "ФІНАНСИ ТА КРЕДИТ"</SHORTNAME>
+        <NKB>017</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>01726804026708000000</DEPCODE>
+        <P_IND>04050</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Артема‚ 60</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>490-68-70</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>17.12.2015</D_STAN>
+        <D_OPEN>30.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300142</GLMFO>
+        <N_GOL>ПАТ "УКРІНБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "UKRAINIAN INNOVATION BANK" (скорочена назва - PJSC "UKRINBANK")</NAME_E>
+        <KOD_EDRPOU>05839888</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "УКРІНБАНК"</SHORTNAME>
+        <NKB>018</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>01826804026709000000</DEPCODE>
+        <P_IND>04053</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Смирнова-Ласточкіна, буд.10-А</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>2207567,2207740</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>22.03.2016</D_STAN>
+        <D_OPEN>02.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300164</GLMFO>
+        <N_GOL>ПАТ "ОМЕГА БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "OMEGA BANK" (скорочена назва - PJSC "OMEGA BANK")</NAME_E>
+        <KOD_EDRPOU>19356840</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ОМЕГА БАНК"</SHORTNAME>
+        <NKB>011</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>01126804026701000000</DEPCODE>
+        <P_IND>04080</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Новокостянтинівська, буд.18 (ЛІТЕРА В)</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>06.07.2015</D_STAN>
+        <D_OPEN>31.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300175</GLMFO>
+        <N_GOL>ПУАТ "ФІДОБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "FIDOBANK" (скорочена назва - PUJSC  "FIDOBANK")</NAME_E>
+        <KOD_EDRPOU>14351016</KOD_EDRPOU>
+        <SHORTNAME>ПУАТ "ФІДОБАНК"</SHORTNAME>
+        <NKB>022</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>02226804026715000000</DEPCODE>
+        <P_IND>01601</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Велика Васильківська, 10</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>18.07.2016</D_STAN>
+        <D_OPEN>02.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300205</GLMFO>
+        <N_GOL>ПАТ "УПБ"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "UKRAINIAN PROFESSIONAL BANK" (скорочена назва - PJSC "UPB")</NAME_E>
+        <KOD_EDRPOU>19019775</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "УПБ"</SHORTNAME>
+        <NKB>034</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>03426804026728000000</DEPCODE>
+        <P_IND>02660</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. М.Раскової, 15</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>28.08.2015</D_STAN>
+        <D_OPEN>30.01.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300216</GLMFO>
+        <N_GOL>ПАТ КБ "ІНТЕРБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY COMMERCIAL BANK "INTERBANK" (скорочена назва - PJSC CB "INTERBANK")</NAME_E>
+        <KOD_EDRPOU>14358604</KOD_EDRPOU>
+        <SHORTNAME>ПАТ КБ "ІНТЕРБАНК"</SHORTNAME>
+        <NKB>035</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>03526804026729000000</DEPCODE>
+        <P_IND>03056</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Вадима Гетьмана, буд.27</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>23.07.2014</D_STAN>
+        <D_OPEN>23.03.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300249</GLMFO>
+        <N_GOL>АТ "БРОКБІЗНЕСБАНК"</N_GOL>
+        <NAME_E>Public joint-stock company "BROKBUSINESSBANK" (скорочена назва - JSC "BROKBUSINESSBANK")</NAME_E>
+        <KOD_EDRPOU>19357489</KOD_EDRPOU>
+        <SHORTNAME>АТ "БРОКБІЗНЕСБАНК"</SHORTNAME>
+        <NKB>037</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>03726804026735000000</DEPCODE>
+        <P_IND>03057</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>проспект Перемоги, будинок 41</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>11.06.2014</D_STAN>
+        <D_OPEN>07.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300272</GLMFO>
+        <N_GOL>ПАТ "ЕНЕРГОБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "ENERGOBANK" (скорочена назва - PJSC "ENERGOBANK")</NAME_E>
+        <KOD_EDRPOU>19357762</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ЕНЕРГОБАНК"</SHORTNAME>
+        <NKB>031</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>03126804026725000000</DEPCODE>
+        <P_IND>04071</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Воздвиженська, 56</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>11.06.2015</D_STAN>
+        <D_OPEN>31.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300335</GLMFO>
+        <N_GOL>АТ "Райффайзен Банк Аваль"</N_GOL>
+        <NAME_E>Raiffeisen Bank Aval Joint Stock Company (скорочена назва - Raiffeisen Bank Aval JSC)</NAME_E>
+        <KOD_EDRPOU>14305909</KOD_EDRPOU>
+        <SHORTNAME>АТ "Райффайзен Банк Аваль"</SHORTNAME>
+        <NKB>036</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>03626804026731000000</DEPCODE>
+        <P_IND>01011</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Лєскова, буд. 9</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>27.03.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300346</GLMFO>
+        <N_GOL>АТ "АЛЬФА-БАНК"</N_GOL>
+        <NAME_E>JOINT-STOCK COMPANY "ALFA-BANK"  (скорочена назва - JSC "ALFA-BANK")</NAME_E>
+        <KOD_EDRPOU>23494714</KOD_EDRPOU>
+        <SHORTNAME>АТ "АЛЬФА-БАНК"</SHORTNAME>
+        <NKB>272</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>27226804026862000000</DEPCODE>
+        <P_IND>01001</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Десятинна, 4/6</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>4904627</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>24.03.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300465</GLMFO>
+        <N_GOL>АТ "ОЩАДБАНК"</N_GOL>
+        <NAME_E>Public Joint Stock Company "State Savings Bank of Ukraine" (скорочена назва - JSC "Oschadbank")</NAME_E>
+        <KOD_EDRPOU>00032129</KOD_EDRPOU>
+        <SHORTNAME>АТ "Ощадбанк"</SHORTNAME>
+        <NKB>006</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>00626804026614000000</DEPCODE>
+        <P_IND>01023</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Госпітальна, 12г</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>265-31-50</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>31.12.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300498</GLMFO>
+        <N_GOL>БАНК НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "BANK "NATIONAL INVESTMENTS" (скорочена назва - JSС "BANK "NATIONAL INVESTMENTS")</NAME_E>
+        <KOD_EDRPOU>20017340</KOD_EDRPOU>
+        <SHORTNAME>АТ "БАНК "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ"</SHORTNAME>
+        <NKB>227</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>22726804026907000000</DEPCODE>
+        <P_IND>01601</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Володимирська, 54</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>01.12.2015</D_STAN>
+        <D_OPEN>09.11.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300506</GLMFO>
+        <N_GOL>"ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК"</N_GOL>
+        <NAME_E>JOINT STOCK COMPANY "FIRST INVESTMENT BANK" (скорочена назва - JSC "FIRST INVESTMENT BANK")</NAME_E>
+        <KOD_EDRPOU>26410155</KOD_EDRPOU>
+        <SHORTNAME>АТ "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК"</SHORTNAME>
+        <NKB>290</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>29026804026761000000</DEPCODE>
+        <P_IND>01135</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>площа Перемоги, 1</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>20.06.1997</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300528</GLMFO>
+        <N_GOL>АТ "ОТП БАНК"</N_GOL>
+        <NAME_E>JOINT-STOCK COMPANY OTP BANK (скорочена назва - OTP BANK JSC)</NAME_E>
+        <KOD_EDRPOU>21685166</KOD_EDRPOU>
+        <SHORTNAME>АТ "ОТП БАНК"</SHORTNAME>
+        <NKB>296</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>29626804026910000000</DEPCODE>
+        <P_IND>01033</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Жилянська, 43</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>02.03.1998</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300539</GLMFO>
+        <N_GOL>ПАТ "ІНГ Банк Україна"</N_GOL>
+        <NAME_E>Public Joint Stock Company "ING Bank Ukraine" (скорочена назва - PJSC "ING Bank Ukraine")</NAME_E>
+        <KOD_EDRPOU>21684818</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ІНГ Банк Україна"</SHORTNAME>
+        <NKB>295</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>29526804026908000000</DEPCODE>
+        <P_IND>04070</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Спаська, 30-А</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>15.12.1997</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300584</GLMFO>
+        <N_GOL>АТ "СІТІБАНК"</N_GOL>
+        <NAME_E>JOINT STOCK COMPANY "CITIBANK" (скорочена назва - JSC "CITIBANK")</NAME_E>
+        <KOD_EDRPOU>21685485</KOD_EDRPOU>
+        <SHORTNAME>АТ "СІТІБАНК"</SHORTNAME>
+        <NKB>297</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>29726804026916000000</DEPCODE>
+        <P_IND>03150</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Ділова, 16-Г</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>11.05.1998</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300614</GLMFO>
+        <N_GOL>ПАТ "КРЕДІ АГРІКОЛЬ БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "CREDIT AGRICOLE BANK"  (скорочена назва - PJSC "CREDIT AGRICOLE BANK")</NAME_E>
+        <KOD_EDRPOU>14361575</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КРЕДІ АГРІКОЛЬ БАНК"</SHORTNAME>
+        <NKB>171</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>17126804026929000000</DEPCODE>
+        <P_IND>01004</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Пушкінська, 42/4</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>10.02.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300647</GLMFO>
+        <N_GOL>АБ "КЛІРИНГОВИЙ ДІМ"</N_GOL>
+        <NAME_E>Public Joint Stock company "Bank "CLEARING HOUSE" (скорочена назва - JSB "CLEARING HOUSE")</NAME_E>
+        <KOD_EDRPOU>21665382</KOD_EDRPOU>
+        <SHORTNAME>АБ "КЛІРИНГОВИЙ ДІМ"</SHORTNAME>
+        <NKB>288</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>28826804026704000000</DEPCODE>
+        <P_IND>04070</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул.Борисоглібська, буд.5,  літера А.</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>30.12.1996</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300658</GLMFO>
+        <N_GOL>АТ "ПІРЕУС БАНК МКБ"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "PIRAEUS BANK ICB" (скорочена назва - JSC "PIRAEUS BANK ICB")</NAME_E>
+        <KOD_EDRPOU>20034231</KOD_EDRPOU>
+        <SHORTNAME>АТ "ПІРЕУС БАНК МКБ"</SHORTNAME>
+        <NKB>251</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>25126804026923000000</DEPCODE>
+        <P_IND>04070</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Іллінська, 8</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>2382991</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>31.01.1994</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300669</GLMFO>
+        <N_GOL>ПАТ "ПРАЙМ-БАНК"</N_GOL>
+        <NAME_E>Public joint-stock company "PRIME - BANK" (скорочена назва - PJSC "PRIME - BANK")</NAME_E>
+        <KOD_EDRPOU>26051650</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ПРАЙМ - БАНК"</SHORTNAME>
+        <NKB>300</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>30026804026937000000</DEPCODE>
+        <P_IND>03049</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Богданівська, 24 (поштова адреса: 01001, м.Київ, вул.Михайлівська, 6-А)</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>15.01.2015</D_STAN>
+        <D_OPEN>30.07.2001</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300670</GLMFO>
+        <N_GOL>ПАТ "КБ "ХРЕЩАТИК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "COMMERCIAL BANK "KHRESCHATYK" (скорочена назва - PJSC "COMMERCIAL BANK "KHRESCHATYK")</NAME_E>
+        <KOD_EDRPOU>19364259</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КБ "ХРЕЩАТИК"</SHORTNAME>
+        <NKB>202</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>20226804026912000000</DEPCODE>
+        <P_IND>01001</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Хрещатик 8-а</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>02.06.2016</D_STAN>
+        <D_OPEN>19.05.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300788</GLMFO>
+        <N_GOL>АТ "БАНК "ТАВРИКА"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "BANK "TAVRIKA"  (скорочена назва - JSC "BANK "TAVRIKA")</NAME_E>
+        <KOD_EDRPOU>19454139</KOD_EDRPOU>
+        <SHORTNAME>АТ "БАНК "ТАВРИКА"</SHORTNAME>
+        <NKB>084</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>08426804026949000000</DEPCODE>
+        <P_IND>01135</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Дмитрівська, 92-94</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>20.03.2013</D_STAN>
+        <D_OPEN>24.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300852</GLMFO>
+        <N_GOL>ПАТ "КБ "АКТИВ - БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "COMMERCIAL BANK "ACTIVE-BANK" (скорочена назва - PJSC "CB "ACTIVE-BANK")</NAME_E>
+        <KOD_EDRPOU>26253000</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КБ "АКТИВ - БАНК"</SHORTNAME>
+        <NKB>302</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>30226804026943000000</DEPCODE>
+        <P_IND>04070</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Борисоглібська, 3</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>23.12.2014</D_STAN>
+        <D_OPEN>06.08.2002</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300863</GLMFO>
+        <N_GOL>ПАТ "КРЕДИТПРОМБАНК"</N_GOL>
+        <NAME_E>Public joint stock company "Kreditprombank" (скорочена назва - Public JSC "Kreditprombank")</NAME_E>
+        <KOD_EDRPOU>21666051</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "Кредитпромбанк"</SHORTNAME>
+        <NKB>289</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>28926804026885000000</DEPCODE>
+        <P_IND>01014</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>бульвар Дружби народів, 38</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>2682533</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>02.06.2015</D_STAN>
+        <D_OPEN>20.05.1997</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300885</GLMFO>
+        <N_GOL>АТ "АРТЕМ-БАНК"</N_GOL>
+        <NAME_E>Public joint-stock company "ARTEM-BANK" (скороченa назва - JSC "ARTEM-BANK")</NAME_E>
+        <KOD_EDRPOU>26253023</KOD_EDRPOU>
+        <SHORTNAME>АТ "АРТЕМ-БАНК"</SHORTNAME>
+        <NKB>303</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>30326804026962000000</DEPCODE>
+        <P_IND>04050</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Січових Стрільців, буд.103</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>2167093</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>15.12.2016</D_STAN>
+        <D_OPEN>06.08.2002</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300896</GLMFO>
+        <N_GOL>ПАТ "ФІНАНС БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "FINANCE BANK" (скорочена назва - PJSC "FINANCE BANK")</NAME_E>
+        <KOD_EDRPOU>19193869</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ФІНАНС БАНК"</SHORTNAME>
+        <NKB>159</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>15926804026947000000</DEPCODE>
+        <P_IND>02002</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул.Панельна,5</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>31.05.2016</D_STAN>
+        <D_OPEN>20.01.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>300904</GLMFO>
+        <N_GOL>АТ "ФОРТУНА-БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK СOMPANY "FORTUNA-BANK" (скорочена назва - JSC "FORTUNA-BANK")</NAME_E>
+        <KOD_EDRPOU>26254732</KOD_EDRPOU>
+        <SHORTNAME>АТ "ФОРТУНА-БАНК"</SHORTNAME>
+        <NKB>304</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>30426804026990000000</DEPCODE>
+        <P_IND>04070</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Боричів Тік, 35-В</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>537-62-26</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>21.02.2017</D_STAN>
+        <D_OPEN>17.10.2002</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>303484</GLMFO>
+        <N_GOL>ПАТ "Західінкомбанк"</N_GOL>
+        <NAME_E>Public joint stock company "Zakhidinkombank" (скорочена назва - PJSC "Zakhidinkombank")</NAME_E>
+        <KOD_EDRPOU>19233095</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "Західінкомбанк"</SHORTNAME>
+        <NKB>273</NKB>
+        <TYP>0</TYP>
+        <KU>2</KU>
+        <N_OBL>Волинська область</N_OBL>
+        <DEPCODE>27302804002727000000</DEPCODE>
+        <P_IND>43005</P_IND>
+        <TNP>м.</TNP>
+        <NP>Луцьк</NP>
+        <ADRESS>пр. Перемоги, 15</ADRESS>
+        <KODT>03322</KODT>
+        <TELEFON>03322-780203</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>23.07.2014</D_STAN>
+        <D_OPEN>11.03.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>304706</GLMFO>
+        <N_GOL>АТ "СП БАНК"</N_GOL>
+        <NAME_E>PJSC "EAST-INDUSTRIAL COMMERCIAL BANK" (скорочена назва - JSC "EAST-INDUSTRIAL BANK")</NAME_E>
+        <KOD_EDRPOU>23478833</KOD_EDRPOU>
+        <SHORTNAME>АТ "СП БАНК"</SHORTNAME>
+        <NKB>275</NKB>
+        <TYP>0</TYP>
+        <KU>12</KU>
+        <N_OBL>Луганська область</N_OBL>
+        <DEPCODE>27512804012729000000</DEPCODE>
+        <P_IND>91047</P_IND>
+        <TNP>м.</TNP>
+        <NP>Луганськ</NP>
+        <ADRESS>вул. 26 Бакінскіх Комісаров,155</ADRESS>
+        <KODT>0642</KODT>
+        <TELEFON>590761</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>09.09.2015</D_STAN>
+        <D_OPEN>13.09.1995</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>304988</GLMFO>
+        <N_GOL>ПАТ "УКРКОМУНБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "UKRAINSKIY KOMUNALNIY BANK" (скорочена назва - PJSC "UKRKOMUNBANK")</NAME_E>
+        <KOD_EDRPOU>24191588</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "УКРКОМУНБАНК"</SHORTNAME>
+        <NKB>195</NKB>
+        <TYP>0</TYP>
+        <KU>12</KU>
+        <N_OBL>Луганська область</N_OBL>
+        <DEPCODE>19512804012734000000</DEPCODE>
+        <P_IND>91055</P_IND>
+        <TNP>м.</TNP>
+        <NP>Луганськ</NP>
+        <ADRESS>вул. Шевченка В.В., буд.18А</ADRESS>
+        <KODT>0642</KODT>
+        <TELEFON>Приймальня т.553577</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>14.09.2015</D_STAN>
+        <D_OPEN>10.08.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>305062</GLMFO>
+        <N_GOL>АКБ "НОВИЙ"</N_GOL>
+        <NAME_E>PUBLIC JOINT - STOCK COMPANY "JOINT - STOCK COMMERCIAL BANK "NOVIY" (скорочена назва - JSCB "NOVIY")</NAME_E>
+        <KOD_EDRPOU>19361982</KOD_EDRPOU>
+        <SHORTNAME>АКБ "НОВИЙ"</SHORTNAME>
+        <NKB>048</NKB>
+        <TYP>0</TYP>
+        <KU>3</KU>
+        <N_OBL>Дніпропетровська область</N_OBL>
+        <DEPCODE>04803804003709000000</DEPCODE>
+        <P_IND>49000</P_IND>
+        <TNP>м.</TNP>
+        <NP>Дніпропетровськ</NP>
+        <ADRESS>пр. Карла Маркса, 93</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>31.08.2017</D_STAN>
+        <D_OPEN>06.04.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>305299</GLMFO>
+        <N_GOL>АТ КБ "ПРИВАТБАНК"</N_GOL>
+        <NAME_E>JOINT-STOCK COMPANY COMMERCIAL BANK "PRIVATBANK" (скорочена наза - JSC CB "PRIVATBANK")</NAME_E>
+        <KOD_EDRPOU>14360570</KOD_EDRPOU>
+        <SHORTNAME>АТ КБ "ПРИВАТБАНК"</SHORTNAME>
+        <NKB>046</NKB>
+        <TYP>0</TYP>
+        <KU>3</KU>
+        <N_OBL>Дніпропетровська область</N_OBL>
+        <DEPCODE>04626804003706000000</DEPCODE>
+        <P_IND>01001</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Грушевського, 1Д</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>390437,390511</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>22.12.2016</D_STAN>
+        <D_OPEN>19.03.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>305749</GLMFO>
+        <N_GOL>АТ "БАНК КРЕДИТ ДНІПРО"</N_GOL>
+        <NAME_E>JOINT STOCK COMPANY "BANK CREDIT DNEPR" (скорочена назва - JSC "BANK CREDIT DNEPR")</NAME_E>
+        <KOD_EDRPOU>14352406</KOD_EDRPOU>
+        <SHORTNAME>АТ "БАНК КРЕДИТ ДНІПРО"</SHORTNAME>
+        <NKB>270</NKB>
+        <TYP>0</TYP>
+        <KU>3</KU>
+        <N_OBL>Дніпропетровська область</N_OBL>
+        <DEPCODE>27026804003722000000</DEPCODE>
+        <P_IND>01033</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Жилянська, буд.32</ADRESS>
+        <KODT>0562</KODT>
+        <TELEFON>373767,373768,373769</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>07.07.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>305880</GLMFO>
+        <N_GOL>ПАТ "КБ "ЗЕМЕЛЬНИЙ КАПІТАЛ"</N_GOL>
+        <NAME_E>PUBLIС JOINT STOCK COMPANY COMMERCIAL BANK "ZEMELNY CAPITAL" (скорочена назва - PJSC СВ "ZEMELNY CAPITAL")</NAME_E>
+        <KOD_EDRPOU>20280450</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КБ "ЗЕМЕЛЬНИЙ КАПІТАЛ"</SHORTNAME>
+        <NKB>243</NKB>
+        <TYP>0</TYP>
+        <KU>3</KU>
+        <N_OBL>Дніпропетровська область</N_OBL>
+        <DEPCODE>24303804003736000000</DEPCODE>
+        <P_IND>49101</P_IND>
+        <TNP>м.</TNP>
+        <NP>Дніпро</NP>
+        <ADRESS>проспект Пушкіна, 15</ADRESS>
+        <KODT>056</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>31.01.1994</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>305987</GLMFO>
+        <N_GOL>ПАТ "ЮСБ БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "UNION STANDARD BANK" (скорочена назва - PJSC "USB BANK")</NAME_E>
+        <KOD_EDRPOU>20305925</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ЮСБ БАНК"</SHORTNAME>
+        <NKB>047</NKB>
+        <TYP>0</TYP>
+        <KU>15</KU>
+        <N_OBL>Одеська область</N_OBL>
+        <DEPCODE>04715804015746000000</DEPCODE>
+        <P_IND>65012</P_IND>
+        <TNP>м.</TNP>
+        <NP>Одеса</NP>
+        <ADRESS>вулиця Гімназична, будинок 21</ADRESS>
+        <KODT>048</KODT>
+        <TELEFON>775-66-20</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>24.12.2015</D_STAN>
+        <D_OPEN>23.06.1994</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>306500</GLMFO>
+        <N_GOL>ПАТ "АБ "РАДАБАНК"</N_GOL>
+        <NAME_E>JOINT STOCK BANK "RADABANK" (скорочена назва - JOINT STOCK BANK "RADABANK")</NAME_E>
+        <KOD_EDRPOU>21322127</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "АБ "РАДАБАНК"</SHORTNAME>
+        <NKB>286</NKB>
+        <TYP>0</TYP>
+        <KU>3</KU>
+        <N_OBL>Дніпропетровська область</N_OBL>
+        <DEPCODE>28603804003765000000</DEPCODE>
+        <P_IND>49054</P_IND>
+        <TNP>м.</TNP>
+        <NP>Дніпро</NP>
+        <ADRESS>проспект Олександра Поля, буд. 46</ADRESS>
+        <KODT>0562</KODT>
+        <TELEFON>323673</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>03.12.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>306704</GLMFO>
+        <N_GOL>ПАТ "КЛАСИКБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "CLASSICBANK" (скорочена назва - PJSC "CLASSICBANK")</NAME_E>
+        <KOD_EDRPOU>23926846</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КЛАСИКБАНК"</SHORTNAME>
+        <NKB>276</NKB>
+        <TYP>0</TYP>
+        <KU>3</KU>
+        <N_OBL>Дніпропетровська область</N_OBL>
+        <DEPCODE>27603804003756000000</DEPCODE>
+        <P_IND>49000</P_IND>
+        <TNP>м.</TNP>
+        <NP>Дніпропетровськ</NP>
+        <ADRESS>вулиця Комсомольська, будинок 62, нежитлове приміщення №17</ADRESS>
+        <KODT>0562</KODT>
+        <TELEFON>356062</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>11.08.2016</D_STAN>
+        <D_OPEN>06.10.1995</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>307123</GLMFO>
+        <N_GOL>ПАТ "БАНК ВОСТОК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "BANK VOSTOK"  (скорочена назва - PJSC "BANK VOSTOK")</NAME_E>
+        <KOD_EDRPOU>26237202</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "БАНК ВОСТОК"</SHORTNAME>
+        <NKB>305</NKB>
+        <TYP>0</TYP>
+        <KU>3</KU>
+        <N_OBL>Дніпропетровська область</N_OBL>
+        <DEPCODE>30503804003801000000</DEPCODE>
+        <P_IND>49051</P_IND>
+        <TNP>м.</TNP>
+        <NP>Дніпро</NP>
+        <ADRESS>вул.Курсантська, 24</ADRESS>
+        <KODT>0562</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>17.10.2002</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>307305</GLMFO>
+        <N_GOL>ПАТ "КБ "АКСІОМА"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "COMMERCIAL BANK "AХIOM" (скорочена назва - PJSC "CB "AХIOM")</NAME_E>
+        <KOD_EDRPOU>33972230</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КБ "АКСІОМА"</SHORTNAME>
+        <NKB>323</NKB>
+        <TYP>0</TYP>
+        <KU>3</KU>
+        <N_OBL>Дніпропетровська область</N_OBL>
+        <DEPCODE>32303804003959000000</DEPCODE>
+        <P_IND>49005</P_IND>
+        <TNP>м.</TNP>
+        <NP>Дніпропетровськ</NP>
+        <ADRESS>вулиця Сімферопольська, будинок 11, приміщення 25</ADRESS>
+        <KODT>056</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>30.01.2015</D_STAN>
+        <D_OPEN>10.01.2006</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>307350</GLMFO>
+        <N_GOL>АТ "АКБ "КОНКОРД"</N_GOL>
+        <NAME_E>JOINT-STOCK COMPANY "JOINT-STOCK COMMERCIAL BANK "CONCORD"  (скорочена назва - JSC "JSCB "CONCORD")</NAME_E>
+        <KOD_EDRPOU>34514392</KOD_EDRPOU>
+        <SHORTNAME>АТ "АКБ "КОНКОРД"</SHORTNAME>
+        <NKB>326</NKB>
+        <TYP>0</TYP>
+        <KU>3</KU>
+        <N_OBL>Дніпропетровська область</N_OBL>
+        <DEPCODE>32603804003433000000</DEPCODE>
+        <P_IND>49000</P_IND>
+        <TNP>м.</TNP>
+        <NP>Дніпро</NP>
+        <ADRESS>площа Троїцька, 2</ADRESS>
+        <KODT>0562</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>07.08.2006</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>307394</GLMFO>
+        <N_GOL>ПАТ "АКТАБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "AKTABANK" (скорочена назва - PJSC "AKTABANK")</NAME_E>
+        <KOD_EDRPOU>35863708</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "АКТАБАНК"</SHORTNAME>
+        <NKB>390</NKB>
+        <TYP>0</TYP>
+        <KU>3</KU>
+        <N_OBL>Дніпропетровська область</N_OBL>
+        <DEPCODE>39003804003305000000</DEPCODE>
+        <P_IND>49000</P_IND>
+        <TNP>м.</TNP>
+        <NP>Дніпропетровськ</NP>
+        <ADRESS>вул.Шевченка, буд. 53</ADRESS>
+        <KODT>056</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>16.01.2015</D_STAN>
+        <D_OPEN>23.04.2008</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>307424</GLMFO>
+        <N_GOL>ПАТ "ІНТЕРКРЕДИТБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "INTERCREDITBANK" (скорочена назва - PJSC "INTERCREDITBANK")</NAME_E>
+        <KOD_EDRPOU>37731532</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ІНТЕРКРЕДИТБАНК"</SHORTNAME>
+        <NKB>466</NKB>
+        <TYP>0</TYP>
+        <KU>3</KU>
+        <N_OBL>Дніпропетровська область</N_OBL>
+        <DEPCODE>46603804003605000000</DEPCODE>
+        <P_IND>49055</P_IND>
+        <TNP>м.</TNP>
+        <NP>Дніпропетровськ</NP>
+        <ADRESS>вул. Титова, буд.36</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>-</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>16.01.2015</D_STAN>
+        <D_OPEN>14.06.2011</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>307435</GLMFO>
+        <N_GOL>ПАТ "МЕЛІОР БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "MELIOR BANK" (скорочена назва - PJSC "MELIOR BANK")</NAME_E>
+        <KOD_EDRPOU>37987811</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "МЕЛІОР БАНК"</SHORTNAME>
+        <NKB>470</NKB>
+        <TYP>0</TYP>
+        <KU>3</KU>
+        <N_OBL>Дніпропетровська область</N_OBL>
+        <DEPCODE>47003804003805000000</DEPCODE>
+        <P_IND>49000</P_IND>
+        <TNP>м.</TNP>
+        <NP>Дніпропетровськ</NP>
+        <ADRESS>вул. Ливарна, б.9, пр.75</ADRESS>
+        <KODT>-</KODT>
+        <TELEFON>-</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>10.02.2015</D_STAN>
+        <D_OPEN>24.02.2012</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>307770</GLMFO>
+        <N_GOL>АТ "А - БАНК"</N_GOL>
+        <NAME_E>JOINT-STOCK COMPANY "ACCENT-BANK"  (скорочена назва -  JSC "A - BANK")</NAME_E>
+        <KOD_EDRPOU>14360080</KOD_EDRPOU>
+        <SHORTNAME>АТ "А - БАНК"</SHORTNAME>
+        <NKB>096</NKB>
+        <TYP>0</TYP>
+        <KU>3</KU>
+        <N_OBL>Дніпропетровська область</N_OBL>
+        <DEPCODE>09603804003304000000</DEPCODE>
+        <P_IND>49074</P_IND>
+        <TNP>м.</TNP>
+        <NP>Дніпро</NP>
+        <ADRESS>вул. Батумська, 11</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>30.10.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>312248</GLMFO>
+        <N_GOL>АТ "КОМІНВЕСТБАНК"</N_GOL>
+        <NAME_E>JOINT STOCK COMPANY "COMMERCIAL INVESTMENT BANK" (скорочена назва - JSC "COMINVESTBANK")</NAME_E>
+        <KOD_EDRPOU>19355562</KOD_EDRPOU>
+        <SHORTNAME>АТ "КОМІНВЕСТБАНК"</SHORTNAME>
+        <NKB>143</NKB>
+        <TYP>0</TYP>
+        <KU>6</KU>
+        <N_OBL>Закарпатська область</N_OBL>
+        <DEPCODE>14306804006705000000</DEPCODE>
+        <P_IND>88000</P_IND>
+        <TNP>м.</TNP>
+        <NP>Ужгород</NP>
+        <ADRESS>вул. Юрія Гойди, 10</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>16.12.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>313009</GLMFO>
+        <N_GOL>АТ "МОТОР-БАНК"</N_GOL>
+        <NAME_E>joint-stock company "MOTOR-BANK" (скорочена назва - JSC "MOTOR-BANK")</NAME_E>
+        <KOD_EDRPOU>35345213</KOD_EDRPOU>
+        <SHORTNAME>АТ "МОТОР-БАНК"</SHORTNAME>
+        <NKB>381</NKB>
+        <TYP>0</TYP>
+        <KU>7</KU>
+        <N_OBL>Запорізька область</N_OBL>
+        <DEPCODE>38107804007503000000</DEPCODE>
+        <P_IND>69068</P_IND>
+        <TNP>м.</TNP>
+        <NP>Запоріжжя</NP>
+        <ADRESS>проспект Моторобудівників, буд. 54 `Б`</ADRESS>
+        <KODT>061</KODT>
+        <TELEFON>769-75-57</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>10.08.2007</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>313582</GLMFO>
+        <N_GOL>АТ "МетаБанк"</N_GOL>
+        <NAME_E>Public joint stock company "MetaBank" (скорочена назва - MetaBank)</NAME_E>
+        <KOD_EDRPOU>20496061</KOD_EDRPOU>
+        <SHORTNAME>АТ "МетаБанк"</SHORTNAME>
+        <NKB>205</NKB>
+        <TYP>0</TYP>
+        <KU>7</KU>
+        <N_OBL>Запорізька область</N_OBL>
+        <DEPCODE>20507804007712000000</DEPCODE>
+        <P_IND>69006</P_IND>
+        <TNP>м.</TNP>
+        <NP>Запоріжжя</NP>
+        <ADRESS>пр. Металургів, 30</ADRESS>
+        <KODT>061</KODT>
+        <TELEFON>228-78-80</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>12.07.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>313849</GLMFO>
+        <N_GOL>АКБ "ІНДУСТРІАЛБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY JOINT-STOCK COMМERCIAL BANK "INDUSTRIALBANK"  (скорочена назва - JSCB "INDUSTRIALBANK")</NAME_E>
+        <KOD_EDRPOU>13857564</KOD_EDRPOU>
+        <SHORTNAME>АКБ "ІНДУСТРІАЛБАНК"</SHORTNAME>
+        <NKB>101</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>10126804026697000000</DEPCODE>
+        <P_IND>01133</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Генерала Алмазова, будинок 18/7</ADRESS>
+        <KODT>061</KODT>
+        <TELEFON>218-43-00</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>16.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>319092</GLMFO>
+        <N_GOL>ПАТ "БАНК "КИЇВСЬКА РУСЬ"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "BANK "KYIVSKA RUS" (скорочена назва - PJSC "BANK "KYIVSKA RUS")</NAME_E>
+        <KOD_EDRPOU>24214088</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "БАНК "КИЇВСЬКА РУСЬ"</SHORTNAME>
+        <NKB>280</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>28026804026871000000</DEPCODE>
+        <P_IND>04071</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Хорива, 11-А</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>16.07.2015</D_STAN>
+        <D_OPEN>30.05.1996</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>319111</GLMFO>
+        <N_GOL>ПАТ "РАДИКАЛ БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "RADIKAL BANK" (скорочена назва - PJSC "RADIKAL BANK")</NAME_E>
+        <KOD_EDRPOU>36964568</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "РАДИКАЛ БАНК"</SHORTNAME>
+        <NKB>409</NKB>
+        <TYP>0</TYP>
+        <KU>9</KU>
+        <N_OBL>Київська область</N_OBL>
+        <DEPCODE>40926804009803000000</DEPCODE>
+        <P_IND>08130</P_IND>
+        <TNP>с.</TNP>
+        <NP>Петропавлівська Борщагівка</NP>
+        <ADRESS>вул. Леніна, буд. 2в</ADRESS>
+        <KODT>045</KODT>
+        <TELEFON>406-58-62</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>09.11.2015</D_STAN>
+        <D_OPEN>23.03.2010</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>320371</GLMFO>
+        <N_GOL>ПАТ"БАНК "УКРАЇН.КАПІТАЛ"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "BANK "UKRAINIAN CAPITAL" (скорочена назва - PJSC "BANK "UKRAINIAN CAPITAL")</NAME_E>
+        <KOD_EDRPOU>22868414</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "БАНК "УКРАЇНСЬКИЙ КАПІТАЛ"</SHORTNAME>
+        <NKB>146</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>14626804026854000000</DEPCODE>
+        <P_IND>03062</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>просп. Перемоги, 67</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>4426275</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>25.12.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>320478</GLMFO>
+        <N_GOL>АБ "УКРГАЗБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY JOINT STOCK BANK "UKRGASBANK" (скорочена назва - JSB "UKRGASBANK")</NAME_E>
+        <KOD_EDRPOU>23697280</KOD_EDRPOU>
+        <SHORTNAME>АБ "УКРГАЗБАНК"</SHORTNAME>
+        <NKB>274</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>27426804026864000000</DEPCODE>
+        <P_IND>03087</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Єреванська, 1</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>21.07.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>320627</GLMFO>
+        <N_GOL>АТ "СБЕРБАНК"</N_GOL>
+        <NAME_E>"SBERBANK" JOINT-STOCK COMPANY (скорочена назва - "SBERBANK" JSC)</NAME_E>
+        <KOD_EDRPOU>25959784</KOD_EDRPOU>
+        <SHORTNAME>АТ "СБЕРБАНК"</SHORTNAME>
+        <NKB>299</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>29926804026935000000</DEPCODE>
+        <P_IND>01601</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Володимирська, буд.46</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>2474500</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>15.06.2001</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>320702</GLMFO>
+        <N_GOL>"БАНК НАЦІОНАЛЬНИЙ КРЕДИТ"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "BANK NATIONAL CREDIT" (скорочена назва - BANK NATIONAL CREDIT)</NAME_E>
+        <KOD_EDRPOU>20057663</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ"</SHORTNAME>
+        <NKB>277</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>27726804026868000000</DEPCODE>
+        <P_IND>04053</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Тургенєвська,52/58</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>31.08.2015</D_STAN>
+        <D_OPEN>31.01.1996</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>320735</GLMFO>
+        <N_GOL>ПАТ "Інтеграл-банк"</N_GOL>
+        <NAME_E>Public Joint-Stock Company "Integral-bank" (скорочена назва - PJSC "Integral-bank")</NAME_E>
+        <KOD_EDRPOU>22932856</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "Інтеграл-банк"</SHORTNAME>
+        <NKB>030</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>03026804026861000000</DEPCODE>
+        <P_IND>03057</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>просп. Перемоги, 52/2</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>456-24-10</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>25.11.2015</D_STAN>
+        <D_OPEN>30.09.1994</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>320843</GLMFO>
+        <N_GOL>ПАТ "УКРГАЗПРОМБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "UKRGAZPROMBANK" (скорочена назва - PJSC "UKRGAZPROMBANK")</NAME_E>
+        <KOD_EDRPOU>24262992</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "УКРГАЗПРОМБАНК"</SHORTNAME>
+        <NKB>278</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>27826804026869000000</DEPCODE>
+        <P_IND>02098</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>Дніпровська набережна, 13</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>5536545</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>14.09.2015</D_STAN>
+        <D_OPEN>27.03.1996</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>320854</GLMFO>
+        <N_GOL>ПАТ "ДІАМАНТБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "DIAMANTBANK" (скорочена назва - DIAMANTBANK PJSC)</NAME_E>
+        <KOD_EDRPOU>23362711</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ДІАМАНТБАНК"</SHORTNAME>
+        <NKB>232</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>23226804026945000000</DEPCODE>
+        <P_IND>04070</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>Контрактова площа, 10А</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>22.06.2017</D_STAN>
+        <D_OPEN>17.11.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>320940</GLMFO>
+        <N_GOL>АТ "АЛЬТБАНК"</N_GOL>
+        <NAME_E>Рublic joint stock company "ALTBANK" (скорочена назва - JSC "ALTBANK")</NAME_E>
+        <KOD_EDRPOU>19358784</KOD_EDRPOU>
+        <SHORTNAME>АТ "АЛЬТБАНК"</SHORTNAME>
+        <NKB>043</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>04326804026941000000</DEPCODE>
+        <P_IND>03037</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Вузівська, 5</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>21.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>320984</GLMFO>
+        <N_GOL>АТ "ПРОКРЕДИТ БАНК"</N_GOL>
+        <NAME_E>JOINT STOCK COMPANY "PROCREDIT BANK" (скорочена назва - JSC "PROCREDIT BANK")</NAME_E>
+        <KOD_EDRPOU>21677333</KOD_EDRPOU>
+        <SHORTNAME>АТ "ПРОКРЕДИТ БАНК"</SHORTNAME>
+        <NKB>298</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>29826804026958000000</DEPCODE>
+        <P_IND>03115</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>проспект Перемоги, 107-А</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>28.12.2000</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>320995</GLMFO>
+        <N_GOL>ПАТ "БГ БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "BG BANK" (скорочена назва - PJSC "BG BANK")</NAME_E>
+        <KOD_EDRPOU>20717958</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "БГ БАНК"</SHORTNAME>
+        <NKB>228</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>22826804026946000000</DEPCODE>
+        <P_IND>04112</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Дегтярівська, 48</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>27.02.2015</D_STAN>
+        <D_OPEN>26.01.1994</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>321477</GLMFO>
+        <N_GOL>ПАТ "СТАРОКИЇВСЬКИЙ БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "STAROKIEVSKIY BANK" (скорочена назва - PJSC "STAROKIEVSKIY BANK")</NAME_E>
+        <KOD_EDRPOU>19024948</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "СТАРОКИЇВСЬКИЙ БАНК"</SHORTNAME>
+        <NKB>075</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>07526804026733000000</DEPCODE>
+        <P_IND>01033</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Микільсько-Ботанічна, 6/8</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>11.09.2014</D_STAN>
+        <D_OPEN>31.12.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>321712</GLMFO>
+        <N_GOL>АТ "РОДОВІД БАНК"</N_GOL>
+        <NAME_E>Public Joint Stock Company "RODOVID BANK" (скорочена назва - PJSС "RODOVID BANK")</NAME_E>
+        <KOD_EDRPOU>14349442</KOD_EDRPOU>
+        <SHORTNAME>АТ "РОДОВІД БАНК"</SHORTNAME>
+        <NKB>066</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>06626804026712000000</DEPCODE>
+        <P_IND>04136</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Північно-Сирецька,1-3</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>19.12.2017</D_STAN>
+        <D_OPEN>07.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>321723</GLMFO>
+        <N_GOL>АТ "БТА Банк"</N_GOL>
+        <NAME_E>JOINT-STOCK COMPANY "BTA BANK" (скорочена назва - PJSC "BTA BANK")</NAME_E>
+        <KOD_EDRPOU>14359845</KOD_EDRPOU>
+        <SHORTNAME>АТ "БТА БАНК"</SHORTNAME>
+        <NKB>129</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>12926804026771000000</DEPCODE>
+        <P_IND>01032</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Д. Щербаківського, буд. 35</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>4420364</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>10.12.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>321767</GLMFO>
+        <N_GOL>АТ "ВТБ БАНК"</N_GOL>
+        <NAME_E>JOINT-STOCK COMPANY "VTB BANK" (скорочена назва - JSC "VTB BANK")</NAME_E>
+        <KOD_EDRPOU>14359319</KOD_EDRPOU>
+        <SHORTNAME>АТ "ВТБ БАНК"</SHORTNAME>
+        <NKB>042</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>04226804026775000000</DEPCODE>
+        <P_IND>01004</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>б-р Т. Шевченка/вул. Пушкінська, б. 8/26</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>11.11.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>322001</GLMFO>
+        <N_GOL>ПАТ "УНІВЕРСАЛ БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "UNIVERSAL BANK" (скорочена назва - PJSC "UNIVERSAL BANK")</NAME_E>
+        <KOD_EDRPOU>21133352</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "УНІВЕРСАЛ БАНК"</SHORTNAME>
+        <NKB>242</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>24226804026603000000</DEPCODE>
+        <P_IND>04114</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Автозаводська, 54/19</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>20.01.1994</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>322294</GLMFO>
+        <N_GOL>АТ "КБ "ЕКСПОБАНК"</N_GOL>
+        <NAME_E>JOINT-STOCK COMPANY "EXPOBANK" (скорочена назва - JSC "EXPOBANK")</NAME_E>
+        <KOD_EDRPOU>09322299</KOD_EDRPOU>
+        <SHORTNAME>АТ "КБ "ЕКСПОБАНК"</SHORTNAME>
+        <NKB>067</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>06726804026730000000</DEPCODE>
+        <P_IND>01054</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Дмитрівська, 18/24</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>2162098</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>23.01.2015</D_STAN>
+        <D_OPEN>26.12.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>322302</GLMFO>
+        <N_GOL>АТ "АЙБОКС БАНК"</N_GOL>
+        <NAME_E>PRIVATE JOINT STOCK COMPANY "IBOX BANK" (скорочена назва - JSC "IBOX BANK")</NAME_E>
+        <KOD_EDRPOU>21570492</KOD_EDRPOU>
+        <SHORTNAME>АТ "АЙБОКС БАНК"</SHORTNAME>
+        <NKB>241</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>24126804026839000000</DEPCODE>
+        <P_IND>03150</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Ділова, 9а</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>205-41-70</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>24.12.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>322313</GLMFO>
+        <N_GOL>АТ "Укрексімбанк"</N_GOL>
+        <NAME_E>Joint Stock Company "The State Export-Import Bank of Ukraine" (скорочена назва - JSC "Ukreximbank")</NAME_E>
+        <KOD_EDRPOU>00032112</KOD_EDRPOU>
+        <SHORTNAME>АТ "Укрексімбанк"</SHORTNAME>
+        <NKB>002</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>00226804026205000000</DEPCODE>
+        <P_IND>03150</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Антоновича, 127</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>23.05.2014</D_STAN>
+        <D_OPEN>23.01.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>322324</GLMFO>
+        <N_GOL>ПАТ "ГРІН БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "GREEN BANK" (скорочена назва - PJSC "GREEN BANK")</NAME_E>
+        <KOD_EDRPOU>13550848</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ГРІН БАНК"</SHORTNAME>
+        <NKB>127</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>12726804026815000000</DEPCODE>
+        <P_IND>04107</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Багговутівська, 17-21</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>257-03-03</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>23.01.2015</D_STAN>
+        <D_OPEN>09.01.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>322335</GLMFO>
+        <N_GOL>АТ АКБ "АРКАДА"</N_GOL>
+        <NAME_E>JOINT - STOCK COMPANY JOINT - STOCK COMMERCIAL BANK "ARCADA"  (скорочена назва - JSC JSCB "ARCADA")</NAME_E>
+        <KOD_EDRPOU>19361386</KOD_EDRPOU>
+        <SHORTNAME>АТ АКБ "АРКАДА"</SHORTNAME>
+        <NKB>191</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>19126804026816000000</DEPCODE>
+        <P_IND>01001</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Ольгинська, 3</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>5739684 Киевгорстрой</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>23.06.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>322432</GLMFO>
+        <N_GOL>АТ "НК БАНК"</N_GOL>
+        <NAME_E>Public Joint Stock Company "BANK PEOPLE'S CAPITAL" (скорочена назва - JSC "PC BANK")</NAME_E>
+        <KOD_EDRPOU>20026740</KOD_EDRPOU>
+        <SHORTNAME>АТ "НК БАНК"</SHORTNAME>
+        <NKB>169</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>16926804026826000000</DEPCODE>
+        <P_IND>03067</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>бульвар Івана Лепсе, 4</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>07.03.2017</D_STAN>
+        <D_OPEN>21.09.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>322465</GLMFO>
+        <N_GOL>ПАТ Банк "Контракт"</N_GOL>
+        <NAME_E>Public Joint Stock Company Bank "Contract" (скорочена назва - PJSC Bank "Contract")</NAME_E>
+        <KOD_EDRPOU>19361746</KOD_EDRPOU>
+        <SHORTNAME>ПАТ Банк "Контракт"</SHORTNAME>
+        <NKB>201</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>20126804026799000000</DEPCODE>
+        <P_IND>04071</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Воздвиженська, буд.58</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>10.12.2015</D_STAN>
+        <D_OPEN>18.05.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>322498</GLMFO>
+        <N_GOL>ПАТ "АКБ "КИЇВ"</N_GOL>
+        <NAME_E>Public Joint Stock Company "Joint stock commercial bank "KУIV" (скорочена назва - PJSC "JSCB "KУIV")</NAME_E>
+        <KOD_EDRPOU>14371869</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "АКБ "КИЇВ"</SHORTNAME>
+        <NKB>203</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>20326804026789000000</DEPCODE>
+        <P_IND>01030</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Б.Хмельницького, 16-22</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>24.06.2015</D_STAN>
+        <D_OPEN>19.05.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>322539</GLMFO>
+        <N_GOL>АТ "ЮНЕКС БАНК" м. Київ</N_GOL>
+        <NAME_E>JOINT STOCK COMPANY "UNEX BANK" (скорочена назва - JSC "UNEX BANK")</NAME_E>
+        <KOD_EDRPOU>20023569</KOD_EDRPOU>
+        <SHORTNAME>АТ "ЮНЕКС БАНК"</SHORTNAME>
+        <NKB>231</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>23126804026836000000</DEPCODE>
+        <P_IND>04070</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Почайнинська, 38</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>03.12.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>322540</GLMFO>
+        <N_GOL>АТ "КІБ"</N_GOL>
+        <NAME_E>Jоint Stock Company "Commercial Industrial Bank" (скорочена назва - JSC "CIB")</NAME_E>
+        <KOD_EDRPOU>21580639</KOD_EDRPOU>
+        <SHORTNAME>АТ "КІБ"</SHORTNAME>
+        <NKB>240</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>24026804026837000000</DEPCODE>
+        <P_IND>04053</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Бульварно-Кудрявська, 6</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>03.12.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>322625</GLMFO>
+        <N_GOL>АБ "УКООПСПІЛКА"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "JOINT STOCK BANK "UKOOPSPILKA" (скорочена назва - JSB "UKOOPSPILKA")</NAME_E>
+        <KOD_EDRPOU>21536532</KOD_EDRPOU>
+        <SHORTNAME>АБ "УКООПСПІЛКА"</SHORTNAME>
+        <NKB>222</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>22226804026829000000</DEPCODE>
+        <P_IND>01001</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Хрещатик, 7/11</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>22.04.2015</D_STAN>
+        <D_OPEN>25.10.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>322799</GLMFO>
+        <N_GOL>АТ "БАНК ВЕЛЕС"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "BANK VELES" (скорочена назва - JSC "BANK VELES")</NAME_E>
+        <KOD_EDRPOU>21593719</KOD_EDRPOU>
+        <SHORTNAME>АТ "БАНК ВЕЛЕС"</SHORTNAME>
+        <NKB>255</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>25526804026849000000</DEPCODE>
+        <P_IND>03061</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Героїв Севастополя,48</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>10.12.2015</D_STAN>
+        <D_OPEN>18.03.1994</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>322830</GLMFO>
+        <N_GOL>АТ КБ "ТК КРЕДИТ"</N_GOL>
+        <NAME_E>PUBLIC JOINT - STOCK COMPANY COMMERCIAL BANK "TK CREDIT" (скорочена назва - JSC CB "TK CREDIT")</NAME_E>
+        <KOD_EDRPOU>20050951</KOD_EDRPOU>
+        <SHORTNAME>АТ КБ "ТК КРЕДИТ"</SHORTNAME>
+        <NKB>260</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>26026804026853000000</DEPCODE>
+        <P_IND>01054</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Дмитрівська, 18/24</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>07.04.2016</D_STAN>
+        <D_OPEN>28.04.1994</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>322948</GLMFO>
+        <N_GOL>ПАТ "БАНК ФОРУМ"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "BANK FORUM" (скорочена назва - PJSC "BANK FORUM")</NAME_E>
+        <KOD_EDRPOU>21574573</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "БАНК ФОРУМ"</SHORTNAME>
+        <NKB>248</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>24826804026848000000</DEPCODE>
+        <P_IND>02100</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>бульв. Верховної Ради, будинок 7</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>16.06.2014</D_STAN>
+        <D_OPEN>31.01.1994</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>325213</GLMFO>
+        <N_GOL>ПАТ "ВіЕс Банк"</N_GOL>
+        <NAME_E>Public Joint-Stock Company "VS Bank" (скорочена назва - PJSC "VS Bank")</NAME_E>
+        <KOD_EDRPOU>19358632</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ВіЕс Банк"</SHORTNAME>
+        <NKB>097</NKB>
+        <TYP>0</TYP>
+        <KU>13</KU>
+        <N_OBL>Львівська область</N_OBL>
+        <DEPCODE>09713804013713000000</DEPCODE>
+        <P_IND>79000</P_IND>
+        <TNP>м.</TNP>
+        <NP>Львів</NP>
+        <ADRESS>вул. Грабовського, 11</ADRESS>
+        <KODT>032</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>7</KSTAN>
+        <N_STAN>Реорганізація</N_STAN>
+        <D_STAN>10.07.2018</D_STAN>
+        <D_OPEN>10.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>7</STAN_GOL>
+        <NSTAN_GOL>Реорганізація</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>325268</GLMFO>
+        <N_GOL>ПАТ АКБ "Львів"</N_GOL>
+        <NAME_E>Public Joint-Stock Company Joint Stock Bank "Lviv" (скорочена назва - PJSCB "Lviv")</NAME_E>
+        <KOD_EDRPOU>09801546</KOD_EDRPOU>
+        <SHORTNAME>ПАТ АКБ "Львів"</SHORTNAME>
+        <NKB>091</NKB>
+        <TYP>0</TYP>
+        <KU>13</KU>
+        <N_OBL>Львівська область</N_OBL>
+        <DEPCODE>09113804013705000000</DEPCODE>
+        <P_IND>79008</P_IND>
+        <TNP>м.</TNP>
+        <NP>Львів</NP>
+        <ADRESS>вул.Сербська, 1</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>970594,721747</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>14.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>325365</GLMFO>
+        <N_GOL>ПАТ "КРЕДОБАНК"</N_GOL>
+        <NAME_E>Public Joint Stock Company "KREDOBANK" (скорочена назва - JSC "KREDOBANK")</NAME_E>
+        <KOD_EDRPOU>09807862</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КРЕДОБАНК"</SHORTNAME>
+        <NKB>088</NKB>
+        <TYP>0</TYP>
+        <KU>13</KU>
+        <N_OBL>Львівська область</N_OBL>
+        <DEPCODE>08813804013754000000</DEPCODE>
+        <P_IND>79026</P_IND>
+        <TNP>м.</TNP>
+        <NP>Львів</NP>
+        <ADRESS>вул. Сахарова, 78</ADRESS>
+        <KODT>0322</KODT>
+        <TELEFON>972373</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>31.03.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>325990</GLMFO>
+        <N_GOL>ПАТ "ОКСІ БАНК"</N_GOL>
+        <NAME_E>Public Joint Stock Company "OKCI BANK" (скорочена назва - OKCI BANK, PJSC)</NAME_E>
+        <KOD_EDRPOU>09306278</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ОКСІ БАНК"</SHORTNAME>
+        <NKB>095</NKB>
+        <TYP>0</TYP>
+        <KU>13</KU>
+        <N_OBL>Львівська область</N_OBL>
+        <DEPCODE>09513804013710000000</DEPCODE>
+        <P_IND>79019</P_IND>
+        <TNP>м.</TNP>
+        <NP>Львів</NP>
+        <ADRESS>вул. Газова, 17</ADRESS>
+        <KODT>032</KODT>
+        <TELEFON>242-58-60</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>14.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>328168</GLMFO>
+        <N_GOL>ПАТ "МТБ БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "MTB BANK" (скорочена назва - PJSC "MTB BANK")</NAME_E>
+        <KOD_EDRPOU>21650966</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "МТБ БАНК"</SHORTNAME>
+        <NKB>105</NKB>
+        <TYP>0</TYP>
+        <KU>15</KU>
+        <N_OBL>Одеська область</N_OBL>
+        <DEPCODE>10515804015705000000</DEPCODE>
+        <P_IND>68003</P_IND>
+        <TNP>м.</TNP>
+        <NP>Чорноморськ</NP>
+        <ADRESS>проспект Миру, 28</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>(04868)</TELEFON>
+        <KSTAN>7</KSTAN>
+        <N_STAN>Реорганізація</N_STAN>
+        <D_STAN>10.08.2018</D_STAN>
+        <D_OPEN>05.11.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>7</STAN_GOL>
+        <NSTAN_GOL>Реорганізація</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>328180</GLMFO>
+        <N_GOL>АБ "ПОРТО-ФРАНКО"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY JOINT-STOCK BANK "PORTO-FRANKO" (скорочена назва - JSB `PORTO-FRANCO`)</NAME_E>
+        <KOD_EDRPOU>13881479</KOD_EDRPOU>
+        <SHORTNAME>АБ "ПОРТО-ФРАНКО"</SHORTNAME>
+        <NKB>107</NKB>
+        <TYP>0</TYP>
+        <KU>15</KU>
+        <N_OBL>Одеська область</N_OBL>
+        <DEPCODE>10715804015707000000</DEPCODE>
+        <P_IND>65026</P_IND>
+        <TNP>м.</TNP>
+        <NP>Одеса</NP>
+        <ADRESS>вул. Пушкінська, буд.10</ADRESS>
+        <KODT>0482</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>30.01.2015</D_STAN>
+        <D_OPEN>17.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>328209</GLMFO>
+        <N_GOL>Акціонерний банк"Південний"</N_GOL>
+        <NAME_E>Public Company Joint-stock Bank "Pivdennyi" (скорочена назва - Pivdennyi Bank)</NAME_E>
+        <KOD_EDRPOU>20953647</KOD_EDRPOU>
+        <SHORTNAME>Акціонерний банк "Південний"</SHORTNAME>
+        <NKB>106</NKB>
+        <TYP>0</TYP>
+        <KU>15</KU>
+        <N_OBL>Одеська область</N_OBL>
+        <DEPCODE>10615804015706000000</DEPCODE>
+        <P_IND>65059</P_IND>
+        <TNP>м.</TNP>
+        <NP>Одеса</NP>
+        <ADRESS>вул. Краснова, 6/1</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>03.12.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>328210</GLMFO>
+        <N_GOL>ПАТ "КБ "Інвестбанк"</N_GOL>
+        <NAME_E>Public joint-stock company "Commercial bank "Investbank" (скорочена назва - PJSС "СB "Investbank")</NAME_E>
+        <KOD_EDRPOU>20935649</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КБ "Інвестбанк"</SHORTNAME>
+        <NKB>109</NKB>
+        <TYP>0</TYP>
+        <KU>15</KU>
+        <N_OBL>Одеська область</N_OBL>
+        <DEPCODE>10915804015710000000</DEPCODE>
+        <P_IND>65125</P_IND>
+        <TNP>м.</TNP>
+        <NP>Одеса</NP>
+        <ADRESS>вул. Велика Арнаутська, 2 `б`</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>11.01.2017</D_STAN>
+        <D_OPEN>31.03.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>328384</GLMFO>
+        <N_GOL>АТ "ІМЕКСБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "IMEXBANK" (скорочена назва - JSC "IMEXBANK")</NAME_E>
+        <KOD_EDRPOU>20971504</KOD_EDRPOU>
+        <SHORTNAME>АТ "ІМЕКСБАНК"</SHORTNAME>
+        <NKB>258</NKB>
+        <TYP>0</TYP>
+        <KU>15</KU>
+        <N_OBL>Одеська область</N_OBL>
+        <DEPCODE>25815804015727000000</DEPCODE>
+        <P_IND>65039</P_IND>
+        <TNP>м.</TNP>
+        <NP>Одеса</NP>
+        <ADRESS>проспект Гагаріна,12-а</ADRESS>
+        <KODT>0482</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>21.05.2015</D_STAN>
+        <D_OPEN>29.03.1994</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>328599</GLMFO>
+        <N_GOL>АТ "ФІНРОСТБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "FINROSTBANK" (скорочена назва - JSC "FINROSTBANK" )</NAME_E>
+        <KOD_EDRPOU>14366762</KOD_EDRPOU>
+        <SHORTNAME>АТ "ФІНРОСТБАНК"</SHORTNAME>
+        <NKB>167</NKB>
+        <TYP>0</TYP>
+        <KU>15</KU>
+        <N_OBL>Одеська область</N_OBL>
+        <DEPCODE>16715804015719000000</DEPCODE>
+        <P_IND>65104</P_IND>
+        <TNP>м.</TNP>
+        <NP>Одеса</NP>
+        <ADRESS>проспект Академіка Глушка, 13</ADRESS>
+        <KODT>0482</KODT>
+        <TELEFON>448075, 472592</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>16.10.2014</D_STAN>
+        <D_OPEN>29.01.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>328685</GLMFO>
+        <N_GOL>ПАТ "ФІНБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "FINBANK" (скорочена назва - PJSC "FINBANK")</NAME_E>
+        <KOD_EDRPOU>20041917</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ФІНБАНК"</SHORTNAME>
+        <NKB>122</NKB>
+        <TYP>0</TYP>
+        <KU>15</KU>
+        <N_OBL>Одеська область</N_OBL>
+        <DEPCODE>12215804015702000000</DEPCODE>
+        <P_IND>65032</P_IND>
+        <TNP>м.</TNP>
+        <NP>Одеса</NP>
+        <ADRESS>просп. Шевченка, 4А</ADRESS>
+        <KODT>0482</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>27.04.2017</D_STAN>
+        <D_OPEN>24.12.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>328760</GLMFO>
+        <N_GOL>АТ "Місто Банк"</N_GOL>
+        <NAME_E>Public Joint-Stock company "Misto Bank" (скорочена назва - Misto Bank)</NAME_E>
+        <KOD_EDRPOU>20966466</KOD_EDRPOU>
+        <SHORTNAME>АТ "Місто Банк"</SHORTNAME>
+        <NKB>206</NKB>
+        <TYP>0</TYP>
+        <KU>15</KU>
+        <N_OBL>Одеська область</N_OBL>
+        <DEPCODE>20615804015723000000</DEPCODE>
+        <P_IND>65009</P_IND>
+        <TNP>м.</TNP>
+        <NP>Одеса</NP>
+        <ADRESS>вул. Фонтанська дорога,11</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>`Л`-20.01.1999</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>23.07.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>331100</GLMFO>
+        <N_GOL>ПАТ "АКБ Банк"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "AVTOKRAZBANK" (скорочена назва - PJSC "AKB Bank")</NAME_E>
+        <KOD_EDRPOU>20046323</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "АКБ Банк"</SHORTNAME>
+        <NKB>198</NKB>
+        <TYP>0</TYP>
+        <KU>16</KU>
+        <N_OBL>Полтавська область</N_OBL>
+        <DEPCODE>19816804016723000000</DEPCODE>
+        <P_IND>39631</P_IND>
+        <TNP>м.</TNP>
+        <NP>Кременчук</NP>
+        <ADRESS>вул. Київська, 8</ADRESS>
+        <KODT>05326</KODT>
+        <TELEFON>773837</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>29.08.2014</D_STAN>
+        <D_OPEN>07.07.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>331489</GLMFO>
+        <N_GOL>АТ "Полтава-банк"</N_GOL>
+        <NAME_E>Joint Stock Company "Poltava-bank" (скорочена назва - JSC "Poltava-bank")</NAME_E>
+        <KOD_EDRPOU>09807595</KOD_EDRPOU>
+        <SHORTNAME>АТ "Полтава-банк"</SHORTNAME>
+        <NKB>113</NKB>
+        <TYP>0</TYP>
+        <KU>16</KU>
+        <N_OBL>Полтавська область</N_OBL>
+        <DEPCODE>11316804016722000000</DEPCODE>
+        <P_IND>36000</P_IND>
+        <TNP>м.</TNP>
+        <NP>Полтава</NP>
+        <ADRESS>вул. Пилипа Орлика, 40-а</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>16.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>334594</GLMFO>
+        <N_GOL>ПАТ "ПРОФІН БАНК"</N_GOL>
+        <NAME_E>BANK OF PROFESSIONAL FINANCE, PUBLIC JOINT STOCK COMPANY (скорочена назва - PROFIN BANK, PJSC)</NAME_E>
+        <KOD_EDRPOU>09806437</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ПРОФІН БАНК"</SHORTNAME>
+        <NKB>053</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>05326804026972000000</DEPCODE>
+        <P_IND>01135</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Дмитрівська, 69</ADRESS>
+        <KODT>062</KODT>
+        <TELEFON>210-07-07</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>15.04.2015</D_STAN>
+        <D_OPEN>01.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>334828</GLMFO>
+        <N_GOL>ПАТ "АКБ "КАПІТАЛ"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "JOINT-STOCK COMPANY-COMMERCIAL BANK "CAPITAL" (скорочена назва - PJSC "JSCCB "CAPITAL")</NAME_E>
+        <KOD_EDRPOU>13486837</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "АКБ "КАПІТАЛ"</SHORTNAME>
+        <NKB>057</NKB>
+        <TYP>0</TYP>
+        <KU>4</KU>
+        <N_OBL>Донецька область</N_OBL>
+        <DEPCODE>05704804004705000000</DEPCODE>
+        <P_IND>83001</P_IND>
+        <TNP>м.</TNP>
+        <NP>Донецьк</NP>
+        <ADRESS>вул. Артема, буд.63</ADRESS>
+        <KODT>062</KODT>
+        <TELEFON>345-27-70</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>29.10.2015</D_STAN>
+        <D_OPEN>31.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>334840</GLMFO>
+        <N_GOL>ПрАТ "БАНК ФАМІЛЬНИЙ"</N_GOL>
+        <NAME_E>PRIVATE JOINT STOCK COMPANY BANK FAMILNY (скорочена назва - PJSC BANK FAMILNY)</NAME_E>
+        <KOD_EDRPOU>20042839</KOD_EDRPOU>
+        <SHORTNAME>ПрАТ "БАНК ФАМІЛЬНИЙ"</SHORTNAME>
+        <NKB>072</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>07226804026744000000</DEPCODE>
+        <P_IND>03039</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>Голосіївський проспект, будинок 26-а</ADRESS>
+        <KODT>062</KODT>
+        <TELEFON>382-95-21</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>27.12.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>334851</GLMFO>
+        <N_GOL>ПАТ "ПУМБ"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "FIRST UKRAINIAN INTERNATIONAL BANK" (скорочена назва - PJSC "FUIB")</NAME_E>
+        <KOD_EDRPOU>14282829</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ПУМБ"</SHORTNAME>
+        <NKB>115</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>11526804026747000000</DEPCODE>
+        <P_IND>04070</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Андріївська, 4</ADRESS>
+        <KODT>062</KODT>
+        <TELEFON>3324500</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>23.12.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>334969</GLMFO>
+        <N_GOL>ПАТ "УКРБІЗНЕСБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "UKRAINIAN BUSINESS BANK" (скорочена назва - PJSC "UKRBUSINESSBANK")</NAME_E>
+        <KOD_EDRPOU>19388768</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "УКРБІЗНЕСБАНК"</SHORTNAME>
+        <NKB>186</NKB>
+        <TYP>0</TYP>
+        <KU>4</KU>
+        <N_OBL>Донецька область</N_OBL>
+        <DEPCODE>18604804004719000000</DEPCODE>
+        <P_IND>83001</P_IND>
+        <TNP>м.</TNP>
+        <NP>Донецьк</NP>
+        <ADRESS>вулиця Артема, будинок 125</ADRESS>
+        <KODT>062</KODT>
+        <TELEFON>345-10-40</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>23.04.2015</D_STAN>
+        <D_OPEN>19.05.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>334992</GLMFO>
+        <N_GOL>ПАТ "КБ "ПРОМЕКОНОМБАНК"</N_GOL>
+        <NAME_E>PUBLIK JOINT STOCK COMPANY "COMMERCIAL BANK "PROMEKONOMBANK" (скорочена назва - PJSC "CB "PROMEKONOMBANK")</NAME_E>
+        <KOD_EDRPOU>20058668</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КБ "ПРОМЕКОНОМБАНК"</SHORTNAME>
+        <NKB>059</NKB>
+        <TYP>0</TYP>
+        <KU>4</KU>
+        <N_OBL>Донецька область</N_OBL>
+        <DEPCODE>05904804004770000000</DEPCODE>
+        <P_IND>83062</P_IND>
+        <TNP>м.</TNP>
+        <NP>Донецьк</NP>
+        <ADRESS>пр. Ленінський, 4</ADRESS>
+        <KODT>062</KODT>
+        <TELEFON>334-04-90</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>08.09.2014</D_STAN>
+        <D_OPEN>25.08.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>335902</GLMFO>
+        <N_GOL>ПАТ "УНІКОМБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "UNICOMBANK" (скорочена назва - PJSC "UNICOMBANK")</NAME_E>
+        <KOD_EDRPOU>26287625</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "УНІКОМБАНК"</SHORTNAME>
+        <NKB>306</NKB>
+        <TYP>0</TYP>
+        <KU>13</KU>
+        <N_OBL>Львівська область</N_OBL>
+        <DEPCODE>30613804013828000000</DEPCODE>
+        <P_IND>79019</P_IND>
+        <TNP>м.</TNP>
+        <NP>Львів</NP>
+        <ADRESS>вулиця Богдана Хмельницького, будинок 117 А</ADRESS>
+        <KODT>062</KODT>
+        <TELEFON>381-24-67</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>03.12.2015</D_STAN>
+        <D_OPEN>28.10.2002</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>335946</GLMFO>
+        <N_GOL>ПАТ "КБ "ПІВДЕНКОМБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "COMMERCIAL BANK PIVDENCOMBANK" (скорочена назва - PJSC "CB "PIVDENCOMBANK")</NAME_E>
+        <KOD_EDRPOU>19358767</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КБ "ПІВДЕНКОМБАНК"</SHORTNAME>
+        <NKB>045</NKB>
+        <TYP>0</TYP>
+        <KU>4</KU>
+        <N_OBL>Донецька область</N_OBL>
+        <DEPCODE>04504804004729000000</DEPCODE>
+        <P_IND>83015</P_IND>
+        <TNP>м.</TNP>
+        <NP>Донецьк</NP>
+        <ADRESS>проспект Ватутіна, будинок 33-а</ADRESS>
+        <KODT>062</KODT>
+        <TELEFON>305-12-18</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>26.09.2014</D_STAN>
+        <D_OPEN>03.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>336310</GLMFO>
+        <N_GOL>АТ "Ідея Банк"</N_GOL>
+        <NAME_E>Joint-Stock Company "Idea Bank" (скорочена назва - JSC "Idea Bank")</NAME_E>
+        <KOD_EDRPOU>19390819</KOD_EDRPOU>
+        <SHORTNAME>АТ "Ідея Банк"</SHORTNAME>
+        <NKB>142</NKB>
+        <TYP>0</TYP>
+        <KU>13</KU>
+        <N_OBL>Львівська область</N_OBL>
+        <DEPCODE>14213804013757000000</DEPCODE>
+        <P_IND>79008</P_IND>
+        <TNP>м.</TNP>
+        <NP>Львів</NP>
+        <ADRESS>вул. Валова,11</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>22.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>339016</GLMFO>
+        <N_GOL>ПАТ "БАНК "ПОРТАЛ"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "BANK "PORTAL" (скорочена назва - PJSC "BANK "PORTAL")</NAME_E>
+        <KOD_EDRPOU>38870739</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "БАНК "ПОРТАЛ"</SHORTNAME>
+        <NKB>634</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>63426804026618000000</DEPCODE>
+        <P_IND>01135</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>проспект Перемоги, будинок 5А</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>207-43-50</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>20.09.2013</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>339038</GLMFO>
+        <N_GOL>ПАТ "ВЕКТОР БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "VECTOR BANK" (скорочена назва - PJSC "VECTOR BANK")</NAME_E>
+        <KOD_EDRPOU>39037656</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ВЕКТОР БАНК"</SHORTNAME>
+        <NKB>674</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>67426804026419000000</DEPCODE>
+        <P_IND>01033</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Тарасівська, б.9.</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>235-09-09</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>21.03.2017</D_STAN>
+        <D_OPEN>31.01.2014</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>339050</GLMFO>
+        <N_GOL>АТ "КРИСТАЛБАНК"</N_GOL>
+        <NAME_E>JOINT-STOCK COMPANY "CRYSTALBANK" (скорочена назва – JSC "CRYSTALBANK")</NAME_E>
+        <KOD_EDRPOU>39544699</KOD_EDRPOU>
+        <SHORTNAME>АТ "КРИСТАЛБАНК"</SHORTNAME>
+        <NKB>694</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>69426804026271000000</DEPCODE>
+        <P_IND>04053</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Кудрявський узвіз, 2</ADRESS>
+        <KODT>-</KODT>
+        <TELEFON>-</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>16.12.2014</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>339072</GLMFO>
+        <N_GOL>ПАТ "РВС БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "RWS BANK" (скорочена назва - PJSC "RWS BANK")</NAME_E>
+        <KOD_EDRPOU>39849797</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "РВС БАНК"</SHORTNAME>
+        <NKB>774</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>77426804026471000000</DEPCODE>
+        <P_IND>04071</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Введенська, будинок 29/58</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>25.06.2015</D_STAN>
+        <D_OPEN>25.06.2015</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>339339</GLMFO>
+        <N_GOL>ПАТ "МІСЬКИЙ КОМЕРЦ. БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "CITY COMMERCE BANK" (скорочена назва - PJSC  "CITY COMMERCE BANK")</NAME_E>
+        <KOD_EDRPOU>34353904</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК"</SHORTNAME>
+        <NKB>333</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>33326804026474000000</DEPCODE>
+        <P_IND>03141</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Солом'янська, будинок 33</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>19.03.2015</D_STAN>
+        <D_OPEN>06.05.2006</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>339500</GLMFO>
+        <N_GOL>АТ "ТАСКОМБАНК"</N_GOL>
+        <NAME_E>JOINT STOCK COMPANY "TASCOMBANK" (скорочена назва - TASCOMBANK JSC)</NAME_E>
+        <KOD_EDRPOU>09806443</KOD_EDRPOU>
+        <SHORTNAME>АТ "ТАСКОМБАНК"</SHORTNAME>
+        <NKB>062</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>06226804026405000000</DEPCODE>
+        <P_IND>01032</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Симона Петлюри, 30</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>428-97-45</TELEFON>
+        <KSTAN>7</KSTAN>
+        <N_STAN>Реорганізація</N_STAN>
+        <D_STAN>10.07.2018</D_STAN>
+        <D_OPEN>21.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>7</STAN_GOL>
+        <NSTAN_GOL>Реорганізація</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>339555</GLMFO>
+        <N_GOL>ПАТ "КБ "ПРЕМІУМ"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY BANK "PREMIUM" (скорочена назва - PJSC BANK "PREMIUM")</NAME_E>
+        <KOD_EDRPOU>35264721</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КБ "ПРЕМІУМ"</SHORTNAME>
+        <NKB>379</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>37926804026833000000</DEPCODE>
+        <P_IND>01014</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Бастіонна, буд.1/36</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>390-54-28</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>10.02.2016</D_STAN>
+        <D_OPEN>24.07.2007</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>344443</GLMFO>
+        <N_GOL>ПАТ "РОЗРАХУНКОВИЙ ЦЕНТР"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "SETTLEMENT CENTER" (JSC "SETTLEMENT CENTER")</NAME_E>
+        <KOD_EDRPOU>35917889</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "РОЗРАХУНКОВИЙ ЦЕНТР"</SHORTNAME>
+        <NKB>593</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>59326804026611000000</DEPCODE>
+        <P_IND>04107</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Тропініна, 7-Г</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>585-42-42</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>06.09.2013</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>351005</GLMFO>
+        <N_GOL>АТ "УкрСиббанк"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "UKRSIBBANK" (скорочена назва - JSС "UkrSibbank")</NAME_E>
+        <KOD_EDRPOU>09807750</KOD_EDRPOU>
+        <SHORTNAME>АТ "УкрСиббанк"</SHORTNAME>
+        <NKB>136</NKB>
+        <TYP>0</TYP>
+        <KU>20</KU>
+        <N_OBL>Харківська область</N_OBL>
+        <DEPCODE>13626804020728000000</DEPCODE>
+        <P_IND>04070</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Андріївська, 2/12</ADRESS>
+        <KODT>057</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>28.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>351254</GLMFO>
+        <N_GOL>АТ "СКАЙ БАНК"</N_GOL>
+        <NAME_E>JOINT STOCK COMPANY "SKY BANK" (скорочена назва - JSC "SKY BANK")</NAME_E>
+        <KOD_EDRPOU>09620081</KOD_EDRPOU>
+        <SHORTNAME>АТ "СКАЙ БАНК"</SHORTNAME>
+        <NKB>128</NKB>
+        <TYP>0</TYP>
+        <KU>20</KU>
+        <N_OBL>Харківська область</N_OBL>
+        <DEPCODE>12826804020798000000</DEPCODE>
+        <P_IND>01054</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Гончара Олеся, буд. 76/2</ADRESS>
+        <KODT>0572</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>28.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>351588</GLMFO>
+        <N_GOL>ПАТ "РЕАЛ БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "REAL BANK" (скорочена назва - PJSC "REAL BANK")</NAME_E>
+        <KOD_EDRPOU>14360721</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "РЕАЛ БАНК"</SHORTNAME>
+        <NKB>124</NKB>
+        <TYP>0</TYP>
+        <KU>20</KU>
+        <N_OBL>Харківська область</N_OBL>
+        <DEPCODE>12420804020789000000</DEPCODE>
+        <P_IND>61072</P_IND>
+        <TNP>м.</TNP>
+        <NP>Харків</NP>
+        <ADRESS>проспект Леніна, 60</ADRESS>
+        <KODT>057</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>21.05.2014</D_STAN>
+        <D_OPEN>29.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>351607</GLMFO>
+        <N_GOL>АТ "БАНК "ГРАНТ"</N_GOL>
+        <NAME_E>JOINT-STOCK COMPANY "EASTERN UKRAINIAN BANK "GRANT" (скорочена назва - JSC "BANK "GRANT")</NAME_E>
+        <KOD_EDRPOU>14070197</KOD_EDRPOU>
+        <SHORTNAME>АТ "БАНК "ГРАНТ"</SHORTNAME>
+        <NKB>123</NKB>
+        <TYP>0</TYP>
+        <KU>20</KU>
+        <N_OBL>Харківська область</N_OBL>
+        <DEPCODE>12320804020788000000</DEPCODE>
+        <P_IND>61001</P_IND>
+        <TNP>м.</TNP>
+        <NP>Харків</NP>
+        <ADRESS>вулиця Данилевського, 19</ADRESS>
+        <KODT>057</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>29.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>351629</GLMFO>
+        <N_GOL>ПАТ "МЕГАБАНК", Харків</N_GOL>
+        <NAME_E>Public Joint Stock Company "Megabank" (скорочена назва - MEGABANK, PJSC)</NAME_E>
+        <KOD_EDRPOU>09804119</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "МЕГАБАНК"</SHORTNAME>
+        <NKB>126</NKB>
+        <TYP>0</TYP>
+        <KU>20</KU>
+        <N_OBL>Харківська область</N_OBL>
+        <DEPCODE>12620804020793000000</DEPCODE>
+        <P_IND>61002</P_IND>
+        <TNP>м.</TNP>
+        <NP>Харків</NP>
+        <ADRESS>вул. Алчевських, 30</ADRESS>
+        <KODT>057</KODT>
+        <TELEFON>8-0572</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>28.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>351663</GLMFO>
+        <N_GOL>АТ БАНК"МЕРКУРІЙ"У М.ХАРКІВ</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY BANK "MERCURY" (скорочена назва - JSC BANK "MERCURY")</NAME_E>
+        <KOD_EDRPOU>14360386</KOD_EDRPOU>
+        <SHORTNAME>АТ БАНК "МЕРКУРІЙ"</SHORTNAME>
+        <NKB>098</NKB>
+        <TYP>0</TYP>
+        <KU>20</KU>
+        <N_OBL>Харківська область</N_OBL>
+        <DEPCODE>09820804020768000000</DEPCODE>
+        <P_IND>61002</P_IND>
+        <TNP>м.</TNP>
+        <NP>Харків</NP>
+        <ADRESS>вул. Петровського, 23</ADRESS>
+        <KODT>057</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>12.06.2014</D_STAN>
+        <D_OPEN>18.11.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>351931</GLMFO>
+        <N_GOL>АТ "БАНК ЗОЛОТІ ВОРОТА"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "BANK GOLDEN GATE" (скорочена назва - JSC "BANK GOLDEN GATE")</NAME_E>
+        <KOD_EDRPOU>20015529</KOD_EDRPOU>
+        <SHORTNAME>АТ "БАНК ЗОЛОТІ ВОРОТА"</SHORTNAME>
+        <NKB>209</NKB>
+        <TYP>0</TYP>
+        <KU>20</KU>
+        <N_OBL>Харківська область</N_OBL>
+        <DEPCODE>20920804020753000000</DEPCODE>
+        <P_IND>61166</P_IND>
+        <TNP>м.</TNP>
+        <NP>Харків</NP>
+        <ADRESS>пр. Леніна, 36</ADRESS>
+        <KODT>0572</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>04.12.2014</D_STAN>
+        <D_OPEN>18.08.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>353100</GLMFO>
+        <N_GOL>Полікомбанк</N_GOL>
+        <NAME_E>Joint stock company "Policombank" (скорочена назва - Policombank)</NAME_E>
+        <KOD_EDRPOU>19356610</KOD_EDRPOU>
+        <SHORTNAME>Полікомбанк</SHORTNAME>
+        <NKB>049</NKB>
+        <TYP>0</TYP>
+        <KU>24</KU>
+        <N_OBL>Чернігівська область</N_OBL>
+        <DEPCODE>04924804024710000000</DEPCODE>
+        <P_IND>14013</P_IND>
+        <TNP>м.</TNP>
+        <NP>Чернігів</NP>
+        <ADRESS>вул. О. Молодчого, буд. 46</ADRESS>
+        <KODT>0462</KODT>
+        <TELEFON>77-48-95</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>18.08.1994</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>353489</GLMFO>
+        <N_GOL>АТ "АСВІО БАНК"</N_GOL>
+        <NAME_E>JOINT STOCK COMPANY "ASVIO BANK" (скорочена назва - JSC "ASVIO BANK")</NAME_E>
+        <KOD_EDRPOU>09809192</KOD_EDRPOU>
+        <SHORTNAME>АТ "АСВІО БАНК"</SHORTNAME>
+        <NKB>133</NKB>
+        <TYP>0</TYP>
+        <KU>24</KU>
+        <N_OBL>Чернігівська область</N_OBL>
+        <DEPCODE>13324804024706000000</DEPCODE>
+        <P_IND>14000</P_IND>
+        <TNP>м.</TNP>
+        <NP>Чернігів</NP>
+        <ADRESS>вул. Преображенська, 2</ADRESS>
+        <KODT>0462</KODT>
+        <TELEFON>101487</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>30.10.1991</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>353575</GLMFO>
+        <N_GOL>Банк "Демарк"</N_GOL>
+        <NAME_E>Public Joint Stock Company "Bank "Demark" (скорочена назва - JSC Bank "Demark")</NAME_E>
+        <KOD_EDRPOU>19357516</KOD_EDRPOU>
+        <SHORTNAME>Банк "Демарк"</SHORTNAME>
+        <NKB>137</NKB>
+        <TYP>0</TYP>
+        <KU>24</KU>
+        <N_OBL>Чернігівська область</N_OBL>
+        <DEPCODE>13724804024744000000</DEPCODE>
+        <P_IND>14000</P_IND>
+        <TNP>м.</TNP>
+        <NP>Чернігів</NP>
+        <ADRESS>вул. Комсомольська, 28</ADRESS>
+        <KODT>0462</KODT>
+        <TELEFON>43013</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>30.01.2015</D_STAN>
+        <D_OPEN>10.07.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>377090</GLMFO>
+        <N_GOL>АТ "ЄПБ"</N_GOL>
+        <NAME_E>JOINT-STOCK COMPANY "EUROPEAN INDUSTRIAL BANK" (скорочена назва - JSC "EIB")</NAME_E>
+        <KOD_EDRPOU>36061927</KOD_EDRPOU>
+        <SHORTNAME>АТ "ЄПБ"</SHORTNAME>
+        <NKB>395</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>39526804026412000000</DEPCODE>
+        <P_IND>01004</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>бульвар Шевченка Тараса, будинок 11, приміщення 51.</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>277-47-09</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>13.08.2008</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>377120</GLMFO>
+        <N_GOL>ПАТ "КБ "ГЕФЕСТ"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "КOMERТSIINYI BANK "HEFEST" (скорочена назва: PJSC "КOMERТSIINYI BANK "HEFEST")</NAME_E>
+        <KOD_EDRPOU>38770082</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КОМЕРЦІЙНИЙ БАНК "ГЕФЕСТ"</SHORTNAME>
+        <NKB>654</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>65426804026229000000</DEPCODE>
+        <P_IND>04208</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Порика Василя, будинок 13</ADRESS>
+        <KODT>-</KODT>
+        <TELEFON>-</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>29.09.2017</D_STAN>
+        <D_OPEN>04.10.2013</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>377777</GLMFO>
+        <N_GOL>ПАТ "КБ "УФС"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "COMMERCIAL BANK "UKRAINIAN FINANCIAL WORLD" (скорочена назва - PJSC "CB "UFW")</NAME_E>
+        <KOD_EDRPOU>26444836</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КБ "УФС"</SHORTNAME>
+        <NKB>310</NKB>
+        <TYP>0</TYP>
+        <KU>4</KU>
+        <N_OBL>Донецька область</N_OBL>
+        <DEPCODE>31004804004805000000</DEPCODE>
+        <P_IND>83050</P_IND>
+        <TNP>м.</TNP>
+        <NP>Донецьк</NP>
+        <ADRESS>проспект Миру, будинок 5 "Б"</ADRESS>
+        <KODT>062</KODT>
+        <TELEFON>348-18-01</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>10.11.2014</D_STAN>
+        <D_OPEN>12.11.2003</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380054</GLMFO>
+        <N_GOL>ПАТ КБ"ФІНАНСОВА ІНІЦІАТИВА</N_GOL>
+        <NAME_E>Public Joint-Stock Company "Commercial Bank "FINANCIAL INITIATIVE" (скорочена назва - PJSC "CB "FINANCIAL INITIATIVE")</NAME_E>
+        <KOD_EDRPOU>33299878</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КБ "ФІНАНСОВА ІНІЦІАТИВА"</SHORTNAME>
+        <NKB>317</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>31726804026756000000</DEPCODE>
+        <P_IND>03150</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Щорса, 7/9</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>9</KSTAN>
+        <N_STAN>Неплатоспроможний</N_STAN>
+        <D_STAN>23.06.2015</D_STAN>
+        <D_OPEN>19.01.2005</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>9</STAN_GOL>
+        <NSTAN_GOL>Неплатоспроможний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380106</GLMFO>
+        <N_GOL>ПАТ "АКБ "Траст-капітал"</N_GOL>
+        <NAME_E>Public joint stock company "Joint stock commercial bank "Trust-capital" (скорочена назва -  PJSC "Commercial bank "Trust-capital")</NAME_E>
+        <KOD_EDRPOU>26519933</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "АКБ "Траст-капітал"</SHORTNAME>
+        <NKB>311</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>31126804026992000000</DEPCODE>
+        <P_IND>01103</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул.Підвисоцького, буд. №7</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>10.03.2004</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380236</GLMFO>
+        <N_GOL>АТ "Дельта Банк"</N_GOL>
+        <NAME_E>Public Joint Stock Company "Delta Bank" (скорочена назва - JSC "Delta Bank")</NAME_E>
+        <KOD_EDRPOU>34047020</KOD_EDRPOU>
+        <SHORTNAME>АТ "Дельта Банк"</SHORTNAME>
+        <NKB>324</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>32426804026400000000</DEPCODE>
+        <P_IND>01133</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Щорса, 36 `Б`</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>02.10.2015</D_STAN>
+        <D_OPEN>15.02.2006</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380281</GLMFO>
+        <N_GOL>БАНК ІНВЕСТ. ТА ЗАОЩАДЖЕНЬ</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "BANK FOR INVESTMENTS AND SAVINGS" (скорочена назва - PJSC "BANK FOR INVESTMENTS AND SAVINGS")</NAME_E>
+        <KOD_EDRPOU>33695095</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ"</SHORTNAME>
+        <NKB>320</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>32026804026984000000</DEPCODE>
+        <P_IND>04119</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Мельникова, 83-д</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>09.08.2005</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380292</GLMFO>
+        <N_GOL>ПАТ "КСГ БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "KSG BANK" (скорочена назва - PJSC "KSG BANK")</NAME_E>
+        <KOD_EDRPOU>19364584</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КСГ БАНК"</SHORTNAME>
+        <NKB>237</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>23726804026406000000</DEPCODE>
+        <P_IND>01034</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Прорізна, будинок 6</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>30.08.2016</D_STAN>
+        <D_OPEN>24.11.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380322</GLMFO>
+        <N_GOL>АТ "БАНК БОГУСЛАВ"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "BANK BOHUSLAV" (скорочена назва - BANK BOHUSLAV, JSC)</NAME_E>
+        <KOD_EDRPOU>34540113</KOD_EDRPOU>
+        <SHORTNAME>АТ "БАНК БОГУСЛАВ"</SHORTNAME>
+        <NKB>328</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>32826804026204000000</DEPCODE>
+        <P_IND>04080</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Нижньоюрківська, 81</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>30.11.2017</D_STAN>
+        <D_OPEN>04.08.2006</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380355</GLMFO>
+        <N_GOL>ПАТ КБ "ЄВРОБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY COMMERCIAL BANK "EUROBANK" (скорочена назва - PJSC CB "EUROBANK")</NAME_E>
+        <KOD_EDRPOU>33305163</KOD_EDRPOU>
+        <SHORTNAME>ПАТ КБ "ЄВРОБАНК"</SHORTNAME>
+        <NKB>318</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>31826804026760000000</DEPCODE>
+        <P_IND>01032</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>бульвар Тараса Шевченка, будинок 35</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>16.08.2016</D_STAN>
+        <D_OPEN>18.01.2005</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380366</GLMFO>
+        <N_GOL>ПАТ "КРЕДИТ ЄВРОПА БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "CREDIT EUROPE BANK" (скорочена назва - PJSC "CREDIT EUROPE BANK")</NAME_E>
+        <KOD_EDRPOU>34576883</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КРЕДИТ ЄВРОПА БАНК"</SHORTNAME>
+        <NKB>329</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>32926804026224000000</DEPCODE>
+        <P_IND>01601</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Мечнікова, буд.2</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>28.08.2006</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380377</GLMFO>
+        <N_GOL>АТ "УКРБУДІНВЕСТБАНК"</N_GOL>
+        <NAME_E>JOINT STOCK COMPANY "UKRAINIAN СONSTRUCTION ІNVESTMENT BANK" (скорочена назва - "UKRСONSTINVESTBANK" JSC)</NAME_E>
+        <KOD_EDRPOU>26547581</KOD_EDRPOU>
+        <SHORTNAME>АТ "УКРБУДІНВЕСТБАНК"</SHORTNAME>
+        <NKB>377</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>37726804026977000000</DEPCODE>
+        <P_IND>01133</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>бул.Лесі Українки, 30-в</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>20.04.2004</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380388</GLMFO>
+        <N_GOL>ПАТ "ПтБ"</N_GOL>
+        <NAME_E>Public Joint Stock Company "Platinum Bank" (скорочена назва - PJSC "PtB")</NAME_E>
+        <KOD_EDRPOU>33308489</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ПтБ"</SHORTNAME>
+        <NKB>316</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>31626804026763000000</DEPCODE>
+        <P_IND>03680</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Амосова, 12</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>23.02.2017</D_STAN>
+        <D_OPEN>13.01.2005</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380399</GLMFO>
+        <N_GOL>ПАТ "БАНК КАМБІО"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "BANK CAMBIO" (скорочена назва - "BANK CAMBIO" PJSC)</NAME_E>
+        <KOD_EDRPOU>26549700</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "БАНК КАМБІО"</SHORTNAME>
+        <NKB>315</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>31526804026979000000</DEPCODE>
+        <P_IND>01001</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул.Заньковецької/Станіславського, 3/1</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>27.02.2015</D_STAN>
+        <D_OPEN>30.06.2004</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380418</GLMFO>
+        <N_GOL>АТ "БАНК ФОРВАРД"</N_GOL>
+        <NAME_E>JOINT STOCK COMPANY "BANK FORWARD" (скорочена назва - JSC "BANK FORWARD")</NAME_E>
+        <KOD_EDRPOU>34186061</KOD_EDRPOU>
+        <SHORTNAME>АТ "БАНК ФОРВАРД"</SHORTNAME>
+        <NKB>325</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>32526804026444000000</DEPCODE>
+        <P_IND>01032</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Саксаганського, будинок 105.</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>28.02.2006</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380430</GLMFO>
+        <N_GOL>АТ "ЄВРОГАЗБАНК"</N_GOL>
+        <NAME_E>PUBLICK JOINT-STOCK COMPANY "EUROPEAN GAS BANK" (скорочена назва - JSC  "EUROGASBANK")</NAME_E>
+        <KOD_EDRPOU>34693790</KOD_EDRPOU>
+        <SHORTNAME>АТ "ЄВРОГАЗБАНК"</SHORTNAME>
+        <NKB>330</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>33026804026257000000</DEPCODE>
+        <P_IND>04073</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>проспект Московський, будинок 16</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>17.11.2014</D_STAN>
+        <D_OPEN>17.10.2006</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380441</GLMFO>
+        <N_GOL>ПАТ "КРЕДИТВЕСТ БАНК"</N_GOL>
+        <NAME_E>Public Joint Stock Company "WEST FINANCE AND CREDIT BANK" (скорочена назва - PJSC "CREDITWEST BANK")</NAME_E>
+        <KOD_EDRPOU>34575675</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КРЕДИТВЕСТ БАНК"</SHORTNAME>
+        <NKB>331</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>33126804026258000000</DEPCODE>
+        <P_IND>01030</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Леонтовича, 4, літера "А, А1"</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>04.10.2006</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380474</GLMFO>
+        <N_GOL>ПАТ БАНК "ТРАСТ"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY BANK "TRUST" (скорочена назва - PJSC BANK "TRUST")</NAME_E>
+        <KOD_EDRPOU>35371070</KOD_EDRPOU>
+        <SHORTNAME>ПАТ БАНК "ТРАСТ"</SHORTNAME>
+        <NKB>380</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>38026804026404000000</DEPCODE>
+        <P_IND>01014</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Болсуновська, 8</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>29.12.2016</D_STAN>
+        <D_OPEN>22.08.2007</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380515</GLMFO>
+        <N_GOL>АТ "КБ "СОЮЗ"</N_GOL>
+        <NAME_E>"COMMERCIAL BANK "UNION" PUBLIC COMPANY (скорочена назва - "CB "UNION" PC)</NAME_E>
+        <KOD_EDRPOU>35574578</KOD_EDRPOU>
+        <SHORTNAME>АТ "КБ "СОЮЗ"</SHORTNAME>
+        <NKB>385</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>38526804026604000000</DEPCODE>
+        <P_IND>01010</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Суворова, будинок 4</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>28.04.2016</D_STAN>
+        <D_OPEN>26.11.2007</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380526</GLMFO>
+        <N_GOL>ПАТ "КБ "ГЛОБУС"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "COMMERCIAL BANK "GLOBUS" (скорочена назва - PJSC "CB "GLOBUS")</NAME_E>
+        <KOD_EDRPOU>35591059</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КБ "ГЛОБУС"</SHORTNAME>
+        <NKB>386</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>38626804026305000000</DEPCODE>
+        <P_IND>04073</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>пров.Куренівський, б.19/5</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>29.11.2007</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380537</GLMFO>
+        <N_GOL>ПАТ "ВіЕйБі Банк"</N_GOL>
+        <NAME_E>Public Joint Stock Company "Vseukrainskyi Aksionernyi Bank" (скорочена назва - PJSC VAB Bank)</NAME_E>
+        <KOD_EDRPOU>19017842</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ВіЕйБі Банк"</SHORTNAME>
+        <NKB>076</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>07626804026993000000</DEPCODE>
+        <P_IND>04119</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Дегтярівська, будинок 27Т.</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>19.03.2015</D_STAN>
+        <D_OPEN>02.07.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380548</GLMFO>
+        <N_GOL>ПАТ "АП БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "AGROPROSPERIS BANK" (скорочена назва - PJSC "AP BANK")</NAME_E>
+        <KOD_EDRPOU>35590956</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "АП БАНК"</SHORTNAME>
+        <NKB>387</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>38726804026505000000</DEPCODE>
+        <P_IND>04119</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Дегтярівська, буд. 27-Т (літера А)</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>02.10.2015</D_STAN>
+        <D_OPEN>28.11.2007</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380582</GLMFO>
+        <N_GOL>АТ "МІБ"</N_GOL>
+        <NAME_E>JOINT STOCK COMPANY INTERNATIONAL INVESTMENT BANK (скорочена назва - JSC IIB)</NAME_E>
+        <KOD_EDRPOU>35810511</KOD_EDRPOU>
+        <SHORTNAME>АТ "МІБ"</SHORTNAME>
+        <NKB>389</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>38926804026306000000</DEPCODE>
+        <P_IND>01015</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Лаврська, 16</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>351-79-00</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>11.03.2008</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380601</GLMFO>
+        <N_GOL>ПАТ "ТЕРРА БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "TERRA BANK" (скорочена назва - PJSC "TERRA BANK")</NAME_E>
+        <KOD_EDRPOU>24425738</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ТЕРРА БАНК"</SHORTNAME>
+        <NKB>285</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>28526804026418000000</DEPCODE>
+        <P_IND>01103</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>бульвар Дружби народів, 28-В</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>281-44-77</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>23.12.2014</D_STAN>
+        <D_OPEN>18.10.1996</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380612</GLMFO>
+        <N_GOL>АТ "ЗЛАТОБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "ZLATOBANK" (cкорочена назва - JSC "ZLATOBANK")</NAME_E>
+        <KOD_EDRPOU>35894495</KOD_EDRPOU>
+        <SHORTNAME>АТ "ЗЛАТОБАНК"</SHORTNAME>
+        <NKB>391</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>39126804026506000000</DEPCODE>
+        <P_IND>01030</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Б. Хмельницького, 17/52</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>12.05.2015</D_STAN>
+        <D_OPEN>16.05.2008</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380634</GLMFO>
+        <N_GOL>ПуАТ "КБ "АКОРДБАНК"</N_GOL>
+        <NAME_E>"COMMERCIAL BANK "ACCORDBANK", PUBLIC JOINT-STOCK COMPANY (cкорочена назва - "CB "ACCORDBANK" PuJSC)</NAME_E>
+        <KOD_EDRPOU>35960913</KOD_EDRPOU>
+        <SHORTNAME>ПуАТ "КБ "АКОРДБАНК"</SHORTNAME>
+        <NKB>392</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>39226804026606000000</DEPCODE>
+        <P_IND>04136</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул.Стеценко, буд. 6</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>04.06.2008</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380645</GLMFO>
+        <N_GOL>ПАТ "БАНК 3/4"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "BANK 3/4" (скорочена назва - PJSC "BANK 3/4")</NAME_E>
+        <KOD_EDRPOU>36002395</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "БАНК 3/4"</SHORTNAME>
+        <NKB>394</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>39426804026307000000</DEPCODE>
+        <P_IND>04080</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Кирилівська, 25</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>364-98-00</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>25.07.2008</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380667</GLMFO>
+        <N_GOL>АТ "ЕРДЕ БАНК"</N_GOL>
+        <NAME_E>Public Joint Stock Company "ERDE BANK" (скорочена назва - PJSC "ERDE BANK")</NAME_E>
+        <KOD_EDRPOU>34817907</KOD_EDRPOU>
+        <SHORTNAME>АТ "ЕРДЕ БАНК"</SHORTNAME>
+        <NKB>332</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>33226804026254000000</DEPCODE>
+        <P_IND>04070</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. П.Сагайдачного/Ігорівська, буд.10/5 літ. А</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>09.01.2013</D_STAN>
+        <D_OPEN>28.12.2006</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380689</GLMFO>
+        <N_GOL>ПАТ "ВЕРНУМ БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "VERNUM BANK" (скорочена назва - PJSC "VERNUM BANK")</NAME_E>
+        <KOD_EDRPOU>36301800</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ВЕРНУМ БАНК"</SHORTNAME>
+        <NKB>402</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>40226804026507000000</DEPCODE>
+        <P_IND>02094</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>проспект Гагаріна Юрія, 17в</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>17.02.2009</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380690</GLMFO>
+        <N_GOL>ПАТ КБ "СТАНДАРТ"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "COMMERCIAL BANK STANDART" (скорочена назва - PJSC CB "STANDART")</NAME_E>
+        <KOD_EDRPOU>36335426</KOD_EDRPOU>
+        <SHORTNAME>ПАТ КБ "СТАНДАРТ"</SHORTNAME>
+        <NKB>398</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>39826804026607000000</DEPCODE>
+        <P_IND>04071</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Почайнинська, 45</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>585-66-35</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>18.06.2015</D_STAN>
+        <D_OPEN>31.12.2008</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380708</GLMFO>
+        <N_GOL>ПАТ "АВАНТ-БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT - STOCK COMPANY "AVANT-BANK" (скорочена назва - PJSC "AVANT-BANK"</NAME_E>
+        <KOD_EDRPOU>36406512</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "АВАНТ-БАНК"</SHORTNAME>
+        <NKB>403</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>40326804026208000000</DEPCODE>
+        <P_IND>03110</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Івана Клименка, будинок 23</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>25.02.2016</D_STAN>
+        <D_OPEN>05.03.2009</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380719</GLMFO>
+        <N_GOL>ПАТ "ВБР"</N_GOL>
+        <NAME_E>Public Joint-stock Company "UKRAINIAN BANK OF DEVELOPMENT` (скорочена назва - PJSC "UKRAINIAN BANK OF DEVELOPMENT"</NAME_E>
+        <KOD_EDRPOU>36470620</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ВБР"</SHORTNAME>
+        <NKB>405</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>40526804026308000000</DEPCODE>
+        <P_IND>01135</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Чорновола В`ячеслава, буд.25</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>21.12.2015</D_STAN>
+        <D_OPEN>30.04.2009</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380731</GLMFO>
+        <N_GOL>ПАТ "Дойче Банк ДБУ"</N_GOL>
+        <NAME_E>Public Joint Stock Company "Deutsche Bank DBU" (скорочена назва - PJSC "Deutsche Bank DBU")</NAME_E>
+        <KOD_EDRPOU>36520434</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "Дойче Банк ДБУ"</SHORTNAME>
+        <NKB>407</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>40726804026300000000</DEPCODE>
+        <P_IND>01015</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Лаврська, буд. 20</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>19.06.2009</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380742</GLMFO>
+        <N_GOL>ПАТ КБ "Центр"</N_GOL>
+        <NAME_E>Public Joint Stock Company "Commercial Bank "Center" (скорочена назва - PJSC "Commercial Bank "Center")</NAME_E>
+        <KOD_EDRPOU>37119553</KOD_EDRPOU>
+        <SHORTNAME>ПАТ КБ "Центр"</SHORTNAME>
+        <NKB>430</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>43026804026600000000</DEPCODE>
+        <P_IND>02002</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Раїси Окіпної, будинок 8А</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>7</KSTAN>
+        <N_STAN>Реорганізація</N_STAN>
+        <D_STAN>10.08.2018</D_STAN>
+        <D_OPEN>16.06.2010</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>7</STAN_GOL>
+        <NSTAN_GOL>Реорганізація</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380764</GLMFO>
+        <N_GOL>ПАТ "КБ "Надра"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "COMMERCIAL BANK "NADRA"  (скорочена назва - PJSC "CB "NADRA")</NAME_E>
+        <KOD_EDRPOU>20025456</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КБ "НАДРА"</SHORTNAME>
+        <NKB>225</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>22526804026207000000</DEPCODE>
+        <P_IND>04053</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Артема, буд.15</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>04.06.2015</D_STAN>
+        <D_OPEN>26.10.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380786</GLMFO>
+        <N_GOL>ПУАТ "СМАРТБАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "SMARTBANK" (скорочена назва - PJSC "SMARTBANK")</NAME_E>
+        <KOD_EDRPOU>37176171</KOD_EDRPOU>
+        <SHORTNAME>ПУАТ "СМАРТБАНК"</SHORTNAME>
+        <NKB>433</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>43326804026301000000</DEPCODE>
+        <P_IND>04114</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Вишгородська, 45/2 (літера "А")</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>237-03-45</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>21.07.2016</D_STAN>
+        <D_OPEN>13.09.2010</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380797</GLMFO>
+        <N_GOL>ПАТ"СЕБ КОРПОРАТИВНИЙ БАНК"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "SEB CORPORATE BANK" (скорочена назва - PJSC "SEB CORPORATE BANK" або S | E | B)</NAME_E>
+        <KOD_EDRPOU>37515069</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "СЕБ КОРПОРАТИВНИЙ БАНК"</SHORTNAME>
+        <NKB>455</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>45526804026401000000</DEPCODE>
+        <P_IND>01001</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Михайлівська, 7</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>19.01.2011</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380816</GLMFO>
+        <N_GOL>АТ "БАНК СІЧ"</N_GOL>
+        <NAME_E>JOINT-STOCK COMPANY "BANK SICH" (скорочена назва - JSC "BANK SICH")</NAME_E>
+        <KOD_EDRPOU>37716841</KOD_EDRPOU>
+        <SHORTNAME>АТ "БАНК СІЧ"</SHORTNAME>
+        <NKB>460</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>46026804026501000000</DEPCODE>
+        <P_IND>01033</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Володимирська, б. 63</ADRESS>
+        <KODT>
+        </KODT>
+        <TELEFON>-</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>24.05.2011</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380838</GLMFO>
+        <N_GOL>АТ "ПРАВЕКС БАНК"</N_GOL>
+        <NAME_E>"PRAVEX BANK" Joint-Stock Company (скорочена назва - "PRAVEX BANK" JSC)</NAME_E>
+        <KOD_EDRPOU>14360920</KOD_EDRPOU>
+        <SHORTNAME>АТ "ПРАВЕКС БАНК"</SHORTNAME>
+        <NKB>153</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>15326804026768000000</DEPCODE>
+        <P_IND>01021</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Кловський узвіз, 9/2</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>5739276</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>29.12.1992</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380861</GLMFO>
+        <N_GOL>ПАТ "БАНК "СОФІЙСЬКИЙ"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "BANK "SOFIYSKIY" (скорочена назва - "BANK "SOFIYSKIY" PJSC)</NAME_E>
+        <KOD_EDRPOU>38061253</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "БАНК "СОФІЙСЬКИЙ"</SHORTNAME>
+        <NKB>490</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>49026804026602000000</DEPCODE>
+        <P_IND>03151</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>Повітрофлотський проспект, 54</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>393-13-00</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>22.04.2016</D_STAN>
+        <D_OPEN>16.03.2012</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380883</GLMFO>
+        <N_GOL>Укр.банк реконстр.та розв.</N_GOL>
+        <NAME_E>Public Joint-Stock Company "Ukrainian Bank for reconstruction and development",    (скорочена назва - JSC (publ.) "Ukrainian Bank for reconstruction and development")</NAME_E>
+        <KOD_EDRPOU>26520688</KOD_EDRPOU>
+        <SHORTNAME>АТ (публ.) "Український банк реконструкції та розвитку"</SHORTNAME>
+        <NKB>313</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>31326804026960000000</DEPCODE>
+        <P_IND>04080</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Олексія Терьохіна, 4</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>19.03.2004</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380894</GLMFO>
+        <N_GOL>АТ "АЛЬПАРІ БАНК"</N_GOL>
+        <NAME_E>JOINT-STOCK COMPANY "ALPARI BANK" (скорочена назва - JSC "ALPARI BANK")</NAME_E>
+        <KOD_EDRPOU>38377143</KOD_EDRPOU>
+        <SHORTNAME>АТ "АЛЬПАРІ БАНК"</SHORTNAME>
+        <NKB>512</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>51226804026403000000</DEPCODE>
+        <P_IND>01033</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Тарасівська, б. 19</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>287-10-77</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>26.10.2012</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380902</GLMFO>
+        <N_GOL>ПАТ "БАНК "ЮНІСОН"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "BANK "UNISON" (PJSC "BANK "UNISON")</NAME_E>
+        <KOD_EDRPOU>38514375</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "БАНК "ЮНІСОН"</SHORTNAME>
+        <NKB>513</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>51326804026310000000</DEPCODE>
+        <P_IND>03028</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>проспект Науки, будинок 30-А</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>525-25-24</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>18.06.2018</D_STAN>
+        <D_OPEN>08.02.2013</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380913</GLMFO>
+        <N_GOL>АТ "БМ БАНК"</N_GOL>
+        <NAME_E>JOINT STOCK COMPANY "BM BANK" (скорочена назва - "BM BANK", JSC)</NAME_E>
+        <KOD_EDRPOU>33881201</KOD_EDRPOU>
+        <SHORTNAME>АТ "БМ БАНК"</SHORTNAME>
+        <NKB>321</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>32126804026999000000</DEPCODE>
+        <P_IND>01032</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>бульвар Тараса Шевченка, буд. 37/122</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>08.12.2005</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380935</GLMFO>
+        <N_GOL>ПАТ "БАНК МИХАЙЛІВСЬКИЙ"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY "BANK MYKHAILIVSKYI" (скорочена назва - PJSC "BANK MYKHAILIVSKYI")</NAME_E>
+        <KOD_EDRPOU>38619024</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "БАНК МИХАЙЛІВСЬКИЙ"</SHORTNAME>
+        <NKB>533</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>53326804026610000000</DEPCODE>
+        <P_IND>01001</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>провулок Рильський, будинок 10-12/3</ADRESS>
+        <KODT>-</KODT>
+        <TELEFON>-</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>12.07.2016</D_STAN>
+        <D_OPEN>14.06.2013</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380946</GLMFO>
+        <N_GOL>АТ "БАНК АВАНГАРД"</N_GOL>
+        <NAME_E>JOINT-STOCK COMPANY "BANK AVANGARD" (скорочена назва: JSC "BANK AVANGARD")</NAME_E>
+        <KOD_EDRPOU>38690683</KOD_EDRPOU>
+        <SHORTNAME>АТ "БАНК АВАНГАРД"</SHORTNAME>
+        <NKB>553</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>55326804026710000000</DEPCODE>
+        <P_IND>04116</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вулиця Шолуденка, будинок 3</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>502-23-02</TELEFON>
+        <KSTAN>1</KSTAN>
+        <N_STAN>Нормальний</N_STAN>
+        <D_STAN>
+        </D_STAN>
+        <D_OPEN>05.07.2013</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>1</STAN_GOL>
+        <NSTAN_GOL>Нормальний</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380957</GLMFO>
+        <N_GOL>ПАТ"ІНВЕСТИЦІЙНО-ТРАСТ.БАНК</N_GOL>
+        <NAME_E>INVESTMENT TRUST BANK PUBLIC JOINT-STOCK COMPANY (скорочена назва - INVESTMENT TRUST BANK PJSC)</NAME_E>
+        <KOD_EDRPOU>38781707</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК"</SHORTNAME>
+        <NKB>573</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>57326804026211000000</DEPCODE>
+        <P_IND>04071</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Почайнинська, 45</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>569-40-90</TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>31.05.2016</D_STAN>
+        <D_OPEN>30.08.2013</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>380980</GLMFO>
+        <N_GOL>ПАТ "КБ "ДАНІЕЛЬ"</N_GOL>
+        <NAME_E>PUBLIC JOINT STOCK COMPANY "COMMERCIAL BANK "DANIEL" (скорочена назва - PJSC "COMMERCIAL BANK "DANIEL")</NAME_E>
+        <KOD_EDRPOU>26475516</KOD_EDRPOU>
+        <SHORTNAME>ПАТ "КОМЕРЦІЙНИЙ БАНК "ДАНІЕЛЬ"</SHORTNAME>
+        <NKB>060</NKB>
+        <TYP>0</TYP>
+        <KU>26</KU>
+        <N_OBL>м.Київ</N_OBL>
+        <DEPCODE>06026804026996000000</DEPCODE>
+        <P_IND>01010</P_IND>
+        <TNP>м.</TNP>
+        <NP>Київ</NP>
+        <ADRESS>вул. Московська, буд. 8, літ. Б</ADRESS>
+        <KODT>044</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>15.04.2014</D_STAN>
+        <D_OPEN>27.11.2003</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+    <ROW>
+        <GLMFO>397133</GLMFO>
+        <N_GOL>ПАТ АБ "СТОЛИЧНИЙ"</N_GOL>
+        <NAME_E>PUBLIC JOINT-STOCK COMPANY JOINT STOCK BANK "STOLYCHNYY" (скорочена назва - PJS CJSB "STOLYCHNYY")</NAME_E>
+        <KOD_EDRPOU>20028816</KOD_EDRPOU>
+        <SHORTNAME>ПАТ АБ "СТОЛИЧНИЙ"</SHORTNAME>
+        <NKB>223</NKB>
+        <TYP>0</TYP>
+        <KU>18</KU>
+        <N_OBL>Сумська область</N_OBL>
+        <DEPCODE>22318804018700000000</DEPCODE>
+        <P_IND>40035</P_IND>
+        <TNP>м.</TNP>
+        <NP>Суми</NP>
+        <ADRESS>вул. Харківська, 1</ADRESS>
+        <KODT>0542</KODT>
+        <TELEFON>
+        </TELEFON>
+        <KSTAN>4</KSTAN>
+        <N_STAN>Режим ліквідації</N_STAN>
+        <D_STAN>17.09.2015</D_STAN>
+        <D_OPEN>22.10.1993</D_OPEN>
+        <D_CLOSE>
+        </D_CLOSE>
+        <STAN_GOL>4</STAN_GOL>
+        <NSTAN_GOL>Режим ліквідації</NSTAN_GOL>
+    </ROW>
+</BANKBRANCH>

@@ -8,6 +8,8 @@ module.exports = {
     // https://bank.gov.ua/control/uk/publish/article?art_id=75535&cat_id=17823466
     // https://www.bank.gov.ua/control/bankdict/banks
     // https://bank.gov.ua/control/uk/bankdict/search?name=&type=369&region=&mfo=&edrpou=&size=&group=&fromDate=&toDate=
+    // https://bank.gov.ua/control/uk/publish/article?art_id=38441973&cat_id=38459171#get_data_branch
+    // https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0&json
     getBanks: function () {
         const banks = {};
         utils.fromJson(utils.readFile(this.jsonBanksFile())).forEach(bank => {

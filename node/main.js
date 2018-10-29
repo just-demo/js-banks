@@ -11,8 +11,12 @@ let dbf = require('./dbf');
 // dbf.extractAndSaveBanks();
 
 // compareBanks();
-compareGovBanks();
+// compareGovBanks();
 // console.log(bankGov.getBanks());
+
+let convert = require('xml-js');
+let xml = utils.readFile('./bg/xml/banks.api.xml', 'cp1251');
+utils.writeFile('./bg/json/banks.api.json', convert.xml2json(xml, {compact: true, spaces: 4}));
 
 function compareBanks() {
     const bgBanks = bankGov.getBanks();
