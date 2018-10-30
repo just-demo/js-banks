@@ -4,6 +4,8 @@ let bankGov = require('./bank.gov');
 let _ = require('lodash');
 let utils = require('./utils');
 let dbf = require('./dbf');
+let ext = require('./external');
+let assert = require('./assert');
 
 // minfin.fetchAndSaveAllHtml();
 // fg.fetchAndSaveAllHtml();
@@ -14,11 +16,12 @@ let dbf = require('./dbf');
 // compareGovBanks();
 // console.log(bankGov.getBanks());
 
-compareGovApiBanks();
+// compareGovBanks();
+assert.false('Short name mismatch', 0, 'sdfasfasdfsd');
 
 function compareGovApiBanks() {
     const dbfBanks = dbf.getBanks();
-    const apiBanks = bankGov.getBanksApi();
+    const apiBanks = bankGov.getBanksAPI();
     const dbfBankIds = Object.keys(dbfBanks);
     const apiBankIds = Object.keys(apiBanks);
     console.log(dbfBankIds.length);
@@ -70,7 +73,7 @@ function compareBanks() {
 function compareGovBanks() {
     const dbfBanks = dbf.getBanks();
     const bgBanks = bankGov.getBanks();
-    const fgBanks = fg.getActiveBanks();
+    const fgBanks = fg.getBanks();
     //     _.pickBy(fg.getBanks(), function(bank, id) {
     //     return !bank.link;
     // });
@@ -85,13 +88,19 @@ function compareGovBanks() {
     console.log(_.union(dbfBankIds, bgBankIds, fgBankIds).length);
 
     const banks = _.union(dbfBankIds, bgBankIds, fgBankIds).sort().map(id => {
-        return {
+        const bank = {
             id: id,
             active: (dbfBanks[id] || {}).active,
+            fgActive: (fgBanks[id] || {}).active,
             dbf: (dbfBanks[id] || {}).name,
             bg: (bgBanks[id] || {}).name,
             fg: (fgBanks[id] || {}).name
         };
+        if (typeof(bank.active) === typeof(bank.fgActive) && bank.active !== bank.fgActive) {
+            console.log('Active mismatch:', id, bank.active, bank.fgActive);
+        }
+
+        return bank;
     });
 
     utils.writeFile('../public/banks.gov.json', utils.toJson(banks));

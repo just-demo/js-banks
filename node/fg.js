@@ -17,11 +17,13 @@ module.exports = {
 
     getBanks: function () {
         const banks = {};
-        _.union(
-            utils.fromJson(utils.readFile(this.jsonActiveBanksFile())),
-            utils.fromJson(utils.readFile(this.jsonNotPayingBanksFile()))
-        ).forEach(bank => {
+        const activeBanks = utils.fromJson(utils.readFile(this.jsonActiveBanksFile()));
+        const notPayingBanks = utils.fromJson(utils.readFile(this.jsonNotPayingBanksFile()));
+        activeBanks.forEach(bank => bank.active = true);
+        notPayingBanks.forEach(bank => bank.active = false);
+        _.union(activeBanks, notPayingBanks).forEach(bank => {
             bank.name = names.bankName(bank.name);
+            bank.active
             if (banks[bank.name]) {
                 console.log('Duplicate bank name', bank.name);
             }
