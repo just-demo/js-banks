@@ -16,8 +16,9 @@ let assert = require('./assert');
 // compareGovBanks();
 // console.log(bankGov.getBanks());
 
-// compareGovBanks();
-assert.false('Short name mismatch', 0, 'sdfasfasdfsd');
+bankGov.saveAll();
+
+//compareGovBanks();
 
 function compareGovApiBanks() {
     const dbfBanks = dbf.getBanks();

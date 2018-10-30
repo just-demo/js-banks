@@ -64,7 +64,7 @@ module.exports = {
         while ((matches = regex.exec(html))) {
             htmls.push(ext.read('bg/banks/pages/' + (++page), 'https://bank.gov.ua/' + matches[1]));
         }
-        const banks = htmls.flatMap(html => {
+        const banks = _.flatten(htmls.map(html => {
             const banks = [];
             const regex = /<tr>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<\/tr>/g;
             let matches;
@@ -80,7 +80,7 @@ module.exports = {
                 });
             }
             return banks;
-        });
+        }));
         int.write('bg/banks', banks);
     },
 
@@ -97,7 +97,7 @@ module.exports = {
     },
 
     extractBankPureNameSPC(name) {
-        const match = name.match(/[\S\s]*&#034;(.+?)&#034;[\S\s]*/);
+        const match = name.match(/[\S\s]*&#034;(.+?)&#034;/);
         if (!match) {
             console.log('No quotes:', name);
             return name;
