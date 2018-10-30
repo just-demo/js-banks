@@ -97,21 +97,14 @@ module.exports = {
     },
 
     extractBankPureNameSPC(name) {
-        const match = name.match(/[\S\s]*&#034;(.+?)&#034;/);
-        if (!match) {
-            console.log('No quotes:', name);
-            return name;
-        }
-        return match[1];
+        const decoded = name.replace(/&#034;/g, '"');
+        assert.notEquals('No xml encoded quotes', decoded, name);
+        return this.extractBankPureName(decoded)
     },
 
     extractBankPureName(bankFullName) {
-        const match = bankFullName.match(/.*["](.+?)["]/);
-        if (!match) {
-            console.log('Full name is pure name:', bankFullName);
-            return bankFullName;
-        }
-        return match[1];
+        const match = bankFullName.match(/.*"(.+?)"/);
+        return assert.true('Full name is pure name', match, bankFullName) ? match[1] : bankFullName;
     },
 
     // TODO: fetch based on ids from DBF file
