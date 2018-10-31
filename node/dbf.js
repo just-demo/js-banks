@@ -2,9 +2,9 @@ let Parser = require('node-dbf').default;
 let iconv = require('iconv-lite');
 let utils = require('./utils');
 let _ = require('lodash');
-let moment = require('moment');
 let path = require('path');
 let names = require('./names');
+let dates = require('./dates');
 
 module.exports = {
     getBanks: function () {
@@ -48,10 +48,10 @@ module.exports = {
         }).map(record => {
             const bank = {
                 id: record['SID'],
-                shortName: this.extractBankPureName(this.fixChars(record['SHORTNAME'])),
-                fullName: this.extractBankPureName(this.fixChars(record['FULLNAME'])),
-                dateRegister: this.formatDate(record['DATAR']),
-                dateOpen: this.formatDate(record['D_OPEN']),
+                shortName: names.extractBankPureName(this.fixChars(record['SHORTNAME'])),
+                fullName: names.extractBankPureName(this.fixChars(record['FULLNAME'])),
+                dateRegister: dates.formatTimestamp(record['DATAR']),
+                dateOpen: dates.formatTimestamp(record['D_OPEN']),
                 active: record['REESTR'].toUpperCase() !== 'Л'
             };
             if (bank.dateRegister !== bank.dateOpen) {
@@ -82,20 +82,6 @@ module.exports = {
         });
 
         parser.parse();
-    },
-
-    formatDate(timestamp) {
-        return moment(timestamp).format('YYYY-MM-DD');
-        // new Date(timestamp)
-    },
-
-    extractBankPureName(bankFullName) {
-        const match = bankFullName.match(/.*["](.+?)["]/);
-        if (!match) {
-            console.log('Full name is pure name:', bankFullName);
-            return bankFullName;
-        }
-        return match[1];
     },
 
     decodeDbfValue(value) {

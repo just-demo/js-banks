@@ -28,7 +28,7 @@ module.exports = {
     getBanksAPI: function () {
         const banks = {};
         int.read('bg/api/banks').forEach(record => {
-            const name = names.bankName(this.extractBankPureName(record['SHORTNAME']));
+            const name = names.bankName(names.extractBankPureName(record['SHORTNAME']));
             assert.false('Duplicate bank name', banks[name], name);
             banks[name] = {
                 id: parseInt(record['NKB']),
@@ -99,12 +99,7 @@ module.exports = {
     extractBankPureNameSPC(name) {
         const decoded = name.replace(/&#034;/g, '"');
         assert.notEquals('No xml encoded quotes', decoded, name);
-        return this.extractBankPureName(decoded)
-    },
-
-    extractBankPureName(bankFullName) {
-        const match = bankFullName.match(/.*"(.+?)"/);
-        return assert.true('Full name is pure name', match, bankFullName) ? match[1] : bankFullName;
+        return names.extractBankPureName(decoded)
     },
 
     // TODO: fetch based on ids from DBF file

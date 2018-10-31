@@ -10,6 +10,7 @@ let fs = require('fs');
 let mkdirp = require('mkdirp');
 let path = require('path');
 let unzip = require('unzip');
+let names = require('./names');
 
 // minfin.fetchAndSaveAllHtml();
 // fg.fetchAndSaveAllHtml();
@@ -21,6 +22,7 @@ let unzip = require('unzip');
 // console.log(bankGov.getBanks());
 
 // bankGov.saveAll();
+names.rebuildBankNames();
 // utils.writeFile('binary/rcukru123.arj', utils.downloadURL('https://bank.gov.ua/files/RcuKru.arj', 'binary'));
 
 // let cont = utils.readFile('binary/rcukru.arj', 'binary');
@@ -35,14 +37,14 @@ let unzip = require('unzip');
 
 //compareGovBanks();
 
-var AdmZip = require('adm-zip');
-
-var zip = new AdmZip("./binary/rcukru.arj");
-var zipEntries = zip.getEntries(); // an array of ZipEntry records
-
-zipEntries.forEach(function(zipEntry) {
-    console.log(zipEntry.toString()); // outputs zip entries information
-});
+// var AdmZip = require('adm-zip');
+//
+// var zip = new AdmZip("./binary/rcukru.arj");
+// var zipEntries = zip.getEntries(); // an array of ZipEntry records
+//
+// zipEntries.forEach(function(zipEntry) {
+//     console.log(zipEntry.toString()); // outputs zip entries information
+// });
 //
 // var zlib = require('zlib');
 //

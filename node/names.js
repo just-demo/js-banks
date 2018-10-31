@@ -1,15 +1,16 @@
 let int = require('./internal');
+let assert = require('./assert');
 
 module.exports = {
     bankNames: null,
 
-    bankName: function(name) {
-        this.bankNames = this.bankNames || this.loadBankNames();
+    bankName(name) {
+        this.bankNames = this.bankNames || loadBankNames();
         name = name.toUpperCase();
         return this.bankNames[name] || name.replace(/\s*-\s*/g, '-');
     },
 
-    rebuildBankNames: function() {
+    rebuildBankNames() {
         const names = [];
         int.read('bg/banks').forEach(bank => {
             const sameNames = new Set();
@@ -26,11 +27,16 @@ module.exports = {
         int.write('names/banks', names);
     },
 
-    loadBankNames: function() {
-        const names = {};
-        int.read('names/banks').forEach(sameNames => {
-            sameNames.forEach(name => names[name.toUpperCase()] = sameNames[0]);
-        });
-        return names;
+    extractBankPureName(bankFullName) {
+        const match = bankFullName.match(/.*"(.+?)"/);
+        return assert.true('Full name is pure name', match, bankFullName) ? match[1] : bankFullName;
     }
 };
+
+function loadBankNames() {
+    const names = {};
+    int.read('names/banks').forEach(sameNames => {
+        sameNames.forEach(name => names[name.toUpperCase()] = sameNames[0]);
+    });
+    return names;
+}
