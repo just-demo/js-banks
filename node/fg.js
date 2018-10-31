@@ -6,7 +6,7 @@ let names = require('./names');
 module.exports = {
     // https://www.bank.gov.ua/control/bankdict/banks
     // https://bank.gov.ua/control/uk/bankdict/search?name=&type=369&region=&mfo=&edrpou=&size=&group=&fromDate=&toDate=
-    getActiveBanks: function () {
+    getActiveBanks() {
         const banks = {};
         utils.fromJson(utils.readFile(this.jsonActiveBanksFile())).forEach(bank => {
             bank.name = names.bankName(bank.name);
@@ -15,7 +15,7 @@ module.exports = {
         return banks;
     },
 
-    getBanks: function () {
+    getBanks() {
         const banks = {};
         const activeBanks = utils.fromJson(utils.readFile(this.jsonActiveBanksFile()));
         const notPayingBanks = utils.fromJson(utils.readFile(this.jsonNotPayingBanksFile()));
@@ -33,7 +33,7 @@ module.exports = {
     },
 
     ////////// html \\\\\\\\\\
-    fetchAndSaveAllHtml: function () {
+    fetchAndSaveAllHtml() {
         this.fetchAndSaveActiveBanks();
         this.extractAndSaveActiveBanks();
         this.fetchAndSaveNotPayingBanks();
@@ -41,15 +41,15 @@ module.exports = {
         this.fetchAndSaveBankDetails();
     },
 
-    fetchAndSaveActiveBanks: function () {
+    fetchAndSaveActiveBanks() {
         utils.writeFile(this.htmlActiveBanksFile(), utils.readURL('http://www.fg.gov.ua/uchasnyky-fondu'));
     },
 
-    fetchAndSaveNotPayingBanks: function () {
+    fetchAndSaveNotPayingBanks() {
         utils.writeFile(this.htmlNotPayingBanksFile(), utils.readURL('http://www.fg.gov.ua/not-paying'));
     },
 
-    fetchAndSaveBankDetails: function () {
+    fetchAndSaveBankDetails() {
         this.extractNotPayingBanks().forEach(bank => {
             console.log(bank.name);
             const file = this.htmlBankFile(bank.name.toUpperCase());
@@ -60,7 +60,7 @@ module.exports = {
     },
 
     ////////// json \\\\\\\\\\
-    extractAndSaveActiveBanks: function () {
+    extractAndSaveActiveBanks() {
         const banks = [];
         const html = utils.readFile(this.htmlActiveBanksFile());
         const regex = /<tr.*?>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>([\S\s]*?)<\/td>\s+?<\/tr>/g;
@@ -136,11 +136,11 @@ module.exports = {
         return match[1];
     },
 
-    extractAndSaveNotPayingBanks: function () {
+    extractAndSaveNotPayingBanks() {
         utils.writeFile(this.jsonNotPayingBanksFile(), utils.toJson(this.extractNotPayingBanks()));
     },
 
-    extractNotPayingBanks: function () {
+    extractNotPayingBanks() {
         const banks = [];
         const html = utils.readFile(this.htmlNotPayingBanksFile());
         const regex = /<h3 class="item-title"><a href="(\/.+?\/.+?\/.+?)">[\S\s]+?(.+?)<\/a>/g;
@@ -155,35 +155,35 @@ module.exports = {
     },
 
     ////////// files \\\\\\\\\\
-    htmlActiveBanksFile: function () {
+    htmlActiveBanksFile() {
         return path.resolve(this.htmlFolder(), 'banks-active.html');
     },
 
-    htmlNotPayingBanksFile: function () {
+    htmlNotPayingBanksFile() {
         return path.resolve(this.htmlFolder(), 'banks-not-paying.html');
     },
 
-    htmlBankFile: function (name) {
+    htmlBankFile(name) {
         return path.resolve(this.htmlFolder(), 'banks', name + '.html');
     },
 
-    jsonActiveBanksFile: function () {
+    jsonActiveBanksFile() {
         return path.resolve(this.jsonFolder(), 'banks-active.json');
     },
 
-    jsonNotPayingBanksFile: function () {
+    jsonNotPayingBanksFile() {
         return path.resolve(this.jsonFolder(), 'banks-not-paying.json');
     },
 
-    htmlFolder: function () {
+    htmlFolder() {
         return path.resolve(this.dataFolder(), 'html');
     },
 
-    jsonFolder: function () {
+    jsonFolder() {
         return path.resolve(this.dataFolder(), 'json');
     },
 
-    dataFolder: function () {
+    dataFolder() {
         return path.resolve('.', 'fg');
     }
 };

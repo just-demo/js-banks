@@ -53,11 +53,11 @@ module.exports = {
         return banks;
     },
 
-    saveAll () {
+    saveAll() {
         this.saveBanksDBF();
-        // this.saveBanksAPI();
-        // this.saveBanks();
-        // this.saveBankDetails();
+        this.saveBanksAPI();
+        this.saveBanks();
+        this.saveBankDetails();
     },
 
     saveBanksDBF() {
@@ -102,7 +102,7 @@ module.exports = {
         int.write('bg/api/banks', banks);
     },
 
-    saveBanks: function () {
+    saveBanks() {
         const htmls = [];
         let page = 0;
         const html = ext.read('bg/banks/pages/' + page, 'https://bank.gov.ua/control/bankdict/banks');
@@ -132,7 +132,7 @@ module.exports = {
         int.write('bg/banks', banks);
     },
 
-    saveBankDetails: function () {
+    saveBankDetails() {
         const banks = int.read('bg/banks');
         banks.forEach(bank => {
             const html = ext.read('bg/banks/' + bank.id, 'https://bank.gov.ua/control/uk/bankdict/bank?id=' + bank.id);
@@ -151,7 +151,7 @@ module.exports = {
     },
 
     // TODO: fetch based on ids from DBF file
-    fetchAndSaveBanksByIds: function () {
+    fetchAndSaveBanksByIds() {
         for (let id = 10300; id < 100000; id++) {
             if (!(id % 100)) {
                 console.log('id:', id);

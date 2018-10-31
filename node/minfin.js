@@ -12,7 +12,7 @@ module.exports = {
         '2013-10-01', '2013-07-01', '2013-04-01', '2013-01-01',
     ],
 
-    getBanks: function() {
+    getBanks() {
         const banks = {};
         Object.values(utils.fromJson(utils.readFile(this.jsonBanksFile()))).forEach(bank => {
             bank.name = names.bankName(bank.name);
@@ -25,7 +25,7 @@ module.exports = {
     },
 
     ////////// html \\\\\\\\\\
-    fetchAndSaveAllHtml: function(){
+    fetchAndSaveAllHtml() {
         this.fetchAndSaveBanks();
         this.fetchAndSaveRatings();
         this.extractAndSaveBankNames();
@@ -35,11 +35,11 @@ module.exports = {
         this.extractAndSaveBankRatingDetails();
     },
 
-    fetchAndSaveBanks: function() {
+    fetchAndSaveBanks() {
         utils.writeFile(this.htmlBanksFile(), utils.readURL('https://minfin.com.ua/ua/banks/all/'));
     },
 
-    fetchAndSaveRatings: function() {
+    fetchAndSaveRatings() {
         this.dates.forEach(date => this.fetchAndSaveRating(date));
     },
 
@@ -47,7 +47,7 @@ module.exports = {
         utils.writeFile(this.htmlRatingsFile(date), utils.readURL('https://minfin.com.ua/ua/banks/rating/?date=' + date));
     },
 
-    fetchAndSaveBankDetails: function() {
+    fetchAndSaveBankDetails() {
         const banks = this.extractBankNames();
         Object.values(banks).forEach(bank => {
             console.log(bank.alias);
@@ -59,11 +59,11 @@ module.exports = {
     },
 
     ////////// json \\\\\\\\\\
-    extractAndSaveBankNames: function() {
+    extractAndSaveBankNames() {
         utils.writeFile(this.jsonBanksFile(), utils.toJson(this.extractBankNames()));
     },
 
-    extractAndSaveBankDetails: function() {
+    extractAndSaveBankDetails() {
         const banks = this.extractBankNames();
         Object.values(banks).forEach(bank => {
             const html = utils.readFile(this.htmlBankFile(bank.alias));
@@ -76,7 +76,7 @@ module.exports = {
         utils.writeFile(this.jsonBankDetailsFile(), utils.toJson(banks));
     },
 
-    extractBankNames: function() {
+    extractBankNames() {
         const html = utils.readFile(this.htmlBanksFile());
         const banks = {};
         const regex = /class="bank-emblem--desktop"[\S\s]+?\/company\/(.+?)\/[\S\s]+?<a href="\/ua\/company\/(.+?)\/">(.+?)<\/a>/g;
@@ -90,7 +90,7 @@ module.exports = {
         return banks;
     },
 
-    extractAndSaveBankRatings: function() {
+    extractAndSaveBankRatings() {
         const ratings = {};
         this.dates.forEach(date => {
             const dateRatings = {};
@@ -105,7 +105,7 @@ module.exports = {
         utils.writeFile(this.jsonRatingsFile(), utils.toJson(ratings));
     },
 
-    extractAndSaveBankRatingDetails: function() {
+    extractAndSaveBankRatingDetails() {
         const ratings = {};
         this.dates.forEach(date => {
             const html = utils.readFile(this.htmlRatingsFile(date));
@@ -119,43 +119,43 @@ module.exports = {
     },
 
     ////////// files \\\\\\\\\\
-    htmlRatingsFile: function(date) {
+    htmlRatingsFile(date) {
         return path.resolve(this.htmlFolder(), 'ratings', date + '.html');
     },
 
-    htmlBanksFile : function(){
+    htmlBanksFile() {
         return path.resolve(this.htmlFolder(), 'banks.html');
     },
 
-    htmlBankFile : function(alias){
+    htmlBankFile(alias) {
         return path.resolve(this.htmlFolder(), 'banks', alias + '.html');
     },
 
-    jsonRatingDetailsFile: function (){
+    jsonRatingDetailsFile() {
         return path.resolve(this.jsonFolder(), 'bank-rating-details.json');
     },
 
-    jsonRatingsFile: function (){
+    jsonRatingsFile() {
         return path.resolve(this.jsonFolder(), 'bank-ratings.json');
     },
 
-    jsonBanksFile: function (){
+    jsonBanksFile() {
         return path.resolve(this.jsonFolder(), 'banks.json');
     },
 
-    jsonBankDetailsFile: function (){
+    jsonBankDetailsFile() {
         return path.resolve(this.jsonFolder(), 'bank-details.json');
     },
 
-    htmlFolder: function() {
+    htmlFolder() {
         return path.resolve(this.dataFolder(), 'html');
     },
 
-    jsonFolder: function() {
+    jsonFolder() {
         return path.resolve(this.dataFolder(), 'json');
     },
 
-    dataFolder: function() {
+    dataFolder() {
         return path.resolve('.', 'minfin');
     }
 };
