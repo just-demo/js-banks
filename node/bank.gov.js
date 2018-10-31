@@ -6,6 +6,8 @@ let ext = require('./external');
 let int = require('./internal');
 let dates = require('./dates');
 let assert = require('./assert');
+let arj = require('./arj');
+let dbf = require('./dbf');
 
 module.exports = {
     // https://bank.gov.ua/control/portalmap -> Банківський нагляд -> Реорганізація, припинення та ліквідація
@@ -14,7 +16,8 @@ module.exports = {
     // https://bank.gov.ua/control/uk/bankdict/search?name=&type=369&region=&mfo=&edrpou=&size=&group=&fromDate=&toDate=
     // https://bank.gov.ua/control/uk/publish/article?art_id=38441973&cat_id=38459171#get_data_branch
     // https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0&json
-    getBanks: function () {
+    // TODO: merge with getBanksAPI amd getBanksDBF ???
+    getBanks() {
         const banks = {};
         int.read('bg/banks').forEach(bank => {
             bank.name = names.bankName(bank.name);
@@ -24,8 +27,7 @@ module.exports = {
         return banks;
     },
 
-    // TODO: merge with getBanks
-    getBanksAPI: function () {
+    getBanksAPI() {
         const banks = {};
         int.read('bg/api/banks').forEach(record => {
             const name = names.bankName(names.extractBankPureName(record['SHORTNAME']));
@@ -41,10 +43,56 @@ module.exports = {
         return banks;
     },
 
-    saveAll: function () {
-        this.saveBanksAPI();
-        this.saveBanks();
-        this.saveBankDetails();
+    getBanksDBF() {
+        const banks = {};
+        int.read('bg/dbf/banks').forEach(bank => {
+            bank.name = names.bankName(bank.name);
+            assert.false('Duplicate bank name', banks[bank.name], bank.name);
+            banks[bank.name] = bank;
+        });
+        return banks;
+    },
+
+    saveAll () {
+        this.saveBanksDBF();
+        // this.saveBanksAPI();
+        // this.saveBanks();
+        // this.saveBankDetails();
+    },
+
+    saveBanksDBF() {
+        const arjContent = ext.download('bg/rcukru.arj', 'https://bank.gov.ua/files/RcuKru.arj');
+        const dbfContent = arj.unpack(arjContent);
+        const records = dbf.parse(dbfContent);
+        const header = records[0];
+        const banks = records.slice(1).map(record => {
+            const map = {};
+            header.forEach((field, index) => map[field] = record[index]);
+            return map;
+        }).filter(record => {
+            const isMainNum = record['GLB'] === record['PRKB'];
+            const isMainName = !!record['NLF'];
+            assert.equals('Different main indicator - ' + record['FULLNAME'], isMainNum, isMainName);
+            return isMainNum;
+        }).filter(record => {
+            const isBankType = !!record['VID'];
+            const isBankReg = !!record['DATAR'];
+            const isBankGroup = !!record['GR1'];
+            // TODO: Приватне акцўонерне товариство "Укра∙нська фўнансова група"?
+            assert.equals('Different main indicator - ' + record['FULLNAME'], isBankType, isBankReg, isBankGroup);
+            return isBankType;
+        }).map(record => {
+            assert.equals('Different date - ' + record['FULLNAME'], record['DATAR'], record['D_OPEN']);
+            return {
+                id: record['SID'],
+                name: names.extractBankPureName(record['SHORTNAME']),
+                fullName: names.extractBankPureName(record['FULLNAME']),
+                dateRegister: dates.formatTimestamp(record['DATAR']),
+                dateOpen: dates.formatTimestamp(record['D_OPEN']),
+                active: record['REESTR'].toUpperCase() !== 'Л'
+            };
+        });
+        int.write('bg/dbf/banks', banks);
     },
 
     saveBanksAPI() {

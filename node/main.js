@@ -1,62 +1,16 @@
 let minfin = require('./minfin');
 let fg = require('./fg');
-let bankGov = require('./bank.gov');
+let bg = require('./bank.gov');
 let _ = require('lodash');
 let utils = require('./utils');
-let dbf = require('./dbf');
-let ext = require('./external');
-let assert = require('./assert');
-let fs = require('fs');
-let mkdirp = require('mkdirp');
-let path = require('path');
-let unzip = require('unzip');
 let names = require('./names');
 
-// minfin.fetchAndSaveAllHtml();
-// fg.fetchAndSaveAllHtml();
-// bankGov.fetchAndSaveAllHtml();
-// dbf.extractAndSaveBanks();
-
-// compareBanks();
-// compareGovBanks();
-// console.log(bankGov.getBanks());
-
-// bankGov.saveAll();
+bg.saveAll();
 names.rebuildBankNames();
-// utils.writeFile('binary/rcukru123.arj', utils.downloadURL('https://bank.gov.ua/files/RcuKru.arj', 'binary'));
-
-// let cont = utils.readFile('binary/rcukru.arj', 'binary');
-// utils.writeFile('binary/rcukru.arj', cont, 'binary');
-
-// fs.createReadStream('binary/rcukru.arj').pipe(unzip.Extract({ path: 'binary/out' }));
-// fs.createReadStream('binary/test.zip').pipe(unzip.Extract({ path: 'binary/out' }));
-
-// fs.createReadStream('path/to/archive.zip').pipe(unzip.Extract({ path: 'output/path' }));
-
-// request(uri).pipe(fs.createWriteStream('./binary/rcukru.arj'))
-
-//compareGovBanks();
-
-// var AdmZip = require('adm-zip');
-//
-// var zip = new AdmZip("./binary/rcukru.arj");
-// var zipEntries = zip.getEntries(); // an array of ZipEntry records
-//
-// zipEntries.forEach(function(zipEntry) {
-//     console.log(zipEntry.toString()); // outputs zip entries information
-// });
-//
-// var zlib = require('zlib');
-//
-// zlib.gunzip(utils.readFile('binary/rcukru.arj', 'binary'), function(err, result) {
-//     if(err) return console.error(err);
-//
-//     console.log(result);
-// });
 
 function compareGovApiBanks() {
     const dbfBanks = dbf.getBanks();
-    const apiBanks = bankGov.getBanksAPI();
+    const apiBanks = bg.getBanksAPI();
     const dbfBankIds = Object.keys(dbfBanks);
     const apiBankIds = Object.keys(apiBanks);
     console.log(dbfBankIds.length);
@@ -80,7 +34,7 @@ function compareGovApiBanks() {
 }
 
 function compareBanks() {
-    const bgBanks = bankGov.getBanks();
+    const bgBanks = bg.getBanks();
     const fgBanks = fg.getBanks();
     const mfBanks = minfin.getBanks();
     const bgBankIds = Object.keys(bgBanks);
@@ -107,7 +61,7 @@ function compareBanks() {
 
 function compareGovBanks() {
     const dbfBanks = dbf.getBanks();
-    const bgBanks = bankGov.getBanks();
+    const bgBanks = bg.getBanks();
     const fgBanks = fg.getBanks();
     //     _.pickBy(fg.getBanks(), function(bank, id) {
     //     return !bank.link;

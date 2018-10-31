@@ -25,6 +25,7 @@ module.exports = {
     },
 
     downloadURL: function(url) {
+        // TODO: reuse readURL?
         return request('GET', url, {headers: {'User-Agent': 'javascript'}}).getBody();
     },
 
