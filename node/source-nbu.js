@@ -8,6 +8,7 @@ let dates = require('./dates');
 let assert = require('./assert');
 let arj = require('./arj');
 let dbf = require('./dbf');
+let regex = require('./regex');
 
 module.exports = {
     // https://bank.gov.ua/control/portalmap -> Банківський нагляд -> Реорганізація, припинення та ліквідація
@@ -104,30 +105,25 @@ module.exports = {
 
     saveBanks() {
         const htmls = [];
-        let page = 0;
-        const html = ext.read('bg/banks/pages/' + page, 'https://bank.gov.ua/control/bankdict/banks');
+        const html = ext.read('bg/banks/pages/' + htmls.length, 'https://bank.gov.ua/control/bankdict/banks');
         htmls.push(html);
-        const regex = /<li>\s+?<a href="(.+?)">/g;
-        let matches;
-        while ((matches = regex.exec(html))) {
-            htmls.push(ext.read('bg/banks/pages/' + (++page), 'https://bank.gov.ua/' + matches[1]));
-        }
+        regex.findManyValues(html, /<li>\s+?<a href="(.+?)">/g).forEach(link => {
+            htmls.push(ext.read('bg/banks/pages/' + htmls.length, 'https://bank.gov.ua/' + link));
+        });
+
         const banks = _.flatten(htmls.map(html => {
-            const banks = [];
-            const regex = /<tr>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<\/tr>/g;
-            let matches;
-            while ((matches = regex.exec(html))) {
-                const link = matches[1].trim();
-                const linkMatch = link.match(/<a href=".*?(\d+)">\s*(.+?)\s*<\/a>/);
-                const id = linkMatch[1];
-                const name = this.extractBankPureNameSPC(linkMatch[2]);
-                banks.push({
-                    id: id,
-                    name: name,
-                    date: dates.format(matches[4])
+            return regex.findManyObjects(html, /<tr>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<\/tr>/g, {
+                link: 1, date: 4
+            }).map(bank => {
+                const linkInfo = regex.findObject(bank.link.trim(), /<a href=".*?(\d+)">\s*(.+?)\s*<\/a>/, {
+                    id: 1, name: 2
                 });
-            }
-            return banks;
+                return {
+                    id: linkInfo.id,
+                    name: this.extractBankPureNameSPC(linkInfo.name),
+                    date: dates.format(bank.date)
+                };
+            });
         }));
         int.write('bg/banks', banks);
     },

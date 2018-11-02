@@ -1,11 +1,10 @@
-let mf = require('./minfin');
-let fg = require('./fg');
-let bg = require('./bank.gov');
+let bg = require('./source-nbu');
+let fg = require('./source-fund');
+let mf = require('./source-minfin');
 let _ = require('lodash');
 let utils = require('./utils');
-let names = require('./names');
 
-fg.saveAll();
+bg.saveAll();
 // bg.saveAll();
 // names.rebuildBankNames();
 
