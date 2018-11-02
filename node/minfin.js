@@ -22,23 +22,19 @@ module.exports = {
     },
 
     saveBanks() {
-        const html = ext.read('mf/banks', 'https://minfin.com.ua/ua/banks/all/');
-        const banks = [];
-        const banksRegex = /class="bank-emblem--desktop"[\S\s]+?\/company\/(.+?)\/[\S\s]+?<a href="\/ua\/company\/(.+?)\/">(.+?)<\/a>/g;
-        let matches;
-        while ((matches = banksRegex.exec(html))) {
-            const id = parseInt(matches[1]);
-            const alias = matches[2];
-            const name = matches[3];
-            const htmlBank = ext.read('mf/banks/' + id, 'https://minfin.com.ua/ua/company/' + alias + '/');
-            const site = regex.fetchSingleValue(htmlBank, /<div class="item-title">Офіційний сайт<\/div>[\S\s]+?<a.*? href="(.+?)" target="_blank">/g);
-            assert.true('No site', site, name);
-            banks.push({
-                id: id,
-                name: name,
+        const banksHtml = ext.read('mf/banks', 'https://minfin.com.ua/ua/banks/all/');
+        const banks = regex.fetchManyObject(banksHtml, /class="bank-emblem--desktop"[\S\s]+?\/company\/(.+?)\/[\S\s]+?<a href="\/ua\/company\/(.+?)\/">(.+?)<\/a>/g, {
+            id: 1, alias: 2, name: 3
+        }).map(bank => {
+            const bankHtml = ext.read('mf/banks/' + bank.id, 'https://minfin.com.ua/ua/company/' + bank.alias + '/');
+            const site = regex.fetchSingleValue(bankHtml, /<div class="item-title">Офіційний сайт<\/div>[\S\s]+?<a.*? href="(.+?)" target="_blank">/g);
+            assert.true('No site', site, bank.name);
+            return {
+                id: parseInt(bank.id),
+                name: bank.name,
                 site: site
-            });
-        }
+            }
+        });
         int.write('mf/banks', banks);
     },
 
