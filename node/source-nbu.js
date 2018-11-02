@@ -20,7 +20,7 @@ module.exports = {
     // TODO: merge with getBanksAPI amd getBanksDBF ???
     getBanks() {
         const banks = {};
-        int.read('bg/banks').forEach(bank => {
+        int.read('nbu/banks').forEach(bank => {
             bank.name = names.bankName(bank.name);
             assert.false('Duplicate bank name', banks[bank.name], bank.name);
             banks[bank.name] = bank;
@@ -30,7 +30,7 @@ module.exports = {
 
     getBanksAPI() {
         const banks = {};
-        int.read('bg/api/banks').forEach(record => {
+        int.read('nbu/api/banks').forEach(record => {
             const name = names.bankName(names.extractBankPureName(record['SHORTNAME']));
             assert.false('Duplicate bank name', banks[name], name);
             banks[name] = {
@@ -46,7 +46,7 @@ module.exports = {
 
     getBanksDBF() {
         const banks = {};
-        int.read('bg/dbf/banks').forEach(bank => {
+        int.read('nbu/dbf/banks').forEach(bank => {
             bank.name = names.bankName(bank.name);
             assert.false('Duplicate bank name', banks[bank.name], bank.name);
             banks[bank.name] = bank;
@@ -62,7 +62,7 @@ module.exports = {
     },
 
     saveBanksDBF() {
-        const arjContent = ext.download('bg/rcukru.arj', 'https://bank.gov.ua/files/RcuKru.arj');
+        const arjContent = ext.download('nbu/rcukru.arj', 'https://bank.gov.ua/files/RcuKru.arj');
         const dbfContent = arj.unpack(arjContent);
         const records = dbf.parse(dbfContent);
         const header = records[0];
@@ -93,22 +93,22 @@ module.exports = {
                 active: record['REESTR'].toUpperCase() !== 'Л'
             };
         });
-        int.write('bg/dbf/banks', banks);
+        int.write('nbu/dbf/banks', banks);
     },
 
     saveBanksAPI() {
-        const xml = ext.read('bg/api/banks', 'https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251');
+        const xml = ext.read('nbu/api/banks', 'https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251');
         const json = convert.xml2js(xml, {compact: true});
         const banks = json['BANKBRANCH']['ROW'].map(row => _.forOwn(row, (value, key) => row[key] = value['_text'] || value['_cdata']));
-        int.write('bg/api/banks', banks);
+        int.write('nbu/api/banks', banks);
     },
 
     saveBanks() {
         const htmls = [];
-        const html = ext.read('bg/banks/pages/' + htmls.length, 'https://bank.gov.ua/control/bankdict/banks');
+        const html = ext.read('nbu/banks/pages/' + htmls.length, 'https://bank.gov.ua/control/bankdict/banks');
         htmls.push(html);
         regex.findManyValues(html, /<li>\s+?<a href="(.+?)">/g).forEach(link => {
-            htmls.push(ext.read('bg/banks/pages/' + htmls.length, 'https://bank.gov.ua/' + link));
+            htmls.push(ext.read('nbu/banks/pages/' + htmls.length, 'https://bank.gov.ua/' + link));
         });
 
         const banks = _.flatten(htmls.map(html => {
@@ -125,19 +125,19 @@ module.exports = {
                 };
             });
         }));
-        int.write('bg/banks', banks);
+        int.write('nbu/banks', banks);
     },
 
     saveBankDetails() {
-        const banks = int.read('bg/banks');
+        const banks = int.read('nbu/banks');
         banks.forEach(bank => {
-            const html = ext.read('bg/banks/' + bank.id, 'https://bank.gov.ua/control/uk/bankdict/bank?id=' + bank.id);
+            const html = ext.read('nbu/banks/' + bank.id, 'https://bank.gov.ua/control/uk/bankdict/bank?id=' + bank.id);
             const fullName = this.extractBankPureNameSPC(html.match(/<td.*?>Назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
             const shortName = this.extractBankPureNameSPC(html.match(/<td.*?>Коротка назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
             assert.equals('Short name mismatch', bank.name, shortName);
             bank.fullName = fullName;
         });
-        int.write('bg/banks', banks);
+        int.write('nbu/banks', banks);
     },
 
     extractBankPureNameSPC(name) {
@@ -156,7 +156,7 @@ module.exports = {
             const type = html.match(/<td.*?>Тип<\/td>\s*?<td.*?>(.+?)<\/td>/);
             if (type && type[1] === 'Банк') {
                 const subFolder = (Math.floor(id / 1000) + 1) * 1000;
-                utils.writeFile('./html/bg/banks/ids/' + subFolder + '/' + id + '.html', html);
+                utils.writeFile('./html/nbu/banks/ids/' + subFolder + '/' + id + '.html', html);
             }
         }
     }

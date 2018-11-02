@@ -16,7 +16,7 @@ module.exports = {
 
     rebuildBankNames() {
         const names = [];
-        int.read('bg/banks').forEach(bank => {
+        int.read('nbu/banks').forEach(bank => {
             const sameNames = new Set();
             [bank.name, bank.fullName].map(name => name.toUpperCase()).forEach(name1 => {
                 const name2 = name1.replace(/\s*-\s*/g, '-');

@@ -3,10 +3,12 @@ let fg = require('./source-fund');
 let mf = require('./source-minfin');
 let _ = require('lodash');
 let utils = require('./utils');
+let names = require('./names');
 
 bg.saveAll();
-// bg.saveAll();
-// names.rebuildBankNames();
+fg.saveAll();
+mf.saveAll();
+names.rebuildBankNames();
 
 function compareGovApiBanks() {
     const dbfBanks = bg.getBanksDBF();
