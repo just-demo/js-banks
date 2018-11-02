@@ -5,11 +5,12 @@ let _ = require('lodash');
 let utils = require('./utils');
 let names = require('./names');
 
-bg.saveAll();
-names.rebuildBankNames();
+fg.saveAll();
+// bg.saveAll();
+// names.rebuildBankNames();
 
 function compareGovApiBanks() {
-    const dbfBanks = dbf.getBanks();
+    const dbfBanks = bg.getBanksDBF();
     const apiBanks = bg.getBanksAPI();
     const dbfBankIds = Object.keys(dbfBanks);
     const apiBankIds = Object.keys(apiBanks);
@@ -60,7 +61,7 @@ function compareBanks() {
 }
 
 function compareGovBanks() {
-    const dbfBanks = dbf.getBanks();
+    const dbfBanks = bg.getBanksDBF();
     const bgBanks = bg.getBanks();
     const fgBanks = fg.getBanks();
     //     _.pickBy(fg.getBanks(), function(bank, id) {

@@ -1,81 +1,71 @@
-let utils = require('./utils');
-let path = require('path');
 let _ = require('lodash');
 let names = require('./names');
+let ext = require('./external');
+let int = require('./internal');
+let dates = require('./dates');
+let assert = require('./assert');
 
 module.exports = {
     // https://www.bank.gov.ua/control/bankdict/banks
     // https://bank.gov.ua/control/uk/bankdict/search?name=&type=369&region=&mfo=&edrpou=&size=&group=&fromDate=&toDate=
-    getActiveBanks() {
-        const banks = {};
-        utils.fromJson(utils.readFile(this.jsonActiveBanksFile())).forEach(bank => {
-            bank.name = names.bankName(bank.name);
-            banks[bank.name] = bank;
-        });
-        return banks;
-    },
-
     getBanks() {
         const banks = {};
-        const activeBanks = utils.fromJson(utils.readFile(this.jsonActiveBanksFile()));
-        const notPayingBanks = utils.fromJson(utils.readFile(this.jsonNotPayingBanksFile()));
+        const activeBanks = int.read('fg/banks-active');
+        const notPayingBanks = int.read('fg/banks-not-paying');
         activeBanks.forEach(bank => bank.active = true);
         notPayingBanks.forEach(bank => bank.active = false);
         _.union(activeBanks, notPayingBanks).forEach(bank => {
             bank.name = names.bankName(bank.name);
-            bank.active
-            if (banks[bank.name]) {
-                console.log('Duplicate bank name', bank.name);
-            }
+            assert.false('Duplicate bank name', banks[bank.name], bank.name);
             banks[bank.name] = bank;
         });
         return banks;
     },
 
-    ////////// html \\\\\\\\\\
-    fetchAndSaveAllHtml() {
-        this.fetchAndSaveActiveBanks();
-        this.extractAndSaveActiveBanks();
-        this.fetchAndSaveNotPayingBanks();
-        this.extractAndSaveNotPayingBanks();
-        this.fetchAndSaveBankDetails();
+    saveAll() {
+        this.saveActiveBanks();
+        this.saveNotPayingBanks();
     },
 
-    fetchAndSaveActiveBanks() {
-        utils.writeFile(this.htmlActiveBanksFile(), utils.readURL('http://www.fg.gov.ua/uchasnyky-fondu'));
-    },
-
-    fetchAndSaveNotPayingBanks() {
-        utils.writeFile(this.htmlNotPayingBanksFile(), utils.readURL('http://www.fg.gov.ua/not-paying'));
-    },
-
-    fetchAndSaveBankDetails() {
-        this.extractNotPayingBanks().forEach(bank => {
-            console.log(bank.name);
-            const file = this.htmlBankFile(bank.name.toUpperCase());
-            if (!utils.fileExists(file)) {
-                utils.writeFile(file, utils.readURL('http://www.fg.gov.ua' + bank.link));
-            }
-        })
-    },
-
-    ////////// json \\\\\\\\\\
-    extractAndSaveActiveBanks() {
+    saveActiveBanks() {
+        const html = ext.read('fg/banks-active', 'http://www.fg.gov.ua/uchasnyky-fondu');
         const banks = [];
-        const html = utils.readFile(this.htmlActiveBanksFile());
         const regex = /<tr.*?>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>([\S\s]*?)<\/td>\s+?<\/tr>/g;
-
         let matches;
         while ((matches = regex.exec(html))) {
             banks.push({
-                name: this.extractBankPureName(matches[2]),
-                date: matches[4].split('.').reverse().join('-'),
+                name: names.extractBankPureName(matches[2]),
+                date: dates.format(matches[4]),
                 site: this.extractBankPureSites(matches[7]),
             });
         }
+        const manySites = banks.filter(bank => bank.site.length > 1);
+        assert.false('Many sites', manySites.length, manySites);
+        int.write('fg/banks-active', banks);
+    },
 
-        console.log('Many sites=' + banks.filter(bank => bank.site.length > 1).length);
-        utils.writeFile(this.jsonActiveBanksFile(), utils.toJson(banks));
+    saveNotPayingBanks() {
+        const html = ext.read('fg/banks-not-paying', 'http://www.fg.gov.ua/not-paying');
+        const banks = [];
+        const regex = /<h3 class="item-title"><a href="(\/.+?\/.+?\/.+?)">[\S\s]+?(.+?)<\/a>/g;
+        let matches;
+        while ((matches = regex.exec(html))) {
+            const name = names.extractBankPureName(matches[2]);
+            const link = matches[1];
+            const id = this.extractBankId(link);
+            const bankHtml = ext.read('fg/banks/' + id, 'http://www.fg.gov.ua' + link);
+            // TODO: extract data from bankHtml
+            banks.push({
+                id: id,
+                name: name,
+                link: link
+            });
+        }
+        int.write('fg/banks-not-paying', banks);
+    },
+
+    extractBankId(link) {
+        return parseInt(link.match(/.*\/(\d+)-.*/)[1]);
     },
 
     extractBankPureSites(bankFullSite) {
@@ -89,7 +79,7 @@ module.exports = {
 
         let sites = new Set();
         let matches;
-        const regex = /href="(.+?)"|(http[^"<\s]+)|[^\/](www[^"<\s]+)/g;
+        const regex = /href="(.+?)"|(http[^"<\s]+)|[^/](www[^"<\s]+)/g;
         while ((matches = regex.exec(bankFullSite))) {
             let site = matches[1] || matches[2] || matches[3];
             site = site.replace(/(?<!:|:\/)\/(?!ukraine$).*/g, '');
@@ -98,6 +88,7 @@ module.exports = {
 
         sites = this.removeDuplicateSites(sites);
 
+        // TODO: use assert ???
         if (!sites.size) {
             console.log('No matches', bankFullSite);
             sites.add(bankFullSite);
@@ -125,65 +116,5 @@ module.exports = {
             }
         });
         return result;
-    },
-
-    extractBankPureName(bankFullName) {
-        const match = bankFullName.match(/.*["«](.+?)["»]/);
-        if (!match) {
-            console.log(bankFullName);
-            return bankFullName;
-        }
-        return match[1];
-    },
-
-    extractAndSaveNotPayingBanks() {
-        utils.writeFile(this.jsonNotPayingBanksFile(), utils.toJson(this.extractNotPayingBanks()));
-    },
-
-    extractNotPayingBanks() {
-        const banks = [];
-        const html = utils.readFile(this.htmlNotPayingBanksFile());
-        const regex = /<h3 class="item-title"><a href="(\/.+?\/.+?\/.+?)">[\S\s]+?(.+?)<\/a>/g;
-        let matches;
-        while ((matches = regex.exec(html))) {
-            banks.push({
-                name: this.extractBankPureName(matches[2]),
-                link: matches[1]
-            });
-        }
-        return banks;
-    },
-
-    ////////// files \\\\\\\\\\
-    htmlActiveBanksFile() {
-        return path.resolve(this.htmlFolder(), 'banks-active.html');
-    },
-
-    htmlNotPayingBanksFile() {
-        return path.resolve(this.htmlFolder(), 'banks-not-paying.html');
-    },
-
-    htmlBankFile(name) {
-        return path.resolve(this.htmlFolder(), 'banks', name + '.html');
-    },
-
-    jsonActiveBanksFile() {
-        return path.resolve(this.jsonFolder(), 'banks-active.json');
-    },
-
-    jsonNotPayingBanksFile() {
-        return path.resolve(this.jsonFolder(), 'banks-not-paying.json');
-    },
-
-    htmlFolder() {
-        return path.resolve(this.dataFolder(), 'html');
-    },
-
-    jsonFolder() {
-        return path.resolve(this.dataFolder(), 'json');
-    },
-
-    dataFolder() {
-        return path.resolve('.', 'fg');
     }
 };

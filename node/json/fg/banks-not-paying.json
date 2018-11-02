@@ -1,0 +1,642 @@
+[
+  {
+    "id": 128,
+    "name": "ФІНАНСОВА ІНІЦІАТИВА",
+    "link": "/not-paying/temporary/128-finansovaya-iniciativa"
+  },
+  {
+    "id": 115,
+    "name": "АСТРА БАНК",
+    "link": "/not-paying/banky-prodani-investoram/115-astra"
+  },
+  {
+    "id": 188,
+    "name": "ПРИВАТБАНК",
+    "link": "/not-paying/banks-sold-to-state/188-pat-kb-pryvatbank"
+  },
+  {
+    "id": 179,
+    "name": "ДЕРЖЗЕМБАНК",
+    "link": "/not-paying/banky-likvidovani-fondom/179-pat-derzhzembank"
+  },
+  {
+    "id": 59,
+    "name": "БАЗИС",
+    "link": "/not-paying/completed/59-bazis"
+  },
+  {
+    "id": 61,
+    "name": "Столиця",
+    "link": "/not-paying/completed/61-stolytsia"
+  },
+  {
+    "id": 62,
+    "name": "СОЦКОМ БАНК",
+    "link": "/not-paying/completed/62-kb-sotskom-bank"
+  },
+  {
+    "id": 63,
+    "name": "Володимирський",
+    "link": "/not-paying/completed/63-volodymyrskyi"
+  },
+  {
+    "id": 64,
+    "name": "Діалогбанк",
+    "link": "/not-paying/completed/64-dialogbank"
+  },
+  {
+    "id": 65,
+    "name": "Синтез",
+    "link": "/not-paying/completed/65-syntez"
+  },
+  {
+    "id": 66,
+    "name": "ЗЕМЕЛЬНИЙ БАНК",
+    "link": "/not-paying/completed/66-zemel-bank"
+  },
+  {
+    "id": 67,
+    "name": "Іпобанк",
+    "link": "/not-paying/completed/67-ipobank"
+  },
+  {
+    "id": 68,
+    "name": "Дністер",
+    "link": "/not-paying/completed/68-dnister"
+  },
+  {
+    "id": 69,
+    "name": "БІГ Енергія",
+    "link": "/not-paying/completed/69-big-energy"
+  },
+  {
+    "id": 70,
+    "name": "Трансбанк",
+    "link": "/not-paying/completed/70-transbank"
+  },
+  {
+    "id": 71,
+    "name": "АРМА",
+    "link": "/not-paying/completed/71-arma"
+  },
+  {
+    "id": 72,
+    "name": "Український промисловий банк",
+    "link": "/not-paying/completed/72-ukr-prom-bank"
+  },
+  {
+    "id": 74,
+    "name": "Українська фінансова група",
+    "link": "/not-paying/completed/74-ukr-fin-group"
+  },
+  {
+    "id": 73,
+    "name": "Східно-Європейський банк",
+    "link": "/not-paying/completed/73-shid-evro-bank"
+  },
+  {
+    "id": 75,
+    "name": "Банк регіонального розвитку",
+    "link": "/not-paying/completed/75-bank-reg-rozv"
+  },
+  {
+    "id": 76,
+    "name": "Національний стандарт",
+    "link": "/not-paying/completed/76-natsional-standart"
+  },
+  {
+    "id": 77,
+    "name": "Європейський",
+    "link": "/not-paying/completed/77-evropeisky"
+  },
+  {
+    "id": 78,
+    "name": "Одеса-Банк",
+    "link": "/not-paying/completed/78-odesa-bank"
+  },
+  {
+    "id": 79,
+    "name": "КБ Причорномор’я",
+    "link": "/not-paying/completed/79-prychornomor"
+  },
+  {
+    "id": 80,
+    "name": "Європейський банк розвитку та заощаджень",
+    "link": "/not-paying/completed/80-evro-bank-rz"
+  },
+  {
+    "id": 81,
+    "name": "Київський унiверсальний банк",
+    "link": "/not-paying/completed/81-kyiv-universal"
+  },
+  {
+    "id": 82,
+    "name": "Iнтерконтинентбанк",
+    "link": "/not-paying/completed/82-interkontinent"
+  },
+  {
+    "id": 83,
+    "name": "Гарант",
+    "link": "/not-paying/completed/83-garant"
+  },
+  {
+    "id": 84,
+    "name": "Прем'єрбанк",
+    "link": "/not-paying/completed/84-premierbank"
+  },
+  {
+    "id": 85,
+    "name": "АЛЛОНЖ",
+    "link": "/not-paying/completed/85-allonz"
+  },
+  {
+    "id": 86,
+    "name": "Росток Банк",
+    "link": "/not-paying/completed/86-rostok-bank"
+  },
+  {
+    "id": 87,
+    "name": "Наш Банк",
+    "link": "/not-paying/completed/87-nash-bank"
+  },
+  {
+    "id": 88,
+    "name": "ОЛБанк",
+    "link": "/not-paying/completed/88-olbank"
+  },
+  {
+    "id": 89,
+    "name": "Україна",
+    "link": "/not-paying/completed/89-ukraina"
+  },
+  {
+    "id": 90,
+    "name": "Слов'янський",
+    "link": "/not-paying/completed/90-sloviansky"
+  },
+  {
+    "id": 60,
+    "name": "Інноваційно-промисловий банк",
+    "link": "/not-paying/completed/60-inno-prom-bank"
+  },
+  {
+    "id": 167,
+    "name": "ЮНІСОН",
+    "link": "/not-paying/liquidation/167-pat-bank-yunison"
+  },
+  {
+    "id": 160,
+    "name": "РОДОВІД БАНК",
+    "link": "/not-paying/liquidation/160-at-rodovid-bank"
+  },
+  {
+    "id": 219,
+    "name": "БАНК БОГУСЛАВ",
+    "link": "/not-paying/liquidation/219-at-bank-bohuslav"
+  },
+  {
+    "id": 210,
+    "name": "ГЕФЕСТ",
+    "link": "/not-paying/liquidation/210-pat-komertsiynyy-bank-hefest"
+  },
+  {
+    "id": 208,
+    "name": "НОВИЙ",
+    "link": "/not-paying/liquidation/208-akb-novyy"
+  },
+  {
+    "id": 203,
+    "name": "ДІАМАНТБАНК",
+    "link": "/not-paying/liquidation/203-pat-diamantbank"
+  },
+  {
+    "id": 202,
+    "name": "ФІНБАНК",
+    "link": "/not-paying/liquidation/202-pat-finbank"
+  },
+  {
+    "id": 198,
+    "name": "ВЕКТОР БАНК",
+    "link": "/not-paying/liquidation/198-pat-vektor-bank"
+  },
+  {
+    "id": 192,
+    "name": "НК БАНК",
+    "link": "/not-paying/liquidation/192-at-nk-bank"
+  },
+  {
+    "id": 190,
+    "name": "ПЛАТИНУМ БАНК",
+    "link": "/not-paying/liquidation/190-pat-platynum-bank"
+  },
+  {
+    "id": 194,
+    "name": "Фортуна-банк",
+    "link": "/not-paying/liquidation/194-at-fortuna-bank"
+  },
+  {
+    "id": 186,
+    "name": "Інвестбанк",
+    "link": "/not-paying/liquidation/186-pat-kb-investbank"
+  },
+  {
+    "id": 185,
+    "name": "ТРАСТ",
+    "link": "/not-paying/liquidation/185-pat-bank-trast"
+  },
+  {
+    "id": 183,
+    "name": "АРТЕМ-БАНК",
+    "link": "/not-paying/liquidation/183-at-artem-bank"
+  },
+  {
+    "id": 180,
+    "name": "КСГ БАНК",
+    "link": "/not-paying/liquidation/180-pat-ksh-bank"
+  },
+  {
+    "id": 175,
+    "name": "ЄВРОБАНК",
+    "link": "/not-paying/liquidation/175-pat-kb-yevrobank"
+  },
+  {
+    "id": 174,
+    "name": "КЛАСИКБАНК",
+    "link": "/not-paying/liquidation/174-pat-klasykbank"
+  },
+  {
+    "id": 173,
+    "name": "СМАРТБАНК",
+    "link": "/not-paying/liquidation/173-puat-smartbank"
+  },
+  {
+    "id": 170,
+    "name": "ФІДОБАНК",
+    "link": "/not-paying/liquidation/170-puat-fidobank"
+  },
+  {
+    "id": 171,
+    "name": "БАНК МИХАЙЛІВСЬКИЙ",
+    "link": "/not-paying/liquidation/171-pat-bank-mykhaylivskyy"
+  },
+  {
+    "id": 165,
+    "name": "ХРЕЩАТИК",
+    "link": "/not-paying/liquidation/165-pat-kb-khreshchatyk"
+  },
+  {
+    "id": 163,
+    "name": "СОЮЗ",
+    "link": "/not-paying/liquidation/163-at-kb-soyuz"
+  },
+  {
+    "id": 153,
+    "name": "СОФІЙСЬКИЙ",
+    "link": "/not-paying/liquidation/153-pat-bank-sofiyskyy"
+  },
+  {
+    "id": 164,
+    "name": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
+    "link": "/not-paying/liquidation/164-pat-bank-petrokommerts-ukrayina"
+  },
+  {
+    "id": 158,
+    "name": "ТК КРЕДИТ",
+    "link": "/not-paying/liquidation/158-at-kb-tk-kredyt"
+  },
+  {
+    "id": 154,
+    "name": "УКРІНБАНК",
+    "link": "/not-paying/liquidation/154-pat-ukrinbank"
+  },
+  {
+    "id": 157,
+    "name": "АВАНТ-БАНК",
+    "link": "/not-paying/liquidation/157-pat-avant-bank"
+  },
+  {
+    "id": 159,
+    "name": "ПРЕМІУМ",
+    "link": "/not-paying/liquidation/159-pat-kb-premium"
+  },
+  {
+    "id": 147,
+    "name": "ЮСБ БАНК",
+    "link": "/not-paying/liquidation/147-pat-yusb-bank"
+  },
+  {
+    "id": 26,
+    "name": "ВБР",
+    "link": "/not-paying/liquidation/26-vseukr-bank-rozv"
+  },
+  {
+    "id": 145,
+    "name": "Фінанси та Кредит",
+    "link": "/not-paying/liquidation/145-at-bank-finansy-ta-kredyt"
+  },
+  {
+    "id": 152,
+    "name": "БАНК ВЕЛЕС",
+    "link": "/not-paying/liquidation/152-at-bank-veles"
+  },
+  {
+    "id": 148,
+    "name": "Контракт",
+    "link": "/not-paying/liquidation/148-bank-kontrakt"
+  },
+  {
+    "id": 149,
+    "name": "УНІКОМБАНК",
+    "link": "/not-paying/liquidation/149-pat-unikombank"
+  },
+  {
+    "id": 146,
+    "name": "Національні інвестиції",
+    "link": "/not-paying/liquidation/146-at-bank-natsionalni-investytsii"
+  },
+  {
+    "id": 144,
+    "name": "Інтеграл-банк",
+    "link": "/not-paying/liquidation/144-pat-intehral-bank"
+  },
+  {
+    "id": 130,
+    "name": "РАДИКАЛ БАНК",
+    "link": "/not-paying/liquidation/130-pat-radykal-bank"
+  },
+  {
+    "id": 131,
+    "name": "КАПІТАЛ",
+    "link": "/not-paying/liquidation/131-pat-akb-kapital"
+  },
+  {
+    "id": 118,
+    "name": "Дельта Банк",
+    "link": "/not-paying/liquidation/118-delta"
+  },
+  {
+    "id": 129,
+    "name": "СТОЛИЧНИЙ",
+    "link": "/not-paying/liquidation/129-pat-ab-stolychnyy"
+  },
+  {
+    "id": 113,
+    "name": "УКРГАЗПРОМБАНК",
+    "link": "/not-paying/liquidation/113-ukrgazprombank"
+  },
+  {
+    "id": 124,
+    "name": "УКРКОМУНБАНК",
+    "link": "/not-paying/liquidation/124-ukr-komun-bank"
+  },
+  {
+    "id": 138,
+    "name": "СП БАНК",
+    "link": "/not-paying/liquidation/138-at-sp-bank"
+  },
+  {
+    "id": 137,
+    "name": "Морський",
+    "link": "/not-paying/liquidation/137-bank-morskyi"
+  },
+  {
+    "id": 136,
+    "name": "ЧБРР",
+    "link": "/not-paying/liquidation/136-pat-chbrr"
+  },
+  {
+    "id": 127,
+    "name": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
+    "link": "/not-paying/liquidation/127-national-credit"
+  },
+  {
+    "id": 126,
+    "name": "УПБ",
+    "link": "/not-paying/liquidation/126-upb"
+  },
+  {
+    "id": 114,
+    "name": "Київська Русь",
+    "link": "/not-paying/liquidation/114-kyivska-rus"
+  },
+  {
+    "id": 117,
+    "name": "ОМЕГА БАНК",
+    "link": "/not-paying/liquidation/117-omega"
+  },
+  {
+    "id": 119,
+    "name": "КИЇВ",
+    "link": "/not-paying/liquidation/119-kiyv"
+  },
+  {
+    "id": 120,
+    "name": "СТАНДАРТ",
+    "link": "/not-paying/liquidation/120-standart"
+  },
+  {
+    "id": 111,
+    "name": "ЕНЕРГОБАНК",
+    "link": "/not-paying/liquidation/111-energobank"
+  },
+  {
+    "id": 97,
+    "name": "НАДРА",
+    "link": "/not-paying/liquidation/97-nadra"
+  },
+  {
+    "id": 116,
+    "name": "КРЕДИТПРОМБАНК",
+    "link": "/not-paying/liquidation/116-kreditprombank"
+  },
+  {
+    "id": 96,
+    "name": "ІМЕКСБАНК",
+    "link": "/not-paying/liquidation/96-imexbank"
+  },
+  {
+    "id": 121,
+    "name": "ЗЛАТОБАНК",
+    "link": "/not-paying/liquidation/121-zlato"
+  },
+  {
+    "id": 93,
+    "name": "УКРБІЗНЕСБАНК",
+    "link": "/not-paying/liquidation/93-ukrbiznesbank"
+  },
+  {
+    "id": 95,
+    "name": "УКООПСПІЛКА",
+    "link": "/not-paying/liquidation/95-ukoopspilka"
+  },
+  {
+    "id": 94,
+    "name": "ПРОФІН БАНК",
+    "link": "/not-paying/liquidation/94-profin-bank"
+  },
+  {
+    "id": 29,
+    "name": "ВіЕйБі Банк",
+    "link": "/not-paying/liquidation/29-vab-bank"
+  },
+  {
+    "id": 30,
+    "name": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
+    "link": "/not-paying/liquidation/30-mis-kom-bank"
+  },
+  {
+    "id": 22,
+    "name": "Банк Камбіо",
+    "link": "/not-paying/liquidation/22-kambio"
+  },
+  {
+    "id": 28,
+    "name": "ЛЕГБАНК",
+    "link": "/not-paying/liquidation/28-legbank"
+  },
+  {
+    "id": 27,
+    "name": "БГ БАНК",
+    "link": "/not-paying/liquidation/27-bg-bank"
+  },
+  {
+    "id": 31,
+    "name": "МЕЛІОР БАНК",
+    "link": "/not-paying/liquidation/31-melior-bank"
+  },
+  {
+    "id": 35,
+    "name": "ПОРТО-ФРАНКО",
+    "link": "/not-paying/liquidation/35-porto-franko"
+  },
+  {
+    "id": 33,
+    "name": "АКСІОМА",
+    "link": "/not-paying/liquidation/33-aksioma"
+  },
+  {
+    "id": 36,
+    "name": "Демарк",
+    "link": "/not-paying/liquidation/36-demark"
+  },
+  {
+    "id": 37,
+    "name": "ЕКСПОБАНК",
+    "link": "/not-paying/liquidation/37-ekspobank"
+  },
+  {
+    "id": 38,
+    "name": "ГРІН БАНК",
+    "link": "/not-paying/liquidation/38-grin-bank"
+  },
+  {
+    "id": 32,
+    "name": "ІНТЕРКРЕДИТБАНК",
+    "link": "/not-paying/liquidation/32-interkredytbank"
+  },
+  {
+    "id": 39,
+    "name": "АКТАБАНК",
+    "link": "/not-paying/liquidation/39-aktabank"
+  },
+  {
+    "id": 34,
+    "name": "ПРАЙМ-БАНК",
+    "link": "/not-paying/liquidation/34-praym-bank"
+  },
+  {
+    "id": 41,
+    "name": "ТЕРРА БАНК",
+    "link": "/not-paying/liquidation/41-terra-bank"
+  },
+  {
+    "id": 40,
+    "name": "АКТИВ-БАНК",
+    "link": "/not-paying/liquidation/40-aktyv-bank"
+  },
+  {
+    "id": 43,
+    "name": "БАНК ЗОЛОТІ ВОРОТА",
+    "link": "/not-paying/liquidation/43-zoloti-vorota"
+  },
+  {
+    "id": 44,
+    "name": "ЄВРОГАЗБАНК",
+    "link": "/not-paying/liquidation/44-evrogazbank"
+  },
+  {
+    "id": 42,
+    "name": "УФС",
+    "link": "/not-paying/liquidation/42-ukr-fin-svit"
+  },
+  {
+    "id": 45,
+    "name": "ФІНРОСТБАНК",
+    "link": "/not-paying/liquidation/45-finrostbank"
+  },
+  {
+    "id": 49,
+    "name": "ПІВДЕНКОМБАНК",
+    "link": "/not-paying/liquidation/49-pivdenkombank"
+  },
+  {
+    "id": 50,
+    "name": "ПРОМЕКОНОМБАНК",
+    "link": "/not-paying/liquidation/50-promekonombank"
+  },
+  {
+    "id": 46,
+    "name": "Старокиївський банк",
+    "link": "/not-paying/liquidation/46-starokyiv-bank"
+  },
+  {
+    "id": 47,
+    "name": "АКБ Банк",
+    "link": "/not-paying/liquidation/47-avtokrazbank"
+  },
+  {
+    "id": 48,
+    "name": "Західінкомбанк",
+    "link": "/not-paying/liquidation/48-zahidinkombank"
+  },
+  {
+    "id": 51,
+    "name": "ІНТЕРБАНК",
+    "link": "/not-paying/liquidation/51-interbank"
+  },
+  {
+    "id": 52,
+    "name": "БАНК ФОРУМ",
+    "link": "/not-paying/liquidation/52-forum"
+  },
+  {
+    "id": 53,
+    "name": "МЕРКУРІЙ",
+    "link": "/not-paying/liquidation/53-mercury"
+  },
+  {
+    "id": 54,
+    "name": "БРОКБІЗНЕСБАНК",
+    "link": "/not-paying/liquidation/54-brokbiznesbank"
+  },
+  {
+    "id": 55,
+    "name": "РЕАЛ БАНК",
+    "link": "/not-paying/liquidation/55-real-bank"
+  },
+  {
+    "id": 56,
+    "name": "ДАНІЕЛЬ",
+    "link": "/not-paying/liquidation/56-daniel"
+  },
+  {
+    "id": 57,
+    "name": "ТАВРИКА",
+    "link": "/not-paying/liquidation/57-tavryka"
+  },
+  {
+    "id": 58,
+    "name": "ЕРДЕ БАНК",
+    "link": "/not-paying/liquidation/58-erde-bank"
+  }
+]

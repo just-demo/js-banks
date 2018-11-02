@@ -1,0 +1,567 @@
+[
+  {
+    "name": "АРКАДА",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.arkada.ua"
+    ]
+  },
+  {
+    "name": "АЙБОКС БАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.agrocombank.kiev.ua"
+    ]
+  },
+  {
+    "name": "АЛЬТБАНК",
+    "date": "1999-09-02",
+    "site": [
+      "https://altbank.ua"
+    ]
+  },
+  {
+    "name": "Полтава-банк",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.poltavabank.com"
+    ]
+  },
+  {
+    "name": "ПІВДЕННИЙ",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.pivdenny.com"
+    ]
+  },
+  {
+    "name": "ІНДУСТРІАЛБАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.industrialbank.ua"
+    ]
+  },
+  {
+    "name": "УКРСОЦБАНК",
+    "date": "1999-09-02",
+    "site": [
+      "https://www.ukrsotsbank.com"
+    ]
+  },
+  {
+    "name": "Державний експортно-імпортний банк України",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.eximb.com"
+    ]
+  },
+  {
+    "name": "БАНК АЛЬЯНС",
+    "date": "1999-09-02",
+    "site": [
+      "http://bankalliance.ua"
+    ]
+  },
+  {
+    "name": "Універсал Банк",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.universalbank.com.ua"
+    ]
+  },
+  {
+    "name": "ПІРЕУС БАНК МКБ",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.piraeusbank.ua"
+    ]
+  },
+  {
+    "name": "ТАСКОМБАНК",
+    "date": "1999-09-02",
+    "site": [
+      "https://tascombank.ua",
+      "http://www.tascombank.ua"
+    ]
+  },
+  {
+    "name": "Львів",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.banklviv.com"
+    ]
+  },
+  {
+    "name": "КОМЕРЦІЙНИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.coopinvest.com.ua"
+    ]
+  },
+  {
+    "name": "БТА БАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.btabank.ua"
+    ]
+  },
+  {
+    "name": "Український капітал",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.ukrcapital.com.ua"
+    ]
+  },
+  {
+    "name": "КРЕДІ АГРІКОЛЬ БАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.indexbank.ua",
+      "http://credit-agricole.com.ua"
+    ]
+  },
+  {
+    "name": "АЛЬФА-БАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.alfabank.com.ua"
+    ]
+  },
+  {
+    "name": "ВіЕс Банк",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.vsbank.com.ua"
+    ]
+  },
+  {
+    "name": "Полікомбанк",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.poli.com.ua"
+    ]
+  },
+  {
+    "name": "Укргазбанк",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.ukrgasbank.com"
+    ]
+  },
+  {
+    "name": "КРЕДОБАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.kredobank.com.ua"
+    ]
+  },
+  {
+    "name": "Ідея Банк",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.ideabank.ua"
+    ]
+  },
+  {
+    "name": "ВТБ БАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.vtb.com.ua"
+    ]
+  },
+  {
+    "name": "СКАЙ БАНК",
+    "date": "1999-09-02",
+    "site": [
+      "https://skybank.pro"
+    ]
+  },
+  {
+    "name": "БАНК ФАМІЛЬНИЙ",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.fbank.com.ua"
+    ]
+  },
+  {
+    "name": "МЕГАБАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.megabank.net",
+      "https://www.megabank.ua",
+      "http://www"
+    ]
+  },
+  {
+    "name": "МетаБанк",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.mbank.com.ua"
+    ]
+  },
+  {
+    "name": "МТБ БАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://mtb.ua",
+      "http://www.mtb.ua"
+    ]
+  },
+  {
+    "name": "ОТП БАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.otpbank.com.ua"
+    ]
+  },
+  {
+    "name": "БАНК КРЕДИТ ДНІПРО",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.creditdnepr.com.ua"
+    ]
+  },
+  {
+    "name": "УкрСиббанк",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.ukrsibbank.com"
+    ]
+  },
+  {
+    "name": "АКЦЕНТ-БАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.a-bank.com.ua"
+    ]
+  },
+  {
+    "name": "АСВІО БАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.asviobank.ua"
+    ]
+  },
+  {
+    "name": "ГРАНТ",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.grant.kharkov.ua"
+    ]
+  },
+  {
+    "name": "ІНГ Банк Україна",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.ingcommercialbanking.com"
+    ]
+  },
+  {
+    "name": "ПЕРШИЙ УКРАЇНСЬКИЙ МІЖНАРОДНИЙ БАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.fuib.com"
+    ]
+  },
+  {
+    "name": "ПРИВАТБАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.privatbank.com.ua"
+    ]
+  },
+  {
+    "name": "Комерційний Індустріальний Банк",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.cib.com.ua"
+    ]
+  },
+  {
+    "name": "Земельний Капітал",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.zemcap.dp.ua"
+    ]
+  },
+  {
+    "name": "РАДАБАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.radabank.com.ua"
+    ]
+  },
+  {
+    "name": "Райффайзен Банк Аваль",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.aval.ua"
+    ]
+  },
+  {
+    "name": "ПРАВЕКС-БАНК",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.pravex.com"
+    ]
+  },
+  {
+    "name": "Акціонерний комерційний промислово-інвестиційний банк",
+    "date": "1999-09-02",
+    "site": [
+      "http://www.pib.com.ua"
+    ]
+  },
+  {
+    "name": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+    "date": "2000-08-08",
+    "site": [
+      "http://www.pinbank.ua"
+    ]
+  },
+  {
+    "name": "СІТІБАНК",
+    "date": "2000-11-28",
+    "site": []
+  },
+  {
+    "name": "ПРОКРЕДИТ БАНК",
+    "date": "2001-02-27",
+    "site": [
+      "http://www.procreditbank.com.ua"
+    ]
+  },
+  {
+    "name": "СБЕРБАНК",
+    "date": "2001-10-18",
+    "site": [
+      "https://www.sberbank.ua",
+      "http://sberbank.com.ua"
+    ]
+  },
+  {
+    "name": "КЛІРИНГОВИЙ ДІМ",
+    "date": "2002-02-14",
+    "site": [
+      "http://www.clhs.kiev.ua"
+    ]
+  },
+  {
+    "name": "МІСТО БАНК",
+    "date": "2002-02-28",
+    "site": [
+      "http://www.mistobank.com.ua"
+    ]
+  },
+  {
+    "name": "ЮНЕКС БАНК",
+    "date": "2002-11-05",
+    "site": [
+      "http://www.unexbank.com.ua"
+    ]
+  },
+  {
+    "name": "Банк Восток",
+    "date": "2003-01-21",
+    "site": [
+      "http://www.bankvostok.com.ua"
+    ]
+  },
+  {
+    "name": "Траст-капітал",
+    "date": "2004-04-28",
+    "site": [
+      "http://www.tc-bank.com"
+    ]
+  },
+  {
+    "name": "УКРАЇНСЬКИЙ БУДІВЕЛЬНО-ІНВЕСТИЦІЙНИЙ БАНК",
+    "date": "2004-07-22",
+    "site": [
+      "https://ubib.com.ua",
+      "http://www.uci-bank.com"
+    ]
+  },
+  {
+    "name": "Український банк реконструкції та розвитку",
+    "date": "2004-10-21",
+    "site": [
+      "http://www.ubrr.com.ua"
+    ]
+  },
+  {
+    "name": "ФІНАНСОВА ІНІЦІАТИВА",
+    "date": "2005-05-06",
+    "site": [
+      "http://www.the-bank.com.ua"
+    ]
+  },
+  {
+    "name": "Банк інвестицій та заощаджень",
+    "date": "2005-12-01",
+    "site": [
+      "http://www.bisbank.com.ua"
+    ]
+  },
+  {
+    "name": "БМ БАНК",
+    "date": "2006-03-02",
+    "site": [
+      "http://www.bmbank.com.ua"
+    ]
+  },
+  {
+    "name": "БАНК ФОРВАРД",
+    "date": "2006-05-19",
+    "site": [
+      "http://www.bank-rs.com.ua"
+    ]
+  },
+  {
+    "name": "КОНКОРД",
+    "date": "2007-01-18",
+    "site": [
+      "http://www.concord.ua"
+    ]
+  },
+  {
+    "name": "КРЕДИТ ЄВРОПА БАНК",
+    "date": "2007-01-22",
+    "site": [
+      "http://www.crediteurope.com.ua"
+    ]
+  },
+  {
+    "name": "ВЕСТ ФАЙНЕНС ЕНД КРЕДИТ БАНК",
+    "date": "2007-03-05",
+    "site": [
+      "http://www.creditwest.kiev.ua"
+    ]
+  },
+  {
+    "name": "МОТОР-БАНК",
+    "date": "2008-01-23",
+    "site": [
+      "http://www.motor-bank.com.ua"
+    ]
+  },
+  {
+    "name": "ГЛОБУС",
+    "date": "2008-02-13",
+    "site": [
+      "http://www.globusbank.com.ua"
+    ]
+  },
+  {
+    "name": "АГРОПРОСПЕРІС БАНК",
+    "date": "2008-03-14",
+    "site": [
+      "http://www.ap-bank.com",
+      "http://www.astrabank.ua"
+    ]
+  },
+  {
+    "name": "МІЖНАРОДНИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+    "date": "2008-05-19",
+    "site": [
+      "http://www.ii-bank.com.ua"
+    ]
+  },
+  {
+    "name": "Акордбанк",
+    "date": "2008-08-14",
+    "site": [
+      "http://www.accordbank.com.ua"
+    ]
+  },
+  {
+    "name": "ЄВРОПЕЙСЬКИЙ ПРОМИСЛОВИЙ БАНК",
+    "date": "2008-10-06",
+    "site": [
+      "http://mtb.ua",
+      "http://europrombank.kiev.ua",
+      "http://www.europrombank.com"
+    ]
+  },
+  {
+    "name": "ОКСІ БАНК",
+    "date": "2008-11-03",
+    "site": [
+      "http://www.okcibank.com.ua"
+    ]
+  },
+  {
+    "name": "БАНК 3/4",
+    "date": "2008-11-27",
+    "site": [
+      "http://www.bank34.kiev.ua"
+    ]
+  },
+  {
+    "name": "ВЕРНУМ БАНК",
+    "date": "2009-06-16",
+    "site": [
+      "http://vernumbank.com"
+    ]
+  },
+  {
+    "name": "Дойче Банк ДБУ",
+    "date": "2009-10-12",
+    "site": [
+      "http://www.db.com/ukraine"
+    ]
+  },
+  {
+    "name": "Центр",
+    "date": "2010-08-30",
+    "site": [
+      "http://www.bankcenter.com.ua"
+    ]
+  },
+  {
+    "name": "СЕБ КОРПОРАТИВНИЙ БАНК",
+    "date": "2011-05-06",
+    "site": []
+  },
+  {
+    "name": "БАНК СІЧ",
+    "date": "2011-07-18",
+    "site": [
+      "http://www.sichbank.com.ua"
+    ]
+  },
+  {
+    "name": "АЛЬПАРІ БАНК",
+    "date": "2012-11-06",
+    "site": [
+      "http://www.alpari-bank.com.ua"
+    ]
+  },
+  {
+    "name": "БАНК АВАНГАРД",
+    "date": "2013-07-16",
+    "site": []
+  },
+  {
+    "name": "РОЗРАХУНКОВИЙ ЦЕНТР З ОБСЛУГОВУВАННЯ ДОГОВОРІВ НА ФІНАНСОВИХ РИНКАХ",
+    "date": "2013-09-12",
+    "site": []
+  },
+  {
+    "name": "ПОРТАЛ",
+    "date": "2013-09-26",
+    "site": []
+  },
+  {
+    "name": "КРИСТАЛБАНК",
+    "date": "2014-12-29",
+    "site": [
+      "http://cristalbank.com.ua"
+    ]
+  },
+  {
+    "name": "РВС БАНК",
+    "date": "2015-07-15",
+    "site": []
+  }
+]
