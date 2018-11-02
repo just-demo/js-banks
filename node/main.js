@@ -1,11 +1,11 @@
-let minfin = require('./minfin');
+let mf = require('./minfin');
 let fg = require('./fg');
 let bg = require('./bank.gov');
 let _ = require('lodash');
 let utils = require('./utils');
 let names = require('./names');
 
-fg.saveAll();
+mf.saveAll();
 // bg.saveAll();
 // names.rebuildBankNames();
 
@@ -37,7 +37,7 @@ function compareGovApiBanks() {
 function compareBanks() {
     const bgBanks = bg.getBanks();
     const fgBanks = fg.getBanks();
-    const mfBanks = minfin.getBanks();
+    const mfBanks = mf.getBanks();
     const bgBankIds = Object.keys(bgBanks);
     const fgBankIds = Object.keys(fgBanks);
     const mfBanksIds = Object.keys(mfBanks);

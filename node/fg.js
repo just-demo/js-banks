@@ -53,8 +53,8 @@ module.exports = {
             const name = names.extractBankPureName(matches[2]);
             const link = matches[1];
             const id = this.extractBankId(link);
-            const bankHtml = ext.read('fg/banks/' + id, 'http://www.fg.gov.ua' + link);
-            // TODO: extract data from bankHtml
+            const htmlBank = ext.read('fg/banks/' + id, 'http://www.fg.gov.ua' + link);
+            // TODO: extract data from htmlBank
             banks.push({
                 id: id,
                 name: name,
