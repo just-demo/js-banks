@@ -1,13 +1,13 @@
 let _ = require('lodash');
 
 module.exports = {
-    fetchSingleValue(string, regex, mapping) {
+    findSingleValue(string, regex, mapping) {
         mapping = mapping || 1;
         const matches = regex.exec(string);
         return matches ? matches[mapping] : null;
     },
 
-    fetchManyValue(string, regex, mapping) {
+    findManyValues(string, regex, mapping) {
         mapping = mapping || 1;
         const items = [];
         let matches;
@@ -17,7 +17,7 @@ module.exports = {
         return items;
     },
 
-    fetchManyObject(string, regex, mapping) {
+    findManyObjects(string, regex, mapping) {
         const items = [];
         let matches;
         while ((matches = regex.exec(string))) {
@@ -28,7 +28,7 @@ module.exports = {
         return items;
     },
 
-    fetchManyKeyValue(string, regex, keyMapping, valueMapping) {
+    findManyKeyValue(string, regex, keyMapping, valueMapping) {
         keyMapping = keyMapping || 1;
         valueMapping = valueMapping || 2;
         const items = {};

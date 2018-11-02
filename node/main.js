@@ -5,7 +5,7 @@ let _ = require('lodash');
 let utils = require('./utils');
 let names = require('./names');
 
-mf.saveAll();
+fg.saveAll();
 // bg.saveAll();
 // names.rebuildBankNames();
 

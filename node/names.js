@@ -10,6 +10,10 @@ module.exports = {
         return this.bankNames[name] || name.replace(/\s*-\s*/g, '-');
     },
 
+    siteName(site) {
+        return site.replace(/(?<!:|:\/)\/(?!ukraine$).*/g, '');
+    },
+
     rebuildBankNames() {
         const names = [];
         int.read('bg/banks').forEach(bank => {

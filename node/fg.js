@@ -4,6 +4,7 @@ let ext = require('./external');
 let int = require('./internal');
 let dates = require('./dates');
 let assert = require('./assert');
+let regex = require('./regex');
 
 module.exports = {
     // https://www.bank.gov.ua/control/bankdict/banks
@@ -29,43 +30,33 @@ module.exports = {
 
     saveActiveBanks() {
         const html = ext.read('fg/banks-active', 'http://www.fg.gov.ua/uchasnyky-fondu');
-        const banks = [];
-        const regex = /<tr.*?>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>([\S\s]*?)<\/td>\s+?<\/tr>/g;
-        let matches;
-        while ((matches = regex.exec(html))) {
-            banks.push({
-                name: names.extractBankPureName(matches[2]),
-                date: dates.format(matches[4]),
-                site: this.extractBankPureSites(matches[7]),
-            });
-        }
-        const manySites = banks.filter(bank => bank.site.length > 1);
-        assert.false('Many sites', manySites.length, manySites);
+        const banks = regex.findManyObjects(html, /<tr.*?>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>([\S\s]*?)<\/td>\s+?<\/tr>/g, {
+            name: 2, date: 4, site: 7
+        }).map(bank => {
+            return {
+                name: names.extractBankPureName(bank.name),
+                date: dates.format(bank.date),
+                site: this.extractBankPureSites(bank.site)
+            };
+        });
+        banks.forEach(bank => assert.false('Many sites', bank.site.length > 1, bank.name, bank.site));
         int.write('fg/banks-active', banks);
     },
 
     saveNotPayingBanks() {
         const html = ext.read('fg/banks-not-paying', 'http://www.fg.gov.ua/not-paying');
-        const banks = [];
-        const regex = /<h3 class="item-title"><a href="(\/.+?\/.+?\/.+?)">[\S\s]+?(.+?)<\/a>/g;
-        let matches;
-        while ((matches = regex.exec(html))) {
-            const name = names.extractBankPureName(matches[2]);
-            const link = matches[1];
-            const id = this.extractBankId(link);
-            const htmlBank = ext.read('fg/banks/' + id, 'http://www.fg.gov.ua' + link);
+        const banks = regex.findManyObjects(html, /<h3 class="item-title"><a href="(\/.+?\/.+?\/(\d+?)-.+?)">[\S\s]+?(.+?)<\/a>/g, {
+            link: 1, id: 2, name: 3
+        }).map(bank => {
+            const htmlBank = ext.read('fg/banks/' + bank.id, 'http://www.fg.gov.ua' + bank.link);
             // TODO: extract data from htmlBank
-            banks.push({
-                id: id,
-                name: name,
-                link: link
-            });
-        }
+            return {
+                id: parseInt(bank.id),
+                name: names.extractBankPureName(bank.name),
+                link: bank.link
+            };
+        });
         int.write('fg/banks-not-paying', banks);
-    },
-
-    extractBankId(link) {
-        return parseInt(link.match(/.*\/(\d+)-.*/)[1]);
     },
 
     extractBankPureSites(bankFullSite) {
@@ -73,36 +64,24 @@ module.exports = {
             .replace(/&nbsp;/g, '')
             .replace(/<strong>([^<]*)<\/strong>/g, '$1')
             .trim();
-        if (!bankFullSite) {
+        if (!assert.true('Site is empty', bankFullSite)) {
             return [];
         }
 
-        let sites = new Set();
-        let matches;
-        const regex = /href="(.+?)"|(http[^"<\s]+)|[^/](www[^"<\s]+)/g;
-        while ((matches = regex.exec(bankFullSite))) {
-            let site = matches[1] || matches[2] || matches[3];
-            site = site.replace(/(?<!:|:\/)\/(?!ukraine$).*/g, '');
-            sites.add(site);
+        const sites = this.removeDuplicateSites(regex.findManyObjects(bankFullSite, /href="(.+?)"|(http[^"<\s]+)|[^/](www[^"<\s]+)/g, {
+            href: 1, http: 2, www: 3
+        }).map(sites => names.siteName(sites.href || sites.http || sites.www)));
+
+        if (!assert.true('No site matches', sites.length, bankFullSite)) {
+            return sites.add(bankFullSite);
         }
 
-        sites = this.removeDuplicateSites(sites);
-
-        // TODO: use assert ???
-        if (!sites.size) {
-            console.log('No matches', bankFullSite);
-            sites.add(bankFullSite);
-        }
-
-        if (sites.size > 1) {
-            console.log(bankFullSite);
-            console.log(sites);
-        }
-
-        return Array.from(sites);
+        assert.false('Many site matches', sites.length > 1, bankFullSite, sites);
+        return sites;
     },
 
     removeDuplicateSites(sites) {
+        sites = new Set(sites);
         const result = new Set(sites);
         sites.forEach(site => {
             const isDuplicate = ['https', 'http']
@@ -115,6 +94,6 @@ module.exports = {
                 result.delete(site);
             }
         });
-        return result;
+        return Array.from(result);
     }
 };
