@@ -58,7 +58,6 @@ module.exports = {
         this.saveBanksDBF();
         this.saveBanksAPI();
         this.saveBanks();
-        this.saveBankDetails();
     },
 
     saveBanksDBF() {
@@ -115,28 +114,21 @@ module.exports = {
             return regex.findManyObjects(html, /<tr>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<\/tr>/g, {
                 link: 1, date: 4
             }).map(bank => {
-                const linkInfo = regex.findObject(bank.link.trim(), /<a href=".*?(\d+)">\s*(.+?)\s*<\/a>/, {
-                    id: 1, name: 2
-                });
+                const linkInfo = regex.findObject(bank.link.trim(), /<a href=".*?(\d+)">\s*(.+?)\s*<\/a>/, {id: 1, name: 2});
+                const id = linkInfo.id;
+                const name = this.extractBankPureNameSPC(linkInfo.name);
+                const bankHtml = ext.read('nbu/banks/' + id, 'https://bank.gov.ua/control/uk/bankdict/bank?id=' + id);
+                const fullName = this.extractBankPureNameSPC(bankHtml.match(/<td.*?>Назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
+                const shortName = this.extractBankPureNameSPC(bankHtml.match(/<td.*?>Коротка назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
+                assert.equals('Short name mismatch', name, shortName);
                 return {
-                    id: linkInfo.id,
-                    name: this.extractBankPureNameSPC(linkInfo.name),
+                    id: id,
+                    name: name,
+                    fullName: fullName,
                     date: dates.format(bank.date)
                 };
             });
         }));
-        int.write('nbu/banks', banks);
-    },
-
-    saveBankDetails() {
-        const banks = int.read('nbu/banks');
-        banks.forEach(bank => {
-            const html = ext.read('nbu/banks/' + bank.id, 'https://bank.gov.ua/control/uk/bankdict/bank?id=' + bank.id);
-            const fullName = this.extractBankPureNameSPC(html.match(/<td.*?>Назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
-            const shortName = this.extractBankPureNameSPC(html.match(/<td.*?>Коротка назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
-            assert.equals('Short name mismatch', bank.name, shortName);
-            bank.fullName = fullName;
-        });
         int.write('nbu/banks', banks);
     },
 
