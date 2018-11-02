@@ -30,7 +30,7 @@ module.exports = {
 
     getBanksAPI() {
         const banks = {};
-        int.read('nbu/api/banks').forEach(record => {
+        int.read('nbu/banks-api').forEach(record => {
             const name = names.bankName(names.extractBankPureName(record['SHORTNAME']));
             assert.false('Duplicate bank name', banks[name], name);
             banks[name] = {
@@ -46,7 +46,7 @@ module.exports = {
 
     getBanksDBF() {
         const banks = {};
-        int.read('nbu/dbf/banks').forEach(bank => {
+        int.read('nbu/banks-dbf').forEach(bank => {
             bank.name = names.bankName(bank.name);
             assert.false('Duplicate bank name', banks[bank.name], bank.name);
             banks[bank.name] = bank;
@@ -93,14 +93,14 @@ module.exports = {
                 active: record['REESTR'].toUpperCase() !== 'Л'
             };
         });
-        int.write('nbu/dbf/banks', banks);
+        int.write('nbu/banks-dbf', banks);
     },
 
     saveBanksAPI() {
-        const xml = ext.read('nbu/api/banks', 'https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251');
+        const xml = ext.read('nbu/banks-api', 'https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251');
         const json = convert.xml2js(xml, {compact: true});
         const banks = json['BANKBRANCH']['ROW'].map(row => _.forOwn(row, (value, key) => row[key] = value['_text'] || value['_cdata']));
-        int.write('nbu/api/banks', banks);
+        int.write('nbu/banks-api', banks);
     },
 
     saveBanks() {
