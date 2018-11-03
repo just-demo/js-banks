@@ -28,6 +28,7 @@ module.exports = {
                 names.push(Array.from(sameNames));
             }
         });
+        names.sort((a, b) => a[0] > b[0] ? 1 : a[0] < b[0] ? -1 : 0);
         int.write('names/banks', names);
     },
 
