@@ -18,7 +18,7 @@ module.exports = {
     // https://bank.gov.ua/control/uk/publish/article?art_id=38441973&cat_id=38459171#get_data_branch
     // https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0&json
     // TODO: merge with getBanksAPI amd getBanksDBF ???
-    getBanks() {
+    getBanksUI() {
         const banks = {};
         int.read('nbu/banks').forEach(bank => {
             bank.name = names.bankName(bank.name);

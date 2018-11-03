@@ -1,98 +1,110 @@
-let bg = require('./source-nbu');
-let fg = require('./source-fund');
-let mf = require('./source-minfin');
+let nbu = require('./source-nbu');
+let fund = require('./source-fund');
+let minfin = require('./source-minfin');
 let _ = require('lodash');
 let utils = require('./utils');
 let names = require('./names');
+let assert = require('./assert');
 
-bg.saveAll();
-fg.saveAll();
-mf.saveAll();
-names.rebuildBankNames();
+// nbu.saveAll();
+// fund.saveAll();
+// minfin.saveAll();
+// names.rebuildBankNames();
+
+compareGovBanks();
 
 function compareGovApiBanks() {
-    const dbfBanks = bg.getBanksDBF();
-    const apiBanks = bg.getBanksAPI();
+    const dbfBanks = nbu.getBanksDBF();
+    const apiBanks = nbu.getBanksAPI();
     const dbfBankIds = Object.keys(dbfBanks);
     const apiBankIds = Object.keys(apiBanks);
-    console.log(dbfBankIds.length);
-    console.log(apiBankIds.length);
-    console.log(_.intersection(dbfBankIds, apiBankIds).length);
-    console.log(_.union(dbfBankIds, apiBankIds).length);
+    console.log('DBF:', dbfBankIds.length);
+    console.log('API:', apiBankIds.length);
+    console.log('Intersection:', _.intersection(dbfBankIds, apiBankIds).length);
+    console.log('Union:', _.union(dbfBankIds, apiBankIds).length);
     _.union(dbfBankIds, apiBankIds).forEach(id => {
-        // TODO: need id?
-        // if (dbfBanks[id].id !== apiBanks[id].id) {
-        //     console.log('Id mismatch: ', id, dbfBanks[id].id, apiBanks[id].id);
-        // }
-        if (dbfBanks[id].active !== apiBanks[id].active) {
-            // TODO: ФІНАНСОВА ІНІЦІАТИВА ???
-            console.log('Active mismatch: ', id, dbfBanks[id].active, apiBanks[id].active);
-        }
-        if (dbfBanks[id].dateOpen !== apiBanks[id].dateOpen) {
-            // TODO: compare with bg.getBanks()...name
-            console.log('DateOpen mismatch: ', id, dbfBanks[id].dateOpen, apiBanks[id].dateOpen);
-        }
+        // TODO: ФІНАНСОВА ІНІЦІАТИВА, ВІЕС БАНК, ЦЕНТР ???
+        assert.equals('Active mismatch - ' + id, dbfBanks[id] && dbfBanks[id].active, apiBanks[id] && apiBanks[id].active);
+        // TODO: compare with nbu.getBanks()...name
+        assert.equals('DateOpen mismatch - ' + id, dbfBanks[id] && dbfBanks[id].dateOpen, apiBanks[id] && apiBanks[id].dateOpen);
     });
-}
-
-function compareBanks() {
-    const bgBanks = bg.getBanks();
-    const fgBanks = fg.getBanks();
-    const mfBanks = mf.getBanks();
-    const bgBankIds = Object.keys(bgBanks);
-    const fgBankIds = Object.keys(fgBanks);
-    const mfBanksIds = Object.keys(mfBanks);
-    console.log(bgBankIds.length);
-    console.log(fgBankIds.length);
-    console.log(mfBanksIds.length);
-    console.log(_.intersection(bgBankIds, fgBankIds, mfBanksIds).length);
-    console.log(_.union(bgBankIds, fgBankIds, mfBanksIds).length);
-
-    const banks = _.union(bgBankIds, fgBankIds, mfBanksIds).sort().map(id => {
-        return {
-            id: id,
-            bg: (bgBanks[id] || {}).name,
-            fg: (fgBanks[id] || {}).name,
-            mf: mfBanks[id],
-            site: (fgBanks[id] || {}).site
-        };
-    });
-
-    utils.writeFile('../public/banks.json', utils.toJson(banks));
 }
 
 function compareGovBanks() {
-    const dbfBanks = bg.getBanksDBF();
-    const bgBanks = bg.getBanks();
-    const fgBanks = fg.getBanks();
-    //     _.pickBy(fg.getBanks(), function(bank, id) {
-    //     return !bank.link;
-    // });
+    const dbfBanks = nbu.getBanksDBF();
+    const apiBanks = nbu.getBanksAPI();
+    const nbuBanks = nbu.getBanksUI();
+    const fundBanks = fund.getBanks();
 
     const dbfBankIds = Object.keys(dbfBanks);
-    const bgBankIds = Object.keys(bgBanks);
-    const fgBankIds = Object.keys(fgBanks);
-    console.log(dbfBankIds.length);
-    console.log(bgBankIds.length);
-    console.log(fgBankIds.length);
-    console.log(_.intersection(dbfBankIds, bgBankIds, fgBankIds).length);
-    console.log(_.union(dbfBankIds, bgBankIds, fgBankIds).length);
+    const apiBankIds = Object.keys(apiBanks);
+    const nbuBankIds = Object.keys(nbuBanks);
+    const fundBankIds = Object.keys(fundBanks);
+    console.log('DBF:', dbfBankIds.length);
+    console.log('API:', apiBankIds.length);
+    console.log('NBU UI:', nbuBankIds.length);
+    console.log('FUND:', fundBankIds.length);
+    console.log('Intersection:', _.intersection(dbfBankIds, apiBankIds, nbuBankIds, fundBankIds).length);
+    console.log('Union:', _.union(dbfBankIds, apiBankIds, nbuBankIds, fundBankIds).length);
 
-    const banks = _.union(dbfBankIds, bgBankIds, fgBankIds).sort().map(id => {
+    const banks = _.union(dbfBankIds, apiBankIds, nbuBankIds, fundBankIds).sort().map(id => {
         const bank = {
             id: id,
-            active: (dbfBanks[id] || {}).active,
-            fgActive: (fgBanks[id] || {}).active,
-            dbf: (dbfBanks[id] || {}).name,
-            bg: (bgBanks[id] || {}).name,
-            fg: (fgBanks[id] || {}).name
+            name: {
+                dbf: (dbfBanks[id] || {}).name,
+                api: (apiBanks[id] || {}).name,
+                nbu: (nbuBanks[id] || {}).name,
+                fund: (fundBanks[id] || {}).name
+            },
+            active: {
+                dbf: (dbfBanks[id] || {}).active,
+                api: (apiBanks[id] || {}).active,
+                fund: (fundBanks[id] || {}).active
+            },
+            dateOpen: {
+                dbf: (dbfBanks[id] || {}).dateOpen,
+                api: (apiBanks[id] || {}).dateOpen,
+                nbu: (nbuBanks[id] || {}).date
+            },
+            site: {
+                fund: (fundBanks[id] || {}).site
+            }
         };
-        if (typeof(bank.active) === typeof(bank.fgActive) && bank.active !== bank.fgActive) {
-            console.log('Active mismatch:', id, bank.active, bank.fgActive);
-        }
-
+        assert.equals('Name mismatch - ' + id + ' - ' + JSON.stringify(bank.name), ...definedValues(bank.name));
+        assert.equals('Active mismatch - ' + id + ' - ' + JSON.stringify(bank.active), ...definedValues(bank.active));
+        assert.equals('DateOpen mismatch - ' + id + ' - ' + JSON.stringify(bank.dateOpen), ...definedValues(bank.dateOpen));
         return bank;
     });
 
     utils.writeFile('../public/banks.gov.json', utils.toJson(banks));
+}
+
+function definedValues(object) {
+    return Object.values(object).filter(value => !_.isUndefined(value));
+}
+
+function compareBanks() {
+    const nbBanks = nbu.getBanks();
+    const fundBanks = fund.getBanks();
+    const mfBanks = minfin.getBanks();
+    const nbBankIds = Object.keys(nbBanks);
+    const fundBankIds = Object.keys(fundBanks);
+    const mfBanksIds = Object.keys(mfBanks);
+    console.log(nbBankIds.length);
+    console.log(fundBankIds.length);
+    console.log(mfBanksIds.length);
+    console.log(_.intersection(nbBankIds, fundBankIds, mfBanksIds).length);
+    console.log(_.union(nbBankIds, fundBankIds, mfBanksIds).length);
+
+    const banks = _.union(nbBankIds, fundBankIds, mfBanksIds).sort().map(id => {
+        return {
+            id: id,
+            nb: (nbBanks[id] || {}).name,
+            fd: (fundBanks[id] || {}).name,
+            mf: mfBanks[id],
+            site: (fundBanks[id] || {}).site
+        };
+    });
+
+    utils.writeFile('../public/banks.json', utils.toJson(banks));
 }

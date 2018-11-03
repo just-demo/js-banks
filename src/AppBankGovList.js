@@ -8,8 +8,10 @@ class AppBankGovList extends Component {
         super(props);
         this.state = {
             filter: {
-                red: true,
                 green: true,
+                blue: true,
+                red: true,
+                pink: true,
                 orange: true,
                 yellow: true
             },
@@ -47,15 +49,20 @@ class AppBankGovList extends Component {
                     <tr>
                         <th>Active</th>
                         <th><a href="https://bank.gov.ua/control/uk/bankdict/search">RCUCRU.dbf</a></th>
+                        <th><a
+                            href="https://bank.gov.ua/control/uk/publish/article?art_id=38441973&cat_id=38459171#get_data_branch">NBU
+                            API</a></th>
                         <th><a href="https://bank.gov.ua">bank.gov.ua</a></th>
                         <th><a href="http://www.fg.gov.ua">www.fg.gov.ua</a></th>
                     </tr>
                     {this.state.banks.map(bank => (
                         <tr key={bank.id} style={this.styleForBank(bank)}>
-                            <td>{bank.active ? 'Yes' : 'No'}</td>
-                            <td>{bank.dbf}</td>
-                            <td>{bank.bg}</td>
-                            <td>{bank.fg}</td>
+                            {/*TODO: style for active if there is a mismatch*/}
+                            <td>{this.allTrue(bank.active) ? 'Yes' : 'No'}</td>
+                            <td>{bank.name.dbf}</td>
+                            <td>{bank.name.api}</td>
+                            <td>{bank.name.nbu}</td>
+                            <td>{bank.name.fund}</td>
                         </tr>
                     ))}
                     </tbody>
@@ -64,16 +71,38 @@ class AppBankGovList extends Component {
         );
     }
 
+    allTrue(object) {
+        // TODO: do really need to specify predicate a function? isn't default enough?
+        return _.every(Object.values(object), value => value);
+    }
+
+    // allEquals(object) {
+    //     // TODO: do really need to specify predicate a function? isn't default enough?
+    //     return new Set(Object.values(object)).size <= 1;
+    // }
+
     styleForBank(bank) {
         let color;
-        if (bank.dbf && bank.bg && bank.fg) {
+        const allNames = 4;
+        const withNames = Object.keys(bank.name).filter(key => bank.name[key]);
+        const theOnlyMismatch = key => {
+            return (withNames.length === 1 && withNames.includes(key)) ||
+                (withNames.length === allNames - 1 && !withNames.includes(key))
+        };
+
+        // TODO: highlight cells instead of rows
+        if (withNames.length === allNames) {
             color = 'green';
-        } else if (bank.dbf && bank.active) {
+        } else if (theOnlyMismatch('dbf')) {
             color = 'red';
-        } else if (bank.dbf) {
+        } else if (theOnlyMismatch('api')) {
+            color = 'pink';
+        } else if (theOnlyMismatch('nbu')) {
             color = 'orange';
-        } else {
+        } else if (theOnlyMismatch('fund')) {
             color = 'yellow';
+        } else {
+            color = 'blue';
         }
 
         const style = {

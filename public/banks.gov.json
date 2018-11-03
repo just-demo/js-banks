@@ -1,1479 +1,3468 @@
 [
   {
     "id": "IНТЕРКОНТИНЕНТБАНК",
-    "fgActive": false,
-    "fg": "IНТЕРКОНТИНЕНТБАНК"
+    "name": {
+      "fund": "IНТЕРКОНТИНЕНТБАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "ЄВРОБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ЄВРОБАНК",
-    "fg": "ЄВРОБАНК"
+    "name": {
+      "dbf": "ЄВРОБАНК",
+      "api": "ЄВРОБАНК",
+      "fund": "ЄВРОБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2005-01-18",
+      "api": "2005-01-18"
+    }
   },
   {
     "id": "ЄВРОГАЗБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ЄВРОГАЗБАНК",
-    "fg": "ЄВРОГАЗБАНК"
+    "name": {
+      "dbf": "ЄВРОГАЗБАНК",
+      "api": "ЄВРОГАЗБАНК",
+      "fund": "ЄВРОГАЗБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2006-10-17",
+      "api": "2006-10-17"
+    }
   },
   {
     "id": "ЄВРОПЕЙСЬКИЙ",
-    "fgActive": false,
-    "fg": "ЄВРОПЕЙСЬКИЙ"
+    "name": {
+      "fund": "ЄВРОПЕЙСЬКИЙ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ",
-    "fgActive": false,
-    "fg": "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ"
+    "name": {
+      "fund": "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "ЄПБ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ЄПБ",
-    "bg": "ЄПБ",
-    "fg": "ЄПБ"
+    "name": {
+      "dbf": "ЄПБ",
+      "api": "ЄПБ",
+      "nbu": "ЄПБ",
+      "fund": "ЄПБ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2008-08-13",
+      "api": "2008-08-13",
+      "nbu": "2008-08-13"
+    }
   },
   {
     "id": "ІДЕЯ БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ІДЕЯ БАНК",
-    "bg": "ІДЕЯ БАНК",
-    "fg": "ІДЕЯ БАНК"
+    "name": {
+      "dbf": "ІДЕЯ БАНК",
+      "api": "ІДЕЯ БАНК",
+      "nbu": "ІДЕЯ БАНК",
+      "fund": "ІДЕЯ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-22",
+      "api": "1991-10-22",
+      "nbu": "1991-10-22"
+    }
   },
   {
     "id": "ІМЕКСБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ІМЕКСБАНК",
-    "fg": "ІМЕКСБАНК"
+    "name": {
+      "dbf": "ІМЕКСБАНК",
+      "api": "ІМЕКСБАНК",
+      "fund": "ІМЕКСБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1994-03-29",
+      "api": "1994-03-29"
+    }
   },
   {
     "id": "ІНВЕСТБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ІНВЕСТБАНК",
-    "fg": "ІНВЕСТБАНК"
+    "name": {
+      "dbf": "ІНВЕСТБАНК",
+      "api": "ІНВЕСТБАНК",
+      "fund": "ІНВЕСТБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-03-31",
+      "api": "1992-03-31"
+    }
   },
   {
     "id": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
-    "active": false,
-    "dbf": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК"
+    "name": {
+      "dbf": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
+      "api": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false
+    },
+    "dateOpen": {
+      "dbf": "2013-08-30",
+      "api": "2013-08-30"
+    }
   },
   {
     "id": "ІНГ БАНК УКРАЇНА",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ІНГ БАНК УКРАЇНА",
-    "bg": "ІНГ БАНК УКРАЇНА",
-    "fg": "ІНГ БАНК УКРАЇНА"
+    "name": {
+      "dbf": "ІНГ БАНК УКРАЇНА",
+      "api": "ІНГ БАНК УКРАЇНА",
+      "nbu": "ІНГ БАНК УКРАЇНА",
+      "fund": "ІНГ БАНК УКРАЇНА"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1997-12-15",
+      "api": "1997-12-15",
+      "nbu": "1997-12-15"
+    }
   },
   {
     "id": "ІНДУСТРІАЛБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ІНДУСТРІАЛБАНК",
-    "bg": "ІНДУСТРІАЛБАНК",
-    "fg": "ІНДУСТРІАЛБАНК"
+    "name": {
+      "dbf": "ІНДУСТРІАЛБАНК",
+      "api": "ІНДУСТРІАЛБАНК",
+      "nbu": "ІНДУСТРІАЛБАНК",
+      "fund": "ІНДУСТРІАЛБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-16",
+      "api": "1991-10-16",
+      "nbu": "1991-10-16"
+    }
   },
   {
     "id": "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК",
-    "fgActive": false,
-    "fg": "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК"
+    "name": {
+      "fund": "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "ІНТЕГРАЛ-БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ІНТЕГРАЛ-БАНК",
-    "fg": "ІНТЕГРАЛ-БАНК"
+    "name": {
+      "dbf": "ІНТЕГРАЛ-БАНК",
+      "api": "ІНТЕГРАЛ-БАНК",
+      "fund": "ІНТЕГРАЛ-БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1994-09-30",
+      "api": "1994-09-30"
+    }
   },
   {
     "id": "ІНТЕРБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ІНТЕРБАНК",
-    "fg": "ІНТЕРБАНК"
+    "name": {
+      "dbf": "ІНТЕРБАНК",
+      "api": "ІНТЕРБАНК",
+      "fund": "ІНТЕРБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-03-23",
+      "api": "1992-03-23"
+    }
   },
   {
     "id": "ІНТЕРКРЕДИТБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ІНТЕРКРЕДИТБАНК",
-    "fg": "ІНТЕРКРЕДИТБАНК"
+    "name": {
+      "dbf": "ІНТЕРКРЕДИТБАНК",
+      "api": "ІНТЕРКРЕДИТБАНК",
+      "fund": "ІНТЕРКРЕДИТБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2011-06-14",
+      "api": "2011-06-14"
+    }
   },
   {
     "id": "ІПОБАНК",
-    "fgActive": false,
-    "fg": "ІПОБАНК"
+    "name": {
+      "fund": "ІПОБАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "А - БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "А - БАНК",
-    "bg": "А - БАНК",
-    "fg": "А - БАНК"
+    "name": {
+      "dbf": "А - БАНК",
+      "api": "А - БАНК",
+      "nbu": "А - БАНК",
+      "fund": "А - БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-10-30",
+      "api": "1992-10-30",
+      "nbu": "1992-10-30"
+    }
   },
   {
     "id": "АВАНТ-БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "АВАНТ-БАНК",
-    "fg": "АВАНТ-БАНК"
+    "name": {
+      "dbf": "АВАНТ-БАНК",
+      "api": "АВАНТ-БАНК",
+      "fund": "АВАНТ-БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2009-03-05",
+      "api": "2009-03-05"
+    }
   },
   {
     "id": "АЙБОКС БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "АЙБОКС БАНК",
-    "bg": "АЙБОКС БАНК",
-    "fg": "АЙБОКС БАНК"
+    "name": {
+      "dbf": "АЙБОКС БАНК",
+      "api": "АЙБОКС БАНК",
+      "nbu": "АЙБОКС БАНК",
+      "fund": "АЙБОКС БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-12-24",
+      "api": "1993-12-24",
+      "nbu": "1993-12-24"
+    }
   },
   {
     "id": "АКБ БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "АКБ БАНК",
-    "fg": "АКБ БАНК"
+    "name": {
+      "dbf": "АКБ БАНК",
+      "api": "АКБ БАНК",
+      "fund": "АКБ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-07-07",
+      "api": "1993-07-07"
+    }
   },
   {
     "id": "АКОРДБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "АКОРДБАНК",
-    "bg": "АКОРДБАНК",
-    "fg": "АКОРДБАНК"
+    "name": {
+      "dbf": "АКОРДБАНК",
+      "api": "АКОРДБАНК",
+      "nbu": "АКОРДБАНК",
+      "fund": "АКОРДБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2008-06-04",
+      "api": "2008-06-04",
+      "nbu": "2008-06-04"
+    }
   },
   {
     "id": "АКСІОМА",
-    "active": false,
-    "fgActive": false,
-    "dbf": "АКСІОМА",
-    "fg": "АКСІОМА"
+    "name": {
+      "dbf": "АКСІОМА",
+      "api": "АКСІОМА",
+      "fund": "АКСІОМА"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2006-01-10",
+      "api": "2006-01-10"
+    }
   },
   {
     "id": "АКТАБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "АКТАБАНК",
-    "fg": "АКТАБАНК"
+    "name": {
+      "dbf": "АКТАБАНК",
+      "api": "АКТАБАНК",
+      "fund": "АКТАБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2008-04-23",
+      "api": "2008-04-23"
+    }
   },
   {
-    "id": "АКТИВ-БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "АКТИВ-БАНК",
-    "fg": "АКТИВ-БАНК"
+    "id": "АКТИВ - БАНК",
+    "name": {
+      "dbf": "АКТИВ - БАНК",
+      "api": "АКТИВ - БАНК",
+      "fund": "АКТИВ - БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2002-08-06",
+      "api": "2002-08-06"
+    }
   },
   {
     "id": "АЛЛОНЖ",
-    "fgActive": false,
-    "fg": "АЛЛОНЖ"
+    "name": {
+      "fund": "АЛЛОНЖ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "АЛЬПАРІ БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "АЛЬПАРІ БАНК",
-    "bg": "АЛЬПАРІ БАНК",
-    "fg": "АЛЬПАРІ БАНК"
+    "name": {
+      "dbf": "АЛЬПАРІ БАНК",
+      "api": "АЛЬПАРІ БАНК",
+      "nbu": "АЛЬПАРІ БАНК",
+      "fund": "АЛЬПАРІ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2012-10-26",
+      "api": "2012-10-26",
+      "nbu": "2012-10-26"
+    }
   },
   {
     "id": "АЛЬТБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "АЛЬТБАНК",
-    "bg": "АЛЬТБАНК",
-    "fg": "АЛЬТБАНК"
+    "name": {
+      "dbf": "АЛЬТБАНК",
+      "api": "АЛЬТБАНК",
+      "nbu": "АЛЬТБАНК",
+      "fund": "АЛЬТБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-21",
+      "api": "1991-10-21",
+      "nbu": "1991-10-21"
+    }
   },
   {
     "id": "АЛЬФА-БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "АЛЬФА-БАНК",
-    "bg": "АЛЬФА-БАНК",
-    "fg": "АЛЬФА-БАНК"
+    "name": {
+      "dbf": "АЛЬФА-БАНК",
+      "api": "АЛЬФА-БАНК",
+      "nbu": "АЛЬФА-БАНК",
+      "fund": "АЛЬФА-БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-03-24",
+      "api": "1993-03-24",
+      "nbu": "1993-03-24"
+    }
   },
   {
     "id": "АП БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "АП БАНК",
-    "bg": "АП БАНК",
-    "fg": "АП БАНК"
+    "name": {
+      "dbf": "АП БАНК",
+      "api": "АП БАНК",
+      "nbu": "АП БАНК",
+      "fund": "АП БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2007-11-28",
+      "api": "2007-11-28",
+      "nbu": "2007-11-28"
+    }
   },
   {
     "id": "АРКАДА",
-    "active": true,
-    "fgActive": true,
-    "dbf": "АРКАДА",
-    "bg": "АРКАДА",
-    "fg": "АРКАДА"
+    "name": {
+      "dbf": "АРКАДА",
+      "api": "АРКАДА",
+      "nbu": "АРКАДА",
+      "fund": "АРКАДА"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-06-23",
+      "api": "1993-06-23",
+      "nbu": "1993-06-23"
+    }
   },
   {
     "id": "АРМА",
-    "fgActive": false,
-    "fg": "АРМА"
+    "name": {
+      "fund": "АРМА"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "АРТЕМ-БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "АРТЕМ-БАНК",
-    "fg": "АРТЕМ-БАНК"
+    "name": {
+      "dbf": "АРТЕМ-БАНК",
+      "api": "АРТЕМ-БАНК",
+      "fund": "АРТЕМ-БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2002-08-06",
+      "api": "2002-08-06"
+    }
   },
   {
     "id": "АСВІО БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "АСВІО БАНК",
-    "bg": "АСВІО БАНК",
-    "fg": "АСВІО БАНК"
+    "name": {
+      "dbf": "АСВІО БАНК",
+      "api": "АСВІО БАНК",
+      "nbu": "АСВІО БАНК",
+      "fund": "АСВІО БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-30",
+      "api": "1991-10-30",
+      "nbu": "1991-10-30"
+    }
   },
   {
     "id": "АСТРА БАНК",
-    "fgActive": false,
-    "fg": "АСТРА БАНК"
+    "name": {
+      "fund": "АСТРА БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "БІГ ЕНЕРГІЯ",
-    "fgActive": false,
-    "fg": "БІГ ЕНЕРГІЯ"
+    "name": {
+      "fund": "БІГ ЕНЕРГІЯ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "БАЗИС",
-    "fgActive": false,
-    "fg": "БАЗИС"
+    "name": {
+      "fund": "БАЗИС"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "БАНК 3/4",
-    "active": true,
-    "fgActive": true,
-    "dbf": "БАНК 3/4",
-    "bg": "БАНК 3/4",
-    "fg": "БАНК 3/4"
+    "name": {
+      "dbf": "БАНК 3/4",
+      "api": "БАНК 3/4",
+      "nbu": "БАНК 3/4",
+      "fund": "БАНК 3/4"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2008-07-25",
+      "api": "2008-07-25",
+      "nbu": "2008-07-25"
+    }
   },
   {
     "id": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
-    "bg": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
-    "fg": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ"
+    "name": {
+      "dbf": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
+      "api": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
+      "nbu": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
+      "fund": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2005-08-09",
+      "api": "2005-08-09",
+      "nbu": "2005-08-09"
+    }
   },
   {
     "id": "БАНК АВАНГАРД",
-    "active": true,
-    "fgActive": true,
-    "dbf": "БАНК АВАНГАРД",
-    "bg": "БАНК АВАНГАРД",
-    "fg": "БАНК АВАНГАРД"
+    "name": {
+      "dbf": "БАНК АВАНГАРД",
+      "api": "БАНК АВАНГАРД",
+      "nbu": "БАНК АВАНГАРД",
+      "fund": "БАНК АВАНГАРД"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2013-07-05",
+      "api": "2013-07-05",
+      "nbu": "2013-07-05"
+    }
   },
   {
     "id": "БАНК АЛЬЯНС",
-    "active": true,
-    "fgActive": true,
-    "dbf": "БАНК АЛЬЯНС",
-    "bg": "БАНК АЛЬЯНС",
-    "fg": "БАНК АЛЬЯНС"
+    "name": {
+      "dbf": "БАНК АЛЬЯНС",
+      "api": "БАНК АЛЬЯНС",
+      "nbu": "БАНК АЛЬЯНС",
+      "fund": "БАНК АЛЬЯНС"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-03-10",
+      "api": "1992-03-10",
+      "nbu": "1992-03-10"
+    }
   },
   {
     "id": "БАНК БОГУСЛАВ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "БАНК БОГУСЛАВ",
-    "fg": "БАНК БОГУСЛАВ"
+    "name": {
+      "dbf": "БАНК БОГУСЛАВ",
+      "api": "БАНК БОГУСЛАВ",
+      "fund": "БАНК БОГУСЛАВ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2006-08-04",
+      "api": "2006-08-04"
+    }
   },
   {
     "id": "БАНК ВЕЛЕС",
-    "active": false,
-    "fgActive": false,
-    "dbf": "БАНК ВЕЛЕС",
-    "fg": "БАНК ВЕЛЕС"
+    "name": {
+      "dbf": "БАНК ВЕЛЕС",
+      "api": "БАНК ВЕЛЕС",
+      "fund": "БАНК ВЕЛЕС"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1994-03-18",
+      "api": "1994-03-18"
+    }
   },
   {
     "id": "БАНК ВОСТОК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "БАНК ВОСТОК",
-    "bg": "БАНК ВОСТОК",
-    "fg": "БАНК ВОСТОК"
+    "name": {
+      "dbf": "БАНК ВОСТОК",
+      "api": "БАНК ВОСТОК",
+      "nbu": "БАНК ВОСТОК",
+      "fund": "БАНК ВОСТОК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2002-10-17",
+      "api": "2002-10-17",
+      "nbu": "2002-10-17"
+    }
   },
   {
     "id": "БАНК ЗОЛОТІ ВОРОТА",
-    "active": false,
-    "fgActive": false,
-    "dbf": "БАНК ЗОЛОТІ ВОРОТА",
-    "fg": "БАНК ЗОЛОТІ ВОРОТА"
+    "name": {
+      "dbf": "БАНК ЗОЛОТІ ВОРОТА",
+      "api": "БАНК ЗОЛОТІ ВОРОТА",
+      "fund": "БАНК ЗОЛОТІ ВОРОТА"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-08-18",
+      "api": "1993-08-18"
+    }
   },
   {
     "id": "БАНК КАМБІО",
-    "active": false,
-    "fgActive": false,
-    "dbf": "БАНК КАМБІО",
-    "fg": "БАНК КАМБІО"
+    "name": {
+      "dbf": "БАНК КАМБІО",
+      "api": "БАНК КАМБІО",
+      "fund": "БАНК КАМБІО"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2004-06-30",
+      "api": "2004-06-30"
+    }
   },
   {
     "id": "БАНК КРЕДИТ ДНІПРО",
-    "active": true,
-    "fgActive": true,
-    "dbf": "БАНК КРЕДИТ ДНІПРО",
-    "bg": "БАНК КРЕДИТ ДНІПРО",
-    "fg": "БАНК КРЕДИТ ДНІПРО"
+    "name": {
+      "dbf": "БАНК КРЕДИТ ДНІПРО",
+      "api": "БАНК КРЕДИТ ДНІПРО",
+      "nbu": "БАНК КРЕДИТ ДНІПРО",
+      "fund": "БАНК КРЕДИТ ДНІПРО"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-07-07",
+      "api": "1993-07-07",
+      "nbu": "1993-07-07"
+    }
   },
   {
     "id": "БАНК МИХАЙЛІВСЬКИЙ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "БАНК МИХАЙЛІВСЬКИЙ",
-    "fg": "БАНК МИХАЙЛІВСЬКИЙ"
+    "name": {
+      "dbf": "БАНК МИХАЙЛІВСЬКИЙ",
+      "api": "БАНК МИХАЙЛІВСЬКИЙ",
+      "fund": "БАНК МИХАЙЛІВСЬКИЙ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2013-06-14",
+      "api": "2013-06-14"
+    }
   },
   {
     "id": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
-    "fg": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ"
+    "name": {
+      "dbf": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
+      "api": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
+      "fund": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1996-01-31",
+      "api": "1996-01-31"
+    }
   },
   {
     "id": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
-    "active": false,
-    "fgActive": false,
-    "dbf": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
-    "fg": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА"
+    "name": {
+      "dbf": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
+      "api": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
+      "fund": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1996-09-26",
+      "api": "1996-09-26"
+    }
   },
   {
     "id": "БАНК РЕГІОНАЛЬНОГО РОЗВИТКУ",
-    "fgActive": false,
-    "fg": "БАНК РЕГІОНАЛЬНОГО РОЗВИТКУ"
+    "name": {
+      "fund": "БАНК РЕГІОНАЛЬНОГО РОЗВИТКУ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "БАНК СІЧ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "БАНК СІЧ",
-    "bg": "БАНК СІЧ",
-    "fg": "БАНК СІЧ"
+    "name": {
+      "dbf": "БАНК СІЧ",
+      "api": "БАНК СІЧ",
+      "nbu": "БАНК СІЧ",
+      "fund": "БАНК СІЧ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2011-05-24",
+      "api": "2011-05-24",
+      "nbu": "2011-05-24"
+    }
   },
   {
     "id": "БАНК ФАМІЛЬНИЙ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "БАНК ФАМІЛЬНИЙ",
-    "bg": "БАНК ФАМІЛЬНИЙ",
-    "fg": "БАНК ФАМІЛЬНИЙ"
+    "name": {
+      "dbf": "БАНК ФАМІЛЬНИЙ",
+      "api": "БАНК ФАМІЛЬНИЙ",
+      "nbu": "БАНК ФАМІЛЬНИЙ",
+      "fund": "БАНК ФАМІЛЬНИЙ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-12-27",
+      "api": "1991-12-27",
+      "nbu": "1991-12-27"
+    }
   },
   {
     "id": "БАНК ФОРВАРД",
-    "active": true,
-    "fgActive": true,
-    "dbf": "БАНК ФОРВАРД",
-    "bg": "БАНК ФОРВАРД",
-    "fg": "БАНК ФОРВАРД"
+    "name": {
+      "dbf": "БАНК ФОРВАРД",
+      "api": "БАНК ФОРВАРД",
+      "nbu": "БАНК ФОРВАРД",
+      "fund": "БАНК ФОРВАРД"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2006-02-28",
+      "api": "2006-02-28",
+      "nbu": "2006-02-28"
+    }
   },
   {
     "id": "БАНК ФОРУМ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "БАНК ФОРУМ",
-    "fg": "БАНК ФОРУМ"
+    "name": {
+      "dbf": "БАНК ФОРУМ",
+      "api": "БАНК ФОРУМ",
+      "fund": "БАНК ФОРУМ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1994-01-31",
+      "api": "1994-01-31"
+    }
   },
   {
     "id": "БГ БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "БГ БАНК",
-    "fg": "БГ БАНК"
+    "name": {
+      "dbf": "БГ БАНК",
+      "api": "БГ БАНК",
+      "fund": "БГ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1994-01-26",
+      "api": "1994-01-26"
+    }
   },
   {
     "id": "БМ БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "БМ БАНК",
-    "bg": "БМ БАНК",
-    "fg": "БМ БАНК"
+    "name": {
+      "dbf": "БМ БАНК",
+      "api": "БМ БАНК",
+      "nbu": "БМ БАНК",
+      "fund": "БМ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2005-12-08",
+      "api": "2005-12-08",
+      "nbu": "2005-12-08"
+    }
   },
   {
     "id": "БРОКБІЗНЕСБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "БРОКБІЗНЕСБАНК",
-    "fg": "БРОКБІЗНЕСБАНК"
+    "name": {
+      "dbf": "БРОКБІЗНЕСБАНК",
+      "api": "БРОКБІЗНЕСБАНК",
+      "fund": "БРОКБІЗНЕСБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-07",
+      "api": "1991-10-07"
+    }
   },
   {
     "id": "БТА БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "БТА БАНК",
-    "bg": "БТА БАНК",
-    "fg": "БТА БАНК"
+    "name": {
+      "dbf": "БТА БАНК",
+      "api": "БТА БАНК",
+      "nbu": "БТА БАНК",
+      "fund": "БТА БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-12-10",
+      "api": "1992-12-10",
+      "nbu": "1992-12-10"
+    }
   },
   {
     "id": "ВІЕЙБІ БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ВІЕЙБІ БАНК",
-    "fg": "ВІЕЙБІ БАНК"
+    "name": {
+      "dbf": "ВІЕЙБІ БАНК",
+      "api": "ВІЕЙБІ БАНК",
+      "fund": "ВІЕЙБІ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-07-02",
+      "api": "1992-07-02"
+    }
   },
   {
     "id": "ВІЕС БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ВІЕС БАНК",
-    "bg": "ВІЕС БАНК",
-    "fg": "ВІЕС БАНК"
+    "name": {
+      "dbf": "ВІЕС БАНК",
+      "fund": "ВІЕС БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-10"
+    }
   },
   {
     "id": "ВБР",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ВБР",
-    "fg": "ВБР"
+    "name": {
+      "dbf": "ВБР",
+      "api": "ВБР",
+      "fund": "ВБР"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2009-04-30",
+      "api": "2009-04-30"
+    }
   },
   {
     "id": "ВЕКТОР БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ВЕКТОР БАНК",
-    "fg": "ВЕКТОР БАНК"
+    "name": {
+      "dbf": "ВЕКТОР БАНК",
+      "api": "ВЕКТОР БАНК",
+      "fund": "ВЕКТОР БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2014-01-31",
+      "api": "2014-01-31"
+    }
   },
   {
     "id": "ВЕРНУМ БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ВЕРНУМ БАНК",
-    "bg": "ВЕРНУМ БАНК",
-    "fg": "ВЕРНУМ БАНК"
+    "name": {
+      "dbf": "ВЕРНУМ БАНК",
+      "api": "ВЕРНУМ БАНК",
+      "nbu": "ВЕРНУМ БАНК",
+      "fund": "ВЕРНУМ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2009-02-17",
+      "api": "2009-02-17",
+      "nbu": "2009-02-17"
+    }
   },
   {
     "id": "ВОЛОДИМИРСЬКИЙ",
-    "fgActive": false,
-    "fg": "ВОЛОДИМИРСЬКИЙ"
+    "name": {
+      "fund": "ВОЛОДИМИРСЬКИЙ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "ВТБ БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ВТБ БАНК",
-    "bg": "ВТБ БАНК",
-    "fg": "ВТБ БАНК"
+    "name": {
+      "dbf": "ВТБ БАНК",
+      "api": "ВТБ БАНК",
+      "nbu": "ВТБ БАНК",
+      "fund": "ВТБ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-11-11",
+      "api": "1992-11-11",
+      "nbu": "1992-11-11"
+    }
   },
   {
     "id": "ГАРАНТ",
-    "fgActive": false,
-    "fg": "ГАРАНТ"
+    "name": {
+      "fund": "ГАРАНТ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "ГЕФЕСТ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ГЕФЕСТ",
-    "fg": "ГЕФЕСТ"
+    "name": {
+      "dbf": "ГЕФЕСТ",
+      "api": "ГЕФЕСТ",
+      "fund": "ГЕФЕСТ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2013-10-04",
+      "api": "2013-10-04"
+    }
   },
   {
     "id": "ГЛОБУС",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ГЛОБУС",
-    "bg": "ГЛОБУС",
-    "fg": "ГЛОБУС"
+    "name": {
+      "dbf": "ГЛОБУС",
+      "api": "ГЛОБУС",
+      "nbu": "ГЛОБУС",
+      "fund": "ГЛОБУС"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2007-11-29",
+      "api": "2007-11-29",
+      "nbu": "2007-11-29"
+    }
   },
   {
     "id": "ГРІН БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ГРІН БАНК",
-    "fg": "ГРІН БАНК"
+    "name": {
+      "dbf": "ГРІН БАНК",
+      "api": "ГРІН БАНК",
+      "fund": "ГРІН БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-01-09",
+      "api": "1992-01-09"
+    }
   },
   {
     "id": "ГРАНТ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ГРАНТ",
-    "bg": "ГРАНТ",
-    "fg": "ГРАНТ"
+    "name": {
+      "dbf": "ГРАНТ",
+      "api": "ГРАНТ",
+      "nbu": "ГРАНТ",
+      "fund": "ГРАНТ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-29",
+      "api": "1991-10-29",
+      "nbu": "1991-10-29"
+    }
   },
   {
     "id": "ДІАЛОГБАНК",
-    "fgActive": false,
-    "fg": "ДІАЛОГБАНК"
+    "name": {
+      "fund": "ДІАЛОГБАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "ДІАМАНТБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ДІАМАНТБАНК",
-    "fg": "ДІАМАНТБАНК"
+    "name": {
+      "dbf": "ДІАМАНТБАНК",
+      "api": "ДІАМАНТБАНК",
+      "fund": "ДІАМАНТБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-11-17",
+      "api": "1993-11-17"
+    }
   },
   {
     "id": "ДАНІЕЛЬ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ДАНІЕЛЬ",
-    "fg": "ДАНІЕЛЬ"
+    "name": {
+      "dbf": "ДАНІЕЛЬ",
+      "api": "ДАНІЕЛЬ",
+      "fund": "ДАНІЕЛЬ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2003-11-27",
+      "api": "2003-11-27"
+    }
   },
   {
     "id": "ДЕЛЬТА БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ДЕЛЬТА БАНК",
-    "fg": "ДЕЛЬТА БАНК"
+    "name": {
+      "dbf": "ДЕЛЬТА БАНК",
+      "api": "ДЕЛЬТА БАНК",
+      "fund": "ДЕЛЬТА БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2006-02-15",
+      "api": "2006-02-15"
+    }
   },
   {
     "id": "ДЕМАРК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ДЕМАРК",
-    "fg": "ДЕМАРК"
+    "name": {
+      "dbf": "ДЕМАРК",
+      "api": "ДЕМАРК",
+      "fund": "ДЕМАРК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-07-10",
+      "api": "1992-07-10"
+    }
   },
   {
     "id": "ДЕРЖЗЕМБАНК",
-    "fgActive": false,
-    "fg": "ДЕРЖЗЕМБАНК"
+    "name": {
+      "fund": "ДЕРЖЗЕМБАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "ДНІСТЕР",
-    "fgActive": false,
-    "fg": "ДНІСТЕР"
+    "name": {
+      "fund": "ДНІСТЕР"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "ДОЙЧЕ БАНК ДБУ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ДОЙЧЕ БАНК ДБУ",
-    "bg": "ДОЙЧЕ БАНК ДБУ",
-    "fg": "ДОЙЧЕ БАНК ДБУ"
+    "name": {
+      "dbf": "ДОЙЧЕ БАНК ДБУ",
+      "api": "ДОЙЧЕ БАНК ДБУ",
+      "nbu": "ДОЙЧЕ БАНК ДБУ",
+      "fund": "ДОЙЧЕ БАНК ДБУ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2009-06-19",
+      "api": "2009-06-19",
+      "nbu": "2009-06-19"
+    }
   },
   {
     "id": "ЕКСПОБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ЕКСПОБАНК",
-    "fg": "ЕКСПОБАНК"
+    "name": {
+      "dbf": "ЕКСПОБАНК",
+      "api": "ЕКСПОБАНК",
+      "fund": "ЕКСПОБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-12-26",
+      "api": "1991-12-26"
+    }
   },
   {
     "id": "ЕНЕРГОБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ЕНЕРГОБАНК",
-    "fg": "ЕНЕРГОБАНК"
+    "name": {
+      "dbf": "ЕНЕРГОБАНК",
+      "api": "ЕНЕРГОБАНК",
+      "fund": "ЕНЕРГОБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-31",
+      "api": "1991-10-31"
+    }
   },
   {
     "id": "ЕРДЕ БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ЕРДЕ БАНК",
-    "fg": "ЕРДЕ БАНК"
+    "name": {
+      "dbf": "ЕРДЕ БАНК",
+      "api": "ЕРДЕ БАНК",
+      "fund": "ЕРДЕ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2006-12-28",
+      "api": "2006-12-28"
+    }
   },
   {
     "id": "ЗАХІДІНКОМБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ЗАХІДІНКОМБАНК",
-    "fg": "ЗАХІДІНКОМБАНК"
+    "name": {
+      "dbf": "ЗАХІДІНКОМБАНК",
+      "api": "ЗАХІДІНКОМБАНК",
+      "fund": "ЗАХІДІНКОМБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-03-11",
+      "api": "1993-03-11"
+    }
   },
   {
     "id": "ЗЕМЕЛЬНИЙ БАНК",
-    "fgActive": false,
-    "fg": "ЗЕМЕЛЬНИЙ БАНК"
+    "name": {
+      "fund": "ЗЕМЕЛЬНИЙ БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
-    "bg": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
-    "fg": "ЗЕМЕЛЬНИЙ КАПІТАЛ"
+    "name": {
+      "dbf": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
+      "api": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
+      "nbu": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
+      "fund": "ЗЕМЕЛЬНИЙ КАПІТАЛ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1994-01-31",
+      "api": "1994-01-31",
+      "nbu": "1994-01-31"
+    }
   },
   {
     "id": "ЗЛАТОБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ЗЛАТОБАНК",
-    "fg": "ЗЛАТОБАНК"
+    "name": {
+      "dbf": "ЗЛАТОБАНК",
+      "api": "ЗЛАТОБАНК",
+      "fund": "ЗЛАТОБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2008-05-16",
+      "api": "2008-05-16"
+    }
   },
   {
     "id": "КІБ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "КІБ",
-    "bg": "КІБ",
-    "fg": "КІБ"
+    "name": {
+      "dbf": "КІБ",
+      "api": "КІБ",
+      "nbu": "КІБ",
+      "fund": "КІБ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-12-03",
+      "api": "1993-12-03",
+      "nbu": "1993-12-03"
+    }
   },
   {
     "id": "КАПІТАЛ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "КАПІТАЛ",
-    "fg": "КАПІТАЛ"
+    "name": {
+      "dbf": "КАПІТАЛ",
+      "api": "КАПІТАЛ",
+      "fund": "КАПІТАЛ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-31",
+      "api": "1991-10-31"
+    }
   },
   {
     "id": "КБ ПРИЧОРНОМОР’Я",
-    "fgActive": false,
-    "fg": "КБ ПРИЧОРНОМОР’Я"
+    "name": {
+      "fund": "КБ ПРИЧОРНОМОР’Я"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "КИЇВ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "КИЇВ",
-    "fg": "КИЇВ"
+    "name": {
+      "dbf": "КИЇВ",
+      "api": "КИЇВ",
+      "fund": "КИЇВ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-05-19",
+      "api": "1993-05-19"
+    }
   },
   {
     "id": "КИЇВСЬКА РУСЬ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "КИЇВСЬКА РУСЬ",
-    "fg": "КИЇВСЬКА РУСЬ"
+    "name": {
+      "dbf": "КИЇВСЬКА РУСЬ",
+      "api": "КИЇВСЬКА РУСЬ",
+      "fund": "КИЇВСЬКА РУСЬ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1996-05-30",
+      "api": "1996-05-30"
+    }
   },
   {
     "id": "КИЇВСЬКИЙ УНIВЕРСАЛЬНИЙ БАНК",
-    "fgActive": false,
-    "fg": "КИЇВСЬКИЙ УНIВЕРСАЛЬНИЙ БАНК"
+    "name": {
+      "fund": "КИЇВСЬКИЙ УНIВЕРСАЛЬНИЙ БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "КЛІРИНГОВИЙ ДІМ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "КЛІРИНГОВИЙ ДІМ",
-    "bg": "КЛІРИНГОВИЙ ДІМ",
-    "fg": "КЛІРИНГОВИЙ ДІМ"
+    "name": {
+      "dbf": "КЛІРИНГОВИЙ ДІМ",
+      "api": "КЛІРИНГОВИЙ ДІМ",
+      "nbu": "КЛІРИНГОВИЙ ДІМ",
+      "fund": "КЛІРИНГОВИЙ ДІМ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1996-12-30",
+      "api": "1996-12-30",
+      "nbu": "1996-12-30"
+    }
   },
   {
     "id": "КЛАСИКБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "КЛАСИКБАНК",
-    "fg": "КЛАСИКБАНК"
+    "name": {
+      "dbf": "КЛАСИКБАНК",
+      "api": "КЛАСИКБАНК",
+      "fund": "КЛАСИКБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1995-10-06",
+      "api": "1995-10-06"
+    }
   },
   {
     "id": "КОМІНВЕСТБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "КОМІНВЕСТБАНК",
-    "bg": "КОМІНВЕСТБАНК",
-    "fg": "КОМІНВЕСТБАНК"
+    "name": {
+      "dbf": "КОМІНВЕСТБАНК",
+      "api": "КОМІНВЕСТБАНК",
+      "nbu": "КОМІНВЕСТБАНК",
+      "fund": "КОМІНВЕСТБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-12-16",
+      "api": "1992-12-16",
+      "nbu": "1992-12-16"
+    }
   },
   {
     "id": "КОНКОРД",
-    "active": true,
-    "fgActive": true,
-    "dbf": "КОНКОРД",
-    "bg": "КОНКОРД",
-    "fg": "КОНКОРД"
+    "name": {
+      "dbf": "КОНКОРД",
+      "api": "КОНКОРД",
+      "nbu": "КОНКОРД",
+      "fund": "КОНКОРД"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2006-08-07",
+      "api": "2006-08-07",
+      "nbu": "2006-08-07"
+    }
   },
   {
     "id": "КОНТРАКТ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "КОНТРАКТ",
-    "fg": "КОНТРАКТ"
+    "name": {
+      "dbf": "КОНТРАКТ",
+      "api": "КОНТРАКТ",
+      "fund": "КОНТРАКТ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-05-18",
+      "api": "1993-05-18"
+    }
   },
   {
     "id": "КРЕДІ АГРІКОЛЬ БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "КРЕДІ АГРІКОЛЬ БАНК",
-    "bg": "КРЕДІ АГРІКОЛЬ БАНК",
-    "fg": "КРЕДІ АГРІКОЛЬ БАНК"
+    "name": {
+      "dbf": "КРЕДІ АГРІКОЛЬ БАНК",
+      "api": "КРЕДІ АГРІКОЛЬ БАНК",
+      "nbu": "КРЕДІ АГРІКОЛЬ БАНК",
+      "fund": "КРЕДІ АГРІКОЛЬ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-02-10",
+      "api": "1993-02-10",
+      "nbu": "1993-02-10"
+    }
   },
   {
     "id": "КРЕДИТ ЄВРОПА БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "КРЕДИТ ЄВРОПА БАНК",
-    "bg": "КРЕДИТ ЄВРОПА БАНК",
-    "fg": "КРЕДИТ ЄВРОПА БАНК"
+    "name": {
+      "dbf": "КРЕДИТ ЄВРОПА БАНК",
+      "api": "КРЕДИТ ЄВРОПА БАНК",
+      "nbu": "КРЕДИТ ЄВРОПА БАНК",
+      "fund": "КРЕДИТ ЄВРОПА БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2006-08-28",
+      "api": "2006-08-28",
+      "nbu": "2006-08-28"
+    }
   },
   {
     "id": "КРЕДИТВЕСТ БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "КРЕДИТВЕСТ БАНК",
-    "bg": "КРЕДИТВЕСТ БАНК",
-    "fg": "КРЕДИТВЕСТ БАНК"
+    "name": {
+      "dbf": "КРЕДИТВЕСТ БАНК",
+      "api": "КРЕДИТВЕСТ БАНК",
+      "nbu": "КРЕДИТВЕСТ БАНК",
+      "fund": "КРЕДИТВЕСТ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2006-10-04",
+      "api": "2006-10-04",
+      "nbu": "2006-10-04"
+    }
   },
   {
     "id": "КРЕДИТПРОМБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "КРЕДИТПРОМБАНК",
-    "fg": "КРЕДИТПРОМБАНК"
+    "name": {
+      "dbf": "КРЕДИТПРОМБАНК",
+      "api": "КРЕДИТПРОМБАНК",
+      "fund": "КРЕДИТПРОМБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1997-05-20",
+      "api": "1997-05-20"
+    }
   },
   {
     "id": "КРЕДОБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "КРЕДОБАНК",
-    "bg": "КРЕДОБАНК",
-    "fg": "КРЕДОБАНК"
+    "name": {
+      "dbf": "КРЕДОБАНК",
+      "api": "КРЕДОБАНК",
+      "nbu": "КРЕДОБАНК",
+      "fund": "КРЕДОБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-03-31",
+      "api": "1992-03-31",
+      "nbu": "1992-03-31"
+    }
   },
   {
     "id": "КРИСТАЛБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "КРИСТАЛБАНК",
-    "bg": "КРИСТАЛБАНК",
-    "fg": "КРИСТАЛБАНК"
+    "name": {
+      "dbf": "КРИСТАЛБАНК",
+      "api": "КРИСТАЛБАНК",
+      "nbu": "КРИСТАЛБАНК",
+      "fund": "КРИСТАЛБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2014-12-16",
+      "api": "2014-12-16",
+      "nbu": "2014-12-16"
+    }
   },
   {
     "id": "КСГ БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "КСГ БАНК",
-    "fg": "КСГ БАНК"
+    "name": {
+      "dbf": "КСГ БАНК",
+      "api": "КСГ БАНК",
+      "fund": "КСГ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-11-24",
+      "api": "1993-11-24"
+    }
   },
   {
     "id": "ЛЕГБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ЛЕГБАНК",
-    "fg": "ЛЕГБАНК"
+    "name": {
+      "dbf": "ЛЕГБАНК",
+      "api": "ЛЕГБАНК",
+      "fund": "ЛЕГБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-08",
+      "api": "1991-10-08"
+    }
   },
   {
     "id": "ЛЬВІВ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ЛЬВІВ",
-    "bg": "ЛЬВІВ",
-    "fg": "ЛЬВІВ"
+    "name": {
+      "dbf": "ЛЬВІВ",
+      "api": "ЛЬВІВ",
+      "nbu": "ЛЬВІВ",
+      "fund": "ЛЬВІВ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-14",
+      "api": "1991-10-14",
+      "nbu": "1991-10-14"
+    }
   },
   {
     "id": "МІБ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "МІБ",
-    "bg": "МІБ",
-    "fg": "МІБ"
+    "name": {
+      "dbf": "МІБ",
+      "api": "МІБ",
+      "nbu": "МІБ",
+      "fund": "МІБ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2008-03-11",
+      "api": "2008-03-11",
+      "nbu": "2008-03-11"
+    }
   },
   {
     "id": "МІСТО БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "МІСТО БАНК",
-    "bg": "МІСТО БАНК",
-    "fg": "МІСТО БАНК"
+    "name": {
+      "dbf": "МІСТО БАНК",
+      "api": "МІСТО БАНК",
+      "nbu": "МІСТО БАНК",
+      "fund": "МІСТО БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-07-23",
+      "api": "1993-07-23",
+      "nbu": "1993-07-23"
+    }
   },
   {
     "id": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
-    "fg": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК"
+    "name": {
+      "dbf": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
+      "api": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
+      "fund": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2006-05-06",
+      "api": "2006-05-06"
+    }
   },
   {
     "id": "МЕГАБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "МЕГАБАНК",
-    "bg": "МЕГАБАНК",
-    "fg": "МЕГАБАНК"
+    "name": {
+      "dbf": "МЕГАБАНК",
+      "api": "МЕГАБАНК",
+      "nbu": "МЕГАБАНК",
+      "fund": "МЕГАБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-28",
+      "api": "1991-10-28",
+      "nbu": "1991-10-28"
+    }
   },
   {
     "id": "МЕЛІОР БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "МЕЛІОР БАНК",
-    "fg": "МЕЛІОР БАНК"
+    "name": {
+      "dbf": "МЕЛІОР БАНК",
+      "api": "МЕЛІОР БАНК",
+      "fund": "МЕЛІОР БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2012-02-24",
+      "api": "2012-02-24"
+    }
   },
   {
     "id": "МЕРКУРІЙ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "МЕРКУРІЙ",
-    "fg": "МЕРКУРІЙ"
+    "name": {
+      "dbf": "МЕРКУРІЙ",
+      "api": "МЕРКУРІЙ",
+      "fund": "МЕРКУРІЙ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-11-18",
+      "api": "1992-11-18"
+    }
   },
   {
     "id": "МЕТАБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "МЕТАБАНК",
-    "bg": "МЕТАБАНК",
-    "fg": "МЕТАБАНК"
+    "name": {
+      "dbf": "МЕТАБАНК",
+      "api": "МЕТАБАНК",
+      "nbu": "МЕТАБАНК",
+      "fund": "МЕТАБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-07-12",
+      "api": "1993-07-12",
+      "nbu": "1993-07-12"
+    }
   },
   {
     "id": "МОРСЬКИЙ",
-    "fgActive": false,
-    "fg": "МОРСЬКИЙ"
+    "name": {
+      "fund": "МОРСЬКИЙ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "МОТОР-БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "МОТОР-БАНК",
-    "bg": "МОТОР-БАНК",
-    "fg": "МОТОР-БАНК"
+    "name": {
+      "dbf": "МОТОР-БАНК",
+      "api": "МОТОР-БАНК",
+      "nbu": "МОТОР-БАНК",
+      "fund": "МОТОР-БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2007-08-10",
+      "api": "2007-08-10",
+      "nbu": "2007-08-10"
+    }
   },
   {
     "id": "МТБ БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "МТБ БАНК",
-    "bg": "МТБ БАНК",
-    "fg": "МТБ БАНК"
+    "name": {
+      "dbf": "МТБ БАНК",
+      "api": "МТБ БАНК",
+      "nbu": "МТБ БАНК",
+      "fund": "МТБ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-11-05",
+      "api": "1993-11-05",
+      "nbu": "1993-11-05"
+    }
   },
   {
     "id": "НАДРА",
-    "active": false,
-    "fgActive": false,
-    "dbf": "НАДРА",
-    "fg": "НАДРА"
+    "name": {
+      "dbf": "НАДРА",
+      "api": "НАДРА",
+      "fund": "НАДРА"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-10-26",
+      "api": "1993-10-26"
+    }
   },
   {
     "id": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
-    "fg": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ"
+    "name": {
+      "dbf": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
+      "api": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
+      "fund": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-11-09",
+      "api": "1993-11-09"
+    }
   },
   {
     "id": "НАЦІОНАЛЬНИЙ СТАНДАРТ",
-    "fgActive": false,
-    "fg": "НАЦІОНАЛЬНИЙ СТАНДАРТ"
+    "name": {
+      "fund": "НАЦІОНАЛЬНИЙ СТАНДАРТ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "НАШ БАНК",
-    "fgActive": false,
-    "fg": "НАШ БАНК"
+    "name": {
+      "fund": "НАШ БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "НК БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "НК БАНК",
-    "fg": "НК БАНК"
+    "name": {
+      "dbf": "НК БАНК",
+      "api": "НК БАНК",
+      "fund": "НК БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-09-21",
+      "api": "1993-09-21"
+    }
   },
   {
     "id": "НОВИЙ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "НОВИЙ",
-    "fg": "НОВИЙ"
+    "name": {
+      "dbf": "НОВИЙ",
+      "api": "НОВИЙ",
+      "fund": "НОВИЙ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-04-06",
+      "api": "1992-04-06"
+    }
   },
   {
     "id": "ОДЕСА-БАНК",
-    "fgActive": false,
-    "fg": "ОДЕСА-БАНК"
+    "name": {
+      "fund": "ОДЕСА-БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "ОКСІ БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ОКСІ БАНК",
-    "bg": "ОКСІ БАНК",
-    "fg": "ОКСІ БАНК"
+    "name": {
+      "dbf": "ОКСІ БАНК",
+      "api": "ОКСІ БАНК",
+      "nbu": "ОКСІ БАНК",
+      "fund": "ОКСІ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-14",
+      "api": "1991-10-14",
+      "nbu": "1991-10-14"
+    }
   },
   {
     "id": "ОЛБАНК",
-    "fgActive": false,
-    "fg": "ОЛБАНК"
+    "name": {
+      "fund": "ОЛБАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "ОМЕГА БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ОМЕГА БАНК",
-    "fg": "ОМЕГА БАНК"
+    "name": {
+      "dbf": "ОМЕГА БАНК",
+      "api": "ОМЕГА БАНК",
+      "fund": "ОМЕГА БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-31",
+      "api": "1991-10-31"
+    }
   },
   {
     "id": "ОТП БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ОТП БАНК",
-    "bg": "ОТП БАНК",
-    "fg": "ОТП БАНК"
+    "name": {
+      "dbf": "ОТП БАНК",
+      "api": "ОТП БАНК",
+      "nbu": "ОТП БАНК",
+      "fund": "ОТП БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1998-03-02",
+      "api": "1998-03-02",
+      "nbu": "1998-03-02"
+    }
   },
   {
     "id": "ОЩАДБАНК",
-    "active": true,
-    "dbf": "ОЩАДБАНК",
-    "bg": "ОЩАДБАНК"
+    "name": {
+      "dbf": "ОЩАДБАНК",
+      "api": "ОЩАДБАНК",
+      "nbu": "ОЩАДБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true
+    },
+    "dateOpen": {
+      "dbf": "1991-12-31",
+      "api": "1991-12-31",
+      "nbu": "1991-12-31"
+    }
   },
   {
     "id": "ПІВДЕНКОМБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ПІВДЕНКОМБАНК",
-    "fg": "ПІВДЕНКОМБАНК"
+    "name": {
+      "dbf": "ПІВДЕНКОМБАНК",
+      "api": "ПІВДЕНКОМБАНК",
+      "fund": "ПІВДЕНКОМБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-03",
+      "api": "1991-10-03"
+    }
   },
   {
     "id": "ПІВДЕННИЙ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ПІВДЕННИЙ",
-    "bg": "ПІВДЕННИЙ",
-    "fg": "ПІВДЕННИЙ"
+    "name": {
+      "dbf": "ПІВДЕННИЙ",
+      "api": "ПІВДЕННИЙ",
+      "nbu": "ПІВДЕННИЙ",
+      "fund": "ПІВДЕННИЙ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-12-03",
+      "api": "1993-12-03",
+      "nbu": "1993-12-03"
+    }
   },
   {
     "id": "ПІРЕУС БАНК МКБ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ПІРЕУС БАНК МКБ",
-    "bg": "ПІРЕУС БАНК МКБ",
-    "fg": "ПІРЕУС БАНК МКБ"
+    "name": {
+      "dbf": "ПІРЕУС БАНК МКБ",
+      "api": "ПІРЕУС БАНК МКБ",
+      "nbu": "ПІРЕУС БАНК МКБ",
+      "fund": "ПІРЕУС БАНК МКБ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1994-01-31",
+      "api": "1994-01-31",
+      "nbu": "1994-01-31"
+    }
   },
   {
     "id": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
-    "bg": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
-    "fg": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК"
-  },
-  {
-    "id": "ПЛАТИНУМ БАНК",
-    "fgActive": false,
-    "fg": "ПЛАТИНУМ БАНК"
+    "name": {
+      "dbf": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+      "api": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+      "nbu": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+      "fund": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1997-06-20",
+      "api": "1997-06-20",
+      "nbu": "1997-06-20"
+    }
   },
   {
     "id": "ПОЛІКОМБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ПОЛІКОМБАНК",
-    "bg": "ПОЛІКОМБАНК",
-    "fg": "ПОЛІКОМБАНК"
+    "name": {
+      "dbf": "ПОЛІКОМБАНК",
+      "api": "ПОЛІКОМБАНК",
+      "nbu": "ПОЛІКОМБАНК",
+      "fund": "ПОЛІКОМБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1994-08-18",
+      "api": "1994-08-18",
+      "nbu": "1994-08-18"
+    }
   },
   {
     "id": "ПОЛТАВА-БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ПОЛТАВА-БАНК",
-    "bg": "ПОЛТАВА-БАНК",
-    "fg": "ПОЛТАВА-БАНК"
+    "name": {
+      "dbf": "ПОЛТАВА-БАНК",
+      "api": "ПОЛТАВА-БАНК",
+      "nbu": "ПОЛТАВА-БАНК",
+      "fund": "ПОЛТАВА-БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-16",
+      "api": "1991-10-16",
+      "nbu": "1991-10-16"
+    }
   },
   {
     "id": "ПОРТАЛ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ПОРТАЛ",
-    "bg": "ПОРТАЛ",
-    "fg": "ПОРТАЛ"
+    "name": {
+      "dbf": "ПОРТАЛ",
+      "api": "ПОРТАЛ",
+      "nbu": "ПОРТАЛ",
+      "fund": "ПОРТАЛ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2013-09-20",
+      "api": "2013-09-20",
+      "nbu": "2013-09-20"
+    }
   },
   {
     "id": "ПОРТО-ФРАНКО",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ПОРТО-ФРАНКО",
-    "fg": "ПОРТО-ФРАНКО"
+    "name": {
+      "dbf": "ПОРТО-ФРАНКО",
+      "api": "ПОРТО-ФРАНКО",
+      "fund": "ПОРТО-ФРАНКО"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-17",
+      "api": "1991-10-17"
+    }
   },
   {
     "id": "ПРАВЕКС БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ПРАВЕКС БАНК",
-    "bg": "ПРАВЕКС БАНК",
-    "fg": "ПРАВЕКС БАНК"
+    "name": {
+      "dbf": "ПРАВЕКС БАНК",
+      "api": "ПРАВЕКС БАНК",
+      "nbu": "ПРАВЕКС БАНК",
+      "fund": "ПРАВЕКС БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-12-29",
+      "api": "1992-12-29",
+      "nbu": "1992-12-29"
+    }
   },
   {
-    "id": "ПРАЙМ-БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ПРАЙМ-БАНК",
-    "fg": "ПРАЙМ-БАНК"
+    "id": "ПРАЙМ - БАНК",
+    "name": {
+      "dbf": "ПРАЙМ - БАНК",
+      "api": "ПРАЙМ - БАНК",
+      "fund": "ПРАЙМ - БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2001-07-30",
+      "api": "2001-07-30"
+    }
   },
   {
     "id": "ПРЕМ'ЄРБАНК",
-    "fgActive": false,
-    "fg": "ПРЕМ'ЄРБАНК"
+    "name": {
+      "fund": "ПРЕМ'ЄРБАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "ПРЕМІУМ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ПРЕМІУМ",
-    "fg": "ПРЕМІУМ"
+    "name": {
+      "dbf": "ПРЕМІУМ",
+      "api": "ПРЕМІУМ",
+      "fund": "ПРЕМІУМ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2007-07-24",
+      "api": "2007-07-24"
+    }
   },
   {
     "id": "ПРИВАТБАНК",
-    "active": true,
-    "fgActive": false,
-    "dbf": "ПРИВАТБАНК",
-    "bg": "ПРИВАТБАНК",
-    "fg": "ПРИВАТБАНК"
+    "name": {
+      "dbf": "ПРИВАТБАНК",
+      "api": "ПРИВАТБАНК",
+      "nbu": "ПРИВАТБАНК",
+      "fund": "ПРИВАТБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-03-19",
+      "api": "1992-03-19",
+      "nbu": "1992-03-19"
+    }
   },
   {
     "id": "ПРОКРЕДИТ БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ПРОКРЕДИТ БАНК",
-    "bg": "ПРОКРЕДИТ БАНК",
-    "fg": "ПРОКРЕДИТ БАНК"
+    "name": {
+      "dbf": "ПРОКРЕДИТ БАНК",
+      "api": "ПРОКРЕДИТ БАНК",
+      "nbu": "ПРОКРЕДИТ БАНК",
+      "fund": "ПРОКРЕДИТ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2000-12-28",
+      "api": "2000-12-28",
+      "nbu": "2000-12-28"
+    }
   },
   {
     "id": "ПРОМІНВЕСТБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ПРОМІНВЕСТБАНК",
-    "bg": "ПРОМІНВЕСТБАНК",
-    "fg": "ПРОМІНВЕСТБАНК"
+    "name": {
+      "dbf": "ПРОМІНВЕСТБАНК",
+      "api": "ПРОМІНВЕСТБАНК",
+      "nbu": "ПРОМІНВЕСТБАНК",
+      "fund": "ПРОМІНВЕСТБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-08-26",
+      "api": "1992-08-26",
+      "nbu": "1992-08-26"
+    }
   },
   {
     "id": "ПРОМЕКОНОМБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ПРОМЕКОНОМБАНК",
-    "fg": "ПРОМЕКОНОМБАНК"
+    "name": {
+      "dbf": "ПРОМЕКОНОМБАНК",
+      "api": "ПРОМЕКОНОМБАНК",
+      "fund": "ПРОМЕКОНОМБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-08-25",
+      "api": "1993-08-25"
+    }
   },
   {
     "id": "ПРОФІН БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ПРОФІН БАНК",
-    "fg": "ПРОФІН БАНК"
+    "name": {
+      "dbf": "ПРОФІН БАНК",
+      "api": "ПРОФІН БАНК",
+      "fund": "ПРОФІН БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-01",
+      "api": "1991-10-01"
+    }
   },
   {
     "id": "ПТБ",
-    "active": false,
-    "dbf": "ПТБ"
+    "name": {
+      "dbf": "ПТБ",
+      "api": "ПТБ",
+      "fund": "ПТБ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2005-01-13",
+      "api": "2005-01-13"
+    }
   },
   {
     "id": "ПУМБ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ПУМБ",
-    "bg": "ПУМБ",
-    "fg": "ПУМБ"
+    "name": {
+      "dbf": "ПУМБ",
+      "api": "ПУМБ",
+      "nbu": "ПУМБ",
+      "fund": "ПУМБ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-12-23",
+      "api": "1991-12-23",
+      "nbu": "1991-12-23"
+    }
   },
   {
     "id": "РАДАБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "РАДАБАНК",
-    "bg": "РАДАБАНК",
-    "fg": "РАДАБАНК"
+    "name": {
+      "dbf": "РАДАБАНК",
+      "api": "РАДАБАНК",
+      "nbu": "РАДАБАНК",
+      "fund": "РАДАБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-12-03",
+      "api": "1993-12-03",
+      "nbu": "1993-12-03"
+    }
   },
   {
     "id": "РАДИКАЛ БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "РАДИКАЛ БАНК",
-    "fg": "РАДИКАЛ БАНК"
+    "name": {
+      "dbf": "РАДИКАЛ БАНК",
+      "api": "РАДИКАЛ БАНК",
+      "fund": "РАДИКАЛ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2010-03-23",
+      "api": "2010-03-23"
+    }
   },
   {
     "id": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
-    "bg": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
-    "fg": "РАЙФФАЙЗЕН БАНК АВАЛЬ"
+    "name": {
+      "dbf": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
+      "api": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
+      "nbu": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
+      "fund": "РАЙФФАЙЗЕН БАНК АВАЛЬ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-03-27",
+      "api": "1992-03-27",
+      "nbu": "1992-03-27"
+    }
   },
   {
     "id": "РВС БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "РВС БАНК",
-    "bg": "РВС БАНК",
-    "fg": "РВС БАНК"
+    "name": {
+      "dbf": "РВС БАНК",
+      "api": "РВС БАНК",
+      "nbu": "РВС БАНК",
+      "fund": "РВС БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2015-06-25",
+      "api": "2015-06-25",
+      "nbu": "2015-06-25"
+    }
   },
   {
     "id": "РЕАЛ БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "РЕАЛ БАНК",
-    "fg": "РЕАЛ БАНК"
+    "name": {
+      "dbf": "РЕАЛ БАНК",
+      "api": "РЕАЛ БАНК",
+      "fund": "РЕАЛ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-29",
+      "api": "1991-10-29"
+    }
   },
   {
     "id": "РОДОВІД БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "РОДОВІД БАНК",
-    "fg": "РОДОВІД БАНК"
+    "name": {
+      "dbf": "РОДОВІД БАНК",
+      "api": "РОДОВІД БАНК",
+      "fund": "РОДОВІД БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-07",
+      "api": "1991-10-07"
+    }
   },
   {
     "id": "РОЗРАХУНКОВИЙ ЦЕНТР",
-    "active": true,
-    "fgActive": true,
-    "dbf": "РОЗРАХУНКОВИЙ ЦЕНТР",
-    "bg": "РОЗРАХУНКОВИЙ ЦЕНТР",
-    "fg": "РОЗРАХУНКОВИЙ ЦЕНТР"
+    "name": {
+      "dbf": "РОЗРАХУНКОВИЙ ЦЕНТР",
+      "api": "РОЗРАХУНКОВИЙ ЦЕНТР",
+      "nbu": "РОЗРАХУНКОВИЙ ЦЕНТР",
+      "fund": "РОЗРАХУНКОВИЙ ЦЕНТР"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2013-09-06",
+      "api": "2013-09-06",
+      "nbu": "2013-09-06"
+    }
   },
   {
     "id": "РОСТОК БАНК",
-    "fgActive": false,
-    "fg": "РОСТОК БАНК"
+    "name": {
+      "fund": "РОСТОК БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "СІТІБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "СІТІБАНК",
-    "bg": "СІТІБАНК",
-    "fg": "СІТІБАНК"
+    "name": {
+      "dbf": "СІТІБАНК",
+      "api": "СІТІБАНК",
+      "nbu": "СІТІБАНК",
+      "fund": "СІТІБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1998-05-11",
+      "api": "1998-05-11",
+      "nbu": "1998-05-11"
+    }
   },
   {
     "id": "СБЕРБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "СБЕРБАНК",
-    "bg": "СБЕРБАНК",
-    "fg": "СБЕРБАНК"
+    "name": {
+      "dbf": "СБЕРБАНК",
+      "api": "СБЕРБАНК",
+      "nbu": "СБЕРБАНК",
+      "fund": "СБЕРБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2001-06-15",
+      "api": "2001-06-15",
+      "nbu": "2001-06-15"
+    }
   },
   {
     "id": "СЕБ КОРПОРАТИВНИЙ БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "СЕБ КОРПОРАТИВНИЙ БАНК",
-    "bg": "СЕБ КОРПОРАТИВНИЙ БАНК",
-    "fg": "СЕБ КОРПОРАТИВНИЙ БАНК"
+    "name": {
+      "dbf": "СЕБ КОРПОРАТИВНИЙ БАНК",
+      "api": "СЕБ КОРПОРАТИВНИЙ БАНК",
+      "nbu": "СЕБ КОРПОРАТИВНИЙ БАНК",
+      "fund": "СЕБ КОРПОРАТИВНИЙ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2011-01-19",
+      "api": "2011-01-19",
+      "nbu": "2011-01-19"
+    }
   },
   {
     "id": "СИНТЕЗ",
-    "fgActive": false,
-    "fg": "СИНТЕЗ"
+    "name": {
+      "fund": "СИНТЕЗ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "СКАЙ БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "СКАЙ БАНК",
-    "bg": "СКАЙ БАНК",
-    "fg": "СКАЙ БАНК"
+    "name": {
+      "dbf": "СКАЙ БАНК",
+      "api": "СКАЙ БАНК",
+      "nbu": "СКАЙ БАНК",
+      "fund": "СКАЙ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-28",
+      "api": "1991-10-28",
+      "nbu": "1991-10-28"
+    }
   },
   {
     "id": "СЛОВ'ЯНСЬКИЙ",
-    "fgActive": false,
-    "fg": "СЛОВ'ЯНСЬКИЙ"
+    "name": {
+      "fund": "СЛОВ'ЯНСЬКИЙ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "СМАРТБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "СМАРТБАНК",
-    "fg": "СМАРТБАНК"
+    "name": {
+      "dbf": "СМАРТБАНК",
+      "api": "СМАРТБАНК",
+      "fund": "СМАРТБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2010-09-13",
+      "api": "2010-09-13"
+    }
   },
   {
     "id": "СОФІЙСЬКИЙ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "СОФІЙСЬКИЙ",
-    "fg": "СОФІЙСЬКИЙ"
+    "name": {
+      "dbf": "СОФІЙСЬКИЙ",
+      "api": "СОФІЙСЬКИЙ",
+      "fund": "СОФІЙСЬКИЙ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2012-03-16",
+      "api": "2012-03-16"
+    }
   },
   {
     "id": "СОЦКОМ БАНК",
-    "fgActive": false,
-    "fg": "СОЦКОМ БАНК"
+    "name": {
+      "fund": "СОЦКОМ БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "СОЮЗ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "СОЮЗ",
-    "fg": "СОЮЗ"
+    "name": {
+      "dbf": "СОЮЗ",
+      "api": "СОЮЗ",
+      "fund": "СОЮЗ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2007-11-26",
+      "api": "2007-11-26"
+    }
   },
   {
     "id": "СП БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "СП БАНК",
-    "fg": "СП БАНК"
+    "name": {
+      "dbf": "СП БАНК",
+      "api": "СП БАНК",
+      "fund": "СП БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1995-09-13",
+      "api": "1995-09-13"
+    }
   },
   {
     "id": "СТАНДАРТ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "СТАНДАРТ",
-    "fg": "СТАНДАРТ"
+    "name": {
+      "dbf": "СТАНДАРТ",
+      "api": "СТАНДАРТ",
+      "fund": "СТАНДАРТ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2008-12-31",
+      "api": "2008-12-31"
+    }
   },
   {
     "id": "СТАРОКИЇВСЬКИЙ БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "СТАРОКИЇВСЬКИЙ БАНК",
-    "fg": "СТАРОКИЇВСЬКИЙ БАНК"
+    "name": {
+      "dbf": "СТАРОКИЇВСЬКИЙ БАНК",
+      "api": "СТАРОКИЇВСЬКИЙ БАНК",
+      "fund": "СТАРОКИЇВСЬКИЙ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-12-31",
+      "api": "1991-12-31"
+    }
   },
   {
     "id": "СТОЛИЦЯ",
-    "fgActive": false,
-    "fg": "СТОЛИЦЯ"
+    "name": {
+      "fund": "СТОЛИЦЯ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "СТОЛИЧНИЙ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "СТОЛИЧНИЙ",
-    "fg": "СТОЛИЧНИЙ"
+    "name": {
+      "dbf": "СТОЛИЧНИЙ",
+      "api": "СТОЛИЧНИЙ",
+      "fund": "СТОЛИЧНИЙ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-10-22",
+      "api": "1993-10-22"
+    }
   },
   {
     "id": "СХІДНО-ЄВРОПЕЙСЬКИЙ БАНК",
-    "fgActive": false,
-    "fg": "СХІДНО-ЄВРОПЕЙСЬКИЙ БАНК"
+    "name": {
+      "fund": "СХІДНО-ЄВРОПЕЙСЬКИЙ БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "ТАВРИКА",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ТАВРИКА",
-    "fg": "ТАВРИКА"
+    "name": {
+      "dbf": "ТАВРИКА",
+      "api": "ТАВРИКА",
+      "fund": "ТАВРИКА"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-24",
+      "api": "1991-10-24"
+    }
   },
   {
     "id": "ТАСКОМБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ТАСКОМБАНК",
-    "bg": "ТАСКОМБАНК",
-    "fg": "ТАСКОМБАНК"
+    "name": {
+      "dbf": "ТАСКОМБАНК",
+      "api": "ТАСКОМБАНК",
+      "nbu": "ТАСКОМБАНК",
+      "fund": "ТАСКОМБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-21",
+      "api": "1991-10-21",
+      "nbu": "1991-10-21"
+    }
   },
   {
     "id": "ТЕРРА БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ТЕРРА БАНК",
-    "fg": "ТЕРРА БАНК"
+    "name": {
+      "dbf": "ТЕРРА БАНК",
+      "api": "ТЕРРА БАНК",
+      "fund": "ТЕРРА БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1996-10-18",
+      "api": "1996-10-18"
+    }
   },
   {
     "id": "ТК КРЕДИТ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ТК КРЕДИТ",
-    "fg": "ТК КРЕДИТ"
+    "name": {
+      "dbf": "ТК КРЕДИТ",
+      "api": "ТК КРЕДИТ",
+      "fund": "ТК КРЕДИТ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1994-04-28",
+      "api": "1994-04-28"
+    }
   },
   {
     "id": "ТРАНСБАНК",
-    "fgActive": false,
-    "fg": "ТРАНСБАНК"
+    "name": {
+      "fund": "ТРАНСБАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "ТРАСТ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ТРАСТ",
-    "fg": "ТРАСТ"
+    "name": {
+      "dbf": "ТРАСТ",
+      "api": "ТРАСТ",
+      "fund": "ТРАСТ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2007-08-22",
+      "api": "2007-08-22"
+    }
   },
   {
     "id": "ТРАСТ-КАПІТАЛ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ТРАСТ-КАПІТАЛ",
-    "bg": "ТРАСТ-КАПІТАЛ",
-    "fg": "ТРАСТ-КАПІТАЛ"
+    "name": {
+      "dbf": "ТРАСТ-КАПІТАЛ",
+      "api": "ТРАСТ-КАПІТАЛ",
+      "nbu": "ТРАСТ-КАПІТАЛ",
+      "fund": "ТРАСТ-КАПІТАЛ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2004-03-10",
+      "api": "2004-03-10",
+      "nbu": "2004-03-10"
+    }
   },
   {
     "id": "УКООПСПІЛКА",
-    "active": false,
-    "fgActive": false,
-    "dbf": "УКООПСПІЛКА",
-    "fg": "УКООПСПІЛКА"
+    "name": {
+      "dbf": "УКООПСПІЛКА",
+      "api": "УКООПСПІЛКА",
+      "fund": "УКООПСПІЛКА"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-10-25",
+      "api": "1993-10-25"
+    }
   },
   {
     "id": "УКРІНБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "УКРІНБАНК",
-    "fg": "УКРІНБАНК"
+    "name": {
+      "dbf": "УКРІНБАНК",
+      "api": "УКРІНБАНК",
+      "fund": "УКРІНБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-02",
+      "api": "1991-10-02"
+    }
   },
   {
     "id": "УКРАЇНА",
-    "fgActive": false,
-    "fg": "УКРАЇНА"
+    "name": {
+      "fund": "УКРАЇНА"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "УКРАЇНСЬКА ФІНАНСОВА ГРУПА",
-    "fgActive": false,
-    "fg": "УКРАЇНСЬКА ФІНАНСОВА ГРУПА"
+    "name": {
+      "fund": "УКРАЇНСЬКА ФІНАНСОВА ГРУПА"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
-    "bg": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
-    "fg": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ"
+    "name": {
+      "dbf": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
+      "api": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
+      "nbu": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
+      "fund": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2004-03-19",
+      "api": "2004-03-19",
+      "nbu": "2004-03-19"
+    }
   },
   {
     "id": "УКРАЇНСЬКИЙ КАПІТАЛ",
-    "active": true,
-    "fgActive": true,
-    "dbf": "УКРАЇНСЬКИЙ КАПІТАЛ",
-    "bg": "УКРАЇНСЬКИЙ КАПІТАЛ",
-    "fg": "УКРАЇНСЬКИЙ КАПІТАЛ"
+    "name": {
+      "dbf": "УКРАЇНСЬКИЙ КАПІТАЛ",
+      "api": "УКРАЇНСЬКИЙ КАПІТАЛ",
+      "nbu": "УКРАЇНСЬКИЙ КАПІТАЛ",
+      "fund": "УКРАЇНСЬКИЙ КАПІТАЛ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-12-25",
+      "api": "1992-12-25",
+      "nbu": "1992-12-25"
+    }
   },
   {
     "id": "УКРАЇНСЬКИЙ ПРОМИСЛОВИЙ БАНК",
-    "fgActive": false,
-    "fg": "УКРАЇНСЬКИЙ ПРОМИСЛОВИЙ БАНК"
+    "name": {
+      "fund": "УКРАЇНСЬКИЙ ПРОМИСЛОВИЙ БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "УКРБІЗНЕСБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "УКРБІЗНЕСБАНК",
-    "fg": "УКРБІЗНЕСБАНК"
+    "name": {
+      "dbf": "УКРБІЗНЕСБАНК",
+      "api": "УКРБІЗНЕСБАНК",
+      "fund": "УКРБІЗНЕСБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-05-19",
+      "api": "1993-05-19"
+    }
   },
   {
     "id": "УКРБУДІНВЕСТБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "УКРБУДІНВЕСТБАНК",
-    "bg": "УКРБУДІНВЕСТБАНК",
-    "fg": "УКРБУДІНВЕСТБАНК"
+    "name": {
+      "dbf": "УКРБУДІНВЕСТБАНК",
+      "api": "УКРБУДІНВЕСТБАНК",
+      "nbu": "УКРБУДІНВЕСТБАНК",
+      "fund": "УКРБУДІНВЕСТБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2004-04-20",
+      "api": "2004-04-20",
+      "nbu": "2004-04-20"
+    }
   },
   {
     "id": "УКРГАЗБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "УКРГАЗБАНК",
-    "bg": "УКРГАЗБАНК",
-    "fg": "УКРГАЗБАНК"
+    "name": {
+      "dbf": "УКРГАЗБАНК",
+      "api": "УКРГАЗБАНК",
+      "nbu": "УКРГАЗБАНК",
+      "fund": "УКРГАЗБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-07-21",
+      "api": "1993-07-21",
+      "nbu": "1993-07-21"
+    }
   },
   {
     "id": "УКРГАЗПРОМБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "УКРГАЗПРОМБАНК",
-    "fg": "УКРГАЗПРОМБАНК"
+    "name": {
+      "dbf": "УКРГАЗПРОМБАНК",
+      "api": "УКРГАЗПРОМБАНК",
+      "fund": "УКРГАЗПРОМБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1996-03-27",
+      "api": "1996-03-27"
+    }
   },
   {
     "id": "УКРЕКСІМБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "УКРЕКСІМБАНК",
-    "bg": "УКРЕКСІМБАНК",
-    "fg": "УКРЕКСІМБАНК"
+    "name": {
+      "dbf": "УКРЕКСІМБАНК",
+      "api": "УКРЕКСІМБАНК",
+      "nbu": "УКРЕКСІМБАНК",
+      "fund": "УКРЕКСІМБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-01-23",
+      "api": "1992-01-23",
+      "nbu": "1992-01-23"
+    }
   },
   {
     "id": "УКРКОМУНБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "УКРКОМУНБАНК",
-    "fg": "УКРКОМУНБАНК"
+    "name": {
+      "dbf": "УКРКОМУНБАНК",
+      "api": "УКРКОМУНБАНК",
+      "fund": "УКРКОМУНБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-08-10",
+      "api": "1993-08-10"
+    }
   },
   {
     "id": "УКРСИББАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "УКРСИББАНК",
-    "bg": "УКРСИББАНК",
-    "fg": "УКРСИББАНК"
+    "name": {
+      "dbf": "УКРСИББАНК",
+      "api": "УКРСИББАНК",
+      "nbu": "УКРСИББАНК",
+      "fund": "УКРСИББАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-28",
+      "api": "1991-10-28",
+      "nbu": "1991-10-28"
+    }
   },
   {
     "id": "УКРСОЦБАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "УКРСОЦБАНК",
-    "bg": "УКРСОЦБАНК",
-    "fg": "УКРСОЦБАНК"
+    "name": {
+      "dbf": "УКРСОЦБАНК",
+      "api": "УКРСОЦБАНК",
+      "nbu": "УКРСОЦБАНК",
+      "fund": "УКРСОЦБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-09-27",
+      "api": "1991-09-27",
+      "nbu": "1991-09-27"
+    }
   },
   {
     "id": "УНІВЕРСАЛ БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "УНІВЕРСАЛ БАНК",
-    "bg": "УНІВЕРСАЛ БАНК",
-    "fg": "УНІВЕРСАЛ БАНК"
+    "name": {
+      "dbf": "УНІВЕРСАЛ БАНК",
+      "api": "УНІВЕРСАЛ БАНК",
+      "nbu": "УНІВЕРСАЛ БАНК",
+      "fund": "УНІВЕРСАЛ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1994-01-20",
+      "api": "1994-01-20",
+      "nbu": "1994-01-20"
+    }
   },
   {
     "id": "УНІКОМБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "УНІКОМБАНК",
-    "fg": "УНІКОМБАНК"
+    "name": {
+      "dbf": "УНІКОМБАНК",
+      "api": "УНІКОМБАНК",
+      "fund": "УНІКОМБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2002-10-28",
+      "api": "2002-10-28"
+    }
   },
   {
     "id": "УПБ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "УПБ",
-    "fg": "УПБ"
+    "name": {
+      "dbf": "УПБ",
+      "api": "УПБ",
+      "fund": "УПБ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-01-30",
+      "api": "1992-01-30"
+    }
   },
   {
     "id": "УФС",
-    "active": false,
-    "fgActive": false,
-    "dbf": "УФС",
-    "fg": "УФС"
+    "name": {
+      "dbf": "УФС",
+      "api": "УФС",
+      "fund": "УФС"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2003-11-12",
+      "api": "2003-11-12"
+    }
   },
   {
     "id": "ФІДОБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ФІДОБАНК",
-    "fg": "ФІДОБАНК"
+    "name": {
+      "dbf": "ФІДОБАНК",
+      "api": "ФІДОБАНК",
+      "fund": "ФІДОБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-02",
+      "api": "1991-10-02"
+    }
   },
   {
     "id": "ФІНАНС БАНК",
-    "active": false,
-    "dbf": "ФІНАНС БАНК"
+    "name": {
+      "dbf": "ФІНАНС БАНК",
+      "api": "ФІНАНС БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false
+    },
+    "dateOpen": {
+      "dbf": "1992-01-20",
+      "api": "1992-01-20"
+    }
   },
   {
     "id": "ФІНАНСИ ТА КРЕДИТ",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ФІНАНСИ ТА КРЕДИТ",
-    "fg": "ФІНАНСИ ТА КРЕДИТ"
+    "name": {
+      "dbf": "ФІНАНСИ ТА КРЕДИТ",
+      "api": "ФІНАНСИ ТА КРЕДИТ",
+      "fund": "ФІНАНСИ ТА КРЕДИТ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-30",
+      "api": "1991-10-30"
+    }
   },
   {
     "id": "ФІНАНСОВА ІНІЦІАТИВА",
-    "active": true,
-    "fgActive": false,
-    "dbf": "ФІНАНСОВА ІНІЦІАТИВА",
-    "bg": "ФІНАНСОВА ІНІЦІАТИВА",
-    "fg": "ФІНАНСОВА ІНІЦІАТИВА"
+    "name": {
+      "dbf": "ФІНАНСОВА ІНІЦІАТИВА",
+      "api": "ФІНАНСОВА ІНІЦІАТИВА",
+      "nbu": "ФІНАНСОВА ІНІЦІАТИВА",
+      "fund": "ФІНАНСОВА ІНІЦІАТИВА"
+    },
+    "active": {
+      "dbf": true,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2005-01-19",
+      "api": "2005-01-19",
+      "nbu": "2005-01-19"
+    }
   },
   {
     "id": "ФІНБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ФІНБАНК",
-    "fg": "ФІНБАНК"
+    "name": {
+      "dbf": "ФІНБАНК",
+      "api": "ФІНБАНК",
+      "fund": "ФІНБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-12-24",
+      "api": "1993-12-24"
+    }
   },
   {
     "id": "ФІНРОСТБАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ФІНРОСТБАНК",
-    "fg": "ФІНРОСТБАНК"
+    "name": {
+      "dbf": "ФІНРОСТБАНК",
+      "api": "ФІНРОСТБАНК",
+      "fund": "ФІНРОСТБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-01-29",
+      "api": "1993-01-29"
+    }
   },
   {
     "id": "ФОРТУНА-БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ФОРТУНА-БАНК",
-    "fg": "ФОРТУНА-БАНК"
+    "name": {
+      "dbf": "ФОРТУНА-БАНК",
+      "api": "ФОРТУНА-БАНК",
+      "fund": "ФОРТУНА-БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2002-10-17",
+      "api": "2002-10-17"
+    }
   },
   {
     "id": "ХРЕЩАТИК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ХРЕЩАТИК",
-    "fg": "ХРЕЩАТИК"
+    "name": {
+      "dbf": "ХРЕЩАТИК",
+      "api": "ХРЕЩАТИК",
+      "fund": "ХРЕЩАТИК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-05-19",
+      "api": "1993-05-19"
+    }
   },
   {
     "id": "ЦЕНТР",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ЦЕНТР",
-    "bg": "ЦЕНТР",
-    "fg": "ЦЕНТР"
+    "name": {
+      "dbf": "ЦЕНТР",
+      "fund": "ЦЕНТР"
+    },
+    "active": {
+      "dbf": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2010-06-16"
+    }
   },
   {
     "id": "ЧБРР",
-    "fgActive": false,
-    "fg": "ЧБРР"
+    "name": {
+      "fund": "ЧБРР"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {}
   },
   {
     "id": "ЮНІСОН",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ЮНІСОН",
-    "fg": "ЮНІСОН"
+    "name": {
+      "dbf": "ЮНІСОН",
+      "api": "ЮНІСОН",
+      "fund": "ЮНІСОН"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2013-02-08",
+      "api": "2013-02-08"
+    }
   },
   {
     "id": "ЮНЕКС БАНК",
-    "active": true,
-    "fgActive": true,
-    "dbf": "ЮНЕКС БАНК",
-    "bg": "ЮНЕКС БАНК",
-    "fg": "ЮНЕКС БАНК"
+    "name": {
+      "dbf": "ЮНЕКС БАНК",
+      "api": "ЮНЕКС БАНК",
+      "nbu": "ЮНЕКС БАНК",
+      "fund": "ЮНЕКС БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-12-03",
+      "api": "1993-12-03",
+      "nbu": "1993-12-03"
+    }
   },
   {
     "id": "ЮСБ БАНК",
-    "active": false,
-    "fgActive": false,
-    "dbf": "ЮСБ БАНК",
-    "fg": "ЮСБ БАНК"
+    "name": {
+      "dbf": "ЮСБ БАНК",
+      "api": "ЮСБ БАНК",
+      "fund": "ЮСБ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1994-06-23",
+      "api": "1994-06-23"
+    }
   }
 ]
