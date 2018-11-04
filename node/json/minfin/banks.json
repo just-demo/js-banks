@@ -2,946 +2,1135 @@
   {
     "id": 229,
     "name": "А-Банк",
+    "link": "https://minfin.com.ua/ua/company/a-bank",
     "site": "http://a-bank.com.ua"
   },
   {
     "id": 273,
     "name": "Авант-Банк",
+    "link": "https://minfin.com.ua/ua/company/avantbank",
     "site": "http://avantbank.ua/"
   },
   {
     "id": 139,
     "name": "Автокразбанк",
+    "link": "https://minfin.com.ua/ua/company/avtokrazbank",
     "site": "http://www.avtokrazbank.ua/"
   },
   {
     "id": 32,
     "name": "Агропросперіс Банк",
+    "link": "https://minfin.com.ua/ua/company/agroprosperis-bank",
     "site": "http://www.ap-bank.com/"
   },
   {
     "id": 44,
     "name": "Айбокс Банк (АгроКомБанк)",
+    "link": "https://minfin.com.ua/ua/company/iboxbank",
     "site": "http://www.iboxbank.online/"
   },
   {
     "id": 95,
     "name": "Акордбанк",
+    "link": "https://minfin.com.ua/ua/company/accordbank",
     "site": "http://accordbank.com.ua/"
   },
   {
     "id": 102,
     "name": "Аксіома",
+    "link": "https://minfin.com.ua/ua/company/axiomabank",
     "site": "http://www.axiomabank.com"
   },
   {
     "id": 162,
     "name": "АктаБанк",
+    "link": "https://minfin.com.ua/ua/company/aktabank",
     "site": "http://www.aktabank.com/"
   },
   {
     "id": 76,
     "name": "Актив-Банк",
+    "link": "https://minfin.com.ua/ua/company/active-bank",
     "site": "http://www.activebank.com.ua"
   },
   {
     "id": 563,
     "name": "Альпарі Банк",
+    "link": "https://minfin.com.ua/ua/company/bankalpari",
     "site": "http://bankalpari.com/"
   },
   {
     "id": 87,
     "name": "Альтбанк",
+    "link": "https://minfin.com.ua/ua/company/altbank",
     "site": "http://altbank.ua"
   },
   {
     "id": 63,
     "name": "Альфа-Банк",
+    "link": "https://minfin.com.ua/ua/company/alfa-bank",
     "site": "https://alfabank.ua"
   },
   {
     "id": 71,
     "name": "Апекс-банк",
+    "link": "https://minfin.com.ua/ua/company/apeks-bank",
     "site": "http://www.apeksbank.com.ua"
   },
   {
     "id": 24,
     "name": "Аркада",
+    "link": "https://minfin.com.ua/ua/company/arkada",
     "site": "http://www.arkada.ua/rus/"
   },
   {
     "id": 34,
     "name": "Артем-банк",
+    "link": "https://minfin.com.ua/ua/company/artem-bank",
     "site": "http://www.artembank.com.ua"
   },
   {
     "id": 59,
     "name": "Асвіо Банк",
+    "link": "https://minfin.com.ua/ua/company/asvio_bank",
     "site": "http://www.asviobank.ua"
   },
   {
     "id": 101,
     "name": "Базис",
+    "link": "https://minfin.com.ua/ua/company/basis",
     "site": "http://www.basis.com.ua/"
   },
   {
     "id": 166,
     "name": "Банк 3/4",
+    "link": "https://minfin.com.ua/ua/company/bank-3-4",
     "site": "https://www.bank34.ua/"
   },
   {
     "id": 562,
     "name": "Банк Авангард",
+    "link": "https://minfin.com.ua/ua/company/avangardbank",
     "site": "http://www.avgd.ua/"
   },
   {
     "id": 114,
     "name": "Банк Альянс",
+    "link": "https://minfin.com.ua/ua/company/alliance",
     "site": "https://bankalliance.ua/"
   },
   {
     "id": 100,
     "name": "Банк Богуслав",
+    "link": "https://minfin.com.ua/ua/company/bank-boguslav",
     "site": "http://www.bankboguslav.com.ua/"
   },
   {
     "id": 36,
     "name": "Банк Велес",
+    "link": "https://minfin.com.ua/ua/company/bank-veles",
     "site": null
   },
   {
     "id": 18,
     "name": "Банк Восток",
+    "link": "https://minfin.com.ua/ua/company/bank-vostok",
     "site": "http://www.bankvostok.com.ua/"
   },
   {
     "id": 108,
     "name": "Банк Грант",
+    "link": "https://minfin.com.ua/ua/company/grant",
     "site": "http://www.grant.kharkov.ua/"
   },
   {
     "id": 109,
     "name": "Банк Земельний Капітал",
+    "link": "https://minfin.com.ua/ua/company/zemelnyi-kapital",
     "site": "https://www.zemcap.com/ru.html"
   },
   {
     "id": 134,
     "name": "Банк Золоті ворота",
+    "link": "https://minfin.com.ua/ua/company/zolotye-vorota",
     "site": "http://goldengate.kharkov.ua/"
   },
   {
     "id": 57,
     "name": "Банк Інвестицій та Заощаджень",
+    "link": "https://minfin.com.ua/ua/company/bis",
     "site": "http://www.bisbank.com.ua/"
   },
   {
     "id": 115,
     "name": "Банк Камбіо",
+    "link": "https://minfin.com.ua/ua/company/cambio",
     "site": "http://www.cambio.com.ua/"
   },
   {
     "id": 200,
     "name": "Банк Національний кредит",
+    "link": "https://minfin.com.ua/ua/company/natsionalniy-kredit",
     "site": "http://www.bnk.ua"
   },
   {
     "id": 23,
     "name": "Банк Південний",
+    "link": "https://minfin.com.ua/ua/company/pivdenny",
     "site": "http://bank.com.ua/"
   },
   {
     "id": 526,
     "name": "Банк Портал",
+    "link": "https://minfin.com.ua/ua/company/bankportal",
     "site": "http://bank-portal.com.ua/"
   },
   {
     "id": 465,
     "name": "Банк Софійський",
+    "link": "https://minfin.com.ua/ua/company/sf",
     "site": "http://sf-bank.com.ua"
   },
   {
     "id": 22,
     "name": "Банк Столичний",
+    "link": "https://minfin.com.ua/ua/company/stolichnyi",
     "site": "http://stolychnyi.ua/"
   },
   {
     "id": 126,
     "name": "Банк Траст",
+    "link": "https://minfin.com.ua/ua/company/bank-trust",
     "site": "http://banktrust.com.ua/"
   },
   {
     "id": 99,
     "name": "Банк Фамільний",
+    "link": "https://minfin.com.ua/ua/company/bank-familnyi",
     "site": "http://www.fbank.com.ua/"
   },
   {
     "id": 135,
     "name": "Банк Форвард",
+    "link": "https://minfin.com.ua/ua/company/forward-bank",
     "site": "http://forward-bank.com/"
   },
   {
     "id": 470,
     "name": "Банк Юнісон",
+    "link": "https://minfin.com.ua/ua/company/unisonbank",
     "site": "http://www.unisonbank.com.ua/"
   },
   {
     "id": 67,
     "name": "БГ Банк",
+    "link": "https://minfin.com.ua/ua/company/bg-bank",
     "site": "http://www.bgbank.com.ua"
   },
   {
     "id": 142,
     "name": "БМ Банк",
+    "link": "https://minfin.com.ua/ua/company/bm-bank",
     "site": "http://www.bmbank.com.ua/"
   },
   {
     "id": 11,
     "name": "Брокбізнесбанк",
+    "link": "https://minfin.com.ua/ua/company/brokbiznesbank",
     "site": "http://www.bankbb.com.ua/"
   },
   {
     "id": 70,
     "name": "БТА Банк",
+    "link": "https://minfin.com.ua/ua/company/bta-bank",
     "site": "http://www.btabank.ua/"
   },
   {
     "id": 561,
     "name": "Вектор Банк",
+    "link": "https://minfin.com.ua/ua/company/vectorbank",
     "site": "http://www.vectorbank.com.ua/ru/"
   },
   {
     "id": 89,
     "name": "Вернум Банк",
+    "link": "https://minfin.com.ua/ua/company/vernum-bank",
     "site": "http://www.vernumbank.com/"
   },
   {
     "id": 156,
     "name": "ВіЕйБі Банк",
+    "link": "https://minfin.com.ua/ua/company/vab-bank",
     "site": "http://www.vab.ua/"
   },
   {
     "id": 82,
     "name": "ВіЕс Банк",
+    "link": "https://minfin.com.ua/ua/company/volksbank",
     "site": "http://www.vsbank.com.ua/"
   },
   {
     "id": 53,
     "name": "Всеукраїнський банк розвитку",
+    "link": "https://minfin.com.ua/ua/company/vbr",
     "site": "http://www.vbr-bank.com.ua/"
   },
   {
     "id": 81,
     "name": "ВТБ Банк",
+    "link": "https://minfin.com.ua/ua/company/vtb-bank",
     "site": "https://vtb.ua/"
   },
   {
     "id": 564,
     "name": "Гефест",
+    "link": "https://minfin.com.ua/ua/company/bankgefest",
     "site": "http://www.bankgefest.com.ua"
   },
   {
     "id": 42,
     "name": "Глобус",
+    "link": "https://minfin.com.ua/ua/company/globus",
     "site": "http://www.globusbank.com.ua/"
   },
   {
     "id": 39,
     "name": "Грін Банк",
+    "link": "https://minfin.com.ua/ua/company/olympic-ukraine",
     "site": "http://www.greenbank.com.ua/"
   },
   {
     "id": 93,
     "name": "Даніель",
+    "link": "https://minfin.com.ua/ua/company/daniel",
     "site": "http://www.danielbank.kiev.ua/"
   },
   {
     "id": 174,
     "name": "Дельта Банк",
+    "link": "https://minfin.com.ua/ua/company/delta-bank",
     "site": "http://deltabank.com.ua/"
   },
   {
     "id": 97,
     "name": "Демарк",
+    "link": "https://minfin.com.ua/ua/company/demark",
     "site": "http://www.bankdemark.com/"
   },
   {
     "id": 473,
     "name": "Держзембанк",
+    "link": "https://minfin.com.ua/ua/company/dzbank",
     "site": "http://www.dzbank.com.ua/"
   },
   {
     "id": 62,
     "name": "Діамантбанк",
+    "link": "https://minfin.com.ua/ua/company/diamantbank",
     "site": "http://www.diamantbank.ua/"
   },
   {
     "id": 461,
     "name": "Діві Банк",
+    "link": "https://minfin.com.ua/ua/company/divi-bank",
     "site": "http://dvbank.ua/"
   },
   {
     "id": 565,
     "name": "Дойче Банк",
+    "link": "https://minfin.com.ua/ua/company/db",
     "site": "https://www.db.com/ukraine/"
   },
   {
     "id": 50,
     "name": "Донгорбанк",
+    "link": "https://minfin.com.ua/ua/company/dongorbank",
     "site": "http://www.dongorbank.com/"
   },
   {
     "id": 137,
     "name": "Експобанк",
+    "link": "https://minfin.com.ua/ua/company/expobank",
     "site": "http://www.expobank.ua/"
   },
   {
     "id": 27,
     "name": "Експрес-Банк",
+    "link": "https://minfin.com.ua/ua/company/express-bank",
     "site": "http://www.expres-bank.ua"
   },
   {
     "id": 144,
     "name": "Енергобанк",
+    "link": "https://minfin.com.ua/ua/company/energobank",
     "site": "http://www.energobank.com.ua/"
   },
   {
     "id": 211,
     "name": "Ерде Банк",
+    "link": "https://minfin.com.ua/ua/company/rd-bank",
     "site": "http://www.rdbank.com.ua"
   },
   {
     "id": 119,
     "name": "Євробанк",
+    "link": "https://minfin.com.ua/ua/company/eurobank",
     "site": "http://www.eurobank-ua.com/"
   },
   {
     "id": 110,
     "name": "Єврогазбанк",
+    "link": "https://minfin.com.ua/ua/company/eurogasbank",
     "site": "http://www.egb.kiev.ua/"
   },
   {
     "id": 94,
     "name": "Європромбанк",
+    "link": "https://minfin.com.ua/ua/company/europrombank",
     "site": "http://europrombank.kiev.ua"
   },
   {
     "id": 33,
     "name": "Західінкомбанк",
+    "link": "https://minfin.com.ua/ua/company/zakhidinkombank",
     "site": "http://www.inkom.lutsk.ua"
   },
   {
     "id": 75,
     "name": "Земельний банк",
+    "link": "https://minfin.com.ua/ua/company/zembank",
     "site": "http://www.zembank.kharkov.ua/"
   },
   {
     "id": 56,
     "name": "Златобанк",
+    "link": "https://minfin.com.ua/ua/company/zlatobank",
     "site": "http://www.zbank.com.ua/"
   },
   {
     "id": 85,
     "name": "Ідея Банк",
+    "link": "https://minfin.com.ua/ua/company/ideabank",
     "site": "https://www.ideabank.ua/"
   },
   {
     "id": 138,
     "name": "Імексбанк",
+    "link": "https://minfin.com.ua/ua/company/imexbank",
     "site": "http://imexbank.com.ua/"
   },
   {
     "id": 66,
     "name": "Інвестбанк",
+    "link": "https://minfin.com.ua/ua/company/investbank",
     "site": "http://www.investbank.com.ua/"
   },
   {
     "id": 566,
     "name": "Інвестиційно-трастовий банк",
+    "link": "https://minfin.com.ua/ua/company/investtrustbank",
     "site": "http://investtrustbank.com.ua/"
   },
   {
     "id": 3,
     "name": "ІНГ Банк Україна",
+    "link": "https://minfin.com.ua/ua/company/ing",
     "site": "http://www.ingbankukraine.com/ua/home"
   },
   {
     "id": 77,
     "name": "Індустріалбанк",
+    "link": "https://minfin.com.ua/ua/company/industrialbank",
     "site": "http://industrialbank.ua/"
   },
   {
     "id": 184,
     "name": "Інпромбанк",
+    "link": "https://minfin.com.ua/ua/company/inprombank",
     "site": "http://www.inprombank.ua"
   },
   {
     "id": 28,
     "name": "Інтеграл-банк",
+    "link": "https://minfin.com.ua/ua/company/integral",
     "site": "http://www.integral.com.ua"
   },
   {
     "id": 98,
     "name": "Інтербанк",
+    "link": "https://minfin.com.ua/ua/company/interbank",
     "site": "http://www.interbank.kiev.ua/"
   },
   {
     "id": 462,
     "name": "ІнтерКредитБанк",
+    "link": "https://minfin.com.ua/ua/company/inter-credit-bank",
     "site": "http://intercreditbank.com.ua"
   },
   {
     "id": 468,
     "name": "Капітал",
+    "link": "https://minfin.com.ua/ua/company/capital",
     "site": "http://bills95.wix.com/bank-capital"
   },
   {
     "id": 158,
     "name": "Київ",
+    "link": "https://minfin.com.ua/ua/company/kiev",
     "site": "http://www.bank.kiev.ua/"
   },
   {
     "id": 78,
     "name": "Київська Русь",
+    "link": "https://minfin.com.ua/ua/company/kievskaya-rus",
     "site": "http://www.kruss.kiev.ua/"
   },
   {
     "id": 96,
     "name": "Класикбанк",
+    "link": "https://minfin.com.ua/ua/company/classic-bank",
     "site": "http://www.bankclassic.com"
   },
   {
     "id": 146,
     "name": "Кліринговий Дім",
+    "link": "https://minfin.com.ua/ua/company/clearing-house",
     "site": "http://www.clhs.kiev.ua/"
   },
   {
     "id": 48,
     "name": "Комерційний Індустріальний Банк",
+    "link": "https://minfin.com.ua/ua/company/cib",
     "site": "http://cib.com.ua/ru/"
   },
   {
     "id": 116,
     "name": "Комінвестбанк",
+    "link": "https://minfin.com.ua/ua/company/cominvestbank",
     "site": "http://www.atcominvestbank.com/"
   },
   {
     "id": 191,
     "name": "Конкорд",
+    "link": "https://minfin.com.ua/ua/company/concord",
     "site": "http://www.concord.ua/"
   },
   {
     "id": 83,
     "name": "Контракт",
+    "link": "https://minfin.com.ua/ua/company/contract",
     "site": "http://www.kontrakt.ua/ru/"
   },
   {
     "id": 43,
     "name": "Кредит Дніпро",
+    "link": "https://minfin.com.ua/ua/company/credit-dnepr",
     "site": "http://www.creditdnepr.com.ua/"
   },
   {
     "id": 13,
     "name": "Кредит Європа Банк",
+    "link": "https://minfin.com.ua/ua/company/credit-europe-bank",
     "site": "http://www.crediteurope.com.ua/"
   },
   {
     "id": 45,
     "name": "Кредит Оптима",
+    "link": "https://minfin.com.ua/ua/company/credit-optima",
     "site": "http://www.credit-optima.com.ua"
   },
   {
     "id": 52,
     "name": "Кредитвест Банк",
+    "link": "https://minfin.com.ua/ua/company/creditwest-bank",
     "site": "https://www.creditwest.ua/uk/"
   },
   {
     "id": 17,
     "name": "Кредитпромбанк",
+    "link": "https://minfin.com.ua/ua/company/creditprombank",
     "site": "http://kreditprombank.com"
   },
   {
     "id": 151,
     "name": "Креді Агріколь Банк",
+    "link": "https://minfin.com.ua/ua/company/credit-agricole",
     "site": "https://credit-agricole.ua"
   },
   {
     "id": 157,
     "name": "Кредобанк",
+    "link": "https://minfin.com.ua/ua/company/kredobank",
     "site": "http://www.kredobank.com.ua/"
   },
   {
     "id": 559,
     "name": "Кристалбанк",
+    "link": "https://minfin.com.ua/ua/company/crystalbank",
     "site": "https://crystalbank.com.ua/"
   },
   {
     "id": 128,
     "name": "КСГ Банк",
+    "link": "https://minfin.com.ua/ua/company/ksgbank",
     "site": "http://www.ksgbank.com.ua/"
   },
   {
     "id": 72,
     "name": "Легбанк",
+    "link": "https://minfin.com.ua/ua/company/legbank",
     "site": "http://www.legbank.kiev.ua"
   },
   {
     "id": 136,
     "name": "Львів",
+    "link": "https://minfin.com.ua/ua/company/lvov",
     "site": "http://www.banklviv.com/"
   },
   {
     "id": 80,
     "name": "Мегабанк",
+    "link": "https://minfin.com.ua/ua/company/megabank",
     "site": "https://www.megabank.ua"
   },
   {
     "id": 463,
     "name": "Меліор Банк",
+    "link": "https://minfin.com.ua/ua/company/melior",
     "site": "http://www.meliorbank.com"
   },
   {
     "id": 118,
     "name": "Меркурій",
+    "link": "https://minfin.com.ua/ua/company/mercury",
     "site": "http://www.mercury-bank.com/"
   },
   {
     "id": 125,
     "name": "МетаБанк",
+    "link": "https://minfin.com.ua/ua/company/metabank",
     "site": "http://www.mbank.com.ua/"
   },
   {
     "id": 472,
     "name": "Михайлівський",
+    "link": "https://minfin.com.ua/ua/company/mihailovskiy",
     "site": "http://www.mbank.kiev.ua/"
   },
   {
     "id": 196,
     "name": "Міжнародний Інвестиційний Банк",
+    "link": "https://minfin.com.ua/ua/company/ii-bank",
     "site": "http://www.ii-bank.com.ua"
   },
   {
     "id": 140,
     "name": "Місто Банк",
+    "link": "https://minfin.com.ua/ua/company/misto-bank",
     "site": "http://www.mistobank.com.ua/"
   },
   {
     "id": 103,
     "name": "Міський Комерційний Банк",
+    "link": "https://minfin.com.ua/ua/company/citycommercebank",
     "site": "http://www.citycommercebank.com/"
   },
   {
     "id": 131,
     "name": "Морський",
+    "link": "https://minfin.com.ua/ua/company/morskoy",
     "site": null
   },
   {
     "id": 198,
     "name": "Мотор-банк",
+    "link": "https://minfin.com.ua/ua/company/motor-bank",
     "site": "http://motor-bank.ua/"
   },
   {
     "id": 21,
     "name": "МТБ Банк",
+    "link": "https://minfin.com.ua/ua/company/marfinbank",
     "site": "http://marfinbank.ua/"
   },
   {
     "id": 19,
     "name": "Надра",
+    "link": "https://minfin.com.ua/ua/company/nadra",
     "site": "http://www.nadrabank.ua/site/page.php"
   },
   {
     "id": 199,
     "name": "Народний Капітал",
+    "link": "https://minfin.com.ua/ua/company/narodniy-kapital",
     "site": "http://nkbank.com.ua/"
   },
   {
     "id": 38,
     "name": "Національні інвестиції",
+    "link": "https://minfin.com.ua/ua/company/bni",
     "site": "http://www.jsbni.kiev.ua/"
   },
   {
     "id": 145,
     "name": "Новий",
+    "link": "https://minfin.com.ua/ua/company/new",
     "site": "http://www.banknew.dp.ua"
   },
   {
     "id": 61,
     "name": "ОКСІ Банк",
+    "link": "https://minfin.com.ua/ua/company/oksi-bank",
     "site": "http://www.okcibank.com.ua/"
   },
   {
     "id": 6,
     "name": "ОТП Банк",
+    "link": "https://minfin.com.ua/ua/company/otp-bank",
     "site": "http://otpbank.com.ua/"
   },
   {
     "id": 2,
     "name": "Ощадбанк",
+    "link": "https://minfin.com.ua/ua/company/oschadbank",
     "site": "http://www.oschadbank.ua/ua/"
   },
   {
     "id": 132,
     "name": "Перший Інвестиційний Банк",
+    "link": "https://minfin.com.ua/ua/company/fib",
     "site": "http://www.pinbank.ua/"
   },
   {
     "id": 90,
     "name": "Петрокоммерц-Україна",
+    "link": "https://minfin.com.ua/ua/company/pku",
     "site": "http://www.pcbu.com.ua/"
   },
   {
     "id": 68,
     "name": "Південкомбанк",
+    "link": "https://minfin.com.ua/ua/company/pivdencombank",
     "site": "http://pivdencombank.com/"
   },
   {
     "id": 150,
     "name": "Піреус Банк",
+    "link": "https://minfin.com.ua/ua/company/piraeus-bank",
     "site": "http://www.piraeusbank.ua"
   },
   {
     "id": 20,
     "name": "Платинум Банк",
+    "link": "https://minfin.com.ua/ua/company/platinumbank",
     "site": "http://platinumbank.com.ua/"
   },
   {
     "id": 104,
     "name": "Полікомбанк",
+    "link": "https://minfin.com.ua/ua/company/policombank",
     "site": "http://www.policombank.com/"
   },
   {
     "id": 54,
     "name": "Полтава-Банк",
+    "link": "https://minfin.com.ua/ua/company/poltava-bank",
     "site": "http://www.poltavabank.com"
   },
   {
     "id": 113,
     "name": "Порто-Франко",
+    "link": "https://minfin.com.ua/ua/company/porto-franko",
     "site": "http://www.porto-franco.com/"
   },
   {
     "id": 155,
     "name": "Правекс банк",
+    "link": "https://minfin.com.ua/ua/company/pravex-bank",
     "site": "https://www.pravex.com.ua/"
   },
   {
     "id": 69,
     "name": "Прайм-банк",
+    "link": "https://minfin.com.ua/ua/company/prime-bank",
     "site": "http://www.prime-bank.kiev.ua/"
   },
   {
     "id": 7,
     "name": "Преміум",
+    "link": "https://minfin.com.ua/ua/company/premium",
     "site": "http://www.bank-premium.com/"
   },
   {
     "id": 1,
     "name": "ПриватБанк",
+    "link": "https://minfin.com.ua/ua/company/privatbank",
     "site": "http://privatbank.ua/"
   },
   {
     "id": 143,
     "name": "ПроКредит Банк",
+    "link": "https://minfin.com.ua/ua/company/procredit-bank",
     "site": "http://procreditbank.com.ua/"
   },
   {
     "id": 127,
     "name": "Промекономбанк",
+    "link": "https://minfin.com.ua/ua/company/promeconombank",
     "site": "http://www.peb.com.ua"
   },
   {
     "id": 209,
     "name": "Промінвестбанк",
+    "link": "https://minfin.com.ua/ua/company/prominvestbank",
     "site": "http://www.pib.ua/"
   },
   {
     "id": 91,
     "name": "ПроФін Банк",
+    "link": "https://minfin.com.ua/ua/company/profin-bank",
     "site": "http://www.profinbank.com"
   },
   {
     "id": 148,
     "name": "ПУМБ",
+    "link": "https://minfin.com.ua/ua/company/pumb",
     "site": "http://pumb.ua/"
   },
   {
     "id": 210,
     "name": "ПФБ",
+    "link": "https://minfin.com.ua/ua/company/pfb",
     "site": "http://www.pfb.com.ua/"
   },
   {
     "id": 46,
     "name": "Радабанк",
+    "link": "https://minfin.com.ua/ua/company/radabank",
     "site": "http://www.radabank.com.ua/"
   },
   {
     "id": 272,
     "name": "Радикал Банк",
+    "link": "https://minfin.com.ua/ua/company/radical-bank",
     "site": "http://radicalbank.ua/"
   },
   {
     "id": 58,
     "name": "Райффайзен Банк Аваль",
+    "link": "https://minfin.com.ua/ua/company/aval",
     "site": "http://www.aval.ua/"
   },
   {
     "id": 14,
     "name": "РВС Банк",
+    "link": "https://minfin.com.ua/ua/company/rwsbank",
     "site": "http://www.rwsbank.com.ua/"
   },
   {
     "id": 92,
     "name": "Реал банк",
+    "link": "https://minfin.com.ua/ua/company/real-bank",
     "site": "http://realbank.com.ua"
   },
   {
     "id": 122,
     "name": "Ренесанс Кредит",
+    "link": "https://minfin.com.ua/ua/company/rccf",
     "site": "https://pumb.ua/ru"
   },
   {
     "id": 161,
     "name": "Родовід банк",
+    "link": "https://minfin.com.ua/ua/company/rodovid-bank",
     "site": "http://rodovidbank.com/"
   },
   {
     "id": 609,
     "name": "Розрахунковий центр",
+    "link": "https://minfin.com.ua/ua/company/settlement",
     "site": "http://settlement.com.ua"
   },
   {
     "id": 16,
     "name": "Сбербанк",
+    "link": "https://minfin.com.ua/ua/company/sberbank",
     "site": "http://www.sberbank.ua"
   },
   {
     "id": 525,
     "name": "СЕБ Корпоративний Банк",
+    "link": "https://minfin.com.ua/ua/company/sebcorpratebank",
     "site": "https://sebgroup.com/about-seb/our-locations/international-network/seb-in-ukraine"
   },
   {
     "id": 4,
     "name": "Сітібанк (Україна)",
+    "link": "https://minfin.com.ua/ua/company/citibank",
     "site": "https://www.citigroup.com/citi/about/countrypresence/ukraine.html"
   },
   {
     "id": 271,
     "name": "Січ",
+    "link": "https://minfin.com.ua/ua/company/bank-sich",
     "site": "http://www.sichbank.com.ua/"
   },
   {
     "id": 86,
     "name": "Скай Банк",
+    "link": "https://minfin.com.ua/ua/company/skybank",
     "site": "https://www.sky.bank/"
   },
   {
     "id": 464,
     "name": "Смартбанк",
+    "link": "https://minfin.com.ua/ua/company/smartbank",
     "site": "http://smartbank.kiev.ua/"
   },
   {
     "id": 222,
     "name": "Союз",
+    "link": "https://minfin.com.ua/ua/company/soyuz",
     "site": "http://www.banksoyuz.com.ua/"
   },
   {
     "id": 466,
     "name": "Стандарт",
+    "link": "https://minfin.com.ua/ua/company/standart",
     "site": "http://www.standart-bank.com.ua/"
   },
   {
     "id": 223,
     "name": "Старокиївський Банк",
+    "link": "https://minfin.com.ua/ua/company/starokievskiy-bank",
     "site": "http://www.oldbank.com"
   },
   {
     "id": 88,
     "name": "Східно-промисловий банк",
+    "link": "https://minfin.com.ua/ua/company/vpbank",
     "site": "http://www.vpbank.com.ua/"
   },
   {
     "id": 60,
     "name": "Таврика",
+    "link": "https://minfin.com.ua/ua/company/tavrika",
     "site": "http://www.tavrika.com/ru/"
   },
   {
     "id": 84,
     "name": "Таскомбанк",
+    "link": "https://minfin.com.ua/ua/company/taskombank",
     "site": "http://www.tascombank.com.ua/"
   },
   {
     "id": 141,
     "name": "Терра банк",
+    "link": "https://minfin.com.ua/ua/company/terra-bank",
     "site": "http://www.terrabank.ua/"
   },
   {
     "id": 224,
     "name": "ТК Кредит",
+    "link": "https://minfin.com.ua/ua/company/tk-credit",
     "site": "http://www.tkcredit.kiev.ua/"
   },
   {
     "id": 120,
     "name": "Траст-капітал",
+    "link": "https://minfin.com.ua/ua/company/trust-capital",
     "site": "http://www.tc-bank.com/ua.html"
   },
   {
     "id": 117,
     "name": "Укоопспілка",
+    "link": "https://minfin.com.ua/ua/company/ukoopspilka",
     "site": "http://www.bankukoopspilka.kiev.ua"
   },
   {
     "id": 49,
     "name": "Український банк реконструкції та розвитку",
+    "link": "https://minfin.com.ua/ua/company/ubrr",
     "site": "http://www.ubrr.com.ua/"
   },
   {
     "id": 74,
     "name": "Український капітал",
+    "link": "https://minfin.com.ua/ua/company/ukrcapital",
     "site": "http://www.ukrcapital.com.ua"
   },
   {
     "id": 51,
     "name": "УкрБізнесБанк",
+    "link": "https://minfin.com.ua/ua/company/ubb",
     "site": "http://ubb.com.ua/"
   },
   {
     "id": 233,
     "name": "Укрбудінвестбанк",
+    "link": "https://minfin.com.ua/ua/company/ukrstroyinvestbank",
     "site": "https://ubib.com.ua"
   },
   {
     "id": 35,
     "name": "Укргазбанк",
+    "link": "https://minfin.com.ua/ua/company/ukrgasbank",
     "site": "http://ukrgasbank.com/"
   },
   {
     "id": 64,
     "name": "Укргазпромбанк",
+    "link": "https://minfin.com.ua/ua/company/ukrgazprombank",
     "site": "http://www.ugpb.com/"
   },
   {
     "id": 15,
     "name": "Укрексімбанк",
+    "link": "https://minfin.com.ua/ua/company/ukreximbank",
     "site": "https://www.eximb.com/ukr/personal/"
   },
   {
     "id": 149,
     "name": "Укрінбанк",
+    "link": "https://minfin.com.ua/ua/company/ukrinbank",
     "site": "http://www.ukrinbank.com/"
   },
   {
     "id": 124,
     "name": "Укркомунбанк",
+    "link": "https://minfin.com.ua/ua/company/ukrcommunbank",
     "site": "http://www.abucb.com/"
   },
   {
     "id": 159,
     "name": "Укрсиббанк",
+    "link": "https://minfin.com.ua/ua/company/ukrsibbank",
     "site": "https://my.ukrsibbank.com/ua/personal/"
   },
   {
     "id": 129,
     "name": "Укрсоцбанк",
+    "link": "https://minfin.com.ua/ua/company/ukrsocbank",
     "site": "https://www.ukrsotsbank.com/"
   },
   {
     "id": 123,
     "name": "Універсал Банк",
+    "link": "https://minfin.com.ua/ua/company/universal-bank",
     "site": "http://universalbank.com.ua/"
   },
   {
     "id": 37,
     "name": "Унікомбанк",
+    "link": "https://minfin.com.ua/ua/company/ukrincombank",
     "site": "http://www.unicombank.com.ua"
   },
   {
     "id": 12,
     "name": "УПБ",
+    "link": "https://minfin.com.ua/ua/company/upb",
     "site": "http://upb.ua/"
   },
   {
     "id": 26,
     "name": "УФС-Банк",
+    "link": "https://minfin.com.ua/ua/company/ufw-bank",
     "site": "http://www.ufw-bank.com/"
   },
   {
     "id": 154,
     "name": "Фідобанк",
+    "link": "https://minfin.com.ua/ua/company/fidobank",
     "site": "https://fidobank.ua"
   },
   {
     "id": 225,
     "name": "Фінанс Банк",
+    "link": "https://minfin.com.ua/ua/company/tmm-bank",
     "site": "http://www.financebank.com.ua/"
   },
   {
     "id": 147,
     "name": "Фінанси та Кредит",
+    "link": "https://minfin.com.ua/ua/company/finansy-i-kredit",
     "site": "http://www.fcbank.com.ua/ru/"
   },
   {
     "id": 73,
     "name": "Фінансова Ініціатива",
+    "link": "https://minfin.com.ua/ua/company/finansovaya-iniciativa",
     "site": "http://www.the-bank.com.ua/"
   },
   {
     "id": 469,
     "name": "Фінансовий Партнер",
+    "link": "https://minfin.com.ua/ua/company/financial-partner",
     "site": "http://www.bank-fp.com.ua/"
   },
   {
     "id": 106,
     "name": "Фінбанк",
+    "link": "https://minfin.com.ua/ua/company/finbank",
     "site": "http://www.finbank.odessa.ua/"
   },
   {
     "id": 105,
     "name": "Фінексбанк",
+    "link": "https://minfin.com.ua/ua/company/finexbank",
     "site": "http://www.finexbank.com.ua/"
   },
   {
     "id": 79,
     "name": "Фінростбанк",
+    "link": "https://minfin.com.ua/ua/company/finrostbank",
     "site": "http://www.frb.com.ua/"
   },
   {
     "id": 25,
     "name": "Фортуна-банк",
+    "link": "https://minfin.com.ua/ua/company/fortuna-bank",
     "site": "http://www.fortuna-bank.ua"
   },
   {
     "id": 160,
     "name": "Форум Банк",
+    "link": "https://minfin.com.ua/ua/company/bank-forum",
     "site": "http://www.forum.ua"
   },
   {
     "id": 40,
     "name": "Хрещатик",
+    "link": "https://minfin.com.ua/ua/company/khreschatyk",
     "site": "http://www.xcitybank.com.ua/"
   },
   {
     "id": 249,
     "name": "Центр",
+    "link": "https://minfin.com.ua/ua/company/center",
     "site": "http://www.bankcenter.com.ua/ua/"
   },
   {
     "id": 467,
     "name": "Чорноморський банк розвитку та реконструкції",
+    "link": "https://minfin.com.ua/ua/company/chbrr",
     "site": null
   },
   {
     "id": 31,
     "name": "Юнекс Банк",
+    "link": "https://minfin.com.ua/ua/company/unexbank",
     "site": "http://unexbank.ua/"
   },
   {
     "id": 524,
     "name": "Юніон Стандард Банк",
+    "link": "https://minfin.com.ua/ua/company/unionstandardbank",
     "site": "https://unionstandard.bank/ru/"
   },
   {
     "id": 658,
     "name": "monobank",
+    "link": "https://minfin.com.ua/ua/company/monobank",
     "site": "https://monobank.com.ua"
   }
 ]

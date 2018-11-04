@@ -32,6 +32,7 @@ module.exports = {
             return {
                 id: parseInt(bank.id),
                 name: bank.name,
+                link: 'https://minfin.com.ua/ua/company/' + bank.alias,
                 site: site
             }
         });

@@ -12,7 +12,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -30,6 +31,9 @@
     "internal": {
       "id": {
         "minfin": 658
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/monobank"
       }
     }
   },
@@ -58,6 +62,9 @@
     "internal": {
       "id": {
         "minfin": 119
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/eurobank"
       }
     }
   },
@@ -86,6 +93,9 @@
     "internal": {
       "id": {
         "minfin": 110
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/eurogasbank"
       }
     }
   },
@@ -102,7 +112,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -118,7 +129,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -136,6 +148,9 @@
     "internal": {
       "id": {
         "minfin": 94
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/europrombank"
       }
     }
   },
@@ -166,7 +181,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -199,6 +215,9 @@
     "internal": {
       "id": {
         "minfin": 85
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ideabank"
       }
     }
   },
@@ -227,6 +246,9 @@
     "internal": {
       "id": {
         "minfin": 138
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/imexbank"
       }
     }
   },
@@ -255,6 +277,9 @@
     "internal": {
       "id": {
         "minfin": 66
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/investbank"
       }
     }
   },
@@ -281,6 +306,9 @@
     "internal": {
       "id": {
         "minfin": 566
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/investtrustbank"
       }
     }
   },
@@ -314,6 +342,9 @@
     "internal": {
       "id": {
         "minfin": 3
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ing"
       }
     }
   },
@@ -347,6 +378,9 @@
     "internal": {
       "id": {
         "minfin": 77
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/industrialbank"
       }
     }
   },
@@ -363,7 +397,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -381,6 +416,9 @@
     "internal": {
       "id": {
         "minfin": 184
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/inprombank"
       }
     }
   },
@@ -409,6 +447,9 @@
     "internal": {
       "id": {
         "minfin": 28
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/integral"
       }
     }
   },
@@ -437,6 +478,9 @@
     "internal": {
       "id": {
         "minfin": 98
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/interbank"
       }
     }
   },
@@ -465,6 +509,9 @@
     "internal": {
       "id": {
         "minfin": 462
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/inter-credit-bank"
       }
     }
   },
@@ -481,7 +528,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -514,6 +562,9 @@
     "internal": {
       "id": {
         "minfin": 229
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/a-bank"
       }
     }
   },
@@ -542,6 +593,9 @@
     "internal": {
       "id": {
         "minfin": 273
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/avantbank"
       }
     }
   },
@@ -570,7 +624,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -588,6 +643,9 @@
     "internal": {
       "id": {
         "minfin": 44
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/iboxbank"
       }
     }
   },
@@ -616,6 +674,9 @@
     "internal": {
       "id": {
         "minfin": 139
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/avtokrazbank"
       }
     }
   },
@@ -649,6 +710,9 @@
     "internal": {
       "id": {
         "minfin": 95
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/accordbank"
       }
     }
   },
@@ -677,6 +741,9 @@
     "internal": {
       "id": {
         "minfin": 102
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/axiomabank"
       }
     }
   },
@@ -705,6 +772,9 @@
     "internal": {
       "id": {
         "minfin": 162
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/aktabank"
       }
     }
   },
@@ -733,6 +803,9 @@
     "internal": {
       "id": {
         "minfin": 76
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/active-bank"
       }
     }
   },
@@ -749,7 +822,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -782,6 +856,9 @@
     "internal": {
       "id": {
         "minfin": 563
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bankalpari"
       }
     }
   },
@@ -815,6 +892,9 @@
     "internal": {
       "id": {
         "minfin": 87
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/altbank"
       }
     }
   },
@@ -848,6 +928,9 @@
     "internal": {
       "id": {
         "minfin": 63
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/alfa-bank"
       }
     }
   },
@@ -882,6 +965,9 @@
     "internal": {
       "id": {
         "minfin": 32
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/agroprosperis-bank"
       }
     }
   },
@@ -900,6 +986,9 @@
     "internal": {
       "id": {
         "minfin": 71
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/apeks-bank"
       }
     }
   },
@@ -933,6 +1022,9 @@
     "internal": {
       "id": {
         "minfin": 24
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/arkada"
       }
     }
   },
@@ -949,7 +1041,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -977,6 +1070,9 @@
     "internal": {
       "id": {
         "minfin": 34
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/artem-bank"
       }
     }
   },
@@ -1010,6 +1106,9 @@
     "internal": {
       "id": {
         "minfin": 59
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/asvio_bank"
       }
     }
   },
@@ -1026,7 +1125,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -1042,7 +1142,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -1063,6 +1164,9 @@
     "internal": {
       "id": {
         "minfin": 101
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/basis"
       }
     }
   },
@@ -1096,6 +1200,9 @@
     "internal": {
       "id": {
         "minfin": 166
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bank-3-4"
       }
     }
   },
@@ -1129,6 +1236,9 @@
     "internal": {
       "id": {
         "minfin": 57
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bis"
       }
     }
   },
@@ -1160,6 +1270,9 @@
     "internal": {
       "id": {
         "minfin": 562
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/avangardbank"
       }
     }
   },
@@ -1193,6 +1306,9 @@
     "internal": {
       "id": {
         "minfin": 114
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/alliance"
       }
     }
   },
@@ -1221,6 +1337,9 @@
     "internal": {
       "id": {
         "minfin": 100
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bank-boguslav"
       }
     }
   },
@@ -1247,6 +1366,9 @@
     "internal": {
       "id": {
         "minfin": 36
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bank-veles"
       }
     }
   },
@@ -1280,6 +1402,9 @@
     "internal": {
       "id": {
         "minfin": 18
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bank-vostok"
       }
     }
   },
@@ -1298,6 +1423,9 @@
     "internal": {
       "id": {
         "minfin": 108
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/grant"
       }
     }
   },
@@ -1316,6 +1444,9 @@
     "internal": {
       "id": {
         "minfin": 109
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/zemelnyi-kapital"
       }
     }
   },
@@ -1344,6 +1475,9 @@
     "internal": {
       "id": {
         "minfin": 134
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/zolotye-vorota"
       }
     }
   },
@@ -1372,6 +1506,9 @@
     "internal": {
       "id": {
         "minfin": 115
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/cambio"
       }
     }
   },
@@ -1400,7 +1537,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -1423,7 +1561,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -1451,6 +1590,9 @@
     "internal": {
       "id": {
         "minfin": 200
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/natsionalniy-kredit"
       }
     }
   },
@@ -1469,6 +1611,9 @@
     "internal": {
       "id": {
         "minfin": 23
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/pivdenny"
       }
     }
   },
@@ -1492,7 +1637,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -1510,6 +1656,9 @@
     "internal": {
       "id": {
         "minfin": 526
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bankportal"
       }
     }
   },
@@ -1526,7 +1675,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -1554,7 +1704,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -1572,6 +1723,9 @@
     "internal": {
       "id": {
         "minfin": 465
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/sf"
       }
     }
   },
@@ -1590,6 +1744,9 @@
     "internal": {
       "id": {
         "minfin": 22
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/stolichnyi"
       }
     }
   },
@@ -1608,6 +1765,9 @@
     "internal": {
       "id": {
         "minfin": 126
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bank-trust"
       }
     }
   },
@@ -1641,6 +1801,9 @@
     "internal": {
       "id": {
         "minfin": 99
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bank-familnyi"
       }
     }
   },
@@ -1674,6 +1837,9 @@
     "internal": {
       "id": {
         "minfin": 135
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/forward-bank"
       }
     }
   },
@@ -1697,7 +1863,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -1715,6 +1882,9 @@
     "internal": {
       "id": {
         "minfin": 470
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/unisonbank"
       }
     }
   },
@@ -1743,6 +1913,9 @@
     "internal": {
       "id": {
         "minfin": 67
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bg-bank"
       }
     }
   },
@@ -1776,6 +1949,9 @@
     "internal": {
       "id": {
         "minfin": 142
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bm-bank"
       }
     }
   },
@@ -1804,6 +1980,9 @@
     "internal": {
       "id": {
         "minfin": 11
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/brokbiznesbank"
       }
     }
   },
@@ -1837,6 +2016,9 @@
     "internal": {
       "id": {
         "minfin": 70
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bta-bank"
       }
     }
   },
@@ -1865,6 +2047,9 @@
     "internal": {
       "id": {
         "minfin": 156
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/vab-bank"
       }
     }
   },
@@ -1893,6 +2078,9 @@
     "internal": {
       "id": {
         "minfin": 82
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/volksbank"
       }
     }
   },
@@ -1921,6 +2109,9 @@
     "internal": {
       "id": {
         "minfin": 53
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/vbr"
       }
     }
   },
@@ -1949,6 +2140,9 @@
     "internal": {
       "id": {
         "minfin": 561
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/vectorbank"
       }
     }
   },
@@ -1982,6 +2176,9 @@
     "internal": {
       "id": {
         "minfin": 89
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/vernum-bank"
       }
     }
   },
@@ -1998,7 +2195,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -2031,6 +2229,9 @@
     "internal": {
       "id": {
         "minfin": 81
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/vtb-bank"
       }
     }
   },
@@ -2047,7 +2248,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -2075,6 +2277,9 @@
     "internal": {
       "id": {
         "minfin": 564
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bankgefest"
       }
     }
   },
@@ -2108,6 +2313,9 @@
     "internal": {
       "id": {
         "minfin": 42
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/globus"
       }
     }
   },
@@ -2136,6 +2344,9 @@
     "internal": {
       "id": {
         "minfin": 39
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/olympic-ukraine"
       }
     }
   },
@@ -2164,7 +2375,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -2180,7 +2392,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -2208,6 +2421,9 @@
     "internal": {
       "id": {
         "minfin": 62
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/diamantbank"
       }
     }
   },
@@ -2226,6 +2442,9 @@
     "internal": {
       "id": {
         "minfin": 461
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/divi-bank"
       }
     }
   },
@@ -2254,6 +2473,9 @@
     "internal": {
       "id": {
         "minfin": 93
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/daniel"
       }
     }
   },
@@ -2282,6 +2504,9 @@
     "internal": {
       "id": {
         "minfin": 174
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/delta-bank"
       }
     }
   },
@@ -2310,6 +2535,9 @@
     "internal": {
       "id": {
         "minfin": 97
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/demark"
       }
     }
   },
@@ -2331,6 +2559,9 @@
     "internal": {
       "id": {
         "minfin": 473
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/dzbank"
       }
     }
   },
@@ -2347,7 +2578,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -2365,6 +2597,9 @@
     "internal": {
       "id": {
         "minfin": 565
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/db"
       }
     }
   },
@@ -2393,7 +2628,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -2411,6 +2647,9 @@
     "internal": {
       "id": {
         "minfin": 50
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/dongorbank"
       }
     }
   },
@@ -2439,6 +2678,9 @@
     "internal": {
       "id": {
         "minfin": 137
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/expobank"
       }
     }
   },
@@ -2457,6 +2699,9 @@
     "internal": {
       "id": {
         "minfin": 27
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/express-bank"
       }
     }
   },
@@ -2485,6 +2730,9 @@
     "internal": {
       "id": {
         "minfin": 144
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/energobank"
       }
     }
   },
@@ -2513,6 +2761,9 @@
     "internal": {
       "id": {
         "minfin": 211
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/rd-bank"
       }
     }
   },
@@ -2541,6 +2792,9 @@
     "internal": {
       "id": {
         "minfin": 33
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/zakhidinkombank"
       }
     }
   },
@@ -2562,6 +2816,9 @@
     "internal": {
       "id": {
         "minfin": 75
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/zembank"
       }
     }
   },
@@ -2590,7 +2847,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -2618,6 +2876,9 @@
     "internal": {
       "id": {
         "minfin": 56
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/zlatobank"
       }
     }
   },
@@ -2651,6 +2912,9 @@
     "internal": {
       "id": {
         "minfin": 48
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/cib"
       }
     }
   },
@@ -2679,6 +2943,9 @@
     "internal": {
       "id": {
         "minfin": 468
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/capital"
       }
     }
   },
@@ -2695,7 +2962,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -2723,6 +2991,9 @@
     "internal": {
       "id": {
         "minfin": 158
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/kiev"
       }
     }
   },
@@ -2751,6 +3022,9 @@
     "internal": {
       "id": {
         "minfin": 78
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/kievskaya-rus"
       }
     }
   },
@@ -2767,7 +3041,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -2800,6 +3075,9 @@
     "internal": {
       "id": {
         "minfin": 146
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/clearing-house"
       }
     }
   },
@@ -2828,6 +3106,9 @@
     "internal": {
       "id": {
         "minfin": 96
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/classic-bank"
       }
     }
   },
@@ -2861,6 +3142,9 @@
     "internal": {
       "id": {
         "minfin": 116
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/cominvestbank"
       }
     }
   },
@@ -2894,6 +3178,9 @@
     "internal": {
       "id": {
         "minfin": 191
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/concord"
       }
     }
   },
@@ -2922,6 +3209,9 @@
     "internal": {
       "id": {
         "minfin": 83
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/contract"
       }
     }
   },
@@ -2956,6 +3246,9 @@
     "internal": {
       "id": {
         "minfin": 151
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/credit-agricole"
       }
     }
   },
@@ -2989,6 +3282,9 @@
     "internal": {
       "id": {
         "minfin": 13
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/credit-europe-bank"
       }
     }
   },
@@ -3007,6 +3303,9 @@
     "internal": {
       "id": {
         "minfin": 43
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/credit-dnepr"
       }
     }
   },
@@ -3025,6 +3324,9 @@
     "internal": {
       "id": {
         "minfin": 45
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/credit-optima"
       }
     }
   },
@@ -3058,6 +3360,9 @@
     "internal": {
       "id": {
         "minfin": 52
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/creditwest-bank"
       }
     }
   },
@@ -3086,6 +3391,9 @@
     "internal": {
       "id": {
         "minfin": 17
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/creditprombank"
       }
     }
   },
@@ -3119,6 +3427,9 @@
     "internal": {
       "id": {
         "minfin": 157
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/kredobank"
       }
     }
   },
@@ -3152,6 +3463,9 @@
     "internal": {
       "id": {
         "minfin": 559
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/crystalbank"
       }
     }
   },
@@ -3180,6 +3494,9 @@
     "internal": {
       "id": {
         "minfin": 128
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ksgbank"
       }
     }
   },
@@ -3208,6 +3525,9 @@
     "internal": {
       "id": {
         "minfin": 72
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/legbank"
       }
     }
   },
@@ -3241,6 +3561,9 @@
     "internal": {
       "id": {
         "minfin": 136
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/lvov"
       }
     }
   },
@@ -3274,6 +3597,9 @@
     "internal": {
       "id": {
         "minfin": 196
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ii-bank"
       }
     }
   },
@@ -3307,6 +3633,9 @@
     "internal": {
       "id": {
         "minfin": 140
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/misto-bank"
       }
     }
   },
@@ -3335,6 +3664,9 @@
     "internal": {
       "id": {
         "minfin": 103
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/citycommercebank"
       }
     }
   },
@@ -3370,6 +3702,9 @@
     "internal": {
       "id": {
         "minfin": 80
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/megabank"
       }
     }
   },
@@ -3398,6 +3733,9 @@
     "internal": {
       "id": {
         "minfin": 463
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/melior"
       }
     }
   },
@@ -3426,6 +3764,9 @@
     "internal": {
       "id": {
         "minfin": 118
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/mercury"
       }
     }
   },
@@ -3459,6 +3800,9 @@
     "internal": {
       "id": {
         "minfin": 125
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/metabank"
       }
     }
   },
@@ -3477,6 +3821,9 @@
     "internal": {
       "id": {
         "minfin": 472
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/mihailovskiy"
       }
     }
   },
@@ -3496,6 +3843,9 @@
     "internal": {
       "id": {
         "minfin": 131
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/morskoy"
       }
     }
   },
@@ -3529,6 +3879,9 @@
     "internal": {
       "id": {
         "minfin": 198
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/motor-bank"
       }
     }
   },
@@ -3563,6 +3916,9 @@
     "internal": {
       "id": {
         "minfin": 21
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/marfinbank"
       }
     }
   },
@@ -3591,6 +3947,9 @@
     "internal": {
       "id": {
         "minfin": 19
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/nadra"
       }
     }
   },
@@ -3609,6 +3968,9 @@
     "internal": {
       "id": {
         "minfin": 199
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/narodniy-kapital"
       }
     }
   },
@@ -3637,6 +3999,9 @@
     "internal": {
       "id": {
         "minfin": 38
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bni"
       }
     }
   },
@@ -3653,7 +4018,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -3669,7 +4035,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -3692,7 +4059,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -3720,6 +4088,9 @@
     "internal": {
       "id": {
         "minfin": 145
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/new"
       }
     }
   },
@@ -3736,7 +4107,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -3769,6 +4141,9 @@
     "internal": {
       "id": {
         "minfin": 61
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/oksi-bank"
       }
     }
   },
@@ -3785,7 +4160,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -3808,7 +4184,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -3841,6 +4218,9 @@
     "internal": {
       "id": {
         "minfin": 6
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/otp-bank"
       }
     }
   },
@@ -3869,6 +4249,9 @@
     "internal": {
       "id": {
         "minfin": 2
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/oschadbank"
       }
     }
   },
@@ -3897,6 +4280,9 @@
     "internal": {
       "id": {
         "minfin": 68
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/pivdencombank"
       }
     }
   },
@@ -3925,7 +4311,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -3943,6 +4330,9 @@
     "internal": {
       "id": {
         "minfin": 150
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/piraeus-bank"
       }
     }
   },
@@ -3971,7 +4361,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -4004,6 +4395,9 @@
     "internal": {
       "id": {
         "minfin": 132
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/fib"
       }
     }
   },
@@ -4022,6 +4416,9 @@
     "internal": {
       "id": {
         "minfin": 90
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/pku"
       }
     }
   },
@@ -4055,6 +4452,9 @@
     "internal": {
       "id": {
         "minfin": 104
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/policombank"
       }
     }
   },
@@ -4088,6 +4488,9 @@
     "internal": {
       "id": {
         "minfin": 54
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/poltava-bank"
       }
     }
   },
@@ -4114,7 +4517,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -4142,6 +4546,9 @@
     "internal": {
       "id": {
         "minfin": 113
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/porto-franko"
       }
     }
   },
@@ -4175,6 +4582,9 @@
     "internal": {
       "id": {
         "minfin": 155
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/pravex-bank"
       }
     }
   },
@@ -4203,6 +4613,9 @@
     "internal": {
       "id": {
         "minfin": 69
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/prime-bank"
       }
     }
   },
@@ -4219,7 +4632,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -4247,6 +4661,9 @@
     "internal": {
       "id": {
         "minfin": 7
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/premium"
       }
     }
   },
@@ -4277,6 +4694,9 @@
     "internal": {
       "id": {
         "minfin": 1
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/privatbank"
       }
     }
   },
@@ -4310,6 +4730,9 @@
     "internal": {
       "id": {
         "minfin": 143
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/procredit-bank"
       }
     }
   },
@@ -4343,6 +4766,9 @@
     "internal": {
       "id": {
         "minfin": 209
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/prominvestbank"
       }
     }
   },
@@ -4371,6 +4797,9 @@
     "internal": {
       "id": {
         "minfin": 127
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/promeconombank"
       }
     }
   },
@@ -4399,6 +4828,9 @@
     "internal": {
       "id": {
         "minfin": 91
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/profin-bank"
       }
     }
   },
@@ -4427,6 +4859,9 @@
     "internal": {
       "id": {
         "minfin": 20
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/platinumbank"
       }
     }
   },
@@ -4460,6 +4895,9 @@
     "internal": {
       "id": {
         "minfin": 148
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/pumb"
       }
     }
   },
@@ -4478,6 +4916,9 @@
     "internal": {
       "id": {
         "minfin": 210
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/pfb"
       }
     }
   },
@@ -4511,6 +4952,9 @@
     "internal": {
       "id": {
         "minfin": 46
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/radabank"
       }
     }
   },
@@ -4539,6 +4983,9 @@
     "internal": {
       "id": {
         "minfin": 272
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/radical-bank"
       }
     }
   },
@@ -4572,6 +5019,9 @@
     "internal": {
       "id": {
         "minfin": 58
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/aval"
       }
     }
   },
@@ -4603,6 +5053,9 @@
     "internal": {
       "id": {
         "minfin": 14
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/rwsbank"
       }
     }
   },
@@ -4631,6 +5084,9 @@
     "internal": {
       "id": {
         "minfin": 92
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/real-bank"
       }
     }
   },
@@ -4649,6 +5105,9 @@
     "internal": {
       "id": {
         "minfin": 122
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/rccf"
       }
     }
   },
@@ -4677,6 +5136,9 @@
     "internal": {
       "id": {
         "minfin": 161
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/rodovid-bank"
       }
     }
   },
@@ -4708,6 +5170,9 @@
     "internal": {
       "id": {
         "minfin": 609
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/settlement"
       }
     }
   },
@@ -4724,7 +5189,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -4750,7 +5216,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -4768,6 +5235,9 @@
     "internal": {
       "id": {
         "minfin": 4
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/citibank"
       }
     }
   },
@@ -4786,6 +5256,9 @@
     "internal": {
       "id": {
         "minfin": 271
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bank-sich"
       }
     }
   },
@@ -4820,6 +5293,9 @@
     "internal": {
       "id": {
         "minfin": 16
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/sberbank"
       }
     }
   },
@@ -4851,6 +5327,9 @@
     "internal": {
       "id": {
         "minfin": 525
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/sebcorpratebank"
       }
     }
   },
@@ -4867,7 +5346,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -4900,6 +5380,9 @@
     "internal": {
       "id": {
         "minfin": 86
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/skybank"
       }
     }
   },
@@ -4916,7 +5399,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -4944,6 +5428,9 @@
     "internal": {
       "id": {
         "minfin": 464
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/smartbank"
       }
     }
   },
@@ -4967,7 +5454,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -4983,7 +5471,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -5011,6 +5500,9 @@
     "internal": {
       "id": {
         "minfin": 222
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/soyuz"
       }
     }
   },
@@ -5034,7 +5526,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -5062,6 +5555,9 @@
     "internal": {
       "id": {
         "minfin": 466
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/standart"
       }
     }
   },
@@ -5090,6 +5586,9 @@
     "internal": {
       "id": {
         "minfin": 223
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/starokievskiy-bank"
       }
     }
   },
@@ -5106,7 +5605,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -5129,7 +5629,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -5145,7 +5646,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -5163,6 +5665,9 @@
     "internal": {
       "id": {
         "minfin": 88
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/vpbank"
       }
     }
   },
@@ -5191,6 +5696,9 @@
     "internal": {
       "id": {
         "minfin": 60
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/tavrika"
       }
     }
   },
@@ -5225,6 +5733,9 @@
     "internal": {
       "id": {
         "minfin": 84
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/taskombank"
       }
     }
   },
@@ -5253,6 +5764,9 @@
     "internal": {
       "id": {
         "minfin": 141
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/terra-bank"
       }
     }
   },
@@ -5281,6 +5795,9 @@
     "internal": {
       "id": {
         "minfin": 224
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/tk-credit"
       }
     }
   },
@@ -5297,7 +5814,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -5320,7 +5838,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -5353,6 +5872,9 @@
     "internal": {
       "id": {
         "minfin": 120
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/trust-capital"
       }
     }
   },
@@ -5381,6 +5903,9 @@
     "internal": {
       "id": {
         "minfin": 117
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ukoopspilka"
       }
     }
   },
@@ -5409,6 +5934,9 @@
     "internal": {
       "id": {
         "minfin": 149
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ukrinbank"
       }
     }
   },
@@ -5425,7 +5953,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -5441,7 +5970,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -5474,6 +6004,9 @@
     "internal": {
       "id": {
         "minfin": 49
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ubrr"
       }
     }
   },
@@ -5507,6 +6040,9 @@
     "internal": {
       "id": {
         "minfin": 74
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ukrcapital"
       }
     }
   },
@@ -5523,7 +6059,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -5551,6 +6088,9 @@
     "internal": {
       "id": {
         "minfin": 51
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ubb"
       }
     }
   },
@@ -5585,6 +6125,9 @@
     "internal": {
       "id": {
         "minfin": 233
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ukrstroyinvestbank"
       }
     }
   },
@@ -5618,6 +6161,9 @@
     "internal": {
       "id": {
         "minfin": 35
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ukrgasbank"
       }
     }
   },
@@ -5646,6 +6192,9 @@
     "internal": {
       "id": {
         "minfin": 64
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ukrgazprombank"
       }
     }
   },
@@ -5679,6 +6228,9 @@
     "internal": {
       "id": {
         "minfin": 15
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ukreximbank"
       }
     }
   },
@@ -5707,6 +6259,9 @@
     "internal": {
       "id": {
         "minfin": 124
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ukrcommunbank"
       }
     }
   },
@@ -5740,6 +6295,9 @@
     "internal": {
       "id": {
         "minfin": 159
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ukrsibbank"
       }
     }
   },
@@ -5773,6 +6331,9 @@
     "internal": {
       "id": {
         "minfin": 129
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ukrsocbank"
       }
     }
   },
@@ -5806,6 +6367,9 @@
     "internal": {
       "id": {
         "minfin": 123
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/universal-bank"
       }
     }
   },
@@ -5834,6 +6398,9 @@
     "internal": {
       "id": {
         "minfin": 37
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ukrincombank"
       }
     }
   },
@@ -5862,6 +6429,9 @@
     "internal": {
       "id": {
         "minfin": 12
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/upb"
       }
     }
   },
@@ -5885,7 +6455,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -5903,6 +6474,9 @@
     "internal": {
       "id": {
         "minfin": 26
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/ufw-bank"
       }
     }
   },
@@ -5931,6 +6505,9 @@
     "internal": {
       "id": {
         "minfin": 154
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/fidobank"
       }
     }
   },
@@ -5957,6 +6534,9 @@
     "internal": {
       "id": {
         "minfin": 225
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/tmm-bank"
       }
     }
   },
@@ -5985,6 +6565,9 @@
     "internal": {
       "id": {
         "minfin": 147
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/finansy-i-kredit"
       }
     }
   },
@@ -6015,6 +6598,9 @@
     "internal": {
       "id": {
         "minfin": 73
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/finansovaya-iniciativa"
       }
     }
   },
@@ -6033,6 +6619,9 @@
     "internal": {
       "id": {
         "minfin": 469
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/financial-partner"
       }
     }
   },
@@ -6061,6 +6650,9 @@
     "internal": {
       "id": {
         "minfin": 106
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/finbank"
       }
     }
   },
@@ -6079,6 +6671,9 @@
     "internal": {
       "id": {
         "minfin": 105
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/finexbank"
       }
     }
   },
@@ -6107,6 +6702,9 @@
     "internal": {
       "id": {
         "minfin": 79
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/finrostbank"
       }
     }
   },
@@ -6135,6 +6733,9 @@
     "internal": {
       "id": {
         "minfin": 25
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/fortuna-bank"
       }
     }
   },
@@ -6153,6 +6754,9 @@
     "internal": {
       "id": {
         "minfin": 160
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bank-forum"
       }
     }
   },
@@ -6181,6 +6785,9 @@
     "internal": {
       "id": {
         "minfin": 40
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/khreschatyk"
       }
     }
   },
@@ -6209,6 +6816,9 @@
     "internal": {
       "id": {
         "minfin": 249
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/center"
       }
     }
   },
@@ -6225,7 +6835,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -6241,6 +6852,9 @@
     "internal": {
       "id": {
         "minfin": 467
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/chbrr"
       }
     }
   },
@@ -6264,7 +6878,8 @@
       "minfin": []
     },
     "internal": {
-      "id": {}
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -6297,6 +6912,9 @@
     "internal": {
       "id": {
         "minfin": 31
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/unexbank"
       }
     }
   },
@@ -6325,6 +6943,9 @@
     "internal": {
       "id": {
         "minfin": 524
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/unionstandardbank"
       }
     }
   }

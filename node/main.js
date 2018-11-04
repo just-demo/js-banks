@@ -77,6 +77,9 @@ function combineBanks() {
             internal: {
                 id: {
                     minfin: (minfinBanks[id] || {}).id
+                },
+                link: {
+                    minfin: (minfinBanks[id] || {}).link
                 }
             }
         };

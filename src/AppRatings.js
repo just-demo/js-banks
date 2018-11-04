@@ -13,19 +13,38 @@ class AppRatings extends Component {
             ratings: {}
         };
 
-        fetch('/bank-details.json')
+        fetch('/banks.json')
             .then(banks => banks.json())
-            .then(banks => this.setState({banks: banks}));
+            .then(banks => this.setState({banks: this.convertBanks(banks)}));
 
 
-        fetch('/bank-ratings.json')
+        fetch('/minfin-ratings.json')
             .then(ratings => ratings.json())
             .then(ratings => this.setState({ratings: ratings}));
+    }
+
+    convertBanks(banks) {
+        return _.keyBy(banks.map(bank => {
+            return {
+                id: bank.internal.id.minfin,
+                name: bank.name.minfin,
+                site: (bank.site.minfin || [])[0],
+                link: bank.internal.link.minfin,
+                dateOpen: bank.dateOpen.dbf
+            };
+        }).filter(bank => bank.name), 'id');
     }
 
     render() {
         // http://www.fg.gov.ua/uchasnyky-fondu
         const dates = Object.keys(this.state.ratings).sort().reverse();
+        const openDates = {};
+        _.forOwn(this.state.banks, (bank, bankId) => dates.forEach(date => {
+            if (bank.dateOpen && bank.dateOpen < date) {
+                openDates[bankId] = date;
+            }
+        }));
+
         const latestRating = {};
         _.forOwn(this.state.ratings, (dateRating, date) => {
             _.forOwn(dateRating, (bankRating, bankId) => {
@@ -69,10 +88,10 @@ class AppRatings extends Component {
                     </tr>
                     {bankIds.map(bankId => (
                         <tr key={bankId}>
-                            <td><a href={`https://minfin.com.ua/ua/company/${this.state.banks[bankId].alias}`}>{this.state.banks[bankId].name}</a></td>
+                            <td><a href={this.state.banks[bankId].link}>{this.state.banks[bankId].name}</a></td>
                             <td><a href={this.state.banks[bankId].site}>{((this.state.banks[bankId].site || '').match(/\/\/([^/]+)/) || [])[1]}</a></td>
                             {dates.map(date => (
-                                <td style={this.styleForCell(bankId, date)}>{this.state.ratings[date][bankId] || '-'}</td>
+                                <td style={this.styleForCell(bankId, date, openDates)}>{this.state.ratings[date][bankId] || '-'}</td>
                             ))}
                         </tr>
                     ))}
@@ -82,18 +101,17 @@ class AppRatings extends Component {
         );
     }
 
-    styleForCell(bankId, date) {
+    styleForCell(bankId, date, openDates) {
         return {
             ...this.styleForRating(this.state.ratings[date][bankId]),
-            ...this.styleForOpenDate(bankId, date)
+            ...this.styleForOpenDate(openDates[bankId] === date)
         };
     }
 
-    styleForOpenDate(bankId, date) {
-        // TODO: implement
-        return date === '2017-12-07' ? {
+    styleForOpenDate(isOpenDate) {
+        return isOpenDate ? {
             borderColor: 'green',
-            borderWidth: 2
+            borderWidth: 3
         } : {};
     }
 
