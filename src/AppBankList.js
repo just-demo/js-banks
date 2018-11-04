@@ -19,6 +19,39 @@ class AppBanksList extends Component {
             banks: []
         };
 
+        this.sources = [
+            {
+                type: 'dbf',
+                title: 'RCUCRU.dbf',
+                href: 'https://bank.gov.ua/control/uk/bankdict/search',
+                color: 'red',
+            },
+            {
+                type: 'api',
+                title: 'NBU API',
+                href: 'https://bank.gov.ua/control/uk/publish/article?art_id=38441973&cat_id=38459171#get_data_branch',
+                color: 'pink',
+            },
+            {
+                type: 'nbu',
+                title: 'bank.gov.ua',
+                href: 'https://bank.gov.ua',
+                color: 'orange',
+            },
+            {
+                type: 'fund',
+                title: 'www.fg.gov.ua',
+                href: 'http://www.fg.gov.ua',
+                color: 'yellow',
+            },
+            {
+                type: 'minfin',
+                title: 'minfin.com.ua',
+                href: 'https://minfin.com.ua',
+                color: 'brown',
+            }
+        ];
+
         fetch('/banks.gov.json')
             .then(banks => banks.json())
             .then(banks => this.setState({banks: banks}));
@@ -50,27 +83,23 @@ class AppBanksList extends Component {
                     <tr>
                         <th>Active</th>
                         <th>Site</th>
-                        <th><a href="https://bank.gov.ua/control/uk/bankdict/search">RCUCRU.dbf</a></th>
-                        <th><a
-                            href="https://bank.gov.ua/control/uk/publish/article?art_id=38441973&cat_id=38459171#get_data_branch">NBU
-                            API</a></th>
-                        <th><a href="https://bank.gov.ua">bank.gov.ua</a></th>
-                        <th><a href="http://www.fg.gov.ua">www.fg.gov.ua</a></th>
-                        <th><a href="https://minfin.com.ua">minfin.com.ua</a></th>
+                        {this.enabledSources().map(source => (
+                            <th><a href={source.href}>{source.title}</a></th>
+                        ))}
                     </tr>
                     {this.state.banks.map(bank => (
-                        <tr key={bank.id} style={this.styleForBank(bank)}>
+                        <tr key={bank.id} style={this.styleForRow(bank)}>
                             {/*TODO: style for active if there is a mismatch*/}
                             <td>{this.allTrue(bank.active) ? 'Yes' : 'No'}</td>
                             {/*TODO: filter out duplicate sites and show source of each site*/}
-                            <td>{_.flatten(Object.values(bank.site) || []).map(site => (
-                                <p><a href={site}>{site}</a></p>
-                            ))}</td>
-                            <td>{bank.name.dbf}</td>
-                            <td>{bank.name.api}</td>
-                            <td>{bank.name.nbu}</td>
-                            <td>{bank.name.fund}</td>
-                            <td>{bank.name.minfin}</td>
+                            <td>
+                                {_.flatten(Object.values(bank.site) || []).map(site => (
+                                    <p><a href={site}>{this.truncateSite(site)}</a></p>
+                                ))}
+                            </td>
+                            {this.enabledSources().map(source => (
+                                <td style={this.styleForCell(bank, source)}>{bank.name[source.type]}</td>
+                            ))}
                         </tr>
                     ))}
                     </tbody>
@@ -79,33 +108,42 @@ class AppBanksList extends Component {
         );
     }
 
+    truncateSite(site) {
+        return site.replace(/(?<!:|:\/)\/.*/g, '').replace(/^http(s)?:\/\//, '');
+    }
+
+    enabledSources() {
+        // TODO: optimize performance
+        return this.sources.filter(source => this.state.filter[source.color]);
+    }
+
     allTrue(object) {
         // TODO: do really need to specify predicate a function? isn't default enough?
         return _.every(Object.values(object), value => value);
     }
 
-    styleForBank(bank) {
-        const colors = {
-            dbf: 'red',
-            api: 'pink',
-            nbu: 'orange',
-            fund: 'yellow',
-            minfin: 'brown',
+    styleForCell(bank, currentSource) {
+        const enabledSources = this.enabledSources();
+        const allNames = enabledSources.length;
+        const populatedNames = enabledSources.filter(source => bank.name[source.type]).length;
+        const color = populatedNames === allNames || !populatedNames ? 'green' :
+            (populatedNames === 1 && bank.name[currentSource.type]) || (populatedNames === allNames - 1 && !bank.name[currentSource.type]) ? currentSource.color :
+                (populatedNames === 1 || populatedNames === allNames - 1) ? 'white' : 'blue';
+        return {
+            backgroundColor: color
         };
-        const allNames = Object.keys(colors).length;
-        const withNames = Object.keys(bank.name).filter(key => bank.name[key]).length;
-        const isTheOnlyMismatch = key => {
-            return (withNames === 1 && bank.name[key]) || (withNames === allNames - 1 && !bank.name[key]);
-        };
+    }
 
-        // TODO: highlight cells instead of rows
-        // TODO: take into account filter when determining isTheOnlyMismatch (don't take into account unchecked columns)
-        const color = withNames === allNames ? 'green' : colors[_.find(Object.keys(colors), isTheOnlyMismatch)] || 'blue';
+    styleForRow(bank) {
+        const enabledSources = this.enabledSources();
+        const allNames = enabledSources.length;
+        const populatedNames = enabledSources.filter(source => bank.name[source.type]).length;
+        const color = populatedNames === allNames || !populatedNames ? 'green' : 'white';
         const style = {
             backgroundColor: color
         };
 
-        if (!this.state.filter[color]) {
+        if (color !== 'white' && !this.state.filter[color]) {
             style.display = 'none';
         }
 
