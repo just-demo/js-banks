@@ -52,13 +52,13 @@ class AppBanksList extends Component {
             }
         ];
 
-        fetch('/banks.gov.json')
+        fetch('/banks.json')
             .then(banks => banks.json())
             .then(banks => this.setState({banks: banks}));
     }
 
     handleFilterChange(color) {
-        const filter = {...this.state.filter}
+        const filter = {...this.state.filter};
         filter[color] = !filter[color];
         this.setState({filter});
     }

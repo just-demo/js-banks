@@ -72,7 +72,7 @@ class AppRatings extends Component {
                             <td><a href={`https://minfin.com.ua/ua/company/${this.state.banks[bankId].alias}`}>{this.state.banks[bankId].name}</a></td>
                             <td><a href={this.state.banks[bankId].site}>{((this.state.banks[bankId].site || '').match(/\/\/([^/]+)/) || [])[1]}</a></td>
                             {dates.map(date => (
-                                <td style={this.styleForRating(this.state.ratings[date][bankId])}>{this.state.ratings[date][bankId] || '-'}</td>
+                                <td style={this.styleForCell(bankId, date)}>{this.state.ratings[date][bankId] || '-'}</td>
                             ))}
                         </tr>
                     ))}
@@ -80,6 +80,21 @@ class AppRatings extends Component {
                 </table>
             </div>
         );
+    }
+
+    styleForCell(bankId, date) {
+        return {
+            ...this.styleForRating(this.state.ratings[date][bankId]),
+            ...this.styleForOpenDate(bankId, date)
+        };
+    }
+
+    styleForOpenDate(bankId, date) {
+        // TODO: implement
+        return date === '2017-12-07' ? {
+            borderColor: 'green',
+            borderWidth: 2
+        } : {};
     }
 
     styleForRating(rating) {

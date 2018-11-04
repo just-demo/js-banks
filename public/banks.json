@@ -1,1453 +1,6331 @@
 [
   {
     "id": "IНТЕРКОНТИНЕНТБАНК",
-    "fg": "IНТЕРКОНТИНЕНТБАНК"
+    "name": {
+      "fund": "IНТЕРКОНТИНЕНТБАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "MONOBANK",
-    "mf": "MONOBANK"
+    "name": {
+      "minfin": "MONOBANK"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "https://monobank.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 658
+      }
+    }
   },
   {
     "id": "ЄВРОБАНК",
-    "fg": "ЄВРОБАНК",
-    "mf": "ЄВРОБАНК"
+    "name": {
+      "dbf": "ЄВРОБАНК",
+      "api": "ЄВРОБАНК",
+      "fund": "ЄВРОБАНК",
+      "minfin": "ЄВРОБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2005-01-18",
+      "api": "2005-01-18"
+    },
+    "site": {
+      "minfin": [
+        "http://www.eurobank-ua.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 119
+      }
+    }
   },
   {
     "id": "ЄВРОГАЗБАНК",
-    "fg": "ЄВРОГАЗБАНК",
-    "mf": "ЄВРОГАЗБАНК"
+    "name": {
+      "dbf": "ЄВРОГАЗБАНК",
+      "api": "ЄВРОГАЗБАНК",
+      "fund": "ЄВРОГАЗБАНК",
+      "minfin": "ЄВРОГАЗБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2006-10-17",
+      "api": "2006-10-17"
+    },
+    "site": {
+      "minfin": [
+        "http://www.egb.kiev.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 110
+      }
+    }
   },
   {
     "id": "ЄВРОПЕЙСЬКИЙ",
-    "fg": "ЄВРОПЕЙСЬКИЙ"
+    "name": {
+      "fund": "ЄВРОПЕЙСЬКИЙ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ",
-    "fg": "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ"
+    "name": {
+      "fund": "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ЄВРОПРОМБАНК",
-    "mf": "ЄВРОПРОМБАНК"
+    "name": {
+      "minfin": "ЄВРОПРОМБАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://europrombank.kiev.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 94
+      }
+    }
   },
   {
     "id": "ЄПБ",
-    "bg": "ЄПБ",
-    "fg": "ЄПБ",
-    "site": [
-      "http://mtb.ua",
-      "http://europrombank.kiev.ua",
-      "http://www.europrombank.com"
-    ]
+    "name": {
+      "dbf": "ЄПБ",
+      "api": "ЄПБ",
+      "nbu": "ЄПБ",
+      "fund": "ЄПБ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2008-08-13",
+      "api": "2008-08-13",
+      "nbu": "2008-08-13"
+    },
+    "site": {
+      "fund": [
+        "http://mtb.ua",
+        "http://europrombank.kiev.ua",
+        "http://www.europrombank.com"
+      ],
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ІДЕЯ БАНК",
-    "bg": "ІДЕЯ БАНК",
-    "fg": "ІДЕЯ БАНК",
-    "mf": "ІДЕЯ БАНК",
-    "site": [
-      "http://www.ideabank.ua"
-    ]
+    "name": {
+      "dbf": "ІДЕЯ БАНК",
+      "api": "ІДЕЯ БАНК",
+      "nbu": "ІДЕЯ БАНК",
+      "fund": "ІДЕЯ БАНК",
+      "minfin": "ІДЕЯ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-22",
+      "api": "1991-10-22",
+      "nbu": "1991-10-22"
+    },
+    "site": {
+      "fund": [
+        "http://www.ideabank.ua"
+      ],
+      "minfin": [
+        "https://www.ideabank.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 85
+      }
+    }
   },
   {
     "id": "ІМЕКСБАНК",
-    "fg": "ІМЕКСБАНК",
-    "mf": "ІМЕКСБАНК"
+    "name": {
+      "dbf": "ІМЕКСБАНК",
+      "api": "ІМЕКСБАНК",
+      "fund": "ІМЕКСБАНК",
+      "minfin": "ІМЕКСБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1994-03-29",
+      "api": "1994-03-29"
+    },
+    "site": {
+      "minfin": [
+        "http://imexbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 138
+      }
+    }
   },
   {
     "id": "ІНВЕСТБАНК",
-    "fg": "ІНВЕСТБАНК",
-    "mf": "ІНВЕСТБАНК"
+    "name": {
+      "dbf": "ІНВЕСТБАНК",
+      "api": "ІНВЕСТБАНК",
+      "fund": "ІНВЕСТБАНК",
+      "minfin": "ІНВЕСТБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-03-31",
+      "api": "1992-03-31"
+    },
+    "site": {
+      "minfin": [
+        "http://www.investbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 66
+      }
+    }
   },
   {
     "id": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
-    "mf": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК"
+    "name": {
+      "dbf": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
+      "api": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
+      "minfin": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false
+    },
+    "dateOpen": {
+      "dbf": "2013-08-30",
+      "api": "2013-08-30"
+    },
+    "site": {
+      "minfin": [
+        "http://investtrustbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 566
+      }
+    }
   },
   {
     "id": "ІНГ БАНК УКРАЇНА",
-    "bg": "ІНГ БАНК УКРАЇНА",
-    "fg": "ІНГ БАНК УКРАЇНА",
-    "mf": "ІНГ БАНК УКРАЇНА",
-    "site": [
-      "http://www.ingcommercialbanking.com"
-    ]
+    "name": {
+      "dbf": "ІНГ БАНК УКРАЇНА",
+      "api": "ІНГ БАНК УКРАЇНА",
+      "nbu": "ІНГ БАНК УКРАЇНА",
+      "fund": "ІНГ БАНК УКРАЇНА",
+      "minfin": "ІНГ БАНК УКРАЇНА"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1997-12-15",
+      "api": "1997-12-15",
+      "nbu": "1997-12-15"
+    },
+    "site": {
+      "fund": [
+        "http://www.ingcommercialbanking.com"
+      ],
+      "minfin": [
+        "http://www.ingbankukraine.com/ua/home"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 3
+      }
+    }
   },
   {
     "id": "ІНДУСТРІАЛБАНК",
-    "bg": "ІНДУСТРІАЛБАНК",
-    "fg": "ІНДУСТРІАЛБАНК",
-    "mf": "ІНДУСТРІАЛБАНК",
-    "site": [
-      "http://www.industrialbank.ua"
-    ]
+    "name": {
+      "dbf": "ІНДУСТРІАЛБАНК",
+      "api": "ІНДУСТРІАЛБАНК",
+      "nbu": "ІНДУСТРІАЛБАНК",
+      "fund": "ІНДУСТРІАЛБАНК",
+      "minfin": "ІНДУСТРІАЛБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-16",
+      "api": "1991-10-16",
+      "nbu": "1991-10-16"
+    },
+    "site": {
+      "fund": [
+        "http://www.industrialbank.ua"
+      ],
+      "minfin": [
+        "http://industrialbank.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 77
+      }
+    }
   },
   {
     "id": "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК",
-    "fg": "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК"
+    "name": {
+      "fund": "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ІНПРОМБАНК",
-    "mf": "ІНПРОМБАНК"
+    "name": {
+      "minfin": "ІНПРОМБАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.inprombank.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 184
+      }
+    }
   },
   {
     "id": "ІНТЕГРАЛ-БАНК",
-    "fg": "ІНТЕГРАЛ-БАНК",
-    "mf": "ІНТЕГРАЛ-БАНК"
+    "name": {
+      "dbf": "ІНТЕГРАЛ-БАНК",
+      "api": "ІНТЕГРАЛ-БАНК",
+      "fund": "ІНТЕГРАЛ-БАНК",
+      "minfin": "ІНТЕГРАЛ-БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1994-09-30",
+      "api": "1994-09-30"
+    },
+    "site": {
+      "minfin": [
+        "http://www.integral.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 28
+      }
+    }
   },
   {
     "id": "ІНТЕРБАНК",
-    "fg": "ІНТЕРБАНК",
-    "mf": "ІНТЕРБАНК"
+    "name": {
+      "dbf": "ІНТЕРБАНК",
+      "api": "ІНТЕРБАНК",
+      "fund": "ІНТЕРБАНК",
+      "minfin": "ІНТЕРБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-03-23",
+      "api": "1992-03-23"
+    },
+    "site": {
+      "minfin": [
+        "http://www.interbank.kiev.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 98
+      }
+    }
   },
   {
     "id": "ІНТЕРКРЕДИТБАНК",
-    "fg": "ІНТЕРКРЕДИТБАНК",
-    "mf": "ІНТЕРКРЕДИТБАНК"
+    "name": {
+      "dbf": "ІНТЕРКРЕДИТБАНК",
+      "api": "ІНТЕРКРЕДИТБАНК",
+      "fund": "ІНТЕРКРЕДИТБАНК",
+      "minfin": "ІНТЕРКРЕДИТБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2011-06-14",
+      "api": "2011-06-14"
+    },
+    "site": {
+      "minfin": [
+        "http://intercreditbank.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 462
+      }
+    }
   },
   {
     "id": "ІПОБАНК",
-    "fg": "ІПОБАНК"
+    "name": {
+      "fund": "ІПОБАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "А - БАНК",
-    "bg": "А - БАНК",
-    "fg": "А - БАНК",
-    "mf": "А - БАНК",
-    "site": [
-      "http://www.a-bank.com.ua"
-    ]
+    "name": {
+      "dbf": "А - БАНК",
+      "api": "А - БАНК",
+      "nbu": "А - БАНК",
+      "fund": "А - БАНК",
+      "minfin": "А - БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-10-30",
+      "api": "1992-10-30",
+      "nbu": "1992-10-30"
+    },
+    "site": {
+      "fund": [
+        "http://www.a-bank.com.ua"
+      ],
+      "minfin": [
+        "http://a-bank.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 229
+      }
+    }
   },
   {
     "id": "АВАНТ-БАНК",
-    "fg": "АВАНТ-БАНК",
-    "mf": "АВАНТ-БАНК"
-  },
-  {
-    "id": "АВТОКРАЗБАНК",
-    "mf": "АВТОКРАЗБАНК"
+    "name": {
+      "dbf": "АВАНТ-БАНК",
+      "api": "АВАНТ-БАНК",
+      "fund": "АВАНТ-БАНК",
+      "minfin": "АВАНТ-БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2009-03-05",
+      "api": "2009-03-05"
+    },
+    "site": {
+      "minfin": [
+        "http://avantbank.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 273
+      }
+    }
   },
   {
     "id": "АЙБОКС БАНК",
-    "bg": "АЙБОКС БАНК",
-    "fg": "АЙБОКС БАНК",
-    "site": [
-      "http://www.agrocombank.kiev.ua"
-    ]
+    "name": {
+      "dbf": "АЙБОКС БАНК",
+      "api": "АЙБОКС БАНК",
+      "nbu": "АЙБОКС БАНК",
+      "fund": "АЙБОКС БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-12-24",
+      "api": "1993-12-24",
+      "nbu": "1993-12-24"
+    },
+    "site": {
+      "fund": [
+        "http://www.agrocombank.kiev.ua"
+      ],
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "АЙБОКС БАНК (АГРОКОМБАНК)",
-    "mf": "АЙБОКС БАНК (АГРОКОМБАНК)"
+    "name": {
+      "minfin": "АЙБОКС БАНК (АГРОКОМБАНК)"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.iboxbank.online/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 44
+      }
+    }
   },
   {
     "id": "АКБ БАНК",
-    "fg": "АКБ БАНК"
+    "name": {
+      "dbf": "АКБ БАНК",
+      "api": "АКБ БАНК",
+      "fund": "АКБ БАНК",
+      "minfin": "АКБ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-07-07",
+      "api": "1993-07-07"
+    },
+    "site": {
+      "minfin": [
+        "http://www.avtokrazbank.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 139
+      }
+    }
   },
   {
     "id": "АКОРДБАНК",
-    "bg": "АКОРДБАНК",
-    "fg": "АКОРДБАНК",
-    "mf": "АКОРДБАНК",
-    "site": [
-      "http://www.accordbank.com.ua"
-    ]
+    "name": {
+      "dbf": "АКОРДБАНК",
+      "api": "АКОРДБАНК",
+      "nbu": "АКОРДБАНК",
+      "fund": "АКОРДБАНК",
+      "minfin": "АКОРДБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2008-06-04",
+      "api": "2008-06-04",
+      "nbu": "2008-06-04"
+    },
+    "site": {
+      "fund": [
+        "http://www.accordbank.com.ua"
+      ],
+      "minfin": [
+        "http://accordbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 95
+      }
+    }
   },
   {
     "id": "АКСІОМА",
-    "fg": "АКСІОМА",
-    "mf": "АКСІОМА"
+    "name": {
+      "dbf": "АКСІОМА",
+      "api": "АКСІОМА",
+      "fund": "АКСІОМА",
+      "minfin": "АКСІОМА"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2006-01-10",
+      "api": "2006-01-10"
+    },
+    "site": {
+      "minfin": [
+        "http://www.axiomabank.com"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 102
+      }
+    }
   },
   {
     "id": "АКТАБАНК",
-    "fg": "АКТАБАНК",
-    "mf": "АКТАБАНК"
+    "name": {
+      "dbf": "АКТАБАНК",
+      "api": "АКТАБАНК",
+      "fund": "АКТАБАНК",
+      "minfin": "АКТАБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2008-04-23",
+      "api": "2008-04-23"
+    },
+    "site": {
+      "minfin": [
+        "http://www.aktabank.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 162
+      }
+    }
   },
   {
-    "id": "АКТИВ-БАНК",
-    "fg": "АКТИВ-БАНК",
-    "mf": "АКТИВ-БАНК"
+    "id": "АКТИВ - БАНК",
+    "name": {
+      "dbf": "АКТИВ - БАНК",
+      "api": "АКТИВ - БАНК",
+      "fund": "АКТИВ - БАНК",
+      "minfin": "АКТИВ - БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2002-08-06",
+      "api": "2002-08-06"
+    },
+    "site": {
+      "minfin": [
+        "http://www.activebank.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 76
+      }
+    }
   },
   {
     "id": "АЛЛОНЖ",
-    "fg": "АЛЛОНЖ"
+    "name": {
+      "fund": "АЛЛОНЖ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "АЛЬПАРІ БАНК",
-    "bg": "АЛЬПАРІ БАНК",
-    "fg": "АЛЬПАРІ БАНК",
-    "mf": "АЛЬПАРІ БАНК",
-    "site": [
-      "http://www.alpari-bank.com.ua"
-    ]
+    "name": {
+      "dbf": "АЛЬПАРІ БАНК",
+      "api": "АЛЬПАРІ БАНК",
+      "nbu": "АЛЬПАРІ БАНК",
+      "fund": "АЛЬПАРІ БАНК",
+      "minfin": "АЛЬПАРІ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2012-10-26",
+      "api": "2012-10-26",
+      "nbu": "2012-10-26"
+    },
+    "site": {
+      "fund": [
+        "http://www.alpari-bank.com.ua"
+      ],
+      "minfin": [
+        "http://bankalpari.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 563
+      }
+    }
   },
   {
     "id": "АЛЬТБАНК",
-    "bg": "АЛЬТБАНК",
-    "fg": "АЛЬТБАНК",
-    "mf": "АЛЬТБАНК",
-    "site": [
-      "https://altbank.ua"
-    ]
+    "name": {
+      "dbf": "АЛЬТБАНК",
+      "api": "АЛЬТБАНК",
+      "nbu": "АЛЬТБАНК",
+      "fund": "АЛЬТБАНК",
+      "minfin": "АЛЬТБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-21",
+      "api": "1991-10-21",
+      "nbu": "1991-10-21"
+    },
+    "site": {
+      "fund": [
+        "https://altbank.ua"
+      ],
+      "minfin": [
+        "http://altbank.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 87
+      }
+    }
   },
   {
     "id": "АЛЬФА-БАНК",
-    "bg": "АЛЬФА-БАНК",
-    "fg": "АЛЬФА-БАНК",
-    "mf": "АЛЬФА-БАНК",
-    "site": [
-      "http://www.alfabank.com.ua"
-    ]
+    "name": {
+      "dbf": "АЛЬФА-БАНК",
+      "api": "АЛЬФА-БАНК",
+      "nbu": "АЛЬФА-БАНК",
+      "fund": "АЛЬФА-БАНК",
+      "minfin": "АЛЬФА-БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-03-24",
+      "api": "1993-03-24",
+      "nbu": "1993-03-24"
+    },
+    "site": {
+      "fund": [
+        "http://www.alfabank.com.ua"
+      ],
+      "minfin": [
+        "https://alfabank.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 63
+      }
+    }
   },
   {
     "id": "АП БАНК",
-    "bg": "АП БАНК",
-    "fg": "АП БАНК",
-    "mf": "АП БАНК",
-    "site": [
-      "http://www.ap-bank.com",
-      "http://www.astrabank.ua"
-    ]
+    "name": {
+      "dbf": "АП БАНК",
+      "api": "АП БАНК",
+      "nbu": "АП БАНК",
+      "fund": "АП БАНК",
+      "minfin": "АП БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2007-11-28",
+      "api": "2007-11-28",
+      "nbu": "2007-11-28"
+    },
+    "site": {
+      "fund": [
+        "http://www.ap-bank.com",
+        "http://www.astrabank.ua"
+      ],
+      "minfin": [
+        "http://www.ap-bank.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 32
+      }
+    }
   },
   {
     "id": "АПЕКС-БАНК",
-    "mf": "АПЕКС-БАНК"
+    "name": {
+      "minfin": "АПЕКС-БАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.apeksbank.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 71
+      }
+    }
   },
   {
     "id": "АРКАДА",
-    "bg": "АРКАДА",
-    "fg": "АРКАДА",
-    "mf": "АРКАДА",
-    "site": [
-      "http://www.arkada.ua"
-    ]
+    "name": {
+      "dbf": "АРКАДА",
+      "api": "АРКАДА",
+      "nbu": "АРКАДА",
+      "fund": "АРКАДА",
+      "minfin": "АРКАДА"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-06-23",
+      "api": "1993-06-23",
+      "nbu": "1993-06-23"
+    },
+    "site": {
+      "fund": [
+        "http://www.arkada.ua"
+      ],
+      "minfin": [
+        "http://www.arkada.ua/rus/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 24
+      }
+    }
   },
   {
     "id": "АРМА",
-    "fg": "АРМА"
+    "name": {
+      "fund": "АРМА"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "АРТЕМ-БАНК",
-    "fg": "АРТЕМ-БАНК",
-    "mf": "АРТЕМ-БАНК"
+    "name": {
+      "dbf": "АРТЕМ-БАНК",
+      "api": "АРТЕМ-БАНК",
+      "fund": "АРТЕМ-БАНК",
+      "minfin": "АРТЕМ-БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2002-08-06",
+      "api": "2002-08-06"
+    },
+    "site": {
+      "minfin": [
+        "http://www.artembank.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 34
+      }
+    }
   },
   {
     "id": "АСВІО БАНК",
-    "bg": "АСВІО БАНК",
-    "fg": "АСВІО БАНК",
-    "mf": "АСВІО БАНК",
-    "site": [
-      "http://www.asviobank.ua"
-    ]
+    "name": {
+      "dbf": "АСВІО БАНК",
+      "api": "АСВІО БАНК",
+      "nbu": "АСВІО БАНК",
+      "fund": "АСВІО БАНК",
+      "minfin": "АСВІО БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-30",
+      "api": "1991-10-30",
+      "nbu": "1991-10-30"
+    },
+    "site": {
+      "fund": [
+        "http://www.asviobank.ua"
+      ],
+      "minfin": [
+        "http://www.asviobank.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 59
+      }
+    }
   },
   {
     "id": "АСТРА БАНК",
-    "fg": "АСТРА БАНК"
+    "name": {
+      "fund": "АСТРА БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "БІГ ЕНЕРГІЯ",
-    "fg": "БІГ ЕНЕРГІЯ"
+    "name": {
+      "fund": "БІГ ЕНЕРГІЯ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "БАЗИС",
-    "fg": "БАЗИС",
-    "mf": "БАЗИС"
+    "name": {
+      "fund": "БАЗИС",
+      "minfin": "БАЗИС"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.basis.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 101
+      }
+    }
   },
   {
     "id": "БАНК 3/4",
-    "bg": "БАНК 3/4",
-    "fg": "БАНК 3/4",
-    "mf": "БАНК 3/4",
-    "site": [
-      "http://www.bank34.kiev.ua"
-    ]
+    "name": {
+      "dbf": "БАНК 3/4",
+      "api": "БАНК 3/4",
+      "nbu": "БАНК 3/4",
+      "fund": "БАНК 3/4",
+      "minfin": "БАНК 3/4"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2008-07-25",
+      "api": "2008-07-25",
+      "nbu": "2008-07-25"
+    },
+    "site": {
+      "fund": [
+        "http://www.bank34.kiev.ua"
+      ],
+      "minfin": [
+        "https://www.bank34.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 166
+      }
+    }
   },
   {
     "id": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
-    "bg": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
-    "fg": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
-    "mf": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
-    "site": [
-      "http://www.bisbank.com.ua"
-    ]
+    "name": {
+      "dbf": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
+      "api": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
+      "nbu": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
+      "fund": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
+      "minfin": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2005-08-09",
+      "api": "2005-08-09",
+      "nbu": "2005-08-09"
+    },
+    "site": {
+      "fund": [
+        "http://www.bisbank.com.ua"
+      ],
+      "minfin": [
+        "http://www.bisbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 57
+      }
+    }
   },
   {
     "id": "БАНК АВАНГАРД",
-    "bg": "БАНК АВАНГАРД",
-    "fg": "БАНК АВАНГАРД",
-    "mf": "БАНК АВАНГАРД",
-    "site": []
+    "name": {
+      "dbf": "БАНК АВАНГАРД",
+      "api": "БАНК АВАНГАРД",
+      "nbu": "БАНК АВАНГАРД",
+      "fund": "БАНК АВАНГАРД",
+      "minfin": "БАНК АВАНГАРД"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2013-07-05",
+      "api": "2013-07-05",
+      "nbu": "2013-07-05"
+    },
+    "site": {
+      "fund": [],
+      "minfin": [
+        "http://www.avgd.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 562
+      }
+    }
   },
   {
     "id": "БАНК АЛЬЯНС",
-    "bg": "БАНК АЛЬЯНС",
-    "fg": "БАНК АЛЬЯНС",
-    "mf": "БАНК АЛЬЯНС",
-    "site": [
-      "http://bankalliance.ua"
-    ]
+    "name": {
+      "dbf": "БАНК АЛЬЯНС",
+      "api": "БАНК АЛЬЯНС",
+      "nbu": "БАНК АЛЬЯНС",
+      "fund": "БАНК АЛЬЯНС",
+      "minfin": "БАНК АЛЬЯНС"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-03-10",
+      "api": "1992-03-10",
+      "nbu": "1992-03-10"
+    },
+    "site": {
+      "fund": [
+        "http://bankalliance.ua"
+      ],
+      "minfin": [
+        "https://bankalliance.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 114
+      }
+    }
   },
   {
     "id": "БАНК БОГУСЛАВ",
-    "fg": "БАНК БОГУСЛАВ",
-    "mf": "БАНК БОГУСЛАВ"
+    "name": {
+      "dbf": "БАНК БОГУСЛАВ",
+      "api": "БАНК БОГУСЛАВ",
+      "fund": "БАНК БОГУСЛАВ",
+      "minfin": "БАНК БОГУСЛАВ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2006-08-04",
+      "api": "2006-08-04"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bankboguslav.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 100
+      }
+    }
   },
   {
     "id": "БАНК ВЕЛЕС",
-    "fg": "БАНК ВЕЛЕС",
-    "mf": "БАНК ВЕЛЕС"
+    "name": {
+      "dbf": "БАНК ВЕЛЕС",
+      "api": "БАНК ВЕЛЕС",
+      "fund": "БАНК ВЕЛЕС",
+      "minfin": "БАНК ВЕЛЕС"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1994-03-18",
+      "api": "1994-03-18"
+    },
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {
+        "minfin": 36
+      }
+    }
   },
   {
     "id": "БАНК ВОСТОК",
-    "bg": "БАНК ВОСТОК",
-    "fg": "БАНК ВОСТОК",
-    "mf": "БАНК ВОСТОК",
-    "site": [
-      "http://www.bankvostok.com.ua"
-    ]
+    "name": {
+      "dbf": "БАНК ВОСТОК",
+      "api": "БАНК ВОСТОК",
+      "nbu": "БАНК ВОСТОК",
+      "fund": "БАНК ВОСТОК",
+      "minfin": "БАНК ВОСТОК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2002-10-17",
+      "api": "2002-10-17",
+      "nbu": "2002-10-17"
+    },
+    "site": {
+      "fund": [
+        "http://www.bankvostok.com.ua"
+      ],
+      "minfin": [
+        "http://www.bankvostok.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 18
+      }
+    }
   },
   {
     "id": "БАНК ГРАНТ",
-    "mf": "БАНК ГРАНТ"
+    "name": {
+      "minfin": "БАНК ГРАНТ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.grant.kharkov.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 108
+      }
+    }
   },
   {
     "id": "БАНК ЗЕМЕЛЬНИЙ КАПІТАЛ",
-    "mf": "БАНК ЗЕМЕЛЬНИЙ КАПІТАЛ"
+    "name": {
+      "minfin": "БАНК ЗЕМЕЛЬНИЙ КАПІТАЛ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "https://www.zemcap.com/ru.html"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 109
+      }
+    }
   },
   {
     "id": "БАНК ЗОЛОТІ ВОРОТА",
-    "fg": "БАНК ЗОЛОТІ ВОРОТА",
-    "mf": "БАНК ЗОЛОТІ ВОРОТА"
+    "name": {
+      "dbf": "БАНК ЗОЛОТІ ВОРОТА",
+      "api": "БАНК ЗОЛОТІ ВОРОТА",
+      "fund": "БАНК ЗОЛОТІ ВОРОТА",
+      "minfin": "БАНК ЗОЛОТІ ВОРОТА"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-08-18",
+      "api": "1993-08-18"
+    },
+    "site": {
+      "minfin": [
+        "http://goldengate.kharkov.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 134
+      }
+    }
   },
   {
     "id": "БАНК КАМБІО",
-    "fg": "БАНК КАМБІО",
-    "mf": "БАНК КАМБІО"
+    "name": {
+      "dbf": "БАНК КАМБІО",
+      "api": "БАНК КАМБІО",
+      "fund": "БАНК КАМБІО",
+      "minfin": "БАНК КАМБІО"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2004-06-30",
+      "api": "2004-06-30"
+    },
+    "site": {
+      "minfin": [
+        "http://www.cambio.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 115
+      }
+    }
   },
   {
     "id": "БАНК КРЕДИТ ДНІПРО",
-    "bg": "БАНК КРЕДИТ ДНІПРО",
-    "fg": "БАНК КРЕДИТ ДНІПРО",
-    "site": [
-      "http://www.creditdnepr.com.ua"
-    ]
+    "name": {
+      "dbf": "БАНК КРЕДИТ ДНІПРО",
+      "api": "БАНК КРЕДИТ ДНІПРО",
+      "nbu": "БАНК КРЕДИТ ДНІПРО",
+      "fund": "БАНК КРЕДИТ ДНІПРО"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-07-07",
+      "api": "1993-07-07",
+      "nbu": "1993-07-07"
+    },
+    "site": {
+      "fund": [
+        "http://www.creditdnepr.com.ua"
+      ],
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "БАНК МИХАЙЛІВСЬКИЙ",
-    "fg": "БАНК МИХАЙЛІВСЬКИЙ"
+    "name": {
+      "dbf": "БАНК МИХАЙЛІВСЬКИЙ",
+      "api": "БАНК МИХАЙЛІВСЬКИЙ",
+      "fund": "БАНК МИХАЙЛІВСЬКИЙ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2013-06-14",
+      "api": "2013-06-14"
+    },
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
-    "fg": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
-    "mf": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ"
+    "name": {
+      "dbf": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
+      "api": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
+      "fund": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
+      "minfin": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1996-01-31",
+      "api": "1996-01-31"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bnk.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 200
+      }
+    }
   },
   {
     "id": "БАНК ПІВДЕННИЙ",
-    "mf": "БАНК ПІВДЕННИЙ"
+    "name": {
+      "minfin": "БАНК ПІВДЕННИЙ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://bank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 23
+      }
+    }
   },
   {
     "id": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
-    "fg": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА"
+    "name": {
+      "dbf": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
+      "api": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
+      "fund": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1996-09-26",
+      "api": "1996-09-26"
+    },
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "БАНК ПОРТАЛ",
-    "mf": "БАНК ПОРТАЛ"
+    "name": {
+      "minfin": "БАНК ПОРТАЛ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://bank-portal.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 526
+      }
+    }
   },
   {
     "id": "БАНК РЕГІОНАЛЬНОГО РОЗВИТКУ",
-    "fg": "БАНК РЕГІОНАЛЬНОГО РОЗВИТКУ"
+    "name": {
+      "fund": "БАНК РЕГІОНАЛЬНОГО РОЗВИТКУ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "БАНК СІЧ",
-    "bg": "БАНК СІЧ",
-    "fg": "БАНК СІЧ",
-    "site": [
-      "http://www.sichbank.com.ua"
-    ]
+    "name": {
+      "dbf": "БАНК СІЧ",
+      "api": "БАНК СІЧ",
+      "nbu": "БАНК СІЧ",
+      "fund": "БАНК СІЧ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2011-05-24",
+      "api": "2011-05-24",
+      "nbu": "2011-05-24"
+    },
+    "site": {
+      "fund": [
+        "http://www.sichbank.com.ua"
+      ],
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "БАНК СОФІЙСЬКИЙ",
-    "mf": "БАНК СОФІЙСЬКИЙ"
+    "name": {
+      "minfin": "БАНК СОФІЙСЬКИЙ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://sf-bank.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 465
+      }
+    }
   },
   {
     "id": "БАНК СТОЛИЧНИЙ",
-    "mf": "БАНК СТОЛИЧНИЙ"
+    "name": {
+      "minfin": "БАНК СТОЛИЧНИЙ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://stolychnyi.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 22
+      }
+    }
   },
   {
     "id": "БАНК ТРАСТ",
-    "mf": "БАНК ТРАСТ"
+    "name": {
+      "minfin": "БАНК ТРАСТ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://banktrust.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 126
+      }
+    }
   },
   {
     "id": "БАНК ФАМІЛЬНИЙ",
-    "bg": "БАНК ФАМІЛЬНИЙ",
-    "fg": "БАНК ФАМІЛЬНИЙ",
-    "mf": "БАНК ФАМІЛЬНИЙ",
-    "site": [
-      "http://www.fbank.com.ua"
-    ]
+    "name": {
+      "dbf": "БАНК ФАМІЛЬНИЙ",
+      "api": "БАНК ФАМІЛЬНИЙ",
+      "nbu": "БАНК ФАМІЛЬНИЙ",
+      "fund": "БАНК ФАМІЛЬНИЙ",
+      "minfin": "БАНК ФАМІЛЬНИЙ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-12-27",
+      "api": "1991-12-27",
+      "nbu": "1991-12-27"
+    },
+    "site": {
+      "fund": [
+        "http://www.fbank.com.ua"
+      ],
+      "minfin": [
+        "http://www.fbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 99
+      }
+    }
   },
   {
     "id": "БАНК ФОРВАРД",
-    "bg": "БАНК ФОРВАРД",
-    "fg": "БАНК ФОРВАРД",
-    "mf": "БАНК ФОРВАРД",
-    "site": [
-      "http://www.bank-rs.com.ua"
-    ]
+    "name": {
+      "dbf": "БАНК ФОРВАРД",
+      "api": "БАНК ФОРВАРД",
+      "nbu": "БАНК ФОРВАРД",
+      "fund": "БАНК ФОРВАРД",
+      "minfin": "БАНК ФОРВАРД"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2006-02-28",
+      "api": "2006-02-28",
+      "nbu": "2006-02-28"
+    },
+    "site": {
+      "fund": [
+        "http://www.bank-rs.com.ua"
+      ],
+      "minfin": [
+        "http://forward-bank.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 135
+      }
+    }
   },
   {
     "id": "БАНК ФОРУМ",
-    "fg": "БАНК ФОРУМ"
+    "name": {
+      "dbf": "БАНК ФОРУМ",
+      "api": "БАНК ФОРУМ",
+      "fund": "БАНК ФОРУМ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1994-01-31",
+      "api": "1994-01-31"
+    },
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "БАНК ЮНІСОН",
-    "mf": "БАНК ЮНІСОН"
+    "name": {
+      "minfin": "БАНК ЮНІСОН"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.unisonbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 470
+      }
+    }
   },
   {
     "id": "БГ БАНК",
-    "fg": "БГ БАНК",
-    "mf": "БГ БАНК"
+    "name": {
+      "dbf": "БГ БАНК",
+      "api": "БГ БАНК",
+      "fund": "БГ БАНК",
+      "minfin": "БГ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1994-01-26",
+      "api": "1994-01-26"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bgbank.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 67
+      }
+    }
   },
   {
     "id": "БМ БАНК",
-    "bg": "БМ БАНК",
-    "fg": "БМ БАНК",
-    "mf": "БМ БАНК",
-    "site": [
-      "http://www.bmbank.com.ua"
-    ]
+    "name": {
+      "dbf": "БМ БАНК",
+      "api": "БМ БАНК",
+      "nbu": "БМ БАНК",
+      "fund": "БМ БАНК",
+      "minfin": "БМ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2005-12-08",
+      "api": "2005-12-08",
+      "nbu": "2005-12-08"
+    },
+    "site": {
+      "fund": [
+        "http://www.bmbank.com.ua"
+      ],
+      "minfin": [
+        "http://www.bmbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 142
+      }
+    }
   },
   {
     "id": "БРОКБІЗНЕСБАНК",
-    "fg": "БРОКБІЗНЕСБАНК",
-    "mf": "БРОКБІЗНЕСБАНК"
+    "name": {
+      "dbf": "БРОКБІЗНЕСБАНК",
+      "api": "БРОКБІЗНЕСБАНК",
+      "fund": "БРОКБІЗНЕСБАНК",
+      "minfin": "БРОКБІЗНЕСБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-07",
+      "api": "1991-10-07"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bankbb.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 11
+      }
+    }
   },
   {
     "id": "БТА БАНК",
-    "bg": "БТА БАНК",
-    "fg": "БТА БАНК",
-    "mf": "БТА БАНК",
-    "site": [
-      "http://www.btabank.ua"
-    ]
+    "name": {
+      "dbf": "БТА БАНК",
+      "api": "БТА БАНК",
+      "nbu": "БТА БАНК",
+      "fund": "БТА БАНК",
+      "minfin": "БТА БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-12-10",
+      "api": "1992-12-10",
+      "nbu": "1992-12-10"
+    },
+    "site": {
+      "fund": [
+        "http://www.btabank.ua"
+      ],
+      "minfin": [
+        "http://www.btabank.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 70
+      }
+    }
   },
   {
     "id": "ВІЕЙБІ БАНК",
-    "fg": "ВІЕЙБІ БАНК",
-    "mf": "ВІЕЙБІ БАНК"
+    "name": {
+      "dbf": "ВІЕЙБІ БАНК",
+      "api": "ВІЕЙБІ БАНК",
+      "fund": "ВІЕЙБІ БАНК",
+      "minfin": "ВІЕЙБІ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-07-02",
+      "api": "1992-07-02"
+    },
+    "site": {
+      "minfin": [
+        "http://www.vab.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 156
+      }
+    }
   },
   {
     "id": "ВІЕС БАНК",
-    "bg": "ВІЕС БАНК",
-    "fg": "ВІЕС БАНК",
-    "mf": "ВІЕС БАНК",
-    "site": [
-      "http://www.vsbank.com.ua"
-    ]
+    "name": {
+      "dbf": "ВІЕС БАНК",
+      "fund": "ВІЕС БАНК",
+      "minfin": "ВІЕС БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-10"
+    },
+    "site": {
+      "fund": [
+        "http://www.vsbank.com.ua"
+      ],
+      "minfin": [
+        "http://www.vsbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 82
+      }
+    }
   },
   {
     "id": "ВБР",
-    "fg": "ВБР"
+    "name": {
+      "dbf": "ВБР",
+      "api": "ВБР",
+      "fund": "ВБР",
+      "minfin": "ВБР"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2009-04-30",
+      "api": "2009-04-30"
+    },
+    "site": {
+      "minfin": [
+        "http://www.vbr-bank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 53
+      }
+    }
   },
   {
     "id": "ВЕКТОР БАНК",
-    "fg": "ВЕКТОР БАНК",
-    "mf": "ВЕКТОР БАНК"
+    "name": {
+      "dbf": "ВЕКТОР БАНК",
+      "api": "ВЕКТОР БАНК",
+      "fund": "ВЕКТОР БАНК",
+      "minfin": "ВЕКТОР БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2014-01-31",
+      "api": "2014-01-31"
+    },
+    "site": {
+      "minfin": [
+        "http://www.vectorbank.com.ua/ru/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 561
+      }
+    }
   },
   {
     "id": "ВЕРНУМ БАНК",
-    "bg": "ВЕРНУМ БАНК",
-    "fg": "ВЕРНУМ БАНК",
-    "mf": "ВЕРНУМ БАНК",
-    "site": [
-      "http://vernumbank.com"
-    ]
+    "name": {
+      "dbf": "ВЕРНУМ БАНК",
+      "api": "ВЕРНУМ БАНК",
+      "nbu": "ВЕРНУМ БАНК",
+      "fund": "ВЕРНУМ БАНК",
+      "minfin": "ВЕРНУМ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2009-02-17",
+      "api": "2009-02-17",
+      "nbu": "2009-02-17"
+    },
+    "site": {
+      "fund": [
+        "http://vernumbank.com"
+      ],
+      "minfin": [
+        "http://www.vernumbank.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 89
+      }
+    }
   },
   {
     "id": "ВОЛОДИМИРСЬКИЙ",
-    "fg": "ВОЛОДИМИРСЬКИЙ"
-  },
-  {
-    "id": "ВСЕУКРАЇНСЬКИЙ БАНК РОЗВИТКУ",
-    "mf": "ВСЕУКРАЇНСЬКИЙ БАНК РОЗВИТКУ"
+    "name": {
+      "fund": "ВОЛОДИМИРСЬКИЙ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ВТБ БАНК",
-    "bg": "ВТБ БАНК",
-    "fg": "ВТБ БАНК",
-    "mf": "ВТБ БАНК",
-    "site": [
-      "http://www.vtb.com.ua"
-    ]
+    "name": {
+      "dbf": "ВТБ БАНК",
+      "api": "ВТБ БАНК",
+      "nbu": "ВТБ БАНК",
+      "fund": "ВТБ БАНК",
+      "minfin": "ВТБ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-11-11",
+      "api": "1992-11-11",
+      "nbu": "1992-11-11"
+    },
+    "site": {
+      "fund": [
+        "http://www.vtb.com.ua"
+      ],
+      "minfin": [
+        "https://vtb.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 81
+      }
+    }
   },
   {
     "id": "ГАРАНТ",
-    "fg": "ГАРАНТ"
+    "name": {
+      "fund": "ГАРАНТ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ГЕФЕСТ",
-    "fg": "ГЕФЕСТ",
-    "mf": "ГЕФЕСТ"
+    "name": {
+      "dbf": "ГЕФЕСТ",
+      "api": "ГЕФЕСТ",
+      "fund": "ГЕФЕСТ",
+      "minfin": "ГЕФЕСТ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2013-10-04",
+      "api": "2013-10-04"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bankgefest.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 564
+      }
+    }
   },
   {
     "id": "ГЛОБУС",
-    "bg": "ГЛОБУС",
-    "fg": "ГЛОБУС",
-    "mf": "ГЛОБУС",
-    "site": [
-      "http://www.globusbank.com.ua"
-    ]
+    "name": {
+      "dbf": "ГЛОБУС",
+      "api": "ГЛОБУС",
+      "nbu": "ГЛОБУС",
+      "fund": "ГЛОБУС",
+      "minfin": "ГЛОБУС"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2007-11-29",
+      "api": "2007-11-29",
+      "nbu": "2007-11-29"
+    },
+    "site": {
+      "fund": [
+        "http://www.globusbank.com.ua"
+      ],
+      "minfin": [
+        "http://www.globusbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 42
+      }
+    }
   },
   {
     "id": "ГРІН БАНК",
-    "fg": "ГРІН БАНК",
-    "mf": "ГРІН БАНК"
+    "name": {
+      "dbf": "ГРІН БАНК",
+      "api": "ГРІН БАНК",
+      "fund": "ГРІН БАНК",
+      "minfin": "ГРІН БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-01-09",
+      "api": "1992-01-09"
+    },
+    "site": {
+      "minfin": [
+        "http://www.greenbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 39
+      }
+    }
   },
   {
     "id": "ГРАНТ",
-    "bg": "ГРАНТ",
-    "fg": "ГРАНТ",
-    "site": [
-      "http://www.grant.kharkov.ua"
-    ]
+    "name": {
+      "dbf": "ГРАНТ",
+      "api": "ГРАНТ",
+      "nbu": "ГРАНТ",
+      "fund": "ГРАНТ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-29",
+      "api": "1991-10-29",
+      "nbu": "1991-10-29"
+    },
+    "site": {
+      "fund": [
+        "http://www.grant.kharkov.ua"
+      ],
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ДІАЛОГБАНК",
-    "fg": "ДІАЛОГБАНК"
+    "name": {
+      "fund": "ДІАЛОГБАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ДІАМАНТБАНК",
-    "fg": "ДІАМАНТБАНК",
-    "mf": "ДІАМАНТБАНК"
+    "name": {
+      "dbf": "ДІАМАНТБАНК",
+      "api": "ДІАМАНТБАНК",
+      "fund": "ДІАМАНТБАНК",
+      "minfin": "ДІАМАНТБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-11-17",
+      "api": "1993-11-17"
+    },
+    "site": {
+      "minfin": [
+        "http://www.diamantbank.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 62
+      }
+    }
   },
   {
     "id": "ДІВІ БАНК",
-    "mf": "ДІВІ БАНК"
+    "name": {
+      "minfin": "ДІВІ БАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://dvbank.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 461
+      }
+    }
   },
   {
     "id": "ДАНІЕЛЬ",
-    "fg": "ДАНІЕЛЬ",
-    "mf": "ДАНІЕЛЬ"
+    "name": {
+      "dbf": "ДАНІЕЛЬ",
+      "api": "ДАНІЕЛЬ",
+      "fund": "ДАНІЕЛЬ",
+      "minfin": "ДАНІЕЛЬ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2003-11-27",
+      "api": "2003-11-27"
+    },
+    "site": {
+      "minfin": [
+        "http://www.danielbank.kiev.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 93
+      }
+    }
   },
   {
     "id": "ДЕЛЬТА БАНК",
-    "fg": "ДЕЛЬТА БАНК",
-    "mf": "ДЕЛЬТА БАНК"
+    "name": {
+      "dbf": "ДЕЛЬТА БАНК",
+      "api": "ДЕЛЬТА БАНК",
+      "fund": "ДЕЛЬТА БАНК",
+      "minfin": "ДЕЛЬТА БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2006-02-15",
+      "api": "2006-02-15"
+    },
+    "site": {
+      "minfin": [
+        "http://deltabank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 174
+      }
+    }
   },
   {
     "id": "ДЕМАРК",
-    "fg": "ДЕМАРК",
-    "mf": "ДЕМАРК"
+    "name": {
+      "dbf": "ДЕМАРК",
+      "api": "ДЕМАРК",
+      "fund": "ДЕМАРК",
+      "minfin": "ДЕМАРК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-07-10",
+      "api": "1992-07-10"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bankdemark.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 97
+      }
+    }
   },
   {
     "id": "ДЕРЖЗЕМБАНК",
-    "fg": "ДЕРЖЗЕМБАНК",
-    "mf": "ДЕРЖЗЕМБАНК"
+    "name": {
+      "fund": "ДЕРЖЗЕМБАНК",
+      "minfin": "ДЕРЖЗЕМБАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.dzbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 473
+      }
+    }
   },
   {
     "id": "ДНІСТЕР",
-    "fg": "ДНІСТЕР"
+    "name": {
+      "fund": "ДНІСТЕР"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ДОЙЧЕ БАНК",
-    "mf": "ДОЙЧЕ БАНК"
+    "name": {
+      "minfin": "ДОЙЧЕ БАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "https://www.db.com/ukraine/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 565
+      }
+    }
   },
   {
     "id": "ДОЙЧЕ БАНК ДБУ",
-    "bg": "ДОЙЧЕ БАНК ДБУ",
-    "fg": "ДОЙЧЕ БАНК ДБУ",
-    "site": [
-      "http://www.db.com/ukraine"
-    ]
+    "name": {
+      "dbf": "ДОЙЧЕ БАНК ДБУ",
+      "api": "ДОЙЧЕ БАНК ДБУ",
+      "nbu": "ДОЙЧЕ БАНК ДБУ",
+      "fund": "ДОЙЧЕ БАНК ДБУ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2009-06-19",
+      "api": "2009-06-19",
+      "nbu": "2009-06-19"
+    },
+    "site": {
+      "fund": [
+        "http://www.db.com/ukraine"
+      ],
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ДОНГОРБАНК",
-    "mf": "ДОНГОРБАНК"
+    "name": {
+      "minfin": "ДОНГОРБАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.dongorbank.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 50
+      }
+    }
   },
   {
     "id": "ЕКСПОБАНК",
-    "fg": "ЕКСПОБАНК",
-    "mf": "ЕКСПОБАНК"
+    "name": {
+      "dbf": "ЕКСПОБАНК",
+      "api": "ЕКСПОБАНК",
+      "fund": "ЕКСПОБАНК",
+      "minfin": "ЕКСПОБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-12-26",
+      "api": "1991-12-26"
+    },
+    "site": {
+      "minfin": [
+        "http://www.expobank.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 137
+      }
+    }
   },
   {
     "id": "ЕКСПРЕС-БАНК",
-    "mf": "ЕКСПРЕС-БАНК"
+    "name": {
+      "minfin": "ЕКСПРЕС-БАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.expres-bank.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 27
+      }
+    }
   },
   {
     "id": "ЕНЕРГОБАНК",
-    "fg": "ЕНЕРГОБАНК",
-    "mf": "ЕНЕРГОБАНК"
+    "name": {
+      "dbf": "ЕНЕРГОБАНК",
+      "api": "ЕНЕРГОБАНК",
+      "fund": "ЕНЕРГОБАНК",
+      "minfin": "ЕНЕРГОБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-31",
+      "api": "1991-10-31"
+    },
+    "site": {
+      "minfin": [
+        "http://www.energobank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 144
+      }
+    }
   },
   {
     "id": "ЕРДЕ БАНК",
-    "fg": "ЕРДЕ БАНК",
-    "mf": "ЕРДЕ БАНК"
+    "name": {
+      "dbf": "ЕРДЕ БАНК",
+      "api": "ЕРДЕ БАНК",
+      "fund": "ЕРДЕ БАНК",
+      "minfin": "ЕРДЕ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2006-12-28",
+      "api": "2006-12-28"
+    },
+    "site": {
+      "minfin": [
+        "http://www.rdbank.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 211
+      }
+    }
   },
   {
     "id": "ЗАХІДІНКОМБАНК",
-    "fg": "ЗАХІДІНКОМБАНК",
-    "mf": "ЗАХІДІНКОМБАНК"
+    "name": {
+      "dbf": "ЗАХІДІНКОМБАНК",
+      "api": "ЗАХІДІНКОМБАНК",
+      "fund": "ЗАХІДІНКОМБАНК",
+      "minfin": "ЗАХІДІНКОМБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-03-11",
+      "api": "1993-03-11"
+    },
+    "site": {
+      "minfin": [
+        "http://www.inkom.lutsk.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 33
+      }
+    }
   },
   {
     "id": "ЗЕМЕЛЬНИЙ БАНК",
-    "fg": "ЗЕМЕЛЬНИЙ БАНК",
-    "mf": "ЗЕМЕЛЬНИЙ БАНК"
+    "name": {
+      "fund": "ЗЕМЕЛЬНИЙ БАНК",
+      "minfin": "ЗЕМЕЛЬНИЙ БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.zembank.kharkov.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 75
+      }
+    }
   },
   {
     "id": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
-    "bg": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
-    "fg": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
-    "site": [
-      "http://www.zemcap.dp.ua"
-    ]
+    "name": {
+      "dbf": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
+      "api": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
+      "nbu": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
+      "fund": "ЗЕМЕЛЬНИЙ КАПІТАЛ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1994-01-31",
+      "api": "1994-01-31",
+      "nbu": "1994-01-31"
+    },
+    "site": {
+      "fund": [
+        "http://www.zemcap.dp.ua"
+      ],
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ЗЛАТОБАНК",
-    "fg": "ЗЛАТОБАНК",
-    "mf": "ЗЛАТОБАНК"
+    "name": {
+      "dbf": "ЗЛАТОБАНК",
+      "api": "ЗЛАТОБАНК",
+      "fund": "ЗЛАТОБАНК",
+      "minfin": "ЗЛАТОБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2008-05-16",
+      "api": "2008-05-16"
+    },
+    "site": {
+      "minfin": [
+        "http://www.zbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 56
+      }
+    }
   },
   {
     "id": "КІБ",
-    "bg": "КІБ",
-    "fg": "КІБ",
-    "mf": "КІБ",
-    "site": [
-      "http://www.cib.com.ua"
-    ]
+    "name": {
+      "dbf": "КІБ",
+      "api": "КІБ",
+      "nbu": "КІБ",
+      "fund": "КІБ",
+      "minfin": "КІБ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-12-03",
+      "api": "1993-12-03",
+      "nbu": "1993-12-03"
+    },
+    "site": {
+      "fund": [
+        "http://www.cib.com.ua"
+      ],
+      "minfin": [
+        "http://cib.com.ua/ru/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 48
+      }
+    }
   },
   {
     "id": "КАПІТАЛ",
-    "fg": "КАПІТАЛ",
-    "mf": "КАПІТАЛ"
+    "name": {
+      "dbf": "КАПІТАЛ",
+      "api": "КАПІТАЛ",
+      "fund": "КАПІТАЛ",
+      "minfin": "КАПІТАЛ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-31",
+      "api": "1991-10-31"
+    },
+    "site": {
+      "minfin": [
+        "http://bills95.wix.com/bank-capital"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 468
+      }
+    }
   },
   {
     "id": "КБ ПРИЧОРНОМОР’Я",
-    "fg": "КБ ПРИЧОРНОМОР’Я"
+    "name": {
+      "fund": "КБ ПРИЧОРНОМОР’Я"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "КИЇВ",
-    "fg": "КИЇВ",
-    "mf": "КИЇВ"
+    "name": {
+      "dbf": "КИЇВ",
+      "api": "КИЇВ",
+      "fund": "КИЇВ",
+      "minfin": "КИЇВ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-05-19",
+      "api": "1993-05-19"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bank.kiev.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 158
+      }
+    }
   },
   {
     "id": "КИЇВСЬКА РУСЬ",
-    "fg": "КИЇВСЬКА РУСЬ",
-    "mf": "КИЇВСЬКА РУСЬ"
+    "name": {
+      "dbf": "КИЇВСЬКА РУСЬ",
+      "api": "КИЇВСЬКА РУСЬ",
+      "fund": "КИЇВСЬКА РУСЬ",
+      "minfin": "КИЇВСЬКА РУСЬ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1996-05-30",
+      "api": "1996-05-30"
+    },
+    "site": {
+      "minfin": [
+        "http://www.kruss.kiev.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 78
+      }
+    }
   },
   {
     "id": "КИЇВСЬКИЙ УНIВЕРСАЛЬНИЙ БАНК",
-    "fg": "КИЇВСЬКИЙ УНIВЕРСАЛЬНИЙ БАНК"
+    "name": {
+      "fund": "КИЇВСЬКИЙ УНIВЕРСАЛЬНИЙ БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "КЛІРИНГОВИЙ ДІМ",
-    "bg": "КЛІРИНГОВИЙ ДІМ",
-    "fg": "КЛІРИНГОВИЙ ДІМ",
-    "mf": "КЛІРИНГОВИЙ ДІМ",
-    "site": [
-      "http://www.clhs.kiev.ua"
-    ]
+    "name": {
+      "dbf": "КЛІРИНГОВИЙ ДІМ",
+      "api": "КЛІРИНГОВИЙ ДІМ",
+      "nbu": "КЛІРИНГОВИЙ ДІМ",
+      "fund": "КЛІРИНГОВИЙ ДІМ",
+      "minfin": "КЛІРИНГОВИЙ ДІМ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1996-12-30",
+      "api": "1996-12-30",
+      "nbu": "1996-12-30"
+    },
+    "site": {
+      "fund": [
+        "http://www.clhs.kiev.ua"
+      ],
+      "minfin": [
+        "http://www.clhs.kiev.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 146
+      }
+    }
   },
   {
     "id": "КЛАСИКБАНК",
-    "fg": "КЛАСИКБАНК",
-    "mf": "КЛАСИКБАНК"
+    "name": {
+      "dbf": "КЛАСИКБАНК",
+      "api": "КЛАСИКБАНК",
+      "fund": "КЛАСИКБАНК",
+      "minfin": "КЛАСИКБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1995-10-06",
+      "api": "1995-10-06"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bankclassic.com"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 96
+      }
+    }
   },
   {
     "id": "КОМІНВЕСТБАНК",
-    "bg": "КОМІНВЕСТБАНК",
-    "fg": "КОМІНВЕСТБАНК",
-    "mf": "КОМІНВЕСТБАНК",
-    "site": [
-      "http://www.coopinvest.com.ua"
-    ]
+    "name": {
+      "dbf": "КОМІНВЕСТБАНК",
+      "api": "КОМІНВЕСТБАНК",
+      "nbu": "КОМІНВЕСТБАНК",
+      "fund": "КОМІНВЕСТБАНК",
+      "minfin": "КОМІНВЕСТБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-12-16",
+      "api": "1992-12-16",
+      "nbu": "1992-12-16"
+    },
+    "site": {
+      "fund": [
+        "http://www.coopinvest.com.ua"
+      ],
+      "minfin": [
+        "http://www.atcominvestbank.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 116
+      }
+    }
   },
   {
     "id": "КОНКОРД",
-    "bg": "КОНКОРД",
-    "fg": "КОНКОРД",
-    "mf": "КОНКОРД",
-    "site": [
-      "http://www.concord.ua"
-    ]
+    "name": {
+      "dbf": "КОНКОРД",
+      "api": "КОНКОРД",
+      "nbu": "КОНКОРД",
+      "fund": "КОНКОРД",
+      "minfin": "КОНКОРД"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2006-08-07",
+      "api": "2006-08-07",
+      "nbu": "2006-08-07"
+    },
+    "site": {
+      "fund": [
+        "http://www.concord.ua"
+      ],
+      "minfin": [
+        "http://www.concord.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 191
+      }
+    }
   },
   {
     "id": "КОНТРАКТ",
-    "fg": "КОНТРАКТ",
-    "mf": "КОНТРАКТ"
+    "name": {
+      "dbf": "КОНТРАКТ",
+      "api": "КОНТРАКТ",
+      "fund": "КОНТРАКТ",
+      "minfin": "КОНТРАКТ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-05-18",
+      "api": "1993-05-18"
+    },
+    "site": {
+      "minfin": [
+        "http://www.kontrakt.ua/ru/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 83
+      }
+    }
   },
   {
     "id": "КРЕДІ АГРІКОЛЬ БАНК",
-    "bg": "КРЕДІ АГРІКОЛЬ БАНК",
-    "fg": "КРЕДІ АГРІКОЛЬ БАНК",
-    "mf": "КРЕДІ АГРІКОЛЬ БАНК",
-    "site": [
-      "http://www.indexbank.ua",
-      "http://credit-agricole.com.ua"
-    ]
+    "name": {
+      "dbf": "КРЕДІ АГРІКОЛЬ БАНК",
+      "api": "КРЕДІ АГРІКОЛЬ БАНК",
+      "nbu": "КРЕДІ АГРІКОЛЬ БАНК",
+      "fund": "КРЕДІ АГРІКОЛЬ БАНК",
+      "minfin": "КРЕДІ АГРІКОЛЬ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-02-10",
+      "api": "1993-02-10",
+      "nbu": "1993-02-10"
+    },
+    "site": {
+      "fund": [
+        "http://www.indexbank.ua",
+        "http://credit-agricole.com.ua"
+      ],
+      "minfin": [
+        "https://credit-agricole.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 151
+      }
+    }
   },
   {
     "id": "КРЕДИТ ЄВРОПА БАНК",
-    "bg": "КРЕДИТ ЄВРОПА БАНК",
-    "fg": "КРЕДИТ ЄВРОПА БАНК",
-    "mf": "КРЕДИТ ЄВРОПА БАНК",
-    "site": [
-      "http://www.crediteurope.com.ua"
-    ]
+    "name": {
+      "dbf": "КРЕДИТ ЄВРОПА БАНК",
+      "api": "КРЕДИТ ЄВРОПА БАНК",
+      "nbu": "КРЕДИТ ЄВРОПА БАНК",
+      "fund": "КРЕДИТ ЄВРОПА БАНК",
+      "minfin": "КРЕДИТ ЄВРОПА БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2006-08-28",
+      "api": "2006-08-28",
+      "nbu": "2006-08-28"
+    },
+    "site": {
+      "fund": [
+        "http://www.crediteurope.com.ua"
+      ],
+      "minfin": [
+        "http://www.crediteurope.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 13
+      }
+    }
   },
   {
     "id": "КРЕДИТ ДНІПРО",
-    "mf": "КРЕДИТ ДНІПРО"
+    "name": {
+      "minfin": "КРЕДИТ ДНІПРО"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.creditdnepr.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 43
+      }
+    }
   },
   {
     "id": "КРЕДИТ ОПТИМА",
-    "mf": "КРЕДИТ ОПТИМА"
+    "name": {
+      "minfin": "КРЕДИТ ОПТИМА"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.credit-optima.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 45
+      }
+    }
   },
   {
     "id": "КРЕДИТВЕСТ БАНК",
-    "bg": "КРЕДИТВЕСТ БАНК",
-    "fg": "КРЕДИТВЕСТ БАНК",
-    "mf": "КРЕДИТВЕСТ БАНК",
-    "site": [
-      "http://www.creditwest.kiev.ua"
-    ]
+    "name": {
+      "dbf": "КРЕДИТВЕСТ БАНК",
+      "api": "КРЕДИТВЕСТ БАНК",
+      "nbu": "КРЕДИТВЕСТ БАНК",
+      "fund": "КРЕДИТВЕСТ БАНК",
+      "minfin": "КРЕДИТВЕСТ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2006-10-04",
+      "api": "2006-10-04",
+      "nbu": "2006-10-04"
+    },
+    "site": {
+      "fund": [
+        "http://www.creditwest.kiev.ua"
+      ],
+      "minfin": [
+        "https://www.creditwest.ua/uk/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 52
+      }
+    }
   },
   {
     "id": "КРЕДИТПРОМБАНК",
-    "fg": "КРЕДИТПРОМБАНК",
-    "mf": "КРЕДИТПРОМБАНК"
+    "name": {
+      "dbf": "КРЕДИТПРОМБАНК",
+      "api": "КРЕДИТПРОМБАНК",
+      "fund": "КРЕДИТПРОМБАНК",
+      "minfin": "КРЕДИТПРОМБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1997-05-20",
+      "api": "1997-05-20"
+    },
+    "site": {
+      "minfin": [
+        "http://kreditprombank.com"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 17
+      }
+    }
   },
   {
     "id": "КРЕДОБАНК",
-    "bg": "КРЕДОБАНК",
-    "fg": "КРЕДОБАНК",
-    "mf": "КРЕДОБАНК",
-    "site": [
-      "http://www.kredobank.com.ua"
-    ]
+    "name": {
+      "dbf": "КРЕДОБАНК",
+      "api": "КРЕДОБАНК",
+      "nbu": "КРЕДОБАНК",
+      "fund": "КРЕДОБАНК",
+      "minfin": "КРЕДОБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-03-31",
+      "api": "1992-03-31",
+      "nbu": "1992-03-31"
+    },
+    "site": {
+      "fund": [
+        "http://www.kredobank.com.ua"
+      ],
+      "minfin": [
+        "http://www.kredobank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 157
+      }
+    }
   },
   {
     "id": "КРИСТАЛБАНК",
-    "bg": "КРИСТАЛБАНК",
-    "fg": "КРИСТАЛБАНК",
-    "mf": "КРИСТАЛБАНК",
-    "site": [
-      "http://cristalbank.com.ua"
-    ]
+    "name": {
+      "dbf": "КРИСТАЛБАНК",
+      "api": "КРИСТАЛБАНК",
+      "nbu": "КРИСТАЛБАНК",
+      "fund": "КРИСТАЛБАНК",
+      "minfin": "КРИСТАЛБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2014-12-16",
+      "api": "2014-12-16",
+      "nbu": "2014-12-16"
+    },
+    "site": {
+      "fund": [
+        "http://cristalbank.com.ua"
+      ],
+      "minfin": [
+        "https://crystalbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 559
+      }
+    }
   },
   {
     "id": "КСГ БАНК",
-    "fg": "КСГ БАНК",
-    "mf": "КСГ БАНК"
+    "name": {
+      "dbf": "КСГ БАНК",
+      "api": "КСГ БАНК",
+      "fund": "КСГ БАНК",
+      "minfin": "КСГ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-11-24",
+      "api": "1993-11-24"
+    },
+    "site": {
+      "minfin": [
+        "http://www.ksgbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 128
+      }
+    }
   },
   {
     "id": "ЛЕГБАНК",
-    "fg": "ЛЕГБАНК",
-    "mf": "ЛЕГБАНК"
+    "name": {
+      "dbf": "ЛЕГБАНК",
+      "api": "ЛЕГБАНК",
+      "fund": "ЛЕГБАНК",
+      "minfin": "ЛЕГБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-08",
+      "api": "1991-10-08"
+    },
+    "site": {
+      "minfin": [
+        "http://www.legbank.kiev.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 72
+      }
+    }
   },
   {
     "id": "ЛЬВІВ",
-    "bg": "ЛЬВІВ",
-    "fg": "ЛЬВІВ",
-    "mf": "ЛЬВІВ",
-    "site": [
-      "http://www.banklviv.com"
-    ]
+    "name": {
+      "dbf": "ЛЬВІВ",
+      "api": "ЛЬВІВ",
+      "nbu": "ЛЬВІВ",
+      "fund": "ЛЬВІВ",
+      "minfin": "ЛЬВІВ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-14",
+      "api": "1991-10-14",
+      "nbu": "1991-10-14"
+    },
+    "site": {
+      "fund": [
+        "http://www.banklviv.com"
+      ],
+      "minfin": [
+        "http://www.banklviv.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 136
+      }
+    }
   },
   {
     "id": "МІБ",
-    "bg": "МІБ",
-    "fg": "МІБ",
-    "mf": "МІБ",
-    "site": [
-      "http://www.ii-bank.com.ua"
-    ]
+    "name": {
+      "dbf": "МІБ",
+      "api": "МІБ",
+      "nbu": "МІБ",
+      "fund": "МІБ",
+      "minfin": "МІБ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2008-03-11",
+      "api": "2008-03-11",
+      "nbu": "2008-03-11"
+    },
+    "site": {
+      "fund": [
+        "http://www.ii-bank.com.ua"
+      ],
+      "minfin": [
+        "http://www.ii-bank.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 196
+      }
+    }
   },
   {
     "id": "МІСТО БАНК",
-    "bg": "МІСТО БАНК",
-    "fg": "МІСТО БАНК",
-    "mf": "МІСТО БАНК",
-    "site": [
-      "http://www.mistobank.com.ua"
-    ]
+    "name": {
+      "dbf": "МІСТО БАНК",
+      "api": "МІСТО БАНК",
+      "nbu": "МІСТО БАНК",
+      "fund": "МІСТО БАНК",
+      "minfin": "МІСТО БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-07-23",
+      "api": "1993-07-23",
+      "nbu": "1993-07-23"
+    },
+    "site": {
+      "fund": [
+        "http://www.mistobank.com.ua"
+      ],
+      "minfin": [
+        "http://www.mistobank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 140
+      }
+    }
   },
   {
     "id": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
-    "fg": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
-    "mf": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК"
+    "name": {
+      "dbf": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
+      "api": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
+      "fund": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
+      "minfin": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2006-05-06",
+      "api": "2006-05-06"
+    },
+    "site": {
+      "minfin": [
+        "http://www.citycommercebank.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 103
+      }
+    }
   },
   {
     "id": "МЕГАБАНК",
-    "bg": "МЕГАБАНК",
-    "fg": "МЕГАБАНК",
-    "mf": "МЕГАБАНК",
-    "site": [
-      "http://www.megabank.net",
-      "https://www.megabank.ua",
-      "http://www"
-    ]
+    "name": {
+      "dbf": "МЕГАБАНК",
+      "api": "МЕГАБАНК",
+      "nbu": "МЕГАБАНК",
+      "fund": "МЕГАБАНК",
+      "minfin": "МЕГАБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-28",
+      "api": "1991-10-28",
+      "nbu": "1991-10-28"
+    },
+    "site": {
+      "fund": [
+        "http://www.megabank.net",
+        "https://www.megabank.ua",
+        "http://www"
+      ],
+      "minfin": [
+        "https://www.megabank.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 80
+      }
+    }
   },
   {
     "id": "МЕЛІОР БАНК",
-    "fg": "МЕЛІОР БАНК",
-    "mf": "МЕЛІОР БАНК"
+    "name": {
+      "dbf": "МЕЛІОР БАНК",
+      "api": "МЕЛІОР БАНК",
+      "fund": "МЕЛІОР БАНК",
+      "minfin": "МЕЛІОР БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2012-02-24",
+      "api": "2012-02-24"
+    },
+    "site": {
+      "minfin": [
+        "http://www.meliorbank.com"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 463
+      }
+    }
   },
   {
     "id": "МЕРКУРІЙ",
-    "fg": "МЕРКУРІЙ",
-    "mf": "МЕРКУРІЙ"
+    "name": {
+      "dbf": "МЕРКУРІЙ",
+      "api": "МЕРКУРІЙ",
+      "fund": "МЕРКУРІЙ",
+      "minfin": "МЕРКУРІЙ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-11-18",
+      "api": "1992-11-18"
+    },
+    "site": {
+      "minfin": [
+        "http://www.mercury-bank.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 118
+      }
+    }
   },
   {
     "id": "МЕТАБАНК",
-    "bg": "МЕТАБАНК",
-    "fg": "МЕТАБАНК",
-    "mf": "МЕТАБАНК",
-    "site": [
-      "http://www.mbank.com.ua"
-    ]
+    "name": {
+      "dbf": "МЕТАБАНК",
+      "api": "МЕТАБАНК",
+      "nbu": "МЕТАБАНК",
+      "fund": "МЕТАБАНК",
+      "minfin": "МЕТАБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-07-12",
+      "api": "1993-07-12",
+      "nbu": "1993-07-12"
+    },
+    "site": {
+      "fund": [
+        "http://www.mbank.com.ua"
+      ],
+      "minfin": [
+        "http://www.mbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 125
+      }
+    }
   },
   {
     "id": "МИХАЙЛІВСЬКИЙ",
-    "mf": "МИХАЙЛІВСЬКИЙ"
+    "name": {
+      "minfin": "МИХАЙЛІВСЬКИЙ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.mbank.kiev.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 472
+      }
+    }
   },
   {
     "id": "МОРСЬКИЙ",
-    "fg": "МОРСЬКИЙ",
-    "mf": "МОРСЬКИЙ"
+    "name": {
+      "fund": "МОРСЬКИЙ",
+      "minfin": "МОРСЬКИЙ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {
+        "minfin": 131
+      }
+    }
   },
   {
     "id": "МОТОР-БАНК",
-    "bg": "МОТОР-БАНК",
-    "fg": "МОТОР-БАНК",
-    "mf": "МОТОР-БАНК",
-    "site": [
-      "http://www.motor-bank.com.ua"
-    ]
+    "name": {
+      "dbf": "МОТОР-БАНК",
+      "api": "МОТОР-БАНК",
+      "nbu": "МОТОР-БАНК",
+      "fund": "МОТОР-БАНК",
+      "minfin": "МОТОР-БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2007-08-10",
+      "api": "2007-08-10",
+      "nbu": "2007-08-10"
+    },
+    "site": {
+      "fund": [
+        "http://www.motor-bank.com.ua"
+      ],
+      "minfin": [
+        "http://motor-bank.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 198
+      }
+    }
   },
   {
     "id": "МТБ БАНК",
-    "bg": "МТБ БАНК",
-    "fg": "МТБ БАНК",
-    "mf": "МТБ БАНК",
-    "site": [
-      "http://mtb.ua",
-      "http://www.mtb.ua"
-    ]
+    "name": {
+      "dbf": "МТБ БАНК",
+      "api": "МТБ БАНК",
+      "nbu": "МТБ БАНК",
+      "fund": "МТБ БАНК",
+      "minfin": "МТБ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-11-05",
+      "api": "1993-11-05",
+      "nbu": "1993-11-05"
+    },
+    "site": {
+      "fund": [
+        "http://mtb.ua",
+        "http://www.mtb.ua"
+      ],
+      "minfin": [
+        "http://marfinbank.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 21
+      }
+    }
   },
   {
     "id": "НАДРА",
-    "fg": "НАДРА",
-    "mf": "НАДРА"
+    "name": {
+      "dbf": "НАДРА",
+      "api": "НАДРА",
+      "fund": "НАДРА",
+      "minfin": "НАДРА"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-10-26",
+      "api": "1993-10-26"
+    },
+    "site": {
+      "minfin": [
+        "http://www.nadrabank.ua/site/page.php"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 19
+      }
+    }
   },
   {
     "id": "НАРОДНИЙ КАПІТАЛ",
-    "mf": "НАРОДНИЙ КАПІТАЛ"
+    "name": {
+      "minfin": "НАРОДНИЙ КАПІТАЛ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://nkbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 199
+      }
+    }
   },
   {
     "id": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
-    "fg": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
-    "mf": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ"
+    "name": {
+      "dbf": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
+      "api": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
+      "fund": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
+      "minfin": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-11-09",
+      "api": "1993-11-09"
+    },
+    "site": {
+      "minfin": [
+        "http://www.jsbni.kiev.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 38
+      }
+    }
   },
   {
     "id": "НАЦІОНАЛЬНИЙ СТАНДАРТ",
-    "fg": "НАЦІОНАЛЬНИЙ СТАНДАРТ"
+    "name": {
+      "fund": "НАЦІОНАЛЬНИЙ СТАНДАРТ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "НАШ БАНК",
-    "fg": "НАШ БАНК"
+    "name": {
+      "fund": "НАШ БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "НК БАНК",
-    "fg": "НК БАНК"
+    "name": {
+      "dbf": "НК БАНК",
+      "api": "НК БАНК",
+      "fund": "НК БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-09-21",
+      "api": "1993-09-21"
+    },
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "НОВИЙ",
-    "fg": "НОВИЙ",
-    "mf": "НОВИЙ"
+    "name": {
+      "dbf": "НОВИЙ",
+      "api": "НОВИЙ",
+      "fund": "НОВИЙ",
+      "minfin": "НОВИЙ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-04-06",
+      "api": "1992-04-06"
+    },
+    "site": {
+      "minfin": [
+        "http://www.banknew.dp.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 145
+      }
+    }
   },
   {
     "id": "ОДЕСА-БАНК",
-    "fg": "ОДЕСА-БАНК"
+    "name": {
+      "fund": "ОДЕСА-БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ОКСІ БАНК",
-    "bg": "ОКСІ БАНК",
-    "fg": "ОКСІ БАНК",
-    "mf": "ОКСІ БАНК",
-    "site": [
-      "http://www.okcibank.com.ua"
-    ]
+    "name": {
+      "dbf": "ОКСІ БАНК",
+      "api": "ОКСІ БАНК",
+      "nbu": "ОКСІ БАНК",
+      "fund": "ОКСІ БАНК",
+      "minfin": "ОКСІ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-14",
+      "api": "1991-10-14",
+      "nbu": "1991-10-14"
+    },
+    "site": {
+      "fund": [
+        "http://www.okcibank.com.ua"
+      ],
+      "minfin": [
+        "http://www.okcibank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 61
+      }
+    }
   },
   {
     "id": "ОЛБАНК",
-    "fg": "ОЛБАНК"
+    "name": {
+      "fund": "ОЛБАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ОМЕГА БАНК",
-    "fg": "ОМЕГА БАНК"
+    "name": {
+      "dbf": "ОМЕГА БАНК",
+      "api": "ОМЕГА БАНК",
+      "fund": "ОМЕГА БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-31",
+      "api": "1991-10-31"
+    },
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ОТП БАНК",
-    "bg": "ОТП БАНК",
-    "fg": "ОТП БАНК",
-    "mf": "ОТП БАНК",
-    "site": [
-      "http://www.otpbank.com.ua"
-    ]
+    "name": {
+      "dbf": "ОТП БАНК",
+      "api": "ОТП БАНК",
+      "nbu": "ОТП БАНК",
+      "fund": "ОТП БАНК",
+      "minfin": "ОТП БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1998-03-02",
+      "api": "1998-03-02",
+      "nbu": "1998-03-02"
+    },
+    "site": {
+      "fund": [
+        "http://www.otpbank.com.ua"
+      ],
+      "minfin": [
+        "http://otpbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 6
+      }
+    }
   },
   {
     "id": "ОЩАДБАНК",
-    "bg": "ОЩАДБАНК",
-    "mf": "ОЩАДБАНК"
+    "name": {
+      "dbf": "ОЩАДБАНК",
+      "api": "ОЩАДБАНК",
+      "nbu": "ОЩАДБАНК",
+      "minfin": "ОЩАДБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true
+    },
+    "dateOpen": {
+      "dbf": "1991-12-31",
+      "api": "1991-12-31",
+      "nbu": "1991-12-31"
+    },
+    "site": {
+      "minfin": [
+        "http://www.oschadbank.ua/ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 2
+      }
+    }
   },
   {
     "id": "ПІВДЕНКОМБАНК",
-    "fg": "ПІВДЕНКОМБАНК",
-    "mf": "ПІВДЕНКОМБАНК"
+    "name": {
+      "dbf": "ПІВДЕНКОМБАНК",
+      "api": "ПІВДЕНКОМБАНК",
+      "fund": "ПІВДЕНКОМБАНК",
+      "minfin": "ПІВДЕНКОМБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-03",
+      "api": "1991-10-03"
+    },
+    "site": {
+      "minfin": [
+        "http://pivdencombank.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 68
+      }
+    }
   },
   {
     "id": "ПІВДЕННИЙ",
-    "bg": "ПІВДЕННИЙ",
-    "fg": "ПІВДЕННИЙ",
-    "site": [
-      "http://www.pivdenny.com"
-    ]
+    "name": {
+      "dbf": "ПІВДЕННИЙ",
+      "api": "ПІВДЕННИЙ",
+      "nbu": "ПІВДЕННИЙ",
+      "fund": "ПІВДЕННИЙ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-12-03",
+      "api": "1993-12-03",
+      "nbu": "1993-12-03"
+    },
+    "site": {
+      "fund": [
+        "http://www.pivdenny.com"
+      ],
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ПІРЕУС БАНК",
-    "mf": "ПІРЕУС БАНК"
+    "name": {
+      "minfin": "ПІРЕУС БАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.piraeusbank.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 150
+      }
+    }
   },
   {
     "id": "ПІРЕУС БАНК МКБ",
-    "bg": "ПІРЕУС БАНК МКБ",
-    "fg": "ПІРЕУС БАНК МКБ",
-    "site": [
-      "http://www.piraeusbank.ua"
-    ]
+    "name": {
+      "dbf": "ПІРЕУС БАНК МКБ",
+      "api": "ПІРЕУС БАНК МКБ",
+      "nbu": "ПІРЕУС БАНК МКБ",
+      "fund": "ПІРЕУС БАНК МКБ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1994-01-31",
+      "api": "1994-01-31",
+      "nbu": "1994-01-31"
+    },
+    "site": {
+      "fund": [
+        "http://www.piraeusbank.ua"
+      ],
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
-    "bg": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
-    "fg": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
-    "mf": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
-    "site": [
-      "http://www.pinbank.ua"
-    ]
+    "name": {
+      "dbf": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+      "api": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+      "nbu": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+      "fund": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+      "minfin": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1997-06-20",
+      "api": "1997-06-20",
+      "nbu": "1997-06-20"
+    },
+    "site": {
+      "fund": [
+        "http://www.pinbank.ua"
+      ],
+      "minfin": [
+        "http://www.pinbank.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 132
+      }
+    }
   },
   {
     "id": "ПЕТРОКОММЕРЦ-УКРАЇНА",
-    "mf": "ПЕТРОКОММЕРЦ-УКРАЇНА"
-  },
-  {
-    "id": "ПЛАТИНУМ БАНК",
-    "fg": "ПЛАТИНУМ БАНК",
-    "mf": "ПЛАТИНУМ БАНК"
+    "name": {
+      "minfin": "ПЕТРОКОММЕРЦ-УКРАЇНА"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.pcbu.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 90
+      }
+    }
   },
   {
     "id": "ПОЛІКОМБАНК",
-    "bg": "ПОЛІКОМБАНК",
-    "fg": "ПОЛІКОМБАНК",
-    "mf": "ПОЛІКОМБАНК",
-    "site": [
-      "http://www.poli.com.ua"
-    ]
+    "name": {
+      "dbf": "ПОЛІКОМБАНК",
+      "api": "ПОЛІКОМБАНК",
+      "nbu": "ПОЛІКОМБАНК",
+      "fund": "ПОЛІКОМБАНК",
+      "minfin": "ПОЛІКОМБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1994-08-18",
+      "api": "1994-08-18",
+      "nbu": "1994-08-18"
+    },
+    "site": {
+      "fund": [
+        "http://www.poli.com.ua"
+      ],
+      "minfin": [
+        "http://www.policombank.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 104
+      }
+    }
   },
   {
     "id": "ПОЛТАВА-БАНК",
-    "bg": "ПОЛТАВА-БАНК",
-    "fg": "ПОЛТАВА-БАНК",
-    "mf": "ПОЛТАВА-БАНК",
-    "site": [
-      "http://www.poltavabank.com"
-    ]
+    "name": {
+      "dbf": "ПОЛТАВА-БАНК",
+      "api": "ПОЛТАВА-БАНК",
+      "nbu": "ПОЛТАВА-БАНК",
+      "fund": "ПОЛТАВА-БАНК",
+      "minfin": "ПОЛТАВА-БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-16",
+      "api": "1991-10-16",
+      "nbu": "1991-10-16"
+    },
+    "site": {
+      "fund": [
+        "http://www.poltavabank.com"
+      ],
+      "minfin": [
+        "http://www.poltavabank.com"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 54
+      }
+    }
   },
   {
     "id": "ПОРТАЛ",
-    "bg": "ПОРТАЛ",
-    "fg": "ПОРТАЛ",
-    "site": []
+    "name": {
+      "dbf": "ПОРТАЛ",
+      "api": "ПОРТАЛ",
+      "nbu": "ПОРТАЛ",
+      "fund": "ПОРТАЛ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2013-09-20",
+      "api": "2013-09-20",
+      "nbu": "2013-09-20"
+    },
+    "site": {
+      "fund": [],
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ПОРТО-ФРАНКО",
-    "fg": "ПОРТО-ФРАНКО",
-    "mf": "ПОРТО-ФРАНКО"
+    "name": {
+      "dbf": "ПОРТО-ФРАНКО",
+      "api": "ПОРТО-ФРАНКО",
+      "fund": "ПОРТО-ФРАНКО",
+      "minfin": "ПОРТО-ФРАНКО"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-17",
+      "api": "1991-10-17"
+    },
+    "site": {
+      "minfin": [
+        "http://www.porto-franco.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 113
+      }
+    }
   },
   {
     "id": "ПРАВЕКС БАНК",
-    "bg": "ПРАВЕКС БАНК",
-    "fg": "ПРАВЕКС БАНК",
-    "mf": "ПРАВЕКС БАНК",
-    "site": [
-      "http://www.pravex.com"
-    ]
+    "name": {
+      "dbf": "ПРАВЕКС БАНК",
+      "api": "ПРАВЕКС БАНК",
+      "nbu": "ПРАВЕКС БАНК",
+      "fund": "ПРАВЕКС БАНК",
+      "minfin": "ПРАВЕКС БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-12-29",
+      "api": "1992-12-29",
+      "nbu": "1992-12-29"
+    },
+    "site": {
+      "fund": [
+        "http://www.pravex.com"
+      ],
+      "minfin": [
+        "https://www.pravex.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 155
+      }
+    }
   },
   {
-    "id": "ПРАЙМ-БАНК",
-    "fg": "ПРАЙМ-БАНК",
-    "mf": "ПРАЙМ-БАНК"
+    "id": "ПРАЙМ - БАНК",
+    "name": {
+      "dbf": "ПРАЙМ - БАНК",
+      "api": "ПРАЙМ - БАНК",
+      "fund": "ПРАЙМ - БАНК",
+      "minfin": "ПРАЙМ - БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2001-07-30",
+      "api": "2001-07-30"
+    },
+    "site": {
+      "minfin": [
+        "http://www.prime-bank.kiev.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 69
+      }
+    }
   },
   {
     "id": "ПРЕМ'ЄРБАНК",
-    "fg": "ПРЕМ'ЄРБАНК"
+    "name": {
+      "fund": "ПРЕМ'ЄРБАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ПРЕМІУМ",
-    "fg": "ПРЕМІУМ",
-    "mf": "ПРЕМІУМ"
+    "name": {
+      "dbf": "ПРЕМІУМ",
+      "api": "ПРЕМІУМ",
+      "fund": "ПРЕМІУМ",
+      "minfin": "ПРЕМІУМ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2007-07-24",
+      "api": "2007-07-24"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bank-premium.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 7
+      }
+    }
   },
   {
     "id": "ПРИВАТБАНК",
-    "bg": "ПРИВАТБАНК",
-    "fg": "ПРИВАТБАНК",
-    "mf": "ПРИВАТБАНК"
+    "name": {
+      "dbf": "ПРИВАТБАНК",
+      "api": "ПРИВАТБАНК",
+      "nbu": "ПРИВАТБАНК",
+      "fund": "ПРИВАТБАНК",
+      "minfin": "ПРИВАТБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-03-19",
+      "api": "1992-03-19",
+      "nbu": "1992-03-19"
+    },
+    "site": {
+      "minfin": [
+        "http://privatbank.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 1
+      }
+    }
   },
   {
     "id": "ПРОКРЕДИТ БАНК",
-    "bg": "ПРОКРЕДИТ БАНК",
-    "fg": "ПРОКРЕДИТ БАНК",
-    "mf": "ПРОКРЕДИТ БАНК",
-    "site": [
-      "http://www.procreditbank.com.ua"
-    ]
+    "name": {
+      "dbf": "ПРОКРЕДИТ БАНК",
+      "api": "ПРОКРЕДИТ БАНК",
+      "nbu": "ПРОКРЕДИТ БАНК",
+      "fund": "ПРОКРЕДИТ БАНК",
+      "minfin": "ПРОКРЕДИТ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2000-12-28",
+      "api": "2000-12-28",
+      "nbu": "2000-12-28"
+    },
+    "site": {
+      "fund": [
+        "http://www.procreditbank.com.ua"
+      ],
+      "minfin": [
+        "http://procreditbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 143
+      }
+    }
   },
   {
     "id": "ПРОМІНВЕСТБАНК",
-    "bg": "ПРОМІНВЕСТБАНК",
-    "fg": "ПРОМІНВЕСТБАНК",
-    "mf": "ПРОМІНВЕСТБАНК",
-    "site": [
-      "http://www.pib.com.ua"
-    ]
+    "name": {
+      "dbf": "ПРОМІНВЕСТБАНК",
+      "api": "ПРОМІНВЕСТБАНК",
+      "nbu": "ПРОМІНВЕСТБАНК",
+      "fund": "ПРОМІНВЕСТБАНК",
+      "minfin": "ПРОМІНВЕСТБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-08-26",
+      "api": "1992-08-26",
+      "nbu": "1992-08-26"
+    },
+    "site": {
+      "fund": [
+        "http://www.pib.com.ua"
+      ],
+      "minfin": [
+        "http://www.pib.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 209
+      }
+    }
   },
   {
     "id": "ПРОМЕКОНОМБАНК",
-    "fg": "ПРОМЕКОНОМБАНК",
-    "mf": "ПРОМЕКОНОМБАНК"
+    "name": {
+      "dbf": "ПРОМЕКОНОМБАНК",
+      "api": "ПРОМЕКОНОМБАНК",
+      "fund": "ПРОМЕКОНОМБАНК",
+      "minfin": "ПРОМЕКОНОМБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-08-25",
+      "api": "1993-08-25"
+    },
+    "site": {
+      "minfin": [
+        "http://www.peb.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 127
+      }
+    }
   },
   {
     "id": "ПРОФІН БАНК",
-    "fg": "ПРОФІН БАНК",
-    "mf": "ПРОФІН БАНК"
+    "name": {
+      "dbf": "ПРОФІН БАНК",
+      "api": "ПРОФІН БАНК",
+      "fund": "ПРОФІН БАНК",
+      "minfin": "ПРОФІН БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-01",
+      "api": "1991-10-01"
+    },
+    "site": {
+      "minfin": [
+        "http://www.profinbank.com"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 91
+      }
+    }
+  },
+  {
+    "id": "ПТБ",
+    "name": {
+      "dbf": "ПТБ",
+      "api": "ПТБ",
+      "fund": "ПТБ",
+      "minfin": "ПТБ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2005-01-13",
+      "api": "2005-01-13"
+    },
+    "site": {
+      "minfin": [
+        "http://platinumbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 20
+      }
+    }
   },
   {
     "id": "ПУМБ",
-    "bg": "ПУМБ",
-    "fg": "ПУМБ",
-    "mf": "ПУМБ",
-    "site": [
-      "http://www.fuib.com"
-    ]
+    "name": {
+      "dbf": "ПУМБ",
+      "api": "ПУМБ",
+      "nbu": "ПУМБ",
+      "fund": "ПУМБ",
+      "minfin": "ПУМБ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-12-23",
+      "api": "1991-12-23",
+      "nbu": "1991-12-23"
+    },
+    "site": {
+      "fund": [
+        "http://www.fuib.com"
+      ],
+      "minfin": [
+        "http://pumb.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 148
+      }
+    }
   },
   {
     "id": "ПФБ",
-    "mf": "ПФБ"
+    "name": {
+      "minfin": "ПФБ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.pfb.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 210
+      }
+    }
   },
   {
     "id": "РАДАБАНК",
-    "bg": "РАДАБАНК",
-    "fg": "РАДАБАНК",
-    "mf": "РАДАБАНК",
-    "site": [
-      "http://www.radabank.com.ua"
-    ]
+    "name": {
+      "dbf": "РАДАБАНК",
+      "api": "РАДАБАНК",
+      "nbu": "РАДАБАНК",
+      "fund": "РАДАБАНК",
+      "minfin": "РАДАБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-12-03",
+      "api": "1993-12-03",
+      "nbu": "1993-12-03"
+    },
+    "site": {
+      "fund": [
+        "http://www.radabank.com.ua"
+      ],
+      "minfin": [
+        "http://www.radabank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 46
+      }
+    }
   },
   {
     "id": "РАДИКАЛ БАНК",
-    "fg": "РАДИКАЛ БАНК",
-    "mf": "РАДИКАЛ БАНК"
+    "name": {
+      "dbf": "РАДИКАЛ БАНК",
+      "api": "РАДИКАЛ БАНК",
+      "fund": "РАДИКАЛ БАНК",
+      "minfin": "РАДИКАЛ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2010-03-23",
+      "api": "2010-03-23"
+    },
+    "site": {
+      "minfin": [
+        "http://radicalbank.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 272
+      }
+    }
   },
   {
     "id": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
-    "bg": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
-    "fg": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
-    "mf": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
-    "site": [
-      "http://www.aval.ua"
-    ]
+    "name": {
+      "dbf": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
+      "api": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
+      "nbu": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
+      "fund": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
+      "minfin": "РАЙФФАЙЗЕН БАНК АВАЛЬ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-03-27",
+      "api": "1992-03-27",
+      "nbu": "1992-03-27"
+    },
+    "site": {
+      "fund": [
+        "http://www.aval.ua"
+      ],
+      "minfin": [
+        "http://www.aval.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 58
+      }
+    }
   },
   {
     "id": "РВС БАНК",
-    "bg": "РВС БАНК",
-    "fg": "РВС БАНК",
-    "mf": "РВС БАНК",
-    "site": []
+    "name": {
+      "dbf": "РВС БАНК",
+      "api": "РВС БАНК",
+      "nbu": "РВС БАНК",
+      "fund": "РВС БАНК",
+      "minfin": "РВС БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2015-06-25",
+      "api": "2015-06-25",
+      "nbu": "2015-06-25"
+    },
+    "site": {
+      "fund": [],
+      "minfin": [
+        "http://www.rwsbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 14
+      }
+    }
   },
   {
     "id": "РЕАЛ БАНК",
-    "fg": "РЕАЛ БАНК",
-    "mf": "РЕАЛ БАНК"
+    "name": {
+      "dbf": "РЕАЛ БАНК",
+      "api": "РЕАЛ БАНК",
+      "fund": "РЕАЛ БАНК",
+      "minfin": "РЕАЛ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-29",
+      "api": "1991-10-29"
+    },
+    "site": {
+      "minfin": [
+        "http://realbank.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 92
+      }
+    }
   },
   {
     "id": "РЕНЕСАНС КРЕДИТ",
-    "mf": "РЕНЕСАНС КРЕДИТ"
+    "name": {
+      "minfin": "РЕНЕСАНС КРЕДИТ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "https://pumb.ua/ru"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 122
+      }
+    }
   },
   {
     "id": "РОДОВІД БАНК",
-    "fg": "РОДОВІД БАНК",
-    "mf": "РОДОВІД БАНК"
+    "name": {
+      "dbf": "РОДОВІД БАНК",
+      "api": "РОДОВІД БАНК",
+      "fund": "РОДОВІД БАНК",
+      "minfin": "РОДОВІД БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-07",
+      "api": "1991-10-07"
+    },
+    "site": {
+      "minfin": [
+        "http://rodovidbank.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 161
+      }
+    }
   },
   {
     "id": "РОЗРАХУНКОВИЙ ЦЕНТР",
-    "bg": "РОЗРАХУНКОВИЙ ЦЕНТР",
-    "fg": "РОЗРАХУНКОВИЙ ЦЕНТР",
-    "mf": "РОЗРАХУНКОВИЙ ЦЕНТР",
-    "site": []
+    "name": {
+      "dbf": "РОЗРАХУНКОВИЙ ЦЕНТР",
+      "api": "РОЗРАХУНКОВИЙ ЦЕНТР",
+      "nbu": "РОЗРАХУНКОВИЙ ЦЕНТР",
+      "fund": "РОЗРАХУНКОВИЙ ЦЕНТР",
+      "minfin": "РОЗРАХУНКОВИЙ ЦЕНТР"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2013-09-06",
+      "api": "2013-09-06",
+      "nbu": "2013-09-06"
+    },
+    "site": {
+      "fund": [],
+      "minfin": [
+        "http://settlement.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 609
+      }
+    }
   },
   {
     "id": "РОСТОК БАНК",
-    "fg": "РОСТОК БАНК"
+    "name": {
+      "fund": "РОСТОК БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "СІТІБАНК",
-    "bg": "СІТІБАНК",
-    "fg": "СІТІБАНК",
-    "site": []
+    "name": {
+      "dbf": "СІТІБАНК",
+      "api": "СІТІБАНК",
+      "nbu": "СІТІБАНК",
+      "fund": "СІТІБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1998-05-11",
+      "api": "1998-05-11",
+      "nbu": "1998-05-11"
+    },
+    "site": {
+      "fund": [],
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "СІТІБАНК (УКРАЇНА)",
-    "mf": "СІТІБАНК (УКРАЇНА)"
+    "name": {
+      "minfin": "СІТІБАНК (УКРАЇНА)"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "https://www.citigroup.com/citi/about/countrypresence/ukraine.html"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 4
+      }
+    }
   },
   {
     "id": "СІЧ",
-    "mf": "СІЧ"
+    "name": {
+      "minfin": "СІЧ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.sichbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 271
+      }
+    }
   },
   {
     "id": "СБЕРБАНК",
-    "bg": "СБЕРБАНК",
-    "fg": "СБЕРБАНК",
-    "mf": "СБЕРБАНК",
-    "site": [
-      "https://www.sberbank.ua",
-      "http://sberbank.com.ua"
-    ]
+    "name": {
+      "dbf": "СБЕРБАНК",
+      "api": "СБЕРБАНК",
+      "nbu": "СБЕРБАНК",
+      "fund": "СБЕРБАНК",
+      "minfin": "СБЕРБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2001-06-15",
+      "api": "2001-06-15",
+      "nbu": "2001-06-15"
+    },
+    "site": {
+      "fund": [
+        "https://www.sberbank.ua",
+        "http://sberbank.com.ua"
+      ],
+      "minfin": [
+        "http://www.sberbank.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 16
+      }
+    }
   },
   {
     "id": "СЕБ КОРПОРАТИВНИЙ БАНК",
-    "bg": "СЕБ КОРПОРАТИВНИЙ БАНК",
-    "fg": "СЕБ КОРПОРАТИВНИЙ БАНК",
-    "mf": "СЕБ КОРПОРАТИВНИЙ БАНК",
-    "site": []
+    "name": {
+      "dbf": "СЕБ КОРПОРАТИВНИЙ БАНК",
+      "api": "СЕБ КОРПОРАТИВНИЙ БАНК",
+      "nbu": "СЕБ КОРПОРАТИВНИЙ БАНК",
+      "fund": "СЕБ КОРПОРАТИВНИЙ БАНК",
+      "minfin": "СЕБ КОРПОРАТИВНИЙ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2011-01-19",
+      "api": "2011-01-19",
+      "nbu": "2011-01-19"
+    },
+    "site": {
+      "fund": [],
+      "minfin": [
+        "https://sebgroup.com/about-seb/our-locations/international-network/seb-in-ukraine"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 525
+      }
+    }
   },
   {
     "id": "СИНТЕЗ",
-    "fg": "СИНТЕЗ"
+    "name": {
+      "fund": "СИНТЕЗ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "СКАЙ БАНК",
-    "bg": "СКАЙ БАНК",
-    "fg": "СКАЙ БАНК",
-    "mf": "СКАЙ БАНК",
-    "site": [
-      "https://skybank.pro"
-    ]
+    "name": {
+      "dbf": "СКАЙ БАНК",
+      "api": "СКАЙ БАНК",
+      "nbu": "СКАЙ БАНК",
+      "fund": "СКАЙ БАНК",
+      "minfin": "СКАЙ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-28",
+      "api": "1991-10-28",
+      "nbu": "1991-10-28"
+    },
+    "site": {
+      "fund": [
+        "https://skybank.pro"
+      ],
+      "minfin": [
+        "https://www.sky.bank/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 86
+      }
+    }
   },
   {
     "id": "СЛОВ'ЯНСЬКИЙ",
-    "fg": "СЛОВ'ЯНСЬКИЙ"
+    "name": {
+      "fund": "СЛОВ'ЯНСЬКИЙ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "СМАРТБАНК",
-    "fg": "СМАРТБАНК",
-    "mf": "СМАРТБАНК"
+    "name": {
+      "dbf": "СМАРТБАНК",
+      "api": "СМАРТБАНК",
+      "fund": "СМАРТБАНК",
+      "minfin": "СМАРТБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2010-09-13",
+      "api": "2010-09-13"
+    },
+    "site": {
+      "minfin": [
+        "http://smartbank.kiev.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 464
+      }
+    }
   },
   {
     "id": "СОФІЙСЬКИЙ",
-    "fg": "СОФІЙСЬКИЙ"
+    "name": {
+      "dbf": "СОФІЙСЬКИЙ",
+      "api": "СОФІЙСЬКИЙ",
+      "fund": "СОФІЙСЬКИЙ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2012-03-16",
+      "api": "2012-03-16"
+    },
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "СОЦКОМ БАНК",
-    "fg": "СОЦКОМ БАНК"
+    "name": {
+      "fund": "СОЦКОМ БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "СОЮЗ",
-    "fg": "СОЮЗ",
-    "mf": "СОЮЗ"
+    "name": {
+      "dbf": "СОЮЗ",
+      "api": "СОЮЗ",
+      "fund": "СОЮЗ",
+      "minfin": "СОЮЗ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2007-11-26",
+      "api": "2007-11-26"
+    },
+    "site": {
+      "minfin": [
+        "http://www.banksoyuz.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 222
+      }
+    }
   },
   {
     "id": "СП БАНК",
-    "fg": "СП БАНК"
+    "name": {
+      "dbf": "СП БАНК",
+      "api": "СП БАНК",
+      "fund": "СП БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1995-09-13",
+      "api": "1995-09-13"
+    },
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "СТАНДАРТ",
-    "fg": "СТАНДАРТ",
-    "mf": "СТАНДАРТ"
+    "name": {
+      "dbf": "СТАНДАРТ",
+      "api": "СТАНДАРТ",
+      "fund": "СТАНДАРТ",
+      "minfin": "СТАНДАРТ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2008-12-31",
+      "api": "2008-12-31"
+    },
+    "site": {
+      "minfin": [
+        "http://www.standart-bank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 466
+      }
+    }
   },
   {
     "id": "СТАРОКИЇВСЬКИЙ БАНК",
-    "fg": "СТАРОКИЇВСЬКИЙ БАНК",
-    "mf": "СТАРОКИЇВСЬКИЙ БАНК"
+    "name": {
+      "dbf": "СТАРОКИЇВСЬКИЙ БАНК",
+      "api": "СТАРОКИЇВСЬКИЙ БАНК",
+      "fund": "СТАРОКИЇВСЬКИЙ БАНК",
+      "minfin": "СТАРОКИЇВСЬКИЙ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-12-31",
+      "api": "1991-12-31"
+    },
+    "site": {
+      "minfin": [
+        "http://www.oldbank.com"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 223
+      }
+    }
   },
   {
     "id": "СТОЛИЦЯ",
-    "fg": "СТОЛИЦЯ"
+    "name": {
+      "fund": "СТОЛИЦЯ"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "СТОЛИЧНИЙ",
-    "fg": "СТОЛИЧНИЙ"
+    "name": {
+      "dbf": "СТОЛИЧНИЙ",
+      "api": "СТОЛИЧНИЙ",
+      "fund": "СТОЛИЧНИЙ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-10-22",
+      "api": "1993-10-22"
+    },
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "СХІДНО-ЄВРОПЕЙСЬКИЙ БАНК",
-    "fg": "СХІДНО-ЄВРОПЕЙСЬКИЙ БАНК"
+    "name": {
+      "fund": "СХІДНО-ЄВРОПЕЙСЬКИЙ БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "СХІДНО-ПРОМИСЛОВИЙ БАНК",
-    "mf": "СХІДНО-ПРОМИСЛОВИЙ БАНК"
+    "name": {
+      "minfin": "СХІДНО-ПРОМИСЛОВИЙ БАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.vpbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 88
+      }
+    }
   },
   {
     "id": "ТАВРИКА",
-    "fg": "ТАВРИКА",
-    "mf": "ТАВРИКА"
+    "name": {
+      "dbf": "ТАВРИКА",
+      "api": "ТАВРИКА",
+      "fund": "ТАВРИКА",
+      "minfin": "ТАВРИКА"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-24",
+      "api": "1991-10-24"
+    },
+    "site": {
+      "minfin": [
+        "http://www.tavrika.com/ru/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 60
+      }
+    }
   },
   {
     "id": "ТАСКОМБАНК",
-    "bg": "ТАСКОМБАНК",
-    "fg": "ТАСКОМБАНК",
-    "mf": "ТАСКОМБАНК",
-    "site": [
-      "https://tascombank.ua",
-      "http://www.tascombank.ua"
-    ]
+    "name": {
+      "dbf": "ТАСКОМБАНК",
+      "api": "ТАСКОМБАНК",
+      "nbu": "ТАСКОМБАНК",
+      "fund": "ТАСКОМБАНК",
+      "minfin": "ТАСКОМБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-21",
+      "api": "1991-10-21",
+      "nbu": "1991-10-21"
+    },
+    "site": {
+      "fund": [
+        "https://tascombank.ua",
+        "http://www.tascombank.ua"
+      ],
+      "minfin": [
+        "http://www.tascombank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 84
+      }
+    }
   },
   {
     "id": "ТЕРРА БАНК",
-    "fg": "ТЕРРА БАНК",
-    "mf": "ТЕРРА БАНК"
+    "name": {
+      "dbf": "ТЕРРА БАНК",
+      "api": "ТЕРРА БАНК",
+      "fund": "ТЕРРА БАНК",
+      "minfin": "ТЕРРА БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1996-10-18",
+      "api": "1996-10-18"
+    },
+    "site": {
+      "minfin": [
+        "http://www.terrabank.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 141
+      }
+    }
   },
   {
     "id": "ТК КРЕДИТ",
-    "fg": "ТК КРЕДИТ",
-    "mf": "ТК КРЕДИТ"
+    "name": {
+      "dbf": "ТК КРЕДИТ",
+      "api": "ТК КРЕДИТ",
+      "fund": "ТК КРЕДИТ",
+      "minfin": "ТК КРЕДИТ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1994-04-28",
+      "api": "1994-04-28"
+    },
+    "site": {
+      "minfin": [
+        "http://www.tkcredit.kiev.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 224
+      }
+    }
   },
   {
     "id": "ТРАНСБАНК",
-    "fg": "ТРАНСБАНК"
+    "name": {
+      "fund": "ТРАНСБАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ТРАСТ",
-    "fg": "ТРАСТ"
+    "name": {
+      "dbf": "ТРАСТ",
+      "api": "ТРАСТ",
+      "fund": "ТРАСТ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2007-08-22",
+      "api": "2007-08-22"
+    },
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ТРАСТ-КАПІТАЛ",
-    "bg": "ТРАСТ-КАПІТАЛ",
-    "fg": "ТРАСТ-КАПІТАЛ",
-    "mf": "ТРАСТ-КАПІТАЛ",
-    "site": [
-      "http://www.tc-bank.com"
-    ]
+    "name": {
+      "dbf": "ТРАСТ-КАПІТАЛ",
+      "api": "ТРАСТ-КАПІТАЛ",
+      "nbu": "ТРАСТ-КАПІТАЛ",
+      "fund": "ТРАСТ-КАПІТАЛ",
+      "minfin": "ТРАСТ-КАПІТАЛ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2004-03-10",
+      "api": "2004-03-10",
+      "nbu": "2004-03-10"
+    },
+    "site": {
+      "fund": [
+        "http://www.tc-bank.com"
+      ],
+      "minfin": [
+        "http://www.tc-bank.com/ua.html"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 120
+      }
+    }
   },
   {
     "id": "УКООПСПІЛКА",
-    "fg": "УКООПСПІЛКА",
-    "mf": "УКООПСПІЛКА"
+    "name": {
+      "dbf": "УКООПСПІЛКА",
+      "api": "УКООПСПІЛКА",
+      "fund": "УКООПСПІЛКА",
+      "minfin": "УКООПСПІЛКА"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-10-25",
+      "api": "1993-10-25"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bankukoopspilka.kiev.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 117
+      }
+    }
   },
   {
     "id": "УКРІНБАНК",
-    "fg": "УКРІНБАНК",
-    "mf": "УКРІНБАНК"
+    "name": {
+      "dbf": "УКРІНБАНК",
+      "api": "УКРІНБАНК",
+      "fund": "УКРІНБАНК",
+      "minfin": "УКРІНБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-02",
+      "api": "1991-10-02"
+    },
+    "site": {
+      "minfin": [
+        "http://www.ukrinbank.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 149
+      }
+    }
   },
   {
     "id": "УКРАЇНА",
-    "fg": "УКРАЇНА"
+    "name": {
+      "fund": "УКРАЇНА"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "УКРАЇНСЬКА ФІНАНСОВА ГРУПА",
-    "fg": "УКРАЇНСЬКА ФІНАНСОВА ГРУПА"
+    "name": {
+      "fund": "УКРАЇНСЬКА ФІНАНСОВА ГРУПА"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
-    "bg": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
-    "fg": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
-    "mf": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
-    "site": [
-      "http://www.ubrr.com.ua"
-    ]
+    "name": {
+      "dbf": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
+      "api": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
+      "nbu": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
+      "fund": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
+      "minfin": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2004-03-19",
+      "api": "2004-03-19",
+      "nbu": "2004-03-19"
+    },
+    "site": {
+      "fund": [
+        "http://www.ubrr.com.ua"
+      ],
+      "minfin": [
+        "http://www.ubrr.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 49
+      }
+    }
   },
   {
     "id": "УКРАЇНСЬКИЙ КАПІТАЛ",
-    "bg": "УКРАЇНСЬКИЙ КАПІТАЛ",
-    "fg": "УКРАЇНСЬКИЙ КАПІТАЛ",
-    "mf": "УКРАЇНСЬКИЙ КАПІТАЛ",
-    "site": [
-      "http://www.ukrcapital.com.ua"
-    ]
+    "name": {
+      "dbf": "УКРАЇНСЬКИЙ КАПІТАЛ",
+      "api": "УКРАЇНСЬКИЙ КАПІТАЛ",
+      "nbu": "УКРАЇНСЬКИЙ КАПІТАЛ",
+      "fund": "УКРАЇНСЬКИЙ КАПІТАЛ",
+      "minfin": "УКРАЇНСЬКИЙ КАПІТАЛ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-12-25",
+      "api": "1992-12-25",
+      "nbu": "1992-12-25"
+    },
+    "site": {
+      "fund": [
+        "http://www.ukrcapital.com.ua"
+      ],
+      "minfin": [
+        "http://www.ukrcapital.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 74
+      }
+    }
   },
   {
     "id": "УКРАЇНСЬКИЙ ПРОМИСЛОВИЙ БАНК",
-    "fg": "УКРАЇНСЬКИЙ ПРОМИСЛОВИЙ БАНК"
+    "name": {
+      "fund": "УКРАЇНСЬКИЙ ПРОМИСЛОВИЙ БАНК"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "УКРБІЗНЕСБАНК",
-    "fg": "УКРБІЗНЕСБАНК",
-    "mf": "УКРБІЗНЕСБАНК"
+    "name": {
+      "dbf": "УКРБІЗНЕСБАНК",
+      "api": "УКРБІЗНЕСБАНК",
+      "fund": "УКРБІЗНЕСБАНК",
+      "minfin": "УКРБІЗНЕСБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-05-19",
+      "api": "1993-05-19"
+    },
+    "site": {
+      "minfin": [
+        "http://ubb.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 51
+      }
+    }
   },
   {
     "id": "УКРБУДІНВЕСТБАНК",
-    "bg": "УКРБУДІНВЕСТБАНК",
-    "fg": "УКРБУДІНВЕСТБАНК",
-    "mf": "УКРБУДІНВЕСТБАНК",
-    "site": [
-      "https://ubib.com.ua",
-      "http://www.uci-bank.com"
-    ]
+    "name": {
+      "dbf": "УКРБУДІНВЕСТБАНК",
+      "api": "УКРБУДІНВЕСТБАНК",
+      "nbu": "УКРБУДІНВЕСТБАНК",
+      "fund": "УКРБУДІНВЕСТБАНК",
+      "minfin": "УКРБУДІНВЕСТБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2004-04-20",
+      "api": "2004-04-20",
+      "nbu": "2004-04-20"
+    },
+    "site": {
+      "fund": [
+        "https://ubib.com.ua",
+        "http://www.uci-bank.com"
+      ],
+      "minfin": [
+        "https://ubib.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 233
+      }
+    }
   },
   {
     "id": "УКРГАЗБАНК",
-    "bg": "УКРГАЗБАНК",
-    "fg": "УКРГАЗБАНК",
-    "mf": "УКРГАЗБАНК",
-    "site": [
-      "http://www.ukrgasbank.com"
-    ]
+    "name": {
+      "dbf": "УКРГАЗБАНК",
+      "api": "УКРГАЗБАНК",
+      "nbu": "УКРГАЗБАНК",
+      "fund": "УКРГАЗБАНК",
+      "minfin": "УКРГАЗБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-07-21",
+      "api": "1993-07-21",
+      "nbu": "1993-07-21"
+    },
+    "site": {
+      "fund": [
+        "http://www.ukrgasbank.com"
+      ],
+      "minfin": [
+        "http://ukrgasbank.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 35
+      }
+    }
   },
   {
     "id": "УКРГАЗПРОМБАНК",
-    "fg": "УКРГАЗПРОМБАНК",
-    "mf": "УКРГАЗПРОМБАНК"
+    "name": {
+      "dbf": "УКРГАЗПРОМБАНК",
+      "api": "УКРГАЗПРОМБАНК",
+      "fund": "УКРГАЗПРОМБАНК",
+      "minfin": "УКРГАЗПРОМБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1996-03-27",
+      "api": "1996-03-27"
+    },
+    "site": {
+      "minfin": [
+        "http://www.ugpb.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 64
+      }
+    }
   },
   {
     "id": "УКРЕКСІМБАНК",
-    "bg": "УКРЕКСІМБАНК",
-    "fg": "УКРЕКСІМБАНК",
-    "mf": "УКРЕКСІМБАНК",
-    "site": [
-      "http://www.eximb.com"
-    ]
+    "name": {
+      "dbf": "УКРЕКСІМБАНК",
+      "api": "УКРЕКСІМБАНК",
+      "nbu": "УКРЕКСІМБАНК",
+      "fund": "УКРЕКСІМБАНК",
+      "minfin": "УКРЕКСІМБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1992-01-23",
+      "api": "1992-01-23",
+      "nbu": "1992-01-23"
+    },
+    "site": {
+      "fund": [
+        "http://www.eximb.com"
+      ],
+      "minfin": [
+        "https://www.eximb.com/ukr/personal/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 15
+      }
+    }
   },
   {
     "id": "УКРКОМУНБАНК",
-    "fg": "УКРКОМУНБАНК",
-    "mf": "УКРКОМУНБАНК"
+    "name": {
+      "dbf": "УКРКОМУНБАНК",
+      "api": "УКРКОМУНБАНК",
+      "fund": "УКРКОМУНБАНК",
+      "minfin": "УКРКОМУНБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-08-10",
+      "api": "1993-08-10"
+    },
+    "site": {
+      "minfin": [
+        "http://www.abucb.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 124
+      }
+    }
   },
   {
     "id": "УКРСИББАНК",
-    "bg": "УКРСИББАНК",
-    "fg": "УКРСИББАНК",
-    "mf": "УКРСИББАНК",
-    "site": [
-      "http://www.ukrsibbank.com"
-    ]
+    "name": {
+      "dbf": "УКРСИББАНК",
+      "api": "УКРСИББАНК",
+      "nbu": "УКРСИББАНК",
+      "fund": "УКРСИББАНК",
+      "minfin": "УКРСИББАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-10-28",
+      "api": "1991-10-28",
+      "nbu": "1991-10-28"
+    },
+    "site": {
+      "fund": [
+        "http://www.ukrsibbank.com"
+      ],
+      "minfin": [
+        "https://my.ukrsibbank.com/ua/personal/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 159
+      }
+    }
   },
   {
     "id": "УКРСОЦБАНК",
-    "bg": "УКРСОЦБАНК",
-    "fg": "УКРСОЦБАНК",
-    "mf": "УКРСОЦБАНК",
-    "site": [
-      "https://www.ukrsotsbank.com"
-    ]
+    "name": {
+      "dbf": "УКРСОЦБАНК",
+      "api": "УКРСОЦБАНК",
+      "nbu": "УКРСОЦБАНК",
+      "fund": "УКРСОЦБАНК",
+      "minfin": "УКРСОЦБАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1991-09-27",
+      "api": "1991-09-27",
+      "nbu": "1991-09-27"
+    },
+    "site": {
+      "fund": [
+        "https://www.ukrsotsbank.com"
+      ],
+      "minfin": [
+        "https://www.ukrsotsbank.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 129
+      }
+    }
   },
   {
     "id": "УНІВЕРСАЛ БАНК",
-    "bg": "УНІВЕРСАЛ БАНК",
-    "fg": "УНІВЕРСАЛ БАНК",
-    "mf": "УНІВЕРСАЛ БАНК",
-    "site": [
-      "http://www.universalbank.com.ua"
-    ]
+    "name": {
+      "dbf": "УНІВЕРСАЛ БАНК",
+      "api": "УНІВЕРСАЛ БАНК",
+      "nbu": "УНІВЕРСАЛ БАНК",
+      "fund": "УНІВЕРСАЛ БАНК",
+      "minfin": "УНІВЕРСАЛ БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1994-01-20",
+      "api": "1994-01-20",
+      "nbu": "1994-01-20"
+    },
+    "site": {
+      "fund": [
+        "http://www.universalbank.com.ua"
+      ],
+      "minfin": [
+        "http://universalbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 123
+      }
+    }
   },
   {
     "id": "УНІКОМБАНК",
-    "fg": "УНІКОМБАНК",
-    "mf": "УНІКОМБАНК"
+    "name": {
+      "dbf": "УНІКОМБАНК",
+      "api": "УНІКОМБАНК",
+      "fund": "УНІКОМБАНК",
+      "minfin": "УНІКОМБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2002-10-28",
+      "api": "2002-10-28"
+    },
+    "site": {
+      "minfin": [
+        "http://www.unicombank.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 37
+      }
+    }
   },
   {
     "id": "УПБ",
-    "fg": "УПБ",
-    "mf": "УПБ"
+    "name": {
+      "dbf": "УПБ",
+      "api": "УПБ",
+      "fund": "УПБ",
+      "minfin": "УПБ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1992-01-30",
+      "api": "1992-01-30"
+    },
+    "site": {
+      "minfin": [
+        "http://upb.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 12
+      }
+    }
   },
   {
     "id": "УФС",
-    "fg": "УФС"
+    "name": {
+      "dbf": "УФС",
+      "api": "УФС",
+      "fund": "УФС"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2003-11-12",
+      "api": "2003-11-12"
+    },
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "УФС-БАНК",
-    "mf": "УФС-БАНК"
+    "name": {
+      "minfin": "УФС-БАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.ufw-bank.com/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 26
+      }
+    }
   },
   {
     "id": "ФІДОБАНК",
-    "fg": "ФІДОБАНК",
-    "mf": "ФІДОБАНК"
+    "name": {
+      "dbf": "ФІДОБАНК",
+      "api": "ФІДОБАНК",
+      "fund": "ФІДОБАНК",
+      "minfin": "ФІДОБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-02",
+      "api": "1991-10-02"
+    },
+    "site": {
+      "minfin": [
+        "https://fidobank.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 154
+      }
+    }
   },
   {
     "id": "ФІНАНС БАНК",
-    "mf": "ФІНАНС БАНК"
+    "name": {
+      "dbf": "ФІНАНС БАНК",
+      "api": "ФІНАНС БАНК",
+      "minfin": "ФІНАНС БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false
+    },
+    "dateOpen": {
+      "dbf": "1992-01-20",
+      "api": "1992-01-20"
+    },
+    "site": {
+      "minfin": [
+        "http://www.financebank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 225
+      }
+    }
   },
   {
     "id": "ФІНАНСИ ТА КРЕДИТ",
-    "fg": "ФІНАНСИ ТА КРЕДИТ",
-    "mf": "ФІНАНСИ ТА КРЕДИТ"
+    "name": {
+      "dbf": "ФІНАНСИ ТА КРЕДИТ",
+      "api": "ФІНАНСИ ТА КРЕДИТ",
+      "fund": "ФІНАНСИ ТА КРЕДИТ",
+      "minfin": "ФІНАНСИ ТА КРЕДИТ"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1991-10-30",
+      "api": "1991-10-30"
+    },
+    "site": {
+      "minfin": [
+        "http://www.fcbank.com.ua/ru/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 147
+      }
+    }
   },
   {
     "id": "ФІНАНСОВА ІНІЦІАТИВА",
-    "bg": "ФІНАНСОВА ІНІЦІАТИВА",
-    "fg": "ФІНАНСОВА ІНІЦІАТИВА",
-    "mf": "ФІНАНСОВА ІНІЦІАТИВА"
+    "name": {
+      "dbf": "ФІНАНСОВА ІНІЦІАТИВА",
+      "api": "ФІНАНСОВА ІНІЦІАТИВА",
+      "nbu": "ФІНАНСОВА ІНІЦІАТИВА",
+      "fund": "ФІНАНСОВА ІНІЦІАТИВА",
+      "minfin": "ФІНАНСОВА ІНІЦІАТИВА"
+    },
+    "active": {
+      "dbf": true,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2005-01-19",
+      "api": "2005-01-19",
+      "nbu": "2005-01-19"
+    },
+    "site": {
+      "minfin": [
+        "http://www.the-bank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 73
+      }
+    }
   },
   {
     "id": "ФІНАНСОВИЙ ПАРТНЕР",
-    "mf": "ФІНАНСОВИЙ ПАРТНЕР"
+    "name": {
+      "minfin": "ФІНАНСОВИЙ ПАРТНЕР"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.bank-fp.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 469
+      }
+    }
   },
   {
     "id": "ФІНБАНК",
-    "fg": "ФІНБАНК",
-    "mf": "ФІНБАНК"
+    "name": {
+      "dbf": "ФІНБАНК",
+      "api": "ФІНБАНК",
+      "fund": "ФІНБАНК",
+      "minfin": "ФІНБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-12-24",
+      "api": "1993-12-24"
+    },
+    "site": {
+      "minfin": [
+        "http://www.finbank.odessa.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 106
+      }
+    }
   },
   {
     "id": "ФІНЕКСБАНК",
-    "mf": "ФІНЕКСБАНК"
+    "name": {
+      "minfin": "ФІНЕКСБАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.finexbank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 105
+      }
+    }
   },
   {
     "id": "ФІНРОСТБАНК",
-    "fg": "ФІНРОСТБАНК",
-    "mf": "ФІНРОСТБАНК"
+    "name": {
+      "dbf": "ФІНРОСТБАНК",
+      "api": "ФІНРОСТБАНК",
+      "fund": "ФІНРОСТБАНК",
+      "minfin": "ФІНРОСТБАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-01-29",
+      "api": "1993-01-29"
+    },
+    "site": {
+      "minfin": [
+        "http://www.frb.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 79
+      }
+    }
   },
   {
     "id": "ФОРТУНА-БАНК",
-    "fg": "ФОРТУНА-БАНК",
-    "mf": "ФОРТУНА-БАНК"
+    "name": {
+      "dbf": "ФОРТУНА-БАНК",
+      "api": "ФОРТУНА-БАНК",
+      "fund": "ФОРТУНА-БАНК",
+      "minfin": "ФОРТУНА-БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2002-10-17",
+      "api": "2002-10-17"
+    },
+    "site": {
+      "minfin": [
+        "http://www.fortuna-bank.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 25
+      }
+    }
   },
   {
     "id": "ФОРУМ БАНК",
-    "mf": "ФОРУМ БАНК"
+    "name": {
+      "minfin": "ФОРУМ БАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.forum.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 160
+      }
+    }
   },
   {
     "id": "ХРЕЩАТИК",
-    "fg": "ХРЕЩАТИК",
-    "mf": "ХРЕЩАТИК"
+    "name": {
+      "dbf": "ХРЕЩАТИК",
+      "api": "ХРЕЩАТИК",
+      "fund": "ХРЕЩАТИК",
+      "minfin": "ХРЕЩАТИК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1993-05-19",
+      "api": "1993-05-19"
+    },
+    "site": {
+      "minfin": [
+        "http://www.xcitybank.com.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 40
+      }
+    }
   },
   {
     "id": "ЦЕНТР",
-    "bg": "ЦЕНТР",
-    "fg": "ЦЕНТР",
-    "mf": "ЦЕНТР",
-    "site": [
-      "http://www.bankcenter.com.ua"
-    ]
+    "name": {
+      "dbf": "ЦЕНТР",
+      "fund": "ЦЕНТР",
+      "minfin": "ЦЕНТР"
+    },
+    "active": {
+      "dbf": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2010-06-16"
+    },
+    "site": {
+      "fund": [
+        "http://www.bankcenter.com.ua"
+      ],
+      "minfin": [
+        "http://www.bankcenter.com.ua/ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 249
+      }
+    }
   },
   {
     "id": "ЧБРР",
-    "fg": "ЧБРР"
+    "name": {
+      "fund": "ЧБРР"
+    },
+    "active": {
+      "fund": false
+    },
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ",
-    "mf": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ"
-  },
-  {
-    "id": "ЮНІОН СТАНДАРД БАНК",
-    "mf": "ЮНІОН СТАНДАРД БАНК"
+    "name": {
+      "minfin": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {
+        "minfin": 467
+      }
+    }
   },
   {
     "id": "ЮНІСОН",
-    "fg": "ЮНІСОН"
+    "name": {
+      "dbf": "ЮНІСОН",
+      "api": "ЮНІСОН",
+      "fund": "ЮНІСОН"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "2013-02-08",
+      "api": "2013-02-08"
+    },
+    "site": {
+      "minfin": []
+    },
+    "internal": {
+      "id": {}
+    }
   },
   {
     "id": "ЮНЕКС БАНК",
-    "bg": "ЮНЕКС БАНК",
-    "fg": "ЮНЕКС БАНК",
-    "mf": "ЮНЕКС БАНК",
-    "site": [
-      "http://www.unexbank.com.ua"
-    ]
+    "name": {
+      "dbf": "ЮНЕКС БАНК",
+      "api": "ЮНЕКС БАНК",
+      "nbu": "ЮНЕКС БАНК",
+      "fund": "ЮНЕКС БАНК",
+      "minfin": "ЮНЕКС БАНК"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "1993-12-03",
+      "api": "1993-12-03",
+      "nbu": "1993-12-03"
+    },
+    "site": {
+      "fund": [
+        "http://www.unexbank.com.ua"
+      ],
+      "minfin": [
+        "http://unexbank.ua/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 31
+      }
+    }
   },
   {
     "id": "ЮСБ БАНК",
-    "fg": "ЮСБ БАНК"
+    "name": {
+      "dbf": "ЮСБ БАНК",
+      "api": "ЮСБ БАНК",
+      "fund": "ЮСБ БАНК",
+      "minfin": "ЮСБ БАНК"
+    },
+    "active": {
+      "dbf": false,
+      "api": false,
+      "fund": false
+    },
+    "dateOpen": {
+      "dbf": "1994-06-23",
+      "api": "1994-06-23"
+    },
+    "site": {
+      "minfin": [
+        "https://unionstandard.bank/ru/"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 524
+      }
+    }
   }
 ]

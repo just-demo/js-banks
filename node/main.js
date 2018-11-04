@@ -11,7 +11,7 @@ let assert = require('./assert');
 // minfin.saveAll();
 // names.rebuildBankNames();
 
-compareGovBanks();
+combineBanks();
 
 function compareGovApiBanks() {
     const dbfBanks = nbu.getBanksDBF();
@@ -30,7 +30,7 @@ function compareGovApiBanks() {
     });
 }
 
-function compareGovBanks() {
+function combineBanks() {
     const dbfBanks = nbu.getBanksDBF();
     const apiBanks = nbu.getBanksAPI();
     const nbuBanks = nbu.getBanksUI();
@@ -73,6 +73,11 @@ function compareGovBanks() {
             site: {
                 fund: (fundBanks[id] || {}).site,
                 minfin: [(minfinBanks[id] || {}).site].filter(site => site)
+            },
+            internal: {
+                id: {
+                    minfin: (minfinBanks[id] || {}).id
+                }
             }
         };
         assert.equals('Name mismatch - ' + id + ' - ' + JSON.stringify(bank.name), ...definedValues(bank.name));
@@ -81,35 +86,9 @@ function compareGovBanks() {
         return bank;
     });
 
-    utils.writeFile('../public/banks.gov.json', utils.toJson(banks));
+    utils.writeFile('../public/banks.json', utils.toJson(banks));
 }
 
 function definedValues(object) {
     return Object.values(object).filter(value => !_.isUndefined(value));
-}
-
-function compareBanks() {
-    const nbBanks = nbu.getBanks();
-    const fundBanks = fund.getBanks();
-    const mfBanks = minfin.getBanks();
-    const nbBankIds = Object.keys(nbBanks);
-    const fundBankIds = Object.keys(fundBanks);
-    const mfBanksIds = Object.keys(mfBanks);
-    console.log(nbBankIds.length);
-    console.log(fundBankIds.length);
-    console.log(mfBanksIds.length);
-    console.log(_.intersection(nbBankIds, fundBankIds, mfBanksIds).length);
-    console.log(_.union(nbBankIds, fundBankIds, mfBanksIds).length);
-
-    const banks = _.union(nbBankIds, fundBankIds, mfBanksIds).sort().map(id => {
-        return {
-            id: id,
-            nb: (nbBanks[id] || {}).name,
-            fd: (fundBanks[id] || {}).name,
-            mf: mfBanks[id],
-            site: (fundBanks[id] || {}).site
-        };
-    });
-
-    utils.writeFile('../public/banks.json', utils.toJson(banks));
 }
