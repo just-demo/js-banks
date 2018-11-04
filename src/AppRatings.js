@@ -4,7 +4,7 @@ import _ from 'lodash';
 import 'bootstrap/dist/css/bootstrap.css'
 import Scale from './Scale';
 
-class AppBanks extends Component {
+class AppRatings extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -107,4 +107,4 @@ class AppBanks extends Component {
     }
 }
 
-export default AppBanks;
+export default AppRatings;

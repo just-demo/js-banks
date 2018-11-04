@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
 import {HashRouter, Link, Route} from 'react-router-dom';
-import AppBanks from "./AppBanks";
-import AppBankGovList from "./AppBankGovList";
+import AppRatings from "./AppRatings";
 import AppBankList from "./AppBankList";
 import AppDBFList from "./AppDBFList";
 
@@ -12,13 +11,11 @@ const App = () => (
             <nav className="nav">
                 <Link className="nav-link" to="/">Ratings</Link>
                 <Link className="nav-link" to="/banks">Banks</Link>
-                <Link className="nav-link" to="/banks/gov">Gov Banks</Link>
                 <Link className="nav-link" to="/banks/dbf">DBF</Link>
             </nav>
             <div>
-                <Route exact path="/" component={AppBanks}/>
+                <Route exact path="/" component={AppRatings}/>
                 <Route exact path="/banks" component={AppBankList}/>
-                <Route path="/banks/gov" component={AppBankGovList}/>
                 <Route path="/banks/dbf" component={AppDBFList}/>
             </div>
         </div>
