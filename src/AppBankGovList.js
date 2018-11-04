@@ -84,27 +84,20 @@ class AppBankGovList extends Component {
     styleForBank(bank) {
         let color;
         const allNames = 4;
-        const withNames = Object.keys(bank.name).filter(key => bank.name[key]);
-        const theOnlyMismatch = key => {
-            return (withNames.length === 1 && withNames.includes(key)) ||
-                (withNames.length === allNames - 1 && !withNames.includes(key))
+        const withNames = Object.keys(bank.name).filter(key => bank.name[key]).length;
+        const isTheOnlyMismatch = key => {
+            return (withNames === 1 && bank.name[key]) || (withNames === allNames - 1 && !bank.name[key]);
+        };
+
+        const colors = {
+            dbf: 'red',
+            api: 'pink',
+            nbu: 'orange',
+            fund: 'yellow'
         };
 
         // TODO: highlight cells instead of rows
-        if (withNames.length === allNames) {
-            color = 'green';
-        } else if (theOnlyMismatch('dbf')) {
-            color = 'red';
-        } else if (theOnlyMismatch('api')) {
-            color = 'pink';
-        } else if (theOnlyMismatch('nbu')) {
-            color = 'orange';
-        } else if (theOnlyMismatch('fund')) {
-            color = 'yellow';
-        } else {
-            color = 'blue';
-        }
-
+        color = withNames === allNames ? 'green' : colors[_.find(Object.keys(colors), isTheOnlyMismatch)] || 'blue';
         const style = {
             backgroundColor: color
         };
