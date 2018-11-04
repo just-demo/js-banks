@@ -7,14 +7,31 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
+  },
+  {
+    "id": "MONOBANK",
+    "name": {
+      "minfin": "MONOBANK"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "https://monobank.com.ua"
+      ]
+    }
   },
   {
     "id": "ЄВРОБАНК",
     "name": {
       "dbf": "ЄВРОБАНК",
       "api": "ЄВРОБАНК",
-      "fund": "ЄВРОБАНК"
+      "fund": "ЄВРОБАНК",
+      "minfin": "ЄВРОБАНК"
     },
     "active": {
       "dbf": false,
@@ -24,6 +41,11 @@
     "dateOpen": {
       "dbf": "2005-01-18",
       "api": "2005-01-18"
+    },
+    "site": {
+      "minfin": [
+        "http://www.eurobank-ua.com/"
+      ]
     }
   },
   {
@@ -31,7 +53,8 @@
     "name": {
       "dbf": "ЄВРОГАЗБАНК",
       "api": "ЄВРОГАЗБАНК",
-      "fund": "ЄВРОГАЗБАНК"
+      "fund": "ЄВРОГАЗБАНК",
+      "minfin": "ЄВРОГАЗБАНК"
     },
     "active": {
       "dbf": false,
@@ -41,6 +64,11 @@
     "dateOpen": {
       "dbf": "2006-10-17",
       "api": "2006-10-17"
+    },
+    "site": {
+      "minfin": [
+        "http://www.egb.kiev.ua/"
+      ]
     }
   },
   {
@@ -51,7 +79,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ",
@@ -61,7 +92,23 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
+  },
+  {
+    "id": "ЄВРОПРОМБАНК",
+    "name": {
+      "minfin": "ЄВРОПРОМБАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://europrombank.kiev.ua"
+      ]
+    }
   },
   {
     "id": "ЄПБ",
@@ -80,6 +127,14 @@
       "dbf": "2008-08-13",
       "api": "2008-08-13",
       "nbu": "2008-08-13"
+    },
+    "site": {
+      "fund": [
+        "http://mtb.ua",
+        "http://europrombank.kiev.ua",
+        "http://www.europrombank.com"
+      ],
+      "minfin": []
     }
   },
   {
@@ -88,7 +143,8 @@
       "dbf": "ІДЕЯ БАНК",
       "api": "ІДЕЯ БАНК",
       "nbu": "ІДЕЯ БАНК",
-      "fund": "ІДЕЯ БАНК"
+      "fund": "ІДЕЯ БАНК",
+      "minfin": "ІДЕЯ БАНК"
     },
     "active": {
       "dbf": true,
@@ -99,6 +155,14 @@
       "dbf": "1991-10-22",
       "api": "1991-10-22",
       "nbu": "1991-10-22"
+    },
+    "site": {
+      "fund": [
+        "http://www.ideabank.ua"
+      ],
+      "minfin": [
+        "https://www.ideabank.ua/"
+      ]
     }
   },
   {
@@ -106,7 +170,8 @@
     "name": {
       "dbf": "ІМЕКСБАНК",
       "api": "ІМЕКСБАНК",
-      "fund": "ІМЕКСБАНК"
+      "fund": "ІМЕКСБАНК",
+      "minfin": "ІМЕКСБАНК"
     },
     "active": {
       "dbf": false,
@@ -116,6 +181,11 @@
     "dateOpen": {
       "dbf": "1994-03-29",
       "api": "1994-03-29"
+    },
+    "site": {
+      "minfin": [
+        "http://imexbank.com.ua/"
+      ]
     }
   },
   {
@@ -123,7 +193,8 @@
     "name": {
       "dbf": "ІНВЕСТБАНК",
       "api": "ІНВЕСТБАНК",
-      "fund": "ІНВЕСТБАНК"
+      "fund": "ІНВЕСТБАНК",
+      "minfin": "ІНВЕСТБАНК"
     },
     "active": {
       "dbf": false,
@@ -133,13 +204,19 @@
     "dateOpen": {
       "dbf": "1992-03-31",
       "api": "1992-03-31"
+    },
+    "site": {
+      "minfin": [
+        "http://www.investbank.com.ua/"
+      ]
     }
   },
   {
     "id": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
     "name": {
       "dbf": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
-      "api": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК"
+      "api": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
+      "minfin": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК"
     },
     "active": {
       "dbf": false,
@@ -148,6 +225,11 @@
     "dateOpen": {
       "dbf": "2013-08-30",
       "api": "2013-08-30"
+    },
+    "site": {
+      "minfin": [
+        "http://investtrustbank.com.ua/"
+      ]
     }
   },
   {
@@ -156,7 +238,8 @@
       "dbf": "ІНГ БАНК УКРАЇНА",
       "api": "ІНГ БАНК УКРАЇНА",
       "nbu": "ІНГ БАНК УКРАЇНА",
-      "fund": "ІНГ БАНК УКРАЇНА"
+      "fund": "ІНГ БАНК УКРАЇНА",
+      "minfin": "ІНГ БАНК УКРАЇНА"
     },
     "active": {
       "dbf": true,
@@ -167,6 +250,14 @@
       "dbf": "1997-12-15",
       "api": "1997-12-15",
       "nbu": "1997-12-15"
+    },
+    "site": {
+      "fund": [
+        "http://www.ingcommercialbanking.com"
+      ],
+      "minfin": [
+        "http://www.ingbankukraine.com/ua/home"
+      ]
     }
   },
   {
@@ -175,7 +266,8 @@
       "dbf": "ІНДУСТРІАЛБАНК",
       "api": "ІНДУСТРІАЛБАНК",
       "nbu": "ІНДУСТРІАЛБАНК",
-      "fund": "ІНДУСТРІАЛБАНК"
+      "fund": "ІНДУСТРІАЛБАНК",
+      "minfin": "ІНДУСТРІАЛБАНК"
     },
     "active": {
       "dbf": true,
@@ -186,6 +278,14 @@
       "dbf": "1991-10-16",
       "api": "1991-10-16",
       "nbu": "1991-10-16"
+    },
+    "site": {
+      "fund": [
+        "http://www.industrialbank.ua"
+      ],
+      "minfin": [
+        "http://industrialbank.ua/"
+      ]
     }
   },
   {
@@ -196,14 +296,31 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
+  },
+  {
+    "id": "ІНПРОМБАНК",
+    "name": {
+      "minfin": "ІНПРОМБАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.inprombank.ua"
+      ]
+    }
   },
   {
     "id": "ІНТЕГРАЛ-БАНК",
     "name": {
       "dbf": "ІНТЕГРАЛ-БАНК",
       "api": "ІНТЕГРАЛ-БАНК",
-      "fund": "ІНТЕГРАЛ-БАНК"
+      "fund": "ІНТЕГРАЛ-БАНК",
+      "minfin": "ІНТЕГРАЛ-БАНК"
     },
     "active": {
       "dbf": false,
@@ -213,6 +330,11 @@
     "dateOpen": {
       "dbf": "1994-09-30",
       "api": "1994-09-30"
+    },
+    "site": {
+      "minfin": [
+        "http://www.integral.com.ua"
+      ]
     }
   },
   {
@@ -220,7 +342,8 @@
     "name": {
       "dbf": "ІНТЕРБАНК",
       "api": "ІНТЕРБАНК",
-      "fund": "ІНТЕРБАНК"
+      "fund": "ІНТЕРБАНК",
+      "minfin": "ІНТЕРБАНК"
     },
     "active": {
       "dbf": false,
@@ -230,6 +353,11 @@
     "dateOpen": {
       "dbf": "1992-03-23",
       "api": "1992-03-23"
+    },
+    "site": {
+      "minfin": [
+        "http://www.interbank.kiev.ua/"
+      ]
     }
   },
   {
@@ -237,7 +365,8 @@
     "name": {
       "dbf": "ІНТЕРКРЕДИТБАНК",
       "api": "ІНТЕРКРЕДИТБАНК",
-      "fund": "ІНТЕРКРЕДИТБАНК"
+      "fund": "ІНТЕРКРЕДИТБАНК",
+      "minfin": "ІНТЕРКРЕДИТБАНК"
     },
     "active": {
       "dbf": false,
@@ -247,6 +376,11 @@
     "dateOpen": {
       "dbf": "2011-06-14",
       "api": "2011-06-14"
+    },
+    "site": {
+      "minfin": [
+        "http://intercreditbank.com.ua"
+      ]
     }
   },
   {
@@ -257,7 +391,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "А - БАНК",
@@ -265,7 +402,8 @@
       "dbf": "А - БАНК",
       "api": "А - БАНК",
       "nbu": "А - БАНК",
-      "fund": "А - БАНК"
+      "fund": "А - БАНК",
+      "minfin": "А - БАНК"
     },
     "active": {
       "dbf": true,
@@ -276,6 +414,14 @@
       "dbf": "1992-10-30",
       "api": "1992-10-30",
       "nbu": "1992-10-30"
+    },
+    "site": {
+      "fund": [
+        "http://www.a-bank.com.ua"
+      ],
+      "minfin": [
+        "http://a-bank.com.ua"
+      ]
     }
   },
   {
@@ -283,7 +429,8 @@
     "name": {
       "dbf": "АВАНТ-БАНК",
       "api": "АВАНТ-БАНК",
-      "fund": "АВАНТ-БАНК"
+      "fund": "АВАНТ-БАНК",
+      "minfin": "АВАНТ-БАНК"
     },
     "active": {
       "dbf": false,
@@ -293,6 +440,11 @@
     "dateOpen": {
       "dbf": "2009-03-05",
       "api": "2009-03-05"
+    },
+    "site": {
+      "minfin": [
+        "http://avantbank.ua/"
+      ]
     }
   },
   {
@@ -312,6 +464,25 @@
       "dbf": "1993-12-24",
       "api": "1993-12-24",
       "nbu": "1993-12-24"
+    },
+    "site": {
+      "fund": [
+        "http://www.agrocombank.kiev.ua"
+      ],
+      "minfin": []
+    }
+  },
+  {
+    "id": "АЙБОКС БАНК (АГРОКОМБАНК)",
+    "name": {
+      "minfin": "АЙБОКС БАНК (АГРОКОМБАНК)"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.iboxbank.online/"
+      ]
     }
   },
   {
@@ -319,7 +490,8 @@
     "name": {
       "dbf": "АКБ БАНК",
       "api": "АКБ БАНК",
-      "fund": "АКБ БАНК"
+      "fund": "АКБ БАНК",
+      "minfin": "АКБ БАНК"
     },
     "active": {
       "dbf": false,
@@ -329,6 +501,11 @@
     "dateOpen": {
       "dbf": "1993-07-07",
       "api": "1993-07-07"
+    },
+    "site": {
+      "minfin": [
+        "http://www.avtokrazbank.ua/"
+      ]
     }
   },
   {
@@ -337,7 +514,8 @@
       "dbf": "АКОРДБАНК",
       "api": "АКОРДБАНК",
       "nbu": "АКОРДБАНК",
-      "fund": "АКОРДБАНК"
+      "fund": "АКОРДБАНК",
+      "minfin": "АКОРДБАНК"
     },
     "active": {
       "dbf": true,
@@ -348,6 +526,14 @@
       "dbf": "2008-06-04",
       "api": "2008-06-04",
       "nbu": "2008-06-04"
+    },
+    "site": {
+      "fund": [
+        "http://www.accordbank.com.ua"
+      ],
+      "minfin": [
+        "http://accordbank.com.ua/"
+      ]
     }
   },
   {
@@ -355,7 +541,8 @@
     "name": {
       "dbf": "АКСІОМА",
       "api": "АКСІОМА",
-      "fund": "АКСІОМА"
+      "fund": "АКСІОМА",
+      "minfin": "АКСІОМА"
     },
     "active": {
       "dbf": false,
@@ -365,6 +552,11 @@
     "dateOpen": {
       "dbf": "2006-01-10",
       "api": "2006-01-10"
+    },
+    "site": {
+      "minfin": [
+        "http://www.axiomabank.com"
+      ]
     }
   },
   {
@@ -372,7 +564,8 @@
     "name": {
       "dbf": "АКТАБАНК",
       "api": "АКТАБАНК",
-      "fund": "АКТАБАНК"
+      "fund": "АКТАБАНК",
+      "minfin": "АКТАБАНК"
     },
     "active": {
       "dbf": false,
@@ -382,6 +575,11 @@
     "dateOpen": {
       "dbf": "2008-04-23",
       "api": "2008-04-23"
+    },
+    "site": {
+      "minfin": [
+        "http://www.aktabank.com/"
+      ]
     }
   },
   {
@@ -389,7 +587,8 @@
     "name": {
       "dbf": "АКТИВ - БАНК",
       "api": "АКТИВ - БАНК",
-      "fund": "АКТИВ - БАНК"
+      "fund": "АКТИВ - БАНК",
+      "minfin": "АКТИВ - БАНК"
     },
     "active": {
       "dbf": false,
@@ -399,6 +598,11 @@
     "dateOpen": {
       "dbf": "2002-08-06",
       "api": "2002-08-06"
+    },
+    "site": {
+      "minfin": [
+        "http://www.activebank.com.ua"
+      ]
     }
   },
   {
@@ -409,7 +613,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "АЛЬПАРІ БАНК",
@@ -417,7 +624,8 @@
       "dbf": "АЛЬПАРІ БАНК",
       "api": "АЛЬПАРІ БАНК",
       "nbu": "АЛЬПАРІ БАНК",
-      "fund": "АЛЬПАРІ БАНК"
+      "fund": "АЛЬПАРІ БАНК",
+      "minfin": "АЛЬПАРІ БАНК"
     },
     "active": {
       "dbf": true,
@@ -428,6 +636,14 @@
       "dbf": "2012-10-26",
       "api": "2012-10-26",
       "nbu": "2012-10-26"
+    },
+    "site": {
+      "fund": [
+        "http://www.alpari-bank.com.ua"
+      ],
+      "minfin": [
+        "http://bankalpari.com/"
+      ]
     }
   },
   {
@@ -436,7 +652,8 @@
       "dbf": "АЛЬТБАНК",
       "api": "АЛЬТБАНК",
       "nbu": "АЛЬТБАНК",
-      "fund": "АЛЬТБАНК"
+      "fund": "АЛЬТБАНК",
+      "minfin": "АЛЬТБАНК"
     },
     "active": {
       "dbf": true,
@@ -447,6 +664,14 @@
       "dbf": "1991-10-21",
       "api": "1991-10-21",
       "nbu": "1991-10-21"
+    },
+    "site": {
+      "fund": [
+        "https://altbank.ua"
+      ],
+      "minfin": [
+        "http://altbank.ua"
+      ]
     }
   },
   {
@@ -455,7 +680,8 @@
       "dbf": "АЛЬФА-БАНК",
       "api": "АЛЬФА-БАНК",
       "nbu": "АЛЬФА-БАНК",
-      "fund": "АЛЬФА-БАНК"
+      "fund": "АЛЬФА-БАНК",
+      "minfin": "АЛЬФА-БАНК"
     },
     "active": {
       "dbf": true,
@@ -466,6 +692,14 @@
       "dbf": "1993-03-24",
       "api": "1993-03-24",
       "nbu": "1993-03-24"
+    },
+    "site": {
+      "fund": [
+        "http://www.alfabank.com.ua"
+      ],
+      "minfin": [
+        "https://alfabank.ua"
+      ]
     }
   },
   {
@@ -474,7 +708,8 @@
       "dbf": "АП БАНК",
       "api": "АП БАНК",
       "nbu": "АП БАНК",
-      "fund": "АП БАНК"
+      "fund": "АП БАНК",
+      "minfin": "АП БАНК"
     },
     "active": {
       "dbf": true,
@@ -485,6 +720,28 @@
       "dbf": "2007-11-28",
       "api": "2007-11-28",
       "nbu": "2007-11-28"
+    },
+    "site": {
+      "fund": [
+        "http://www.ap-bank.com",
+        "http://www.astrabank.ua"
+      ],
+      "minfin": [
+        "http://www.ap-bank.com/"
+      ]
+    }
+  },
+  {
+    "id": "АПЕКС-БАНК",
+    "name": {
+      "minfin": "АПЕКС-БАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.apeksbank.com.ua"
+      ]
     }
   },
   {
@@ -493,7 +750,8 @@
       "dbf": "АРКАДА",
       "api": "АРКАДА",
       "nbu": "АРКАДА",
-      "fund": "АРКАДА"
+      "fund": "АРКАДА",
+      "minfin": "АРКАДА"
     },
     "active": {
       "dbf": true,
@@ -504,6 +762,14 @@
       "dbf": "1993-06-23",
       "api": "1993-06-23",
       "nbu": "1993-06-23"
+    },
+    "site": {
+      "fund": [
+        "http://www.arkada.ua"
+      ],
+      "minfin": [
+        "http://www.arkada.ua/rus/"
+      ]
     }
   },
   {
@@ -514,14 +780,18 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "АРТЕМ-БАНК",
     "name": {
       "dbf": "АРТЕМ-БАНК",
       "api": "АРТЕМ-БАНК",
-      "fund": "АРТЕМ-БАНК"
+      "fund": "АРТЕМ-БАНК",
+      "minfin": "АРТЕМ-БАНК"
     },
     "active": {
       "dbf": false,
@@ -531,6 +801,11 @@
     "dateOpen": {
       "dbf": "2002-08-06",
       "api": "2002-08-06"
+    },
+    "site": {
+      "minfin": [
+        "http://www.artembank.com.ua"
+      ]
     }
   },
   {
@@ -539,7 +814,8 @@
       "dbf": "АСВІО БАНК",
       "api": "АСВІО БАНК",
       "nbu": "АСВІО БАНК",
-      "fund": "АСВІО БАНК"
+      "fund": "АСВІО БАНК",
+      "minfin": "АСВІО БАНК"
     },
     "active": {
       "dbf": true,
@@ -550,6 +826,14 @@
       "dbf": "1991-10-30",
       "api": "1991-10-30",
       "nbu": "1991-10-30"
+    },
+    "site": {
+      "fund": [
+        "http://www.asviobank.ua"
+      ],
+      "minfin": [
+        "http://www.asviobank.ua"
+      ]
     }
   },
   {
@@ -560,7 +844,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "БІГ ЕНЕРГІЯ",
@@ -570,17 +857,26 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "БАЗИС",
     "name": {
-      "fund": "БАЗИС"
+      "fund": "БАЗИС",
+      "minfin": "БАЗИС"
     },
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.basis.com.ua/"
+      ]
+    }
   },
   {
     "id": "БАНК 3/4",
@@ -588,7 +884,8 @@
       "dbf": "БАНК 3/4",
       "api": "БАНК 3/4",
       "nbu": "БАНК 3/4",
-      "fund": "БАНК 3/4"
+      "fund": "БАНК 3/4",
+      "minfin": "БАНК 3/4"
     },
     "active": {
       "dbf": true,
@@ -599,6 +896,14 @@
       "dbf": "2008-07-25",
       "api": "2008-07-25",
       "nbu": "2008-07-25"
+    },
+    "site": {
+      "fund": [
+        "http://www.bank34.kiev.ua"
+      ],
+      "minfin": [
+        "https://www.bank34.ua/"
+      ]
     }
   },
   {
@@ -607,7 +912,8 @@
       "dbf": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
       "api": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
       "nbu": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
-      "fund": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ"
+      "fund": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
+      "minfin": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ"
     },
     "active": {
       "dbf": true,
@@ -618,6 +924,14 @@
       "dbf": "2005-08-09",
       "api": "2005-08-09",
       "nbu": "2005-08-09"
+    },
+    "site": {
+      "fund": [
+        "http://www.bisbank.com.ua"
+      ],
+      "minfin": [
+        "http://www.bisbank.com.ua/"
+      ]
     }
   },
   {
@@ -626,7 +940,8 @@
       "dbf": "БАНК АВАНГАРД",
       "api": "БАНК АВАНГАРД",
       "nbu": "БАНК АВАНГАРД",
-      "fund": "БАНК АВАНГАРД"
+      "fund": "БАНК АВАНГАРД",
+      "minfin": "БАНК АВАНГАРД"
     },
     "active": {
       "dbf": true,
@@ -637,6 +952,12 @@
       "dbf": "2013-07-05",
       "api": "2013-07-05",
       "nbu": "2013-07-05"
+    },
+    "site": {
+      "fund": [],
+      "minfin": [
+        "http://www.avgd.ua/"
+      ]
     }
   },
   {
@@ -645,7 +966,8 @@
       "dbf": "БАНК АЛЬЯНС",
       "api": "БАНК АЛЬЯНС",
       "nbu": "БАНК АЛЬЯНС",
-      "fund": "БАНК АЛЬЯНС"
+      "fund": "БАНК АЛЬЯНС",
+      "minfin": "БАНК АЛЬЯНС"
     },
     "active": {
       "dbf": true,
@@ -656,6 +978,14 @@
       "dbf": "1992-03-10",
       "api": "1992-03-10",
       "nbu": "1992-03-10"
+    },
+    "site": {
+      "fund": [
+        "http://bankalliance.ua"
+      ],
+      "minfin": [
+        "https://bankalliance.ua/"
+      ]
     }
   },
   {
@@ -663,7 +993,8 @@
     "name": {
       "dbf": "БАНК БОГУСЛАВ",
       "api": "БАНК БОГУСЛАВ",
-      "fund": "БАНК БОГУСЛАВ"
+      "fund": "БАНК БОГУСЛАВ",
+      "minfin": "БАНК БОГУСЛАВ"
     },
     "active": {
       "dbf": false,
@@ -673,6 +1004,11 @@
     "dateOpen": {
       "dbf": "2006-08-04",
       "api": "2006-08-04"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bankboguslav.com.ua/"
+      ]
     }
   },
   {
@@ -680,7 +1016,8 @@
     "name": {
       "dbf": "БАНК ВЕЛЕС",
       "api": "БАНК ВЕЛЕС",
-      "fund": "БАНК ВЕЛЕС"
+      "fund": "БАНК ВЕЛЕС",
+      "minfin": "БАНК ВЕЛЕС"
     },
     "active": {
       "dbf": false,
@@ -690,6 +1027,9 @@
     "dateOpen": {
       "dbf": "1994-03-18",
       "api": "1994-03-18"
+    },
+    "site": {
+      "minfin": []
     }
   },
   {
@@ -698,7 +1038,8 @@
       "dbf": "БАНК ВОСТОК",
       "api": "БАНК ВОСТОК",
       "nbu": "БАНК ВОСТОК",
-      "fund": "БАНК ВОСТОК"
+      "fund": "БАНК ВОСТОК",
+      "minfin": "БАНК ВОСТОК"
     },
     "active": {
       "dbf": true,
@@ -709,6 +1050,40 @@
       "dbf": "2002-10-17",
       "api": "2002-10-17",
       "nbu": "2002-10-17"
+    },
+    "site": {
+      "fund": [
+        "http://www.bankvostok.com.ua"
+      ],
+      "minfin": [
+        "http://www.bankvostok.com.ua/"
+      ]
+    }
+  },
+  {
+    "id": "БАНК ГРАНТ",
+    "name": {
+      "minfin": "БАНК ГРАНТ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.grant.kharkov.ua/"
+      ]
+    }
+  },
+  {
+    "id": "БАНК ЗЕМЕЛЬНИЙ КАПІТАЛ",
+    "name": {
+      "minfin": "БАНК ЗЕМЕЛЬНИЙ КАПІТАЛ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "https://www.zemcap.com/ru.html"
+      ]
     }
   },
   {
@@ -716,7 +1091,8 @@
     "name": {
       "dbf": "БАНК ЗОЛОТІ ВОРОТА",
       "api": "БАНК ЗОЛОТІ ВОРОТА",
-      "fund": "БАНК ЗОЛОТІ ВОРОТА"
+      "fund": "БАНК ЗОЛОТІ ВОРОТА",
+      "minfin": "БАНК ЗОЛОТІ ВОРОТА"
     },
     "active": {
       "dbf": false,
@@ -726,6 +1102,11 @@
     "dateOpen": {
       "dbf": "1993-08-18",
       "api": "1993-08-18"
+    },
+    "site": {
+      "minfin": [
+        "http://goldengate.kharkov.ua/"
+      ]
     }
   },
   {
@@ -733,7 +1114,8 @@
     "name": {
       "dbf": "БАНК КАМБІО",
       "api": "БАНК КАМБІО",
-      "fund": "БАНК КАМБІО"
+      "fund": "БАНК КАМБІО",
+      "minfin": "БАНК КАМБІО"
     },
     "active": {
       "dbf": false,
@@ -743,6 +1125,11 @@
     "dateOpen": {
       "dbf": "2004-06-30",
       "api": "2004-06-30"
+    },
+    "site": {
+      "minfin": [
+        "http://www.cambio.com.ua/"
+      ]
     }
   },
   {
@@ -762,6 +1149,12 @@
       "dbf": "1993-07-07",
       "api": "1993-07-07",
       "nbu": "1993-07-07"
+    },
+    "site": {
+      "fund": [
+        "http://www.creditdnepr.com.ua"
+      ],
+      "minfin": []
     }
   },
   {
@@ -779,6 +1172,9 @@
     "dateOpen": {
       "dbf": "2013-06-14",
       "api": "2013-06-14"
+    },
+    "site": {
+      "minfin": []
     }
   },
   {
@@ -786,7 +1182,8 @@
     "name": {
       "dbf": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
       "api": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
-      "fund": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ"
+      "fund": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
+      "minfin": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ"
     },
     "active": {
       "dbf": false,
@@ -796,6 +1193,24 @@
     "dateOpen": {
       "dbf": "1996-01-31",
       "api": "1996-01-31"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bnk.ua"
+      ]
+    }
+  },
+  {
+    "id": "БАНК ПІВДЕННИЙ",
+    "name": {
+      "minfin": "БАНК ПІВДЕННИЙ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://bank.com.ua/"
+      ]
     }
   },
   {
@@ -813,6 +1228,22 @@
     "dateOpen": {
       "dbf": "1996-09-26",
       "api": "1996-09-26"
+    },
+    "site": {
+      "minfin": []
+    }
+  },
+  {
+    "id": "БАНК ПОРТАЛ",
+    "name": {
+      "minfin": "БАНК ПОРТАЛ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://bank-portal.com.ua/"
+      ]
     }
   },
   {
@@ -823,7 +1254,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "БАНК СІЧ",
@@ -842,6 +1276,51 @@
       "dbf": "2011-05-24",
       "api": "2011-05-24",
       "nbu": "2011-05-24"
+    },
+    "site": {
+      "fund": [
+        "http://www.sichbank.com.ua"
+      ],
+      "minfin": []
+    }
+  },
+  {
+    "id": "БАНК СОФІЙСЬКИЙ",
+    "name": {
+      "minfin": "БАНК СОФІЙСЬКИЙ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://sf-bank.com.ua"
+      ]
+    }
+  },
+  {
+    "id": "БАНК СТОЛИЧНИЙ",
+    "name": {
+      "minfin": "БАНК СТОЛИЧНИЙ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://stolychnyi.ua/"
+      ]
+    }
+  },
+  {
+    "id": "БАНК ТРАСТ",
+    "name": {
+      "minfin": "БАНК ТРАСТ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://banktrust.com.ua/"
+      ]
     }
   },
   {
@@ -850,7 +1329,8 @@
       "dbf": "БАНК ФАМІЛЬНИЙ",
       "api": "БАНК ФАМІЛЬНИЙ",
       "nbu": "БАНК ФАМІЛЬНИЙ",
-      "fund": "БАНК ФАМІЛЬНИЙ"
+      "fund": "БАНК ФАМІЛЬНИЙ",
+      "minfin": "БАНК ФАМІЛЬНИЙ"
     },
     "active": {
       "dbf": true,
@@ -861,6 +1341,14 @@
       "dbf": "1991-12-27",
       "api": "1991-12-27",
       "nbu": "1991-12-27"
+    },
+    "site": {
+      "fund": [
+        "http://www.fbank.com.ua"
+      ],
+      "minfin": [
+        "http://www.fbank.com.ua/"
+      ]
     }
   },
   {
@@ -869,7 +1357,8 @@
       "dbf": "БАНК ФОРВАРД",
       "api": "БАНК ФОРВАРД",
       "nbu": "БАНК ФОРВАРД",
-      "fund": "БАНК ФОРВАРД"
+      "fund": "БАНК ФОРВАРД",
+      "minfin": "БАНК ФОРВАРД"
     },
     "active": {
       "dbf": true,
@@ -880,6 +1369,14 @@
       "dbf": "2006-02-28",
       "api": "2006-02-28",
       "nbu": "2006-02-28"
+    },
+    "site": {
+      "fund": [
+        "http://www.bank-rs.com.ua"
+      ],
+      "minfin": [
+        "http://forward-bank.com/"
+      ]
     }
   },
   {
@@ -897,6 +1394,22 @@
     "dateOpen": {
       "dbf": "1994-01-31",
       "api": "1994-01-31"
+    },
+    "site": {
+      "minfin": []
+    }
+  },
+  {
+    "id": "БАНК ЮНІСОН",
+    "name": {
+      "minfin": "БАНК ЮНІСОН"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.unisonbank.com.ua/"
+      ]
     }
   },
   {
@@ -904,7 +1417,8 @@
     "name": {
       "dbf": "БГ БАНК",
       "api": "БГ БАНК",
-      "fund": "БГ БАНК"
+      "fund": "БГ БАНК",
+      "minfin": "БГ БАНК"
     },
     "active": {
       "dbf": false,
@@ -914,6 +1428,11 @@
     "dateOpen": {
       "dbf": "1994-01-26",
       "api": "1994-01-26"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bgbank.com.ua"
+      ]
     }
   },
   {
@@ -922,7 +1441,8 @@
       "dbf": "БМ БАНК",
       "api": "БМ БАНК",
       "nbu": "БМ БАНК",
-      "fund": "БМ БАНК"
+      "fund": "БМ БАНК",
+      "minfin": "БМ БАНК"
     },
     "active": {
       "dbf": true,
@@ -933,6 +1453,14 @@
       "dbf": "2005-12-08",
       "api": "2005-12-08",
       "nbu": "2005-12-08"
+    },
+    "site": {
+      "fund": [
+        "http://www.bmbank.com.ua"
+      ],
+      "minfin": [
+        "http://www.bmbank.com.ua/"
+      ]
     }
   },
   {
@@ -940,7 +1468,8 @@
     "name": {
       "dbf": "БРОКБІЗНЕСБАНК",
       "api": "БРОКБІЗНЕСБАНК",
-      "fund": "БРОКБІЗНЕСБАНК"
+      "fund": "БРОКБІЗНЕСБАНК",
+      "minfin": "БРОКБІЗНЕСБАНК"
     },
     "active": {
       "dbf": false,
@@ -950,6 +1479,11 @@
     "dateOpen": {
       "dbf": "1991-10-07",
       "api": "1991-10-07"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bankbb.com.ua/"
+      ]
     }
   },
   {
@@ -958,7 +1492,8 @@
       "dbf": "БТА БАНК",
       "api": "БТА БАНК",
       "nbu": "БТА БАНК",
-      "fund": "БТА БАНК"
+      "fund": "БТА БАНК",
+      "minfin": "БТА БАНК"
     },
     "active": {
       "dbf": true,
@@ -969,6 +1504,14 @@
       "dbf": "1992-12-10",
       "api": "1992-12-10",
       "nbu": "1992-12-10"
+    },
+    "site": {
+      "fund": [
+        "http://www.btabank.ua"
+      ],
+      "minfin": [
+        "http://www.btabank.ua/"
+      ]
     }
   },
   {
@@ -976,7 +1519,8 @@
     "name": {
       "dbf": "ВІЕЙБІ БАНК",
       "api": "ВІЕЙБІ БАНК",
-      "fund": "ВІЕЙБІ БАНК"
+      "fund": "ВІЕЙБІ БАНК",
+      "minfin": "ВІЕЙБІ БАНК"
     },
     "active": {
       "dbf": false,
@@ -986,13 +1530,19 @@
     "dateOpen": {
       "dbf": "1992-07-02",
       "api": "1992-07-02"
+    },
+    "site": {
+      "minfin": [
+        "http://www.vab.ua/"
+      ]
     }
   },
   {
     "id": "ВІЕС БАНК",
     "name": {
       "dbf": "ВІЕС БАНК",
-      "fund": "ВІЕС БАНК"
+      "fund": "ВІЕС БАНК",
+      "minfin": "ВІЕС БАНК"
     },
     "active": {
       "dbf": true,
@@ -1000,6 +1550,14 @@
     },
     "dateOpen": {
       "dbf": "1991-10-10"
+    },
+    "site": {
+      "fund": [
+        "http://www.vsbank.com.ua"
+      ],
+      "minfin": [
+        "http://www.vsbank.com.ua/"
+      ]
     }
   },
   {
@@ -1007,7 +1565,8 @@
     "name": {
       "dbf": "ВБР",
       "api": "ВБР",
-      "fund": "ВБР"
+      "fund": "ВБР",
+      "minfin": "ВБР"
     },
     "active": {
       "dbf": false,
@@ -1017,6 +1576,11 @@
     "dateOpen": {
       "dbf": "2009-04-30",
       "api": "2009-04-30"
+    },
+    "site": {
+      "minfin": [
+        "http://www.vbr-bank.com.ua/"
+      ]
     }
   },
   {
@@ -1024,7 +1588,8 @@
     "name": {
       "dbf": "ВЕКТОР БАНК",
       "api": "ВЕКТОР БАНК",
-      "fund": "ВЕКТОР БАНК"
+      "fund": "ВЕКТОР БАНК",
+      "minfin": "ВЕКТОР БАНК"
     },
     "active": {
       "dbf": false,
@@ -1034,6 +1599,11 @@
     "dateOpen": {
       "dbf": "2014-01-31",
       "api": "2014-01-31"
+    },
+    "site": {
+      "minfin": [
+        "http://www.vectorbank.com.ua/ru/"
+      ]
     }
   },
   {
@@ -1042,7 +1612,8 @@
       "dbf": "ВЕРНУМ БАНК",
       "api": "ВЕРНУМ БАНК",
       "nbu": "ВЕРНУМ БАНК",
-      "fund": "ВЕРНУМ БАНК"
+      "fund": "ВЕРНУМ БАНК",
+      "minfin": "ВЕРНУМ БАНК"
     },
     "active": {
       "dbf": true,
@@ -1053,6 +1624,14 @@
       "dbf": "2009-02-17",
       "api": "2009-02-17",
       "nbu": "2009-02-17"
+    },
+    "site": {
+      "fund": [
+        "http://vernumbank.com"
+      ],
+      "minfin": [
+        "http://www.vernumbank.com/"
+      ]
     }
   },
   {
@@ -1063,7 +1642,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "ВТБ БАНК",
@@ -1071,7 +1653,8 @@
       "dbf": "ВТБ БАНК",
       "api": "ВТБ БАНК",
       "nbu": "ВТБ БАНК",
-      "fund": "ВТБ БАНК"
+      "fund": "ВТБ БАНК",
+      "minfin": "ВТБ БАНК"
     },
     "active": {
       "dbf": true,
@@ -1082,6 +1665,14 @@
       "dbf": "1992-11-11",
       "api": "1992-11-11",
       "nbu": "1992-11-11"
+    },
+    "site": {
+      "fund": [
+        "http://www.vtb.com.ua"
+      ],
+      "minfin": [
+        "https://vtb.ua/"
+      ]
     }
   },
   {
@@ -1092,14 +1683,18 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "ГЕФЕСТ",
     "name": {
       "dbf": "ГЕФЕСТ",
       "api": "ГЕФЕСТ",
-      "fund": "ГЕФЕСТ"
+      "fund": "ГЕФЕСТ",
+      "minfin": "ГЕФЕСТ"
     },
     "active": {
       "dbf": false,
@@ -1109,6 +1704,11 @@
     "dateOpen": {
       "dbf": "2013-10-04",
       "api": "2013-10-04"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bankgefest.com.ua"
+      ]
     }
   },
   {
@@ -1117,7 +1717,8 @@
       "dbf": "ГЛОБУС",
       "api": "ГЛОБУС",
       "nbu": "ГЛОБУС",
-      "fund": "ГЛОБУС"
+      "fund": "ГЛОБУС",
+      "minfin": "ГЛОБУС"
     },
     "active": {
       "dbf": true,
@@ -1128,6 +1729,14 @@
       "dbf": "2007-11-29",
       "api": "2007-11-29",
       "nbu": "2007-11-29"
+    },
+    "site": {
+      "fund": [
+        "http://www.globusbank.com.ua"
+      ],
+      "minfin": [
+        "http://www.globusbank.com.ua/"
+      ]
     }
   },
   {
@@ -1135,7 +1744,8 @@
     "name": {
       "dbf": "ГРІН БАНК",
       "api": "ГРІН БАНК",
-      "fund": "ГРІН БАНК"
+      "fund": "ГРІН БАНК",
+      "minfin": "ГРІН БАНК"
     },
     "active": {
       "dbf": false,
@@ -1145,6 +1755,11 @@
     "dateOpen": {
       "dbf": "1992-01-09",
       "api": "1992-01-09"
+    },
+    "site": {
+      "minfin": [
+        "http://www.greenbank.com.ua/"
+      ]
     }
   },
   {
@@ -1164,6 +1779,12 @@
       "dbf": "1991-10-29",
       "api": "1991-10-29",
       "nbu": "1991-10-29"
+    },
+    "site": {
+      "fund": [
+        "http://www.grant.kharkov.ua"
+      ],
+      "minfin": []
     }
   },
   {
@@ -1174,14 +1795,18 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "ДІАМАНТБАНК",
     "name": {
       "dbf": "ДІАМАНТБАНК",
       "api": "ДІАМАНТБАНК",
-      "fund": "ДІАМАНТБАНК"
+      "fund": "ДІАМАНТБАНК",
+      "minfin": "ДІАМАНТБАНК"
     },
     "active": {
       "dbf": false,
@@ -1191,6 +1816,24 @@
     "dateOpen": {
       "dbf": "1993-11-17",
       "api": "1993-11-17"
+    },
+    "site": {
+      "minfin": [
+        "http://www.diamantbank.ua/"
+      ]
+    }
+  },
+  {
+    "id": "ДІВІ БАНК",
+    "name": {
+      "minfin": "ДІВІ БАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://dvbank.ua/"
+      ]
     }
   },
   {
@@ -1198,7 +1841,8 @@
     "name": {
       "dbf": "ДАНІЕЛЬ",
       "api": "ДАНІЕЛЬ",
-      "fund": "ДАНІЕЛЬ"
+      "fund": "ДАНІЕЛЬ",
+      "minfin": "ДАНІЕЛЬ"
     },
     "active": {
       "dbf": false,
@@ -1208,6 +1852,11 @@
     "dateOpen": {
       "dbf": "2003-11-27",
       "api": "2003-11-27"
+    },
+    "site": {
+      "minfin": [
+        "http://www.danielbank.kiev.ua/"
+      ]
     }
   },
   {
@@ -1215,7 +1864,8 @@
     "name": {
       "dbf": "ДЕЛЬТА БАНК",
       "api": "ДЕЛЬТА БАНК",
-      "fund": "ДЕЛЬТА БАНК"
+      "fund": "ДЕЛЬТА БАНК",
+      "minfin": "ДЕЛЬТА БАНК"
     },
     "active": {
       "dbf": false,
@@ -1225,6 +1875,11 @@
     "dateOpen": {
       "dbf": "2006-02-15",
       "api": "2006-02-15"
+    },
+    "site": {
+      "minfin": [
+        "http://deltabank.com.ua/"
+      ]
     }
   },
   {
@@ -1232,7 +1887,8 @@
     "name": {
       "dbf": "ДЕМАРК",
       "api": "ДЕМАРК",
-      "fund": "ДЕМАРК"
+      "fund": "ДЕМАРК",
+      "minfin": "ДЕМАРК"
     },
     "active": {
       "dbf": false,
@@ -1242,17 +1898,28 @@
     "dateOpen": {
       "dbf": "1992-07-10",
       "api": "1992-07-10"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bankdemark.com/"
+      ]
     }
   },
   {
     "id": "ДЕРЖЗЕМБАНК",
     "name": {
-      "fund": "ДЕРЖЗЕМБАНК"
+      "fund": "ДЕРЖЗЕМБАНК",
+      "minfin": "ДЕРЖЗЕМБАНК"
     },
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.dzbank.com.ua/"
+      ]
+    }
   },
   {
     "id": "ДНІСТЕР",
@@ -1262,7 +1929,23 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
+  },
+  {
+    "id": "ДОЙЧЕ БАНК",
+    "name": {
+      "minfin": "ДОЙЧЕ БАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "https://www.db.com/ukraine/"
+      ]
+    }
   },
   {
     "id": "ДОЙЧЕ БАНК ДБУ",
@@ -1281,6 +1964,25 @@
       "dbf": "2009-06-19",
       "api": "2009-06-19",
       "nbu": "2009-06-19"
+    },
+    "site": {
+      "fund": [
+        "http://www.db.com/ukraine"
+      ],
+      "minfin": []
+    }
+  },
+  {
+    "id": "ДОНГОРБАНК",
+    "name": {
+      "minfin": "ДОНГОРБАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.dongorbank.com/"
+      ]
     }
   },
   {
@@ -1288,7 +1990,8 @@
     "name": {
       "dbf": "ЕКСПОБАНК",
       "api": "ЕКСПОБАНК",
-      "fund": "ЕКСПОБАНК"
+      "fund": "ЕКСПОБАНК",
+      "minfin": "ЕКСПОБАНК"
     },
     "active": {
       "dbf": false,
@@ -1298,6 +2001,24 @@
     "dateOpen": {
       "dbf": "1991-12-26",
       "api": "1991-12-26"
+    },
+    "site": {
+      "minfin": [
+        "http://www.expobank.ua/"
+      ]
+    }
+  },
+  {
+    "id": "ЕКСПРЕС-БАНК",
+    "name": {
+      "minfin": "ЕКСПРЕС-БАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.expres-bank.ua"
+      ]
     }
   },
   {
@@ -1305,7 +2026,8 @@
     "name": {
       "dbf": "ЕНЕРГОБАНК",
       "api": "ЕНЕРГОБАНК",
-      "fund": "ЕНЕРГОБАНК"
+      "fund": "ЕНЕРГОБАНК",
+      "minfin": "ЕНЕРГОБАНК"
     },
     "active": {
       "dbf": false,
@@ -1315,6 +2037,11 @@
     "dateOpen": {
       "dbf": "1991-10-31",
       "api": "1991-10-31"
+    },
+    "site": {
+      "minfin": [
+        "http://www.energobank.com.ua/"
+      ]
     }
   },
   {
@@ -1322,7 +2049,8 @@
     "name": {
       "dbf": "ЕРДЕ БАНК",
       "api": "ЕРДЕ БАНК",
-      "fund": "ЕРДЕ БАНК"
+      "fund": "ЕРДЕ БАНК",
+      "minfin": "ЕРДЕ БАНК"
     },
     "active": {
       "dbf": false,
@@ -1332,6 +2060,11 @@
     "dateOpen": {
       "dbf": "2006-12-28",
       "api": "2006-12-28"
+    },
+    "site": {
+      "minfin": [
+        "http://www.rdbank.com.ua"
+      ]
     }
   },
   {
@@ -1339,7 +2072,8 @@
     "name": {
       "dbf": "ЗАХІДІНКОМБАНК",
       "api": "ЗАХІДІНКОМБАНК",
-      "fund": "ЗАХІДІНКОМБАНК"
+      "fund": "ЗАХІДІНКОМБАНК",
+      "minfin": "ЗАХІДІНКОМБАНК"
     },
     "active": {
       "dbf": false,
@@ -1349,17 +2083,28 @@
     "dateOpen": {
       "dbf": "1993-03-11",
       "api": "1993-03-11"
+    },
+    "site": {
+      "minfin": [
+        "http://www.inkom.lutsk.ua"
+      ]
     }
   },
   {
     "id": "ЗЕМЕЛЬНИЙ БАНК",
     "name": {
-      "fund": "ЗЕМЕЛЬНИЙ БАНК"
+      "fund": "ЗЕМЕЛЬНИЙ БАНК",
+      "minfin": "ЗЕМЕЛЬНИЙ БАНК"
     },
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.zembank.kharkov.ua/"
+      ]
+    }
   },
   {
     "id": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
@@ -1378,6 +2123,12 @@
       "dbf": "1994-01-31",
       "api": "1994-01-31",
       "nbu": "1994-01-31"
+    },
+    "site": {
+      "fund": [
+        "http://www.zemcap.dp.ua"
+      ],
+      "minfin": []
     }
   },
   {
@@ -1385,7 +2136,8 @@
     "name": {
       "dbf": "ЗЛАТОБАНК",
       "api": "ЗЛАТОБАНК",
-      "fund": "ЗЛАТОБАНК"
+      "fund": "ЗЛАТОБАНК",
+      "minfin": "ЗЛАТОБАНК"
     },
     "active": {
       "dbf": false,
@@ -1395,6 +2147,11 @@
     "dateOpen": {
       "dbf": "2008-05-16",
       "api": "2008-05-16"
+    },
+    "site": {
+      "minfin": [
+        "http://www.zbank.com.ua/"
+      ]
     }
   },
   {
@@ -1403,7 +2160,8 @@
       "dbf": "КІБ",
       "api": "КІБ",
       "nbu": "КІБ",
-      "fund": "КІБ"
+      "fund": "КІБ",
+      "minfin": "КІБ"
     },
     "active": {
       "dbf": true,
@@ -1414,6 +2172,14 @@
       "dbf": "1993-12-03",
       "api": "1993-12-03",
       "nbu": "1993-12-03"
+    },
+    "site": {
+      "fund": [
+        "http://www.cib.com.ua"
+      ],
+      "minfin": [
+        "http://cib.com.ua/ru/"
+      ]
     }
   },
   {
@@ -1421,7 +2187,8 @@
     "name": {
       "dbf": "КАПІТАЛ",
       "api": "КАПІТАЛ",
-      "fund": "КАПІТАЛ"
+      "fund": "КАПІТАЛ",
+      "minfin": "КАПІТАЛ"
     },
     "active": {
       "dbf": false,
@@ -1431,6 +2198,11 @@
     "dateOpen": {
       "dbf": "1991-10-31",
       "api": "1991-10-31"
+    },
+    "site": {
+      "minfin": [
+        "http://bills95.wix.com/bank-capital"
+      ]
     }
   },
   {
@@ -1441,14 +2213,18 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "КИЇВ",
     "name": {
       "dbf": "КИЇВ",
       "api": "КИЇВ",
-      "fund": "КИЇВ"
+      "fund": "КИЇВ",
+      "minfin": "КИЇВ"
     },
     "active": {
       "dbf": false,
@@ -1458,6 +2234,11 @@
     "dateOpen": {
       "dbf": "1993-05-19",
       "api": "1993-05-19"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bank.kiev.ua/"
+      ]
     }
   },
   {
@@ -1465,7 +2246,8 @@
     "name": {
       "dbf": "КИЇВСЬКА РУСЬ",
       "api": "КИЇВСЬКА РУСЬ",
-      "fund": "КИЇВСЬКА РУСЬ"
+      "fund": "КИЇВСЬКА РУСЬ",
+      "minfin": "КИЇВСЬКА РУСЬ"
     },
     "active": {
       "dbf": false,
@@ -1475,6 +2257,11 @@
     "dateOpen": {
       "dbf": "1996-05-30",
       "api": "1996-05-30"
+    },
+    "site": {
+      "minfin": [
+        "http://www.kruss.kiev.ua/"
+      ]
     }
   },
   {
@@ -1485,7 +2272,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "КЛІРИНГОВИЙ ДІМ",
@@ -1493,7 +2283,8 @@
       "dbf": "КЛІРИНГОВИЙ ДІМ",
       "api": "КЛІРИНГОВИЙ ДІМ",
       "nbu": "КЛІРИНГОВИЙ ДІМ",
-      "fund": "КЛІРИНГОВИЙ ДІМ"
+      "fund": "КЛІРИНГОВИЙ ДІМ",
+      "minfin": "КЛІРИНГОВИЙ ДІМ"
     },
     "active": {
       "dbf": true,
@@ -1504,6 +2295,14 @@
       "dbf": "1996-12-30",
       "api": "1996-12-30",
       "nbu": "1996-12-30"
+    },
+    "site": {
+      "fund": [
+        "http://www.clhs.kiev.ua"
+      ],
+      "minfin": [
+        "http://www.clhs.kiev.ua/"
+      ]
     }
   },
   {
@@ -1511,7 +2310,8 @@
     "name": {
       "dbf": "КЛАСИКБАНК",
       "api": "КЛАСИКБАНК",
-      "fund": "КЛАСИКБАНК"
+      "fund": "КЛАСИКБАНК",
+      "minfin": "КЛАСИКБАНК"
     },
     "active": {
       "dbf": false,
@@ -1521,6 +2321,11 @@
     "dateOpen": {
       "dbf": "1995-10-06",
       "api": "1995-10-06"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bankclassic.com"
+      ]
     }
   },
   {
@@ -1529,7 +2334,8 @@
       "dbf": "КОМІНВЕСТБАНК",
       "api": "КОМІНВЕСТБАНК",
       "nbu": "КОМІНВЕСТБАНК",
-      "fund": "КОМІНВЕСТБАНК"
+      "fund": "КОМІНВЕСТБАНК",
+      "minfin": "КОМІНВЕСТБАНК"
     },
     "active": {
       "dbf": true,
@@ -1540,6 +2346,14 @@
       "dbf": "1992-12-16",
       "api": "1992-12-16",
       "nbu": "1992-12-16"
+    },
+    "site": {
+      "fund": [
+        "http://www.coopinvest.com.ua"
+      ],
+      "minfin": [
+        "http://www.atcominvestbank.com/"
+      ]
     }
   },
   {
@@ -1548,7 +2362,8 @@
       "dbf": "КОНКОРД",
       "api": "КОНКОРД",
       "nbu": "КОНКОРД",
-      "fund": "КОНКОРД"
+      "fund": "КОНКОРД",
+      "minfin": "КОНКОРД"
     },
     "active": {
       "dbf": true,
@@ -1559,6 +2374,14 @@
       "dbf": "2006-08-07",
       "api": "2006-08-07",
       "nbu": "2006-08-07"
+    },
+    "site": {
+      "fund": [
+        "http://www.concord.ua"
+      ],
+      "minfin": [
+        "http://www.concord.ua/"
+      ]
     }
   },
   {
@@ -1566,7 +2389,8 @@
     "name": {
       "dbf": "КОНТРАКТ",
       "api": "КОНТРАКТ",
-      "fund": "КОНТРАКТ"
+      "fund": "КОНТРАКТ",
+      "minfin": "КОНТРАКТ"
     },
     "active": {
       "dbf": false,
@@ -1576,6 +2400,11 @@
     "dateOpen": {
       "dbf": "1993-05-18",
       "api": "1993-05-18"
+    },
+    "site": {
+      "minfin": [
+        "http://www.kontrakt.ua/ru/"
+      ]
     }
   },
   {
@@ -1584,7 +2413,8 @@
       "dbf": "КРЕДІ АГРІКОЛЬ БАНК",
       "api": "КРЕДІ АГРІКОЛЬ БАНК",
       "nbu": "КРЕДІ АГРІКОЛЬ БАНК",
-      "fund": "КРЕДІ АГРІКОЛЬ БАНК"
+      "fund": "КРЕДІ АГРІКОЛЬ БАНК",
+      "minfin": "КРЕДІ АГРІКОЛЬ БАНК"
     },
     "active": {
       "dbf": true,
@@ -1595,6 +2425,15 @@
       "dbf": "1993-02-10",
       "api": "1993-02-10",
       "nbu": "1993-02-10"
+    },
+    "site": {
+      "fund": [
+        "http://www.indexbank.ua",
+        "http://credit-agricole.com.ua"
+      ],
+      "minfin": [
+        "https://credit-agricole.ua"
+      ]
     }
   },
   {
@@ -1603,7 +2442,8 @@
       "dbf": "КРЕДИТ ЄВРОПА БАНК",
       "api": "КРЕДИТ ЄВРОПА БАНК",
       "nbu": "КРЕДИТ ЄВРОПА БАНК",
-      "fund": "КРЕДИТ ЄВРОПА БАНК"
+      "fund": "КРЕДИТ ЄВРОПА БАНК",
+      "minfin": "КРЕДИТ ЄВРОПА БАНК"
     },
     "active": {
       "dbf": true,
@@ -1614,6 +2454,40 @@
       "dbf": "2006-08-28",
       "api": "2006-08-28",
       "nbu": "2006-08-28"
+    },
+    "site": {
+      "fund": [
+        "http://www.crediteurope.com.ua"
+      ],
+      "minfin": [
+        "http://www.crediteurope.com.ua/"
+      ]
+    }
+  },
+  {
+    "id": "КРЕДИТ ДНІПРО",
+    "name": {
+      "minfin": "КРЕДИТ ДНІПРО"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.creditdnepr.com.ua/"
+      ]
+    }
+  },
+  {
+    "id": "КРЕДИТ ОПТИМА",
+    "name": {
+      "minfin": "КРЕДИТ ОПТИМА"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.credit-optima.com.ua"
+      ]
     }
   },
   {
@@ -1622,7 +2496,8 @@
       "dbf": "КРЕДИТВЕСТ БАНК",
       "api": "КРЕДИТВЕСТ БАНК",
       "nbu": "КРЕДИТВЕСТ БАНК",
-      "fund": "КРЕДИТВЕСТ БАНК"
+      "fund": "КРЕДИТВЕСТ БАНК",
+      "minfin": "КРЕДИТВЕСТ БАНК"
     },
     "active": {
       "dbf": true,
@@ -1633,6 +2508,14 @@
       "dbf": "2006-10-04",
       "api": "2006-10-04",
       "nbu": "2006-10-04"
+    },
+    "site": {
+      "fund": [
+        "http://www.creditwest.kiev.ua"
+      ],
+      "minfin": [
+        "https://www.creditwest.ua/uk/"
+      ]
     }
   },
   {
@@ -1640,7 +2523,8 @@
     "name": {
       "dbf": "КРЕДИТПРОМБАНК",
       "api": "КРЕДИТПРОМБАНК",
-      "fund": "КРЕДИТПРОМБАНК"
+      "fund": "КРЕДИТПРОМБАНК",
+      "minfin": "КРЕДИТПРОМБАНК"
     },
     "active": {
       "dbf": false,
@@ -1650,6 +2534,11 @@
     "dateOpen": {
       "dbf": "1997-05-20",
       "api": "1997-05-20"
+    },
+    "site": {
+      "minfin": [
+        "http://kreditprombank.com"
+      ]
     }
   },
   {
@@ -1658,7 +2547,8 @@
       "dbf": "КРЕДОБАНК",
       "api": "КРЕДОБАНК",
       "nbu": "КРЕДОБАНК",
-      "fund": "КРЕДОБАНК"
+      "fund": "КРЕДОБАНК",
+      "minfin": "КРЕДОБАНК"
     },
     "active": {
       "dbf": true,
@@ -1669,6 +2559,14 @@
       "dbf": "1992-03-31",
       "api": "1992-03-31",
       "nbu": "1992-03-31"
+    },
+    "site": {
+      "fund": [
+        "http://www.kredobank.com.ua"
+      ],
+      "minfin": [
+        "http://www.kredobank.com.ua/"
+      ]
     }
   },
   {
@@ -1677,7 +2575,8 @@
       "dbf": "КРИСТАЛБАНК",
       "api": "КРИСТАЛБАНК",
       "nbu": "КРИСТАЛБАНК",
-      "fund": "КРИСТАЛБАНК"
+      "fund": "КРИСТАЛБАНК",
+      "minfin": "КРИСТАЛБАНК"
     },
     "active": {
       "dbf": true,
@@ -1688,6 +2587,14 @@
       "dbf": "2014-12-16",
       "api": "2014-12-16",
       "nbu": "2014-12-16"
+    },
+    "site": {
+      "fund": [
+        "http://cristalbank.com.ua"
+      ],
+      "minfin": [
+        "https://crystalbank.com.ua/"
+      ]
     }
   },
   {
@@ -1695,7 +2602,8 @@
     "name": {
       "dbf": "КСГ БАНК",
       "api": "КСГ БАНК",
-      "fund": "КСГ БАНК"
+      "fund": "КСГ БАНК",
+      "minfin": "КСГ БАНК"
     },
     "active": {
       "dbf": false,
@@ -1705,6 +2613,11 @@
     "dateOpen": {
       "dbf": "1993-11-24",
       "api": "1993-11-24"
+    },
+    "site": {
+      "minfin": [
+        "http://www.ksgbank.com.ua/"
+      ]
     }
   },
   {
@@ -1712,7 +2625,8 @@
     "name": {
       "dbf": "ЛЕГБАНК",
       "api": "ЛЕГБАНК",
-      "fund": "ЛЕГБАНК"
+      "fund": "ЛЕГБАНК",
+      "minfin": "ЛЕГБАНК"
     },
     "active": {
       "dbf": false,
@@ -1722,6 +2636,11 @@
     "dateOpen": {
       "dbf": "1991-10-08",
       "api": "1991-10-08"
+    },
+    "site": {
+      "minfin": [
+        "http://www.legbank.kiev.ua"
+      ]
     }
   },
   {
@@ -1730,7 +2649,8 @@
       "dbf": "ЛЬВІВ",
       "api": "ЛЬВІВ",
       "nbu": "ЛЬВІВ",
-      "fund": "ЛЬВІВ"
+      "fund": "ЛЬВІВ",
+      "minfin": "ЛЬВІВ"
     },
     "active": {
       "dbf": true,
@@ -1741,6 +2661,14 @@
       "dbf": "1991-10-14",
       "api": "1991-10-14",
       "nbu": "1991-10-14"
+    },
+    "site": {
+      "fund": [
+        "http://www.banklviv.com"
+      ],
+      "minfin": [
+        "http://www.banklviv.com/"
+      ]
     }
   },
   {
@@ -1749,7 +2677,8 @@
       "dbf": "МІБ",
       "api": "МІБ",
       "nbu": "МІБ",
-      "fund": "МІБ"
+      "fund": "МІБ",
+      "minfin": "МІБ"
     },
     "active": {
       "dbf": true,
@@ -1760,6 +2689,14 @@
       "dbf": "2008-03-11",
       "api": "2008-03-11",
       "nbu": "2008-03-11"
+    },
+    "site": {
+      "fund": [
+        "http://www.ii-bank.com.ua"
+      ],
+      "minfin": [
+        "http://www.ii-bank.com.ua"
+      ]
     }
   },
   {
@@ -1768,7 +2705,8 @@
       "dbf": "МІСТО БАНК",
       "api": "МІСТО БАНК",
       "nbu": "МІСТО БАНК",
-      "fund": "МІСТО БАНК"
+      "fund": "МІСТО БАНК",
+      "minfin": "МІСТО БАНК"
     },
     "active": {
       "dbf": true,
@@ -1779,6 +2717,14 @@
       "dbf": "1993-07-23",
       "api": "1993-07-23",
       "nbu": "1993-07-23"
+    },
+    "site": {
+      "fund": [
+        "http://www.mistobank.com.ua"
+      ],
+      "minfin": [
+        "http://www.mistobank.com.ua/"
+      ]
     }
   },
   {
@@ -1786,7 +2732,8 @@
     "name": {
       "dbf": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
       "api": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
-      "fund": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК"
+      "fund": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
+      "minfin": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК"
     },
     "active": {
       "dbf": false,
@@ -1796,6 +2743,11 @@
     "dateOpen": {
       "dbf": "2006-05-06",
       "api": "2006-05-06"
+    },
+    "site": {
+      "minfin": [
+        "http://www.citycommercebank.com/"
+      ]
     }
   },
   {
@@ -1804,7 +2756,8 @@
       "dbf": "МЕГАБАНК",
       "api": "МЕГАБАНК",
       "nbu": "МЕГАБАНК",
-      "fund": "МЕГАБАНК"
+      "fund": "МЕГАБАНК",
+      "minfin": "МЕГАБАНК"
     },
     "active": {
       "dbf": true,
@@ -1815,6 +2768,16 @@
       "dbf": "1991-10-28",
       "api": "1991-10-28",
       "nbu": "1991-10-28"
+    },
+    "site": {
+      "fund": [
+        "http://www.megabank.net",
+        "https://www.megabank.ua",
+        "http://www"
+      ],
+      "minfin": [
+        "https://www.megabank.ua"
+      ]
     }
   },
   {
@@ -1822,7 +2785,8 @@
     "name": {
       "dbf": "МЕЛІОР БАНК",
       "api": "МЕЛІОР БАНК",
-      "fund": "МЕЛІОР БАНК"
+      "fund": "МЕЛІОР БАНК",
+      "minfin": "МЕЛІОР БАНК"
     },
     "active": {
       "dbf": false,
@@ -1832,6 +2796,11 @@
     "dateOpen": {
       "dbf": "2012-02-24",
       "api": "2012-02-24"
+    },
+    "site": {
+      "minfin": [
+        "http://www.meliorbank.com"
+      ]
     }
   },
   {
@@ -1839,7 +2808,8 @@
     "name": {
       "dbf": "МЕРКУРІЙ",
       "api": "МЕРКУРІЙ",
-      "fund": "МЕРКУРІЙ"
+      "fund": "МЕРКУРІЙ",
+      "minfin": "МЕРКУРІЙ"
     },
     "active": {
       "dbf": false,
@@ -1849,6 +2819,11 @@
     "dateOpen": {
       "dbf": "1992-11-18",
       "api": "1992-11-18"
+    },
+    "site": {
+      "minfin": [
+        "http://www.mercury-bank.com/"
+      ]
     }
   },
   {
@@ -1857,7 +2832,8 @@
       "dbf": "МЕТАБАНК",
       "api": "МЕТАБАНК",
       "nbu": "МЕТАБАНК",
-      "fund": "МЕТАБАНК"
+      "fund": "МЕТАБАНК",
+      "minfin": "МЕТАБАНК"
     },
     "active": {
       "dbf": true,
@@ -1868,17 +2844,42 @@
       "dbf": "1993-07-12",
       "api": "1993-07-12",
       "nbu": "1993-07-12"
+    },
+    "site": {
+      "fund": [
+        "http://www.mbank.com.ua"
+      ],
+      "minfin": [
+        "http://www.mbank.com.ua/"
+      ]
+    }
+  },
+  {
+    "id": "МИХАЙЛІВСЬКИЙ",
+    "name": {
+      "minfin": "МИХАЙЛІВСЬКИЙ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.mbank.kiev.ua/"
+      ]
     }
   },
   {
     "id": "МОРСЬКИЙ",
     "name": {
-      "fund": "МОРСЬКИЙ"
+      "fund": "МОРСЬКИЙ",
+      "minfin": "МОРСЬКИЙ"
     },
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "МОТОР-БАНК",
@@ -1886,7 +2887,8 @@
       "dbf": "МОТОР-БАНК",
       "api": "МОТОР-БАНК",
       "nbu": "МОТОР-БАНК",
-      "fund": "МОТОР-БАНК"
+      "fund": "МОТОР-БАНК",
+      "minfin": "МОТОР-БАНК"
     },
     "active": {
       "dbf": true,
@@ -1897,6 +2899,14 @@
       "dbf": "2007-08-10",
       "api": "2007-08-10",
       "nbu": "2007-08-10"
+    },
+    "site": {
+      "fund": [
+        "http://www.motor-bank.com.ua"
+      ],
+      "minfin": [
+        "http://motor-bank.ua/"
+      ]
     }
   },
   {
@@ -1905,7 +2915,8 @@
       "dbf": "МТБ БАНК",
       "api": "МТБ БАНК",
       "nbu": "МТБ БАНК",
-      "fund": "МТБ БАНК"
+      "fund": "МТБ БАНК",
+      "minfin": "МТБ БАНК"
     },
     "active": {
       "dbf": true,
@@ -1916,6 +2927,15 @@
       "dbf": "1993-11-05",
       "api": "1993-11-05",
       "nbu": "1993-11-05"
+    },
+    "site": {
+      "fund": [
+        "http://mtb.ua",
+        "http://www.mtb.ua"
+      ],
+      "minfin": [
+        "http://marfinbank.ua/"
+      ]
     }
   },
   {
@@ -1923,7 +2943,8 @@
     "name": {
       "dbf": "НАДРА",
       "api": "НАДРА",
-      "fund": "НАДРА"
+      "fund": "НАДРА",
+      "minfin": "НАДРА"
     },
     "active": {
       "dbf": false,
@@ -1933,6 +2954,24 @@
     "dateOpen": {
       "dbf": "1993-10-26",
       "api": "1993-10-26"
+    },
+    "site": {
+      "minfin": [
+        "http://www.nadrabank.ua/site/page.php"
+      ]
+    }
+  },
+  {
+    "id": "НАРОДНИЙ КАПІТАЛ",
+    "name": {
+      "minfin": "НАРОДНИЙ КАПІТАЛ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://nkbank.com.ua/"
+      ]
     }
   },
   {
@@ -1940,7 +2979,8 @@
     "name": {
       "dbf": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
       "api": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
-      "fund": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ"
+      "fund": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
+      "minfin": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ"
     },
     "active": {
       "dbf": false,
@@ -1950,6 +2990,11 @@
     "dateOpen": {
       "dbf": "1993-11-09",
       "api": "1993-11-09"
+    },
+    "site": {
+      "minfin": [
+        "http://www.jsbni.kiev.ua/"
+      ]
     }
   },
   {
@@ -1960,7 +3005,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "НАШ БАНК",
@@ -1970,7 +3018,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "НК БАНК",
@@ -1987,6 +3038,9 @@
     "dateOpen": {
       "dbf": "1993-09-21",
       "api": "1993-09-21"
+    },
+    "site": {
+      "minfin": []
     }
   },
   {
@@ -1994,7 +3048,8 @@
     "name": {
       "dbf": "НОВИЙ",
       "api": "НОВИЙ",
-      "fund": "НОВИЙ"
+      "fund": "НОВИЙ",
+      "minfin": "НОВИЙ"
     },
     "active": {
       "dbf": false,
@@ -2004,6 +3059,11 @@
     "dateOpen": {
       "dbf": "1992-04-06",
       "api": "1992-04-06"
+    },
+    "site": {
+      "minfin": [
+        "http://www.banknew.dp.ua"
+      ]
     }
   },
   {
@@ -2014,7 +3074,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "ОКСІ БАНК",
@@ -2022,7 +3085,8 @@
       "dbf": "ОКСІ БАНК",
       "api": "ОКСІ БАНК",
       "nbu": "ОКСІ БАНК",
-      "fund": "ОКСІ БАНК"
+      "fund": "ОКСІ БАНК",
+      "minfin": "ОКСІ БАНК"
     },
     "active": {
       "dbf": true,
@@ -2033,6 +3097,14 @@
       "dbf": "1991-10-14",
       "api": "1991-10-14",
       "nbu": "1991-10-14"
+    },
+    "site": {
+      "fund": [
+        "http://www.okcibank.com.ua"
+      ],
+      "minfin": [
+        "http://www.okcibank.com.ua/"
+      ]
     }
   },
   {
@@ -2043,7 +3115,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "ОМЕГА БАНК",
@@ -2060,6 +3135,9 @@
     "dateOpen": {
       "dbf": "1991-10-31",
       "api": "1991-10-31"
+    },
+    "site": {
+      "minfin": []
     }
   },
   {
@@ -2068,7 +3146,8 @@
       "dbf": "ОТП БАНК",
       "api": "ОТП БАНК",
       "nbu": "ОТП БАНК",
-      "fund": "ОТП БАНК"
+      "fund": "ОТП БАНК",
+      "minfin": "ОТП БАНК"
     },
     "active": {
       "dbf": true,
@@ -2079,6 +3158,14 @@
       "dbf": "1998-03-02",
       "api": "1998-03-02",
       "nbu": "1998-03-02"
+    },
+    "site": {
+      "fund": [
+        "http://www.otpbank.com.ua"
+      ],
+      "minfin": [
+        "http://otpbank.com.ua/"
+      ]
     }
   },
   {
@@ -2086,7 +3173,8 @@
     "name": {
       "dbf": "ОЩАДБАНК",
       "api": "ОЩАДБАНК",
-      "nbu": "ОЩАДБАНК"
+      "nbu": "ОЩАДБАНК",
+      "minfin": "ОЩАДБАНК"
     },
     "active": {
       "dbf": true,
@@ -2096,6 +3184,11 @@
       "dbf": "1991-12-31",
       "api": "1991-12-31",
       "nbu": "1991-12-31"
+    },
+    "site": {
+      "minfin": [
+        "http://www.oschadbank.ua/ua/"
+      ]
     }
   },
   {
@@ -2103,7 +3196,8 @@
     "name": {
       "dbf": "ПІВДЕНКОМБАНК",
       "api": "ПІВДЕНКОМБАНК",
-      "fund": "ПІВДЕНКОМБАНК"
+      "fund": "ПІВДЕНКОМБАНК",
+      "minfin": "ПІВДЕНКОМБАНК"
     },
     "active": {
       "dbf": false,
@@ -2113,6 +3207,11 @@
     "dateOpen": {
       "dbf": "1991-10-03",
       "api": "1991-10-03"
+    },
+    "site": {
+      "minfin": [
+        "http://pivdencombank.com/"
+      ]
     }
   },
   {
@@ -2132,6 +3231,25 @@
       "dbf": "1993-12-03",
       "api": "1993-12-03",
       "nbu": "1993-12-03"
+    },
+    "site": {
+      "fund": [
+        "http://www.pivdenny.com"
+      ],
+      "minfin": []
+    }
+  },
+  {
+    "id": "ПІРЕУС БАНК",
+    "name": {
+      "minfin": "ПІРЕУС БАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.piraeusbank.ua"
+      ]
     }
   },
   {
@@ -2151,6 +3269,12 @@
       "dbf": "1994-01-31",
       "api": "1994-01-31",
       "nbu": "1994-01-31"
+    },
+    "site": {
+      "fund": [
+        "http://www.piraeusbank.ua"
+      ],
+      "minfin": []
     }
   },
   {
@@ -2159,7 +3283,8 @@
       "dbf": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
       "api": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
       "nbu": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
-      "fund": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК"
+      "fund": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+      "minfin": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК"
     },
     "active": {
       "dbf": true,
@@ -2170,6 +3295,27 @@
       "dbf": "1997-06-20",
       "api": "1997-06-20",
       "nbu": "1997-06-20"
+    },
+    "site": {
+      "fund": [
+        "http://www.pinbank.ua"
+      ],
+      "minfin": [
+        "http://www.pinbank.ua/"
+      ]
+    }
+  },
+  {
+    "id": "ПЕТРОКОММЕРЦ-УКРАЇНА",
+    "name": {
+      "minfin": "ПЕТРОКОММЕРЦ-УКРАЇНА"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.pcbu.com.ua/"
+      ]
     }
   },
   {
@@ -2178,7 +3324,8 @@
       "dbf": "ПОЛІКОМБАНК",
       "api": "ПОЛІКОМБАНК",
       "nbu": "ПОЛІКОМБАНК",
-      "fund": "ПОЛІКОМБАНК"
+      "fund": "ПОЛІКОМБАНК",
+      "minfin": "ПОЛІКОМБАНК"
     },
     "active": {
       "dbf": true,
@@ -2189,6 +3336,14 @@
       "dbf": "1994-08-18",
       "api": "1994-08-18",
       "nbu": "1994-08-18"
+    },
+    "site": {
+      "fund": [
+        "http://www.poli.com.ua"
+      ],
+      "minfin": [
+        "http://www.policombank.com/"
+      ]
     }
   },
   {
@@ -2197,7 +3352,8 @@
       "dbf": "ПОЛТАВА-БАНК",
       "api": "ПОЛТАВА-БАНК",
       "nbu": "ПОЛТАВА-БАНК",
-      "fund": "ПОЛТАВА-БАНК"
+      "fund": "ПОЛТАВА-БАНК",
+      "minfin": "ПОЛТАВА-БАНК"
     },
     "active": {
       "dbf": true,
@@ -2208,6 +3364,14 @@
       "dbf": "1991-10-16",
       "api": "1991-10-16",
       "nbu": "1991-10-16"
+    },
+    "site": {
+      "fund": [
+        "http://www.poltavabank.com"
+      ],
+      "minfin": [
+        "http://www.poltavabank.com"
+      ]
     }
   },
   {
@@ -2227,6 +3391,10 @@
       "dbf": "2013-09-20",
       "api": "2013-09-20",
       "nbu": "2013-09-20"
+    },
+    "site": {
+      "fund": [],
+      "minfin": []
     }
   },
   {
@@ -2234,7 +3402,8 @@
     "name": {
       "dbf": "ПОРТО-ФРАНКО",
       "api": "ПОРТО-ФРАНКО",
-      "fund": "ПОРТО-ФРАНКО"
+      "fund": "ПОРТО-ФРАНКО",
+      "minfin": "ПОРТО-ФРАНКО"
     },
     "active": {
       "dbf": false,
@@ -2244,6 +3413,11 @@
     "dateOpen": {
       "dbf": "1991-10-17",
       "api": "1991-10-17"
+    },
+    "site": {
+      "minfin": [
+        "http://www.porto-franco.com/"
+      ]
     }
   },
   {
@@ -2252,7 +3426,8 @@
       "dbf": "ПРАВЕКС БАНК",
       "api": "ПРАВЕКС БАНК",
       "nbu": "ПРАВЕКС БАНК",
-      "fund": "ПРАВЕКС БАНК"
+      "fund": "ПРАВЕКС БАНК",
+      "minfin": "ПРАВЕКС БАНК"
     },
     "active": {
       "dbf": true,
@@ -2263,6 +3438,14 @@
       "dbf": "1992-12-29",
       "api": "1992-12-29",
       "nbu": "1992-12-29"
+    },
+    "site": {
+      "fund": [
+        "http://www.pravex.com"
+      ],
+      "minfin": [
+        "https://www.pravex.com.ua/"
+      ]
     }
   },
   {
@@ -2270,7 +3453,8 @@
     "name": {
       "dbf": "ПРАЙМ - БАНК",
       "api": "ПРАЙМ - БАНК",
-      "fund": "ПРАЙМ - БАНК"
+      "fund": "ПРАЙМ - БАНК",
+      "minfin": "ПРАЙМ - БАНК"
     },
     "active": {
       "dbf": false,
@@ -2280,6 +3464,11 @@
     "dateOpen": {
       "dbf": "2001-07-30",
       "api": "2001-07-30"
+    },
+    "site": {
+      "minfin": [
+        "http://www.prime-bank.kiev.ua/"
+      ]
     }
   },
   {
@@ -2290,14 +3479,18 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "ПРЕМІУМ",
     "name": {
       "dbf": "ПРЕМІУМ",
       "api": "ПРЕМІУМ",
-      "fund": "ПРЕМІУМ"
+      "fund": "ПРЕМІУМ",
+      "minfin": "ПРЕМІУМ"
     },
     "active": {
       "dbf": false,
@@ -2307,6 +3500,11 @@
     "dateOpen": {
       "dbf": "2007-07-24",
       "api": "2007-07-24"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bank-premium.com/"
+      ]
     }
   },
   {
@@ -2315,7 +3513,8 @@
       "dbf": "ПРИВАТБАНК",
       "api": "ПРИВАТБАНК",
       "nbu": "ПРИВАТБАНК",
-      "fund": "ПРИВАТБАНК"
+      "fund": "ПРИВАТБАНК",
+      "minfin": "ПРИВАТБАНК"
     },
     "active": {
       "dbf": true,
@@ -2326,6 +3525,11 @@
       "dbf": "1992-03-19",
       "api": "1992-03-19",
       "nbu": "1992-03-19"
+    },
+    "site": {
+      "minfin": [
+        "http://privatbank.ua/"
+      ]
     }
   },
   {
@@ -2334,7 +3538,8 @@
       "dbf": "ПРОКРЕДИТ БАНК",
       "api": "ПРОКРЕДИТ БАНК",
       "nbu": "ПРОКРЕДИТ БАНК",
-      "fund": "ПРОКРЕДИТ БАНК"
+      "fund": "ПРОКРЕДИТ БАНК",
+      "minfin": "ПРОКРЕДИТ БАНК"
     },
     "active": {
       "dbf": true,
@@ -2345,6 +3550,14 @@
       "dbf": "2000-12-28",
       "api": "2000-12-28",
       "nbu": "2000-12-28"
+    },
+    "site": {
+      "fund": [
+        "http://www.procreditbank.com.ua"
+      ],
+      "minfin": [
+        "http://procreditbank.com.ua/"
+      ]
     }
   },
   {
@@ -2353,7 +3566,8 @@
       "dbf": "ПРОМІНВЕСТБАНК",
       "api": "ПРОМІНВЕСТБАНК",
       "nbu": "ПРОМІНВЕСТБАНК",
-      "fund": "ПРОМІНВЕСТБАНК"
+      "fund": "ПРОМІНВЕСТБАНК",
+      "minfin": "ПРОМІНВЕСТБАНК"
     },
     "active": {
       "dbf": true,
@@ -2364,6 +3578,14 @@
       "dbf": "1992-08-26",
       "api": "1992-08-26",
       "nbu": "1992-08-26"
+    },
+    "site": {
+      "fund": [
+        "http://www.pib.com.ua"
+      ],
+      "minfin": [
+        "http://www.pib.ua/"
+      ]
     }
   },
   {
@@ -2371,7 +3593,8 @@
     "name": {
       "dbf": "ПРОМЕКОНОМБАНК",
       "api": "ПРОМЕКОНОМБАНК",
-      "fund": "ПРОМЕКОНОМБАНК"
+      "fund": "ПРОМЕКОНОМБАНК",
+      "minfin": "ПРОМЕКОНОМБАНК"
     },
     "active": {
       "dbf": false,
@@ -2381,6 +3604,11 @@
     "dateOpen": {
       "dbf": "1993-08-25",
       "api": "1993-08-25"
+    },
+    "site": {
+      "minfin": [
+        "http://www.peb.com.ua"
+      ]
     }
   },
   {
@@ -2388,7 +3616,8 @@
     "name": {
       "dbf": "ПРОФІН БАНК",
       "api": "ПРОФІН БАНК",
-      "fund": "ПРОФІН БАНК"
+      "fund": "ПРОФІН БАНК",
+      "minfin": "ПРОФІН БАНК"
     },
     "active": {
       "dbf": false,
@@ -2398,6 +3627,11 @@
     "dateOpen": {
       "dbf": "1991-10-01",
       "api": "1991-10-01"
+    },
+    "site": {
+      "minfin": [
+        "http://www.profinbank.com"
+      ]
     }
   },
   {
@@ -2405,7 +3639,8 @@
     "name": {
       "dbf": "ПТБ",
       "api": "ПТБ",
-      "fund": "ПТБ"
+      "fund": "ПТБ",
+      "minfin": "ПТБ"
     },
     "active": {
       "dbf": false,
@@ -2415,6 +3650,11 @@
     "dateOpen": {
       "dbf": "2005-01-13",
       "api": "2005-01-13"
+    },
+    "site": {
+      "minfin": [
+        "http://platinumbank.com.ua/"
+      ]
     }
   },
   {
@@ -2423,7 +3663,8 @@
       "dbf": "ПУМБ",
       "api": "ПУМБ",
       "nbu": "ПУМБ",
-      "fund": "ПУМБ"
+      "fund": "ПУМБ",
+      "minfin": "ПУМБ"
     },
     "active": {
       "dbf": true,
@@ -2434,6 +3675,27 @@
       "dbf": "1991-12-23",
       "api": "1991-12-23",
       "nbu": "1991-12-23"
+    },
+    "site": {
+      "fund": [
+        "http://www.fuib.com"
+      ],
+      "minfin": [
+        "http://pumb.ua/"
+      ]
+    }
+  },
+  {
+    "id": "ПФБ",
+    "name": {
+      "minfin": "ПФБ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.pfb.com.ua/"
+      ]
     }
   },
   {
@@ -2442,7 +3704,8 @@
       "dbf": "РАДАБАНК",
       "api": "РАДАБАНК",
       "nbu": "РАДАБАНК",
-      "fund": "РАДАБАНК"
+      "fund": "РАДАБАНК",
+      "minfin": "РАДАБАНК"
     },
     "active": {
       "dbf": true,
@@ -2453,6 +3716,14 @@
       "dbf": "1993-12-03",
       "api": "1993-12-03",
       "nbu": "1993-12-03"
+    },
+    "site": {
+      "fund": [
+        "http://www.radabank.com.ua"
+      ],
+      "minfin": [
+        "http://www.radabank.com.ua/"
+      ]
     }
   },
   {
@@ -2460,7 +3731,8 @@
     "name": {
       "dbf": "РАДИКАЛ БАНК",
       "api": "РАДИКАЛ БАНК",
-      "fund": "РАДИКАЛ БАНК"
+      "fund": "РАДИКАЛ БАНК",
+      "minfin": "РАДИКАЛ БАНК"
     },
     "active": {
       "dbf": false,
@@ -2470,6 +3742,11 @@
     "dateOpen": {
       "dbf": "2010-03-23",
       "api": "2010-03-23"
+    },
+    "site": {
+      "minfin": [
+        "http://radicalbank.ua/"
+      ]
     }
   },
   {
@@ -2478,7 +3755,8 @@
       "dbf": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
       "api": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
       "nbu": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
-      "fund": "РАЙФФАЙЗЕН БАНК АВАЛЬ"
+      "fund": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
+      "minfin": "РАЙФФАЙЗЕН БАНК АВАЛЬ"
     },
     "active": {
       "dbf": true,
@@ -2489,6 +3767,14 @@
       "dbf": "1992-03-27",
       "api": "1992-03-27",
       "nbu": "1992-03-27"
+    },
+    "site": {
+      "fund": [
+        "http://www.aval.ua"
+      ],
+      "minfin": [
+        "http://www.aval.ua/"
+      ]
     }
   },
   {
@@ -2497,7 +3783,8 @@
       "dbf": "РВС БАНК",
       "api": "РВС БАНК",
       "nbu": "РВС БАНК",
-      "fund": "РВС БАНК"
+      "fund": "РВС БАНК",
+      "minfin": "РВС БАНК"
     },
     "active": {
       "dbf": true,
@@ -2508,6 +3795,12 @@
       "dbf": "2015-06-25",
       "api": "2015-06-25",
       "nbu": "2015-06-25"
+    },
+    "site": {
+      "fund": [],
+      "minfin": [
+        "http://www.rwsbank.com.ua/"
+      ]
     }
   },
   {
@@ -2515,7 +3808,8 @@
     "name": {
       "dbf": "РЕАЛ БАНК",
       "api": "РЕАЛ БАНК",
-      "fund": "РЕАЛ БАНК"
+      "fund": "РЕАЛ БАНК",
+      "minfin": "РЕАЛ БАНК"
     },
     "active": {
       "dbf": false,
@@ -2525,6 +3819,24 @@
     "dateOpen": {
       "dbf": "1991-10-29",
       "api": "1991-10-29"
+    },
+    "site": {
+      "minfin": [
+        "http://realbank.com.ua"
+      ]
+    }
+  },
+  {
+    "id": "РЕНЕСАНС КРЕДИТ",
+    "name": {
+      "minfin": "РЕНЕСАНС КРЕДИТ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "https://pumb.ua/ru"
+      ]
     }
   },
   {
@@ -2532,7 +3844,8 @@
     "name": {
       "dbf": "РОДОВІД БАНК",
       "api": "РОДОВІД БАНК",
-      "fund": "РОДОВІД БАНК"
+      "fund": "РОДОВІД БАНК",
+      "minfin": "РОДОВІД БАНК"
     },
     "active": {
       "dbf": false,
@@ -2542,6 +3855,11 @@
     "dateOpen": {
       "dbf": "1991-10-07",
       "api": "1991-10-07"
+    },
+    "site": {
+      "minfin": [
+        "http://rodovidbank.com/"
+      ]
     }
   },
   {
@@ -2550,7 +3868,8 @@
       "dbf": "РОЗРАХУНКОВИЙ ЦЕНТР",
       "api": "РОЗРАХУНКОВИЙ ЦЕНТР",
       "nbu": "РОЗРАХУНКОВИЙ ЦЕНТР",
-      "fund": "РОЗРАХУНКОВИЙ ЦЕНТР"
+      "fund": "РОЗРАХУНКОВИЙ ЦЕНТР",
+      "minfin": "РОЗРАХУНКОВИЙ ЦЕНТР"
     },
     "active": {
       "dbf": true,
@@ -2561,6 +3880,12 @@
       "dbf": "2013-09-06",
       "api": "2013-09-06",
       "nbu": "2013-09-06"
+    },
+    "site": {
+      "fund": [],
+      "minfin": [
+        "http://settlement.com.ua"
+      ]
     }
   },
   {
@@ -2571,7 +3896,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "СІТІБАНК",
@@ -2590,6 +3918,36 @@
       "dbf": "1998-05-11",
       "api": "1998-05-11",
       "nbu": "1998-05-11"
+    },
+    "site": {
+      "fund": [],
+      "minfin": []
+    }
+  },
+  {
+    "id": "СІТІБАНК (УКРАЇНА)",
+    "name": {
+      "minfin": "СІТІБАНК (УКРАЇНА)"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "https://www.citigroup.com/citi/about/countrypresence/ukraine.html"
+      ]
+    }
+  },
+  {
+    "id": "СІЧ",
+    "name": {
+      "minfin": "СІЧ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.sichbank.com.ua/"
+      ]
     }
   },
   {
@@ -2598,7 +3956,8 @@
       "dbf": "СБЕРБАНК",
       "api": "СБЕРБАНК",
       "nbu": "СБЕРБАНК",
-      "fund": "СБЕРБАНК"
+      "fund": "СБЕРБАНК",
+      "minfin": "СБЕРБАНК"
     },
     "active": {
       "dbf": true,
@@ -2609,6 +3968,15 @@
       "dbf": "2001-06-15",
       "api": "2001-06-15",
       "nbu": "2001-06-15"
+    },
+    "site": {
+      "fund": [
+        "https://www.sberbank.ua",
+        "http://sberbank.com.ua"
+      ],
+      "minfin": [
+        "http://www.sberbank.ua"
+      ]
     }
   },
   {
@@ -2617,7 +3985,8 @@
       "dbf": "СЕБ КОРПОРАТИВНИЙ БАНК",
       "api": "СЕБ КОРПОРАТИВНИЙ БАНК",
       "nbu": "СЕБ КОРПОРАТИВНИЙ БАНК",
-      "fund": "СЕБ КОРПОРАТИВНИЙ БАНК"
+      "fund": "СЕБ КОРПОРАТИВНИЙ БАНК",
+      "minfin": "СЕБ КОРПОРАТИВНИЙ БАНК"
     },
     "active": {
       "dbf": true,
@@ -2628,6 +3997,12 @@
       "dbf": "2011-01-19",
       "api": "2011-01-19",
       "nbu": "2011-01-19"
+    },
+    "site": {
+      "fund": [],
+      "minfin": [
+        "https://sebgroup.com/about-seb/our-locations/international-network/seb-in-ukraine"
+      ]
     }
   },
   {
@@ -2638,7 +4013,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "СКАЙ БАНК",
@@ -2646,7 +4024,8 @@
       "dbf": "СКАЙ БАНК",
       "api": "СКАЙ БАНК",
       "nbu": "СКАЙ БАНК",
-      "fund": "СКАЙ БАНК"
+      "fund": "СКАЙ БАНК",
+      "minfin": "СКАЙ БАНК"
     },
     "active": {
       "dbf": true,
@@ -2657,6 +4036,14 @@
       "dbf": "1991-10-28",
       "api": "1991-10-28",
       "nbu": "1991-10-28"
+    },
+    "site": {
+      "fund": [
+        "https://skybank.pro"
+      ],
+      "minfin": [
+        "https://www.sky.bank/"
+      ]
     }
   },
   {
@@ -2667,14 +4054,18 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "СМАРТБАНК",
     "name": {
       "dbf": "СМАРТБАНК",
       "api": "СМАРТБАНК",
-      "fund": "СМАРТБАНК"
+      "fund": "СМАРТБАНК",
+      "minfin": "СМАРТБАНК"
     },
     "active": {
       "dbf": false,
@@ -2684,6 +4075,11 @@
     "dateOpen": {
       "dbf": "2010-09-13",
       "api": "2010-09-13"
+    },
+    "site": {
+      "minfin": [
+        "http://smartbank.kiev.ua/"
+      ]
     }
   },
   {
@@ -2701,6 +4097,9 @@
     "dateOpen": {
       "dbf": "2012-03-16",
       "api": "2012-03-16"
+    },
+    "site": {
+      "minfin": []
     }
   },
   {
@@ -2711,14 +4110,18 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "СОЮЗ",
     "name": {
       "dbf": "СОЮЗ",
       "api": "СОЮЗ",
-      "fund": "СОЮЗ"
+      "fund": "СОЮЗ",
+      "minfin": "СОЮЗ"
     },
     "active": {
       "dbf": false,
@@ -2728,6 +4131,11 @@
     "dateOpen": {
       "dbf": "2007-11-26",
       "api": "2007-11-26"
+    },
+    "site": {
+      "minfin": [
+        "http://www.banksoyuz.com.ua/"
+      ]
     }
   },
   {
@@ -2745,6 +4153,9 @@
     "dateOpen": {
       "dbf": "1995-09-13",
       "api": "1995-09-13"
+    },
+    "site": {
+      "minfin": []
     }
   },
   {
@@ -2752,7 +4163,8 @@
     "name": {
       "dbf": "СТАНДАРТ",
       "api": "СТАНДАРТ",
-      "fund": "СТАНДАРТ"
+      "fund": "СТАНДАРТ",
+      "minfin": "СТАНДАРТ"
     },
     "active": {
       "dbf": false,
@@ -2762,6 +4174,11 @@
     "dateOpen": {
       "dbf": "2008-12-31",
       "api": "2008-12-31"
+    },
+    "site": {
+      "minfin": [
+        "http://www.standart-bank.com.ua/"
+      ]
     }
   },
   {
@@ -2769,7 +4186,8 @@
     "name": {
       "dbf": "СТАРОКИЇВСЬКИЙ БАНК",
       "api": "СТАРОКИЇВСЬКИЙ БАНК",
-      "fund": "СТАРОКИЇВСЬКИЙ БАНК"
+      "fund": "СТАРОКИЇВСЬКИЙ БАНК",
+      "minfin": "СТАРОКИЇВСЬКИЙ БАНК"
     },
     "active": {
       "dbf": false,
@@ -2779,6 +4197,11 @@
     "dateOpen": {
       "dbf": "1991-12-31",
       "api": "1991-12-31"
+    },
+    "site": {
+      "minfin": [
+        "http://www.oldbank.com"
+      ]
     }
   },
   {
@@ -2789,7 +4212,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "СТОЛИЧНИЙ",
@@ -2806,6 +4232,9 @@
     "dateOpen": {
       "dbf": "1993-10-22",
       "api": "1993-10-22"
+    },
+    "site": {
+      "minfin": []
     }
   },
   {
@@ -2816,14 +4245,31 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
+  },
+  {
+    "id": "СХІДНО-ПРОМИСЛОВИЙ БАНК",
+    "name": {
+      "minfin": "СХІДНО-ПРОМИСЛОВИЙ БАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.vpbank.com.ua/"
+      ]
+    }
   },
   {
     "id": "ТАВРИКА",
     "name": {
       "dbf": "ТАВРИКА",
       "api": "ТАВРИКА",
-      "fund": "ТАВРИКА"
+      "fund": "ТАВРИКА",
+      "minfin": "ТАВРИКА"
     },
     "active": {
       "dbf": false,
@@ -2833,6 +4279,11 @@
     "dateOpen": {
       "dbf": "1991-10-24",
       "api": "1991-10-24"
+    },
+    "site": {
+      "minfin": [
+        "http://www.tavrika.com/ru/"
+      ]
     }
   },
   {
@@ -2841,7 +4292,8 @@
       "dbf": "ТАСКОМБАНК",
       "api": "ТАСКОМБАНК",
       "nbu": "ТАСКОМБАНК",
-      "fund": "ТАСКОМБАНК"
+      "fund": "ТАСКОМБАНК",
+      "minfin": "ТАСКОМБАНК"
     },
     "active": {
       "dbf": true,
@@ -2852,6 +4304,15 @@
       "dbf": "1991-10-21",
       "api": "1991-10-21",
       "nbu": "1991-10-21"
+    },
+    "site": {
+      "fund": [
+        "https://tascombank.ua",
+        "http://www.tascombank.ua"
+      ],
+      "minfin": [
+        "http://www.tascombank.com.ua/"
+      ]
     }
   },
   {
@@ -2859,7 +4320,8 @@
     "name": {
       "dbf": "ТЕРРА БАНК",
       "api": "ТЕРРА БАНК",
-      "fund": "ТЕРРА БАНК"
+      "fund": "ТЕРРА БАНК",
+      "minfin": "ТЕРРА БАНК"
     },
     "active": {
       "dbf": false,
@@ -2869,6 +4331,11 @@
     "dateOpen": {
       "dbf": "1996-10-18",
       "api": "1996-10-18"
+    },
+    "site": {
+      "minfin": [
+        "http://www.terrabank.ua/"
+      ]
     }
   },
   {
@@ -2876,7 +4343,8 @@
     "name": {
       "dbf": "ТК КРЕДИТ",
       "api": "ТК КРЕДИТ",
-      "fund": "ТК КРЕДИТ"
+      "fund": "ТК КРЕДИТ",
+      "minfin": "ТК КРЕДИТ"
     },
     "active": {
       "dbf": false,
@@ -2886,6 +4354,11 @@
     "dateOpen": {
       "dbf": "1994-04-28",
       "api": "1994-04-28"
+    },
+    "site": {
+      "minfin": [
+        "http://www.tkcredit.kiev.ua/"
+      ]
     }
   },
   {
@@ -2896,7 +4369,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "ТРАСТ",
@@ -2913,6 +4389,9 @@
     "dateOpen": {
       "dbf": "2007-08-22",
       "api": "2007-08-22"
+    },
+    "site": {
+      "minfin": []
     }
   },
   {
@@ -2921,7 +4400,8 @@
       "dbf": "ТРАСТ-КАПІТАЛ",
       "api": "ТРАСТ-КАПІТАЛ",
       "nbu": "ТРАСТ-КАПІТАЛ",
-      "fund": "ТРАСТ-КАПІТАЛ"
+      "fund": "ТРАСТ-КАПІТАЛ",
+      "minfin": "ТРАСТ-КАПІТАЛ"
     },
     "active": {
       "dbf": true,
@@ -2932,6 +4412,14 @@
       "dbf": "2004-03-10",
       "api": "2004-03-10",
       "nbu": "2004-03-10"
+    },
+    "site": {
+      "fund": [
+        "http://www.tc-bank.com"
+      ],
+      "minfin": [
+        "http://www.tc-bank.com/ua.html"
+      ]
     }
   },
   {
@@ -2939,7 +4427,8 @@
     "name": {
       "dbf": "УКООПСПІЛКА",
       "api": "УКООПСПІЛКА",
-      "fund": "УКООПСПІЛКА"
+      "fund": "УКООПСПІЛКА",
+      "minfin": "УКООПСПІЛКА"
     },
     "active": {
       "dbf": false,
@@ -2949,6 +4438,11 @@
     "dateOpen": {
       "dbf": "1993-10-25",
       "api": "1993-10-25"
+    },
+    "site": {
+      "minfin": [
+        "http://www.bankukoopspilka.kiev.ua"
+      ]
     }
   },
   {
@@ -2956,7 +4450,8 @@
     "name": {
       "dbf": "УКРІНБАНК",
       "api": "УКРІНБАНК",
-      "fund": "УКРІНБАНК"
+      "fund": "УКРІНБАНК",
+      "minfin": "УКРІНБАНК"
     },
     "active": {
       "dbf": false,
@@ -2966,6 +4461,11 @@
     "dateOpen": {
       "dbf": "1991-10-02",
       "api": "1991-10-02"
+    },
+    "site": {
+      "minfin": [
+        "http://www.ukrinbank.com/"
+      ]
     }
   },
   {
@@ -2976,7 +4476,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "УКРАЇНСЬКА ФІНАНСОВА ГРУПА",
@@ -2986,7 +4489,10 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
@@ -2994,7 +4500,8 @@
       "dbf": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
       "api": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
       "nbu": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
-      "fund": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ"
+      "fund": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
+      "minfin": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ"
     },
     "active": {
       "dbf": true,
@@ -3005,6 +4512,14 @@
       "dbf": "2004-03-19",
       "api": "2004-03-19",
       "nbu": "2004-03-19"
+    },
+    "site": {
+      "fund": [
+        "http://www.ubrr.com.ua"
+      ],
+      "minfin": [
+        "http://www.ubrr.com.ua/"
+      ]
     }
   },
   {
@@ -3013,7 +4528,8 @@
       "dbf": "УКРАЇНСЬКИЙ КАПІТАЛ",
       "api": "УКРАЇНСЬКИЙ КАПІТАЛ",
       "nbu": "УКРАЇНСЬКИЙ КАПІТАЛ",
-      "fund": "УКРАЇНСЬКИЙ КАПІТАЛ"
+      "fund": "УКРАЇНСЬКИЙ КАПІТАЛ",
+      "minfin": "УКРАЇНСЬКИЙ КАПІТАЛ"
     },
     "active": {
       "dbf": true,
@@ -3024,6 +4540,14 @@
       "dbf": "1992-12-25",
       "api": "1992-12-25",
       "nbu": "1992-12-25"
+    },
+    "site": {
+      "fund": [
+        "http://www.ukrcapital.com.ua"
+      ],
+      "minfin": [
+        "http://www.ukrcapital.com.ua"
+      ]
     }
   },
   {
@@ -3034,14 +4558,18 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "УКРБІЗНЕСБАНК",
     "name": {
       "dbf": "УКРБІЗНЕСБАНК",
       "api": "УКРБІЗНЕСБАНК",
-      "fund": "УКРБІЗНЕСБАНК"
+      "fund": "УКРБІЗНЕСБАНК",
+      "minfin": "УКРБІЗНЕСБАНК"
     },
     "active": {
       "dbf": false,
@@ -3051,6 +4579,11 @@
     "dateOpen": {
       "dbf": "1993-05-19",
       "api": "1993-05-19"
+    },
+    "site": {
+      "minfin": [
+        "http://ubb.com.ua/"
+      ]
     }
   },
   {
@@ -3059,7 +4592,8 @@
       "dbf": "УКРБУДІНВЕСТБАНК",
       "api": "УКРБУДІНВЕСТБАНК",
       "nbu": "УКРБУДІНВЕСТБАНК",
-      "fund": "УКРБУДІНВЕСТБАНК"
+      "fund": "УКРБУДІНВЕСТБАНК",
+      "minfin": "УКРБУДІНВЕСТБАНК"
     },
     "active": {
       "dbf": true,
@@ -3070,6 +4604,15 @@
       "dbf": "2004-04-20",
       "api": "2004-04-20",
       "nbu": "2004-04-20"
+    },
+    "site": {
+      "fund": [
+        "https://ubib.com.ua",
+        "http://www.uci-bank.com"
+      ],
+      "minfin": [
+        "https://ubib.com.ua"
+      ]
     }
   },
   {
@@ -3078,7 +4621,8 @@
       "dbf": "УКРГАЗБАНК",
       "api": "УКРГАЗБАНК",
       "nbu": "УКРГАЗБАНК",
-      "fund": "УКРГАЗБАНК"
+      "fund": "УКРГАЗБАНК",
+      "minfin": "УКРГАЗБАНК"
     },
     "active": {
       "dbf": true,
@@ -3089,6 +4633,14 @@
       "dbf": "1993-07-21",
       "api": "1993-07-21",
       "nbu": "1993-07-21"
+    },
+    "site": {
+      "fund": [
+        "http://www.ukrgasbank.com"
+      ],
+      "minfin": [
+        "http://ukrgasbank.com/"
+      ]
     }
   },
   {
@@ -3096,7 +4648,8 @@
     "name": {
       "dbf": "УКРГАЗПРОМБАНК",
       "api": "УКРГАЗПРОМБАНК",
-      "fund": "УКРГАЗПРОМБАНК"
+      "fund": "УКРГАЗПРОМБАНК",
+      "minfin": "УКРГАЗПРОМБАНК"
     },
     "active": {
       "dbf": false,
@@ -3106,6 +4659,11 @@
     "dateOpen": {
       "dbf": "1996-03-27",
       "api": "1996-03-27"
+    },
+    "site": {
+      "minfin": [
+        "http://www.ugpb.com/"
+      ]
     }
   },
   {
@@ -3114,7 +4672,8 @@
       "dbf": "УКРЕКСІМБАНК",
       "api": "УКРЕКСІМБАНК",
       "nbu": "УКРЕКСІМБАНК",
-      "fund": "УКРЕКСІМБАНК"
+      "fund": "УКРЕКСІМБАНК",
+      "minfin": "УКРЕКСІМБАНК"
     },
     "active": {
       "dbf": true,
@@ -3125,6 +4684,14 @@
       "dbf": "1992-01-23",
       "api": "1992-01-23",
       "nbu": "1992-01-23"
+    },
+    "site": {
+      "fund": [
+        "http://www.eximb.com"
+      ],
+      "minfin": [
+        "https://www.eximb.com/ukr/personal/"
+      ]
     }
   },
   {
@@ -3132,7 +4699,8 @@
     "name": {
       "dbf": "УКРКОМУНБАНК",
       "api": "УКРКОМУНБАНК",
-      "fund": "УКРКОМУНБАНК"
+      "fund": "УКРКОМУНБАНК",
+      "minfin": "УКРКОМУНБАНК"
     },
     "active": {
       "dbf": false,
@@ -3142,6 +4710,11 @@
     "dateOpen": {
       "dbf": "1993-08-10",
       "api": "1993-08-10"
+    },
+    "site": {
+      "minfin": [
+        "http://www.abucb.com/"
+      ]
     }
   },
   {
@@ -3150,7 +4723,8 @@
       "dbf": "УКРСИББАНК",
       "api": "УКРСИББАНК",
       "nbu": "УКРСИББАНК",
-      "fund": "УКРСИББАНК"
+      "fund": "УКРСИББАНК",
+      "minfin": "УКРСИББАНК"
     },
     "active": {
       "dbf": true,
@@ -3161,6 +4735,14 @@
       "dbf": "1991-10-28",
       "api": "1991-10-28",
       "nbu": "1991-10-28"
+    },
+    "site": {
+      "fund": [
+        "http://www.ukrsibbank.com"
+      ],
+      "minfin": [
+        "https://my.ukrsibbank.com/ua/personal/"
+      ]
     }
   },
   {
@@ -3169,7 +4751,8 @@
       "dbf": "УКРСОЦБАНК",
       "api": "УКРСОЦБАНК",
       "nbu": "УКРСОЦБАНК",
-      "fund": "УКРСОЦБАНК"
+      "fund": "УКРСОЦБАНК",
+      "minfin": "УКРСОЦБАНК"
     },
     "active": {
       "dbf": true,
@@ -3180,6 +4763,14 @@
       "dbf": "1991-09-27",
       "api": "1991-09-27",
       "nbu": "1991-09-27"
+    },
+    "site": {
+      "fund": [
+        "https://www.ukrsotsbank.com"
+      ],
+      "minfin": [
+        "https://www.ukrsotsbank.com/"
+      ]
     }
   },
   {
@@ -3188,7 +4779,8 @@
       "dbf": "УНІВЕРСАЛ БАНК",
       "api": "УНІВЕРСАЛ БАНК",
       "nbu": "УНІВЕРСАЛ БАНК",
-      "fund": "УНІВЕРСАЛ БАНК"
+      "fund": "УНІВЕРСАЛ БАНК",
+      "minfin": "УНІВЕРСАЛ БАНК"
     },
     "active": {
       "dbf": true,
@@ -3199,6 +4791,14 @@
       "dbf": "1994-01-20",
       "api": "1994-01-20",
       "nbu": "1994-01-20"
+    },
+    "site": {
+      "fund": [
+        "http://www.universalbank.com.ua"
+      ],
+      "minfin": [
+        "http://universalbank.com.ua/"
+      ]
     }
   },
   {
@@ -3206,7 +4806,8 @@
     "name": {
       "dbf": "УНІКОМБАНК",
       "api": "УНІКОМБАНК",
-      "fund": "УНІКОМБАНК"
+      "fund": "УНІКОМБАНК",
+      "minfin": "УНІКОМБАНК"
     },
     "active": {
       "dbf": false,
@@ -3216,6 +4817,11 @@
     "dateOpen": {
       "dbf": "2002-10-28",
       "api": "2002-10-28"
+    },
+    "site": {
+      "minfin": [
+        "http://www.unicombank.com.ua"
+      ]
     }
   },
   {
@@ -3223,7 +4829,8 @@
     "name": {
       "dbf": "УПБ",
       "api": "УПБ",
-      "fund": "УПБ"
+      "fund": "УПБ",
+      "minfin": "УПБ"
     },
     "active": {
       "dbf": false,
@@ -3233,6 +4840,11 @@
     "dateOpen": {
       "dbf": "1992-01-30",
       "api": "1992-01-30"
+    },
+    "site": {
+      "minfin": [
+        "http://upb.ua/"
+      ]
     }
   },
   {
@@ -3250,6 +4862,22 @@
     "dateOpen": {
       "dbf": "2003-11-12",
       "api": "2003-11-12"
+    },
+    "site": {
+      "minfin": []
+    }
+  },
+  {
+    "id": "УФС-БАНК",
+    "name": {
+      "minfin": "УФС-БАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.ufw-bank.com/"
+      ]
     }
   },
   {
@@ -3257,7 +4885,8 @@
     "name": {
       "dbf": "ФІДОБАНК",
       "api": "ФІДОБАНК",
-      "fund": "ФІДОБАНК"
+      "fund": "ФІДОБАНК",
+      "minfin": "ФІДОБАНК"
     },
     "active": {
       "dbf": false,
@@ -3267,13 +4896,19 @@
     "dateOpen": {
       "dbf": "1991-10-02",
       "api": "1991-10-02"
+    },
+    "site": {
+      "minfin": [
+        "https://fidobank.ua"
+      ]
     }
   },
   {
     "id": "ФІНАНС БАНК",
     "name": {
       "dbf": "ФІНАНС БАНК",
-      "api": "ФІНАНС БАНК"
+      "api": "ФІНАНС БАНК",
+      "minfin": "ФІНАНС БАНК"
     },
     "active": {
       "dbf": false,
@@ -3282,6 +4917,11 @@
     "dateOpen": {
       "dbf": "1992-01-20",
       "api": "1992-01-20"
+    },
+    "site": {
+      "minfin": [
+        "http://www.financebank.com.ua/"
+      ]
     }
   },
   {
@@ -3289,7 +4929,8 @@
     "name": {
       "dbf": "ФІНАНСИ ТА КРЕДИТ",
       "api": "ФІНАНСИ ТА КРЕДИТ",
-      "fund": "ФІНАНСИ ТА КРЕДИТ"
+      "fund": "ФІНАНСИ ТА КРЕДИТ",
+      "minfin": "ФІНАНСИ ТА КРЕДИТ"
     },
     "active": {
       "dbf": false,
@@ -3299,6 +4940,11 @@
     "dateOpen": {
       "dbf": "1991-10-30",
       "api": "1991-10-30"
+    },
+    "site": {
+      "minfin": [
+        "http://www.fcbank.com.ua/ru/"
+      ]
     }
   },
   {
@@ -3307,7 +4953,8 @@
       "dbf": "ФІНАНСОВА ІНІЦІАТИВА",
       "api": "ФІНАНСОВА ІНІЦІАТИВА",
       "nbu": "ФІНАНСОВА ІНІЦІАТИВА",
-      "fund": "ФІНАНСОВА ІНІЦІАТИВА"
+      "fund": "ФІНАНСОВА ІНІЦІАТИВА",
+      "minfin": "ФІНАНСОВА ІНІЦІАТИВА"
     },
     "active": {
       "dbf": true,
@@ -3318,6 +4965,24 @@
       "dbf": "2005-01-19",
       "api": "2005-01-19",
       "nbu": "2005-01-19"
+    },
+    "site": {
+      "minfin": [
+        "http://www.the-bank.com.ua/"
+      ]
+    }
+  },
+  {
+    "id": "ФІНАНСОВИЙ ПАРТНЕР",
+    "name": {
+      "minfin": "ФІНАНСОВИЙ ПАРТНЕР"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.bank-fp.com.ua/"
+      ]
     }
   },
   {
@@ -3325,7 +4990,8 @@
     "name": {
       "dbf": "ФІНБАНК",
       "api": "ФІНБАНК",
-      "fund": "ФІНБАНК"
+      "fund": "ФІНБАНК",
+      "minfin": "ФІНБАНК"
     },
     "active": {
       "dbf": false,
@@ -3335,6 +5001,24 @@
     "dateOpen": {
       "dbf": "1993-12-24",
       "api": "1993-12-24"
+    },
+    "site": {
+      "minfin": [
+        "http://www.finbank.odessa.ua/"
+      ]
+    }
+  },
+  {
+    "id": "ФІНЕКСБАНК",
+    "name": {
+      "minfin": "ФІНЕКСБАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.finexbank.com.ua/"
+      ]
     }
   },
   {
@@ -3342,7 +5026,8 @@
     "name": {
       "dbf": "ФІНРОСТБАНК",
       "api": "ФІНРОСТБАНК",
-      "fund": "ФІНРОСТБАНК"
+      "fund": "ФІНРОСТБАНК",
+      "minfin": "ФІНРОСТБАНК"
     },
     "active": {
       "dbf": false,
@@ -3352,6 +5037,11 @@
     "dateOpen": {
       "dbf": "1993-01-29",
       "api": "1993-01-29"
+    },
+    "site": {
+      "minfin": [
+        "http://www.frb.com.ua/"
+      ]
     }
   },
   {
@@ -3359,7 +5049,8 @@
     "name": {
       "dbf": "ФОРТУНА-БАНК",
       "api": "ФОРТУНА-БАНК",
-      "fund": "ФОРТУНА-БАНК"
+      "fund": "ФОРТУНА-БАНК",
+      "minfin": "ФОРТУНА-БАНК"
     },
     "active": {
       "dbf": false,
@@ -3369,6 +5060,24 @@
     "dateOpen": {
       "dbf": "2002-10-17",
       "api": "2002-10-17"
+    },
+    "site": {
+      "minfin": [
+        "http://www.fortuna-bank.ua"
+      ]
+    }
+  },
+  {
+    "id": "ФОРУМ БАНК",
+    "name": {
+      "minfin": "ФОРУМ БАНК"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": [
+        "http://www.forum.ua"
+      ]
     }
   },
   {
@@ -3376,7 +5085,8 @@
     "name": {
       "dbf": "ХРЕЩАТИК",
       "api": "ХРЕЩАТИК",
-      "fund": "ХРЕЩАТИК"
+      "fund": "ХРЕЩАТИК",
+      "minfin": "ХРЕЩАТИК"
     },
     "active": {
       "dbf": false,
@@ -3386,13 +5096,19 @@
     "dateOpen": {
       "dbf": "1993-05-19",
       "api": "1993-05-19"
+    },
+    "site": {
+      "minfin": [
+        "http://www.xcitybank.com.ua/"
+      ]
     }
   },
   {
     "id": "ЦЕНТР",
     "name": {
       "dbf": "ЦЕНТР",
-      "fund": "ЦЕНТР"
+      "fund": "ЦЕНТР",
+      "minfin": "ЦЕНТР"
     },
     "active": {
       "dbf": true,
@@ -3400,6 +5116,14 @@
     },
     "dateOpen": {
       "dbf": "2010-06-16"
+    },
+    "site": {
+      "fund": [
+        "http://www.bankcenter.com.ua"
+      ],
+      "minfin": [
+        "http://www.bankcenter.com.ua/ua/"
+      ]
     }
   },
   {
@@ -3410,7 +5134,21 @@
     "active": {
       "fund": false
     },
-    "dateOpen": {}
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
+  },
+  {
+    "id": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ",
+    "name": {
+      "minfin": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "site": {
+      "minfin": []
+    }
   },
   {
     "id": "ЮНІСОН",
@@ -3427,6 +5165,9 @@
     "dateOpen": {
       "dbf": "2013-02-08",
       "api": "2013-02-08"
+    },
+    "site": {
+      "minfin": []
     }
   },
   {
@@ -3435,7 +5176,8 @@
       "dbf": "ЮНЕКС БАНК",
       "api": "ЮНЕКС БАНК",
       "nbu": "ЮНЕКС БАНК",
-      "fund": "ЮНЕКС БАНК"
+      "fund": "ЮНЕКС БАНК",
+      "minfin": "ЮНЕКС БАНК"
     },
     "active": {
       "dbf": true,
@@ -3446,6 +5188,14 @@
       "dbf": "1993-12-03",
       "api": "1993-12-03",
       "nbu": "1993-12-03"
+    },
+    "site": {
+      "fund": [
+        "http://www.unexbank.com.ua"
+      ],
+      "minfin": [
+        "http://unexbank.ua/"
+      ]
     }
   },
   {
@@ -3453,7 +5203,8 @@
     "name": {
       "dbf": "ЮСБ БАНК",
       "api": "ЮСБ БАНК",
-      "fund": "ЮСБ БАНК"
+      "fund": "ЮСБ БАНК",
+      "minfin": "ЮСБ БАНК"
     },
     "active": {
       "dbf": false,
@@ -3463,6 +5214,11 @@
     "dateOpen": {
       "dbf": "1994-06-23",
       "api": "1994-06-23"
+    },
+    "site": {
+      "minfin": [
+        "https://unionstandard.bank/ru/"
+      ]
     }
   }
 ]
