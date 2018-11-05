@@ -72,6 +72,7 @@ function combineBanks() {
             },
             dateIssue: {
                 api: (apiBanks[id] || {}).dateIssue,
+                fund: (fundBanks[id] || {}).dateIssue,
             },
             site: {
                 fund: (fundBanks[id] || {}).site,

@@ -31,7 +31,8 @@ class AppRatings extends Component {
                 site: (bank.site.minfin || [])[0],
                 link: bank.internal.link.minfin,
                 dateOpen: bank.dateOpen.dbf,
-                dateIssue: bank.dateIssue.api
+                dateIssue: bank.dateIssue.api,
+                dateIssueFund: bank.dateIssue.fund
             };
         }).filter(bank => bank.name), 'id');
     }
@@ -41,6 +42,7 @@ class AppRatings extends Component {
         const dates = Object.keys(this.state.ratings).sort().reverse();
         const openDates = {};
         const issueDates = {};
+        const fundIssueDates = {};
         _.forOwn(this.state.banks, (bank, bankId) => dates.forEach(date => {
             if (bank.dateOpen && bank.dateOpen < date) {
                 openDates[bankId] = date;
@@ -48,7 +50,11 @@ class AppRatings extends Component {
             if (bank.dateIssue && bank.dateIssue < date) {
                 issueDates[bankId] = date;
             }
+            if (bank.dateIssueFund && bank.dateIssueFund < date) {
+                fundIssueDates[bankId] = date;
+            }
         }));
+        console.log(fundIssueDates);
 
         const latestRating = {};
         _.forOwn(this.state.ratings, (dateRating, date) => {
@@ -96,7 +102,7 @@ class AppRatings extends Component {
                             <td><a href={this.state.banks[bankId].link}>{this.state.banks[bankId].name}</a></td>
                             <td><a href={this.state.banks[bankId].site}>{((this.state.banks[bankId].site || '').match(/\/\/([^/]+)/) || [])[1]}</a></td>
                             {dates.map(date => (
-                                <td style={this.styleForCell(bankId, date, openDates, issueDates)}>{this.state.ratings[date][bankId] || '-'}</td>
+                                <td style={this.styleForCell(bankId, date, openDates, issueDates, fundIssueDates)}>{this.state.ratings[date][bankId] || '-'}</td>
                             ))}
                         </tr>
                     ))}
@@ -106,11 +112,12 @@ class AppRatings extends Component {
         );
     }
 
-    styleForCell(bankId, date, openDates, issueDates) {
+    styleForCell(bankId, date, openDates, issueDates, fundIssueDates) {
         return {
             ...this.styleForRating(this.state.ratings[date][bankId]),
             ...this.styleForOpenDate(openDates[bankId] === date),
-            ...this.styleForIssueDate(issueDates[bankId] === date)
+            ...this.styleForIssueDate(issueDates[bankId] === date),
+            ...this.styleForFundIssueDate(fundIssueDates[bankId] === date)
         };
     }
 
@@ -125,6 +132,13 @@ class AppRatings extends Component {
         return isIssueDate ? {
             borderColor: 'red',
             borderWidth: 3
+        } : {};
+    }
+
+    styleForFundIssueDate(isIssueDate) {
+        return isIssueDate ? {
+            // https://css-tricks.com/stripes-css/
+            background: 'repeating-linear-gradient(45deg, pink, pink 5px, deeppink 5px, deeppink 10px)'
         } : {};
     }
 

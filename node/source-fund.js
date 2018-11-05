@@ -49,11 +49,12 @@ module.exports = {
             link: 1, id: 2, name: 3
         }).map(bank => {
             const htmlBank = ext.read('fund/banks/' + bank.id, 'http://www.fg.gov.ua' + bank.link);
-            // TODO: extract data from htmlBank
+            const dateIssue = _.min(regex.findManyValues(htmlBank, /<td[^>]*>Термін [^<]*<\/td>\s*<td[^>]*>[^<]*?(\d{2}\.\d{2}\.\d{4})[^<]*<\/td>/g).map(date => dates.format(date)));
             return {
                 id: parseInt(bank.id),
                 name: names.extractBankPureName(bank.name),
-                link: bank.link
+                link: bank.link,
+                dateIssue: dateIssue
             };
         });
         int.write('fund/banks-not-paying', banks);
