@@ -8,6 +8,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -23,6 +24,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "https://monobank.com.ua"
@@ -53,6 +55,9 @@
     "dateOpen": {
       "dbf": "2005-01-18",
       "api": "2005-01-18"
+    },
+    "dateIssue": {
+      "api": "2016-08-16"
     },
     "site": {
       "minfin": [
@@ -85,6 +90,9 @@
       "dbf": "2006-10-17",
       "api": "2006-10-17"
     },
+    "dateIssue": {
+      "api": "2014-11-17"
+    },
     "site": {
       "minfin": [
         "http://www.egb.kiev.ua/"
@@ -108,6 +116,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -125,6 +134,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -140,6 +150,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://europrombank.kiev.ua"
@@ -172,6 +183,9 @@
       "api": "2008-08-13",
       "nbu": "2008-08-13"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://mtb.ua",
@@ -203,6 +217,9 @@
       "dbf": "1991-10-22",
       "api": "1991-10-22",
       "nbu": "1991-10-22"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -238,6 +255,9 @@
       "dbf": "1994-03-29",
       "api": "1994-03-29"
     },
+    "dateIssue": {
+      "api": "2015-05-21"
+    },
     "site": {
       "minfin": [
         "http://imexbank.com.ua/"
@@ -269,6 +289,9 @@
       "dbf": "1992-03-31",
       "api": "1992-03-31"
     },
+    "dateIssue": {
+      "api": "2017-01-11"
+    },
     "site": {
       "minfin": [
         "http://www.investbank.com.ua/"
@@ -297,6 +320,9 @@
     "dateOpen": {
       "dbf": "2013-08-30",
       "api": "2013-08-30"
+    },
+    "dateIssue": {
+      "api": "2016-05-31"
     },
     "site": {
       "minfin": [
@@ -330,6 +356,9 @@
       "dbf": "1997-12-15",
       "api": "1997-12-15",
       "nbu": "1997-12-15"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -367,6 +396,9 @@
       "api": "1991-10-16",
       "nbu": "1991-10-16"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.industrialbank.ua"
@@ -393,6 +425,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -408,6 +441,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.inprombank.ua"
@@ -438,6 +472,9 @@
     "dateOpen": {
       "dbf": "1994-09-30",
       "api": "1994-09-30"
+    },
+    "dateIssue": {
+      "api": "2015-11-25"
     },
     "site": {
       "minfin": [
@@ -470,6 +507,9 @@
       "dbf": "1992-03-23",
       "api": "1992-03-23"
     },
+    "dateIssue": {
+      "api": "2014-07-23"
+    },
     "site": {
       "minfin": [
         "http://www.interbank.kiev.ua/"
@@ -501,6 +541,9 @@
       "dbf": "2011-06-14",
       "api": "2011-06-14"
     },
+    "dateIssue": {
+      "api": "2015-01-16"
+    },
     "site": {
       "minfin": [
         "http://intercreditbank.com.ua"
@@ -524,6 +567,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -550,6 +594,9 @@
       "dbf": "1992-10-30",
       "api": "1992-10-30",
       "nbu": "1992-10-30"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -585,6 +632,9 @@
       "dbf": "2009-03-05",
       "api": "2009-03-05"
     },
+    "dateIssue": {
+      "api": "2016-02-25"
+    },
     "site": {
       "minfin": [
         "http://avantbank.ua/"
@@ -617,6 +667,9 @@
       "api": "1993-12-24",
       "nbu": "1993-12-24"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.agrocombank.kiev.ua"
@@ -635,6 +688,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.iboxbank.online/"
@@ -665,6 +719,9 @@
     "dateOpen": {
       "dbf": "1993-07-07",
       "api": "1993-07-07"
+    },
+    "dateIssue": {
+      "api": "2014-08-29"
     },
     "site": {
       "minfin": [
@@ -698,6 +755,9 @@
       "dbf": "2008-06-04",
       "api": "2008-06-04",
       "nbu": "2008-06-04"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -733,6 +793,9 @@
       "dbf": "2006-01-10",
       "api": "2006-01-10"
     },
+    "dateIssue": {
+      "api": "2015-01-30"
+    },
     "site": {
       "minfin": [
         "http://www.axiomabank.com"
@@ -763,6 +826,9 @@
     "dateOpen": {
       "dbf": "2008-04-23",
       "api": "2008-04-23"
+    },
+    "dateIssue": {
+      "api": "2015-01-16"
     },
     "site": {
       "minfin": [
@@ -795,6 +861,9 @@
       "dbf": "2002-08-06",
       "api": "2002-08-06"
     },
+    "dateIssue": {
+      "api": "2014-12-23"
+    },
     "site": {
       "minfin": [
         "http://www.activebank.com.ua"
@@ -818,6 +887,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -844,6 +914,9 @@
       "dbf": "2012-10-26",
       "api": "2012-10-26",
       "nbu": "2012-10-26"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -881,6 +954,9 @@
       "api": "1991-10-21",
       "nbu": "1991-10-21"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "https://altbank.ua"
@@ -916,6 +992,9 @@
       "dbf": "1993-03-24",
       "api": "1993-03-24",
       "nbu": "1993-03-24"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -953,6 +1032,9 @@
       "api": "2007-11-28",
       "nbu": "2007-11-28"
     },
+    "dateIssue": {
+      "api": "2015-10-02"
+    },
     "site": {
       "fund": [
         "http://www.ap-bank.com",
@@ -978,6 +1060,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.apeksbank.com.ua"
@@ -1011,6 +1094,9 @@
       "api": "1993-06-23",
       "nbu": "1993-06-23"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.arkada.ua"
@@ -1037,6 +1123,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -1061,6 +1148,9 @@
     "dateOpen": {
       "dbf": "2002-08-06",
       "api": "2002-08-06"
+    },
+    "dateIssue": {
+      "api": "2016-12-15"
     },
     "site": {
       "minfin": [
@@ -1095,6 +1185,9 @@
       "api": "1991-10-30",
       "nbu": "1991-10-30"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.asviobank.ua"
@@ -1121,6 +1214,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -1138,6 +1232,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -1156,6 +1251,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.basis.com.ua/"
@@ -1188,6 +1284,9 @@
       "dbf": "2008-07-25",
       "api": "2008-07-25",
       "nbu": "2008-07-25"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -1225,6 +1324,9 @@
       "api": "2005-08-09",
       "nbu": "2005-08-09"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.bisbank.com.ua"
@@ -1261,6 +1363,9 @@
       "api": "2013-07-05",
       "nbu": "2013-07-05"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [],
       "minfin": [
@@ -1294,6 +1399,9 @@
       "dbf": "1992-03-10",
       "api": "1992-03-10",
       "nbu": "1992-03-10"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -1329,6 +1437,9 @@
       "dbf": "2006-08-04",
       "api": "2006-08-04"
     },
+    "dateIssue": {
+      "api": "2017-11-30"
+    },
     "site": {
       "minfin": [
         "http://www.bankboguslav.com.ua/"
@@ -1359,6 +1470,9 @@
     "dateOpen": {
       "dbf": "1994-03-18",
       "api": "1994-03-18"
+    },
+    "dateIssue": {
+      "api": "2015-12-10"
     },
     "site": {
       "minfin": []
@@ -1391,6 +1505,9 @@
       "api": "2002-10-17",
       "nbu": "2002-10-17"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.bankvostok.com.ua"
@@ -1415,6 +1532,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.grant.kharkov.ua/"
@@ -1436,6 +1554,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "https://www.zemcap.com/ru.html"
@@ -1467,6 +1586,9 @@
       "dbf": "1993-08-18",
       "api": "1993-08-18"
     },
+    "dateIssue": {
+      "api": "2014-12-04"
+    },
     "site": {
       "minfin": [
         "http://goldengate.kharkov.ua/"
@@ -1497,6 +1619,9 @@
     "dateOpen": {
       "dbf": "2004-06-30",
       "api": "2004-06-30"
+    },
+    "dateIssue": {
+      "api": "2015-02-27"
     },
     "site": {
       "minfin": [
@@ -1530,6 +1655,9 @@
       "api": "1993-07-07",
       "nbu": "1993-07-07"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.creditdnepr.com.ua"
@@ -1557,6 +1685,9 @@
       "dbf": "2013-06-14",
       "api": "2013-06-14"
     },
+    "dateIssue": {
+      "api": "2016-07-12"
+    },
     "site": {
       "minfin": []
     },
@@ -1582,6 +1713,9 @@
       "dbf": "1996-01-31",
       "api": "1996-01-31"
     },
+    "dateIssue": {
+      "api": "2015-08-31"
+    },
     "site": {
       "minfin": [
         "http://www.bnk.ua"
@@ -1603,6 +1737,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://bank.com.ua/"
@@ -1633,6 +1768,9 @@
       "dbf": "1996-09-26",
       "api": "1996-09-26"
     },
+    "dateIssue": {
+      "api": "2016-04-21"
+    },
     "site": {
       "minfin": []
     },
@@ -1648,6 +1786,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://bank-portal.com.ua/"
@@ -1671,6 +1810,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -1697,6 +1837,9 @@
       "api": "2011-05-24",
       "nbu": "2011-05-24"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.sichbank.com.ua"
@@ -1715,6 +1858,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://sf-bank.com.ua"
@@ -1736,6 +1880,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://stolychnyi.ua/"
@@ -1757,6 +1902,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://banktrust.com.ua/"
@@ -1789,6 +1935,9 @@
       "dbf": "1991-12-27",
       "api": "1991-12-27",
       "nbu": "1991-12-27"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -1826,6 +1975,9 @@
       "api": "2006-02-28",
       "nbu": "2006-02-28"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.bank-rs.com.ua"
@@ -1859,6 +2011,9 @@
       "dbf": "1994-01-31",
       "api": "1994-01-31"
     },
+    "dateIssue": {
+      "api": "2014-06-16"
+    },
     "site": {
       "minfin": []
     },
@@ -1874,6 +2029,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.unisonbank.com.ua/"
@@ -1904,6 +2060,9 @@
     "dateOpen": {
       "dbf": "1994-01-26",
       "api": "1994-01-26"
+    },
+    "dateIssue": {
+      "api": "2015-02-27"
     },
     "site": {
       "minfin": [
@@ -1937,6 +2096,9 @@
       "dbf": "2005-12-08",
       "api": "2005-12-08",
       "nbu": "2005-12-08"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -1972,6 +2134,9 @@
       "dbf": "1991-10-07",
       "api": "1991-10-07"
     },
+    "dateIssue": {
+      "api": "2014-06-11"
+    },
     "site": {
       "minfin": [
         "http://www.bankbb.com.ua/"
@@ -2004,6 +2169,9 @@
       "dbf": "1992-12-10",
       "api": "1992-12-10",
       "nbu": "1992-12-10"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -2039,6 +2207,9 @@
       "dbf": "1992-07-02",
       "api": "1992-07-02"
     },
+    "dateIssue": {
+      "api": "2015-03-19"
+    },
     "site": {
       "minfin": [
         "http://www.vab.ua/"
@@ -2067,6 +2238,7 @@
     "dateOpen": {
       "dbf": "1991-10-10"
     },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.vsbank.com.ua"
@@ -2101,6 +2273,9 @@
       "dbf": "2009-04-30",
       "api": "2009-04-30"
     },
+    "dateIssue": {
+      "api": "2015-12-21"
+    },
     "site": {
       "minfin": [
         "http://www.vbr-bank.com.ua/"
@@ -2131,6 +2306,9 @@
     "dateOpen": {
       "dbf": "2014-01-31",
       "api": "2014-01-31"
+    },
+    "dateIssue": {
+      "api": "2017-03-21"
     },
     "site": {
       "minfin": [
@@ -2165,6 +2343,9 @@
       "api": "2009-02-17",
       "nbu": "2009-02-17"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://vernumbank.com"
@@ -2191,6 +2372,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -2218,6 +2400,9 @@
       "api": "1992-11-11",
       "nbu": "1992-11-11"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.vtb.com.ua"
@@ -2244,6 +2429,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -2268,6 +2454,9 @@
     "dateOpen": {
       "dbf": "2013-10-04",
       "api": "2013-10-04"
+    },
+    "dateIssue": {
+      "api": "2017-09-29"
     },
     "site": {
       "minfin": [
@@ -2301,6 +2490,9 @@
       "dbf": "2007-11-29",
       "api": "2007-11-29",
       "nbu": "2007-11-29"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -2336,6 +2528,9 @@
       "dbf": "1992-01-09",
       "api": "1992-01-09"
     },
+    "dateIssue": {
+      "api": "2015-01-23"
+    },
     "site": {
       "minfin": [
         "http://www.greenbank.com.ua/"
@@ -2368,6 +2563,9 @@
       "api": "1991-10-29",
       "nbu": "1991-10-29"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.grant.kharkov.ua"
@@ -2388,6 +2586,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -2413,6 +2612,9 @@
       "dbf": "1993-11-17",
       "api": "1993-11-17"
     },
+    "dateIssue": {
+      "api": "2017-06-22"
+    },
     "site": {
       "minfin": [
         "http://www.diamantbank.ua/"
@@ -2434,6 +2636,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://dvbank.ua/"
@@ -2464,6 +2667,9 @@
     "dateOpen": {
       "dbf": "2003-11-27",
       "api": "2003-11-27"
+    },
+    "dateIssue": {
+      "api": "2014-04-15"
     },
     "site": {
       "minfin": [
@@ -2496,6 +2702,9 @@
       "dbf": "2006-02-15",
       "api": "2006-02-15"
     },
+    "dateIssue": {
+      "api": "2015-10-02"
+    },
     "site": {
       "minfin": [
         "http://deltabank.com.ua/"
@@ -2527,6 +2736,9 @@
       "dbf": "1992-07-10",
       "api": "1992-07-10"
     },
+    "dateIssue": {
+      "api": "2015-01-30"
+    },
     "site": {
       "minfin": [
         "http://www.bankdemark.com/"
@@ -2551,6 +2763,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.dzbank.com.ua/"
@@ -2574,6 +2787,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -2589,6 +2803,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "https://www.db.com/ukraine/"
@@ -2621,6 +2836,9 @@
       "api": "2009-06-19",
       "nbu": "2009-06-19"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.db.com/ukraine"
@@ -2639,6 +2857,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.dongorbank.com/"
@@ -2670,6 +2889,9 @@
       "dbf": "1991-12-26",
       "api": "1991-12-26"
     },
+    "dateIssue": {
+      "api": "2015-01-23"
+    },
     "site": {
       "minfin": [
         "http://www.expobank.ua/"
@@ -2691,6 +2913,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.expres-bank.ua"
@@ -2721,6 +2944,9 @@
     "dateOpen": {
       "dbf": "1991-10-31",
       "api": "1991-10-31"
+    },
+    "dateIssue": {
+      "api": "2015-06-11"
     },
     "site": {
       "minfin": [
@@ -2753,6 +2979,9 @@
       "dbf": "2006-12-28",
       "api": "2006-12-28"
     },
+    "dateIssue": {
+      "api": "2013-01-09"
+    },
     "site": {
       "minfin": [
         "http://www.rdbank.com.ua"
@@ -2784,6 +3013,9 @@
       "dbf": "1993-03-11",
       "api": "1993-03-11"
     },
+    "dateIssue": {
+      "api": "2014-07-23"
+    },
     "site": {
       "minfin": [
         "http://www.inkom.lutsk.ua"
@@ -2808,6 +3040,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.zembank.kharkov.ua/"
@@ -2840,6 +3073,9 @@
       "api": "1994-01-31",
       "nbu": "1994-01-31"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.zemcap.dp.ua"
@@ -2867,6 +3103,9 @@
     "dateOpen": {
       "dbf": "2008-05-16",
       "api": "2008-05-16"
+    },
+    "dateIssue": {
+      "api": "2015-05-12"
     },
     "site": {
       "minfin": [
@@ -2900,6 +3139,9 @@
       "dbf": "1993-12-03",
       "api": "1993-12-03",
       "nbu": "1993-12-03"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -2935,6 +3177,9 @@
       "dbf": "1991-10-31",
       "api": "1991-10-31"
     },
+    "dateIssue": {
+      "api": "2015-10-29"
+    },
     "site": {
       "minfin": [
         "http://bills95.wix.com/bank-capital"
@@ -2958,6 +3203,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -2982,6 +3228,9 @@
     "dateOpen": {
       "dbf": "1993-05-19",
       "api": "1993-05-19"
+    },
+    "dateIssue": {
+      "api": "2015-06-24"
     },
     "site": {
       "minfin": [
@@ -3014,6 +3263,9 @@
       "dbf": "1996-05-30",
       "api": "1996-05-30"
     },
+    "dateIssue": {
+      "api": "2015-07-16"
+    },
     "site": {
       "minfin": [
         "http://www.kruss.kiev.ua/"
@@ -3037,6 +3289,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -3063,6 +3316,9 @@
       "dbf": "1996-12-30",
       "api": "1996-12-30",
       "nbu": "1996-12-30"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -3098,6 +3354,9 @@
       "dbf": "1995-10-06",
       "api": "1995-10-06"
     },
+    "dateIssue": {
+      "api": "2016-08-11"
+    },
     "site": {
       "minfin": [
         "http://www.bankclassic.com"
@@ -3130,6 +3389,9 @@
       "dbf": "1992-12-16",
       "api": "1992-12-16",
       "nbu": "1992-12-16"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -3167,6 +3429,9 @@
       "api": "2006-08-07",
       "nbu": "2006-08-07"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.concord.ua"
@@ -3201,6 +3466,9 @@
       "dbf": "1993-05-18",
       "api": "1993-05-18"
     },
+    "dateIssue": {
+      "api": "2015-12-10"
+    },
     "site": {
       "minfin": [
         "http://www.kontrakt.ua/ru/"
@@ -3233,6 +3501,9 @@
       "dbf": "1993-02-10",
       "api": "1993-02-10",
       "nbu": "1993-02-10"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -3271,6 +3542,9 @@
       "api": "2006-08-28",
       "nbu": "2006-08-28"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.crediteurope.com.ua"
@@ -3295,6 +3569,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.creditdnepr.com.ua/"
@@ -3316,6 +3591,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.credit-optima.com.ua"
@@ -3348,6 +3624,9 @@
       "dbf": "2006-10-04",
       "api": "2006-10-04",
       "nbu": "2006-10-04"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -3383,6 +3662,9 @@
       "dbf": "1997-05-20",
       "api": "1997-05-20"
     },
+    "dateIssue": {
+      "api": "2015-06-02"
+    },
     "site": {
       "minfin": [
         "http://kreditprombank.com"
@@ -3415,6 +3697,9 @@
       "dbf": "1992-03-31",
       "api": "1992-03-31",
       "nbu": "1992-03-31"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -3452,6 +3737,9 @@
       "api": "2014-12-16",
       "nbu": "2014-12-16"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://cristalbank.com.ua"
@@ -3486,6 +3774,9 @@
       "dbf": "1993-11-24",
       "api": "1993-11-24"
     },
+    "dateIssue": {
+      "api": "2016-08-30"
+    },
     "site": {
       "minfin": [
         "http://www.ksgbank.com.ua/"
@@ -3516,6 +3807,9 @@
     "dateOpen": {
       "dbf": "1991-10-08",
       "api": "1991-10-08"
+    },
+    "dateIssue": {
+      "api": "2015-02-27"
     },
     "site": {
       "minfin": [
@@ -3549,6 +3843,9 @@
       "dbf": "1991-10-14",
       "api": "1991-10-14",
       "nbu": "1991-10-14"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -3586,6 +3883,9 @@
       "api": "2008-03-11",
       "nbu": "2008-03-11"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.ii-bank.com.ua"
@@ -3622,6 +3922,9 @@
       "api": "1993-07-23",
       "nbu": "1993-07-23"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.mistobank.com.ua"
@@ -3656,6 +3959,9 @@
       "dbf": "2006-05-06",
       "api": "2006-05-06"
     },
+    "dateIssue": {
+      "api": "2015-03-19"
+    },
     "site": {
       "minfin": [
         "http://www.citycommercebank.com/"
@@ -3688,6 +3994,9 @@
       "dbf": "1991-10-28",
       "api": "1991-10-28",
       "nbu": "1991-10-28"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -3725,6 +4034,9 @@
       "dbf": "2012-02-24",
       "api": "2012-02-24"
     },
+    "dateIssue": {
+      "api": "2015-02-10"
+    },
     "site": {
       "minfin": [
         "http://www.meliorbank.com"
@@ -3755,6 +4067,9 @@
     "dateOpen": {
       "dbf": "1992-11-18",
       "api": "1992-11-18"
+    },
+    "dateIssue": {
+      "api": "2014-06-12"
     },
     "site": {
       "minfin": [
@@ -3789,6 +4104,9 @@
       "api": "1993-07-12",
       "nbu": "1993-07-12"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.mbank.com.ua"
@@ -3813,6 +4131,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.mbank.kiev.ua/"
@@ -3837,6 +4156,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -3867,6 +4187,9 @@
       "dbf": "2007-08-10",
       "api": "2007-08-10",
       "nbu": "2007-08-10"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -3904,6 +4227,9 @@
       "api": "1993-11-05",
       "nbu": "1993-11-05"
     },
+    "dateIssue": {
+      "api": "2018-08-10"
+    },
     "site": {
       "fund": [
         "http://mtb.ua",
@@ -3939,6 +4265,9 @@
       "dbf": "1993-10-26",
       "api": "1993-10-26"
     },
+    "dateIssue": {
+      "api": "2015-06-04"
+    },
     "site": {
       "minfin": [
         "http://www.nadrabank.ua/site/page.php"
@@ -3960,6 +4289,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://nkbank.com.ua/"
@@ -3991,6 +4321,9 @@
       "dbf": "1993-11-09",
       "api": "1993-11-09"
     },
+    "dateIssue": {
+      "api": "2015-12-01"
+    },
     "site": {
       "minfin": [
         "http://www.jsbni.kiev.ua/"
@@ -4014,6 +4347,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -4031,6 +4365,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -4054,6 +4389,9 @@
     "dateOpen": {
       "dbf": "1993-09-21",
       "api": "1993-09-21"
+    },
+    "dateIssue": {
+      "api": "2017-03-07"
     },
     "site": {
       "minfin": []
@@ -4080,6 +4418,9 @@
       "dbf": "1992-04-06",
       "api": "1992-04-06"
     },
+    "dateIssue": {
+      "api": "2017-08-31"
+    },
     "site": {
       "minfin": [
         "http://www.banknew.dp.ua"
@@ -4103,6 +4444,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -4130,6 +4472,9 @@
       "api": "1991-10-14",
       "nbu": "1991-10-14"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.okcibank.com.ua"
@@ -4156,6 +4501,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -4179,6 +4525,9 @@
     "dateOpen": {
       "dbf": "1991-10-31",
       "api": "1991-10-31"
+    },
+    "dateIssue": {
+      "api": "2015-07-06"
     },
     "site": {
       "minfin": []
@@ -4206,6 +4555,9 @@
       "dbf": "1998-03-02",
       "api": "1998-03-02",
       "nbu": "1998-03-02"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -4241,6 +4593,9 @@
       "api": "1991-12-31",
       "nbu": "1991-12-31"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "minfin": [
         "http://www.oschadbank.ua/ua/"
@@ -4271,6 +4626,9 @@
     "dateOpen": {
       "dbf": "1991-10-03",
       "api": "1991-10-03"
+    },
+    "dateIssue": {
+      "api": "2014-09-26"
     },
     "site": {
       "minfin": [
@@ -4304,6 +4662,9 @@
       "api": "1993-12-03",
       "nbu": "1993-12-03"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.pivdenny.com"
@@ -4322,6 +4683,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.piraeusbank.ua"
@@ -4354,6 +4716,9 @@
       "api": "1994-01-31",
       "nbu": "1994-01-31"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.piraeusbank.ua"
@@ -4384,6 +4749,9 @@
       "api": "1997-06-20",
       "nbu": "1997-06-20"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.pinbank.ua"
@@ -4408,6 +4776,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.pcbu.com.ua/"
@@ -4440,6 +4809,9 @@
       "dbf": "1994-08-18",
       "api": "1994-08-18",
       "nbu": "1994-08-18"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -4477,6 +4849,9 @@
       "api": "1991-10-16",
       "nbu": "1991-10-16"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.poltavabank.com"
@@ -4512,6 +4887,9 @@
       "api": "2013-09-20",
       "nbu": "2013-09-20"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [],
       "minfin": []
@@ -4537,6 +4915,9 @@
     "dateOpen": {
       "dbf": "1991-10-17",
       "api": "1991-10-17"
+    },
+    "dateIssue": {
+      "api": "2015-01-30"
     },
     "site": {
       "minfin": [
@@ -4570,6 +4951,9 @@
       "dbf": "1992-12-29",
       "api": "1992-12-29",
       "nbu": "1992-12-29"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -4605,6 +4989,9 @@
       "dbf": "2001-07-30",
       "api": "2001-07-30"
     },
+    "dateIssue": {
+      "api": "2015-01-15"
+    },
     "site": {
       "minfin": [
         "http://www.prime-bank.kiev.ua/"
@@ -4628,6 +5015,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -4652,6 +5040,9 @@
     "dateOpen": {
       "dbf": "2007-07-24",
       "api": "2007-07-24"
+    },
+    "dateIssue": {
+      "api": "2016-02-10"
     },
     "site": {
       "minfin": [
@@ -4686,6 +5077,9 @@
       "api": "1992-03-19",
       "nbu": "1992-03-19"
     },
+    "dateIssue": {
+      "api": "2016-12-22"
+    },
     "site": {
       "minfin": [
         "http://privatbank.ua/"
@@ -4718,6 +5112,9 @@
       "dbf": "2000-12-28",
       "api": "2000-12-28",
       "nbu": "2000-12-28"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -4755,6 +5152,9 @@
       "api": "1992-08-26",
       "nbu": "1992-08-26"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.pib.com.ua"
@@ -4789,6 +5189,9 @@
       "dbf": "1993-08-25",
       "api": "1993-08-25"
     },
+    "dateIssue": {
+      "api": "2014-09-08"
+    },
     "site": {
       "minfin": [
         "http://www.peb.com.ua"
@@ -4820,6 +5223,9 @@
       "dbf": "1991-10-01",
       "api": "1991-10-01"
     },
+    "dateIssue": {
+      "api": "2015-04-15"
+    },
     "site": {
       "minfin": [
         "http://www.profinbank.com"
@@ -4850,6 +5256,9 @@
     "dateOpen": {
       "dbf": "2005-01-13",
       "api": "2005-01-13"
+    },
+    "dateIssue": {
+      "api": "2017-02-23"
     },
     "site": {
       "minfin": [
@@ -4884,6 +5293,9 @@
       "api": "1991-12-23",
       "nbu": "1991-12-23"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.fuib.com"
@@ -4908,6 +5320,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.pfb.com.ua/"
@@ -4940,6 +5353,9 @@
       "dbf": "1993-12-03",
       "api": "1993-12-03",
       "nbu": "1993-12-03"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -4975,6 +5391,9 @@
       "dbf": "2010-03-23",
       "api": "2010-03-23"
     },
+    "dateIssue": {
+      "api": "2015-11-09"
+    },
     "site": {
       "minfin": [
         "http://radicalbank.ua/"
@@ -5007,6 +5426,9 @@
       "dbf": "1992-03-27",
       "api": "1992-03-27",
       "nbu": "1992-03-27"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -5044,6 +5466,9 @@
       "api": "2015-06-25",
       "nbu": "2015-06-25"
     },
+    "dateIssue": {
+      "api": "2015-06-25"
+    },
     "site": {
       "fund": [],
       "minfin": [
@@ -5076,6 +5501,9 @@
       "dbf": "1991-10-29",
       "api": "1991-10-29"
     },
+    "dateIssue": {
+      "api": "2014-05-21"
+    },
     "site": {
       "minfin": [
         "http://realbank.com.ua"
@@ -5097,6 +5525,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "https://pumb.ua/ru"
@@ -5127,6 +5556,9 @@
     "dateOpen": {
       "dbf": "1991-10-07",
       "api": "1991-10-07"
+    },
+    "dateIssue": {
+      "api": "2017-12-19"
     },
     "site": {
       "minfin": [
@@ -5161,6 +5593,9 @@
       "api": "2013-09-06",
       "nbu": "2013-09-06"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [],
       "minfin": [
@@ -5185,6 +5620,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -5211,6 +5647,9 @@
       "api": "1998-05-11",
       "nbu": "1998-05-11"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [],
       "minfin": []
@@ -5227,6 +5666,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "https://www.citigroup.com/citi/about/countrypresence/ukraine.html"
@@ -5248,6 +5688,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.sichbank.com.ua/"
@@ -5280,6 +5721,9 @@
       "dbf": "2001-06-15",
       "api": "2001-06-15",
       "nbu": "2001-06-15"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -5318,6 +5762,9 @@
       "api": "2011-01-19",
       "nbu": "2011-01-19"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [],
       "minfin": [
@@ -5342,6 +5789,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -5369,6 +5817,9 @@
       "api": "1991-10-28",
       "nbu": "1991-10-28"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "https://skybank.pro"
@@ -5395,6 +5846,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -5419,6 +5871,9 @@
     "dateOpen": {
       "dbf": "2010-09-13",
       "api": "2010-09-13"
+    },
+    "dateIssue": {
+      "api": "2016-07-21"
     },
     "site": {
       "minfin": [
@@ -5450,6 +5905,9 @@
       "dbf": "2012-03-16",
       "api": "2012-03-16"
     },
+    "dateIssue": {
+      "api": "2016-04-22"
+    },
     "site": {
       "minfin": []
     },
@@ -5467,6 +5925,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -5491,6 +5950,9 @@
     "dateOpen": {
       "dbf": "2007-11-26",
       "api": "2007-11-26"
+    },
+    "dateIssue": {
+      "api": "2016-04-28"
     },
     "site": {
       "minfin": [
@@ -5522,6 +5984,9 @@
       "dbf": "1995-09-13",
       "api": "1995-09-13"
     },
+    "dateIssue": {
+      "api": "2015-09-09"
+    },
     "site": {
       "minfin": []
     },
@@ -5546,6 +6011,9 @@
     "dateOpen": {
       "dbf": "2008-12-31",
       "api": "2008-12-31"
+    },
+    "dateIssue": {
+      "api": "2015-06-18"
     },
     "site": {
       "minfin": [
@@ -5578,6 +6046,9 @@
       "dbf": "1991-12-31",
       "api": "1991-12-31"
     },
+    "dateIssue": {
+      "api": "2014-09-11"
+    },
     "site": {
       "minfin": [
         "http://www.oldbank.com"
@@ -5601,6 +6072,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -5625,6 +6097,9 @@
       "dbf": "1993-10-22",
       "api": "1993-10-22"
     },
+    "dateIssue": {
+      "api": "2015-09-17"
+    },
     "site": {
       "minfin": []
     },
@@ -5642,6 +6117,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -5657,6 +6133,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.vpbank.com.ua/"
@@ -5687,6 +6164,9 @@
     "dateOpen": {
       "dbf": "1991-10-24",
       "api": "1991-10-24"
+    },
+    "dateIssue": {
+      "api": "2013-03-20"
     },
     "site": {
       "minfin": [
@@ -5720,6 +6200,9 @@
       "dbf": "1991-10-21",
       "api": "1991-10-21",
       "nbu": "1991-10-21"
+    },
+    "dateIssue": {
+      "api": "2018-07-10"
     },
     "site": {
       "fund": [
@@ -5756,6 +6239,9 @@
       "dbf": "1996-10-18",
       "api": "1996-10-18"
     },
+    "dateIssue": {
+      "api": "2014-12-23"
+    },
     "site": {
       "minfin": [
         "http://www.terrabank.ua/"
@@ -5787,6 +6273,9 @@
       "dbf": "1994-04-28",
       "api": "1994-04-28"
     },
+    "dateIssue": {
+      "api": "2016-04-07"
+    },
     "site": {
       "minfin": [
         "http://www.tkcredit.kiev.ua/"
@@ -5810,6 +6299,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -5833,6 +6323,9 @@
     "dateOpen": {
       "dbf": "2007-08-22",
       "api": "2007-08-22"
+    },
+    "dateIssue": {
+      "api": "2016-12-29"
     },
     "site": {
       "minfin": []
@@ -5860,6 +6353,9 @@
       "dbf": "2004-03-10",
       "api": "2004-03-10",
       "nbu": "2004-03-10"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -5895,6 +6391,9 @@
       "dbf": "1993-10-25",
       "api": "1993-10-25"
     },
+    "dateIssue": {
+      "api": "2015-04-22"
+    },
     "site": {
       "minfin": [
         "http://www.bankukoopspilka.kiev.ua"
@@ -5926,6 +6425,9 @@
       "dbf": "1991-10-02",
       "api": "1991-10-02"
     },
+    "dateIssue": {
+      "api": "2016-03-22"
+    },
     "site": {
       "minfin": [
         "http://www.ukrinbank.com/"
@@ -5949,6 +6451,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -5966,6 +6469,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -5992,6 +6496,9 @@
       "dbf": "2004-03-19",
       "api": "2004-03-19",
       "nbu": "2004-03-19"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -6029,6 +6536,9 @@
       "api": "1992-12-25",
       "nbu": "1992-12-25"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.ukrcapital.com.ua"
@@ -6055,6 +6565,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -6079,6 +6590,9 @@
     "dateOpen": {
       "dbf": "1993-05-19",
       "api": "1993-05-19"
+    },
+    "dateIssue": {
+      "api": "2015-04-23"
     },
     "site": {
       "minfin": [
@@ -6112,6 +6626,9 @@
       "dbf": "2004-04-20",
       "api": "2004-04-20",
       "nbu": "2004-04-20"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -6150,6 +6667,9 @@
       "api": "1993-07-21",
       "nbu": "1993-07-21"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.ukrgasbank.com"
@@ -6184,6 +6704,9 @@
       "dbf": "1996-03-27",
       "api": "1996-03-27"
     },
+    "dateIssue": {
+      "api": "2015-09-14"
+    },
     "site": {
       "minfin": [
         "http://www.ugpb.com/"
@@ -6216,6 +6739,9 @@
       "dbf": "1992-01-23",
       "api": "1992-01-23",
       "nbu": "1992-01-23"
+    },
+    "dateIssue": {
+      "api": "2014-05-23"
     },
     "site": {
       "fund": [
@@ -6251,6 +6777,9 @@
       "dbf": "1993-08-10",
       "api": "1993-08-10"
     },
+    "dateIssue": {
+      "api": "2015-09-14"
+    },
     "site": {
       "minfin": [
         "http://www.abucb.com/"
@@ -6283,6 +6812,9 @@
       "dbf": "1991-10-28",
       "api": "1991-10-28",
       "nbu": "1991-10-28"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -6320,6 +6852,9 @@
       "api": "1991-09-27",
       "nbu": "1991-09-27"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "https://www.ukrsotsbank.com"
@@ -6356,6 +6891,9 @@
       "api": "1994-01-20",
       "nbu": "1994-01-20"
     },
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "fund": [
         "http://www.universalbank.com.ua"
@@ -6390,6 +6928,9 @@
       "dbf": "2002-10-28",
       "api": "2002-10-28"
     },
+    "dateIssue": {
+      "api": "2015-12-03"
+    },
     "site": {
       "minfin": [
         "http://www.unicombank.com.ua"
@@ -6421,6 +6962,9 @@
       "dbf": "1992-01-30",
       "api": "1992-01-30"
     },
+    "dateIssue": {
+      "api": "2015-08-28"
+    },
     "site": {
       "minfin": [
         "http://upb.ua/"
@@ -6451,6 +6995,9 @@
       "dbf": "2003-11-12",
       "api": "2003-11-12"
     },
+    "dateIssue": {
+      "api": "2014-11-10"
+    },
     "site": {
       "minfin": []
     },
@@ -6466,6 +7013,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.ufw-bank.com/"
@@ -6497,6 +7045,9 @@
       "dbf": "1991-10-02",
       "api": "1991-10-02"
     },
+    "dateIssue": {
+      "api": "2016-07-18"
+    },
     "site": {
       "minfin": [
         "https://fidobank.ua"
@@ -6525,6 +7076,9 @@
     "dateOpen": {
       "dbf": "1992-01-20",
       "api": "1992-01-20"
+    },
+    "dateIssue": {
+      "api": "2016-05-31"
     },
     "site": {
       "minfin": [
@@ -6556,6 +7110,9 @@
     "dateOpen": {
       "dbf": "1991-10-30",
       "api": "1991-10-30"
+    },
+    "dateIssue": {
+      "api": "2015-12-17"
     },
     "site": {
       "minfin": [
@@ -6590,6 +7147,9 @@
       "api": "2005-01-19",
       "nbu": "2005-01-19"
     },
+    "dateIssue": {
+      "api": "2015-06-23"
+    },
     "site": {
       "minfin": [
         "http://www.the-bank.com.ua/"
@@ -6611,6 +7171,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.bank-fp.com.ua/"
@@ -6642,6 +7203,9 @@
       "dbf": "1993-12-24",
       "api": "1993-12-24"
     },
+    "dateIssue": {
+      "api": "2017-04-27"
+    },
     "site": {
       "minfin": [
         "http://www.finbank.odessa.ua/"
@@ -6663,6 +7227,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.finexbank.com.ua/"
@@ -6693,6 +7258,9 @@
     "dateOpen": {
       "dbf": "1993-01-29",
       "api": "1993-01-29"
+    },
+    "dateIssue": {
+      "api": "2014-10-16"
     },
     "site": {
       "minfin": [
@@ -6725,6 +7293,9 @@
       "dbf": "2002-10-17",
       "api": "2002-10-17"
     },
+    "dateIssue": {
+      "api": "2017-02-21"
+    },
     "site": {
       "minfin": [
         "http://www.fortuna-bank.ua"
@@ -6746,6 +7317,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.forum.ua"
@@ -6777,6 +7349,9 @@
       "dbf": "1993-05-19",
       "api": "1993-05-19"
     },
+    "dateIssue": {
+      "api": "2016-06-02"
+    },
     "site": {
       "minfin": [
         "http://www.xcitybank.com.ua/"
@@ -6805,6 +7380,7 @@
     "dateOpen": {
       "dbf": "2010-06-16"
     },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.bankcenter.com.ua"
@@ -6831,6 +7407,7 @@
       "fund": false
     },
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -6846,6 +7423,7 @@
     },
     "active": {},
     "dateOpen": {},
+    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -6874,6 +7452,9 @@
       "dbf": "2013-02-08",
       "api": "2013-02-08"
     },
+    "dateIssue": {
+      "api": "2018-06-18"
+    },
     "site": {
       "minfin": []
     },
@@ -6900,6 +7481,9 @@
       "dbf": "1993-12-03",
       "api": "1993-12-03",
       "nbu": "1993-12-03"
+    },
+    "dateIssue": {
+      "api": null
     },
     "site": {
       "fund": [
@@ -6934,6 +7518,9 @@
     "dateOpen": {
       "dbf": "1994-06-23",
       "api": "1994-06-23"
+    },
+    "dateIssue": {
+      "api": "2015-12-24"
     },
     "site": {
       "minfin": [

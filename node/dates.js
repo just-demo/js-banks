@@ -2,7 +2,7 @@ let moment = require('moment');
 
 module.exports = {
     format(date) {
-        return date.split('.').reverse().map(part => part.trim()).join('-');
+        return date ? date.split('.').reverse().map(part => part.trim()).join('-') : null;
     },
 
     formatTimestamp(timestamp) {

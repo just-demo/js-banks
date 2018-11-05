@@ -70,6 +70,9 @@ function combineBanks() {
                 api: (apiBanks[id] || {}).dateOpen,
                 nbu: (nbuBanks[id] || {}).date
             },
+            dateIssue: {
+                api: (apiBanks[id] || {}).dateIssue,
+            },
             site: {
                 fund: (fundBanks[id] || {}).site,
                 minfin: [(minfinBanks[id] || {}).site].filter(site => site)

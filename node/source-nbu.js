@@ -37,6 +37,7 @@ module.exports = {
                 id: parseInt(record['NKB']),
                 name: name,
                 dateOpen: dates.format(record['D_OPEN']),
+                dateIssue: dates.format(record['D_STAN']),
                 // 'Нормальний', 'Режим ліквідації', 'Реорганізація', 'Неплатоспроможний'
                 active: ['Нормальний'.toUpperCase(), 'Реорганізація'.toUpperCase()].includes(record['N_STAN'].toUpperCase())
             };

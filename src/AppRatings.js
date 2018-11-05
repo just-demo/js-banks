@@ -30,7 +30,8 @@ class AppRatings extends Component {
                 name: bank.name.minfin,
                 site: (bank.site.minfin || [])[0],
                 link: bank.internal.link.minfin,
-                dateOpen: bank.dateOpen.dbf
+                dateOpen: bank.dateOpen.dbf,
+                dateIssue: bank.dateIssue.api
             };
         }).filter(bank => bank.name), 'id');
     }
@@ -39,9 +40,13 @@ class AppRatings extends Component {
         // http://www.fg.gov.ua/uchasnyky-fondu
         const dates = Object.keys(this.state.ratings).sort().reverse();
         const openDates = {};
+        const issueDates = {};
         _.forOwn(this.state.banks, (bank, bankId) => dates.forEach(date => {
             if (bank.dateOpen && bank.dateOpen < date) {
                 openDates[bankId] = date;
+            }
+            if (bank.dateIssue && bank.dateIssue < date) {
+                issueDates[bankId] = date;
             }
         }));
 
@@ -91,7 +96,7 @@ class AppRatings extends Component {
                             <td><a href={this.state.banks[bankId].link}>{this.state.banks[bankId].name}</a></td>
                             <td><a href={this.state.banks[bankId].site}>{((this.state.banks[bankId].site || '').match(/\/\/([^/]+)/) || [])[1]}</a></td>
                             {dates.map(date => (
-                                <td style={this.styleForCell(bankId, date, openDates)}>{this.state.ratings[date][bankId] || '-'}</td>
+                                <td style={this.styleForCell(bankId, date, openDates, issueDates)}>{this.state.ratings[date][bankId] || '-'}</td>
                             ))}
                         </tr>
                     ))}
@@ -101,16 +106,24 @@ class AppRatings extends Component {
         );
     }
 
-    styleForCell(bankId, date, openDates) {
+    styleForCell(bankId, date, openDates, issueDates) {
         return {
             ...this.styleForRating(this.state.ratings[date][bankId]),
-            ...this.styleForOpenDate(openDates[bankId] === date)
+            ...this.styleForOpenDate(openDates[bankId] === date),
+            ...this.styleForIssueDate(issueDates[bankId] === date)
         };
     }
 
     styleForOpenDate(isOpenDate) {
         return isOpenDate ? {
             borderColor: 'green',
+            borderWidth: 3
+        } : {};
+    }
+
+    styleForIssueDate(isIssueDate) {
+        return isIssueDate ? {
+            borderColor: 'red',
             borderWidth: 3
         } : {};
     }
