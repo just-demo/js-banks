@@ -128,13 +128,6 @@
     ]
   },
   {
-    "name": "ВіЕс Банк",
-    "date": "1999-09-02",
-    "site": [
-      "http://www.vsbank.com.ua"
-    ]
-  },
-  {
     "name": "Полікомбанк",
     "date": "1999-09-02",
     "site": [
@@ -404,13 +397,6 @@
     ]
   },
   {
-    "name": "БМ БАНК",
-    "date": "2006-03-02",
-    "site": [
-      "http://www.bmbank.com.ua"
-    ]
-  },
-  {
     "name": "БАНК ФОРВАРД",
     "date": "2006-05-19",
     "site": [
@@ -509,13 +495,6 @@
     "date": "2009-10-12",
     "site": [
       "http://www.db.com/ukraine"
-    ]
-  },
-  {
-    "name": "Центр",
-    "date": "2010-08-30",
-    "site": [
-      "http://www.bankcenter.com.ua"
     ]
   },
   {

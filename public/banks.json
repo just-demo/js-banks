@@ -1541,50 +1541,6 @@
     }
   },
   {
-    "id": "БАНК ГРАНТ",
-    "name": {
-      "minfin": "БАНК ГРАНТ"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://www.grant.kharkov.ua/"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 108
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/grant"
-      }
-    }
-  },
-  {
-    "id": "БАНК ЗЕМЕЛЬНИЙ КАПІТАЛ",
-    "name": {
-      "minfin": "БАНК ЗЕМЕЛЬНИЙ КАПІТАЛ"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "https://www.zemcap.com/ru.html"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 109
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/zemelnyi-kapital"
-      }
-    }
-  },
-  {
     "id": "БАНК ЗОЛОТІ ВОРОТА",
     "name": {
       "dbf": "БАНК ЗОЛОТІ ВОРОТА",
@@ -1750,28 +1706,6 @@
     }
   },
   {
-    "id": "БАНК ПІВДЕННИЙ",
-    "name": {
-      "minfin": "БАНК ПІВДЕННИЙ"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://bank.com.ua/"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 23
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/pivdenny"
-      }
-    }
-  },
-  {
     "id": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
     "name": {
       "dbf": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
@@ -1800,28 +1734,6 @@
     }
   },
   {
-    "id": "БАНК ПОРТАЛ",
-    "name": {
-      "minfin": "БАНК ПОРТАЛ"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://bank-portal.com.ua/"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 526
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/bankportal"
-      }
-    }
-  },
-  {
     "id": "БАНК РЕГІОНАЛЬНОГО РОЗВИТКУ",
     "name": {
       "fund": "БАНК РЕГІОНАЛЬНОГО РОЗВИТКУ"
@@ -1845,7 +1757,8 @@
       "dbf": "БАНК СІЧ",
       "api": "БАНК СІЧ",
       "nbu": "БАНК СІЧ",
-      "fund": "БАНК СІЧ"
+      "fund": "БАНК СІЧ",
+      "minfin": "БАНК СІЧ"
     },
     "active": {
       "dbf": true,
@@ -1864,11 +1777,17 @@
       "fund": [
         "http://www.sichbank.com.ua"
       ],
-      "minfin": []
+      "minfin": [
+        "http://www.sichbank.com.ua/"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 271
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bank-sich"
+      }
     }
   },
   {
@@ -1934,6 +1853,28 @@
       },
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/bank-trust"
+      }
+    }
+  },
+  {
+    "id": "БАНК ТРАСТ-КАПІТАЛ",
+    "name": {
+      "minfin": "БАНК ТРАСТ-КАПІТАЛ"
+    },
+    "active": {},
+    "dateOpen": {},
+    "dateIssue": {},
+    "site": {
+      "minfin": [
+        "http://www.tc-bank.com/ua.html"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 120
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/trust-capital"
       }
     }
   },
@@ -2104,28 +2045,16 @@
     "id": "БМ БАНК",
     "name": {
       "dbf": "БМ БАНК",
-      "api": "БМ БАНК",
-      "nbu": "БМ БАНК",
-      "fund": "БМ БАНК",
       "minfin": "БМ БАНК"
     },
     "active": {
-      "dbf": true,
-      "api": true,
-      "fund": true
+      "dbf": true
     },
     "dateOpen": {
-      "dbf": "2005-12-08",
-      "api": "2005-12-08",
-      "nbu": "2005-12-08"
+      "dbf": "2005-12-08"
     },
-    "dateIssue": {
-      "api": null
-    },
+    "dateIssue": {},
     "site": {
-      "fund": [
-        "http://www.bmbank.com.ua"
-      ],
       "minfin": [
         "http://www.bmbank.com.ua/"
       ]
@@ -2252,21 +2181,16 @@
     "id": "ВІЕС БАНК",
     "name": {
       "dbf": "ВІЕС БАНК",
-      "fund": "ВІЕС БАНК",
       "minfin": "ВІЕС БАНК"
     },
     "active": {
-      "dbf": true,
-      "fund": true
+      "dbf": true
     },
     "dateOpen": {
       "dbf": "1991-10-10"
     },
     "dateIssue": {},
     "site": {
-      "fund": [
-        "http://www.vsbank.com.ua"
-      ],
       "minfin": [
         "http://www.vsbank.com.ua/"
       ]
@@ -2578,7 +2502,8 @@
       "dbf": "ГРАНТ",
       "api": "ГРАНТ",
       "nbu": "ГРАНТ",
-      "fund": "ГРАНТ"
+      "fund": "ГРАНТ",
+      "minfin": "ГРАНТ"
     },
     "active": {
       "dbf": true,
@@ -2597,11 +2522,17 @@
       "fund": [
         "http://www.grant.kharkov.ua"
       ],
-      "minfin": []
+      "minfin": [
+        "http://www.grant.kharkov.ua/"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 108
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/grant"
+      }
     }
   },
   {
@@ -3096,7 +3027,8 @@
       "dbf": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
       "api": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
       "nbu": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
-      "fund": "ЗЕМЕЛЬНИЙ КАПІТАЛ"
+      "fund": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
+      "minfin": "ЗЕМЕЛЬНИЙ КАПІТАЛ"
     },
     "active": {
       "dbf": true,
@@ -3115,11 +3047,17 @@
       "fund": [
         "http://www.zemcap.dp.ua"
       ],
-      "minfin": []
+      "minfin": [
+        "https://www.zemcap.com/ru.html"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 109
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/zemelnyi-kapital"
+      }
     }
   },
   {
@@ -4705,7 +4643,8 @@
       "dbf": "ПІВДЕННИЙ",
       "api": "ПІВДЕННИЙ",
       "nbu": "ПІВДЕННИЙ",
-      "fund": "ПІВДЕННИЙ"
+      "fund": "ПІВДЕННИЙ",
+      "minfin": "ПІВДЕННИЙ"
     },
     "active": {
       "dbf": true,
@@ -4724,11 +4663,17 @@
       "fund": [
         "http://www.pivdenny.com"
       ],
-      "minfin": []
+      "minfin": [
+        "http://bank.com.ua/"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 23
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/pivdenny"
+      }
     }
   },
   {
@@ -4930,7 +4875,8 @@
       "dbf": "ПОРТАЛ",
       "api": "ПОРТАЛ",
       "nbu": "ПОРТАЛ",
-      "fund": "ПОРТАЛ"
+      "fund": "ПОРТАЛ",
+      "minfin": "ПОРТАЛ"
     },
     "active": {
       "dbf": true,
@@ -4947,11 +4893,17 @@
     },
     "site": {
       "fund": [],
-      "minfin": []
+      "minfin": [
+        "http://bank-portal.com.ua/"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 526
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bankportal"
+      }
     }
   },
   {
@@ -5746,28 +5698,6 @@
     }
   },
   {
-    "id": "СІЧ",
-    "name": {
-      "minfin": "СІЧ"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://www.sichbank.com.ua/"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 271
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/bank-sich"
-      }
-    }
-  },
-  {
     "id": "СБЕРБАНК",
     "name": {
       "dbf": "СБЕРБАНК",
@@ -6416,8 +6346,7 @@
       "dbf": "ТРАСТ-КАПІТАЛ",
       "api": "ТРАСТ-КАПІТАЛ",
       "nbu": "ТРАСТ-КАПІТАЛ",
-      "fund": "ТРАСТ-КАПІТАЛ",
-      "minfin": "ТРАСТ-КАПІТАЛ"
+      "fund": "ТРАСТ-КАПІТАЛ"
     },
     "active": {
       "dbf": true,
@@ -6436,17 +6365,11 @@
       "fund": [
         "http://www.tc-bank.com"
       ],
-      "minfin": [
-        "http://www.tc-bank.com/ua.html"
-      ]
+      "minfin": []
     },
     "internal": {
-      "id": {
-        "minfin": 120
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/trust-capital"
-      }
+      "id": {},
+      "link": {}
     }
   },
   {
@@ -7460,21 +7383,16 @@
     "id": "ЦЕНТР",
     "name": {
       "dbf": "ЦЕНТР",
-      "fund": "ЦЕНТР",
       "minfin": "ЦЕНТР"
     },
     "active": {
-      "dbf": true,
-      "fund": true
+      "dbf": true
     },
     "dateOpen": {
       "dbf": "2010-06-16"
     },
     "dateIssue": {},
     "site": {
-      "fund": [
-        "http://www.bankcenter.com.ua"
-      ],
       "minfin": [
         "http://www.bankcenter.com.ua/ua/"
       ]

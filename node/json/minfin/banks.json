@@ -138,18 +138,6 @@
     "site": "http://www.bankvostok.com.ua/"
   },
   {
-    "id": 108,
-    "name": "Банк Грант",
-    "link": "https://minfin.com.ua/ua/company/grant",
-    "site": "http://www.grant.kharkov.ua/"
-  },
-  {
-    "id": 109,
-    "name": "Банк Земельний Капітал",
-    "link": "https://minfin.com.ua/ua/company/zemelnyi-kapital",
-    "site": "https://www.zemcap.com/ru.html"
-  },
-  {
     "id": 134,
     "name": "Банк Золоті ворота",
     "link": "https://minfin.com.ua/ua/company/zolotye-vorota",
@@ -174,16 +162,10 @@
     "site": "http://www.bnk.ua"
   },
   {
-    "id": 23,
-    "name": "Банк Південний",
-    "link": "https://minfin.com.ua/ua/company/pivdenny",
-    "site": "http://bank.com.ua/"
-  },
-  {
-    "id": 526,
-    "name": "Банк Портал",
-    "link": "https://minfin.com.ua/ua/company/bankportal",
-    "site": "http://bank-portal.com.ua/"
+    "id": 271,
+    "name": "Банк Січ",
+    "link": "https://minfin.com.ua/ua/company/bank-sich",
+    "site": "http://www.sichbank.com.ua/"
   },
   {
     "id": 465,
@@ -202,6 +184,12 @@
     "name": "Банк Траст",
     "link": "https://minfin.com.ua/ua/company/bank-trust",
     "site": "http://banktrust.com.ua/"
+  },
+  {
+    "id": 120,
+    "name": "Банк Траст-капітал",
+    "link": "https://minfin.com.ua/ua/company/trust-capital",
+    "site": "http://www.tc-bank.com/ua.html"
   },
   {
     "id": 99,
@@ -292,6 +280,12 @@
     "name": "Глобус",
     "link": "https://minfin.com.ua/ua/company/globus",
     "site": "http://www.globusbank.com.ua/"
+  },
+  {
+    "id": 108,
+    "name": "Грант",
+    "link": "https://minfin.com.ua/ua/company/grant",
+    "site": "http://www.grant.kharkov.ua/"
   },
   {
     "id": 39,
@@ -400,6 +394,12 @@
     "name": "Земельний банк",
     "link": "https://minfin.com.ua/ua/company/zembank",
     "site": "http://www.zembank.kharkov.ua/"
+  },
+  {
+    "id": 109,
+    "name": "Земельний Капітал",
+    "link": "https://minfin.com.ua/ua/company/zemelnyi-kapital",
+    "site": "https://www.zemcap.com/ru.html"
   },
   {
     "id": 56,
@@ -714,6 +714,12 @@
     "site": "http://pivdencombank.com/"
   },
   {
+    "id": 23,
+    "name": "Південний",
+    "link": "https://minfin.com.ua/ua/company/pivdenny",
+    "site": "http://bank.com.ua/"
+  },
+  {
     "id": 150,
     "name": "Піреус Банк",
     "link": "https://minfin.com.ua/ua/company/piraeus-bank",
@@ -736,6 +742,12 @@
     "name": "Полтава-Банк",
     "link": "https://minfin.com.ua/ua/company/poltava-bank",
     "site": "http://www.poltavabank.com"
+  },
+  {
+    "id": 526,
+    "name": "Портал",
+    "link": "https://minfin.com.ua/ua/company/bankportal",
+    "site": "http://bank-portal.com.ua/"
   },
   {
     "id": 113,
@@ -870,12 +882,6 @@
     "site": "https://www.citigroup.com/citi/about/countrypresence/ukraine.html"
   },
   {
-    "id": 271,
-    "name": "Січ",
-    "link": "https://minfin.com.ua/ua/company/bank-sich",
-    "site": "http://www.sichbank.com.ua/"
-  },
-  {
     "id": 86,
     "name": "Скай Банк",
     "link": "https://minfin.com.ua/ua/company/skybank",
@@ -934,12 +940,6 @@
     "name": "ТК Кредит",
     "link": "https://minfin.com.ua/ua/company/tk-credit",
     "site": "http://www.tkcredit.kiev.ua/"
-  },
-  {
-    "id": 120,
-    "name": "Траст-капітал",
-    "link": "https://minfin.com.ua/ua/company/trust-capital",
-    "site": "http://www.tc-bank.com/ua.html"
   },
   {
     "id": 117,
