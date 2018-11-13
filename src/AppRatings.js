@@ -3,6 +3,7 @@ import './App.css';
 import _ from 'lodash';
 import 'bootstrap/dist/css/bootstrap.css'
 import Scale from './Scale';
+import t from './test';
 
 class AppRatings extends Component {
     constructor(props) {
@@ -38,6 +39,7 @@ class AppRatings extends Component {
     }
 
     render() {
+        console.log(t.hello());
         // http://www.fg.gov.ua/uchasnyky-fondu
         const dates = Object.keys(this.state.ratings).sort().reverse();
         const openDates = {};

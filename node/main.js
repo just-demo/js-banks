@@ -6,12 +6,16 @@ let utils = require('./utils');
 let names = require('./names');
 let assert = require('./assert');
 
-nbu.test();
+// nbu.test();
+let t = require('../src/test');
+console.log(t.hello());
+
+// nbu.saveAll();
 // fund.saveAll();
 // minfin.saveAll();
 // names.rebuildBankNames();
 
-combineBanks();
+// combineBanks();
 
 function compareGovApiBanks() {
     const dbfBanks = nbu.getBanksDBF();
