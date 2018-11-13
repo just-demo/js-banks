@@ -55,6 +55,7 @@ module.exports = {
         return banks;
     },
 
+    // TODO: fetch not-paying banks from https://bank.gov.ua/control/uk/publish/article?art_id=75535&cat_id=17823466, e.g. "Фінексбанк"
     saveAll() {
         this.saveBanksDBF();
         this.saveBanksAPI();

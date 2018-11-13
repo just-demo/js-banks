@@ -146,34 +146,13 @@
     }
   },
   {
-    "id": "ЄВРОПРОМБАНК",
-    "name": {
-      "minfin": "ЄВРОПРОМБАНК"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://europrombank.kiev.ua"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 94
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/europrombank"
-      }
-    }
-  },
-  {
     "id": "ЄПБ",
     "name": {
       "dbf": "ЄПБ",
       "api": "ЄПБ",
       "nbu": "ЄПБ",
-      "fund": "ЄПБ"
+      "fund": "ЄПБ",
+      "minfin": "ЄПБ"
     },
     "active": {
       "dbf": true,
@@ -194,11 +173,17 @@
         "http://europrombank.kiev.ua",
         "http://www.europrombank.com"
       ],
-      "minfin": []
+      "minfin": [
+        "http://europrombank.kiev.ua"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 94
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/europrombank"
+      }
     }
   },
   {
@@ -423,27 +408,12 @@
   {
     "id": "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК",
     "name": {
-      "fund": "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК"
+      "fund": "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК",
+      "minfin": "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК"
     },
     "active": {
       "fund": false
     },
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ІНПРОМБАНК",
-    "name": {
-      "minfin": "ІНПРОМБАНК"
-    },
-    "active": {},
     "dateOpen": {},
     "dateIssue": {},
     "site": {
@@ -663,7 +633,8 @@
       "dbf": "АЙБОКС БАНК",
       "api": "АЙБОКС БАНК",
       "nbu": "АЙБОКС БАНК",
-      "fund": "АЙБОКС БАНК"
+      "fund": "АЙБОКС БАНК",
+      "minfin": "АЙБОКС БАНК"
     },
     "active": {
       "dbf": true,
@@ -682,22 +653,6 @@
       "fund": [
         "http://www.agrocombank.kiev.ua"
       ],
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АЙБОКС БАНК (АГРОКОМБАНК)",
-    "name": {
-      "minfin": "АЙБОКС БАНК (АГРОКОМБАНК)"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
       "minfin": [
         "http://www.iboxbank.online/"
       ]
@@ -1616,7 +1571,8 @@
       "dbf": "БАНК КРЕДИТ ДНІПРО",
       "api": "БАНК КРЕДИТ ДНІПРО",
       "nbu": "БАНК КРЕДИТ ДНІПРО",
-      "fund": "БАНК КРЕДИТ ДНІПРО"
+      "fund": "БАНК КРЕДИТ ДНІПРО",
+      "minfin": "БАНК КРЕДИТ ДНІПРО"
     },
     "active": {
       "dbf": true,
@@ -1635,11 +1591,17 @@
       "fund": [
         "http://www.creditdnepr.com.ua"
       ],
-      "minfin": []
+      "minfin": [
+        "http://www.creditdnepr.com.ua/"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 43
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/credit-dnepr"
+      }
     }
   },
   {
@@ -1647,7 +1609,8 @@
     "name": {
       "dbf": "БАНК МИХАЙЛІВСЬКИЙ",
       "api": "БАНК МИХАЙЛІВСЬКИЙ",
-      "fund": "БАНК МИХАЙЛІВСЬКИЙ"
+      "fund": "БАНК МИХАЙЛІВСЬКИЙ",
+      "minfin": "БАНК МИХАЙЛІВСЬКИЙ"
     },
     "active": {
       "dbf": false,
@@ -1663,11 +1626,17 @@
       "fund": "2016-05-23"
     },
     "site": {
-      "minfin": []
+      "minfin": [
+        "http://www.mbank.kiev.ua/"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 472
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/mihailovskiy"
+      }
     }
   },
   {
@@ -1710,7 +1679,8 @@
     "name": {
       "dbf": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
       "api": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
-      "fund": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА"
+      "fund": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
+      "minfin": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА"
     },
     "active": {
       "dbf": false,
@@ -1726,11 +1696,17 @@
       "fund": "2016-03-18"
     },
     "site": {
-      "minfin": []
+      "minfin": [
+        "http://www.pcbu.com.ua/"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 90
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/pku"
+      }
     }
   },
   {
@@ -1787,94 +1763,6 @@
       },
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/bank-sich"
-      }
-    }
-  },
-  {
-    "id": "БАНК СОФІЙСЬКИЙ",
-    "name": {
-      "minfin": "БАНК СОФІЙСЬКИЙ"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://sf-bank.com.ua"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 465
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/sf"
-      }
-    }
-  },
-  {
-    "id": "БАНК СТОЛИЧНИЙ",
-    "name": {
-      "minfin": "БАНК СТОЛИЧНИЙ"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://stolychnyi.ua/"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 22
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/stolichnyi"
-      }
-    }
-  },
-  {
-    "id": "БАНК ТРАСТ",
-    "name": {
-      "minfin": "БАНК ТРАСТ"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://banktrust.com.ua/"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 126
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/bank-trust"
-      }
-    }
-  },
-  {
-    "id": "БАНК ТРАСТ-КАПІТАЛ",
-    "name": {
-      "minfin": "БАНК ТРАСТ-КАПІТАЛ"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://www.tc-bank.com/ua.html"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 120
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/trust-capital"
       }
     }
   },
@@ -1961,7 +1849,8 @@
     "name": {
       "dbf": "БАНК ФОРУМ",
       "api": "БАНК ФОРУМ",
-      "fund": "БАНК ФОРУМ"
+      "fund": "БАНК ФОРУМ",
+      "minfin": "БАНК ФОРУМ"
     },
     "active": {
       "dbf": false,
@@ -1977,32 +1866,16 @@
       "fund": "2014-03-14"
     },
     "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БАНК ЮНІСОН",
-    "name": {
-      "minfin": "БАНК ЮНІСОН"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
       "minfin": [
-        "http://www.unisonbank.com.ua/"
+        "http://www.forum.ua"
       ]
     },
     "internal": {
       "id": {
-        "minfin": 470
+        "minfin": 160
       },
       "link": {
-        "minfin": "https://minfin.com.ua/ua/company/unisonbank"
+        "minfin": "https://minfin.com.ua/ua/company/bank-forum"
       }
     }
   },
@@ -2759,34 +2632,13 @@
     }
   },
   {
-    "id": "ДОЙЧЕ БАНК",
-    "name": {
-      "minfin": "ДОЙЧЕ БАНК"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "https://www.db.com/ukraine/"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 565
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/db"
-      }
-    }
-  },
-  {
     "id": "ДОЙЧЕ БАНК ДБУ",
     "name": {
       "dbf": "ДОЙЧЕ БАНК ДБУ",
       "api": "ДОЙЧЕ БАНК ДБУ",
       "nbu": "ДОЙЧЕ БАНК ДБУ",
-      "fund": "ДОЙЧЕ БАНК ДБУ"
+      "fund": "ДОЙЧЕ БАНК ДБУ",
+      "minfin": "ДОЙЧЕ БАНК ДБУ"
     },
     "active": {
       "dbf": true,
@@ -2805,11 +2657,17 @@
       "fund": [
         "http://www.db.com/ukraine"
       ],
-      "minfin": []
+      "minfin": [
+        "https://www.db.com/ukraine/"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 565
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/db"
+      }
     }
   },
   {
@@ -3542,28 +3400,6 @@
     }
   },
   {
-    "id": "КРЕДИТ ДНІПРО",
-    "name": {
-      "minfin": "КРЕДИТ ДНІПРО"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://www.creditdnepr.com.ua/"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 43
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/credit-dnepr"
-      }
-    }
-  },
-  {
     "id": "КРЕДИТ ОПТИМА",
     "name": {
       "minfin": "КРЕДИТ ОПТИМА"
@@ -4110,28 +3946,6 @@
     }
   },
   {
-    "id": "МИХАЙЛІВСЬКИЙ",
-    "name": {
-      "minfin": "МИХАЙЛІВСЬКИЙ"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://www.mbank.kiev.ua/"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 472
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/mihailovskiy"
-      }
-    }
-  },
-  {
     "id": "МОРСЬКИЙ",
     "name": {
       "fund": "МОРСЬКИЙ",
@@ -4271,28 +4085,6 @@
     }
   },
   {
-    "id": "НАРОДНИЙ КАПІТАЛ",
-    "name": {
-      "minfin": "НАРОДНИЙ КАПІТАЛ"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://nkbank.com.ua/"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 199
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/narodniy-kapital"
-      }
-    }
-  },
-  {
     "id": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
     "name": {
       "dbf": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
@@ -4368,7 +4160,8 @@
     "name": {
       "dbf": "НК БАНК",
       "api": "НК БАНК",
-      "fund": "НК БАНК"
+      "fund": "НК БАНК",
+      "minfin": "НК БАНК"
     },
     "active": {
       "dbf": false,
@@ -4384,11 +4177,17 @@
       "fund": "2017-01-20"
     },
     "site": {
-      "minfin": []
+      "minfin": [
+        "http://nkbank.com.ua/"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 199
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/narodniy-kapital"
+      }
     }
   },
   {
@@ -4677,34 +4476,13 @@
     }
   },
   {
-    "id": "ПІРЕУС БАНК",
-    "name": {
-      "minfin": "ПІРЕУС БАНК"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://www.piraeusbank.ua"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 150
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/piraeus-bank"
-      }
-    }
-  },
-  {
     "id": "ПІРЕУС БАНК МКБ",
     "name": {
       "dbf": "ПІРЕУС БАНК МКБ",
       "api": "ПІРЕУС БАНК МКБ",
       "nbu": "ПІРЕУС БАНК МКБ",
-      "fund": "ПІРЕУС БАНК МКБ"
+      "fund": "ПІРЕУС БАНК МКБ",
+      "minfin": "ПІРЕУС БАНК МКБ"
     },
     "active": {
       "dbf": true,
@@ -4723,11 +4501,17 @@
       "fund": [
         "http://www.piraeusbank.ua"
       ],
-      "minfin": []
+      "minfin": [
+        "http://www.piraeusbank.ua"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 150
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/piraeus-bank"
+      }
     }
   },
   {
@@ -4766,28 +4550,6 @@
       },
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/fib"
-      }
-    }
-  },
-  {
-    "id": "ПЕТРОКОММЕРЦ-УКРАЇНА",
-    "name": {
-      "minfin": "ПЕТРОКОММЕРЦ-УКРАЇНА"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://www.pcbu.com.ua/"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 90
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/pku"
       }
     }
   },
@@ -5651,7 +5413,8 @@
       "dbf": "СІТІБАНК",
       "api": "СІТІБАНК",
       "nbu": "СІТІБАНК",
-      "fund": "СІТІБАНК"
+      "fund": "СІТІБАНК",
+      "minfin": "СІТІБАНК"
     },
     "active": {
       "dbf": true,
@@ -5668,22 +5431,6 @@
     },
     "site": {
       "fund": [],
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "СІТІБАНК (УКРАЇНА)",
-    "name": {
-      "minfin": "СІТІБАНК (УКРАЇНА)"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
       "minfin": [
         "https://www.citigroup.com/citi/about/countrypresence/ukraine.html"
       ]
@@ -5889,7 +5636,8 @@
     "name": {
       "dbf": "СОФІЙСЬКИЙ",
       "api": "СОФІЙСЬКИЙ",
-      "fund": "СОФІЙСЬКИЙ"
+      "fund": "СОФІЙСЬКИЙ",
+      "minfin": "СОФІЙСЬКИЙ"
     },
     "active": {
       "dbf": false,
@@ -5905,11 +5653,17 @@
       "fund": "2015-12-23"
     },
     "site": {
-      "minfin": []
+      "minfin": [
+        "http://sf-bank.com.ua"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 465
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/sf"
+      }
     }
   },
   {
@@ -5970,7 +5724,8 @@
     "name": {
       "dbf": "СП БАНК",
       "api": "СП БАНК",
-      "fund": "СП БАНК"
+      "fund": "СП БАНК",
+      "minfin": "СП БАНК"
     },
     "active": {
       "dbf": false,
@@ -5986,11 +5741,17 @@
       "fund": "2015-09-11"
     },
     "site": {
-      "minfin": []
+      "minfin": [
+        "http://www.vpbank.com.ua/"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 88
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/vpbank"
+      }
     }
   },
   {
@@ -6086,7 +5847,8 @@
     "name": {
       "dbf": "СТОЛИЧНИЙ",
       "api": "СТОЛИЧНИЙ",
-      "fund": "СТОЛИЧНИЙ"
+      "fund": "СТОЛИЧНИЙ",
+      "minfin": "СТОЛИЧНИЙ"
     },
     "active": {
       "dbf": false,
@@ -6102,11 +5864,17 @@
       "fund": "2015-07-10"
     },
     "site": {
-      "minfin": []
+      "minfin": [
+        "http://stolychnyi.ua/"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 22
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/stolichnyi"
+      }
     }
   },
   {
@@ -6125,28 +5893,6 @@
     "internal": {
       "id": {},
       "link": {}
-    }
-  },
-  {
-    "id": "СХІДНО-ПРОМИСЛОВИЙ БАНК",
-    "name": {
-      "minfin": "СХІДНО-ПРОМИСЛОВИЙ БАНК"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://www.vpbank.com.ua/"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 88
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/vpbank"
-      }
     }
   },
   {
@@ -6317,7 +6063,8 @@
     "name": {
       "dbf": "ТРАСТ",
       "api": "ТРАСТ",
-      "fund": "ТРАСТ"
+      "fund": "ТРАСТ",
+      "minfin": "ТРАСТ"
     },
     "active": {
       "dbf": false,
@@ -6333,11 +6080,17 @@
       "fund": "2016-12-07"
     },
     "site": {
-      "minfin": []
+      "minfin": [
+        "http://banktrust.com.ua/"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 126
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/bank-trust"
+      }
     }
   },
   {
@@ -6346,7 +6099,8 @@
       "dbf": "ТРАСТ-КАПІТАЛ",
       "api": "ТРАСТ-КАПІТАЛ",
       "nbu": "ТРАСТ-КАПІТАЛ",
-      "fund": "ТРАСТ-КАПІТАЛ"
+      "fund": "ТРАСТ-КАПІТАЛ",
+      "minfin": "ТРАСТ-КАПІТАЛ"
     },
     "active": {
       "dbf": true,
@@ -6365,11 +6119,17 @@
       "fund": [
         "http://www.tc-bank.com"
       ],
-      "minfin": []
+      "minfin": [
+        "http://www.tc-bank.com/ua.html"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 120
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/trust-capital"
+      }
     }
   },
   {
@@ -6989,7 +6749,8 @@
     "name": {
       "dbf": "УФС",
       "api": "УФС",
-      "fund": "УФС"
+      "fund": "УФС",
+      "minfin": "УФС"
     },
     "active": {
       "dbf": false,
@@ -7004,22 +6765,6 @@
       "api": "2014-11-10",
       "fund": "2014-08-15"
     },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "УФС-БАНК",
-    "name": {
-      "minfin": "УФС-БАНК"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.ufw-bank.com/"
@@ -7323,28 +7068,6 @@
     }
   },
   {
-    "id": "ФОРУМ БАНК",
-    "name": {
-      "minfin": "ФОРУМ БАНК"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://www.forum.ua"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 160
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/bank-forum"
-      }
-    }
-  },
-  {
     "id": "ХРЕЩАТИК",
     "name": {
       "dbf": "ХРЕЩАТИК",
@@ -7409,7 +7132,8 @@
   {
     "id": "ЧБРР",
     "name": {
-      "fund": "ЧБРР"
+      "fund": "ЧБРР",
+      "minfin": "ЧБРР"
     },
     "active": {
       "fund": false
@@ -7418,22 +7142,6 @@
     "dateIssue": {
       "fund": "2015-09-04"
     },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ",
-    "name": {
-      "minfin": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
     "site": {
       "minfin": []
     },
@@ -7451,7 +7159,8 @@
     "name": {
       "dbf": "ЮНІСОН",
       "api": "ЮНІСОН",
-      "fund": "ЮНІСОН"
+      "fund": "ЮНІСОН",
+      "minfin": "ЮНІСОН"
     },
     "active": {
       "dbf": false,
@@ -7467,11 +7176,17 @@
       "fund": "2016-04-28"
     },
     "site": {
-      "minfin": []
+      "minfin": [
+        "http://www.unisonbank.com.ua/"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 470
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/unisonbank"
+      }
     }
   },
   {

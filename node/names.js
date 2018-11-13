@@ -1,5 +1,6 @@
 let int = require('./internal');
 let assert = require('./assert');
+let _ = require('lodash');
 
 module.exports = {
     bankNames: null,
@@ -7,7 +8,14 @@ module.exports = {
     bankName(name) {
         this.bankNames = this.bankNames || loadBankNames();
         name = name.toUpperCase();
-        return this.bankNames[name] || name.replace(/\s*-\s*/g, '-');
+        return this.bankNames[name] ||
+            this.bankNames[name + ' БАНК'] ||
+            this.bankNames['БАНК ' + name] ||
+            this.bankNames[name.replace(/^БАНК /, '')] ||
+            this.bankNames[name.replace(/^БАНК /, '') + ' БАНК'] ||
+            this.bankNames[name.replace(/ БАНК$/, '')] ||
+            this.bankNames['БАНК ' + name.replace(/ БАНК$/, '')] ||
+            name.replace(/\s*-\s*/g, '-');
     },
 
     siteName(site) {
@@ -24,9 +32,7 @@ module.exports = {
                 const name4 = name3.replace(/-/g, ' ');
                 [name1, name2, name3, name4].forEach(name => sameNames.add(name));
             });
-            if (sameNames.size > 1) {
-                names.push(Array.from(sameNames));
-            }
+            names.push(Array.from(sameNames));
         });
         names.sort((a, b) => a[0] > b[0] ? 1 : a[0] < b[0] ? -1 : 0);
         int.write('names/banks', names);
@@ -39,9 +45,23 @@ module.exports = {
 };
 
 function loadBankNames() {
-    const names = {};
-    int.read('names/banks').forEach(sameNames => {
-        sameNames.forEach(name => names[name.toUpperCase()] = sameNames[0]);
+    const names = toLookupMap(int.read('names/banks'));
+    const namesManual = toLookupMap(int.read('names/banks-manual'));
+    _.forOwn(namesManual, (valueManual, keyManual) => {
+        _.forOwn(names, (value, key) => {
+            if (value === keyManual) {
+                names[key] = valueManual;
+            }
+        });
+        names[keyManual] = valueManual;
     });
     return names;
+}
+
+function toLookupMap(values) {
+    const map = {};
+    values.forEach(sameValues => {
+        sameValues.forEach(value => map[value.toUpperCase()] = sameValues[0]);
+    });
+    return map;
 }
