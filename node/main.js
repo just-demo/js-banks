@@ -6,7 +6,7 @@ let utils = require('./utils');
 let names = require('./names');
 let assert = require('./assert');
 
-// nbu.saveAll();
+nbu.test();
 // fund.saveAll();
 // minfin.saveAll();
 // names.rebuildBankNames();
@@ -68,7 +68,7 @@ function combineBanks() {
             dateOpen: {
                 dbf: (dbfBanks[id] || {}).dateOpen,
                 api: (apiBanks[id] || {}).dateOpen,
-                nbu: (nbuBanks[id] || {}).date
+                nbu: (nbuBanks[id] || {}).dateOpen
             },
             dateIssue: {
                 api: (apiBanks[id] || {}).dateIssue,

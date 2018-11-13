@@ -59,7 +59,7 @@ module.exports = {
     saveAll() {
         this.saveBanksDBF();
         this.saveBanksAPI();
-        this.saveBanks();
+        this.saveBanksUI();
     },
 
     saveBanksDBF() {
@@ -104,7 +104,7 @@ module.exports = {
         int.write('nbu/banks-api', banks);
     },
 
-    saveBanks() {
+    saveBanksUI() {
         const htmls = [];
         const html = ext.read('nbu/banks/pages/' + htmls.length, 'https://bank.gov.ua/control/bankdict/banks');
         htmls.push(html);
@@ -114,7 +114,7 @@ module.exports = {
 
         const banks = _.flatten(htmls.map(html => {
             return regex.findManyObjects(html, /<tr>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<\/tr>/g, {
-                link: 1, date: 4
+                link: 1, dateOpen: 4
             }).map(bank => {
                 const linkInfo = regex.findObject(bank.link.trim(), /<a href=".*?(\d+)">\s*(.+?)\s*<\/a>/, {id: 1, name: 2});
                 const id = linkInfo.id;
@@ -127,11 +127,33 @@ module.exports = {
                     id: id,
                     name: name,
                     fullName: fullName,
-                    date: dates.format(bank.date)
+                    dateOpen: dates.format(bank.dateOpen),
+                    active: true
                 };
             });
         }));
+
+        const htmlInactive = ext.read('nbu/banks-inactive', 'https://bank.gov.ua/control/uk/publish/article?art_id=75535&cat_id=17823466');
+        // TODO: start here - implement based on this.test()!!!
+        // regex.findManyObjects(htmlInactive, /<tr[^>]*>\s*?(<td[^>]*>\s*?<p[^>]*>\s*?<span[^>]*>([\S\s]*?)<o:p><\/o:p><\/span><\/p>\s*?<\/td>\s*?){5}[\S\s]*?<\/tr>/g, {
+        //     link: 1, dateOpen: 4
+        // });
+
+        //https://bank.gov.ua/control/uk/publish/article?art_id=75535&cat_id=17823466
         int.write('nbu/banks', banks);
+    },
+
+    test() {
+        const htmlInactive = '';
+        const regex = /<tr[^>]*>\s*?(<td[^>]*>\s*?<p[^>]*>\s*?<span[^>]*>([\S\s]*?)<o:p><\/o:p><\/span><\/p>\s*?<\/td>\s*?){5}[\S\s]*?<\/tr>/g;
+        // TODO: banks after ПАТ &quot;КБ &quot;СОЮЗ&quot; are collapsed!!!
+        const matches = [];
+        let match;
+        while ((match = regex.exec(htmlInactive))) {
+            matches.push(match);
+        }
+        console.log(matches);
+        return matches;
     },
 
     extractBankPureNameSPC(name) {
