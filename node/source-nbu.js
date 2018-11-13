@@ -116,7 +116,10 @@ module.exports = {
             return regex.findManyObjects(html, /<tr>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<\/tr>/g, {
                 link: 1, dateOpen: 4
             }).map(bank => {
-                const linkInfo = regex.findObject(bank.link.trim(), /<a href=".*?(\d+)">\s*(.+?)\s*<\/a>/, {id: 1, name: 2});
+                const linkInfo = regex.findObject(bank.link.trim(), /<a href=".*?(\d+)">\s*(.+?)\s*<\/a>/, {
+                    id: 1,
+                    name: 2
+                });
                 const id = linkInfo.id;
                 const name = this.extractBankPureNameSPC(linkInfo.name);
                 const bankHtml = ext.read('nbu/banks/' + id, 'https://bank.gov.ua/control/uk/bankdict/bank?id=' + id);
@@ -134,25 +137,54 @@ module.exports = {
         }));
 
         const htmlInactive = ext.read('nbu/banks-inactive', 'https://bank.gov.ua/control/uk/publish/article?art_id=75535&cat_id=17823466');
-        // TODO: start here - implement based on this.test()!!!
-        // regex.findManyObjects(htmlInactive, /<tr[^>]*>\s*?(<td[^>]*>\s*?<p[^>]*>\s*?<span[^>]*>([\S\s]*?)<o:p><\/o:p><\/span><\/p>\s*?<\/td>\s*?){5}[\S\s]*?<\/tr>/g, {
-        //     link: 1, dateOpen: 4
-        // });
+        const banksInactive = regex.findManyObjects(htmlInactive, new RegExp('<tr[^>]*>\\s*?' + '(<td[^>]*>\\s*?(<p[^>]*>\\s*?<span[^>]*>([\\S\\s]*?)<o:p>.*?<\\/o:p><\\/span><\\/p>)?\\s*?<\\/td>\\s*?)'.repeat(4) + '[\\S\\s]*?<\\/tr>', 'g'), {
+            name: 3, date1: 6, date2: 9, date3: 12
+        }).map(bank => {
+            const trim = (value) => (value || '')
+                .replace(/&nbsp;/g, ' ')
+                .replace(/&quot;/g, '"')
+                .replace(/<[^<]*>/g, '')
+                .replace(/\s+/g, ' ')
+                .trim();
+            const dateIssue = _.min([bank.date1, bank.date2, bank.date3]
+                .map(date => trim(date))
+                .map(date => dates.format(date))
+                .filter(date => date));
+            return {
+                name: names.extractBankPureName(trim(bank.name)),
+                dateIssue: dateIssue,
+                active: false
+            };
+        });
 
-        //https://bank.gov.ua/control/uk/publish/article?art_id=75535&cat_id=17823466
+        banks.push(...banksInactive);
         int.write('nbu/banks', banks);
     },
 
     test() {
-        const htmlInactive = '';
-        const regex = /<tr[^>]*>\s*?(<td[^>]*>\s*?<p[^>]*>\s*?<span[^>]*>([\S\s]*?)<o:p><\/o:p><\/span><\/p>\s*?<\/td>\s*?){5}[\S\s]*?<\/tr>/g;
-        // TODO: banks after ПАТ &quot;КБ &quot;СОЮЗ&quot; are collapsed!!!
-        const matches = [];
-        let match;
-        while ((match = regex.exec(htmlInactive))) {
-            matches.push(match);
-        }
+        const htmlInactive = ext.read('nbu/banks-inactive', 'https://bank.gov.ua/control/uk/publish/article?art_id=75535&cat_id=17823466');
+        const regexp = new RegExp('<tr[^>]*>\\s*?' + '(<td[^>]*>\\s*?(<p[^>]*>\\s*?<span[^>]*>([\\S\\s]*?)<o:p>.*?<\\/o:p><\\/span><\\/p>)?\\s*?<\\/td>\\s*?)'.repeat(4) + '[\\S\\s]*?<\\/tr>', 'g');
+        let matches = regex.findManyObjects(htmlInactive, regexp, {
+            name: 3, date1: 6, date2: 9, date3: 12
+        });
+        matches = matches.map(bank => {
+            const trim = (value) => (value || '')
+                .replace(/&nbsp;/g, ' ')
+                .replace(/&quot;/g, '"')
+                .replace(/<[^<]*>/g, '')
+                .replace(/\s+/g, ' ')
+                .trim();
+            const dateIssue = _.min([bank.date1, bank.date2, bank.date3]
+                .map(date => trim(date))
+                .map(date => dates.format(date))
+                .filter(date => date));
+            return {
+                name: names.extractBankPureName(trim(bank.name)),
+                dateIssue: dateIssue
+            };
+        });
         console.log(matches);
+        console.log(matches.length);
         return matches;
     },
 

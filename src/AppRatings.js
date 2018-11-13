@@ -22,6 +22,8 @@ class AppRatings extends Component {
         fetch('/minfin-ratings.json')
             .then(ratings => ratings.json())
             .then(ratings => this.setState({ratings: ratings}));
+
+        console.log(t.hello());
     }
 
     convertBanks(banks) {
@@ -39,8 +41,6 @@ class AppRatings extends Component {
     }
 
     render() {
-        console.log(t.hello());
-        // http://www.fg.gov.ua/uchasnyky-fondu
         const dates = Object.keys(this.state.ratings).sort().reverse();
         const openDates = {};
         const issueDates = {};
@@ -56,7 +56,6 @@ class AppRatings extends Component {
                 fundIssueDates[bankId] = date;
             }
         }));
-        console.log(fundIssueDates);
 
         const latestRating = {};
         _.forOwn(this.state.ratings, (dateRating, date) => {
@@ -96,7 +95,7 @@ class AppRatings extends Component {
                         <th>&nbsp;</th>
                         <th>&nbsp;</th>
                         {dates.map(date => (
-                            <th className="vertical-bottom-to-top">{date}</th>
+                            <th key={date} className="vertical-bottom-to-top">{date}</th>
                         ))}
                     </tr>
                     {bankIds.map(bankId => (
@@ -104,7 +103,7 @@ class AppRatings extends Component {
                             <td><a href={this.state.banks[bankId].link}>{this.state.banks[bankId].name}</a></td>
                             <td><a href={this.state.banks[bankId].site}>{((this.state.banks[bankId].site || '').match(/\/\/([^/]+)/) || [])[1]}</a></td>
                             {dates.map(date => (
-                                <td style={this.styleForCell(bankId, date, openDates, issueDates, fundIssueDates)}>{this.state.ratings[date][bankId] || '-'}</td>
+                                <td key={date} style={this.styleForCell(bankId, date, openDates, issueDates, fundIssueDates)}>{this.state.ratings[date][bankId] || '-'}</td>
                             ))}
                         </tr>
                     ))}
@@ -149,7 +148,6 @@ class AppRatings extends Component {
             return {};
         }
 
-        // TODO: make it configurable in UI!
         // TODO: show range per color matrix with color=from-to
         const max = 5; // green - rgb(0, 128, 0)
         const middle = 3; // yellow - rgb(255, 255, 0)

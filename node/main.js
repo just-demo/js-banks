@@ -7,15 +7,15 @@ let names = require('./names');
 let assert = require('./assert');
 
 // nbu.test();
-let t = require('../src/test');
-console.log(t.hello());
+// let t = require('../src/test');
+// console.log(t.hello());
 
 // nbu.saveAll();
 // fund.saveAll();
 // minfin.saveAll();
 // names.rebuildBankNames();
 
-// combineBanks();
+combineBanks();
 
 function compareGovApiBanks() {
     const dbfBanks = nbu.getBanksDBF();
@@ -67,6 +67,7 @@ function combineBanks() {
             active: {
                 dbf: (dbfBanks[id] || {}).active,
                 api: (apiBanks[id] || {}).active,
+                nbu: (nbuBanks[id] || {}).active,
                 fund: (fundBanks[id] || {}).active
             },
             dateOpen: {
@@ -76,6 +77,7 @@ function combineBanks() {
             },
             dateIssue: {
                 api: (apiBanks[id] || {}).dateIssue,
+                nbu: (nbuBanks[id] || {}).dateIssue,
                 fund: (fundBanks[id] || {}).dateIssue,
             },
             site: {

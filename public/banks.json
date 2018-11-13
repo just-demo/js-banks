@@ -44,12 +44,14 @@
     "name": {
       "dbf": "ЄВРОБАНК",
       "api": "ЄВРОБАНК",
+      "nbu": "ЄВРОБАНК",
       "fund": "ЄВРОБАНК",
       "minfin": "ЄВРОБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -58,6 +60,7 @@
     },
     "dateIssue": {
       "api": "2016-08-16",
+      "nbu": "2016-06-17",
       "fund": "2016-06-17"
     },
     "site": {
@@ -79,12 +82,14 @@
     "name": {
       "dbf": "ЄВРОГАЗБАНК",
       "api": "ЄВРОГАЗБАНК",
+      "nbu": "ЄВРОГАЗБАНК",
       "fund": "ЄВРОГАЗБАНК",
       "minfin": "ЄВРОГАЗБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -93,6 +98,7 @@
     },
     "dateIssue": {
       "api": "2014-11-17",
+      "nbu": "2014-07-16",
       "fund": "2014-07-17"
     },
     "site": {
@@ -157,6 +163,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -198,6 +205,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -230,12 +238,14 @@
     "name": {
       "dbf": "ІМЕКСБАНК",
       "api": "ІМЕКСБАНК",
+      "nbu": "ІМЕКСБАНК",
       "fund": "ІМЕКСБАНК",
       "minfin": "ІМЕКСБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -244,6 +254,7 @@
     },
     "dateIssue": {
       "api": "2015-05-21",
+      "nbu": "2015-01-26",
       "fund": "2015-05-27"
     },
     "site": {
@@ -265,12 +276,14 @@
     "name": {
       "dbf": "ІНВЕСТБАНК",
       "api": "ІНВЕСТБАНК",
+      "nbu": "ІНВЕСТБАНК",
       "fund": "ІНВЕСТБАНК",
       "minfin": "ІНВЕСТБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -279,6 +292,7 @@
     },
     "dateIssue": {
       "api": "2017-01-11",
+      "nbu": "2016-12-15",
       "fund": "2016-12-16"
     },
     "site": {
@@ -300,18 +314,21 @@
     "name": {
       "dbf": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
       "api": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
+      "nbu": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
       "minfin": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК"
     },
     "active": {
       "dbf": false,
-      "api": false
+      "api": false,
+      "nbu": false
     },
     "dateOpen": {
       "dbf": "2013-08-30",
       "api": "2013-08-30"
     },
     "dateIssue": {
-      "api": "2016-05-31"
+      "api": "2016-05-31",
+      "nbu": "2016-05-31"
     },
     "site": {
       "minfin": [
@@ -339,6 +356,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -378,6 +396,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -435,12 +454,14 @@
     "name": {
       "dbf": "ІНТЕГРАЛ-БАНК",
       "api": "ІНТЕГРАЛ-БАНК",
+      "nbu": "ІНТЕГРАЛ-БАНК",
       "fund": "ІНТЕГРАЛ-БАНК",
       "minfin": "ІНТЕГРАЛ-БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -449,6 +470,7 @@
     },
     "dateIssue": {
       "api": "2015-11-25",
+      "nbu": "2015-09-15",
       "fund": "2015-09-16"
     },
     "site": {
@@ -470,12 +492,14 @@
     "name": {
       "dbf": "ІНТЕРБАНК",
       "api": "ІНТЕРБАНК",
+      "nbu": "ІНТЕРБАНК",
       "fund": "ІНТЕРБАНК",
       "minfin": "ІНТЕРБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -484,6 +508,7 @@
     },
     "dateIssue": {
       "api": "2014-07-23",
+      "nbu": "2014-04-23",
       "fund": "2014-04-24"
     },
     "site": {
@@ -505,12 +530,14 @@
     "name": {
       "dbf": "ІНТЕРКРЕДИТБАНК",
       "api": "ІНТЕРКРЕДИТБАНК",
+      "nbu": "ІНТЕРКРЕДИТБАНК",
       "fund": "ІНТЕРКРЕДИТБАНК",
       "minfin": "ІНТЕРКРЕДИТБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -519,6 +546,7 @@
     },
     "dateIssue": {
       "api": "2015-01-16",
+      "nbu": "2014-10-09",
       "fund": "2014-10-10"
     },
     "site": {
@@ -565,6 +593,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -597,12 +626,14 @@
     "name": {
       "dbf": "АВАНТ-БАНК",
       "api": "АВАНТ-БАНК",
+      "nbu": "АВАНТ-БАНК",
       "fund": "АВАНТ-БАНК",
       "minfin": "АВАНТ-БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -611,6 +642,7 @@
     },
     "dateIssue": {
       "api": "2016-02-25",
+      "nbu": "2016-01-29",
       "fund": "2016-01-26"
     },
     "site": {
@@ -639,6 +671,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -671,12 +704,14 @@
     "name": {
       "dbf": "АКБ БАНК",
       "api": "АКБ БАНК",
+      "nbu": "АКБ БАНК",
       "fund": "АКБ БАНК",
       "minfin": "АКБ БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -685,6 +720,7 @@
     },
     "dateIssue": {
       "api": "2014-08-29",
+      "nbu": "2014-05-30",
       "fund": "2014-05-30"
     },
     "site": {
@@ -713,6 +749,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -745,12 +782,14 @@
     "name": {
       "dbf": "АКСІОМА",
       "api": "АКСІОМА",
+      "nbu": "АКСІОМА",
       "fund": "АКСІОМА",
       "minfin": "АКСІОМА"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -759,6 +798,7 @@
     },
     "dateIssue": {
       "api": "2015-01-30",
+      "nbu": "2014-10-09",
       "fund": "2014-10-10"
     },
     "site": {
@@ -780,12 +820,14 @@
     "name": {
       "dbf": "АКТАБАНК",
       "api": "АКТАБАНК",
+      "nbu": "АКТАБАНК",
       "fund": "АКТАБАНК",
       "minfin": "АКТАБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -794,6 +836,7 @@
     },
     "dateIssue": {
       "api": "2015-01-16",
+      "nbu": "2014-09-16",
       "fund": "2014-09-17"
     },
     "site": {
@@ -815,12 +858,14 @@
     "name": {
       "dbf": "АКТИВ - БАНК",
       "api": "АКТИВ - БАНК",
+      "nbu": "АКТИВ - БАНК",
       "fund": "АКТИВ - БАНК",
       "minfin": "АКТИВ - БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -829,6 +874,7 @@
     },
     "dateIssue": {
       "api": "2014-12-23",
+      "nbu": "2014-09-02",
       "fund": "2014-09-03"
     },
     "site": {
@@ -875,6 +921,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -914,6 +961,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -953,6 +1001,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -992,6 +1041,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -1054,6 +1104,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -1104,12 +1155,14 @@
     "name": {
       "dbf": "АРТЕМ-БАНК",
       "api": "АРТЕМ-БАНК",
+      "nbu": "АРТЕМ-БАНК",
       "fund": "АРТЕМ-БАНК",
       "minfin": "АРТЕМ-БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -1118,6 +1171,7 @@
     },
     "dateIssue": {
       "api": "2016-12-15",
+      "nbu": "2016-11-15",
       "fund": "2016-11-16"
     },
     "site": {
@@ -1146,6 +1200,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -1176,13 +1231,17 @@
   {
     "id": "АСТРА БАНК",
     "name": {
+      "nbu": "АСТРА БАНК",
       "fund": "АСТРА БАНК"
     },
     "active": {
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {},
-    "dateIssue": {},
+    "dateIssue": {
+      "nbu": "2015-03-19"
+    },
     "site": {
       "minfin": []
     },
@@ -1246,6 +1305,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -1285,6 +1345,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -1324,6 +1385,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -1361,6 +1423,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -1393,12 +1456,14 @@
     "name": {
       "dbf": "БАНК БОГУСЛАВ",
       "api": "БАНК БОГУСЛАВ",
+      "nbu": "БАНК БОГУСЛАВ",
       "fund": "БАНК БОГУСЛАВ",
       "minfin": "БАНК БОГУСЛАВ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -1407,6 +1472,7 @@
     },
     "dateIssue": {
       "api": "2017-11-30",
+      "nbu": "2017-11-06",
       "fund": "2017-11-06"
     },
     "site": {
@@ -1428,12 +1494,14 @@
     "name": {
       "dbf": "БАНК ВЕЛЕС",
       "api": "БАНК ВЕЛЕС",
+      "nbu": "БАНК ВЕЛЕС",
       "fund": "БАНК ВЕЛЕС",
       "minfin": "БАНК ВЕЛЕС"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -1442,6 +1510,7 @@
     },
     "dateIssue": {
       "api": "2015-12-10",
+      "nbu": "2015-12-10",
       "fund": "2015-12-11"
     },
     "site": {
@@ -1468,6 +1537,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -1500,12 +1570,14 @@
     "name": {
       "dbf": "БАНК ЗОЛОТІ ВОРОТА",
       "api": "БАНК ЗОЛОТІ ВОРОТА",
+      "nbu": "БАНК ЗОЛОТІ ВОРОТА",
       "fund": "БАНК ЗОЛОТІ ВОРОТА",
       "minfin": "БАНК ЗОЛОТІ ВОРОТА"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -1514,6 +1586,7 @@
     },
     "dateIssue": {
       "api": "2014-12-04",
+      "nbu": "2014-07-31",
       "fund": "2014-08-04"
     },
     "site": {
@@ -1535,12 +1608,14 @@
     "name": {
       "dbf": "БАНК КАМБІО",
       "api": "БАНК КАМБІО",
+      "nbu": "БАНК КАМБІО",
       "fund": "БАНК КАМБІО",
       "minfin": "БАНК КАМБІО"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -1549,6 +1624,7 @@
     },
     "dateIssue": {
       "api": "2015-02-27",
+      "nbu": "2014-12-04",
       "fund": "2014-12-05"
     },
     "site": {
@@ -1577,6 +1653,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -1609,12 +1686,14 @@
     "name": {
       "dbf": "БАНК МИХАЙЛІВСЬКИЙ",
       "api": "БАНК МИХАЙЛІВСЬКИЙ",
+      "nbu": "БАНК МИХАЙЛІВСЬКИЙ",
       "fund": "БАНК МИХАЙЛІВСЬКИЙ",
       "minfin": "БАНК МИХАЙЛІВСЬКИЙ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -1623,6 +1702,7 @@
     },
     "dateIssue": {
       "api": "2016-07-12",
+      "nbu": "2016-05-23",
       "fund": "2016-05-23"
     },
     "site": {
@@ -1644,12 +1724,14 @@
     "name": {
       "dbf": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
       "api": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
+      "nbu": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
       "fund": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
       "minfin": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -1658,6 +1740,7 @@
     },
     "dateIssue": {
       "api": "2015-08-31",
+      "nbu": "2015-06-05",
       "fund": "2015-06-08"
     },
     "site": {
@@ -1679,12 +1762,14 @@
     "name": {
       "dbf": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
       "api": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
+      "nbu": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
       "fund": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
       "minfin": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -1693,6 +1778,7 @@
     },
     "dateIssue": {
       "api": "2016-04-21",
+      "nbu": "2016-03-17",
       "fund": "2016-03-18"
     },
     "site": {
@@ -1739,6 +1825,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -1778,6 +1865,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -1817,6 +1905,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -1849,12 +1938,14 @@
     "name": {
       "dbf": "БАНК ФОРУМ",
       "api": "БАНК ФОРУМ",
+      "nbu": "БАНК ФОРУМ",
       "fund": "БАНК ФОРУМ",
       "minfin": "БАНК ФОРУМ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -1863,6 +1954,7 @@
     },
     "dateIssue": {
       "api": "2014-06-16",
+      "nbu": "2014-03-13",
       "fund": "2014-03-14"
     },
     "site": {
@@ -1884,12 +1976,14 @@
     "name": {
       "dbf": "БГ БАНК",
       "api": "БГ БАНК",
+      "nbu": "БГ БАНК",
       "fund": "БГ БАНК",
       "minfin": "БГ БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -1898,6 +1992,7 @@
     },
     "dateIssue": {
       "api": "2015-02-27",
+      "nbu": "2014-11-27",
       "fund": "2014-11-28"
     },
     "site": {
@@ -1918,15 +2013,23 @@
     "id": "БМ БАНК",
     "name": {
       "dbf": "БМ БАНК",
+      "api": "БМ БАНК",
+      "nbu": "БМ БАНК",
       "minfin": "БМ БАНК"
     },
     "active": {
-      "dbf": true
+      "dbf": true,
+      "api": true,
+      "nbu": true
     },
     "dateOpen": {
-      "dbf": "2005-12-08"
+      "dbf": "2005-12-08",
+      "api": "2005-12-08",
+      "nbu": "2005-12-08"
     },
-    "dateIssue": {},
+    "dateIssue": {
+      "api": null
+    },
     "site": {
       "minfin": [
         "http://www.bmbank.com.ua/"
@@ -1946,12 +2049,14 @@
     "name": {
       "dbf": "БРОКБІЗНЕСБАНК",
       "api": "БРОКБІЗНЕСБАНК",
+      "nbu": "БРОКБІЗНЕСБАНК",
       "fund": "БРОКБІЗНЕСБАНК",
       "minfin": "БРОКБІЗНЕСБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -1960,6 +2065,7 @@
     },
     "dateIssue": {
       "api": "2014-06-11",
+      "nbu": "2014-02-28",
       "fund": "2014-03-03"
     },
     "site": {
@@ -1988,6 +2094,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -2020,12 +2127,14 @@
     "name": {
       "dbf": "ВІЕЙБІ БАНК",
       "api": "ВІЕЙБІ БАНК",
+      "nbu": "ВІЕЙБІ БАНК",
       "fund": "ВІЕЙБІ БАНК",
       "minfin": "ВІЕЙБІ БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -2034,6 +2143,7 @@
     },
     "dateIssue": {
       "api": "2015-03-19",
+      "nbu": "2014-11-20",
       "fund": "2014-11-21"
     },
     "site": {
@@ -2082,12 +2192,14 @@
     "name": {
       "dbf": "ВБР",
       "api": "ВБР",
+      "nbu": "ВБР",
       "fund": "ВБР",
       "minfin": "ВБР"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -2096,6 +2208,7 @@
     },
     "dateIssue": {
       "api": "2015-12-21",
+      "nbu": "2014-11-27",
       "fund": "2014-11-28"
     },
     "site": {
@@ -2117,12 +2230,14 @@
     "name": {
       "dbf": "ВЕКТОР БАНК",
       "api": "ВЕКТОР БАНК",
+      "nbu": "ВЕКТОР БАНК",
       "fund": "ВЕКТОР БАНК",
       "minfin": "ВЕКТОР БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -2131,6 +2246,7 @@
     },
     "dateIssue": {
       "api": "2017-03-21",
+      "nbu": "2017-03-02",
       "fund": "2017-03-03"
     },
     "site": {
@@ -2159,6 +2275,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -2216,6 +2333,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -2266,12 +2384,14 @@
     "name": {
       "dbf": "ГЕФЕСТ",
       "api": "ГЕФЕСТ",
+      "nbu": "ГЕФЕСТ",
       "fund": "ГЕФЕСТ",
       "minfin": "ГЕФЕСТ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -2279,7 +2399,8 @@
       "api": "2013-10-04"
     },
     "dateIssue": {
-      "api": "2017-09-29"
+      "api": "2017-09-29",
+      "nbu": "2017-08-01"
     },
     "site": {
       "minfin": [
@@ -2307,6 +2428,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -2339,12 +2461,14 @@
     "name": {
       "dbf": "ГРІН БАНК",
       "api": "ГРІН БАНК",
+      "nbu": "ГРІН БАНК",
       "fund": "ГРІН БАНК",
       "minfin": "ГРІН БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -2353,6 +2477,7 @@
     },
     "dateIssue": {
       "api": "2015-01-23",
+      "nbu": "2014-09-24",
       "fund": "2014-09-25"
     },
     "site": {
@@ -2381,6 +2506,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -2431,12 +2557,14 @@
     "name": {
       "dbf": "ДІАМАНТБАНК",
       "api": "ДІАМАНТБАНК",
+      "nbu": "ДІАМАНТБАНК",
       "fund": "ДІАМАНТБАНК",
       "minfin": "ДІАМАНТБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -2445,6 +2573,7 @@
     },
     "dateIssue": {
       "api": "2017-06-22",
+      "nbu": "2017-04-24",
       "fund": "2017-04-24"
     },
     "site": {
@@ -2488,12 +2617,14 @@
     "name": {
       "dbf": "ДАНІЕЛЬ",
       "api": "ДАНІЕЛЬ",
+      "nbu": "ДАНІЕЛЬ",
       "fund": "ДАНІЕЛЬ",
       "minfin": "ДАНІЕЛЬ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -2502,6 +2633,7 @@
     },
     "dateIssue": {
       "api": "2014-04-15",
+      "nbu": "2014-01-16",
       "fund": "2014-01-17"
     },
     "site": {
@@ -2523,12 +2655,14 @@
     "name": {
       "dbf": "ДЕЛЬТА БАНК",
       "api": "ДЕЛЬТА БАНК",
+      "nbu": "ДЕЛЬТА БАНК",
       "fund": "ДЕЛЬТА БАНК",
       "minfin": "ДЕЛЬТА БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -2537,6 +2671,7 @@
     },
     "dateIssue": {
       "api": "2015-10-02",
+      "nbu": "2015-03-02",
       "fund": "2015-03-03"
     },
     "site": {
@@ -2558,12 +2693,14 @@
     "name": {
       "dbf": "ДЕМАРК",
       "api": "ДЕМАРК",
+      "nbu": "ДЕМАРК",
       "fund": "ДЕМАРК",
       "minfin": "ДЕМАРК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -2572,6 +2709,7 @@
     },
     "dateIssue": {
       "api": "2015-01-30",
+      "nbu": "2014-09-25",
       "fund": "2014-09-29"
     },
     "site": {
@@ -2591,14 +2729,18 @@
   {
     "id": "ДЕРЖЗЕМБАНК",
     "name": {
+      "nbu": "ДЕРЖЗЕМБАНК",
       "fund": "ДЕРЖЗЕМБАНК",
       "minfin": "ДЕРЖЗЕМБАНК"
     },
     "active": {
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {},
-    "dateIssue": {},
+    "dateIssue": {
+      "nbu": "2016-07-26"
+    },
     "site": {
       "minfin": [
         "http://www.dzbank.com.ua/"
@@ -2643,6 +2785,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -2697,12 +2840,14 @@
     "name": {
       "dbf": "ЕКСПОБАНК",
       "api": "ЕКСПОБАНК",
+      "nbu": "ЕКСПОБАНК",
       "fund": "ЕКСПОБАНК",
       "minfin": "ЕКСПОБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -2711,6 +2856,7 @@
     },
     "dateIssue": {
       "api": "2015-01-23",
+      "nbu": "2014-09-24",
       "fund": "2014-09-25"
     },
     "site": {
@@ -2754,12 +2900,14 @@
     "name": {
       "dbf": "ЕНЕРГОБАНК",
       "api": "ЕНЕРГОБАНК",
+      "nbu": "ЕНЕРГОБАНК",
       "fund": "ЕНЕРГОБАНК",
       "minfin": "ЕНЕРГОБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -2768,6 +2916,7 @@
     },
     "dateIssue": {
       "api": "2015-06-11",
+      "nbu": "2015-02-12",
       "fund": "2015-02-13"
     },
     "site": {
@@ -2824,12 +2973,14 @@
     "name": {
       "dbf": "ЗАХІДІНКОМБАНК",
       "api": "ЗАХІДІНКОМБАНК",
+      "nbu": "ЗАХІДІНКОМБАНК",
       "fund": "ЗАХІДІНКОМБАНК",
       "minfin": "ЗАХІДІНКОМБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -2838,6 +2989,7 @@
     },
     "dateIssue": {
       "api": "2014-07-23",
+      "nbu": "2014-05-28",
       "fund": "2014-05-29"
     },
     "site": {
@@ -2891,6 +3043,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -2923,12 +3076,14 @@
     "name": {
       "dbf": "ЗЛАТОБАНК",
       "api": "ЗЛАТОБАНК",
+      "nbu": "ЗЛАТОБАНК",
       "fund": "ЗЛАТОБАНК",
       "minfin": "ЗЛАТОБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -2937,6 +3092,7 @@
     },
     "dateIssue": {
       "api": "2015-05-12",
+      "nbu": "2015-02-13",
       "fund": "2015-02-14"
     },
     "site": {
@@ -2965,6 +3121,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -2997,12 +3154,14 @@
     "name": {
       "dbf": "КАПІТАЛ",
       "api": "КАПІТАЛ",
+      "nbu": "КАПІТАЛ",
       "fund": "КАПІТАЛ",
       "minfin": "КАПІТАЛ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -3011,6 +3170,7 @@
     },
     "dateIssue": {
       "api": "2015-10-29",
+      "nbu": "2015-07-20",
       "fund": "2015-07-21"
     },
     "site": {
@@ -3050,12 +3210,14 @@
     "name": {
       "dbf": "КИЇВ",
       "api": "КИЇВ",
+      "nbu": "КИЇВ",
       "fund": "КИЇВ",
       "minfin": "КИЇВ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -3064,6 +3226,7 @@
     },
     "dateIssue": {
       "api": "2015-06-24",
+      "nbu": "2015-02-24",
       "fund": "2015-02-25"
     },
     "site": {
@@ -3085,12 +3248,14 @@
     "name": {
       "dbf": "КИЇВСЬКА РУСЬ",
       "api": "КИЇВСЬКА РУСЬ",
+      "nbu": "КИЇВСЬКА РУСЬ",
       "fund": "КИЇВСЬКА РУСЬ",
       "minfin": "КИЇВСЬКА РУСЬ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -3099,6 +3264,7 @@
     },
     "dateIssue": {
       "api": "2015-07-16",
+      "nbu": "2015-03-19",
       "fund": "2015-03-20"
     },
     "site": {
@@ -3145,6 +3311,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -3177,12 +3344,14 @@
     "name": {
       "dbf": "КЛАСИКБАНК",
       "api": "КЛАСИКБАНК",
+      "nbu": "КЛАСИКБАНК",
       "fund": "КЛАСИКБАНК",
       "minfin": "КЛАСИКБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -3191,6 +3360,7 @@
     },
     "dateIssue": {
       "api": "2016-08-11",
+      "nbu": "2016-06-14",
       "fund": "2016-06-15"
     },
     "site": {
@@ -3219,6 +3389,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -3258,6 +3429,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -3290,12 +3462,14 @@
     "name": {
       "dbf": "КОНТРАКТ",
       "api": "КОНТРАКТ",
+      "nbu": "КОНТРАКТ",
       "fund": "КОНТРАКТ",
       "minfin": "КОНТРАКТ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -3304,6 +3478,7 @@
     },
     "dateIssue": {
       "api": "2015-12-10",
+      "nbu": "2015-10-06",
       "fund": "2015-10-07"
     },
     "site": {
@@ -3332,6 +3507,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -3372,6 +3548,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -3433,6 +3610,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -3465,12 +3643,14 @@
     "name": {
       "dbf": "КРЕДИТПРОМБАНК",
       "api": "КРЕДИТПРОМБАНК",
+      "nbu": "КРЕДИТПРОМБАНК",
       "fund": "КРЕДИТПРОМБАНК",
       "minfin": "КРЕДИТПРОМБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -3479,6 +3659,7 @@
     },
     "dateIssue": {
       "api": "2015-06-02",
+      "nbu": "2015-03-02",
       "fund": "2015-03-03"
     },
     "site": {
@@ -3507,6 +3688,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -3546,6 +3728,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -3578,12 +3761,14 @@
     "name": {
       "dbf": "КСГ БАНК",
       "api": "КСГ БАНК",
+      "nbu": "КСГ БАНК",
       "fund": "КСГ БАНК",
       "minfin": "КСГ БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -3592,6 +3777,7 @@
     },
     "dateIssue": {
       "api": "2016-08-30",
+      "nbu": "2016-08-30",
       "fund": "2016-08-31"
     },
     "site": {
@@ -3613,12 +3799,14 @@
     "name": {
       "dbf": "ЛЕГБАНК",
       "api": "ЛЕГБАНК",
+      "nbu": "ЛЕГБАНК",
       "fund": "ЛЕГБАНК",
       "minfin": "ЛЕГБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -3627,6 +3815,7 @@
     },
     "dateIssue": {
       "api": "2015-02-27",
+      "nbu": "2014-11-27",
       "fund": "2014-11-28"
     },
     "site": {
@@ -3655,6 +3844,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -3694,6 +3884,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -3733,6 +3924,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -3765,12 +3957,14 @@
     "name": {
       "dbf": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
       "api": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
+      "nbu": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
       "fund": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
       "minfin": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -3779,6 +3973,7 @@
     },
     "dateIssue": {
       "api": "2015-03-19",
+      "nbu": "2014-11-20",
       "fund": "2014-11-21"
     },
     "site": {
@@ -3807,6 +4002,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -3841,12 +4037,14 @@
     "name": {
       "dbf": "МЕЛІОР БАНК",
       "api": "МЕЛІОР БАНК",
+      "nbu": "МЕЛІОР БАНК",
       "fund": "МЕЛІОР БАНК",
       "minfin": "МЕЛІОР БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -3855,6 +4053,7 @@
     },
     "dateIssue": {
       "api": "2015-02-10",
+      "nbu": "2014-10-09",
       "fund": "2014-10-10"
     },
     "site": {
@@ -3876,12 +4075,14 @@
     "name": {
       "dbf": "МЕРКУРІЙ",
       "api": "МЕРКУРІЙ",
+      "nbu": "МЕРКУРІЙ",
       "fund": "МЕРКУРІЙ",
       "minfin": "МЕРКУРІЙ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -3890,6 +4091,7 @@
     },
     "dateIssue": {
       "api": "2014-06-12",
+      "nbu": "2014-03-13",
       "fund": "2014-03-14"
     },
     "site": {
@@ -3918,6 +4120,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -3948,14 +4151,17 @@
   {
     "id": "МОРСЬКИЙ",
     "name": {
+      "nbu": "МОРСЬКИЙ",
       "fund": "МОРСЬКИЙ",
       "minfin": "МОРСЬКИЙ"
     },
     "active": {
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {},
     "dateIssue": {
+      "nbu": "2015-09-02",
       "fund": "2015-09-04"
     },
     "site": {
@@ -3982,6 +4188,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -4021,6 +4228,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -4054,12 +4262,14 @@
     "name": {
       "dbf": "НАДРА",
       "api": "НАДРА",
+      "nbu": "НАДРА",
       "fund": "НАДРА",
       "minfin": "НАДРА"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -4068,6 +4278,7 @@
     },
     "dateIssue": {
       "api": "2015-06-04",
+      "nbu": "2015-02-05",
       "fund": "2015-02-06"
     },
     "site": {
@@ -4089,12 +4300,14 @@
     "name": {
       "dbf": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
       "api": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
+      "nbu": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
       "fund": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
       "minfin": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -4103,6 +4316,7 @@
     },
     "dateIssue": {
       "api": "2015-12-01",
+      "nbu": "2015-09-17",
       "fund": "2015-09-18"
     },
     "site": {
@@ -4160,12 +4374,14 @@
     "name": {
       "dbf": "НК БАНК",
       "api": "НК БАНК",
+      "nbu": "НК БАНК",
       "fund": "НК БАНК",
       "minfin": "НК БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -4174,6 +4390,7 @@
     },
     "dateIssue": {
       "api": "2017-03-07",
+      "nbu": "2017-01-19",
       "fund": "2017-01-20"
     },
     "site": {
@@ -4195,12 +4412,14 @@
     "name": {
       "dbf": "НОВИЙ",
       "api": "НОВИЙ",
+      "nbu": "НОВИЙ",
       "fund": "НОВИЙ",
       "minfin": "НОВИЙ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -4209,6 +4428,7 @@
     },
     "dateIssue": {
       "api": "2017-08-31",
+      "nbu": "2017-07-13",
       "fund": "2017-07-14"
     },
     "site": {
@@ -4255,6 +4475,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -4305,11 +4526,13 @@
     "name": {
       "dbf": "ОМЕГА БАНК",
       "api": "ОМЕГА БАНК",
+      "nbu": "ОМЕГА БАНК",
       "fund": "ОМЕГА БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -4318,6 +4541,7 @@
     },
     "dateIssue": {
       "api": "2015-07-06",
+      "nbu": "2015-03-02",
       "fund": "2015-03-03"
     },
     "site": {
@@ -4340,6 +4564,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -4377,7 +4602,8 @@
     },
     "active": {
       "dbf": true,
-      "api": true
+      "api": true,
+      "nbu": true
     },
     "dateOpen": {
       "dbf": "1991-12-31",
@@ -4406,12 +4632,14 @@
     "name": {
       "dbf": "ПІВДЕНКОМБАНК",
       "api": "ПІВДЕНКОМБАНК",
+      "nbu": "ПІВДЕНКОМБАНК",
       "fund": "ПІВДЕНКОМБАНК",
       "minfin": "ПІВДЕНКОМБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -4420,6 +4648,7 @@
     },
     "dateIssue": {
       "api": "2014-09-26",
+      "nbu": "2014-05-23",
       "fund": "2014-05-26"
     },
     "site": {
@@ -4448,6 +4677,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -4487,6 +4717,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -4526,6 +4757,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -4565,6 +4797,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -4604,6 +4837,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -4643,6 +4877,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -4673,12 +4908,14 @@
     "name": {
       "dbf": "ПОРТО-ФРАНКО",
       "api": "ПОРТО-ФРАНКО",
+      "nbu": "ПОРТО-ФРАНКО",
       "fund": "ПОРТО-ФРАНКО",
       "minfin": "ПОРТО-ФРАНКО"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -4687,6 +4924,7 @@
     },
     "dateIssue": {
       "api": "2015-01-30",
+      "nbu": "2014-09-26",
       "fund": "2014-09-29"
     },
     "site": {
@@ -4715,6 +4953,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -4747,12 +4986,14 @@
     "name": {
       "dbf": "ПРАЙМ - БАНК",
       "api": "ПРАЙМ - БАНК",
+      "nbu": "ПРАЙМ - БАНК",
       "fund": "ПРАЙМ - БАНК",
       "minfin": "ПРАЙМ - БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -4761,6 +5002,7 @@
     },
     "dateIssue": {
       "api": "2015-01-15",
+      "nbu": "2014-10-02",
       "fund": "2014-10-03"
     },
     "site": {
@@ -4800,12 +5042,14 @@
     "name": {
       "dbf": "ПРЕМІУМ",
       "api": "ПРЕМІУМ",
+      "nbu": "ПРЕМІУМ",
       "fund": "ПРЕМІУМ",
       "minfin": "ПРЕМІУМ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -4814,6 +5058,7 @@
     },
     "dateIssue": {
       "api": "2016-02-10",
+      "nbu": "2016-02-10",
       "fund": "2016-02-11"
     },
     "site": {
@@ -4842,6 +5087,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": false
     },
     "dateOpen": {
@@ -4878,6 +5124,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -4917,6 +5164,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -4949,12 +5197,14 @@
     "name": {
       "dbf": "ПРОМЕКОНОМБАНК",
       "api": "ПРОМЕКОНОМБАНК",
+      "nbu": "ПРОМЕКОНОМБАНК",
       "fund": "ПРОМЕКОНОМБАНК",
       "minfin": "ПРОМЕКОНОМБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -4963,6 +5213,7 @@
     },
     "dateIssue": {
       "api": "2014-09-08",
+      "nbu": "2014-05-21",
       "fund": "2014-05-22"
     },
     "site": {
@@ -4984,12 +5235,14 @@
     "name": {
       "dbf": "ПРОФІН БАНК",
       "api": "ПРОФІН БАНК",
+      "nbu": "ПРОФІН БАНК",
       "fund": "ПРОФІН БАНК",
       "minfin": "ПРОФІН БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -4998,6 +5251,7 @@
     },
     "dateIssue": {
       "api": "2015-04-15",
+      "nbu": "2015-01-19",
       "fund": "2015-01-20"
     },
     "site": {
@@ -5019,12 +5273,14 @@
     "name": {
       "dbf": "ПТБ",
       "api": "ПТБ",
+      "nbu": "ПТБ",
       "fund": "ПТБ",
       "minfin": "ПТБ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -5033,6 +5289,7 @@
     },
     "dateIssue": {
       "api": "2017-02-23",
+      "nbu": "2017-01-10",
       "fund": "2017-01-11"
     },
     "site": {
@@ -5061,6 +5318,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -5122,6 +5380,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -5154,12 +5413,14 @@
     "name": {
       "dbf": "РАДИКАЛ БАНК",
       "api": "РАДИКАЛ БАНК",
+      "nbu": "РАДИКАЛ БАНК",
       "fund": "РАДИКАЛ БАНК",
       "minfin": "РАДИКАЛ БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -5168,6 +5429,7 @@
     },
     "dateIssue": {
       "api": "2015-11-09",
+      "nbu": "2015-07-09",
       "fund": "2015-07-10"
     },
     "site": {
@@ -5196,6 +5458,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -5235,6 +5498,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -5265,12 +5529,14 @@
     "name": {
       "dbf": "РЕАЛ БАНК",
       "api": "РЕАЛ БАНК",
+      "nbu": "РЕАЛ БАНК",
       "fund": "РЕАЛ БАНК",
       "minfin": "РЕАЛ БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -5279,6 +5545,7 @@
     },
     "dateIssue": {
       "api": "2014-05-21",
+      "nbu": "2014-02-28",
       "fund": "2014-03-03"
     },
     "site": {
@@ -5322,12 +5589,14 @@
     "name": {
       "dbf": "РОДОВІД БАНК",
       "api": "РОДОВІД БАНК",
+      "nbu": "РОДОВІД БАНК",
       "fund": "РОДОВІД БАНК",
       "minfin": "РОДОВІД БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -5336,6 +5605,7 @@
     },
     "dateIssue": {
       "api": "2017-12-19",
+      "nbu": "2016-02-25",
       "fund": "2016-02-26"
     },
     "site": {
@@ -5364,6 +5634,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -5419,6 +5690,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -5456,6 +5728,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -5496,6 +5769,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -5551,6 +5825,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -5601,12 +5876,14 @@
     "name": {
       "dbf": "СМАРТБАНК",
       "api": "СМАРТБАНК",
+      "nbu": "СМАРТБАНК",
       "fund": "СМАРТБАНК",
       "minfin": "СМАРТБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -5615,6 +5892,7 @@
     },
     "dateIssue": {
       "api": "2016-07-21",
+      "nbu": "2016-05-24",
       "fund": "2016-05-25"
     },
     "site": {
@@ -5636,12 +5914,14 @@
     "name": {
       "dbf": "СОФІЙСЬКИЙ",
       "api": "СОФІЙСЬКИЙ",
+      "nbu": "СОФІЙСЬКИЙ",
       "fund": "СОФІЙСЬКИЙ",
       "minfin": "СОФІЙСЬКИЙ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -5650,6 +5930,7 @@
     },
     "dateIssue": {
       "api": "2016-04-22",
+      "nbu": "2015-12-22",
       "fund": "2015-12-23"
     },
     "site": {
@@ -5689,12 +5970,14 @@
     "name": {
       "dbf": "СОЮЗ",
       "api": "СОЮЗ",
+      "nbu": "СОЮЗ",
       "fund": "СОЮЗ",
       "minfin": "СОЮЗ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -5703,6 +5986,7 @@
     },
     "dateIssue": {
       "api": "2016-04-28",
+      "nbu": "16-04-28",
       "fund": "2016-03-16"
     },
     "site": {
@@ -5724,12 +6008,14 @@
     "name": {
       "dbf": "СП БАНК",
       "api": "СП БАНК",
+      "nbu": "СП БАНК",
       "fund": "СП БАНК",
       "minfin": "СП БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -5738,6 +6024,7 @@
     },
     "dateIssue": {
       "api": "2015-09-09",
+      "nbu": "2015-09-09",
       "fund": "2015-09-11"
     },
     "site": {
@@ -5759,12 +6046,14 @@
     "name": {
       "dbf": "СТАНДАРТ",
       "api": "СТАНДАРТ",
+      "nbu": "СТАНДАРТ",
       "fund": "СТАНДАРТ",
       "minfin": "СТАНДАРТ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -5773,6 +6062,7 @@
     },
     "dateIssue": {
       "api": "2015-06-18",
+      "nbu": "2015-02-19",
       "fund": "2015-02-20"
     },
     "site": {
@@ -5794,12 +6084,14 @@
     "name": {
       "dbf": "СТАРОКИЇВСЬКИЙ БАНК",
       "api": "СТАРОКИЇВСЬКИЙ БАНК",
+      "nbu": "СТАРОКИЇВСЬКИЙ БАНК",
       "fund": "СТАРОКИЇВСЬКИЙ БАНК",
       "minfin": "СТАРОКИЇВСЬКИЙ БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -5808,6 +6100,7 @@
     },
     "dateIssue": {
       "api": "2014-09-11",
+      "nbu": "2014-06-17",
       "fund": "2014-06-18"
     },
     "site": {
@@ -5847,12 +6140,14 @@
     "name": {
       "dbf": "СТОЛИЧНИЙ",
       "api": "СТОЛИЧНИЙ",
+      "nbu": "СТОЛИЧНИЙ",
       "fund": "СТОЛИЧНИЙ",
       "minfin": "СТОЛИЧНИЙ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -5861,6 +6156,7 @@
     },
     "dateIssue": {
       "api": "2015-09-17",
+      "nbu": "2015-07-09",
       "fund": "2015-07-10"
     },
     "site": {
@@ -5942,6 +6238,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -5975,12 +6272,14 @@
     "name": {
       "dbf": "ТЕРРА БАНК",
       "api": "ТЕРРА БАНК",
+      "nbu": "ТЕРРА БАНК",
       "fund": "ТЕРРА БАНК",
       "minfin": "ТЕРРА БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -5989,6 +6288,7 @@
     },
     "dateIssue": {
       "api": "2014-12-23",
+      "nbu": "2014-08-21",
       "fund": "2014-08-22"
     },
     "site": {
@@ -6010,12 +6310,14 @@
     "name": {
       "dbf": "ТК КРЕДИТ",
       "api": "ТК КРЕДИТ",
+      "nbu": "ТК КРЕДИТ",
       "fund": "ТК КРЕДИТ",
       "minfin": "ТК КРЕДИТ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -6024,6 +6326,7 @@
     },
     "dateIssue": {
       "api": "2016-04-07",
+      "nbu": "2016-02-09",
       "fund": "2016-02-10"
     },
     "site": {
@@ -6063,12 +6366,14 @@
     "name": {
       "dbf": "ТРАСТ",
       "api": "ТРАСТ",
+      "nbu": "ТРАСТ",
       "fund": "ТРАСТ",
       "minfin": "ТРАСТ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -6077,6 +6382,7 @@
     },
     "dateIssue": {
       "api": "2016-12-29",
+      "nbu": "2016-12-06",
       "fund": "2016-12-07"
     },
     "site": {
@@ -6105,6 +6411,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -6137,12 +6444,14 @@
     "name": {
       "dbf": "УКООПСПІЛКА",
       "api": "УКООПСПІЛКА",
+      "nbu": "УКООПСПІЛКА",
       "fund": "УКООПСПІЛКА",
       "minfin": "УКООПСПІЛКА"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -6151,6 +6460,7 @@
     },
     "dateIssue": {
       "api": "2015-04-22",
+      "nbu": "2015-01-22",
       "fund": "2015-01-23"
     },
     "site": {
@@ -6172,12 +6482,14 @@
     "name": {
       "dbf": "УКРІНБАНК",
       "api": "УКРІНБАНК",
+      "nbu": "УКРІНБАНК",
       "fund": "УКРІНБАНК",
       "minfin": "УКРІНБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -6186,6 +6498,7 @@
     },
     "dateIssue": {
       "api": "2016-03-22",
+      "nbu": "2015-12-24",
       "fund": "2015-12-25"
     },
     "site": {
@@ -6250,6 +6563,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -6289,6 +6603,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -6339,12 +6654,14 @@
     "name": {
       "dbf": "УКРБІЗНЕСБАНК",
       "api": "УКРБІЗНЕСБАНК",
+      "nbu": "УКРБІЗНЕСБАНК",
       "fund": "УКРБІЗНЕСБАНК",
       "minfin": "УКРБІЗНЕСБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -6353,6 +6670,7 @@
     },
     "dateIssue": {
       "api": "2015-04-23",
+      "nbu": "2014-12-25",
       "fund": "2014-12-26"
     },
     "site": {
@@ -6381,6 +6699,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -6421,6 +6740,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -6453,12 +6773,14 @@
     "name": {
       "dbf": "УКРГАЗПРОМБАНК",
       "api": "УКРГАЗПРОМБАНК",
+      "nbu": "УКРГАЗПРОМБАНК",
       "fund": "УКРГАЗПРОМБАНК",
       "minfin": "УКРГАЗПРОМБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -6467,6 +6789,7 @@
     },
     "dateIssue": {
       "api": "2015-09-14",
+      "nbu": "2015-04-07",
       "fund": "2015-04-08"
     },
     "site": {
@@ -6495,6 +6818,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -6527,12 +6851,14 @@
     "name": {
       "dbf": "УКРКОМУНБАНК",
       "api": "УКРКОМУНБАНК",
+      "nbu": "УКРКОМУНБАНК",
       "fund": "УКРКОМУНБАНК",
       "minfin": "УКРКОМУНБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -6541,6 +6867,7 @@
     },
     "dateIssue": {
       "api": "2015-09-14",
+      "nbu": "2015-05-12",
       "fund": "2015-09-14"
     },
     "site": {
@@ -6569,6 +6896,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -6608,6 +6936,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -6647,6 +6976,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -6679,12 +7009,14 @@
     "name": {
       "dbf": "УНІКОМБАНК",
       "api": "УНІКОМБАНК",
+      "nbu": "УНІКОМБАНК",
       "fund": "УНІКОМБАНК",
       "minfin": "УНІКОМБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -6693,6 +7025,7 @@
     },
     "dateIssue": {
       "api": "2015-12-03",
+      "nbu": "2015-10-15",
       "fund": "2015-10-16"
     },
     "site": {
@@ -6714,12 +7047,14 @@
     "name": {
       "dbf": "УПБ",
       "api": "УПБ",
+      "nbu": "УПБ",
       "fund": "УПБ",
       "minfin": "УПБ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -6728,6 +7063,7 @@
     },
     "dateIssue": {
       "api": "2015-08-28",
+      "nbu": "2015-05-28",
       "fund": "2015-05-29"
     },
     "site": {
@@ -6749,12 +7085,14 @@
     "name": {
       "dbf": "УФС",
       "api": "УФС",
+      "nbu": "УФС",
       "fund": "УФС",
       "minfin": "УФС"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -6763,6 +7101,7 @@
     },
     "dateIssue": {
       "api": "2014-11-10",
+      "nbu": "2014-08-14",
       "fund": "2014-08-15"
     },
     "site": {
@@ -6784,12 +7123,14 @@
     "name": {
       "dbf": "ФІДОБАНК",
       "api": "ФІДОБАНК",
+      "nbu": "ФІДОБАНК",
       "fund": "ФІДОБАНК",
       "minfin": "ФІДОБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -6798,6 +7139,7 @@
     },
     "dateIssue": {
       "api": "2016-07-18",
+      "nbu": "2016-05-20",
       "fund": "2016-05-20"
     },
     "site": {
@@ -6819,18 +7161,21 @@
     "name": {
       "dbf": "ФІНАНС БАНК",
       "api": "ФІНАНС БАНК",
+      "nbu": "ФІНАНС БАНК",
       "minfin": "ФІНАНС БАНК"
     },
     "active": {
       "dbf": false,
-      "api": false
+      "api": false,
+      "nbu": false
     },
     "dateOpen": {
       "dbf": "1992-01-20",
       "api": "1992-01-20"
     },
     "dateIssue": {
-      "api": "2016-05-31"
+      "api": "2016-05-31",
+      "nbu": "2016-05-31"
     },
     "site": {
       "minfin": [
@@ -6851,12 +7196,14 @@
     "name": {
       "dbf": "ФІНАНСИ ТА КРЕДИТ",
       "api": "ФІНАНСИ ТА КРЕДИТ",
+      "nbu": "ФІНАНСИ ТА КРЕДИТ",
       "fund": "ФІНАНСИ ТА КРЕДИТ",
       "minfin": "ФІНАНСИ ТА КРЕДИТ"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -6865,6 +7212,7 @@
     },
     "dateIssue": {
       "api": "2015-12-17",
+      "nbu": "2015-09-17",
       "fund": "2015-09-18"
     },
     "site": {
@@ -6893,15 +7241,16 @@
     "active": {
       "dbf": true,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
       "dbf": "2005-01-19",
-      "api": "2005-01-19",
-      "nbu": "2005-01-19"
+      "api": "2005-01-19"
     },
     "dateIssue": {
       "api": "2015-06-23",
+      "nbu": "2015-06-23",
       "fund": "2015-06-24"
     },
     "site": {
@@ -6945,12 +7294,14 @@
     "name": {
       "dbf": "ФІНБАНК",
       "api": "ФІНБАНК",
+      "nbu": "ФІНБАНК",
       "fund": "ФІНБАНК",
       "minfin": "ФІНБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -6959,6 +7310,7 @@
     },
     "dateIssue": {
       "api": "2017-04-27",
+      "nbu": "2017-04-07",
       "fund": "2017-04-10"
     },
     "site": {
@@ -6978,11 +7330,16 @@
   {
     "id": "ФІНЕКСБАНК",
     "name": {
+      "nbu": "ФІНЕКСБАНК",
       "minfin": "ФІНЕКСБАНК"
     },
-    "active": {},
+    "active": {
+      "nbu": false
+    },
     "dateOpen": {},
-    "dateIssue": {},
+    "dateIssue": {
+      "nbu": "2016-11-18"
+    },
     "site": {
       "minfin": [
         "http://www.finexbank.com.ua/"
@@ -7002,12 +7359,14 @@
     "name": {
       "dbf": "ФІНРОСТБАНК",
       "api": "ФІНРОСТБАНК",
+      "nbu": "ФІНРОСТБАНК",
       "fund": "ФІНРОСТБАНК",
       "minfin": "ФІНРОСТБАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -7016,6 +7375,7 @@
     },
     "dateIssue": {
       "api": "2014-10-16",
+      "nbu": "2014-07-15",
       "fund": "2014-07-16"
     },
     "site": {
@@ -7037,12 +7397,14 @@
     "name": {
       "dbf": "ФОРТУНА-БАНК",
       "api": "ФОРТУНА-БАНК",
+      "nbu": "ФОРТУНА-БАНК",
       "fund": "ФОРТУНА-БАНК",
       "minfin": "ФОРТУНА-БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -7051,6 +7413,7 @@
     },
     "dateIssue": {
       "api": "2017-02-21",
+      "nbu": "2017-01-26",
       "fund": "2017-01-27"
     },
     "site": {
@@ -7072,12 +7435,14 @@
     "name": {
       "dbf": "ХРЕЩАТИК",
       "api": "ХРЕЩАТИК",
+      "nbu": "ХРЕЩАТИК",
       "fund": "ХРЕЩАТИК",
       "minfin": "ХРЕЩАТИК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -7086,6 +7451,7 @@
     },
     "dateIssue": {
       "api": "2016-06-02",
+      "nbu": "2016-04-05",
       "fund": "2016-04-05"
     },
     "site": {
@@ -7132,14 +7498,17 @@
   {
     "id": "ЧБРР",
     "name": {
+      "nbu": "ЧБРР",
       "fund": "ЧБРР",
       "minfin": "ЧБРР"
     },
     "active": {
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {},
     "dateIssue": {
+      "nbu": "2015-09-02",
       "fund": "2015-09-04"
     },
     "site": {
@@ -7159,12 +7528,14 @@
     "name": {
       "dbf": "ЮНІСОН",
       "api": "ЮНІСОН",
+      "nbu": "ЮНІСОН",
       "fund": "ЮНІСОН",
       "minfin": "ЮНІСОН"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -7173,6 +7544,7 @@
     },
     "dateIssue": {
       "api": "2018-06-18",
+      "nbu": "2016-04-28",
       "fund": "2016-04-28"
     },
     "site": {
@@ -7201,6 +7573,7 @@
     "active": {
       "dbf": true,
       "api": true,
+      "nbu": true,
       "fund": true
     },
     "dateOpen": {
@@ -7233,12 +7606,14 @@
     "name": {
       "dbf": "ЮСБ БАНК",
       "api": "ЮСБ БАНК",
+      "nbu": "ЮСБ БАНК",
       "fund": "ЮСБ БАНК",
       "minfin": "ЮСБ БАНК"
     },
     "active": {
       "dbf": false,
       "api": false,
+      "nbu": false,
       "fund": false
     },
     "dateOpen": {
@@ -7247,6 +7622,7 @@
     },
     "dateIssue": {
       "api": "2015-12-24",
+      "nbu": "2015-10-02",
       "fund": "2015-12-28"
     },
     "site": {
