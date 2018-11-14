@@ -34,8 +34,7 @@ class AppRatings extends Component {
                 site: (bank.site.minfin || [])[0],
                 link: bank.internal.link.minfin,
                 dateOpen: bank.dateOpen.dbf,
-                dateIssue: bank.dateIssue.api,
-                dateIssueFund: bank.dateIssue.fund
+                dateIssue: bank.dateIssue
             };
         }).filter(bank => bank.name), 'id');
     }
@@ -44,17 +43,16 @@ class AppRatings extends Component {
         const dates = Object.keys(this.state.ratings).sort().reverse();
         const openDates = {};
         const issueDates = {};
-        const fundIssueDates = {};
         _.forOwn(this.state.banks, (bank, bankId) => dates.forEach(date => {
             if (bank.dateOpen && bank.dateOpen < date) {
                 openDates[bankId] = date;
             }
-            if (bank.dateIssue && bank.dateIssue < date) {
-                issueDates[bankId] = date;
-            }
-            if (bank.dateIssueFund && bank.dateIssueFund < date) {
-                fundIssueDates[bankId] = date;
-            }
+            _.forOwn(bank.dateIssue, (dateIssue, type) => {
+                if (dateIssue && dateIssue < date) {
+                    issueDates[bankId] = issueDates[bankId] || {};
+                    issueDates[bankId][type] = date;
+                }
+            });
         }));
 
         const latestRating = {};
@@ -103,7 +101,7 @@ class AppRatings extends Component {
                             <td><a href={this.state.banks[bankId].link}>{this.state.banks[bankId].name}</a></td>
                             <td><a href={this.state.banks[bankId].site}>{((this.state.banks[bankId].site || '').match(/\/\/([^/]+)/) || [])[1]}</a></td>
                             {dates.map(date => (
-                                <td key={date} style={this.styleForCell(bankId, date, openDates, issueDates, fundIssueDates)}>{this.state.ratings[date][bankId] || '-'}</td>
+                                <td key={date} style={this.styleForCell(bankId, date, openDates, issueDates)}>{this.state.ratings[date][bankId] || '-'}</td>
                             ))}
                         </tr>
                     ))}
@@ -113,12 +111,11 @@ class AppRatings extends Component {
         );
     }
 
-    styleForCell(bankId, date, openDates, issueDates, fundIssueDates) {
+    styleForCell(bankId, date, openDates, issueDates) {
         return {
             ...this.styleForRating(this.state.ratings[date][bankId]),
             ...this.styleForOpenDate(openDates[bankId] === date),
-            ...this.styleForIssueDate(issueDates[bankId] === date),
-            ...this.styleForFundIssueDate(fundIssueDates[bankId] === date)
+            ...this.styleForIssueDate(issueDates[bankId] || {}, date)
         };
     }
 
@@ -129,18 +126,19 @@ class AppRatings extends Component {
         } : {};
     }
 
-    styleForIssueDate(isIssueDate) {
-        return isIssueDate ? {
+    styleForIssueDate(dates, date) {
+        const style = dates.api === date ? {
             borderColor: 'red',
             borderWidth: 3
         } : {};
-    }
 
-    styleForFundIssueDate(isIssueDate) {
-        return isIssueDate ? {
-            // https://css-tricks.com/stripes-css/
-            background: 'repeating-linear-gradient(45deg, pink, pink 5px, deeppink 5px, deeppink 10px)'
-        } : {};
+        const fundColor = dates.fund === date ? 'pink' : 'transparent';
+        const nbuColor = dates.nbu === date ? 'deeppink' : 'transparent';
+        if (fundColor !== 'transparent' || nbuColor !== 'transparent') {
+            style.background = `repeating-linear-gradient(45deg, ${fundColor}, ${fundColor} 5px, ${nbuColor} 5px, ${nbuColor} 10px)`;
+        }
+
+        return style;
     }
 
     styleForRating(rating) {
