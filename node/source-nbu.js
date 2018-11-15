@@ -1,14 +1,15 @@
-let utils = require('./utils');
-let _ = require('lodash');
-let names = require('./names');
-let convert = require('xml-js');
-let ext = require('./external');
-let int = require('./internal');
-let dates = require('./dates');
-let assert = require('./assert');
-let arj = require('./arj');
-let dbf = require('./dbf');
-let regex = require('./regex');
+const utils = require('./utils');
+const _ = require('lodash');
+const names = require('./names');
+const convert = require('xml-js');
+const ext = require('./external');
+const int = require('./internal');
+const dates = require('./dates');
+const assert = require('./assert');
+const arj = require('./arj');
+const dbf = require('./dbf');
+const regex = require('./regex');
+const PDFParser = require('pdf2json');
 
 module.exports = {
     // Банківський нагляд -> Реєстрація та ліцензування -> Банківські ліцензії та види діяльності банків України (missing banks can be found here):
@@ -63,6 +64,7 @@ module.exports = {
         this.saveBanksDBF();
         this.saveBanksAPI();
         this.saveBanksUI();
+        this.saveNotBanks();
     },
 
     saveBanksDBF() {
@@ -164,31 +166,32 @@ module.exports = {
         int.write('nbu/banks', banks);
     },
 
-    test() {
-        const htmlInactive = ext.read('nbu/banks-inactive', 'https://bank.gov.ua/control/uk/publish/article?art_id=75535&cat_id=17823466');
-        const regexp = new RegExp('<tr[^>]*>\\s*?' + '(<td[^>]*>\\s*?(<p[^>]*>\\s*?<span[^>]*>([\\S\\s]*?)<o:p>.*?<\\/o:p><\\/span><\\/p>)?\\s*?<\\/td>\\s*?)'.repeat(4) + '[\\S\\s]*?<\\/tr>', 'g');
-        let matches = regex.findManyObjects(htmlInactive, regexp, {
-            name: 3, date1: 6, date2: 9, date3: 12
+    saveNotBanks() {
+        // https://bank.gov.ua/control/uk/publish/article?art_id=52047&cat_id=11214280
+        const pdf = ext.download('nbu/not-bank/380571.pdf', 'https://bank.gov.ua/files/Licences_bank/380571.pdf');
+        console.log('PDF OK!!!')
+
+        const pdfParser = new PDFParser();
+
+        pdfParser.on("pdfParser_dataError", errData => console.error(errData.parserError) );
+        pdfParser.on("pdfParser_dataReady", pdfData => {
+            utils.writeFile('./binary/nbu/not-bank/380571.txt',this.extractText(pdfData).join(''));
         });
-        matches = matches.map(bank => {
-            const trim = (value) => (value || '')
-                .replace(/&nbsp;/g, ' ')
-                .replace(/&quot;/g, '"')
-                .replace(/<[^<]*>/g, '')
-                .replace(/\s+/g, ' ')
-                .trim();
-            const dateIssue = _.min([bank.date1, bank.date2, bank.date3]
-                .map(date => trim(date))
-                .map(date => dates.format(date))
-                .filter(date => date));
-            return {
-                name: names.extractBankPureName(trim(bank.name)),
-                dateIssue: dateIssue
-            };
+
+        pdfParser.loadPDF("./binary/nbu/not-bank/380571.pdf");
+
+    },
+
+    extractText(object) {
+        const text = [];
+        _.forOwn(object, (value, key) => {
+            if (key === 'T') {
+                text.push(decodeURIComponent(value));
+            } else if (_.isObject(value)) {
+                text.push(...this.extractText(value));
+            }
         });
-        console.log(matches);
-        console.log(matches.length);
-        return matches;
+        return text;
     },
 
     extractBankPureNameSPC(name) {

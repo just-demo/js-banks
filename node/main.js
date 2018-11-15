@@ -10,12 +10,12 @@ let assert = require('./assert');
 // let t = require('../src/test');
 // console.log(t.hello());
 
-// nbu.saveAll();
+nbu.saveNotBanks();
 // fund.saveAll();
 // minfin.saveAll();
 // names.rebuildBankNames();
 
-combineBanks();
+// combineBanks();
 
 function compareGovApiBanks() {
     const dbfBanks = nbu.getBanksDBF();
