@@ -3,7 +3,7 @@ import './App.css';
 import _ from 'lodash';
 import 'bootstrap/dist/css/bootstrap.css'
 
-class AppBanksList extends Component {
+class AppBanks extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -118,8 +118,7 @@ class AppBanksList extends Component {
     }
 
     allTrue(object) {
-        // TODO: do really need to specify predicate a function? isn't default enough?
-        return _.every(Object.values(object), value => value);
+        return _.every(Object.values(object));
     }
 
     styleForCell(bank, currentSource) {
@@ -151,4 +150,4 @@ class AppBanksList extends Component {
     }
 }
 
-export default AppBanksList;
+export default AppBanks;

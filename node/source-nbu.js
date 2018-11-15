@@ -11,6 +11,9 @@ let dbf = require('./dbf');
 let regex = require('./regex');
 
 module.exports = {
+    // Банківський нагляд -> Реєстрація та ліцензування -> Банківські ліцензії та види діяльності банків України (missing banks can be found here):
+    // https://bank.gov.ua/control/uk/publish/article?art_id=52047&cat_id=11214280
+
     // https://bank.gov.ua/control/portalmap -> Банківський нагляд -> Реорганізація, припинення та ліквідація
     // https://bank.gov.ua/control/uk/publish/article?art_id=75535&cat_id=17823466
     // https://www.bank.gov.ua/control/bankdict/banks

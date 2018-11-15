@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
-import _ from 'lodash';
 import 'bootstrap/dist/css/bootstrap.css'
 
-class AppDBFList extends Component {
+class AppDBF extends Component {
     constructor(props) {
         super(props);
         this.state = {banks: []};
@@ -38,4 +37,4 @@ class AppDBFList extends Component {
     }
 }
 
-export default AppDBFList;
+export default AppDBF;

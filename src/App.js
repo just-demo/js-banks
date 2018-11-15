@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import {HashRouter, Link, Route} from 'react-router-dom';
 import AppRatings from "./AppRatings";
-import AppBankList from "./AppBankList";
-import AppDBFList from "./AppDBFList";
+import AppBanks from "./AppBanks";
+import AppDBF from "./AppDBF";
 
 const App = () => (
     <HashRouter>
@@ -15,8 +15,8 @@ const App = () => (
             </nav>
             <div>
                 <Route exact path="/" component={AppRatings}/>
-                <Route exact path="/banks" component={AppBankList}/>
-                <Route path="/banks/dbf" component={AppDBFList}/>
+                <Route exact path="/banks" component={AppBanks}/>
+                <Route path="/banks/dbf" component={AppDBF}/>
             </div>
         </div>
     </HashRouter>
