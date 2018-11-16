@@ -10,7 +10,7 @@ let assert = require('./assert');
 // let t = require('../src/test');
 // console.log(t.hello());
 
-nbu.saveNotBanks();
+nbu.saveBanksPDF();
 // fund.saveAll();
 // minfin.saveAll();
 // names.rebuildBankNames();

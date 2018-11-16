@@ -166,23 +166,51 @@ module.exports = {
         int.write('nbu/banks', banks);
     },
 
-    saveNotBanks() {
+    saveBanksPDF() {
         const html = ext.read('nbu/not-banks', 'https://bank.gov.ua/control/uk/publish/article?art_id=52047');
-        // https://bank.gov.ua/control/uk/publish/article?art_id=52047
-        const banks = {};
+        const bankFiles = {};
         regex.findManyObjects(html, /<a\s+href="files\/Licences_bank\/(.+?)".*?>([\s\S]+?)<\/a>/g, {
             file: 1, name: 2
         }).forEach(bank => {
-            banks[bank.file] = banks[bank.file] || [];
-            banks[bank.file].push(bank.name.replace(/<[^>]*>/g, '').replace(/\s+/g, ' '));
+            bankFiles[bank.file] = bankFiles[bank.file] || [];
+            bankFiles[bank.file].push(bank.name.replace(/<[^>]*>/g, '').replace(/\s+/g, ' '));
         });
 
-        Object.keys(banks).forEach(file => {
-            const pdf = ext.download('nbu/not-banks/pdf/' + file, 'https://bank.gov.ua/files/Licences_bank/' + file);
+        const banks = [];
+        const latch = new CountDownLatch(Object.keys(bankFiles).length, () => {
+            int.write('nbu/banks-pdf', banks);
+            console.log(banks.filter(bank => !bank.issueDate).length);
+            console.log(banks.length);
+        });
+
+        _.forOwn(bankFiles, (bankNames, file) => {
+            const textFile = './binary/nbu/not-banks/text/' + file.split('.')[0] + '.txt';
+            function process(text) {
+                //Дата відкликання20.07.2011
+                const bank = regex.findObject(text,/^(.+?)Назва банку(.*?Дата відкликання(\d{2}\.\d{2}\.\d{4}))?/g, {
+                    name: 1, issueDate: 3
+                });
+                banks.push({
+                    names: _.uniq([names.extractBankPureName(bank.name), ...bankNames].map(name => name.toUpperCase())),
+                    issueDate: dates.format(bank.issueDate)
+                });
+                latch.notify();
+            }
+            if (utils.fileExists(textFile)) {
+                process(utils.readFile(textFile));
+                return;
+            }
+            // TODO: download and process asynchronously
+            ext.download('nbu/not-banks/pdf/' + file, 'https://bank.gov.ua/files/Licences_bank/' + file);
             const pdfParser = new PDFParser();
-            pdfParser.on("pdfParser_dataError", errData => console.error(errData.parserError) );
+            pdfParser.on("pdfParser_dataError", errData => {
+                console.error(errData.parserError);
+                latch.notify();
+            });
             pdfParser.on("pdfParser_dataReady", pdfData => {
-                utils.writeFile('./binary/nbu/not-banks/text/' + file.split('.')[0] + '.txt',this.extractText(pdfData).join(''));
+                const text = this.extractText(pdfData).join('');
+                utils.writeFile('./binary/nbu/not-banks/text/' + file.split('.')[0] + '.txt', text);
+                process(text);
             });
             pdfParser.loadPDF("./binary/nbu/not-banks/pdf/" + file);
             // TODO: wait until all files are parsed and collect data in the very end
@@ -222,3 +250,7 @@ module.exports = {
         }
     }
 };
+
+function CountDownLatch(count, onComplete) {
+    this.notify = () => --count < 1 && onComplete();
+}
