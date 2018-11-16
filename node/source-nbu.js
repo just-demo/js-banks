@@ -176,8 +176,7 @@ module.exports = {
             bankFiles[bank.file].push(bank.name.replace(/<[^>]*>/g, '').replace(/\s+/g, ' '));
         });
 
-        const banks = [];
-        const latch = new CountDownLatch(Object.keys(bankFiles).length, () => {
+        const banks = new Collector(Object.keys(bankFiles).length, (banks) => {
             int.write('nbu/banks-pdf', banks);
             console.log(banks.filter(bank => !bank.issueDate).length);
             console.log(banks.length);
@@ -190,11 +189,10 @@ module.exports = {
                 const bank = regex.findObject(text,/^(.+?)Назва банку(.*?Дата відкликання(\d{2}\.\d{2}\.\d{4}))?/g, {
                     name: 1, issueDate: 3
                 });
-                banks.push({
+                banks.next({
                     names: _.uniq([names.extractBankPureName(bank.name), ...bankNames].map(name => name.toUpperCase())),
                     issueDate: dates.format(bank.issueDate)
                 });
-                latch.notify();
             }
             if (utils.fileExists(textFile)) {
                 process(utils.readFile(textFile));
@@ -205,7 +203,7 @@ module.exports = {
             const pdfParser = new PDFParser();
             pdfParser.on("pdfParser_dataError", errData => {
                 console.error(errData.parserError);
-                latch.notify();
+                banks.next();
             });
             pdfParser.on("pdfParser_dataReady", pdfData => {
                 const text = this.extractText(pdfData).join('');
@@ -253,4 +251,12 @@ module.exports = {
 
 function CountDownLatch(count, onComplete) {
     this.notify = () => --count < 1 && onComplete();
+}
+
+function Collector(count, onComplete) {
+    const items = [];
+    this.next = (item) => {
+        !_.isUndefined(item) && items.push(item);
+        --count < 1 && onComplete(items);
+    }
 }
