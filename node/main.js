@@ -13,7 +13,7 @@ let assert = require('./assert');
 // nbu.saveBanksPDF();
 // fund.saveAll();
 // minfin.saveAll();
-// names.rebuildBankNames();
+names.rebuildBankNames();
 
 combineBanks();
 

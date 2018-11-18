@@ -204,8 +204,10 @@ module.exports = {
                 const bank = regex.findObject(text,/^(.+?)Назва банку(.*?Дата відкликання(\d{2}\.\d{2}\.\d{4}))?/g, {
                     name: 1, dateIssue: 3
                 });
+                bankNames = [names.extractBankPureName(bank.name), ...bankNames]
+                    .map(name => names.normalize(name));
                 banks.next({
-                    name: _.uniq([names.extractBankPureName(bank.name), ...bankNames].map(name => name.toUpperCase())),
+                    name: _.uniq(bankNames),
                     dateIssue: dates.format(bank.dateIssue)
                 });
             }
