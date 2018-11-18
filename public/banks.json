@@ -40,46 +40,6 @@
     }
   },
   {
-    "id": "VG БАНК",
-    "name": {
-      "pdf": "VG БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2006-06-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЄБРЗ",
-    "name": {
-      "pdf": "ЄБРЗ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2008-02-25"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ЄВРОБАНК",
     "name": {
       "dbf": "ЄВРОБАНК",
@@ -184,26 +144,6 @@
     }
   },
   {
-    "id": "ЄВРОПЕЙСЬКИЙ БАНК РАЦІОН ФІНАНСУВАННЯ",
-    "name": {
-      "pdf": "ЄВРОПЕЙСЬКИЙ БАНК РАЦІОН ФІНАНСУВАННЯ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-08-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ",
     "name": {
       "pdf": "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ",
@@ -216,46 +156,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "2008-02-25"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЄВРОЦЕНТР",
-    "name": {
-      "pdf": "ЄВРОЦЕНТР"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЄКАТЕРИНОСЛАВСЬКИЙ (ФСБАНК)",
-    "name": {
-      "pdf": "ЄКАТЕРИНОСЛАВСЬКИЙ (ФСБАНК)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-12-24"
     },
     "site": {
       "minfin": []
@@ -354,146 +254,6 @@
     }
   },
   {
-    "id": "ІДЕЯ БАНК (ПЛЮС БАНК)",
-    "name": {
-      "pdf": "ІДЕЯ БАНК (ПЛЮС БАНК)"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ІЗУМРУД",
-    "name": {
-      "pdf": "ІЗУМРУД"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2011-05-11"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ІК НПК БАНК",
-    "name": {
-      "pdf": "ІК НПК БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2014-05-21"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ІКАБ",
-    "name": {
-      "pdf": "ІКАБ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1999-03-02"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ІКАР БАНК",
-    "name": {
-      "pdf": "ІКАР БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-04-15"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ІКО",
-    "name": {
-      "pdf": "ІКО"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2006-02-28"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ІМДАТ БАНК ( СПРИЯННЯ )",
-    "name": {
-      "pdf": "ІМДАТ БАНК ( СПРИЯННЯ )"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1998-10-02"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ІМЕКСБАНК",
     "name": {
       "dbf": "ІМЕКСБАНК",
@@ -532,66 +292,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/imexbank"
       }
-    }
-  },
-  {
-    "id": "ІНВЕСТ БАНК УКРАЇНА",
-    "name": {
-      "pdf": "ІНВЕСТ БАНК УКРАЇНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2000-10-24"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ІНВЕСТ КРЕДИТ БАНК",
-    "name": {
-      "pdf": "ІНВЕСТ КРЕДИТ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2014-12-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ІНВЕСТ КРИВБАС БАНК",
-    "name": {
-      "pdf": "ІНВЕСТ КРИВБАС БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2014-12-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -737,26 +437,6 @@
     }
   },
   {
-    "id": "ІНДЕКС БАНК",
-    "name": {
-      "pdf": "ІНДЕКС БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ІНДУСТРІАЛБАНК",
     "name": {
       "dbf": "ІНДУСТРІАЛБАНК",
@@ -797,66 +477,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/industrialbank"
       }
-    }
-  },
-  {
-    "id": "ІНДУСТРІАЛЬНО ЕКСПОРТНИЙ БАНК",
-    "name": {
-      "pdf": "ІНДУСТРІАЛЬНО ЕКСПОРТНИЙ БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ІНКОМБАНК УКРАЇНА",
-    "name": {
-      "pdf": "ІНКОМБАНК УКРАЇНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-06-02"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ІННОВАЦІЙНО ПРОМИСЛОВИЙ БАНК",
-    "name": {
-      "pdf": "ІННОВАЦІЙНО ПРОМИСЛОВИЙ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2003-06-27"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -930,26 +550,6 @@
     }
   },
   {
-    "id": "ІНТЕЛЕКТБАНК",
-    "name": {
-      "pdf": "ІНТЕЛЕКТБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-07-06"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ІНТЕРБАНК",
     "name": {
       "dbf": "ІНТЕРБАНК",
@@ -988,26 +588,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/interbank"
       }
-    }
-  },
-  {
-    "id": "ІНТЕРГАЗБАНК",
-    "name": {
-      "pdf": "ІНТЕРГАЗБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -1114,26 +694,6 @@
     }
   },
   {
-    "id": "ІПОТЕЧНИЙ КАБ",
-    "name": {
-      "pdf": "ІПОТЕЧНИЙ КАБ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1999-03-02"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ІПОТЕЧНИЙ КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК",
     "name": {
       "pdf": "ІПОТЕЧНИЙ КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК"
@@ -1197,66 +757,6 @@
     }
   },
   {
-    "id": "А К УДБ БАНК",
-    "name": {
-      "pdf": "А К УДБ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-04-07"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АІС БАНК",
-    "name": {
-      "pdf": "АІС БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АБ ОАЗИС",
-    "name": {
-      "pdf": "АБ ОАЗИС"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "АБСОЛЮТ",
     "name": {
       "pdf": "АБСОЛЮТ"
@@ -1267,66 +767,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "1999-12-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АБСОЛЮТБАНК",
-    "name": {
-      "pdf": "АБСОЛЮТБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1999-12-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АВІАТЕКБАНК",
-    "name": {
-      "pdf": "АВІАТЕКБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-04-21"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АВАЛЬ",
-    "name": {
-      "pdf": "АВАЛЬ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
     },
     "site": {
       "minfin": []
@@ -1375,146 +815,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/avantbank"
       }
-    }
-  },
-  {
-    "id": "АВТОЗАЗБАНК",
-    "name": {
-      "pdf": "АВТОЗАЗБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АВТОРИТЕТ",
-    "name": {
-      "pdf": "АВТОРИТЕТ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АГРАРНИЙ КОМЕРЦІЙНИЙ БАНК",
-    "name": {
-      "pdf": "АГРАРНИЙ КОМЕРЦІЙНИЙ БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АГРОБАНК",
-    "name": {
-      "pdf": "АГРОБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АГРОПРОСПЕРІС БАНК (АСТРА БАНК)",
-    "name": {
-      "pdf": "АГРОПРОСПЕРІС БАНК (АСТРА БАНК)"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АЖІО",
-    "name": {
-      "pdf": "АЖІО"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-07-18"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АЗОВ БАНК",
-    "name": {
-      "pdf": "АЗОВ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1999-04-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -1665,26 +965,6 @@
     }
   },
   {
-    "id": "АКСІ БАНК",
-    "name": {
-      "pdf": "АКСІ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-02-26"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "АКСІОМА",
     "name": {
       "dbf": "АКСІОМА",
@@ -1723,26 +1003,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/axiomabank"
       }
-    }
-  },
-  {
-    "id": "АКСІОМА (СИГМАБАНК)",
-    "name": {
-      "pdf": "АКСІОМА (СИГМАБАНК)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-01-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -1838,226 +1098,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "2004-03-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АКЦІОНЕРНИЙ БАНК УКРГАЗПРОМБАНК",
-    "name": {
-      "pdf": "АКЦІОНЕРНИЙ БАНК УКРГАЗПРОМБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-09-14"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АКЦІОНЕРНИЙ КИЇВСЬКИЙ НАРОДНИЙ БАНК",
-    "name": {
-      "pdf": "АКЦІОНЕРНИЙ КИЇВСЬКИЙ НАРОДНИЙ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2002-06-27"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК МРІЯ",
-    "name": {
-      "pdf": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК МРІЯ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
-    "name": {
-      "pdf": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК НАЦІОНАЛЬНИЙ КРЕДИТ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-08-31"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК НОВИЙ",
-    "name": {
-      "pdf": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК НОВИЙ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2017-08-31"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК ПЕРСОНАЛЬНИЙ КОМП`ЮТЕР (ПЕРКОМБАНК)",
-    "name": {
-      "pdf": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК ПЕРСОНАЛЬНИЙ КОМП`ЮТЕР (ПЕРКОМБАНК)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2017-12-19"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК СПІВДРУЖНІСТЬ",
-    "name": {
-      "pdf": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК СПІВДРУЖНІСТЬ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК ТК КРЕДИТ",
-    "name": {
-      "pdf": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК ТК КРЕДИТ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-04-07"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК ТОРГОВО ПРОМИСЛОВИЙ БАНК",
-    "name": {
-      "pdf": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК ТОРГОВО ПРОМИСЛОВИЙ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1999-05-13"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АКЦЕПТ БАНК",
-    "name": {
-      "pdf": "АКЦЕПТ БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АКЦЕПТБАНК",
-    "name": {
-      "pdf": "АКЦЕПТБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2011-07-20"
     },
     "site": {
       "minfin": []
@@ -2176,26 +1216,6 @@
     }
   },
   {
-    "id": "АЛЬТБАНК (НЕОС БАНК)",
-    "name": {
-      "pdf": "АЛЬТБАНК (НЕОС БАНК)"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "АЛЬФА-БАНК",
     "name": {
       "dbf": "АЛЬФА-БАНК",
@@ -2259,46 +1279,6 @@
     }
   },
   {
-    "id": "АНДРІЇВСЬКИЙ",
-    "name": {
-      "pdf": "АНДРІЇВСЬКИЙ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2003-06-27"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АНТАРЕС",
-    "name": {
-      "pdf": "АНТАРЕС"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-12-10"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "АП БАНК",
     "name": {
       "dbf": "АП БАНК",
@@ -2311,24 +1291,20 @@
     "active": {
       "dbf": true,
       "api": true,
-      "nbu": true,
+      "nbu": false,
       "pdf": true,
-      "fund": true
+      "fund": false
     },
     "dateOpen": {
       "dbf": "2007-11-28",
-      "api": "2007-11-28",
-      "nbu": "2007-11-28"
+      "api": "2007-11-28"
     },
     "dateIssue": {
       "api": "2015-10-02",
+      "nbu": "2015-03-19",
       "pdf": null
     },
     "site": {
-      "fund": [
-        "http://www.ap-bank.com",
-        "http://www.astrabank.ua"
-      ],
       "minfin": [
         "http://www.ap-bank.com/"
       ]
@@ -2340,26 +1316,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/agroprosperis-bank"
       }
-    }
-  },
-  {
-    "id": "АПЕКС БАНК",
-    "name": {
-      "pdf": "АПЕКС БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2017-12-26"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -2536,26 +1492,6 @@
     }
   },
   {
-    "id": "АРЧ БАНК",
-    "name": {
-      "pdf": "АРЧ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2010-01-21"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "АСВІО БАНК",
     "name": {
       "dbf": "АСВІО БАНК",
@@ -2599,88 +1535,6 @@
     }
   },
   {
-    "id": "АСВІО БАНК (ПРИВАТІНВЕСТ)",
-    "name": {
-      "pdf": "АСВІО БАНК (ПРИВАТІНВЕСТ)"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АСКОЛЬД",
-    "name": {
-      "pdf": "АСКОЛЬД"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2003-07-29"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АСТРА",
-    "name": {
-      "pdf": "АСТРА"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "АСТРА БАНК",
-    "name": {
-      "nbu": "АСТРА БАНК",
-      "fund": "АСТРА БАНК"
-    },
-    "active": {
-      "nbu": false,
-      "fund": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "nbu": "2015-03-19"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "БІГ ЕНЕРГІЯ",
     "name": {
       "pdf": "БІГ ЕНЕРГІЯ",
@@ -2693,66 +1547,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "2010-03-01"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БІЗНЕС СТАНДАРТ (ТАС БІЗНЕСБАНК)",
-    "name": {
-      "pdf": "БІЗНЕС СТАНДАРТ (ТАС БІЗНЕСБАНК)"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БІЗНЕСБАНК",
-    "name": {
-      "pdf": "БІЗНЕСБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2000-09-04"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БА КА УКРАЇНА",
-    "name": {
-      "pdf": "БА КА УКРАЇНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2007-10-22"
     },
     "site": {
       "minfin": []
@@ -2832,26 +1626,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/bank-3-4"
       }
-    }
-  },
-  {
-    "id": "БАНК ІНВЕСТ ТА ЗАОЩАДЖЕНЬ",
-    "name": {
-      "pdf": "БАНК ІНВЕСТ ТА ЗАОЩАДЖЕНЬ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -2939,26 +1713,6 @@
     }
   },
   {
-    "id": "БАНК АГРОС",
-    "name": {
-      "pdf": "БАНК АГРОС"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "БАНК АЛЬЯНС",
     "name": {
       "dbf": "БАНК АЛЬЯНС",
@@ -2999,26 +1753,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/alliance"
       }
-    }
-  },
-  {
-    "id": "БАНК АНТАРЕС",
-    "name": {
-      "pdf": "БАНК АНТАРЕС"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-12-10"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -3145,46 +1879,6 @@
     }
   },
   {
-    "id": "БАНК ВОСТОК (ХОУМ КРЕДИТ БАНК)",
-    "name": {
-      "pdf": "БАНК ВОСТОК (ХОУМ КРЕДИТ БАНК)"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БАНК ДІЛОВОГО СПІВРОБІТНИЦТВА",
-    "name": {
-      "pdf": "БАНК ДІЛОВОГО СПІВРОБІТНИЦТВА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-12-17"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "БАНК ЗОЛОТІ ВОРОТА",
     "name": {
       "dbf": "БАНК ЗОЛОТІ ВОРОТА",
@@ -3226,26 +1920,6 @@
     }
   },
   {
-    "id": "БАНК КІПРУ ( АВТОЗАЗБАНК )",
-    "name": {
-      "pdf": "БАНК КІПРУ ( АВТОЗАЗБАНК )"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "БАНК КАМБІО",
     "name": {
       "dbf": "БАНК КАМБІО",
@@ -3284,26 +1958,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/cambio"
       }
-    }
-  },
-  {
-    "id": "БАНК КРЕДІ ЛІОНЕ УКРАЇНА",
-    "name": {
-      "pdf": "БАНК КРЕДІ ЛІОНЕ УКРАЇНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2012-11-21"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -3432,126 +2086,6 @@
     }
   },
   {
-    "id": "БАНК НРБ",
-    "name": {
-      "pdf": "БАНК НРБ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БАНК ПЕКАО (УКРАЇНА)",
-    "name": {
-      "pdf": "БАНК ПЕКАО (УКРАЇНА)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2013-12-05"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БАНК ПЕКАО (УКРАЇНА) ЛТД",
-    "name": {
-      "pdf": "БАНК ПЕКАО (УКРАЇНА) ЛТД"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2013-12-05"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БАНК ПЕРСПЕКТИВА",
-    "name": {
-      "pdf": "БАНК ПЕРСПЕКТИВА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-12-03"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БАНК ПЕРШИЙ (БГ БАНК)",
-    "name": {
-      "pdf": "БАНК ПЕРШИЙ (БГ БАНК)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-02-26"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БАНК ПЕРШИЙ (БГ БАНК) (УБРП)",
-    "name": {
-      "pdf": "БАНК ПЕРШИЙ (БГ БАНК) (УБРП)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-02-26"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
     "name": {
       "dbf": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
@@ -3617,7 +2151,8 @@
   {
     "id": "БАНК РЕНЕСАНС КАПІТАЛ",
     "name": {
-      "pdf": "БАНК РЕНЕСАНС КАПІТАЛ"
+      "pdf": "БАНК РЕНЕСАНС КАПІТАЛ",
+      "minfin": "БАНК РЕНЕСАНС КАПІТАЛ"
     },
     "active": {
       "pdf": false
@@ -3627,51 +2162,17 @@
       "pdf": "2015-03-16"
     },
     "site": {
-      "minfin": []
+      "minfin": [
+        "https://pumb.ua/ru"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БАНК РИНКОВІ ТЕХНОЛОГІЇ",
-    "name": {
-      "pdf": "БАНК РИНКОВІ ТЕХНОЛОГІЇ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-07-21"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БАНК РУСКИЙ СТАНДАРТ",
-    "name": {
-      "pdf": "БАНК РУСКИЙ СТАНДАРТ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 122
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/rccf"
+      }
     }
   },
   {
@@ -3720,94 +2221,16 @@
   {
     "id": "БАНК СТОЛИЦЯ",
     "name": {
-      "pdf": "БАНК СТОЛИЦЯ"
+      "pdf": "БАНК СТОЛИЦЯ",
+      "fund": "БАНК СТОЛИЦЯ"
     },
     "active": {
-      "pdf": false
+      "pdf": false,
+      "fund": false
     },
     "dateOpen": {},
     "dateIssue": {
       "pdf": "2012-01-31"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БАНК ТОРГОВОГО СПІВРОБІТНИЦТВА",
-    "name": {
-      "pdf": "БАНК ТОРГОВОГО СПІВРОБІТНИЦТВА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2012-03-02"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БАНК УКРАЇНА",
-    "name": {
-      "pdf": "БАНК УКРАЇНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2001-07-16"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БАНК УКРАЇНА АК",
-    "name": {
-      "pdf": "БАНК УКРАЇНА АК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2001-07-16"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БАНК УНІВЕРСАЛЬНИЙ",
-    "name": {
-      "pdf": "БАНК УНІВЕРСАЛЬНИЙ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
     },
     "site": {
       "minfin": []
@@ -3904,26 +2327,6 @@
     }
   },
   {
-    "id": "БАНК ФОРВАРД (БАНК РУСКИЙ СТАНДАРТ)",
-    "name": {
-      "pdf": "БАНК ФОРВАРД (БАНК РУСКИЙ СТАНДАРТ)"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "БАНК ФОРУМ",
     "name": {
       "dbf": "БАНК ФОРУМ",
@@ -3962,26 +2365,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/bank-forum"
       }
-    }
-  },
-  {
-    "id": "БАНКІРСЬКИЙ ДІМ",
-    "name": {
-      "pdf": "БАНКІРСЬКИЙ ДІМ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2003-07-29"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -4026,106 +2409,6 @@
     }
   },
   {
-    "id": "БГ БАНК (БАНК ПЕРШИЙ)",
-    "name": {
-      "pdf": "БГ БАНК (БАНК ПЕРШИЙ)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-02-26"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БГ БАНК (УБРП)",
-    "name": {
-      "pdf": "БГ БАНК (УБРП)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-02-26"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БДК (УКРАЇНА) ЛТД",
-    "name": {
-      "pdf": "БДК (УКРАЇНА) ЛТД"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2013-12-05"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БДК (УКРАЇНА) ЛТД В ЛУЦЬКУ",
-    "name": {
-      "pdf": "БДК (УКРАЇНА) ЛТД В ЛУЦЬКУ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2013-12-05"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "БЕРЕГИНЯ",
-    "name": {
-      "pdf": "БЕРЕГИНЯ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1999-04-01"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "БМ БАНК",
     "name": {
       "dbf": "БМ БАНК",
@@ -4161,26 +2444,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/bm-bank"
       }
-    }
-  },
-  {
-    "id": "БОНУС БАНК",
-    "name": {
-      "pdf": "БОНУС БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-09-17"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -4268,46 +2531,6 @@
     }
   },
   {
-    "id": "БУКОВИНА",
-    "name": {
-      "pdf": "БУКОВИНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2006-05-29"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ВІДЕРГЕБУРТ",
-    "name": {
-      "pdf": "ВІДЕРГЕБУРТ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-12-24"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ВІЕЙБІ БАНК",
     "name": {
       "dbf": "ВІЕЙБІ БАНК",
@@ -4380,26 +2603,6 @@
     }
   },
   {
-    "id": "ВІЕС БАНК (ФОЛЬКСБАНК)",
-    "name": {
-      "pdf": "ВІЕС БАНК (ФОЛЬКСБАНК)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2018-10-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ВІКТОРІЯ",
     "name": {
       "pdf": "ВІКТОРІЯ"
@@ -4410,66 +2613,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "1999-05-17"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ВІТО",
-    "name": {
-      "pdf": "ВІТО"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ВІТЧИЗНА",
-    "name": {
-      "pdf": "ВІТЧИЗНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-12-10"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ВАБАНК",
-    "name": {
-      "pdf": "ВАБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-03-19"
     },
     "site": {
       "minfin": []
@@ -4605,46 +2748,6 @@
     }
   },
   {
-    "id": "ВЕРНУМ БАНК (ДІАПАЗОН МАКСИМУМ БАНК)",
-    "name": {
-      "pdf": "ВЕРНУМ БАНК (ДІАПАЗОН МАКСИМУМ БАНК)"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ВЕРХОВИНА",
-    "name": {
-      "pdf": "ВЕРХОВИНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2000-07-07"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ВНЄШТОРГБАНК (УКРАЇНА)",
     "name": {
       "pdf": "ВНЄШТОРГБАНК (УКРАЇНА)"
@@ -4655,26 +2758,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "2007-10-19"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ВОЛИНЬТОРГІНВЕСТБАНК",
-    "name": {
-      "pdf": "ВОЛИНЬТОРГІНВЕСТБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2011-05-11"
     },
     "site": {
       "minfin": []
@@ -4697,26 +2780,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "2011-08-31"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ВСЕУКРАЇНСЬКИЙ ВАБАНК КИЇВ",
-    "name": {
-      "pdf": "ВСЕУКРАЇНСЬКИЙ ВАБАНК КИЇВ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-03-19"
     },
     "site": {
       "minfin": []
@@ -4770,46 +2833,6 @@
     }
   },
   {
-    "id": "ГАЛУЗЕВИЙ ЕНЕРГОБАНК КИЇВ",
-    "name": {
-      "pdf": "ГАЛУЗЕВИЙ ЕНЕРГОБАНК КИЇВ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-06-11"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ГАЛУЗЕВИЙ МОНТАЖСПЕЦБАНК",
-    "name": {
-      "pdf": "ГАЛУЗЕВИЙ МОНТАЖСПЕЦБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-11-18"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ГАРАНТ",
     "name": {
       "pdf": "ГАРАНТ",
@@ -4842,26 +2865,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "1998-06-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ГЕОСАНТРІС",
-    "name": {
-      "pdf": "ГЕОСАНТРІС"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
     },
     "site": {
       "minfin": []
@@ -4996,26 +2999,6 @@
     }
   },
   {
-    "id": "ГРІН БАНК (ОЛІМПІЙСЬКА УКРАЇНА)",
-    "name": {
-      "pdf": "ГРІН БАНК (ОЛІМПІЙСЬКА УКРАЇНА)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-01-22"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ГРАНТ",
     "name": {
       "dbf": "ГРАНТ",
@@ -5081,26 +3064,6 @@
     }
   },
   {
-    "id": "ДІАМАНТ",
-    "name": {
-      "pdf": "ДІАМАНТ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2017-06-22"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ДІАМАНТБАНК",
     "name": {
       "dbf": "ДІАМАНТБАНК",
@@ -5139,26 +3102,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/diamantbank"
       }
-    }
-  },
-  {
-    "id": "ДІАПАЗОН МАКСИМУМ БАНК",
-    "name": {
-      "pdf": "ДІАПАЗОН МАКСИМУМ БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -5312,26 +3255,6 @@
     }
   },
   {
-    "id": "ДЕМОСБАНК",
-    "name": {
-      "pdf": "ДЕМОСБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2010-01-21"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ДЕНДІ",
     "name": {
       "pdf": "ДЕНДІ"
@@ -5354,30 +3277,10 @@
   {
     "id": "ДЕРЖАВНИЙ ЗЕМЕЛЬНИЙ БАНК",
     "name": {
-      "pdf": "ДЕРЖАВНИЙ ЗЕМЕЛЬНИЙ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-09-27"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ДЕРЖЗЕМБАНК",
-    "name": {
-      "nbu": "ДЕРЖЗЕМБАНК",
-      "pdf": "ДЕРЖЗЕМБАНК",
-      "fund": "ДЕРЖЗЕМБАНК",
-      "minfin": "ДЕРЖЗЕМБАНК"
+      "nbu": "ДЕРЖАВНИЙ ЗЕМЕЛЬНИЙ БАНК",
+      "pdf": "ДЕРЖАВНИЙ ЗЕМЕЛЬНИЙ БАНК",
+      "fund": "ДЕРЖАВНИЙ ЗЕМЕЛЬНИЙ БАНК",
+      "minfin": "ДЕРЖАВНИЙ ЗЕМЕЛЬНИЙ БАНК"
     },
     "active": {
       "nbu": false,
@@ -5401,26 +3304,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/dzbank"
       }
-    }
-  },
-  {
-    "id": "ДНІПРОПЕТРОВСЬКИЙ КІІБ ПІВДЕНКОМІНБАНК",
-    "name": {
-      "pdf": "ДНІПРОПЕТРОВСЬКИЙ КІІБ ПІВДЕНКОМІНБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2014-09-26"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -5489,26 +3372,6 @@
     }
   },
   {
-    "id": "ДОНБІРЖБАНК",
-    "name": {
-      "pdf": "ДОНБІРЖБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ДОНВУГЛЕКОМБАНК",
     "name": {
       "pdf": "ДОНВУГЛЕКОМБАНК"
@@ -5556,126 +3419,6 @@
     }
   },
   {
-    "id": "ДОНЕЦЬКИЙ АКЦІОНЕРНИЙ БАНК ДОНВУГЛЕКОМБАНК",
-    "name": {
-      "pdf": "ДОНЕЦЬКИЙ АКЦІОНЕРНИЙ БАНК ДОНВУГЛЕКОМБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2001-10-31"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ДОНЕЦЬКИЙ ДОНКОМБАНК",
-    "name": {
-      "pdf": "ДОНЕЦЬКИЙ ДОНКОМБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2006-01-17"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ДОНЕЧЧИНА",
-    "name": {
-      "pdf": "ДОНЕЧЧИНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-04-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ДОНКРЕДИТІНВЕСТ",
-    "name": {
-      "pdf": "ДОНКРЕДИТІНВЕСТ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-08-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ДОНМІСЬКБАНК",
-    "name": {
-      "pdf": "ДОНМІСЬКБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2011-07-20"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЕДЛАНД",
-    "name": {
-      "pdf": "ЕДЛАНД"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2006-04-04"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ЕКСПОБАНК",
     "name": {
       "dbf": "ЕКСПОБАНК",
@@ -5717,26 +3460,6 @@
     }
   },
   {
-    "id": "ЕКСПРЕС БАНК",
-    "name": {
-      "pdf": "ЕКСПРЕС БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2017-12-14"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ЕКСПРЕС-БАНК",
     "name": {
       "pdf": "ЕКСПРЕС-БАНК",
@@ -5761,66 +3484,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/express-bank"
       }
-    }
-  },
-  {
-    "id": "ЕЛІТА",
-    "name": {
-      "pdf": "ЕЛІТА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2003-11-20"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЕЛЕКТРОН БАНК",
-    "name": {
-      "pdf": "ЕЛЕКТРОН БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2018-10-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЕЛЕКТРОНБАНК",
-    "name": {
-      "pdf": "ЕЛЕКТРОНБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2018-10-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -5885,26 +3548,6 @@
     }
   },
   {
-    "id": "ЕРА БАНК",
-    "name": {
-      "pdf": "ЕРА БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1998-09-11"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ЕРДЕ БАНК",
     "name": {
       "dbf": "ЕРДЕ БАНК",
@@ -5943,26 +3586,6 @@
     }
   },
   {
-    "id": "ЕРСТЕ БАНК",
-    "name": {
-      "pdf": "ЕРСТЕ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2013-10-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ЕТАЛОН",
     "name": {
       "pdf": "ЕТАЛОН"
@@ -5973,106 +3596,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "2002-10-02"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЗАВОДБАНК",
-    "name": {
-      "pdf": "ЗАВОДБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1998-09-14"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЗАВОДБАНК ( ІНПРОМБАНК )",
-    "name": {
-      "pdf": "ЗАВОДБАНК ( ІНПРОМБАНК )"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1998-09-14"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЗАКАРПАТСЬКИЙ ЗАКАРПАТТЯ",
-    "name": {
-      "pdf": "ЗАКАРПАТСЬКИЙ ЗАКАРПАТТЯ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЗАКАРПАТТЯ",
-    "name": {
-      "pdf": "ЗАКАРПАТТЯ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЗАХІДІНВЕСТБАНК",
-    "name": {
-      "pdf": "ЗАХІДІНВЕСТБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2000-04-24"
     },
     "site": {
       "minfin": []
@@ -6134,66 +3657,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "2004-04-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЗАХІДНО УКРАЇНСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
-    "name": {
-      "pdf": "ЗАХІДНО УКРАЇНСЬКИЙ КОМЕРЦІЙНИЙ БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЗГОДАБАНК",
-    "name": {
-      "pdf": "ЗГОДАБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-06-02"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЗЕВС",
-    "name": {
-      "pdf": "ЗЕВС"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2010-03-01"
     },
     "site": {
       "minfin": []
@@ -6317,26 +3780,6 @@
     }
   },
   {
-    "id": "ЗОЛОТИЙ ЛЕВ",
-    "name": {
-      "pdf": "ЗОЛОТИЙ ЛЕВ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ЗОРЯ",
     "name": {
       "pdf": "ЗОРЯ"
@@ -6347,26 +3790,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "1998-10-02"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "К Б ПОЛІССЯ",
-    "name": {
-      "pdf": "К Б ПОЛІССЯ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-01-22"
     },
     "site": {
       "minfin": []
@@ -6420,46 +3843,6 @@
     }
   },
   {
-    "id": "КІБ КРЕДІ АГРІКОЛЬ (КАЛІОН БАНК УКРАЇНА)",
-    "name": {
-      "pdf": "КІБ КРЕДІ АГРІКОЛЬ (КАЛІОН БАНК УКРАЇНА)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2012-11-21"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КАЛІОН БАНК УКРАЇНА",
-    "name": {
-      "pdf": "КАЛІОН БАНК УКРАЇНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2012-11-21"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "КАПІТАЛ",
     "name": {
       "dbf": "КАПІТАЛ",
@@ -6501,46 +3884,6 @@
     }
   },
   {
-    "id": "КАРПАТИ МБ",
-    "name": {
-      "pdf": "КАРПАТИ МБ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2009-12-07"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КБ ОАЗИС",
-    "name": {
-      "pdf": "КБ ОАЗИС"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "КБ ПРИЧОРНОМОР’Я",
     "name": {
       "fund": "КБ ПРИЧОРНОМОР’Я"
@@ -6550,26 +3893,6 @@
     },
     "dateOpen": {},
     "dateIssue": {},
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КИЄВО ПЕЧЕРСЬКИЙ АКБ",
-    "name": {
-      "pdf": "КИЄВО ПЕЧЕРСЬКИЙ АКБ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2000-07-07"
-    },
     "site": {
       "minfin": []
     },
@@ -6640,66 +3963,6 @@
     }
   },
   {
-    "id": "КИЇВ ПРИВАТ",
-    "name": {
-      "pdf": "КИЇВ ПРИВАТ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-07-06"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КИЇВІНВЕСТБАНК",
-    "name": {
-      "pdf": "КИЇВІНВЕСТБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КИЇВПРИВАТБАНК",
-    "name": {
-      "pdf": "КИЇВПРИВАТБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "КИЇВСЬКА РУСЬ",
     "name": {
       "dbf": "КИЇВСЬКА РУСЬ",
@@ -6741,26 +4004,6 @@
     }
   },
   {
-    "id": "КИЇВСЬКИЙ БІРЖОВИЙ БАНК",
-    "name": {
-      "pdf": "КИЇВСЬКИЙ БІРЖОВИЙ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2000-03-22"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "КИЇВСЬКИЙ МІЖНАРОДНИЙ БАНК",
     "name": {
       "pdf": "КИЇВСЬКИЙ МІЖНАРОДНИЙ БАНК"
@@ -6771,26 +4014,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "2000-11-20"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КИЇВСЬКИЙ НАРОДНИЙ БАНК",
-    "name": {
-      "pdf": "КИЇВСЬКИЙ НАРОДНИЙ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2002-06-27"
     },
     "site": {
       "minfin": []
@@ -6829,46 +4052,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "2006-05-29"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КИЇВШЛЯХБАНК",
-    "name": {
-      "pdf": "КИЇВШЛЯХБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2010-03-02"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КИЇВЩИНА",
-    "name": {
-      "pdf": "КИЇВЩИНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-06-24"
     },
     "site": {
       "minfin": []
@@ -6963,26 +4146,6 @@
     }
   },
   {
-    "id": "КМБ",
-    "name": {
-      "pdf": "КМБ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2000-11-20"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "КНЯЖИЙ",
     "name": {
       "pdf": "КНЯЖИЙ"
@@ -7046,406 +4209,6 @@
     }
   },
   {
-    "id": "КОМЕРЦ БАНК КИЇВКООПБАНК",
-    "name": {
-      "pdf": "КОМЕРЦ БАНК КИЇВКООПБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2009-12-21"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ АВТОЗАЗБАНК",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ АВТОЗАЗБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК АЛЬЯНС КРЕДИТ БАНК",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК АЛЬЯНС КРЕДИТ БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК ДЕМАРК",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК ДЕМАРК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-01-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК КРИМ БАНК",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК КРИМ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1997-02-03"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК КРИМКРЕДИТ",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК КРИМКРЕДИТ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1998-10-02"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ БАНК АКЦЕПТБАНК",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ БАНК АКЦЕПТБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2011-07-20"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ БАНК АМАСКО",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ БАНК АМАСКО"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1999-09-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ БАНК ГАЛС",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ БАНК ГАЛС"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ БАНК ЕЛІТА",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ БАНК ЕЛІТА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2003-11-20"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ БАНК ЗОРЯ",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ БАНК ЗОРЯ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1998-10-02"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ БАНК КАРПАТИ",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ БАНК КАРПАТИ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2009-12-07"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ БАНК КЛАСИК",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ БАНК КЛАСИК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-08-11"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ БАНК КНЯЖИЙ",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ БАНК КНЯЖИЙ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1999-06-10"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ БАНК КРЕДИТНО ФІНАНСОВА СПІЛКА ЕКСПОБАНК",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ БАНК КРЕДИТНО ФІНАНСОВА СПІЛКА ЕКСПОБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-01-22"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ БАНК ПАРИТЕТ",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ БАНК ПАРИТЕТ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1998-01-04"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ ГАЛС БАНК",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ ГАЛС БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОМЕРЦІЙНИЙ КООПЕРАТИВНИЙ ІНВЕСТИЦІЙНИЙ БАНК КООПІНВЕСТБАНК",
-    "name": {
-      "pdf": "КОМЕРЦІЙНИЙ КООПЕРАТИВНИЙ ІНВЕСТИЦІЙНИЙ БАНК КООПІНВЕСТБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОНВЕРСБАНК ( ПАРТНЕР БАНК )",
-    "name": {
-      "pdf": "КОНВЕРСБАНК ( ПАРТНЕР БАНК )"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-03-19"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОНВЕРСБАНК (ПАРТНЕР БАНК)",
-    "name": {
-      "pdf": "КОНВЕРСБАНК (ПАРТНЕР БАНК)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-03-19"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "КОНКОРД",
     "name": {
       "dbf": "КОНКОРД",
@@ -7486,26 +4249,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/concord"
       }
-    }
-  },
-  {
-    "id": "КОНКОРДІЯ БАНК",
-    "name": {
-      "pdf": "КОНКОРДІЯ БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -7567,86 +4310,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/contract"
       }
-    }
-  },
-  {
-    "id": "КООПІНВЕСТБАНК",
-    "name": {
-      "pdf": "КООПІНВЕСТБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОРАЛ БАНК",
-    "name": {
-      "pdf": "КОРАЛ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-11-18"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОРН",
-    "name": {
-      "pdf": "КОРН"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-12-10"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КОРОНА",
-    "name": {
-      "pdf": "КОРОНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2011-05-11"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -7714,66 +4377,6 @@
     }
   },
   {
-    "id": "КРЕДІ АГРІКОЛЬ БАНК (ІНДЕКС БАНК)",
-    "name": {
-      "pdf": "КРЕДІ АГРІКОЛЬ БАНК (ІНДЕКС БАНК)"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КРЕДІ ЛІОНЕ УКРАЇНА",
-    "name": {
-      "pdf": "КРЕДІ ЛІОНЕ УКРАЇНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2012-11-21"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КРЕДІ СВІСС ФЬОРСТ БОСТОН",
-    "name": {
-      "pdf": "КРЕДІ СВІСС ФЬОРСТ БОСТОН"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2004-03-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "КРЕДИТ ЄВРОПА БАНК",
     "name": {
       "dbf": "КРЕДИТ ЄВРОПА БАНК",
@@ -7817,30 +4420,10 @@
     }
   },
   {
-    "id": "КРЕДИТ БАНК (УКРАЇНА)",
+    "id": "КРЕДИТ ОПТИМА БАНК",
     "name": {
-      "pdf": "КРЕДИТ БАНК (УКРАЇНА)"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КРЕДИТ ОПТИМА",
-    "name": {
-      "pdf": "КРЕДИТ ОПТИМА",
-      "minfin": "КРЕДИТ ОПТИМА"
+      "pdf": "КРЕДИТ ОПТИМА БАНК",
+      "minfin": "КРЕДИТ ОПТИМА БАНК"
     },
     "active": {
       "pdf": false
@@ -7861,66 +4444,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/credit-optima"
       }
-    }
-  },
-  {
-    "id": "КРЕДИТ ОПТИМА БАНК",
-    "name": {
-      "pdf": "КРЕДИТ ОПТИМА БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2017-12-28"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КРЕДИТ ОПТИМА БАНК (КРЕДИТ ОПТИМА)",
-    "name": {
-      "pdf": "КРЕДИТ ОПТИМА БАНК (КРЕДИТ ОПТИМА)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2017-12-28"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КРЕДИТАНШТАЛЬТ УКРАЇНА",
-    "name": {
-      "pdf": "КРЕДИТАНШТАЛЬТ УКРАЇНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2007-10-22"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -8111,46 +4634,6 @@
     }
   },
   {
-    "id": "КРИМСЬКИЙ КООПЕРАТИВНИЙ БАНК КРИМ БАНК",
-    "name": {
-      "pdf": "КРИМСЬКИЙ КООПЕРАТИВНИЙ БАНК КРИМ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1997-02-03"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "КРИМУНІВЕРСАЛБАНК",
-    "name": {
-      "pdf": "КРИМУНІВЕРСАЛБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-11-18"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "КРИСТАЛБАНК",
     "name": {
       "dbf": "КРИСТАЛБАНК",
@@ -8232,106 +4715,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/ksgbank"
       }
-    }
-  },
-  {
-    "id": "КСГ БАНК (ЄВРОПЕЙСЬКИЙ БАНК РАЦІОН ФІНАНСУВАННЯ)",
-    "name": {
-      "pdf": "КСГ БАНК (ЄВРОПЕЙСЬКИЙ БАНК РАЦІОН ФІНАНСУВАННЯ)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-08-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЛІДЕР",
-    "name": {
-      "pdf": "ЛІДЕР"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-03-16"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЛІОНСЬКИЙ КРЕДИТ УКРАЇНА",
-    "name": {
-      "pdf": "ЛІОНСЬКИЙ КРЕДИТ УКРАЇНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2012-11-21"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЛАД КРЕДИТ БАНК",
-    "name": {
-      "pdf": "ЛАД КРЕДИТ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2014-06-13"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЛЕВАДА",
-    "name": {
-      "pdf": "ЛЕВАДА"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -8462,106 +4845,6 @@
     }
   },
   {
-    "id": "МІДО",
-    "name": {
-      "pdf": "МІДО"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "МІЖНАРОДНИЙ ІПОТЕЧНИЙ БАНК",
-    "name": {
-      "pdf": "МІЖНАРОДНИЙ ІПОТЕЧНИЙ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2017-02-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "МІЖНАРОДНИЙ ІПОТЕЧНИЙ БАНК (МІБ)",
-    "name": {
-      "pdf": "МІЖНАРОДНИЙ ІПОТЕЧНИЙ БАНК (МІБ)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2017-02-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "МІЖНАРОДНИЙ КОМЕРЦІЙНИЙ БАНК",
-    "name": {
-      "pdf": "МІЖНАРОДНИЙ КОМЕРЦІЙНИЙ БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "МІКРОФІНАНСОВИЙ БАНК",
-    "name": {
-      "pdf": "МІКРОФІНАНСОВИЙ БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "МІСТО БАНК",
     "name": {
       "dbf": "МІСТО БАНК",
@@ -8643,106 +4926,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/citycommercebank"
       }
-    }
-  },
-  {
-    "id": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК (КОНВЕРСБАНК)",
-    "name": {
-      "pdf": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК (КОНВЕРСБАНК)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-03-19"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "МАКІЇВСЬКИЙ ШАХТЕКОНОМБАНК",
-    "name": {
-      "pdf": "МАКІЇВСЬКИЙ ШАХТЕКОНОМБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1999-02-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "МАРФІН БАНК",
-    "name": {
-      "pdf": "МАРФІН БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "МЕБЛІБАНК",
-    "name": {
-      "pdf": "МЕБЛІБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-08-28"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "МЕБЛІПРОМБАНК",
-    "name": {
-      "pdf": "МЕБЛІПРОМБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-08-28"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -8873,26 +5056,6 @@
     }
   },
   {
-    "id": "МЕТА БАНК",
-    "name": {
-      "pdf": "МЕТА БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1997-02-03"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "МЕТА-БАНК",
     "name": {
       "pdf": "МЕТА-БАНК"
@@ -8956,66 +5119,6 @@
     }
   },
   {
-    "id": "МЕТАБАНК ( МЕТАЛУРГ )",
-    "name": {
-      "pdf": "МЕТАБАНК ( МЕТАЛУРГ )"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "МЕТАЛБАНК",
-    "name": {
-      "pdf": "МЕТАЛБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "МЕТАЛУРГ",
-    "name": {
-      "pdf": "МЕТАЛУРГ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "МОРСЬКИЙ",
     "name": {
       "nbu": "МОРСЬКИЙ",
@@ -9044,46 +5147,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/morskoy"
       }
-    }
-  },
-  {
-    "id": "МОРСЬКИЙ ТРАНСПОРТНИЙ БАНК",
-    "name": {
-      "pdf": "МОРСЬКИЙ ТРАНСПОРТНИЙ БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "МОРТОРГБАНК",
-    "name": {
-      "pdf": "МОРТОРГБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -9127,46 +5190,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/motor-bank"
       }
-    }
-  },
-  {
-    "id": "МРІЯ",
-    "name": {
-      "pdf": "МРІЯ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "МТ БАНК",
-    "name": {
-      "pdf": "МТ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2006-01-17"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -9231,66 +5254,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/marfinbank"
       }
-    }
-  },
-  {
-    "id": "МУНІЦИПАЛЬНИЙ",
-    "name": {
-      "pdf": "МУНІЦИПАЛЬНИЙ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "МУНІЦИПАЛЬНИЙ БАНК",
-    "name": {
-      "pdf": "МУНІЦИПАЛЬНИЙ БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "МФБ",
-    "name": {
-      "pdf": "МФБ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -9440,46 +5403,6 @@
     }
   },
   {
-    "id": "НЕВІКОН БАНК",
-    "name": {
-      "pdf": "НЕВІКОН БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-05-31"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "НЕВІКОН БАНК (ЗЮЙД)",
-    "name": {
-      "pdf": "НЕВІКОН БАНК (ЗЮЙД)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-05-31"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "НЕЗАЛЕЖНІСТЬ",
     "name": {
       "pdf": "НЕЗАЛЕЖНІСТЬ"
@@ -9490,26 +5413,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "1997-07-14"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "НЕОС БАНК (БАНК КІПРУ)",
-    "name": {
-      "pdf": "НЕОС БАНК (БАНК КІПРУ)"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
     },
     "site": {
       "minfin": []
@@ -9602,86 +5505,6 @@
     }
   },
   {
-    "id": "НОРД БАНК",
-    "name": {
-      "pdf": "НОРД БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1998-06-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "НРБ УКРАЇНА",
-    "name": {
-      "pdf": "НРБ УКРАЇНА"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ОДЕСА",
-    "name": {
-      "pdf": "ОДЕСА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2009-07-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ОДЕСА БАНК",
-    "name": {
-      "pdf": "ОДЕСА БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2009-07-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ОДЕСА-БАНК",
     "name": {
       "pdf": "ОДЕСА-БАНК",
@@ -9694,66 +5517,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "2009-07-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ОДЕСЬКИЙ КОМЕРЦІЙНИЙ БАНК ІНВЕСТБАНК",
-    "name": {
-      "pdf": "ОДЕСЬКИЙ КОМЕРЦІЙНИЙ БАНК ІНВЕСТБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2017-01-11"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ОДЕСЬКИЙ КОМЕРЦІЙНИЙ БАНК ПОРТО ФРАНКО ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ",
-    "name": {
-      "pdf": "ОДЕСЬКИЙ КОМЕРЦІЙНИЙ БАНК ПОРТО ФРАНКО ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-01-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ОКБ",
-    "name": {
-      "pdf": "ОКБ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2008-02-25"
     },
     "site": {
       "minfin": []
@@ -9807,46 +5570,6 @@
     }
   },
   {
-    "id": "ОКСІ БАНК ( ГАЛС )",
-    "name": {
-      "pdf": "ОКСІ БАНК ( ГАЛС )"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ОЛІМПІЙСЬКА УКРАЇНА",
-    "name": {
-      "pdf": "ОЛІМПІЙСЬКА УКРАЇНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-01-22"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ОЛБАНК",
     "name": {
       "pdf": "ОЛБАНК",
@@ -9893,26 +5616,6 @@
       "nbu": "2015-03-02",
       "pdf": "2015-07-06",
       "fund": "2015-03-03"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ОМЕГА БАНК (СВЕДБАНК)",
-    "name": {
-      "pdf": "ОМЕГА БАНК (СВЕДБАНК)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-07-06"
     },
     "site": {
       "minfin": []
@@ -10001,46 +5704,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/oschadbank"
       }
-    }
-  },
-  {
-    "id": "ОЩАДБАНК УКРАЇНИ",
-    "name": {
-      "pdf": "ОЩАДБАНК УКРАЇНИ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ОЩАДНИЙ БАНК УКРАЇНИ ОЩАДБАНК",
-    "name": {
-      "pdf": "ОЩАДНИЙ БАНК УКРАЇНИ ОЩАДБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -10191,86 +5854,6 @@
     }
   },
   {
-    "id": "ПАРТНЕР БАНК",
-    "name": {
-      "pdf": "ПАРТНЕР БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-03-19"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ПЕРЕХІДНИЙ БАНК КРИСТАЛБАНК",
-    "name": {
-      "pdf": "ПЕРЕХІДНИЙ БАНК КРИСТАЛБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ПЕРЕХІДНИЙ БАНК РВС БАНК",
-    "name": {
-      "pdf": "ПЕРЕХІДНИЙ БАНК РВС БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ПЕРСОНАЛЬНИЙ КОМП'ЮТЕР",
-    "name": {
-      "pdf": "ПЕРСОНАЛЬНИЙ КОМП'ЮТЕР"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2017-12-19"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
     "name": {
       "dbf": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
@@ -10311,86 +5894,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/fib"
       }
-    }
-  },
-  {
-    "id": "ПЕРШИЙ УКР МІЖНАРОДНИЙ БАНК",
-    "name": {
-      "pdf": "ПЕРШИЙ УКР МІЖНАРОДНИЙ БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ПЛАСТИК",
-    "name": {
-      "pdf": "ПЛАСТИК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ПЛАТИНУМ БАНК (МІЖНАРОД ІПОТЕЧНИЙ БАНК)",
-    "name": {
-      "pdf": "ПЛАТИНУМ БАНК (МІЖНАРОД ІПОТЕЧНИЙ БАНК)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2017-02-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ПЛЮС БАНК",
-    "name": {
-      "pdf": "ПЛЮС БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -10457,26 +5960,6 @@
     }
   },
   {
-    "id": "ПОЛІССЯ",
-    "name": {
-      "pdf": "ПОЛІССЯ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-01-22"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ПОЛТАВА-БАНК",
     "name": {
       "dbf": "ПОЛТАВА-БАНК",
@@ -10517,26 +6000,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/poltava-bank"
       }
-    }
-  },
-  {
-    "id": "ПОЛТАВСЬКИЙ ПОЛТАВА БАНК",
-    "name": {
-      "pdf": "ПОЛТАВСЬКИЙ ПОЛТАВА БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -10619,26 +6082,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/porto-franko"
       }
-    }
-  },
-  {
-    "id": "ПОШТАБАНК",
-    "name": {
-      "pdf": "ПОШТАБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2014-09-18"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -10726,34 +6169,14 @@
     }
   },
   {
-    "id": "ПРЕМ'ЄРБАНК",
+    "id": "ПРЕМ`ЄРБАНК",
     "name": {
-      "pdf": "ПРЕМ'ЄРБАНК",
-      "fund": "ПРЕМ'ЄРБАНК"
+      "pdf": "ПРЕМ`ЄРБАНК",
+      "fund": "ПРЕМ`ЄРБАНК"
     },
     "active": {
       "pdf": false,
       "fund": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2005-03-11"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ПРЕМ`ЄРБАНК",
-    "name": {
-      "pdf": "ПРЕМ`ЄРБАНК"
-    },
-    "active": {
-      "pdf": false
     },
     "dateOpen": {},
     "dateIssue": {
@@ -10809,66 +6232,6 @@
     }
   },
   {
-    "id": "ПРЕСТИЖ",
-    "name": {
-      "pdf": "ПРЕСТИЖ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2013-10-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ПРИВАТ ЕКСЕЛ",
-    "name": {
-      "pdf": "ПРИВАТ ЕКСЕЛ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2009-12-15"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ПРИВАТІНВЕСТ",
-    "name": {
-      "pdf": "ПРИВАТІНВЕСТ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ПРИВАТБАНК",
     "name": {
       "dbf": "ПРИВАТБАНК",
@@ -10906,66 +6269,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/privatbank"
       }
-    }
-  },
-  {
-    "id": "ПРИКАРПАТЛІСБАНК",
-    "name": {
-      "pdf": "ПРИКАРПАТЛІСБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ПРИКАРПАТТЯ",
-    "name": {
-      "pdf": "ПРИКАРПАТТЯ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ПРИЧОРНОМОР'Я",
-    "name": {
-      "pdf": "ПРИЧОРНОМОР'Я"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2009-05-25"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -11075,26 +6378,6 @@
     }
   },
   {
-    "id": "ПРОМІНВЕСТБАНК УКРАЇНИ",
-    "name": {
-      "pdf": "ПРОМІНВЕСТБАНК УКРАЇНИ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ПРОМЕКОНОМБАНК",
     "name": {
       "dbf": "ПРОМЕКОНОМБАНК",
@@ -11136,29 +6419,10 @@
     }
   },
   {
-    "id": "ПРОМИСЛОВО ФІНАНСОВИЙ БАНК",
-    "name": {
-      "pdf": "ПРОМИСЛОВО ФІНАНСОВИЙ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2017-12-26"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ПРОМИСЛОВО-ФІНАНСОВИЙ БАНК",
     "name": {
-      "pdf": "ПРОМИСЛОВО-ФІНАНСОВИЙ БАНК"
+      "pdf": "ПРОМИСЛОВО-ФІНАНСОВИЙ БАНК",
+      "minfin": "ПРОМИСЛОВО-ФІНАНСОВИЙ БАНК"
     },
     "active": {
       "pdf": false
@@ -11168,11 +6432,17 @@
       "pdf": "2017-12-26"
     },
     "site": {
-      "minfin": []
+      "minfin": [
+        "http://www.pfb.com.ua/"
+      ]
     },
     "internal": {
-      "id": {},
-      "link": {}
+      "id": {
+        "minfin": 210
+      },
+      "link": {
+        "minfin": "https://minfin.com.ua/ua/company/pfb"
+      }
     }
   },
   {
@@ -11217,26 +6487,6 @@
     }
   },
   {
-    "id": "ПРОФІН БАНК (ІКАР БАНК)",
-    "name": {
-      "pdf": "ПРОФІН БАНК (ІКАР БАНК)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-04-15"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ПТБ",
     "name": {
       "dbf": "ПТБ",
@@ -11275,26 +6525,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/platinumbank"
       }
-    }
-  },
-  {
-    "id": "ПУБЛІЧНЕ УНІКОМБАНК",
-    "name": {
-      "pdf": "ПУБЛІЧНЕ УНІКОМБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-12-03"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -11337,28 +6567,6 @@
       },
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/pumb"
-      }
-    }
-  },
-  {
-    "id": "ПФБ",
-    "name": {
-      "minfin": "ПФБ"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://www.pfb.com.ua/"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 210
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/pfb"
       }
     }
   },
@@ -11490,26 +6698,6 @@
     }
   },
   {
-    "id": "РАЙФФАЙЗЕНБАНК УКРАЇНА",
-    "name": {
-      "pdf": "РАЙФФАЙЗЕНБАНК УКРАЇНА"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "РВС БАНК",
     "name": {
       "dbf": "РВС БАНК",
@@ -11548,26 +6736,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/rwsbank"
       }
-    }
-  },
-  {
-    "id": "РД БАНК",
-    "name": {
-      "pdf": "РД БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2013-01-09"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -11612,88 +6780,6 @@
     }
   },
   {
-    "id": "РЕГІОН БАНК",
-    "name": {
-      "pdf": "РЕГІОН БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "РЕНЕСАНС КАПІТАЛ",
-    "name": {
-      "pdf": "РЕНЕСАНС КАПІТАЛ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-03-16"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "РЕНЕСАНС КРЕДИТ",
-    "name": {
-      "minfin": "РЕНЕСАНС КРЕДИТ"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "https://pumb.ua/ru"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 122
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/rccf"
-      }
-    }
-  },
-  {
-    "id": "РЕСПУБЛІКАНСЬКИЙ АКЦІОНЕРНО КОМЕРЦІЙНИЙ БАНК СОЦІАЛЬНОГО РОЗВИТКУ УКРСОЦБАНК",
-    "name": {
-      "pdf": "РЕСПУБЛІКАНСЬКИЙ АКЦІОНЕРНО КОМЕРЦІЙНИЙ БАНК СОЦІАЛЬНОГО РОЗВИТКУ УКРСОЦБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "РОДОВІД БАНК",
     "name": {
       "dbf": "РОДОВІД БАНК",
@@ -11732,26 +6818,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/rodovid-bank"
       }
-    }
-  },
-  {
-    "id": "РОЗДРІБНИЙ НЕОБМЕЖЕНИЙ СЕРВІС",
-    "name": {
-      "pdf": "РОЗДРІБНИЙ НЕОБМЕЖЕНИЙ СЕРВІС"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-12-29"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -11828,86 +6894,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "1998-03-26"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "РУСКИЙ СТАНДАРТ",
-    "name": {
-      "pdf": "РУСКИЙ СТАНДАРТ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "СІЛЬГОСПБАНК",
-    "name": {
-      "pdf": "СІЛЬГОСПБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-04-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "СІЛЬГОСПОД СІЛЬГОСПБАНК",
-    "name": {
-      "pdf": "СІЛЬГОСПОД СІЛЬГОСПБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-04-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "СІНК",
-    "name": {
-      "pdf": "СІНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2008-02-25"
     },
     "site": {
       "minfin": []
@@ -12003,26 +6989,6 @@
     }
   },
   {
-    "id": "СВЕДБАНК",
-    "name": {
-      "pdf": "СВЕДБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-07-06"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "СВЕДБАНК ІНВЕСТ",
     "name": {
       "pdf": "СВЕДБАНК ІНВЕСТ"
@@ -12033,26 +6999,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "2009-11-18"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "СЕБ БАНК",
-    "name": {
-      "pdf": "СЕБ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-07-18"
     },
     "site": {
       "minfin": []
@@ -12104,26 +7050,6 @@
     }
   },
   {
-    "id": "СЕБ КОРПОРАТИВНИЙ БАНК (АКЦЕПТ БАНК)",
-    "name": {
-      "pdf": "СЕБ КОРПОРАТИВНИЙ БАНК (АКЦЕПТ БАНК)"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "СЕРВІС",
     "name": {
       "pdf": "СЕРВІС"
@@ -12134,46 +7060,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "1998-10-02"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "СИГМАБАНК",
-    "name": {
-      "pdf": "СИГМАБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-01-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "СИНДИКАТ",
-    "name": {
-      "pdf": "СИНДИКАТ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2006-04-04"
     },
     "site": {
       "minfin": []
@@ -12196,26 +7082,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "2010-11-03"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "СКІФІЯ БАНК",
-    "name": {
-      "pdf": "СКІФІЯ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2014-07-23"
     },
     "site": {
       "minfin": []
@@ -12266,26 +7132,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/skybank"
       }
-    }
-  },
-  {
-    "id": "СЛАВУТИЧ",
-    "name": {
-      "pdf": "СЛАВУТИЧ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2009-08-19"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -12372,46 +7218,6 @@
     }
   },
   {
-    "id": "СМАРТБАНК (БАНК РИНКОВІ ТЕХНОЛОГІЇ)",
-    "name": {
-      "pdf": "СМАРТБАНК (БАНК РИНКОВІ ТЕХНОЛОГІЇ)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-07-21"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "СОСЬЄТЕ ЖЕНЕРАЛЬ УКРАЇНА",
-    "name": {
-      "pdf": "СОСЬЄТЕ ЖЕНЕРАЛЬ УКРАЇНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2009-11-18"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "СОФІЙСЬКИЙ",
     "name": {
       "dbf": "СОФІЙСЬКИЙ",
@@ -12461,26 +7267,6 @@
     "active": {
       "pdf": false,
       "fund": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2011-10-21"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "СОЦКОМБАНК",
-    "name": {
-      "pdf": "СОЦКОМБАНК"
-    },
-    "active": {
-      "pdf": false
     },
     "dateOpen": {},
     "dateIssue": {
@@ -12577,46 +7363,6 @@
     }
   },
   {
-    "id": "СПІВДРУЖНІСТЬ",
-    "name": {
-      "pdf": "СПІВДРУЖНІСТЬ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "СПОЖИВ КООПЕР ПОДІЛЛЯ",
-    "name": {
-      "pdf": "СПОЖИВ КООПЕР ПОДІЛЛЯ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2000-02-08"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "СТАНДАРТ",
     "name": {
       "dbf": "СТАНДАРТ",
@@ -12699,48 +7445,6 @@
     }
   },
   {
-    "id": "СТОІК",
-    "name": {
-      "pdf": "СТОІК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2006-06-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "СТОЛИЦЯ",
-    "name": {
-      "pdf": "СТОЛИЦЯ",
-      "fund": "СТОЛИЦЯ"
-    },
-    "active": {
-      "pdf": false,
-      "fund": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2012-01-31"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "СТОЛИЧНИЙ",
     "name": {
       "dbf": "СТОЛИЧНИЙ",
@@ -12782,46 +7486,6 @@
     }
   },
   {
-    "id": "СХІДНО ЄВРОПЕЙСЬКИЙ БАНК",
-    "name": {
-      "pdf": "СХІДНО ЄВРОПЕЙСЬКИЙ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2009-12-21"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "СХІДНО ПРОМИСЛОВИЙ КОМЕРЦ БАНК",
-    "name": {
-      "pdf": "СХІДНО ПРОМИСЛОВИЙ КОМЕРЦ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-09-09"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "СХІДНО-ЄВРОПЕЙСЬКИЙ БАНК",
     "name": {
       "pdf": "СХІДНО-ЄВРОПЕЙСЬКИЙ БАНК",
@@ -12834,46 +7498,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "2009-12-21"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ТАВРІДАБАНК",
-    "name": {
-      "pdf": "ТАВРІДАБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ТАВРІКА",
-    "name": {
-      "pdf": "ТАВРІКА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2013-03-20"
     },
     "site": {
       "minfin": []
@@ -12942,86 +7566,6 @@
     }
   },
   {
-    "id": "ТАРУТІНО",
-    "name": {
-      "pdf": "ТАРУТІНО"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2014-05-06"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ТАС ІНВЕСТБАНК",
-    "name": {
-      "pdf": "ТАС ІНВЕСТБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2009-11-18"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ТАС БІЗНЕСБАНК",
-    "name": {
-      "pdf": "ТАС БІЗНЕСБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ТАС КОМЕРЦБАНК",
-    "name": {
-      "pdf": "ТАС КОМЕРЦБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-07-06"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ТАСКОМБАНК",
     "name": {
       "dbf": "ТАСКОМБАНК",
@@ -13063,46 +7607,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/taskombank"
       }
-    }
-  },
-  {
-    "id": "ТАСКОМБАНК (БІЗНЕС СТАНДАРТ)",
-    "name": {
-      "pdf": "ТАСКОМБАНК (БІЗНЕС СТАНДАРТ)"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ТЕРНОПІЛЬ КРЕДИТ",
-    "name": {
-      "pdf": "ТЕРНОПІЛЬ КРЕДИТ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1998-08-05"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -13167,46 +7671,6 @@
     }
   },
   {
-    "id": "ТЕРРА БАНК (ІНВЕСТ КРЕДИТ БАНК)",
-    "name": {
-      "pdf": "ТЕРРА БАНК (ІНВЕСТ КРЕДИТ БАНК)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2014-12-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ТЕХНОБАНК",
-    "name": {
-      "pdf": "ТЕХНОБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-12-24"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ТК КРЕДИТ",
     "name": {
       "dbf": "ТК КРЕДИТ",
@@ -13248,46 +7712,6 @@
     }
   },
   {
-    "id": "ТММ БАНК",
-    "name": {
-      "pdf": "ТММ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-05-31"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ТОРГОВО ПРОМИСЛОВИЙ БАНК",
-    "name": {
-      "pdf": "ТОРГОВО ПРОМИСЛОВИЙ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1999-05-13"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ТОРГОВО-ПРОМИСЛОВИЙ БАНК",
     "name": {
       "pdf": "ТОРГОВО-ПРОМИСЛОВИЙ БАНК"
@@ -13298,46 +7722,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "1999-05-13"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ТОРГПРОМБАНК",
-    "name": {
-      "pdf": "ТОРГПРОМБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1999-05-13"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ТРАЙДЕНТ БАНК",
-    "name": {
-      "pdf": "ТРАЙДЕНТ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1998-02-04"
     },
     "site": {
       "minfin": []
@@ -13360,26 +7744,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "2010-03-02"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ТРАНСКРЕДОБАНК",
-    "name": {
-      "pdf": "ТРАНСКРЕДОБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
     },
     "site": {
       "minfin": []
@@ -13431,26 +7795,6 @@
     }
   },
   {
-    "id": "ТРАСТ (РОЗДРІБНИЙ НЕОБМЕЖЕНИЙ СЕРВІС)",
-    "name": {
-      "pdf": "ТРАСТ (РОЗДРІБНИЙ НЕОБМЕЖЕНИЙ СЕРВІС)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-12-29"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ТРАСТ-КАПІТАЛ",
     "name": {
       "dbf": "ТРАСТ-КАПІТАЛ",
@@ -13491,46 +7835,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/trust-capital"
       }
-    }
-  },
-  {
-    "id": "УБМС ІНВЕСТ КРИВБАС БАНК",
-    "name": {
-      "pdf": "УБМС ІНВЕСТ КРИВБАС БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2014-12-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "УБТС",
-    "name": {
-      "pdf": "УБТС"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2012-03-02"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -13575,26 +7879,6 @@
     }
   },
   {
-    "id": "УКР БАНК РЕКОНСТР ТА РОЗВИТКУ",
-    "name": {
-      "pdf": "УКР БАНК РЕКОНСТР ТА РОЗВИТКУ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "УКРІНБАНК",
     "name": {
       "dbf": "УКРІНБАНК",
@@ -13633,26 +7917,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/ukrinbank"
       }
-    }
-  },
-  {
-    "id": "УКРАЇН КРЕДИТНО ТРАНСПОРТНИЙ БАНК",
-    "name": {
-      "pdf": "УКРАЇН КРЕДИТНО ТРАНСПОРТНИЙ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2006-06-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -13803,46 +8067,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/ukrcapital"
       }
-    }
-  },
-  {
-    "id": "УКРАЇНСЬКИЙ КРЕДИТНИЙ БАНК",
-    "name": {
-      "pdf": "УКРАЇНСЬКИЙ КРЕДИТНИЙ БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "УКРАЇНСЬКИЙ КРЕДИТНО ТОРГОВИЙ БАНК",
-    "name": {
-      "pdf": "УКРАЇНСЬКИЙ КРЕДИТНО ТОРГОВИЙ БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -14121,86 +8345,6 @@
     }
   },
   {
-    "id": "УКРКОМУНБАНК ЛУГАНСЬК",
-    "name": {
-      "pdf": "УКРКОМУНБАНК ЛУГАНСЬК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-09-14"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "УКРНАФТОГАЗБАНК",
-    "name": {
-      "pdf": "УКРНАФТОГАЗБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2000-03-22"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "УКРПРОМБАНК",
-    "name": {
-      "pdf": "УКРПРОМБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2010-01-21"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "УКРПРОФБАНК",
-    "name": {
-      "pdf": "УКРПРОФБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-08-28"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "УКРСИББАНК",
     "name": {
       "dbf": "УКРСИББАНК",
@@ -14327,26 +8471,6 @@
     }
   },
   {
-    "id": "УКРФІНАНСБАНК",
-    "name": {
-      "pdf": "УКРФІНАНСБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2017-12-28"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "УКРХАРЧОПРОМБАНК",
     "name": {
       "pdf": "УКРХАРЧОПРОМБАНК"
@@ -14357,26 +8481,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "1998-10-02"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "УНІВЕРС БАНК РОЗВИТКУ ТА ПАРТН",
-    "name": {
-      "pdf": "УНІВЕРС БАНК РОЗВИТКУ ТА ПАРТН"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-02-26"
     },
     "site": {
       "minfin": []
@@ -14468,26 +8572,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/ukrincombank"
       }
-    }
-  },
-  {
-    "id": "УНІКОМБАНК (БАНК ПЕРСПЕКТИВА)",
-    "name": {
-      "pdf": "УНІКОМБАНК (БАНК ПЕРСПЕКТИВА)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-12-03"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -14634,26 +8718,6 @@
     }
   },
   {
-    "id": "ФІДОБАНК (СЕБ БАНК)",
-    "name": {
-      "pdf": "ФІДОБАНК (СЕБ БАНК)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-07-18"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ФІДОКОМБАНК",
     "name": {
       "pdf": "ФІДОКОМБАНК"
@@ -14709,66 +8773,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/tmm-bank"
       }
-    }
-  },
-  {
-    "id": "ФІНАНС БАНК (ТММ БАНК)",
-    "name": {
-      "pdf": "ФІНАНС БАНК (ТММ БАНК)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2016-05-31"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ФІНАНСБАНК",
-    "name": {
-      "pdf": "ФІНАНСБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ФІНАНСИ І КРЕДИТ",
-    "name": {
-      "pdf": "ФІНАНСИ І КРЕДИТ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-12-17"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -14878,26 +8882,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/financial-partner"
       }
-    }
-  },
-  {
-    "id": "ФІНАНСОВИЙ СОЮЗ БАНК",
-    "name": {
-      "pdf": "ФІНАНСОВИЙ СОЮЗ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-12-24"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -15013,26 +8997,6 @@
     }
   },
   {
-    "id": "ФАКТОРІАЛ БАНК",
-    "name": {
-      "pdf": "ФАКТОРІАЛ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2009-12-15"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ФАКТОРІАЛ-БАНК",
     "name": {
       "pdf": "ФАКТОРІАЛ-БАНК"
@@ -15043,126 +9007,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "2009-12-15"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ФБАНК (ЕРСТЕ БАНК)",
-    "name": {
-      "pdf": "ФБАНК (ЕРСТЕ БАНК)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2013-10-30"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ФЕБ",
-    "name": {
-      "pdf": "ФЕБ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2014-10-16"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ФЕРМЕРСЬКИЙ ЗЕМЕЛЬНИЙ АКЦІОНЕРНИЙ БАНК",
-    "name": {
-      "pdf": "ФЕРМЕРСЬКИЙ ЗЕМЕЛЬНИЙ АКЦІОНЕРНИЙ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2017-03-07"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ФЕРМЕРСЬКИЙ ЗЕМЕЛЬНИЙ БАНК",
-    "name": {
-      "pdf": "ФЕРМЕРСЬКИЙ ЗЕМЕЛЬНИЙ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2017-03-07"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ФОКАС",
-    "name": {
-      "pdf": "ФОКАС"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ФОЛЬКСБАНК",
-    "name": {
-      "pdf": "ФОЛЬКСБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2018-10-30"
     },
     "site": {
       "minfin": []
@@ -15211,146 +9055,6 @@
       "link": {
         "minfin": "https://minfin.com.ua/ua/company/fortuna-bank"
       }
-    }
-  },
-  {
-    "id": "ХІАЛАБАНК",
-    "name": {
-      "pdf": "ХІАЛАБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2000-04-24"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ХАДЖИБЕЙ",
-    "name": {
-      "pdf": "ХАДЖИБЕЙ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ХАРКІВІНКОМБАНК",
-    "name": {
-      "pdf": "ХАРКІВІНКОМБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ХАРКІВСЬКИЙ ДОБРОДІЙ",
-    "name": {
-      "pdf": "ХАРКІВСЬКИЙ ДОБРОДІЙ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ХАРКІВСЬКИЙ КОМЕРЦІЙНИЙ ЗЕМЕЛЬНИЙ БАНК",
-    "name": {
-      "pdf": "ХАРКІВСЬКИЙ КОМЕРЦІЙНИЙ ЗЕМЕЛЬНИЙ БАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2010-08-02"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ХОУМ КРЕДІТ БАНК",
-    "name": {
-      "pdf": "ХОУМ КРЕДІТ БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ХОУМ КРЕДИТ БАНК",
-    "name": {
-      "pdf": "ХОУМ КРЕДИТ БАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
     }
   },
   {
@@ -15446,12 +9150,12 @@
     }
   },
   {
-    "id": "ЧБРР",
+    "id": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ",
     "name": {
-      "nbu": "ЧБРР",
-      "pdf": "ЧБРР",
-      "fund": "ЧБРР",
-      "minfin": "ЧБРР"
+      "nbu": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ",
+      "pdf": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ",
+      "fund": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ",
+      "minfin": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ"
     },
     "active": {
       "nbu": false,
@@ -15477,66 +9181,6 @@
     }
   },
   {
-    "id": "ЧЕРНІГІВБАНК",
-    "name": {
-      "pdf": "ЧЕРНІГІВБАНК"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЧОРН БАНК РОЗВИТКУ ТА РЕКОНСТР",
-    "name": {
-      "pdf": "ЧОРН БАНК РОЗВИТКУ ТА РЕКОНСТР"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2014-05-06"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЧОРНОМОР БАНК РОЗВИТКУ ТА РЕКОНСТР",
-    "name": {
-      "pdf": "ЧОРНОМОР БАНК РОЗВИТКУ ТА РЕКОНСТР"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2014-05-06"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
     "id": "ШАХТЕКОНОМБАНК",
     "name": {
       "pdf": "ШАХТЕКОНОМБАНК"
@@ -15547,106 +9191,6 @@
     "dateOpen": {},
     "dateIssue": {
       "pdf": "1999-02-23"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ШИРЯЄВЕ",
-    "name": {
-      "pdf": "ШИРЯЄВЕ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": null
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЮВЕСБАНК",
-    "name": {
-      "pdf": "ЮВЕСБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2014-09-08"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЮГТОКОБАНК",
-    "name": {
-      "pdf": "ЮГТОКОБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2005-03-11"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЮЗІВСЬКИЙ",
-    "name": {
-      "pdf": "ЮЗІВСЬКИЙ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-12-01"
-    },
-    "site": {
-      "minfin": []
-    },
-    "internal": {
-      "id": {},
-      "link": {}
-    }
-  },
-  {
-    "id": "ЮНІОН СТАНДАРД БАНК (ЄКАТЕРИНОСЛАВСЬКИЙ КОМЕРЦІЙНИЙ БАНК)",
-    "name": {
-      "pdf": "ЮНІОН СТАНДАРД БАНК (ЄКАТЕРИНОСЛАВСЬКИЙ КОМЕРЦІЙНИЙ БАНК)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-12-24"
     },
     "site": {
       "minfin": []

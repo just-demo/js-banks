@@ -106,6 +106,7 @@ function combineBanks() {
     });
 
     utils.writeFile('../public/banks.json', utils.toJson(banks));
+    utils.writeFile('../public/minfin-ratings.json', utils.readFile('./json/minfin/ratings.json'));
 }
 
 function definedValues(object) {
