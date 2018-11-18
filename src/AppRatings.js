@@ -132,6 +132,11 @@ class AppRatings extends Component {
             borderWidth: 3
         } : {};
 
+        if (dates.pdf === date) { //TODO: find a better approach to combine different styles
+            style.borderColor = 'deeppink';
+            style.borderWidth = (style.borderWidth || 0) + 3;
+        }
+
         const fundColor = dates.fund === date ? 'pink' : 'transparent';
         const nbuColor = dates.nbu === date ? 'deeppink' : 'transparent';
         if (fundColor !== 'transparent' || nbuColor !== 'transparent') {

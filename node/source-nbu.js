@@ -59,12 +59,28 @@ module.exports = {
         return banks;
     },
 
+    getBanksPDF() {
+        const banks = {};
+        int.read('nbu/banks-pdf').forEach(bank => {
+            bank.name.forEach(name => {
+                name = names.bankName(name);
+                assert.false('Duplicate bank name', banks[name], name);
+                banks[name] = {
+                    name: name,
+                    dateIssue: bank.dateIssue,
+                    active: !bank.dateIssue
+                };
+            })
+        });
+        return banks;
+    },
+
     // TODO: fetch not-paying banks from https://bank.gov.ua/control/uk/publish/article?art_id=75535&cat_id=17823466, e.g. "Фінексбанк"
     saveAll() {
         this.saveBanksDBF();
         this.saveBanksAPI();
         this.saveBanksUI();
-        this.saveNotBanks();
+        this.saveBanksPDF();
     },
 
     saveBanksDBF() {
@@ -178,7 +194,6 @@ module.exports = {
 
         const banks = new Collector(Object.keys(bankFiles).length, (banks) => {
             int.write('nbu/banks-pdf', banks);
-            console.log(banks.filter(bank => !bank.issueDate).length);
             console.log(banks.length);
         });
 
@@ -187,11 +202,11 @@ module.exports = {
             function process(text) {
                 //Дата відкликання20.07.2011
                 const bank = regex.findObject(text,/^(.+?)Назва банку(.*?Дата відкликання(\d{2}\.\d{2}\.\d{4}))?/g, {
-                    name: 1, issueDate: 3
+                    name: 1, dateIssue: 3
                 });
                 banks.next({
-                    names: _.uniq([names.extractBankPureName(bank.name), ...bankNames].map(name => name.toUpperCase())),
-                    issueDate: dates.format(bank.issueDate)
+                    name: _.uniq([names.extractBankPureName(bank.name), ...bankNames].map(name => name.toUpperCase())),
+                    dateIssue: dates.format(bank.dateIssue)
                 });
             }
             if (utils.fileExists(textFile)) {

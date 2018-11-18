@@ -12,6 +12,7 @@ class AppBanks extends Component {
                 blue: true,
                 red: true,
                 pink: true,
+                deeppink: true,
                 orange: true,
                 yellow: true,
                 brown: true
@@ -20,6 +21,12 @@ class AppBanks extends Component {
         };
 
         this.sources = [
+            {
+                type: 'pdf',
+                title: 'NBU PDF',
+                href: 'https://bank.gov.ua/control/uk/publish/article?art_id=52047',
+                color: 'deeppink',
+            },
             {
                 type: 'dbf',
                 title: 'RCUCRU.dbf',
