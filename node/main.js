@@ -5,6 +5,7 @@ let _ = require('lodash');
 let utils = require('./utils');
 let names = require('./names');
 let assert = require('./assert');
+let dbf = require('./dbf');
 
 // nbu.test();
 // let t = require('../src/test');
@@ -13,9 +14,10 @@ let assert = require('./assert');
 // nbu.saveBanksPDF();
 // fund.saveAll();
 // minfin.saveAll();
-names.rebuildBankNames();
+// names.rebuildBankNames();
 
-combineBanks();
+// combineBanks();
+dbf.parse('./binary/RCUKRU.DBF');
 
 function compareGovApiBanks() {
     const dbfBanks = nbu.getBanksDBF();
