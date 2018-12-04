@@ -16,8 +16,8 @@ let dbf = require('./dbf');
 // minfin.saveAll();
 // names.rebuildBankNames();
 
-// combineBanks();
-dbf.parse('./binary/RCUKRU.DBF');
+combineBanks();
+// dbf.parse('./binary/RCUKRU.DBF');
 
 function compareGovApiBanks() {
     const dbfBanks = nbu.getBanksDBF();
@@ -86,7 +86,7 @@ function combineBanks() {
                 api: (apiBanks[id] || {}).dateIssue,
                 nbu: (nbuBanks[id] || {}).dateIssue,
                 pdf: (pdfBanks[id] || {}).dateIssue,
-                fund: (fundBanks[id] || {}).dateIssue,
+                fund: (fundBanks[id] || {}).issue,
             },
             site: {
                 fund: (fundBanks[id] || {}).site,
@@ -104,6 +104,9 @@ function combineBanks() {
         assert.equals('Name mismatch - ' + id + ' - ' + JSON.stringify(bank.name), ...definedValues(bank.name));
         assert.equals('Active mismatch - ' + id + ' - ' + JSON.stringify(bank.active), ...definedValues(bank.active));
         assert.equals('DateOpen mismatch - ' + id + ' - ' + JSON.stringify(bank.dateOpen), ...definedValues(bank.dateOpen));
+        if (bank.dateOpen.dbf && Object.values(bank.dateOpen).filter(d => d).length < 2) {
+            console.log('AAA - ' + id + ' - ' + JSON.stringify(bank.dateOpen))
+        }
         return bank;
     });
 

@@ -13,17 +13,6 @@ class AppRatings extends Component {
             banks: {},
             ratings: {}
         };
-
-        fetch('/banks.json')
-            .then(banks => banks.json())
-            .then(banks => this.setState({banks: this.convertBanks(banks)}));
-
-
-        fetch('/minfin-ratings.json')
-            .then(ratings => ratings.json())
-            .then(ratings => this.setState({ratings: ratings}));
-
-        console.log(t.hello());
     }
 
     convertBanks(banks) {
@@ -37,6 +26,19 @@ class AppRatings extends Component {
                 dateIssue: bank.dateIssue
             };
         }).filter(bank => bank.name), 'id');
+    }
+
+    componentDidMount() {
+        fetch('/banks.json')
+            .then(banks => banks.json())
+            .then(banks => this.setState({banks: this.convertBanks(banks)}));
+
+
+        fetch('/minfin-ratings.json')
+            .then(ratings => ratings.json())
+            .then(ratings => this.setState({ratings: ratings}));
+
+        console.log(t.hello());
     }
 
     render() {

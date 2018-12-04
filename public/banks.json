@@ -6246,7 +6246,7 @@
       "api": true,
       "nbu": true,
       "pdf": true,
-      "fund": false
+      "fund": true
     },
     "dateOpen": {
       "dbf": "1992-03-19",
@@ -6258,6 +6258,9 @@
       "pdf": null
     },
     "site": {
+      "fund": [
+        "http://www.privatbank.com.ua"
+      ],
       "minfin": [
         "http://privatbank.ua/"
       ]
@@ -8831,7 +8834,7 @@
       "api": false,
       "nbu": false,
       "pdf": true,
-      "fund": false
+      "fund": true
     },
     "dateOpen": {
       "dbf": "2005-01-19",
@@ -8844,6 +8847,9 @@
       "fund": "2015-06-24"
     },
     "site": {
+      "fund": [
+        "http://www.the-bank.com.ua"
+      ],
       "minfin": [
         "http://www.the-bank.com.ua/"
       ]

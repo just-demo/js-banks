@@ -36,7 +36,7 @@ module.exports = {
 
     extractBankPureName(bankFullName) {
         const match = bankFullName.match(/.*["«](.+?)["»]/);
-        return assert.true('Full name is pure name', match, bankFullName) ? match[1] : bankFullName;
+        return this.normalize(assert.true('Full name is pure name', match, bankFullName) ? match[1] : bankFullName);
     },
 
     // TODO: consider creating normalizeBankName that would additionally remove "БАНК" prefix and suffix

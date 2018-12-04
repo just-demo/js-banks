@@ -7,57 +7,57 @@ let assert = require('./assert');
 let regex = require('./regex');
 
 module.exports = {
-    // https://www.bank.gov.ua/control/bankdict/banks
-    // https://bank.gov.ua/control/uk/bankdict/search?name=&type=369&region=&mfo=&edrpou=&size=&group=&fromDate=&toDate=
     getBanks() {
         const banks = {};
-        const activeBanks = int.read('fund/banks-active');
-        const notPayingBanks = int.read('fund/banks-not-paying');
-        activeBanks.forEach(bank => bank.active = true);
-        notPayingBanks.forEach(bank => bank.active = false);
-        _.union(activeBanks, notPayingBanks).forEach(bank => {
+        int.read('fund/banks').forEach(bank => {
             bank.name = names.bankName(bank.name);
-            assert.false('Duplicate bank name', banks[bank.name], bank.name);
             banks[bank.name] = bank;
         });
         return banks;
     },
 
     saveAll() {
-        this.saveActiveBanks();
-        this.saveNotPayingBanks();
+        this.saveBanks();
     },
 
-    saveActiveBanks() {
-        const html = ext.read('fund/banks-active', 'http://www.fg.gov.ua/uchasnyky-fondu');
-        const banks = regex.findManyObjects(html, /<tr.*?>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>([\S\s]*?)<\/td>\s+?<\/tr>/g, {
+    saveBanks() {
+        const htmlActive = ext.read('fund/banks-active', 'http://www.fg.gov.ua/uchasnyky-fondu');
+        const banks = regex.findManyObjects(htmlActive, /<tr.*?>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>([\S\s]*?)<\/td>\s+?<\/tr>/g, {
             name: 2, date: 4, site: 7
         }).map(bank => {
             return {
                 name: names.extractBankPureName(bank.name),
-                date: dates.format(bank.date),
-                site: this.extractBankPureSites(bank.site)
+                start: dates.format(bank.date),
+                site: this.extractBankPureSites(bank.site),
+                active: true
             };
         });
         banks.forEach(bank => assert.false('Many sites', bank.site.length > 1, bank.name, bank.site));
-        int.write('fund/banks-active', banks);
-    },
 
-    saveNotPayingBanks() {
-        const html = ext.read('fund/banks-not-paying', 'http://www.fg.gov.ua/not-paying');
-        const banks = regex.findManyObjects(html, /<h3 class="item-title"><a href="(\/.+?\/.+?\/(\d+?)-.+?)">[\S\s]+?(.+?)<\/a>/g, {
+        const bankByName = _.keyBy(banks, 'name');
+        const htmlInactive = ext.read('fund/banks-not-paying', 'http://www.fg.gov.ua/not-paying');
+        regex.findManyObjects(htmlInactive, /<h3 class="item-title"><a href="(\/.+?\/.+?\/(\d+?)-.+?)">[\S\s]+?(.+?)<\/a>/g, {
             link: 1, id: 2, name: 3
         }).map(bank => {
             const htmlBank = ext.read('fund/banks/' + bank.id, 'http://www.fg.gov.ua' + bank.link);
             const dateIssue = _.min(regex.findManyValues(htmlBank, /<td[^>]*>Термін [^<]*<\/td>\s*<td[^>]*>[^<]*?(\d{2}\.\d{2}\.\d{4})[^<]*<\/td>/g).map(date => dates.format(date)));
             return {
-                id: parseInt(bank.id),
                 name: names.extractBankPureName(bank.name),
+                issue: dateIssue,
                 link: bank.link,
-                dateIssue: dateIssue
+                active: false
             };
+        }).forEach(bank => {
+            const existing = bankByName[bank.name];
+            if (assert.false('Bank is still active', existing, bank.name)) {
+                banks.push(bank);
+            } else {
+                existing.issue = bank.issue;
+                existing.link = bank.link;
+            }
         });
-        int.write('fund/banks-not-paying', banks);
+
+        int.write('fund/banks', banks);
     },
 
     extractBankPureSites(bankFullSite) {
