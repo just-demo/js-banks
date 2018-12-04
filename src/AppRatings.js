@@ -22,7 +22,7 @@ class AppRatings extends Component {
                 name: bank.name.minfin,
                 site: (bank.site.minfin || [])[0],
                 link: bank.internal.link.minfin,
-                dateOpen: bank.dateOpen.dbf,
+                dateOpen: bank.dateOpen,
                 dateIssue: bank.dateIssue
             };
         }).filter(bank => bank.name), 'id');
@@ -41,21 +41,19 @@ class AppRatings extends Component {
         console.log(t.hello());
     }
 
+    dateMatch(actualDate, expectedDate) {
+        // TODO: test and optimize performance if needed
+        if (!actualDate || actualDate > expectedDate) {
+            return false;
+        }
+
+        const expectedIndex = this.dates.indexOf(expectedDate);
+        const nextIndex = expectedIndex + 1;
+        return nextIndex === this.dates.length || actualDate > this.dates[nextIndex];
+    };
+
     render() {
-        const dates = Object.keys(this.state.ratings).sort().reverse();
-        const openDates = {};
-        const issueDates = {};
-        _.forOwn(this.state.banks, (bank, bankId) => dates.forEach(date => {
-            if (bank.dateOpen && bank.dateOpen < date) {
-                openDates[bankId] = date;
-            }
-            _.forOwn(bank.dateIssue, (dateIssue, type) => {
-                if (dateIssue && dateIssue < date) {
-                    issueDates[bankId] = issueDates[bankId] || {};
-                    issueDates[bankId][type] = date;
-                }
-            });
-        }));
+        this.dates = Object.keys(this.state.ratings).sort().reverse();
 
         const latestRating = {};
         _.forOwn(this.state.ratings, (dateRating, date) => {
@@ -94,7 +92,7 @@ class AppRatings extends Component {
                     <tr>
                         <th>&nbsp;</th>
                         <th>&nbsp;</th>
-                        {dates.map(date => (
+                        {this.dates.map(date => (
                             <th key={date} className="vertical-bottom-to-top">{date}</th>
                         ))}
                     </tr>
@@ -102,8 +100,8 @@ class AppRatings extends Component {
                         <tr key={bankId}>
                             <td><a href={this.state.banks[bankId].link}>{this.state.banks[bankId].name}</a></td>
                             <td><a href={this.state.banks[bankId].site}>{((this.state.banks[bankId].site || '').match(/\/\/([^/]+)/) || [])[1]}</a></td>
-                            {dates.map(date => (
-                                <td key={date} style={this.styleForCell(bankId, date, openDates, issueDates)}>{this.state.ratings[date][bankId] || '-'}</td>
+                            {this.dates.map(date => (
+                                <td key={date} style={this.styleForCell(bankId, date)}>{this.state.ratings[date][bankId] || '-'}</td>
                             ))}
                         </tr>
                     ))}
@@ -113,34 +111,35 @@ class AppRatings extends Component {
         );
     }
 
-    styleForCell(bankId, date, openDates, issueDates) {
+    styleForCell(bankId, date) {
+        const bank = this.state.banks[bankId];
         return {
             ...this.styleForRating(this.state.ratings[date][bankId]),
-            ...this.styleForOpenDate(openDates[bankId] === date),
-            ...this.styleForIssueDate(issueDates[bankId] || {}, date)
+            ...this.styleForOpenDate(bank, date),
+            ...this.styleForIssueDate(bank, date)
         };
     }
 
-    styleForOpenDate(isOpenDate) {
-        return isOpenDate ? {
+    styleForOpenDate(bank, date) {
+        return this.dateMatch(bank.dateOpen.api, date) ? {
             borderColor: 'green',
             borderWidth: 3
         } : {};
     }
 
-    styleForIssueDate(dates, date) {
-        const style = dates.api === date ? {
+    styleForIssueDate(bank, date) {
+        const style = this.dateMatch(bank.dateIssue.api, date) ? {
             borderColor: 'red',
             borderWidth: 3
         } : {};
 
-        if (dates.pdf === date) { //TODO: find a better approach to combine different styles
+        if (this.dateMatch(bank.dateIssue.pdf, date)) { //TODO: find a better approach to combine different styles
             style.borderColor = 'deeppink';
             style.borderWidth = (style.borderWidth || 0) + 3;
         }
 
-        const fundColor = dates.fund === date ? 'pink' : 'transparent';
-        const nbuColor = dates.nbu === date ? 'deeppink' : 'transparent';
+        const fundColor = this.dateMatch(bank.dateIssue.fund, date) ? 'pink' : 'transparent';
+        const nbuColor = this.dateMatch(bank.dateIssue.nbu, date) ? 'deeppink' : 'transparent';
         if (fundColor !== 'transparent' || nbuColor !== 'transparent') {
             style.background = `repeating-linear-gradient(45deg, ${fundColor}, ${fundColor} 5px, ${nbuColor} 5px, ${nbuColor} 10px)`;
         }
