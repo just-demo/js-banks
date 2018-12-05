@@ -1,16 +1,19 @@
 import React, {Component} from 'react';
 import './App.css';
+import './AppRatings.css';
 import _ from 'lodash';
 import 'bootstrap/dist/css/bootstrap.css'
 import Scale from './Scale';
 import t from './test';
 import classNames from 'classnames';
+import Bank from './Bank';
 
 class AppRatings extends Component {
     constructor(props) {
         super(props);
         this.state = {
             scale: 1,
+            bankSelected: null,
             banks: [],
             ratings: {}
         };
@@ -32,13 +35,14 @@ class AppRatings extends Component {
     render() {
         const start = new Date();
         this.dates = Object.keys(this.state.ratings).sort().reverse();
-        this.banks = _.keyBy(this.state.banks.map(bank => {
+        this.banks = _.keyBy(this.state.banks.map((bank, index) => {
             const datesIssue = Object.values(bank.dateIssue);
             return {
                 id: bank.internal.id.minfin,
                 name: bank.name.minfin,
-                site: (bank.site.minfin || [])[0],
-                link: bank.internal.link.minfin,
+                index: index,
+                // site: (bank.site.minfin || [])[0],
+                // link: bank.internal.link.minfin,
                 dateOpen: this.projectDate(bank.dateOpen.dbf),
                 dateClosed: this.projectDate(bank.dateIssue.pdf),
                 dateIssueMin: this.projectDate(_.min(datesIssue)),
@@ -67,27 +71,35 @@ class AppRatings extends Component {
         const r = (
             <div>
                 <Scale value={this.state.scale} min={1} max={100} onChange={(scale) => this.setState({scale: scale})}/>
-                <table className="banks">
+                <table className="ratings">
                     <tbody>
                     <tr>
                         <th>&nbsp;</th>
-                        <th>&nbsp;</th>
+                        {/*<th>&nbsp;</th>*/}
                         {this.dates.map(date => (
                             <th key={date} className="vertical-bottom-to-top">{date}</th>
                         ))}
                     </tr>
                     {bankIds.map(bankId => (
-                        <tr key={bankId}>
-                            <td><a href={this.banks[bankId].link}>{this.banks[bankId].name}</a></td>
-                            <td><a href={this.banks[bankId].site}>{((this.banks[bankId].site || '').match(/\/\/([^/]+)/) || [])[1]}</a></td>
-                            {this.dates.map(date => (
-                                <td key={date} className={this.classForCell(this.banks[bankId], date)} style={this.styleForCell(this.state.ratings[date][bankId])}>
-                                    <div>
-                                        {this.state.ratings[date][bankId] || '-'}
-                                    </div>
-                                </td>
-                            ))}
-                        </tr>
+                        <React.Fragment key={bankId}>
+                            <tr onClick={() => this.handleBankSelected(bankId)}>
+                                <td title={this.ifExceeds(this.banks[bankId].name, 30)}><a href={this.banks[bankId].link}>{this.truncate(this.banks[bankId].name, 30)}</a></td>
+                                {/*<td><a href={this.banks[bankId].site}>{((this.banks[bankId].site || '').match(/\/\/([^/]+)/) || [])[1]}</a></td>*/}
+                                {this.dates.map(date => (
+                                    <td key={date} className={this.classForCell(this.banks[bankId], date)} style={this.styleForCell(this.state.ratings[date][bankId])}>
+                                        <div>
+                                            {this.state.ratings[date][bankId] || '-'}
+                                        </div>
+                                    </td>
+                                ))}
+                            </tr>
+                            {bankId === this.state.bankSelected && (
+                                <tr>
+                                    <td>&nbsp;</td>
+                                    <td colSpan={this.dates.length}><Bank data={this.state.banks[this.banks[bankId].index]}/></td>
+                                </tr>
+                            )}
+                        </React.Fragment>
                     ))}
                     </tbody>
                 </table>
@@ -97,6 +109,18 @@ class AppRatings extends Component {
         console.log('Rendering time:', new Date() - start);
 
         return r;
+    }
+
+    handleBankSelected(bankId) {
+        this.setState({bankSelected: this.state.bankSelected === bankId ? null : bankId});
+    }
+
+    truncate(str, length) {
+        return str.length > length ? str.substring(0, length - 3) + '...' : str;
+    }
+
+    ifExceeds(str, length) {
+        return str.length > length ? str : null;
     }
 
     compare(a, b) {
