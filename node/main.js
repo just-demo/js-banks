@@ -83,9 +83,10 @@ function combineBanks() {
                 nbu: (nbuBanks[id] || {}).dateOpen
             },
             dateIssue: {
-                api: (apiBanks[id] || {}).dateIssue,
+                // TODO: fix undefined before this
+                api: (apiBanks[id] || {}).dateIssue || undefined,
                 nbu: (nbuBanks[id] || {}).dateIssue,
-                pdf: (pdfBanks[id] || {}).dateIssue,
+                pdf: (pdfBanks[id] || {}).dateIssue || undefined,
                 fund: (fundBanks[id] || {}).issue,
             },
             site: {

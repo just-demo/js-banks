@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
-import ReactTable from 'react-table';
 import 'react-table/react-table.css'
 
 class AppDBF extends Component {

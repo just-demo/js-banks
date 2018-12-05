@@ -187,10 +187,7 @@
       "api": "2008-08-13",
       "nbu": "2008-08-13"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://mtb.ua",
@@ -232,10 +229,7 @@
       "api": "1991-10-22",
       "nbu": "1991-10-22"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.ideabank.ua"
@@ -415,10 +409,7 @@
       "api": "1997-12-15",
       "nbu": "1997-12-15"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.ingcommercialbanking.com"
@@ -458,10 +449,7 @@
       "api": "1991-10-16",
       "nbu": "1991-10-16"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.industrialbank.ua"
@@ -735,10 +723,7 @@
       "api": "1992-10-30",
       "nbu": "1992-10-30"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.a-bank.com.ua"
@@ -859,10 +844,7 @@
       "api": "1993-12-24",
       "nbu": "1993-12-24"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.agrocombank.kiev.ua"
@@ -943,10 +925,7 @@
       "api": "2008-06-04",
       "nbu": "2008-06-04"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.accordbank.com.ua"
@@ -1151,10 +1130,7 @@
       "api": "2012-10-26",
       "nbu": "2012-10-26"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.alpari-bank.com.ua"
@@ -1194,10 +1170,7 @@
       "api": "1991-10-21",
       "nbu": "1991-10-21"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "https://altbank.ua"
@@ -1237,10 +1210,7 @@
       "api": "1993-03-24",
       "nbu": "1993-03-24"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.alfabank.com.ua"
@@ -1301,8 +1271,7 @@
     },
     "dateIssue": {
       "api": "2015-10-02",
-      "nbu": "2015-03-19",
-      "pdf": null
+      "nbu": "2015-03-19"
     },
     "site": {
       "minfin": [
@@ -1387,10 +1356,7 @@
       "api": "1993-06-23",
       "nbu": "1993-06-23"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.arkada.ua"
@@ -1513,10 +1479,7 @@
       "api": "1991-10-30",
       "nbu": "1991-10-30"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.asviobank.ua"
@@ -1607,10 +1570,7 @@
       "api": "2008-07-25",
       "nbu": "2008-07-25"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.bank34.kiev.ua"
@@ -1650,10 +1610,7 @@
       "api": "2005-08-09",
       "nbu": "2005-08-09"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.bisbank.com.ua"
@@ -1693,10 +1650,7 @@
       "api": "2013-07-05",
       "nbu": "2013-07-05"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [],
       "minfin": [
@@ -1734,10 +1688,7 @@
       "api": "1992-03-10",
       "nbu": "1992-03-10"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://bankalliance.ua"
@@ -1857,10 +1808,7 @@
       "api": "2002-10-17",
       "nbu": "2002-10-17"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.bankvostok.com.ua"
@@ -1982,10 +1930,7 @@
       "api": "1993-07-07",
       "nbu": "1993-07-07"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.creditdnepr.com.ua"
@@ -2197,10 +2142,7 @@
       "api": "2011-05-24",
       "nbu": "2011-05-24"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.sichbank.com.ua"
@@ -2262,10 +2204,7 @@
       "api": "1991-12-27",
       "nbu": "1991-12-27"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.fbank.com.ua"
@@ -2305,10 +2244,7 @@
       "api": "2006-02-28",
       "nbu": "2006-02-28"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.bank-rs.com.ua"
@@ -2429,7 +2365,6 @@
       "nbu": "2005-12-08"
     },
     "dateIssue": {
-      "api": null,
       "pdf": "2018-11-06"
     },
     "site": {
@@ -2509,10 +2444,7 @@
       "api": "1992-12-10",
       "nbu": "1992-12-10"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.btabank.ua"
@@ -2726,10 +2658,7 @@
       "api": "2009-02-17",
       "nbu": "2009-02-17"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://vernumbank.com"
@@ -2811,10 +2740,7 @@
       "api": "1992-11-11",
       "nbu": "1992-11-11"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.vtb.com.ua"
@@ -2936,10 +2862,7 @@
       "api": "2007-11-29",
       "nbu": "2007-11-29"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.globusbank.com.ua"
@@ -3020,10 +2943,7 @@
       "api": "1991-10-29",
       "nbu": "1991-10-29"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.grant.kharkov.ua"
@@ -3350,10 +3270,7 @@
       "api": "2009-06-19",
       "nbu": "2009-06-19"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.db.com/ukraine"
@@ -3717,10 +3634,7 @@
       "api": "1994-01-31",
       "nbu": "1994-01-31"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.zemcap.dp.ua"
@@ -3821,10 +3735,7 @@
       "api": "1993-12-03",
       "nbu": "1993-12-03"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.cib.com.ua"
@@ -4083,10 +3994,7 @@
       "api": "1996-12-30",
       "nbu": "1996-12-30"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.clhs.kiev.ua"
@@ -4187,10 +4095,7 @@
       "api": "1992-12-16",
       "nbu": "1992-12-16"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.coopinvest.com.ua"
@@ -4230,10 +4135,7 @@
       "api": "2006-08-07",
       "nbu": "2006-08-07"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.concord.ua"
@@ -4354,10 +4256,7 @@
       "api": "1993-02-10",
       "nbu": "1993-02-10"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.indexbank.ua",
@@ -4398,10 +4297,7 @@
       "api": "2006-08-28",
       "nbu": "2006-08-28"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.crediteurope.com.ua"
@@ -4468,10 +4364,7 @@
       "api": "2006-10-04",
       "nbu": "2006-10-04"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.creditwest.kiev.ua"
@@ -4552,10 +4445,7 @@
       "api": "1992-03-31",
       "nbu": "1992-03-31"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.kredobank.com.ua"
@@ -4655,10 +4545,7 @@
       "api": "2014-12-16",
       "nbu": "2014-12-16"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://cristalbank.com.ua"
@@ -4780,10 +4667,7 @@
       "api": "1991-10-14",
       "nbu": "1991-10-14"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.banklviv.com"
@@ -4823,10 +4707,7 @@
       "api": "2008-03-11",
       "nbu": "2008-03-11"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.ii-bank.com.ua"
@@ -4866,10 +4747,7 @@
       "api": "1993-07-23",
       "nbu": "1993-07-23"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.mistobank.com.ua"
@@ -4950,10 +4828,7 @@
       "api": "1991-10-28",
       "nbu": "1991-10-28"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.megabank.net",
@@ -5097,10 +4972,7 @@
       "api": "1993-07-12",
       "nbu": "1993-07-12"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.mbank.com.ua"
@@ -5171,10 +5043,7 @@
       "api": "2007-08-10",
       "nbu": "2007-08-10"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.motor-bank.com.ua"
@@ -5235,8 +5104,7 @@
       "nbu": "1993-11-05"
     },
     "dateIssue": {
-      "api": "2018-08-10",
-      "pdf": null
+      "api": "2018-08-10"
     },
     "site": {
       "fund": [
@@ -5548,10 +5416,7 @@
       "api": "1991-10-14",
       "nbu": "1991-10-14"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.okcibank.com.ua"
@@ -5647,10 +5512,7 @@
       "api": "1998-03-02",
       "nbu": "1998-03-02"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.otpbank.com.ua"
@@ -5688,10 +5550,7 @@
       "api": "1991-12-31",
       "nbu": "1991-12-31"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "minfin": [
         "http://www.oschadbank.ua/ua/"
@@ -5769,10 +5628,7 @@
       "api": "1993-12-03",
       "nbu": "1993-12-03"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.pivdenny.com"
@@ -5812,10 +5668,7 @@
       "api": "1994-01-31",
       "nbu": "1994-01-31"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.piraeusbank.ua"
@@ -5875,10 +5728,7 @@
       "api": "1997-06-20",
       "nbu": "1997-06-20"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.pinbank.ua"
@@ -5938,10 +5788,7 @@
       "api": "1994-08-18",
       "nbu": "1994-08-18"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.poli.com.ua"
@@ -5981,10 +5828,7 @@
       "api": "1991-10-16",
       "nbu": "1991-10-16"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.poltavabank.com"
@@ -6024,10 +5868,7 @@
       "api": "2013-09-20",
       "nbu": "2013-09-20"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [],
       "minfin": [
@@ -6106,10 +5947,7 @@
       "api": "1992-12-29",
       "nbu": "1992-12-29"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.pravex.com"
@@ -6254,8 +6092,7 @@
       "nbu": "1992-03-19"
     },
     "dateIssue": {
-      "api": "2016-12-22",
-      "pdf": null
+      "api": "2016-12-22"
     },
     "site": {
       "fund": [
@@ -6316,10 +6153,7 @@
       "api": "2000-12-28",
       "nbu": "2000-12-28"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.procreditbank.com.ua"
@@ -6359,10 +6193,7 @@
       "api": "1992-08-26",
       "nbu": "1992-08-26"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.pib.com.ua"
@@ -6552,10 +6383,7 @@
       "api": "1991-12-23",
       "nbu": "1991-12-23"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.fuib.com"
@@ -6595,10 +6423,7 @@
       "api": "1993-12-03",
       "nbu": "1993-12-03"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.radabank.com.ua"
@@ -6679,10 +6504,7 @@
       "api": "1992-03-27",
       "nbu": "1992-03-27"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.aval.ua"
@@ -6723,8 +6545,7 @@
       "nbu": "2015-06-25"
     },
     "dateIssue": {
-      "api": "2015-06-25",
-      "pdf": null
+      "api": "2015-06-25"
     },
     "site": {
       "fund": [],
@@ -6845,10 +6666,7 @@
       "api": "2013-09-06",
       "nbu": "2013-09-06"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [],
       "minfin": [
@@ -6928,10 +6746,7 @@
       "api": "1998-05-11",
       "nbu": "1998-05-11"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [],
       "minfin": [
@@ -6969,10 +6784,7 @@
       "api": "2001-06-15",
       "nbu": "2001-06-15"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "https://www.sberbank.ua",
@@ -7033,10 +6845,7 @@
       "api": "2011-01-19",
       "nbu": "2011-01-19"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [],
       "minfin": [
@@ -7116,10 +6925,7 @@
       "api": "1991-10-28",
       "nbu": "1991-10-28"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "https://skybank.pro"
@@ -7591,8 +7397,7 @@
       "nbu": "1991-10-21"
     },
     "dateIssue": {
-      "api": "2018-07-10",
-      "pdf": null
+      "api": "2018-07-10"
     },
     "site": {
       "fund": [
@@ -7819,10 +7624,7 @@
       "api": "2004-03-10",
       "nbu": "2004-03-10"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.tc-bank.com"
@@ -8008,10 +7810,7 @@
       "api": "2004-03-19",
       "nbu": "2004-03-19"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.ubrr.com.ua"
@@ -8051,10 +7850,7 @@
       "api": "1992-12-25",
       "nbu": "1992-12-25"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.ukrcapital.com.ua"
@@ -8157,10 +7953,7 @@
       "api": "2004-04-20",
       "nbu": "2004-04-20"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "https://ubib.com.ua",
@@ -8201,10 +7994,7 @@
       "api": "1993-07-21",
       "nbu": "1993-07-21"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.ukrgasbank.com"
@@ -8286,8 +8076,7 @@
       "nbu": "1992-01-23"
     },
     "dateIssue": {
-      "api": "2014-05-23",
-      "pdf": null
+      "api": "2014-05-23"
     },
     "site": {
       "fund": [
@@ -8369,10 +8158,7 @@
       "api": "1991-10-28",
       "nbu": "1991-10-28"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.ukrsibbank.com"
@@ -8412,10 +8198,7 @@
       "api": "1991-09-27",
       "nbu": "1991-09-27"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "https://www.ukrsotsbank.com"
@@ -8515,10 +8298,7 @@
       "api": "1994-01-20",
       "nbu": "1994-01-20"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.universalbank.com.ua"
@@ -8843,7 +8623,6 @@
     "dateIssue": {
       "api": "2015-06-23",
       "nbu": "2015-06-23",
-      "pdf": null,
       "fund": "2015-06-24"
     },
     "site": {
@@ -9269,10 +9048,7 @@
       "api": "1993-12-03",
       "nbu": "1993-12-03"
     },
-    "dateIssue": {
-      "api": null,
-      "pdf": null
-    },
+    "dateIssue": {},
     "site": {
       "fund": [
         "http://www.unexbank.com.ua"

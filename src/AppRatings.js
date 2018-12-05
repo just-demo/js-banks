@@ -4,6 +4,7 @@ import _ from 'lodash';
 import 'bootstrap/dist/css/bootstrap.css'
 import Scale from './Scale';
 import t from './test';
+import classNames from 'classnames';
 
 class AppRatings extends Component {
     constructor(props) {
@@ -40,17 +41,6 @@ class AppRatings extends Component {
 
         console.log(t.hello());
     }
-
-    dateMatch(actualDate, expectedDate) {
-        // TODO: test and optimize performance if needed
-        if (!actualDate || actualDate > expectedDate) {
-            return false;
-        }
-
-        const expectedIndex = this.dates.indexOf(expectedDate);
-        const nextIndex = expectedIndex + 1;
-        return nextIndex === this.dates.length || actualDate > this.dates[nextIndex];
-    };
 
     render() {
         this.dates = Object.keys(this.state.ratings).sort().reverse();
@@ -101,7 +91,11 @@ class AppRatings extends Component {
                             <td><a href={this.state.banks[bankId].link}>{this.state.banks[bankId].name}</a></td>
                             <td><a href={this.state.banks[bankId].site}>{((this.state.banks[bankId].site || '').match(/\/\/([^/]+)/) || [])[1]}</a></td>
                             {this.dates.map(date => (
-                                <td key={date} style={this.styleForCell(bankId, date)}>{this.state.ratings[date][bankId] || '-'}</td>
+                                <td key={date} className={this.classForCell(bankId, date)} style={this.styleForCell(bankId, date)}>
+                                    <div>
+                                        {this.state.ratings[date][bankId] || '-'}
+                                    </div>
+                                </td>
                             ))}
                         </tr>
                     ))}
@@ -111,43 +105,40 @@ class AppRatings extends Component {
         );
     }
 
+    projectDate(date) {
+        if (!date) {
+            return date;
+        }
+        let projected = date;
+        for (const d of this.dates) {
+            if (d < date) {
+                return projected;
+            }
+            projected = d;
+        }
+        return projected;
+    }
+
+    classForCell(bankId, date) {
+        // TODO: init or cache projectDate
+        const dateOpen = this.projectDate(this.state.banks[bankId].dateOpen.dbf);
+        const dateClosed = this.projectDate(this.state.banks[bankId].dateIssue.pdf);
+        const datesIssue = Object.values(this.state.banks[bankId].dateIssue);
+        const dateIssueMin = this.projectDate(_.min(datesIssue));
+        const dateIssueMax = this.projectDate(_.max(datesIssue));
+
+        return classNames({
+            'rating': true,
+            'issue': dateIssueMax >= date && date >= dateIssueMin,
+            'issue-max': dateIssueMax === date,
+            'issue-min': dateIssueMin === date,
+            'closed': (dateClosed && date > dateIssueMax) || (dateOpen && date < dateOpen),
+            'open': dateOpen && dateOpen === date
+        });
+    }
+
     styleForCell(bankId, date) {
-        const bank = this.state.banks[bankId];
-        return {
-            ...this.styleForRating(this.state.ratings[date][bankId]),
-            ...this.styleForOpenDate(bank, date),
-            ...this.styleForIssueDate(bank, date)
-        };
-    }
-
-    styleForOpenDate(bank, date) {
-        return this.dateMatch(bank.dateOpen.api, date) ? {
-            borderColor: 'green',
-            borderWidth: 3
-        } : {};
-    }
-
-    styleForIssueDate(bank, date) {
-        const style = this.dateMatch(bank.dateIssue.api, date) ? {
-            borderColor: 'red',
-            borderWidth: 3
-        } : {};
-
-        if (this.dateMatch(bank.dateIssue.pdf, date)) { //TODO: find a better approach to combine different styles
-            style.borderColor = 'deeppink';
-            style.borderWidth = (style.borderWidth || 0) + 3;
-        }
-
-        const fundColor = this.dateMatch(bank.dateIssue.fund, date) ? 'pink' : 'transparent';
-        const nbuColor = this.dateMatch(bank.dateIssue.nbu, date) ? 'deeppink' : 'transparent';
-        if (fundColor !== 'transparent' || nbuColor !== 'transparent') {
-            style.background = `repeating-linear-gradient(45deg, ${fundColor}, ${fundColor} 5px, ${nbuColor} 5px, ${nbuColor} 10px)`;
-        }
-
-        return style;
-    }
-
-    styleForRating(rating) {
+        let rating = this.state.ratings[date][bankId];
         if (!rating) {
             return {};
         }
