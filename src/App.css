@@ -14,14 +14,18 @@ td {
   white-space: nowrap;
 }
 
+td.rating div {
+  text-align: center;
+}
+
 td.closed {
   background-color: #ddd;
 }
 
 td.open {
-  border: 3px green;
+  border-right-width: 3px;
+  border-right-color: green;
 }
-
 
 /*td.issue {*/
   /*border-width: 3px 0 3px 0;*/

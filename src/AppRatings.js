@@ -42,7 +42,15 @@ class AppRatings extends Component {
         console.log(t.hello());
     }
 
+    compare(a, b) {
+        return _.isUndefined(a) ?
+            _.isUndefined(b) ? 0 : -1 :
+            _.isUndefined(b) ? 1 :
+                a > b ? 1 : a < b ? -1 : 0;
+    }
+
     render() {
+        const start = new Date();
         this.dates = Object.keys(this.state.ratings).sort().reverse();
 
         const latestRating = {};
@@ -58,23 +66,17 @@ class AppRatings extends Component {
         });
 
         // Sort by latest rating in reverse order
-        const bankIds = Object.keys(this.state.banks).sort((a, b) => {
-            const aRating = latestRating[a];
-            const bRating = latestRating[b];
-
-            if (aRating && bRating) {
-                if (aRating.date !== bRating.date) {
-                    return aRating.date > bRating.date ? 1 : -1;
+        const bankIds = Object.keys(this.state.banks).sort((bankId1, bankId2) => {
+            for (const date of this.dates) {
+                const dateRating = this.state.ratings[date];
+                const diff = this.compare(dateRating[bankId1], dateRating[bankId2]);
+                if (diff) {
+                    return diff;
                 }
-                if (aRating.rating !== bRating.rating) {
-                    return aRating.rating > bRating.rating ? 1 : -1;
-                }
-                return 0;
             }
-            return aRating ? 1 : (bRating ? -1 : 0);
         }).reverse();
 
-        return (
+        const r = (
             <div>
                 <Scale value={this.state.scale} min={1} max={100} onChange={(scale) => this.setState({scale: scale})}/>
                 <table className="banks">
@@ -103,6 +105,10 @@ class AppRatings extends Component {
                 </table>
             </div>
         );
+
+        console.log('Rendering time:', new Date() - start);
+
+        return r;
     }
 
     projectDate(date) {
