@@ -14,7 +14,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/82-interkontinent"
+      }
     }
   },
   {
@@ -76,6 +78,7 @@
         "minfin": 119
       },
       "link": {
+        "fund": "/not-paying/liquidation/175-pat-kb-yevrobank",
         "minfin": "https://minfin.com.ua/ua/company/eurobank"
       }
     }
@@ -117,6 +120,7 @@
         "minfin": 110
       },
       "link": {
+        "fund": "/not-paying/liquidation/44-evrogazbank",
         "minfin": "https://minfin.com.ua/ua/company/eurogasbank"
       }
     }
@@ -140,7 +144,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/77-evropeisky"
+      }
     }
   },
   {
@@ -162,7 +168,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/80-evro-bank-rz"
+      }
     }
   },
   {
@@ -284,6 +292,7 @@
         "minfin": 138
       },
       "link": {
+        "fund": "/not-paying/liquidation/96-imexbank",
         "minfin": "https://minfin.com.ua/ua/company/imexbank"
       }
     }
@@ -345,6 +354,7 @@
         "minfin": 66
       },
       "link": {
+        "fund": "/not-paying/liquidation/186-pat-kb-investbank",
         "minfin": "https://minfin.com.ua/ua/company/investbank"
       }
     }
@@ -492,6 +502,7 @@
         "minfin": 184
       },
       "link": {
+        "fund": "/not-paying/completed/60-inno-prom-bank",
         "minfin": "https://minfin.com.ua/ua/company/inprombank"
       }
     }
@@ -533,6 +544,7 @@
         "minfin": 28
       },
       "link": {
+        "fund": "/not-paying/liquidation/144-pat-intehral-bank",
         "minfin": "https://minfin.com.ua/ua/company/integral"
       }
     }
@@ -574,6 +586,7 @@
         "minfin": 98
       },
       "link": {
+        "fund": "/not-paying/liquidation/51-interbank",
         "minfin": "https://minfin.com.ua/ua/company/interbank"
       }
     }
@@ -655,6 +668,7 @@
         "minfin": 462
       },
       "link": {
+        "fund": "/not-paying/liquidation/32-interkredytbank",
         "minfin": "https://minfin.com.ua/ua/company/inter-credit-bank"
       }
     }
@@ -678,7 +692,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/67-ipobank"
+      }
     }
   },
   {
@@ -798,6 +814,7 @@
         "minfin": 273
       },
       "link": {
+        "fund": "/not-paying/liquidation/157-pat-avant-bank",
         "minfin": "https://minfin.com.ua/ua/company/avantbank"
       }
     }
@@ -899,6 +916,7 @@
         "minfin": 139
       },
       "link": {
+        "fund": "/not-paying/liquidation/47-avtokrazbank",
         "minfin": "https://minfin.com.ua/ua/company/avtokrazbank"
       }
     }
@@ -980,6 +998,7 @@
         "minfin": 102
       },
       "link": {
+        "fund": "/not-paying/liquidation/33-aksioma",
         "minfin": "https://minfin.com.ua/ua/company/axiomabank"
       }
     }
@@ -1021,6 +1040,7 @@
         "minfin": 162
       },
       "link": {
+        "fund": "/not-paying/liquidation/39-aktabank",
         "minfin": "https://minfin.com.ua/ua/company/aktabank"
       }
     }
@@ -1062,6 +1082,7 @@
         "minfin": 76
       },
       "link": {
+        "fund": "/not-paying/liquidation/40-aktyv-bank",
         "minfin": "https://minfin.com.ua/ua/company/active-bank"
       }
     }
@@ -1105,7 +1126,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/85-allonz"
+      }
     }
   },
   {
@@ -1283,6 +1306,7 @@
         "minfin": 32
       },
       "link": {
+        "fund": "/not-paying/banky-prodani-investoram/115-astra",
         "minfin": "https://minfin.com.ua/ua/company/agroprosperis-bank"
       }
     }
@@ -1393,7 +1417,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/71-arma"
+      }
     }
   },
   {
@@ -1453,6 +1479,7 @@
         "minfin": 34
       },
       "link": {
+        "fund": "/not-paying/liquidation/183-at-artem-bank",
         "minfin": "https://minfin.com.ua/ua/company/artem-bank"
       }
     }
@@ -1516,7 +1543,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/69-big-energy"
+      }
     }
   },
   {
@@ -1544,6 +1573,7 @@
         "minfin": 101
       },
       "link": {
+        "fund": "/not-paying/completed/59-bazis",
         "minfin": "https://minfin.com.ua/ua/company/basis"
       }
     }
@@ -1743,6 +1773,7 @@
         "minfin": 100
       },
       "link": {
+        "fund": "/not-paying/liquidation/219-at-bank-bohuslav",
         "minfin": "https://minfin.com.ua/ua/company/bank-boguslav"
       }
     }
@@ -1782,6 +1813,7 @@
         "minfin": 36
       },
       "link": {
+        "fund": "/not-paying/liquidation/152-at-bank-veles",
         "minfin": "https://minfin.com.ua/ua/company/bank-veles"
       }
     }
@@ -1863,6 +1895,7 @@
         "minfin": 134
       },
       "link": {
+        "fund": "/not-paying/liquidation/43-zoloti-vorota",
         "minfin": "https://minfin.com.ua/ua/company/zolotye-vorota"
       }
     }
@@ -1904,6 +1937,7 @@
         "minfin": 115
       },
       "link": {
+        "fund": "/not-paying/liquidation/22-kambio",
         "minfin": "https://minfin.com.ua/ua/company/cambio"
       }
     }
@@ -1985,6 +2019,7 @@
         "minfin": 472
       },
       "link": {
+        "fund": "/not-paying/liquidation/171-pat-bank-mykhaylivskyy",
         "minfin": "https://minfin.com.ua/ua/company/mihailovskiy"
       }
     }
@@ -2026,6 +2061,7 @@
         "minfin": 200
       },
       "link": {
+        "fund": "/not-paying/liquidation/127-national-credit",
         "minfin": "https://minfin.com.ua/ua/company/natsionalniy-kredit"
       }
     }
@@ -2067,6 +2103,7 @@
         "minfin": 90
       },
       "link": {
+        "fund": "/not-paying/liquidation/164-pat-bank-petrokommerts-ukrayina",
         "minfin": "https://minfin.com.ua/ua/company/pku"
       }
     }
@@ -2090,7 +2127,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/75-bank-reg-rozv"
+      }
     }
   },
   {
@@ -2179,7 +2218,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/61-stolytsia"
+      }
     }
   },
   {
@@ -2299,6 +2340,7 @@
         "minfin": 160
       },
       "link": {
+        "fund": "/not-paying/liquidation/52-forum",
         "minfin": "https://minfin.com.ua/ua/company/bank-forum"
       }
     }
@@ -2340,6 +2382,7 @@
         "minfin": 67
       },
       "link": {
+        "fund": "/not-paying/liquidation/27-bg-bank",
         "minfin": "https://minfin.com.ua/ua/company/bg-bank"
       }
     }
@@ -2418,6 +2461,7 @@
         "minfin": 11
       },
       "link": {
+        "fund": "/not-paying/liquidation/54-brokbiznesbank",
         "minfin": "https://minfin.com.ua/ua/company/brokbiznesbank"
       }
     }
@@ -2499,6 +2543,7 @@
         "minfin": 156
       },
       "link": {
+        "fund": "/not-paying/liquidation/29-vab-bank",
         "minfin": "https://minfin.com.ua/ua/company/vab-bank"
       }
     }
@@ -2591,6 +2636,7 @@
         "minfin": 53
       },
       "link": {
+        "fund": "/not-paying/liquidation/26-vseukr-bank-rozv",
         "minfin": "https://minfin.com.ua/ua/company/vbr"
       }
     }
@@ -2632,6 +2678,7 @@
         "minfin": 561
       },
       "link": {
+        "fund": "/not-paying/liquidation/198-pat-vektor-bank",
         "minfin": "https://minfin.com.ua/ua/company/vectorbank"
       }
     }
@@ -2715,7 +2762,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/63-volodymyrskyi"
+      }
     }
   },
   {
@@ -2777,7 +2826,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/83-garant"
+      }
     }
   },
   {
@@ -2836,6 +2887,7 @@
         "minfin": 564
       },
       "link": {
+        "fund": "/not-paying/liquidation/210-pat-komertsiynyy-bank-hefest",
         "minfin": "https://minfin.com.ua/ua/company/bankgefest"
       }
     }
@@ -2917,6 +2969,7 @@
         "minfin": 39
       },
       "link": {
+        "fund": "/not-paying/liquidation/38-grin-bank",
         "minfin": "https://minfin.com.ua/ua/company/olympic-ukraine"
       }
     }
@@ -2980,7 +3033,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/64-dialogbank"
+      }
     }
   },
   {
@@ -3020,6 +3075,7 @@
         "minfin": 62
       },
       "link": {
+        "fund": "/not-paying/liquidation/203-pat-diamantbank",
         "minfin": "https://minfin.com.ua/ua/company/diamantbank"
       }
     }
@@ -3088,6 +3144,7 @@
         "minfin": 93
       },
       "link": {
+        "fund": "/not-paying/liquidation/56-daniel",
         "minfin": "https://minfin.com.ua/ua/company/daniel"
       }
     }
@@ -3129,6 +3186,7 @@
         "minfin": 174
       },
       "link": {
+        "fund": "/not-paying/liquidation/118-delta",
         "minfin": "https://minfin.com.ua/ua/company/delta-bank"
       }
     }
@@ -3170,6 +3228,7 @@
         "minfin": 97
       },
       "link": {
+        "fund": "/not-paying/liquidation/36-demark",
         "minfin": "https://minfin.com.ua/ua/company/demark"
       }
     }
@@ -3222,6 +3281,7 @@
         "minfin": 473
       },
       "link": {
+        "fund": "/not-paying/banky-likvidovani-fondom/179-pat-derzhzembank",
         "minfin": "https://minfin.com.ua/ua/company/dzbank"
       }
     }
@@ -3245,7 +3305,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/68-dnister"
+      }
     }
   },
   {
@@ -3372,6 +3434,7 @@
         "minfin": 137
       },
       "link": {
+        "fund": "/not-paying/liquidation/37-ekspobank",
         "minfin": "https://minfin.com.ua/ua/company/expobank"
       }
     }
@@ -3440,6 +3503,7 @@
         "minfin": 144
       },
       "link": {
+        "fund": "/not-paying/liquidation/111-energobank",
         "minfin": "https://minfin.com.ua/ua/company/energobank"
       }
     }
@@ -3498,6 +3562,7 @@
         "minfin": 211
       },
       "link": {
+        "fund": "/not-paying/liquidation/58-erde-bank",
         "minfin": "https://minfin.com.ua/ua/company/rd-bank"
       }
     }
@@ -3559,6 +3624,7 @@
         "minfin": 33
       },
       "link": {
+        "fund": "/not-paying/liquidation/48-zahidinkombank",
         "minfin": "https://minfin.com.ua/ua/company/zakhidinkombank"
       }
     }
@@ -3608,6 +3674,7 @@
         "minfin": 75
       },
       "link": {
+        "fund": "/not-paying/completed/66-zemel-bank",
         "minfin": "https://minfin.com.ua/ua/company/zembank"
       }
     }
@@ -3689,6 +3756,7 @@
         "minfin": 56
       },
       "link": {
+        "fund": "/not-paying/liquidation/121-zlato",
         "minfin": "https://minfin.com.ua/ua/company/zlatobank"
       }
     }
@@ -3790,6 +3858,7 @@
         "minfin": 468
       },
       "link": {
+        "fund": "/not-paying/liquidation/131-pat-akb-kapital",
         "minfin": "https://minfin.com.ua/ua/company/capital"
       }
     }
@@ -3809,7 +3878,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/79-prychornomor"
+      }
     }
   },
   {
@@ -3869,6 +3940,7 @@
         "minfin": 158
       },
       "link": {
+        "fund": "/not-paying/liquidation/119-kiyv",
         "minfin": "https://minfin.com.ua/ua/company/kiev"
       }
     }
@@ -3910,6 +3982,7 @@
         "minfin": 78
       },
       "link": {
+        "fund": "/not-paying/liquidation/114-kyivska-rus",
         "minfin": "https://minfin.com.ua/ua/company/kievskaya-rus"
       }
     }
@@ -3949,7 +4022,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/81-kyiv-universal"
+      }
     }
   },
   {
@@ -4049,6 +4124,7 @@
         "minfin": 96
       },
       "link": {
+        "fund": "/not-paying/liquidation/174-pat-klasykbank",
         "minfin": "https://minfin.com.ua/ua/company/classic-bank"
       }
     }
@@ -4210,6 +4286,7 @@
         "minfin": 83
       },
       "link": {
+        "fund": "/not-paying/liquidation/148-bank-kontrakt",
         "minfin": "https://minfin.com.ua/ua/company/contract"
       }
     }
@@ -4419,6 +4496,7 @@
         "minfin": 17
       },
       "link": {
+        "fund": "/not-paying/liquidation/116-kreditprombank",
         "minfin": "https://minfin.com.ua/ua/company/creditprombank"
       }
     }
@@ -4600,6 +4678,7 @@
         "minfin": 128
       },
       "link": {
+        "fund": "/not-paying/liquidation/180-pat-ksh-bank",
         "minfin": "https://minfin.com.ua/ua/company/ksgbank"
       }
     }
@@ -4641,6 +4720,7 @@
         "minfin": 72
       },
       "link": {
+        "fund": "/not-paying/liquidation/28-legbank",
         "minfin": "https://minfin.com.ua/ua/company/legbank"
       }
     }
@@ -4802,6 +4882,7 @@
         "minfin": 103
       },
       "link": {
+        "fund": "/not-paying/liquidation/30-mis-kom-bank",
         "minfin": "https://minfin.com.ua/ua/company/citycommercebank"
       }
     }
@@ -4885,6 +4966,7 @@
         "minfin": 463
       },
       "link": {
+        "fund": "/not-paying/liquidation/31-melior-bank",
         "minfin": "https://minfin.com.ua/ua/company/melior"
       }
     }
@@ -4926,6 +5008,7 @@
         "minfin": 118
       },
       "link": {
+        "fund": "/not-paying/liquidation/53-mercury",
         "minfin": "https://minfin.com.ua/ua/company/mercury"
       }
     }
@@ -5017,6 +5100,7 @@
         "minfin": 131
       },
       "link": {
+        "fund": "/not-paying/liquidation/137-bank-morskyi",
         "minfin": "https://minfin.com.ua/ua/company/morskoy"
       }
     }
@@ -5161,6 +5245,7 @@
         "minfin": 19
       },
       "link": {
+        "fund": "/not-paying/liquidation/97-nadra",
         "minfin": "https://minfin.com.ua/ua/company/nadra"
       }
     }
@@ -5222,6 +5307,7 @@
         "minfin": 38
       },
       "link": {
+        "fund": "/not-paying/liquidation/146-at-bank-natsionalni-investytsii",
         "minfin": "https://minfin.com.ua/ua/company/bni"
       }
     }
@@ -5245,7 +5331,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/76-natsional-standart"
+      }
     }
   },
   {
@@ -5267,7 +5355,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/87-nash-bank"
+      }
     }
   },
   {
@@ -5327,6 +5417,7 @@
         "minfin": 199
       },
       "link": {
+        "fund": "/not-paying/liquidation/192-at-nk-bank",
         "minfin": "https://minfin.com.ua/ua/company/narodniy-kapital"
       }
     }
@@ -5368,6 +5459,7 @@
         "minfin": 145
       },
       "link": {
+        "fund": "/not-paying/liquidation/208-akb-novyy",
         "minfin": "https://minfin.com.ua/ua/company/new"
       }
     }
@@ -5391,7 +5483,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/78-odesa-bank"
+      }
     }
   },
   {
@@ -5453,7 +5547,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/88-olbank"
+      }
     }
   },
   {
@@ -5487,7 +5583,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/liquidation/117-omega"
+      }
     }
   },
   {
@@ -5602,6 +5700,7 @@
         "minfin": 68
       },
       "link": {
+        "fund": "/not-paying/liquidation/49-pivdenkombank",
         "minfin": "https://minfin.com.ua/ua/company/pivdencombank"
       }
     }
@@ -5921,6 +6020,7 @@
         "minfin": 113
       },
       "link": {
+        "fund": "/not-paying/liquidation/35-porto-franko",
         "minfin": "https://minfin.com.ua/ua/company/porto-franko"
       }
     }
@@ -6002,6 +6102,7 @@
         "minfin": 69
       },
       "link": {
+        "fund": "/not-paying/liquidation/34-praym-bank",
         "minfin": "https://minfin.com.ua/ua/company/prime-bank"
       }
     }
@@ -6025,7 +6126,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/84-premierbank"
+      }
     }
   },
   {
@@ -6065,6 +6168,7 @@
         "minfin": 7
       },
       "link": {
+        "fund": "/not-paying/liquidation/159-pat-kb-premium",
         "minfin": "https://minfin.com.ua/ua/company/premium"
       }
     }
@@ -6107,6 +6211,7 @@
         "minfin": 1
       },
       "link": {
+        "fund": "/not-paying/banks-sold-to-state/188-pat-kb-pryvatbank",
         "minfin": "https://minfin.com.ua/ua/company/privatbank"
       }
     }
@@ -6248,6 +6353,7 @@
         "minfin": 127
       },
       "link": {
+        "fund": "/not-paying/liquidation/50-promekonombank",
         "minfin": "https://minfin.com.ua/ua/company/promeconombank"
       }
     }
@@ -6316,6 +6422,7 @@
         "minfin": 91
       },
       "link": {
+        "fund": "/not-paying/liquidation/94-profin-bank",
         "minfin": "https://minfin.com.ua/ua/company/profin-bank"
       }
     }
@@ -6357,6 +6464,7 @@
         "minfin": 20
       },
       "link": {
+        "fund": "/not-paying/liquidation/190-pat-platynum-bank",
         "minfin": "https://minfin.com.ua/ua/company/platinumbank"
       }
     }
@@ -6478,6 +6586,7 @@
         "minfin": 272
       },
       "link": {
+        "fund": "/not-paying/liquidation/130-pat-radykal-bank",
         "minfin": "https://minfin.com.ua/ua/company/radical-bank"
       }
     }
@@ -6599,6 +6708,7 @@
         "minfin": 92
       },
       "link": {
+        "fund": "/not-paying/liquidation/55-real-bank",
         "minfin": "https://minfin.com.ua/ua/company/real-bank"
       }
     }
@@ -6640,6 +6750,7 @@
         "minfin": 161
       },
       "link": {
+        "fund": "/not-paying/liquidation/160-at-rodovid-bank",
         "minfin": "https://minfin.com.ua/ua/company/rodovid-bank"
       }
     }
@@ -6701,7 +6812,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/86-rostok-bank"
+      }
     }
   },
   {
@@ -6900,7 +7013,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/65-syntez"
+      }
     }
   },
   {
@@ -6982,7 +7097,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/90-sloviansky"
+      }
     }
   },
   {
@@ -7022,6 +7139,7 @@
         "minfin": 464
       },
       "link": {
+        "fund": "/not-paying/liquidation/173-puat-smartbank",
         "minfin": "https://minfin.com.ua/ua/company/smartbank"
       }
     }
@@ -7063,6 +7181,7 @@
         "minfin": 465
       },
       "link": {
+        "fund": "/not-paying/liquidation/153-pat-bank-sofiyskyy",
         "minfin": "https://minfin.com.ua/ua/company/sf"
       }
     }
@@ -7086,7 +7205,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/62-kb-sotskom-bank"
+      }
     }
   },
   {
@@ -7126,6 +7247,7 @@
         "minfin": 222
       },
       "link": {
+        "fund": "/not-paying/liquidation/163-at-kb-soyuz",
         "minfin": "https://minfin.com.ua/ua/company/soyuz"
       }
     }
@@ -7167,6 +7289,7 @@
         "minfin": 88
       },
       "link": {
+        "fund": "/not-paying/liquidation/138-at-sp-bank",
         "minfin": "https://minfin.com.ua/ua/company/vpbank"
       }
     }
@@ -7208,6 +7331,7 @@
         "minfin": 466
       },
       "link": {
+        "fund": "/not-paying/liquidation/120-standart",
         "minfin": "https://minfin.com.ua/ua/company/standart"
       }
     }
@@ -7249,6 +7373,7 @@
         "minfin": 223
       },
       "link": {
+        "fund": "/not-paying/liquidation/46-starokyiv-bank",
         "minfin": "https://minfin.com.ua/ua/company/starokievskiy-bank"
       }
     }
@@ -7290,6 +7415,7 @@
         "minfin": 22
       },
       "link": {
+        "fund": "/not-paying/liquidation/129-pat-ab-stolychnyy",
         "minfin": "https://minfin.com.ua/ua/company/stolichnyi"
       }
     }
@@ -7313,7 +7439,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/73-shid-evro-bank"
+      }
     }
   },
   {
@@ -7370,6 +7498,7 @@
         "minfin": 60
       },
       "link": {
+        "fund": "/not-paying/liquidation/57-tavryka",
         "minfin": "https://minfin.com.ua/ua/company/tavrika"
       }
     }
@@ -7474,6 +7603,7 @@
         "minfin": 141
       },
       "link": {
+        "fund": "/not-paying/liquidation/41-terra-bank",
         "minfin": "https://minfin.com.ua/ua/company/terra-bank"
       }
     }
@@ -7515,6 +7645,7 @@
         "minfin": 224
       },
       "link": {
+        "fund": "/not-paying/liquidation/158-at-kb-tk-kredyt",
         "minfin": "https://minfin.com.ua/ua/company/tk-credit"
       }
     }
@@ -7558,7 +7689,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/70-transbank"
+      }
     }
   },
   {
@@ -7598,6 +7731,7 @@
         "minfin": 126
       },
       "link": {
+        "fund": "/not-paying/liquidation/185-pat-bank-trast",
         "minfin": "https://minfin.com.ua/ua/company/bank-trust"
       }
     }
@@ -7679,6 +7813,7 @@
         "minfin": 117
       },
       "link": {
+        "fund": "/not-paying/liquidation/95-ukoopspilka",
         "minfin": "https://minfin.com.ua/ua/company/ukoopspilka"
       }
     }
@@ -7720,6 +7855,7 @@
         "minfin": 149
       },
       "link": {
+        "fund": "/not-paying/liquidation/154-pat-ukrinbank",
         "minfin": "https://minfin.com.ua/ua/company/ukrinbank"
       }
     }
@@ -7743,7 +7879,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/89-ukraina"
+      }
     }
   },
   {
@@ -7765,7 +7903,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/74-ukr-fin-group"
+      }
     }
   },
   {
@@ -7887,7 +8027,9 @@
     },
     "internal": {
       "id": {},
-      "link": {}
+      "link": {
+        "fund": "/not-paying/completed/72-ukr-prom-bank"
+      }
     }
   },
   {
@@ -7927,6 +8069,7 @@
         "minfin": 51
       },
       "link": {
+        "fund": "/not-paying/liquidation/93-ukrbiznesbank",
         "minfin": "https://minfin.com.ua/ua/company/ubb"
       }
     }
@@ -8049,6 +8192,7 @@
         "minfin": 64
       },
       "link": {
+        "fund": "/not-paying/liquidation/113-ukrgazprombank",
         "minfin": "https://minfin.com.ua/ua/company/ukrgazprombank"
       }
     }
@@ -8132,6 +8276,7 @@
         "minfin": 124
       },
       "link": {
+        "fund": "/not-paying/liquidation/124-ukr-komun-bank",
         "minfin": "https://minfin.com.ua/ua/company/ukrcommunbank"
       }
     }
@@ -8353,6 +8498,7 @@
         "minfin": 37
       },
       "link": {
+        "fund": "/not-paying/liquidation/149-pat-unikombank",
         "minfin": "https://minfin.com.ua/ua/company/ukrincombank"
       }
     }
@@ -8414,6 +8560,7 @@
         "minfin": 12
       },
       "link": {
+        "fund": "/not-paying/liquidation/126-upb",
         "minfin": "https://minfin.com.ua/ua/company/upb"
       }
     }
@@ -8455,6 +8602,7 @@
         "minfin": 26
       },
       "link": {
+        "fund": "/not-paying/liquidation/42-ukr-fin-svit",
         "minfin": "https://minfin.com.ua/ua/company/ufw-bank"
       }
     }
@@ -8496,6 +8644,7 @@
         "minfin": 154
       },
       "link": {
+        "fund": "/not-paying/liquidation/170-puat-fidobank",
         "minfin": "https://minfin.com.ua/ua/company/fidobank"
       }
     }
@@ -8595,6 +8744,7 @@
         "minfin": 147
       },
       "link": {
+        "fund": "/not-paying/liquidation/145-at-bank-finansy-ta-kredyt",
         "minfin": "https://minfin.com.ua/ua/company/finansy-i-kredit"
       }
     }
@@ -8638,6 +8788,7 @@
         "minfin": 73
       },
       "link": {
+        "fund": "/not-paying/temporary/128-finansovaya-iniciativa",
         "minfin": "https://minfin.com.ua/ua/company/finansovaya-iniciativa"
       }
     }
@@ -8706,6 +8857,7 @@
         "minfin": 106
       },
       "link": {
+        "fund": "/not-paying/liquidation/202-pat-finbank",
         "minfin": "https://minfin.com.ua/ua/company/finbank"
       }
     }
@@ -8777,6 +8929,7 @@
         "minfin": 79
       },
       "link": {
+        "fund": "/not-paying/liquidation/45-finrostbank",
         "minfin": "https://minfin.com.ua/ua/company/finrostbank"
       }
     }
@@ -8838,6 +8991,7 @@
         "minfin": 25
       },
       "link": {
+        "fund": "/not-paying/liquidation/194-at-fortuna-bank",
         "minfin": "https://minfin.com.ua/ua/company/fortuna-bank"
       }
     }
@@ -8879,6 +9033,7 @@
         "minfin": 40
       },
       "link": {
+        "fund": "/not-paying/liquidation/165-pat-kb-khreshchatyk",
         "minfin": "https://minfin.com.ua/ua/company/khreschatyk"
       }
     }
@@ -8961,6 +9116,7 @@
         "minfin": 467
       },
       "link": {
+        "fund": "/not-paying/liquidation/136-pat-chbrr",
         "minfin": "https://minfin.com.ua/ua/company/chbrr"
       }
     }
@@ -9022,6 +9178,7 @@
         "minfin": 470
       },
       "link": {
+        "fund": "/not-paying/liquidation/167-pat-bank-yunison",
         "minfin": "https://minfin.com.ua/ua/company/unisonbank"
       }
     }
@@ -9103,6 +9260,7 @@
         "minfin": 524
       },
       "link": {
+        "fund": "/not-paying/liquidation/147-pat-yusb-bank",
         "minfin": "https://minfin.com.ua/ua/company/unionstandardbank"
       }
     }

@@ -6,15 +6,16 @@
   height: 100px;
 }
 
-/* TODO: rather exclude details class */
-table.ratings > tbody > tr:hover {
+table.ratings > tbody > tr:not(.details):hover {
   cursor: pointer;
 }
 
-table.ratings > tbody > tr:hover > td:first-child {
+table.ratings > tbody > tr:not(.details):hover td:first-child {
   background-color: #ddd;
-  /*font-size: 120%;*/
-  /*font-weight: bold;*/
+}
+
+table.ratings tr.details > td {
+  padding: 20px;
 }
 
 td.rating div {

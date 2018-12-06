@@ -157,7 +157,7 @@ module.exports = {
             });
         }));
 
-        const htmlInactive = ext.read('nbu/banks-inactive', 'https://bank.gov.ua/control/uk/publish/article?art_id=75535&cat_id=17823466');
+        const htmlInactive = ext.read('nbu/banks-inactive', 'https://bank.gov.ua/control/uk/publish/article?art_id=75535&cat_id=17823466'); //TODO: is id the same? consider fetching the link from UI page
         const banksInactive = regex.findManyObjects(htmlInactive, new RegExp('<tr[^>]*>\\s*?' + '(<td[^>]*>\\s*?(<p[^>]*>\\s*?<span[^>]*>([\\S\\s]*?)<o:p>.*?<\\/o:p><\\/span><\\/p>)?\\s*?<\\/td>\\s*?)'.repeat(4) + '[\\S\\s]*?<\\/tr>', 'g'), {
             name: 3, date1: 6, date2: 9, date3: 12
         }).map(bank => {
@@ -184,7 +184,7 @@ module.exports = {
 
     saveBanksPDF() {
         // TODO: why does "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК" fall into different buckets?
-        const html = ext.read('nbu/not-banks', 'https://bank.gov.ua/control/uk/publish/article?art_id=52047');
+        const html = ext.read('nbu/not-banks', 'https://bank.gov.ua/control/uk/publish/article?art_id=52047'); //TODO: is id the same? consider fetching the link from UI page
         const bankFiles = {};
         regex.findManyObjects(html, /<a\s+href="files\/Licences_bank\/(.+?)".*?>([\s\S]+?)<\/a>/g, {
             file: 1, name: 2

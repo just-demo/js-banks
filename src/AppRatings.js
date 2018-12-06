@@ -94,9 +94,9 @@ class AppRatings extends Component {
                                 ))}
                             </tr>
                             {bankId === this.state.bankSelected && (
-                                <tr>
-                                    <td>&nbsp;</td>
-                                    <td colSpan={this.dates.length}><Bank data={this.state.banks[this.banks[bankId].index]}/></td>
+                                <tr className="details">
+                                    {/*<td>&nbsp;</td>*/}
+                                    <td colSpan={this.dates.length + 1}><Bank data={this.state.banks[this.banks[bankId].index]}/></td>
                                 </tr>
                             )}
                         </React.Fragment>

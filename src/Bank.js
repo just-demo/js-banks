@@ -1,49 +1,79 @@
-import React from 'react';
+import React, {Component} from 'react';
+import './Bank.css';
+import _ from 'lodash';
+import classNames from 'classnames';
 
-const Bank = (props) => {
-    const bank = props.data;
-    const source = {
-        nbu: 'НБУ',
-        api: 'НБУ API',
-        pdf: 'НБУ PDF',
-        dbf: 'НБУ DBF',
-        // Deposit Guarantee Fund
-        fund: 'ФГВФО',
-        minfin: 'Міфін'
+class Bank extends Component {
+    // TODO: share link with code that fetches data
+    source = {
+        nbu: {
+            name: 'НБУ',
+            link: () => 'https://bank.gov.ua/control/bankdict/banks' //TODO: paying vs not paying
+        },
+        api: {
+            name: 'НБУ API',
+            link: () => 'https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0'
+        },
+        pdf: {
+            name: 'НБУ PDF',
+            link: () => 'https://bank.gov.ua/control/uk/publish/article?art_id=52047' //TODO: link to each PDF file
+        },
+        dbf: {
+            name: 'НБУ DBF',
+            link: () => 'https://bank.gov.ua/control/uk/bankdict/search'
+        },
+        fund: {
+            name: 'ФГВФО',
+            link: (link) => 'http://www.fg.gov.ua' + (link || '') //TODO: paying vs not paying
+        },
+        minfin: {
+            name: 'Міфін',
+            link: (link) => link || 'https://minfin.com.ua/' //TODO: cut site name from minfin link in banks.json file
+        }
     };
 
-    const emptyLine = <tr><td colSpan={2}>-</td></tr>;
-    // TODO:
-    // 1) show sites and link to problems
-    // 2) show only one start date without source since the date is always the same, or show list only if there is difference
-    // 3) write better CSS
-    return (
-        <table>
-            <tbody>
-                <tr>
-                    <td colSpan={2}>Start dates</td>
-                </tr>
-                {!Object.keys(bank.dateOpen).length && emptyLine}
-                {Object.keys(bank.dateOpen).map(type => (
-                    <tr key={type}>
-                        <td>{source[type]}</td>
-                        <td>{bank.dateOpen[type] || '-'}</td>
-                    </tr>
-                ))}
+    render() {
+        const bank = this.props.data;
 
+        // TODO: show links to problems and start dates
+        return (
+            <table className="bank">
+                <tbody>
                 <tr>
-                    <td colSpan={2}>Problems</td>
+                    <td>Source</td>
+                    <td>Start</td>
+                    <td>Problem</td>
+                    <td>Site</td>
                 </tr>
-                {!Object.keys(bank.dateIssue).length && emptyLine}
-                {Object.keys(bank.dateIssue).map(type => (
+                {Object.keys(this.source).map(type => (
                     <tr key={type}>
-                        <td>{source[type]}</td>
+                        <td>{this.buildLink(this.source[type].link(bank.internal.link[type]), this.source[type].name)}</td>
+                        <td>{bank.dateOpen[type] || '-'}</td>
                         <td>{bank.dateIssue[type] || '-'}</td>
+                        <td className={classNames({site: !_.isEmpty(bank.site[type])})}>{this.buildLinks(bank.site[type]) || '-'}</td>
                     </tr>
                 ))}
-            </tbody>
-        </table>
-    )
-};
+                </tbody>
+            </table>
+        );
+    }
+
+    buildLinks(urls) {
+        let links = urls && urls
+            .filter(url => url)
+            .map(url => this.buildLink(url))
+            .map((link, index) => index > 0 ? [<br key={index}/>, link] : link);
+        return _.isEmpty(links) ? null : links;
+    }
+
+    buildLink(url, title) {
+        title = title || this.truncateUrl(url);
+        return <a key={url} href={url} target="_blank" rel="noopener noreferrer">{title}</a> ;
+    }
+
+    truncateUrl(url) {
+        return (url.match(/\/\/([^/]+)/) || [])[1] || url;
+    }
+}
 
 export default Bank;
