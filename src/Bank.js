@@ -5,6 +5,7 @@ import classNames from 'classnames';
 
 class Bank extends Component {
     // TODO: share link with code that fetches data
+    // TODO: show status like Реорганізація and so on
     source = {
         nbu: {
             name: 'НБУ',

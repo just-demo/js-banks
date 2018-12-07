@@ -68,6 +68,8 @@ class AppRatings extends Component {
             });
         }).reverse();
 
+        const datesByYear = _.groupBy(this.dates, date => date.split('-')[0]);
+        console.log(datesByYear);
         const r = (
             <div>
                 <Scale value={this.state.scale} min={1} max={100} onChange={(scale) => this.setState({scale: scale})}/>
@@ -75,9 +77,14 @@ class AppRatings extends Component {
                     <tbody>
                     <tr>
                         <th>&nbsp;</th>
-                        {/*<th>&nbsp;</th>*/}
+                        {Object.keys(datesByYear).sort().reverse().map(year => (
+                            <th key={year} colSpan={datesByYear[year].length}>{year}</th>
+                        ))}
+                    </tr>
+                    <tr>
+                        <th>&nbsp;</th>
                         {this.dates.map(date => (
-                            <th key={date} className="vertical-bottom-to-top">{date}</th>
+                            <th key={date}>{this.formatDayMonth(date)}</th>
                         ))}
                     </tr>
                     {bankIds.map(bankId => (
@@ -109,6 +116,13 @@ class AppRatings extends Component {
         console.log('Rendering time:', new Date() - start);
 
         return r;
+    }
+
+    // TODO: move to dates util?
+    formatDayMonth(date) {
+        const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        date = new Date(date);
+        return _.padStart('' + date.getDate(), 2, '0') + ' ' + months[date.getMonth()]
     }
 
     handleBankSelected(bankId) {

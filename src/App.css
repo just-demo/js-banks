@@ -1,7 +1,4 @@
 th, td {
   border: 1px solid #aaa;
-}
-
-td {
   white-space: nowrap;
 }
