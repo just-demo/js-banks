@@ -8,7 +8,7 @@ class Bank extends Component {
     source = {
         nbu: {
             name: 'НБУ',
-            link: () => 'https://bank.gov.ua/control/bankdict/banks' //TODO: paying vs not paying
+            link: (link) => 'https://bank.gov.ua' + (link || '')
         },
         api: {
             name: 'НБУ API',
@@ -16,15 +16,15 @@ class Bank extends Component {
         },
         pdf: {
             name: 'НБУ PDF',
-            link: () => 'https://bank.gov.ua/control/uk/publish/article?art_id=52047' //TODO: link to each PDF file
+            link: (link) => link || 'https://bank.gov.ua/control/uk/publish/article?art_id=52047'
         },
         dbf: {
             name: 'НБУ DBF',
-            link: () => 'https://bank.gov.ua/control/uk/bankdict/search'
+            link: () => 'https://bank.gov.ua/control/uk/bankdict/search' //TODO: link to download?
         },
         fund: {
             name: 'ФГВФО',
-            link: (link) => 'http://www.fg.gov.ua' + (link || '') //TODO: paying vs not paying
+            link: (link) => 'http://www.fg.gov.ua' + (link || '/uchasnyky-fondu')
         },
         minfin: {
             name: 'Міфін',

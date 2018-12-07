@@ -3775,28 +3775,6 @@
     "NSTAN_GOL": "Режим ліквідації"
   },
   {
-    "GLMFO": "380913",
-    "N_GOL": "АТ \"БМ БАНК\"",
-    "NAME_E": "JOINT STOCK COMPANY \"BM BANK\" (скорочена назва - \"BM BANK\", JSC)",
-    "KOD_EDRPOU": "33881201",
-    "SHORTNAME": "АТ \"БМ БАНК\"",
-    "NKB": "321",
-    "TYP": "0",
-    "KU": "26",
-    "N_OBL": "м.Київ",
-    "DEPCODE": "32126804026999000000",
-    "P_IND": "01032",
-    "TNP": "м.",
-    "NP": "Київ",
-    "ADRESS": "бульвар Тараса Шевченка, буд. 37/122",
-    "KODT": "044",
-    "KSTAN": "1",
-    "N_STAN": "Нормальний",
-    "D_OPEN": "08.12.2005",
-    "STAN_GOL": "1",
-    "NSTAN_GOL": "Нормальний"
-  },
-  {
     "GLMFO": "380935",
     "N_GOL": "ПАТ \"БАНК МИХАЙЛІВСЬКИЙ\"",
     "NAME_E": "PUBLIC JOINT-STOCK COMPANY \"BANK MYKHAILIVSKYI\" (скорочена назва - PJSC \"BANK MYKHAILIVSKYI\")",

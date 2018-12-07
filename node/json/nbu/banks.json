@@ -4,6 +4,7 @@
     "name": "КЛІРИНГОВИЙ ДІМ",
     "fullName": "КЛІРИНГОВИЙ ДІМ",
     "dateOpen": "1996-12-30",
+    "link": "/control/uk/bankdict/bank?id=185",
     "active": true
   },
   {
@@ -11,6 +12,7 @@
     "name": "УКРГАЗБАНК",
     "fullName": "УКРГАЗБАНК",
     "dateOpen": "1993-07-21",
+    "link": "/control/uk/bankdict/bank?id=281",
     "active": true
   },
   {
@@ -18,20 +20,23 @@
     "name": "ІНДУСТРІАЛБАНК",
     "fullName": "ІНДУСТРІАЛБАНК",
     "dateOpen": "1991-10-16",
+    "link": "/control/uk/bankdict/bank?id=230",
     "active": true
   },
   {
     "id": "72",
-    "name": "Південний",
+    "name": "ПІВДЕННИЙ",
     "fullName": "ПІВДЕННИЙ",
     "dateOpen": "1993-12-03",
+    "link": "/control/uk/bankdict/bank?id=72",
     "active": true
   },
   {
     "id": "65",
-    "name": "А - БАНК",
-    "fullName": "АКЦЕНТ - БАНК",
+    "name": "А-БАНК",
+    "fullName": "АКЦЕНТ-БАНК",
     "dateOpen": "1992-10-30",
+    "link": "/control/uk/bankdict/bank?id=65",
     "active": true
   },
   {
@@ -39,6 +44,7 @@
     "name": "АЙБОКС БАНК",
     "fullName": "АЙБОКС БАНК",
     "dateOpen": "1993-12-24",
+    "link": "/control/uk/bankdict/bank?id=269",
     "active": true
   },
   {
@@ -46,6 +52,7 @@
     "name": "АРКАДА",
     "fullName": "АРКАДА",
     "dateOpen": "1993-06-23",
+    "link": "/control/uk/bankdict/bank?id=127",
     "active": true
   },
   {
@@ -53,6 +60,7 @@
     "name": "КОНКОРД",
     "fullName": "КОНКОРД",
     "dateOpen": "2006-08-07",
+    "link": "/control/uk/bankdict/bank?id=25482",
     "active": true
   },
   {
@@ -60,6 +68,7 @@
     "name": "АЛЬПАРІ БАНК",
     "fullName": "АЛЬПАРІ БАНК",
     "dateOpen": "2012-10-26",
+    "link": "/control/uk/bankdict/bank?id=44804",
     "active": true
   },
   {
@@ -67,6 +76,7 @@
     "name": "АЛЬТБАНК",
     "fullName": "АЛЬТБАНК",
     "dateOpen": "1991-10-21",
+    "link": "/control/uk/bankdict/bank?id=29",
     "active": true
   },
   {
@@ -74,6 +84,7 @@
     "name": "АЛЬФА-БАНК",
     "fullName": "АЛЬФА-БАНК",
     "dateOpen": "1993-03-24",
+    "link": "/control/uk/bankdict/bank?id=279",
     "active": true
   },
   {
@@ -81,6 +92,7 @@
     "name": "АСВІО БАНК",
     "fullName": "АСВІО БАНК",
     "dateOpen": "1991-10-30",
+    "link": "/control/uk/bankdict/bank?id=240",
     "active": true
   },
   {
@@ -88,6 +100,7 @@
     "name": "БАНК АВАНГАРД",
     "fullName": "БАНК АВАНГАРД",
     "dateOpen": "2013-07-05",
+    "link": "/control/uk/bankdict/bank?id=46526",
     "active": true
   },
   {
@@ -95,6 +108,7 @@
     "name": "БАНК АЛЬЯНС",
     "fullName": "БАНК АЛЬЯНС",
     "dateOpen": "1992-03-10",
+    "link": "/control/uk/bankdict/bank?id=214",
     "active": true
   },
   {
@@ -102,6 +116,7 @@
     "name": "ГРАНТ",
     "fullName": "ГРАНТ",
     "dateOpen": "1991-10-29",
+    "link": "/control/uk/bankdict/bank?id=85",
     "active": true
   },
   {
@@ -109,6 +124,7 @@
     "name": "БАНК КРЕДИТ ДНІПРО",
     "fullName": "БАНК КРЕДИТ ДНІПРО",
     "dateOpen": "1993-07-07",
+    "link": "/control/uk/bankdict/bank?id=278",
     "active": true
   },
   {
@@ -116,6 +132,7 @@
     "name": "БАНК СІЧ",
     "fullName": "БАНК СІЧ",
     "dateOpen": "2011-05-24",
+    "link": "/control/uk/bankdict/bank?id=41118",
     "active": true
   },
   {
@@ -123,13 +140,7 @@
     "name": "БАНК ФОРВАРД",
     "fullName": "БАНК ФОРВАРД",
     "dateOpen": "2006-02-28",
-    "active": true
-  },
-  {
-    "id": "23681",
-    "name": "БМ БАНК",
-    "fullName": "БМ БАНК",
-    "dateOpen": "2005-12-08",
+    "link": "/control/uk/bankdict/bank?id=24345",
     "active": true
   },
   {
@@ -137,6 +148,7 @@
     "name": "БТА БАНК",
     "fullName": "БТА БАНК",
     "dateOpen": "1992-12-10",
+    "link": "/control/uk/bankdict/bank?id=239",
     "active": true
   },
   {
@@ -144,6 +156,7 @@
     "name": "ВТБ БАНК",
     "fullName": "ВТБ БАНК",
     "dateOpen": "1992-11-11",
+    "link": "/control/uk/bankdict/bank?id=28",
     "active": true
   },
   {
@@ -151,13 +164,15 @@
     "name": "ЄПБ",
     "fullName": "ЄВРОПЕЙСЬКИЙ ПРОМИСЛОВИЙ БАНК",
     "dateOpen": "2008-08-13",
+    "link": "/control/uk/bankdict/bank?id=35386",
     "active": true
   },
   {
     "id": "243",
-    "name": "Ідея Банк",
-    "fullName": "Ідея Банк",
+    "name": "ІДЕЯ БАНК",
+    "fullName": "ІДЕЯ БАНК",
     "dateOpen": "1991-10-22",
+    "link": "/control/uk/bankdict/bank?id=243",
     "active": true
   },
   {
@@ -165,13 +180,15 @@
     "name": "ПРИВАТБАНК",
     "fullName": "ПРИВАТБАНК",
     "dateOpen": "1992-03-19",
+    "link": "/control/uk/bankdict/bank?id=31",
     "active": true
   },
   {
     "id": "268",
     "name": "КІБ",
-    "fullName": "Комерційний Індустріальний Банк",
+    "fullName": "КОМЕРЦІЙНИЙ ІНДУСТРІАЛЬНИЙ БАНК",
     "dateOpen": "1993-12-03",
+    "link": "/control/uk/bankdict/bank?id=268",
     "active": true
   },
   {
@@ -179,6 +196,7 @@
     "name": "КОМІНВЕСТБАНК",
     "fullName": "КОМЕРЦІЙНИЙ ІНВЕСТИЦІЙНИЙ БАНК",
     "dateOpen": "1992-12-16",
+    "link": "/control/uk/bankdict/bank?id=95",
     "active": true
   },
   {
@@ -186,6 +204,7 @@
     "name": "КРИСТАЛБАНК",
     "fullName": "КРИСТАЛБАНК",
     "dateOpen": "2014-12-16",
+    "link": "/control/uk/bankdict/bank?id=51316",
     "active": true
   },
   {
@@ -193,13 +212,15 @@
     "name": "МЕГАБАНК",
     "fullName": "МЕГАБАНК",
     "dateOpen": "1991-10-28",
+    "link": "/control/uk/bankdict/bank?id=237",
     "active": true
   },
   {
     "id": "134",
-    "name": "МетаБанк",
-    "fullName": "МетаБанк",
+    "name": "МЕТАБАНК",
+    "fullName": "МЕТАБАНК",
     "dateOpen": "1993-07-12",
+    "link": "/control/uk/bankdict/bank?id=134",
     "active": true
   },
   {
@@ -207,13 +228,15 @@
     "name": "МІБ",
     "fullName": "МІЖНАРОДНИЙ ІНВЕСТИЦІЙНИЙ БАНК",
     "dateOpen": "2008-03-11",
+    "link": "/control/uk/bankdict/bank?id=33468",
     "active": true
   },
   {
     "id": "258",
-    "name": "Місто Банк",
-    "fullName": "Місто Банк",
+    "name": "МІСТО БАНК",
+    "fullName": "МІСТО БАНК",
     "dateOpen": "1993-07-23",
+    "link": "/control/uk/bankdict/bank?id=258",
     "active": true
   },
   {
@@ -221,6 +244,7 @@
     "name": "МОТОР-БАНК",
     "fullName": "МОТОР-БАНК",
     "dateOpen": "2007-08-10",
+    "link": "/control/uk/bankdict/bank?id=30620",
     "active": true
   },
   {
@@ -228,13 +252,15 @@
     "name": "ОТП БАНК",
     "fullName": "ОТП БАНК",
     "dateOpen": "1998-03-02",
+    "link": "/control/uk/bankdict/bank?id=190",
     "active": true
   },
   {
     "id": "6",
-    "name": "Ощадбанк",
-    "fullName": "Державний ощадний банк України",
+    "name": "ОЩАДБАНК",
+    "fullName": "ДЕРЖАВНИЙ ОЩАДНИЙ БАНК УКРАЇНИ",
     "dateOpen": "1991-12-31",
+    "link": "/control/uk/bankdict/bank?id=6",
     "active": true
   },
   {
@@ -242,6 +268,7 @@
     "name": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
     "fullName": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
     "dateOpen": "1997-06-20",
+    "link": "/control/uk/bankdict/bank?id=186",
     "active": true
   },
   {
@@ -249,13 +276,15 @@
     "name": "ПІРЕУС БАНК МКБ",
     "fullName": "ПІРЕУС БАНК МКБ",
     "dateOpen": "1994-01-31",
+    "link": "/control/uk/bankdict/bank?id=272",
     "active": true
   },
   {
     "id": "78",
-    "name": "Полтава-банк",
-    "fullName": "Полтава-банк",
+    "name": "ПОЛТАВА-БАНК",
+    "fullName": "ПОЛТАВА-БАНК",
     "dateOpen": "1991-10-16",
+    "link": "/control/uk/bankdict/bank?id=78",
     "active": true
   },
   {
@@ -263,6 +292,7 @@
     "name": "ПРАВЕКС БАНК",
     "fullName": "ПРАВЕКС БАНК",
     "dateOpen": "1992-12-29",
+    "link": "/control/uk/bankdict/bank?id=100",
     "active": true
   },
   {
@@ -270,20 +300,23 @@
     "name": "ПРОКРЕДИТ БАНК",
     "fullName": "ПРОКРЕДИТ БАНК",
     "dateOpen": "2000-12-28",
+    "link": "/control/uk/bankdict/bank?id=192",
     "active": true
   },
   {
     "id": "17985",
-    "name": "Український банк реконструкції та розвитку",
-    "fullName": "Український банк реконструкції та розвитку",
+    "name": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
+    "fullName": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
     "dateOpen": "2004-03-19",
+    "link": "/control/uk/bankdict/bank?id=17985",
     "active": true
   },
   {
     "id": "24",
-    "name": "Райффайзен Банк Аваль",
-    "fullName": "Райффайзен Банк Аваль",
+    "name": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
+    "fullName": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
     "dateOpen": "1992-03-27",
+    "link": "/control/uk/bankdict/bank?id=24",
     "active": true
   },
   {
@@ -291,6 +324,7 @@
     "name": "СБЕРБАНК",
     "fullName": "СБЕРБАНК",
     "dateOpen": "2001-06-15",
+    "link": "/control/uk/bankdict/bank?id=193",
     "active": true
   },
   {
@@ -298,6 +332,7 @@
     "name": "СІТІБАНК",
     "fullName": "СІТІБАНК",
     "dateOpen": "1998-05-11",
+    "link": "/control/uk/bankdict/bank?id=191",
     "active": true
   },
   {
@@ -305,6 +340,7 @@
     "name": "СКАЙ БАНК",
     "fullName": "СКАЙ БАНК",
     "dateOpen": "1991-10-28",
+    "link": "/control/uk/bankdict/bank?id=87",
     "active": true
   },
   {
@@ -312,27 +348,31 @@
     "name": "ТАСКОМБАНК",
     "fullName": "ТАСКОМБАНК",
     "dateOpen": "1991-10-21",
+    "link": "/control/uk/bankdict/bank?id=221",
     "active": true
   },
   {
     "id": "18334",
     "name": "УКРБУДІНВЕСТБАНК",
-    "fullName": "УКРАЇНСЬКИЙ БУДІВЕЛЬНО - ІНВЕСТИЦІЙНИЙ БАНК",
+    "fullName": "УКРАЇНСЬКИЙ БУДІВЕЛЬНО-ІНВЕСТИЦІЙНИЙ БАНК",
     "dateOpen": "2004-04-20",
+    "link": "/control/uk/bankdict/bank?id=18334",
     "active": true
   },
   {
     "id": "2",
-    "name": "Укрексімбанк",
-    "fullName": "Державний експортно-імпортний банк України",
+    "name": "УКРЕКСІМБАНК",
+    "fullName": "ДЕРЖАВНИЙ ЕКСПОРТНО-ІМПОРТНИЙ БАНК УКРАЇНИ",
     "dateOpen": "1992-01-23",
+    "link": "/control/uk/bankdict/bank?id=2",
     "active": true
   },
   {
     "id": "91",
-    "name": "УкрСиббанк",
+    "name": "УКРСИББАНК",
     "fullName": "УКРСИББАНК",
     "dateOpen": "1991-10-28",
+    "link": "/control/uk/bankdict/bank?id=91",
     "active": true
   },
   {
@@ -340,6 +380,7 @@
     "name": "УКРСОЦБАНК",
     "fullName": "УКРСОЦБАНК",
     "dateOpen": "1991-09-27",
+    "link": "/control/uk/bankdict/bank?id=5",
     "active": true
   },
   {
@@ -347,6 +388,7 @@
     "name": "ЮНЕКС БАНК",
     "fullName": "ЮНЕКС БАНК",
     "dateOpen": "1993-12-03",
+    "link": "/control/uk/bankdict/bank?id=265",
     "active": true
   },
   {
@@ -354,20 +396,23 @@
     "name": "РАДАБАНК",
     "fullName": "РАДАБАНК",
     "dateOpen": "1993-12-03",
+    "link": "/control/uk/bankdict/bank?id=286",
     "active": true
   },
   {
     "id": "62",
-    "name": "Львів",
-    "fullName": "Львів",
+    "name": "ЛЬВІВ",
+    "fullName": "ЛЬВІВ",
     "dateOpen": "1991-10-14",
+    "link": "/control/uk/bankdict/bank?id=62",
     "active": true
   },
   {
     "id": "17923",
-    "name": "Траст-капітал",
-    "fullName": "Траст-капітал",
+    "name": "ТРАСТ-КАПІТАЛ",
+    "fullName": "ТРАСТ-КАПІТАЛ",
     "dateOpen": "2004-03-10",
+    "link": "/control/uk/bankdict/bank?id=17923",
     "active": true
   },
   {
@@ -375,6 +420,7 @@
     "name": "АП БАНК",
     "fullName": "АГРОПРОСПЕРІС БАНК",
     "dateOpen": "2007-11-28",
+    "link": "/control/uk/bankdict/bank?id=32183",
     "active": true
   },
   {
@@ -382,6 +428,7 @@
     "name": "БАНК ВОСТОК",
     "fullName": "БАНК ВОСТОК",
     "dateOpen": "2002-10-17",
+    "link": "/control/uk/bankdict/bank?id=198",
     "active": true
   },
   {
@@ -389,6 +436,7 @@
     "name": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
     "fullName": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
     "dateOpen": "2005-08-09",
+    "link": "/control/uk/bankdict/bank?id=22799",
     "active": true
   },
   {
@@ -396,6 +444,7 @@
     "name": "ПОРТАЛ",
     "fullName": "ПОРТАЛ",
     "dateOpen": "2013-09-20",
+    "link": "/control/uk/bankdict/bank?id=47216",
     "active": true
   },
   {
@@ -403,6 +452,7 @@
     "name": "УКРАЇНСЬКИЙ КАПІТАЛ",
     "fullName": "УКРАЇНСЬКИЙ КАПІТАЛ",
     "dateOpen": "1992-12-25",
+    "link": "/control/uk/bankdict/bank?id=244",
     "active": true
   },
   {
@@ -410,6 +460,7 @@
     "name": "БАНК 3/4",
     "fullName": "БАНК 3/4",
     "dateOpen": "2008-07-25",
+    "link": "/control/uk/bankdict/bank?id=35128",
     "active": true
   },
   {
@@ -417,20 +468,23 @@
     "name": "ВЕРНУМ БАНК",
     "fullName": "ВЕРНУМ БАНК",
     "dateOpen": "2009-02-17",
+    "link": "/control/uk/bankdict/bank?id=37186",
     "active": true
   },
   {
     "id": "37648",
-    "name": "Дойче Банк ДБУ",
-    "fullName": "Дойче Банк ДБУ",
+    "name": "ДОЙЧЕ БАНК ДБУ",
+    "fullName": "ДОЙЧЕ БАНК ДБУ",
     "dateOpen": "2009-06-19",
+    "link": "/control/uk/bankdict/bank?id=37648",
     "active": true
   },
   {
     "id": "189",
-    "name": "ІНГ Банк Україна",
-    "fullName": "ІНГ Банк Україна",
+    "name": "ІНГ БАНК УКРАЇНА",
+    "fullName": "ІНГ БАНК УКРАЇНА",
     "dateOpen": "1997-12-15",
+    "link": "/control/uk/bankdict/bank?id=189",
     "active": true
   },
   {
@@ -438,6 +492,7 @@
     "name": "ГЛОБУС",
     "fullName": "ГЛОБУС",
     "dateOpen": "2007-11-29",
+    "link": "/control/uk/bankdict/bank?id=32050",
     "active": true
   },
   {
@@ -445,6 +500,7 @@
     "name": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
     "fullName": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
     "dateOpen": "1994-01-31",
+    "link": "/control/uk/bankdict/bank?id=157",
     "active": true
   },
   {
@@ -452,6 +508,7 @@
     "name": "ФІНАНСОВА ІНІЦІАТИВА",
     "fullName": "ФІНАНСОВА ІНІЦІАТИВА",
     "dateOpen": "2005-01-19",
+    "link": "/control/uk/bankdict/bank?id=21393",
     "active": true
   },
   {
@@ -459,6 +516,7 @@
     "name": "КРЕДИТ ЄВРОПА БАНК",
     "fullName": "КРЕДИТ ЄВРОПА БАНК",
     "dateOpen": "2006-08-28",
+    "link": "/control/uk/bankdict/bank?id=25655",
     "active": true
   },
   {
@@ -466,6 +524,7 @@
     "name": "КРЕДИТВЕСТ БАНК",
     "fullName": "ВЕСТ ФАЙНЕНС ЕНД КРЕДИТ БАНК",
     "dateOpen": "2006-10-04",
+    "link": "/control/uk/bankdict/bank?id=26321",
     "active": true
   },
   {
@@ -473,6 +532,7 @@
     "name": "КРЕДІ АГРІКОЛЬ БАНК",
     "fullName": "КРЕДІ АГРІКОЛЬ БАНК",
     "dateOpen": "1993-02-10",
+    "link": "/control/uk/bankdict/bank?id=249",
     "active": true
   },
   {
@@ -480,6 +540,7 @@
     "name": "КРЕДОБАНК",
     "fullName": "КРЕДОБАНК",
     "dateOpen": "1992-03-31",
+    "link": "/control/uk/bankdict/bank?id=227",
     "active": true
   },
   {
@@ -487,6 +548,7 @@
     "name": "МТБ БАНК",
     "fullName": "МТБ БАНК",
     "dateOpen": "1993-11-05",
+    "link": "/control/uk/bankdict/bank?id=231",
     "active": true
   },
   {
@@ -494,13 +556,15 @@
     "name": "ОКСІ БАНК",
     "fullName": "ОКСІ БАНК",
     "dateOpen": "1991-10-14",
+    "link": "/control/uk/bankdict/bank?id=64",
     "active": true
   },
   {
     "id": "3",
-    "name": "Промінвестбанк",
-    "fullName": "Акціонерний комерційний промислово-інвестиційний банк",
+    "name": "ПРОМІНВЕСТБАНК",
+    "fullName": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ ПРОМИСЛОВО-ІНВЕСТИЦІЙНИЙ БАНК",
     "dateOpen": "1992-08-26",
+    "link": "/control/uk/bankdict/bank?id=3",
     "active": true
   },
   {
@@ -508,6 +572,7 @@
     "name": "ПУМБ",
     "fullName": "ПЕРШИЙ УКРАЇНСЬКИЙ МІЖНАРОДНИЙ БАНК",
     "dateOpen": "1991-12-23",
+    "link": "/control/uk/bankdict/bank?id=80",
     "active": true
   },
   {
@@ -515,6 +580,7 @@
     "name": "РВС БАНК",
     "fullName": "РВС БАНК",
     "dateOpen": "2015-06-25",
+    "link": "/control/uk/bankdict/bank?id=52883",
     "active": true
   },
   {
@@ -522,6 +588,7 @@
     "name": "РОЗРАХУНКОВИЙ ЦЕНТР",
     "fullName": "РОЗРАХУНКОВИЙ ЦЕНТР З ОБСЛУГОВУВАННЯ ДОГОВОРІВ НА ФІНАНСОВИХ РИНКАХ",
     "dateOpen": "2013-09-06",
+    "link": "/control/uk/bankdict/bank?id=38874",
     "active": true
   },
   {
@@ -529,6 +596,7 @@
     "name": "СЕБ КОРПОРАТИВНИЙ БАНК",
     "fullName": "СЕБ КОРПОРАТИВНИЙ БАНК",
     "dateOpen": "2011-01-19",
+    "link": "/control/uk/bankdict/bank?id=40403",
     "active": true
   },
   {
@@ -536,13 +604,15 @@
     "name": "УНІВЕРСАЛ БАНК",
     "fullName": "УНІВЕРСАЛ БАНК",
     "dateOpen": "1994-01-20",
+    "link": "/control/uk/bankdict/bank?id=270",
     "active": true
   },
   {
     "id": "33",
-    "name": "Полікомбанк",
-    "fullName": "Полікомбанк",
+    "name": "ПОЛІКОМБАНК",
+    "fullName": "ПОЛІКОМБАНК",
     "dateOpen": "1994-08-18",
+    "link": "/control/uk/bankdict/bank?id=33",
     "active": true
   },
   {
@@ -550,6 +620,7 @@
     "name": "БАНК ФАМІЛЬНИЙ",
     "fullName": "БАНК ФАМІЛЬНИЙ",
     "dateOpen": "1991-12-27",
+    "link": "/control/uk/bankdict/bank?id=49",
     "active": true
   },
   {
@@ -557,486 +628,583 @@
     "name": "АКОРДБАНК",
     "fullName": "АКОРДБАНК",
     "dateOpen": "2008-06-04",
+    "link": "/control/uk/bankdict/bank?id=34501",
     "active": true
   },
   {
-    "name": "Даніель",
+    "name": "ДАНІЕЛЬ",
     "dateIssue": "2014-01-16",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Реал Банк",
+    "name": "РЕАЛ БАНК",
     "dateIssue": "2014-02-28",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Брокбізнесбанк",
+    "name": "БРОКБІЗНЕСБАНК",
     "dateIssue": "2014-02-28",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Банк Форум",
+    "name": "БАНК ФОРУМ",
     "dateIssue": "2014-03-13",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Меркурій",
+    "name": "МЕРКУРІЙ",
     "dateIssue": "2014-03-13",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Інтербанк",
+    "name": "ІНТЕРБАНК",
     "dateIssue": "2014-04-23",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Промекономбанк",
+    "name": "ПРОМЕКОНОМБАНК",
     "dateIssue": "2014-05-21",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Південкомбанк",
+    "name": "ПІВДЕНКОМБАНК",
     "dateIssue": "2014-05-23",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Західінкомбанк",
+    "name": "ЗАХІДІНКОМБАНК",
     "dateIssue": "2014-05-28",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Автокразбанк",
+    "name": "АВТОКРАЗБАНК",
     "dateIssue": "2014-05-30",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Старокиївський Банк",
+    "name": "СТАРОКИЇВСЬКИЙ БАНК",
     "dateIssue": "2014-06-17",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Фінростбанк",
+    "name": "ФІНРОСТБАНК",
     "dateIssue": "2014-07-15",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Єврогазбанк",
+    "name": "ЄВРОГАЗБАНК",
     "dateIssue": "2014-07-16",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Банк Золоті Ворота",
+    "name": "БАНК ЗОЛОТІ ВОРОТА",
     "dateIssue": "2014-07-31",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Український фінансовий світ",
+    "name": "УКРАЇНСЬКИЙ ФІНАНСОВИЙ СВІТ",
     "dateIssue": "2014-08-14",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Терра Банк",
+    "name": "ТЕРРА БАНК",
     "dateIssue": "2014-08-21",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Актив-Банк",
+    "name": "АКТИВ-БАНК",
     "dateIssue": "2014-09-02",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Актабанк",
+    "name": "АКТАБАНК",
     "dateIssue": "2014-09-16",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Грін Банк",
+    "name": "ГРІН БАНК",
     "dateIssue": "2014-09-24",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Експобанк",
+    "name": "ЕКСПОБАНК",
     "dateIssue": "2014-09-24",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Демарк",
+    "name": "ДЕМАРК",
     "dateIssue": "2014-09-25",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Порто-Франко",
+    "name": "ПОРТО-ФРАНКО",
     "dateIssue": "2014-09-26",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Прайм-Банк",
+    "name": "ПРАЙМ-БАНК",
     "dateIssue": "2014-10-02",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Аксіома",
+    "name": "АКСІОМА",
     "dateIssue": "2014-10-09",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Інтеркредитбанк",
+    "name": "ІНТЕРКРЕДИТБАНК",
     "dateIssue": "2014-10-09",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Меліор Банк",
+    "name": "МЕЛІОР БАНК",
     "dateIssue": "2014-10-09",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Міський комерційний банк",
+    "name": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
     "dateIssue": "2014-11-20",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "ВіЕйБі Банк",
+    "name": "ВІЕЙБІ БАНК",
     "dateIssue": "2014-11-20",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "БГ Банк",
+    "name": "БГ БАНК",
     "dateIssue": "2014-11-27",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Легбанк",
+    "name": "ЛЕГБАНК",
     "dateIssue": "2014-11-27",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "ВБР",
     "dateIssue": "2014-11-27",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Камбіо",
+    "name": "КАМБІО",
     "dateIssue": "2014-12-04",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Український бізнес банк",
+    "name": "УКРАЇНСЬКИЙ БІЗНЕС БАНК",
     "dateIssue": "2014-12-25",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Банк Професійного фінансування",
+    "name": "БАНК ПРОФЕСІЙНОГО ФІНАНСУВАННЯ",
     "dateIssue": "2015-01-19",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "УКООПСПІЛКА",
     "dateIssue": "2015-01-22",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Імексбанк",
+    "name": "ІМЕКСБАНК",
     "dateIssue": "2015-01-26",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Надра",
+    "name": "НАДРА",
     "dateIssue": "2015-02-05",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Енергобанк",
+    "name": "ЕНЕРГОБАНК",
     "dateIssue": "2015-02-12",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Златобанк",
+    "name": "ЗЛАТОБАНК",
     "dateIssue": "2015-02-13",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Стандарт",
+    "name": "СТАНДАРТ",
     "dateIssue": "2015-02-19",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Київ",
+    "name": "КИЇВ",
     "dateIssue": "2015-02-24",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Дельта Банк",
+    "name": "ДЕЛЬТА БАНК",
     "dateIssue": "2015-03-02",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Кредитпромбанк",
+    "name": "КРЕДИТПРОМБАНК",
     "dateIssue": "2015-03-02",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Омега Банк",
+    "name": "ОМЕГА БАНК",
     "dateIssue": "2015-03-02",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Астра Банк",
+    "name": "АСТРА БАНК",
     "dateIssue": "2015-03-19",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Київська Русь",
+    "name": "КИЇВСЬКА РУСЬ",
     "dateIssue": "2015-03-19",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Укргазпромбанк",
+    "name": "УКРГАЗПРОМБАНК",
     "dateIssue": "2015-04-07",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Укркомунбанк",
+    "name": "УКРКОМУНБАНК",
     "dateIssue": "2015-05-12",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Український професійний банк",
+    "name": "УКРАЇНСЬКИЙ ПРОФЕСІЙНИЙ БАНК",
     "dateIssue": "2015-05-28",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Національний кредит",
+    "name": "НАЦІОНАЛЬНИЙ КРЕДИТ",
     "dateIssue": "2015-06-05",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Фінансова ініціатива",
+    "name": "ФІНАНСОВА ІНІЦІАТИВА",
     "dateIssue": "2015-06-23",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "РАДИКАЛ БАНК",
     "dateIssue": "2015-07-09",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "СТОЛИЧНИЙ",
     "dateIssue": "2015-07-09",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "КАПІТАЛ",
     "dateIssue": "2015-07-20",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Морський",
+    "name": "МОРСЬКИЙ",
     "dateIssue": "2015-09-02",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "ЧБРР",
     "dateIssue": "2015-09-02",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "СП Банк",
+    "name": "СП БАНК",
     "dateIssue": "2015-09-09",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Інтеграл-банк",
+    "name": "ІНТЕГРАЛ-БАНК",
     "dateIssue": "2015-09-15",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "БАНК ФІНАНСИ ТА КРЕДИТ",
     "dateIssue": "2015-09-17",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Національні інвестиції",
+    "name": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
     "dateIssue": "2015-09-17",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "ЮНІОН СТАНДАРД БАНК",
     "dateIssue": "2015-10-02",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Контракт",
+    "name": "КОНТРАКТ",
     "dateIssue": "2015-10-06",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "БАНК ВЕЛЕС",
     "dateIssue": "2015-12-10",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "УНІКОМБАНК",
     "dateIssue": "2015-10-15",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "БАНК СОФІЙСЬКИЙ",
     "dateIssue": "2015-12-22",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "УКРІНБАНК",
     "dateIssue": "2015-12-24",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "АВАНТ-БАНК",
     "dateIssue": "2016-01-29",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "ТК КРЕДИТ",
     "dateIssue": "2016-02-09",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "ПРЕМІУМ",
     "dateIssue": "2016-02-10",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "РОДОВІД БАНК",
     "dateIssue": "2016-02-25",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "СОЮЗ",
     "dateIssue": "16-04-28",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
     "dateIssue": "2016-03-17",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Хрещатик",
+    "name": "ХРЕЩАТИК",
     "dateIssue": "2016-04-05",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "ЮНІСОН",
     "dateIssue": "2016-04-28",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Фідобанк",
+    "name": "ФІДОБАНК",
     "dateIssue": "2016-05-20",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Банк Михайлівський",
+    "name": "БАНК МИХАЙЛІВСЬКИЙ",
     "dateIssue": "2016-05-23",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Смартбанк",
+    "name": "СМАРТБАНК",
     "dateIssue": "2016-05-24",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Інвестиційно-Трастовий Банк",
+    "name": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
     "dateIssue": "2016-05-31",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Фінанс Банк",
+    "name": "ФІНАНС БАНК",
     "dateIssue": "2016-05-31",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Класикбанк",
+    "name": "КЛАСИКБАНК",
     "dateIssue": "2016-06-14",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Євробанк",
+    "name": "ЄВРОБАНК",
     "dateIssue": "2016-06-17",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Держзембанк",
+    "name": "ДЕРЖЗЕМБАНК",
     "dateIssue": "2016-07-26",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "КСГ Банк",
+    "name": "КСГ БАНК",
     "dateIssue": "2016-08-30",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "АРТЕМ БАНК",
     "dateIssue": "2016-11-15",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Фінексбанк",
+    "name": "ФІНЕКСБАНК",
     "dateIssue": "2016-11-18",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Банк Траст",
+    "name": "БАНК ТРАСТ",
     "dateIssue": "2016-12-06",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Інвестбанк",
+    "name": "ІНВЕСТБАНК",
     "dateIssue": "2016-12-15",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Платинум Банк",
+    "name": "ПЛАТИНУМ БАНК",
     "dateIssue": "2017-01-10",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Банк Народний капітал",
+    "name": "БАНК НАРОДНИЙ КАПІТАЛ",
     "dateIssue": "2017-01-19",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Фортуна-банк",
+    "name": "ФОРТУНА-БАНК",
     "dateIssue": "2017-01-26",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "ВЕКТОР БАНК",
     "dateIssue": "2017-03-02",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "ФІНБАНК",
     "dateIssue": "2017-04-07",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Діамантбанк",
+    "name": "ДІАМАНТБАНК",
     "dateIssue": "2017-04-24",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
     "name": "НОВИЙ",
     "dateIssue": "2017-07-13",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Гефест",
+    "name": "ГЕФЕСТ",
     "dateIssue": "2017-08-01",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
   {
-    "name": "Банк Богуслав",
+    "name": "БАНК БОГУСЛАВ",
     "dateIssue": "2017-11-06",
+    "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   }
 ]
