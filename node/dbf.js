@@ -1,55 +1,41 @@
-// let Parser = require('node-dbf').default;
 let iconv = require('iconv-lite');
 let utils = require('./utils');
-
 let fs = require('fs');
 
 module.exports = {
     parse(file) {
-        // TODO: SHORTNAME is prepended with extra text and FULLNAME is empty, using data preparsed with java for now...
-        //return utils.fromJson(utils.readFile('../public/dbf.json')).map(record => record.map(value => this.fixCp866Chars(value)));
-
-        // TODO: how to make the Parser read file content instead of file path
-        const parser = new DbfParser(file, 'cp866');
-        const records = parser.parse();
+        const buffer = fs.readFileSync(file);
+        const records = new DbfParser('cp866').parse(buffer);
         utils.writeFile('./tmp/2.json', utils.toJson(records));
     }
 };
 
-function DbfParser(filename, encoding) {
+function DbfParser(encoding) {
     this.encoding = encoding || 'utf-8';
 
-    this.parse = () => {
-        const buffer = fs.readFileSync(filename);
+    this.parse = (buffer) => {
         const numberOfRecords = this.parseInt(buffer.slice(4, 8));
         const headerLength = this.parseInt(buffer.slice(8, 10));
         const recordLength = this.parseInt(buffer.slice(10, 12));
 
-        this.fields = [];
+        const fields = [];
         for (let i = 32, iMax = headerLength - 32; i <= iMax; i += 32) {
-            this.fields.push(this.parseFieldDesc(buffer.slice(i, i + 32)));
+            fields.push(this.parseFieldDesc(buffer.slice(i, i + 32)));
         }
 
-        const records = [this.fields.map(field => field.name)];
+        const records = [fields.map(field => field.name)];
         for (let i = 0; i < numberOfRecords; i++) {
             const recordStart = headerLength + i * recordLength;
-            const record = this.parseRecord(buffer.slice(recordStart, recordStart + recordLength));
-            if (record) {
+            const recordBuffer = buffer.slice(recordStart, recordStart + recordLength);
+            const recordDeleted = recordBuffer.slice(0, 1).toString() === '*';
+            if (!recordDeleted) {
+                let shift = 1;
+                const record = fields.map(field => this.parseField(field, recordBuffer.slice(shift, (shift += field.length))));
                 records.push(record);
             }
         }
 
         return records;
-    };
-
-    this.parseRecord = (buffer) => {
-        const isDeleted = buffer.slice(0, 1).toString() === '*';
-        if (isDeleted) {
-            return null;
-        }
-
-        let shift = 1;
-        return this.fields.map(field => this.parseField(field, buffer.slice(shift, (shift += field.length))));
     };
 
     this.parseField = (field, buffer) => {
@@ -88,8 +74,8 @@ function DbfParser(filename, encoding) {
     };
 
     this.parseString = (buffer) => {
-        // TODO: fix conditionally based on encoding
-        return this.fixCp866Chars(iconv.decode(buffer, this.encoding).trim());
+        const str = iconv.decode(buffer, this.encoding).trim();
+        return this.encoding === 'cp866' ? this.fixCp866Chars(str) : str;
     };
 
     this.fixCp866Chars = (str) => {

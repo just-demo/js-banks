@@ -16,8 +16,8 @@ let dbf = require('./dbf');
 // minfin.saveAll();
 // names.rebuildBankNames();
 
-combineBanks();
-// dbf.parse('./binary/RCUKRU.DBF');
+// combineBanks();
+dbf.parse('./binary/nbu/RCUKRU.DBF');
 
 function compareGovApiBanks() {
     const dbfBanks = nbu.getBanksDBF();
