@@ -1,10 +1,10 @@
 let _ = require('lodash');
-let names = require('./names');
-let ext = require('./external');
-let int = require('./internal');
-let dates = require('./dates');
-let assert = require('./assert');
-let regex = require('./regex');
+let names = require('../names');
+let ext = require('../external');
+let int = require('../internal');
+let dates = require('../dates');
+let assert = require('../assert');
+let regex = require('../regex');
 
 module.exports = {
     getBanks() {

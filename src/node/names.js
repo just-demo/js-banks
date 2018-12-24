@@ -1,6 +1,7 @@
 let int = require('./internal');
 let assert = require('./assert');
 let _ = require('lodash');
+let regex = require('./regex');
 
 module.exports = {
     bankNames: null,
@@ -35,13 +36,18 @@ module.exports = {
     },
 
     extractBankPureName(bankFullName) {
-        const match = bankFullName.match(/.*['"«](.+?)['"»]/);
-        return this.normalize(assert.true('Full name is pure name', match, bankFullName) ? match[1] : bankFullName);
+        let name = bankFullName;
+        name = regex.findSingleValue(name, /.*«(.+?)»/) || name;
+        name = regex.findSingleValue(name, /.*"(.+?)"/) || name;
+        name = regex.findSingleValue(name, /.*\s'(.+?)'/) || name;
+        assert.notEquals('Full name is pure name', name, bankFullName);
+        return this.normalize(name);
     },
 
     // TODO: consider creating normalizeBankName that would additionally remove "БАНК" prefix and suffix
     normalize(name) {
         return name.toUpperCase()
+            .replace(/`/g, '\'')
             .replace(/\s+/g, ' ')
             .replace(/\s*-\s*/g, '-');
     }

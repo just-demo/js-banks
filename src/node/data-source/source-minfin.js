@@ -1,9 +1,9 @@
-let utils = require('./utils');
-let names = require('./names');
-let ext = require('./external');
-let int = require('./internal');
-let assert = require('./assert');
-let regex = require('./regex');
+let utils = require('../utils');
+let names = require('../names');
+let ext = require('../external');
+let int = require('../internal');
+let assert = require('../assert');
+let regex = require('../regex');
 
 module.exports = {
     getBanks() {

@@ -1,6 +1,9 @@
-let nbu = require('./source-nbu');
-let fund = require('./source-fund');
-let minfin = require('./source-minfin');
+let nbuAPI = require('./data-source/source-nbu-api');
+let nbuDBF = require('./data-source/source-nbu-dbf');
+let nbuPDF = require('./data-source/source-nbu-pdf');
+let nbuUI = require('./data-source/source-nbu-ui');
+let fund = require('./data-source/source-fund');
+let minfin = require('./data-source/source-minfin');
 let _ = require('lodash');
 let utils = require('./utils');
 let names = require('./names');
@@ -10,36 +13,24 @@ let dbf = require('./dbf');
 // let t = require('../src/test');
 // console.log(t.hello());
 
-// nbu.saveAll();
-// fund.saveAll();
-// minfin.saveAll();
-// names.rebuildBankNames();
+console.log(names.extractBankPureName("\t\t\tАКБ «Прем'єрбанк»"));
+
+nbuAPI.saveBanks();
+nbuDBF.saveBanks();
+nbuPDF.saveBanks();
+nbuUI.saveBanks();
+fund.saveAll();
+minfin.saveAll();
+names.rebuildBankNames();
 
 combineBanks();
 // dbf.parse('../../data/binary/nbu/RCUKRU.DBF');
 
-function compareGovApiBanks() {
-    const dbfBanks = nbu.getBanksDBF();
-    const apiBanks = nbu.getBanksAPI();
-    const dbfBankIds = Object.keys(dbfBanks);
-    const apiBankIds = Object.keys(apiBanks);
-    console.log('DBF:', dbfBankIds.length);
-    console.log('API:', apiBankIds.length);
-    console.log('Intersection:', _.intersection(dbfBankIds, apiBankIds).length);
-    console.log('Union:', _.union(dbfBankIds, apiBankIds).length);
-    _.union(dbfBankIds, apiBankIds).forEach(id => {
-        // TODO: ФІНАНСОВА ІНІЦІАТИВА, ВІЕС БАНК, ЦЕНТР ???
-        assert.equals('Active mismatch - ' + id, dbfBanks[id] && dbfBanks[id].active, apiBanks[id] && apiBanks[id].active);
-        // TODO: compare with nbu.getBanks()...name
-        assert.equals('DateOpen mismatch - ' + id, dbfBanks[id] && dbfBanks[id].dateOpen, apiBanks[id] && apiBanks[id].dateOpen);
-    });
-}
-
 function combineBanks() {
-    const dbfBanks = nbu.getBanksDBF();
-    const apiBanks = nbu.getBanksAPI();
-    const nbuBanks = nbu.getBanksUI();
-    const pdfBanks = nbu.getBanksPDF();
+    const apiBanks = nbuAPI.getBanks();
+    const dbfBanks = nbuDBF.getBanks();
+    const pdfBanks = nbuPDF.getBanks();
+    const nbuBanks = nbuUI.getBanks();
     const fundBanks = fund.getBanks();
     const minfinBanks = minfin.getBanks();
 
