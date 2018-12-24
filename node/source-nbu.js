@@ -68,6 +68,7 @@ module.exports = {
                 banks[name] = {
                     name: name,
                     dateIssue: bank.dateIssue,
+                    link: bank.link,
                     active: !bank.dateIssue
                 };
             })
@@ -77,7 +78,7 @@ module.exports = {
 
     // TODO: fetch not-paying banks from https://bank.gov.ua/control/uk/publish/article?art_id=75535&cat_id=17823466, e.g. "Фінексбанк"
     saveAll() {
-        this.saveBanksDBF();
+        // this.saveBanksDBF();
         this.saveBanksAPI();
         this.saveBanksUI();
         this.saveBanksPDF();
@@ -142,8 +143,9 @@ module.exports = {
                     name: 2
                 });
                 const id = linkInfo.id;
+                const link = '/control/uk/bankdict/bank?id=' + id;
                 const name = this.extractBankPureNameSPC(linkInfo.name);
-                const bankHtml = ext.read('nbu/banks/' + id, 'https://bank.gov.ua/control/uk/bankdict/bank?id=' + id);
+                const bankHtml = ext.read('nbu/banks/' + id, 'https://bank.gov.ua' + link);
                 const fullName = this.extractBankPureNameSPC(bankHtml.match(/<td.*?>Назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
                 const shortName = this.extractBankPureNameSPC(bankHtml.match(/<td.*?>Коротка назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
                 assert.equals('Short name mismatch', name, shortName);
@@ -152,12 +154,14 @@ module.exports = {
                     name: name,
                     fullName: fullName,
                     dateOpen: dates.format(bank.dateOpen),
+                    link: link,
                     active: true
                 };
             });
         }));
 
-        const htmlInactive = ext.read('nbu/banks-inactive', 'https://bank.gov.ua/control/uk/publish/article?art_id=75535&cat_id=17823466');
+        const linkInactive = '/control/uk/publish/article?art_id=75535'; //TODO: is id the same? consider fetching the link from UI page if possible
+        const htmlInactive = ext.read('nbu/banks-inactive', 'https://bank.gov.ua' + linkInactive);
         const banksInactive = regex.findManyObjects(htmlInactive, new RegExp('<tr[^>]*>\\s*?' + '(<td[^>]*>\\s*?(<p[^>]*>\\s*?<span[^>]*>([\\S\\s]*?)<o:p>.*?<\\/o:p><\\/span><\\/p>)?\\s*?<\\/td>\\s*?)'.repeat(4) + '[\\S\\s]*?<\\/tr>', 'g'), {
             name: 3, date1: 6, date2: 9, date3: 12
         }).map(bank => {
@@ -174,6 +178,7 @@ module.exports = {
             return {
                 name: names.extractBankPureName(trim(bank.name)),
                 dateIssue: dateIssue,
+                link: linkInactive,
                 active: false
             };
         });
@@ -184,12 +189,13 @@ module.exports = {
 
     saveBanksPDF() {
         // TODO: why does "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК" fall into different buckets?
-        const html = ext.read('nbu/not-banks', 'https://bank.gov.ua/control/uk/publish/article?art_id=52047');
+        const html = ext.read('nbu/not-banks', 'https://bank.gov.ua/control/uk/publish/article?art_id=52047'); //TODO: is id the same? consider fetching the link from UI page
         const bankFiles = {};
         regex.findManyObjects(html, /<a\s+href="files\/Licences_bank\/(.+?)".*?>([\s\S]+?)<\/a>/g, {
             file: 1, name: 2
         }).forEach(bank => {
             bankFiles[bank.file] = bankFiles[bank.file] || [];
+            // TODO: use names.normalize(...)
             bankFiles[bank.file].push(bank.name.replace(/<[^>]*>/g, '').replace(/\s+/g, ' '));
         });
 
@@ -199,6 +205,7 @@ module.exports = {
         });
 
         _.forOwn(bankFiles, (bankNames, file) => {
+            const link = 'https://bank.gov.ua/files/Licences_bank/' + file;
             const textFile = './binary/nbu/not-banks/text/' + file.split('.')[0] + '.txt';
             function process(text) {
                 //Дата відкликання20.07.2011
@@ -209,7 +216,8 @@ module.exports = {
                     .map(name => names.normalize(name));
                 banks.next({
                     name: _.uniq(bankNames),
-                    dateIssue: dates.format(bank.dateIssue)
+                    dateIssue: dates.format(bank.dateIssue),
+                    link: link
                 });
             }
             if (utils.fileExists(textFile)) {
@@ -217,7 +225,7 @@ module.exports = {
                 return;
             }
             // TODO: download and process asynchronously
-            ext.download('nbu/not-banks/pdf/' + file, 'https://bank.gov.ua/files/Licences_bank/' + file);
+            ext.download('nbu/not-banks/pdf/' + file, link);
             const pdfParser = new PDFParser();
             pdfParser.on("pdfParser_dataError", errData => {
                 console.error(errData.parserError);
@@ -225,7 +233,7 @@ module.exports = {
             });
             pdfParser.on("pdfParser_dataReady", pdfData => {
                 const text = this.extractText(pdfData).join('');
-                utils.writeFile('./binary/nbu/not-banks/text/' + file.split('.')[0] + '.txt', text);
+                utils.writeFile(textFile, text);
                 process(text);
             });
             pdfParser.loadPDF("./binary/nbu/not-banks/pdf/" + file);

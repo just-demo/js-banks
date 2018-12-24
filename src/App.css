@@ -1,46 +1,4 @@
-.vertical-bottom-to-top {
-  color: red;
-  /*writing-mode: vertical-rl;*/
-  /*text-orientation: mixed;*/
-  transform: rotate(-90deg);
-  height: 100px;
-}
-
 th, td {
   border: 1px solid #aaa;
-}
-
-td {
   white-space: nowrap;
-}
-
-td.closed {
-  background-color: #ddd;
-}
-
-td.open {
-  border: 3px green;
-}
-
-
-/*td.issue {*/
-  /*border-width: 3px 0 3px 0;*/
-  /*border-color: red;*/
-/*}*/
-
-/*td.issue-max {*/
-  /*border-left-width: 3px;*/
-/*}*/
-
-/*td.issue-min {*/
-  /*border-right-width: 3px;*/
-/*}*/
-
-td.issue div {
-  cursor: pointer;
-  background: repeating-linear-gradient(45deg, transparent, transparent 1px, red 1px, red 5px);
-}
-
-td.issue div:hover {
-  background: repeating-linear-gradient(45deg, red, red 1px, transparent 1px, transparent 5px);
 }

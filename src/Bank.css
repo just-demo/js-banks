@@ -1,0 +1,21 @@
+.bank {
+    margin: 0 auto;
+}
+
+.bank td {
+    border: none;
+    padding: 0 5px;
+}
+
+.bank td:not(:first-child):not(.site) {
+    text-align: center;
+}
+
+
+.bank td:not(:last-child) {
+    border-right: 1px dashed #aaa;
+}
+
+.bank tr:not(:last-child) {
+    border-bottom: 1px dashed #aaa;
+}

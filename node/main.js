@@ -11,9 +11,9 @@ let dbf = require('./dbf');
 // let t = require('../src/test');
 // console.log(t.hello());
 
-// nbu.saveBanksPDF();
-// fund.saveAll();
-// minfin.saveAll();
+nbu.saveAll();
+fund.saveAll();
+minfin.saveAll();
 // names.rebuildBankNames();
 
 // combineBanks();
@@ -98,6 +98,9 @@ function combineBanks() {
                     minfin: (minfinBanks[id] || {}).id
                 },
                 link: {
+                    nbu: (nbuBanks[id] || {}).link,
+                    pdf: (pdfBanks[id] || {}).link,
+                    fund: (fundBanks[id] || {}).link,
                     minfin: (minfinBanks[id] || {}).link
                 }
             }
