@@ -28,13 +28,6 @@ module.exports = {
         return banks;
     },
 
-    saveAll() {
-        this.saveBanksDBF();
-        this.saveBanksAPI();
-        this.saveBanksUI();
-        this.saveBanksPDF();
-    },
-
     saveBanks() {
         // TODO: why does "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК" fall into different buckets?
         const html = ext.read('nbu/not-banks', 'https://bank.gov.ua/control/uk/publish/article?art_id=52047'); //TODO: is id the same? consider fetching the link from UI page
