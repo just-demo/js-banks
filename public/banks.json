@@ -754,14 +754,14 @@
     }
   },
   {
-    "id": "А - БАНК",
+    "id": "А-БАНК",
     "name": {
-      "dbf": "А - БАНК",
-      "api": "А - БАНК",
-      "nbu": "А - БАНК",
-      "pdf": "А - БАНК",
-      "fund": "А - БАНК",
-      "minfin": "А - БАНК"
+      "dbf": "А-БАНК",
+      "api": "А-БАНК",
+      "nbu": "А-БАНК",
+      "pdf": "А-БАНК",
+      "fund": "А-БАНК",
+      "minfin": "А-БАНК"
     },
     "active": {
       "dbf": true,
@@ -1100,14 +1100,14 @@
     }
   },
   {
-    "id": "АКТИВ - БАНК",
+    "id": "АКТИВ-БАНК",
     "name": {
-      "dbf": "АКТИВ - БАНК",
-      "api": "АКТИВ - БАНК",
-      "nbu": "АКТИВ - БАНК",
-      "pdf": "АКТИВ - БАНК",
-      "fund": "АКТИВ - БАНК",
-      "minfin": "АКТИВ - БАНК"
+      "dbf": "АКТИВ-БАНК",
+      "api": "АКТИВ-БАНК",
+      "nbu": "АКТИВ-БАНК",
+      "pdf": "АКТИВ-БАНК",
+      "fund": "АКТИВ-БАНК",
+      "minfin": "АКТИВ-БАНК"
     },
     "active": {
       "dbf": false,
@@ -2338,6 +2338,39 @@
     }
   },
   {
+    "id": "БАНК ТРАСТ-КАПІТАЛ",
+    "name": {
+      "dbf": "БАНК ТРАСТ-КАПІТАЛ",
+      "api": "БАНК ТРАСТ-КАПІТАЛ",
+      "nbu": "БАНК ТРАСТ-КАПІТАЛ",
+      "fund": "БАНК ТРАСТ-КАПІТАЛ"
+    },
+    "active": {
+      "dbf": true,
+      "api": true,
+      "nbu": true,
+      "fund": true
+    },
+    "dateOpen": {
+      "dbf": "2004-03-10",
+      "api": "2004-03-10",
+      "nbu": "2004-03-10"
+    },
+    "dateIssue": {},
+    "site": {
+      "fund": [
+        "http://www.tc-bank.com"
+      ],
+      "minfin": []
+    },
+    "internal": {
+      "id": {},
+      "link": {
+        "nbu": "/control/uk/bankdict/bank?id=17923"
+      }
+    }
+  },
+  {
     "id": "БАНК ФАМІЛЬНИЙ",
     "name": {
       "dbf": "БАНК ФАМІЛЬНИЙ",
@@ -2512,17 +2545,13 @@
   {
     "id": "БМ БАНК",
     "name": {
-      "dbf": "БМ БАНК",
       "pdf": "БМ БАНК",
       "minfin": "БМ БАНК"
     },
     "active": {
-      "dbf": true,
       "pdf": false
     },
-    "dateOpen": {
-      "dbf": "2005-12-08"
-    },
+    "dateOpen": {},
     "dateIssue": {
       "pdf": "2018-11-06"
     },
@@ -2674,17 +2703,13 @@
   {
     "id": "ВІЕС БАНК",
     "name": {
-      "dbf": "ВІЕС БАНК",
       "pdf": "ВІЕС БАНК",
       "minfin": "ВІЕС БАНК"
     },
     "active": {
-      "dbf": true,
       "pdf": false
     },
-    "dateOpen": {
-      "dbf": "1991-10-10"
-    },
+    "dateOpen": {},
     "dateIssue": {
       "pdf": "2018-10-30"
     },
@@ -2825,7 +2850,7 @@
     },
     "active": {
       "dbf": true,
-      "api": true,
+      "api": false,
       "nbu": true,
       "pdf": true,
       "fund": true
@@ -2835,7 +2860,9 @@
       "api": "2009-02-17",
       "nbu": "2009-02-17"
     },
-    "dateIssue": {},
+    "dateIssue": {
+      "api": "2018-11-09"
+    },
     "site": {
       "fund": [
         "http://vernumbank.com"
@@ -2907,28 +2934,26 @@
     "name": {
       "dbf": "ВТБ БАНК",
       "api": "ВТБ БАНК",
-      "nbu": "ВТБ БАНК",
       "pdf": "ВТБ БАНК",
       "fund": "ВТБ БАНК",
       "minfin": "ВТБ БАНК"
     },
     "active": {
-      "dbf": true,
-      "api": true,
-      "nbu": true,
-      "pdf": true,
-      "fund": true
+      "dbf": false,
+      "api": false,
+      "pdf": false,
+      "fund": false
     },
     "dateOpen": {
       "dbf": "1992-11-11",
-      "api": "1992-11-11",
-      "nbu": "1992-11-11"
+      "api": "1992-11-11"
     },
-    "dateIssue": {},
+    "dateIssue": {
+      "api": "2018-12-18",
+      "pdf": "2018-12-18",
+      "fund": "2018-11-28"
+    },
     "site": {
-      "fund": [
-        "http://www.vtb.com.ua"
-      ],
       "minfin": [
         "https://vtb.ua/"
       ]
@@ -2938,8 +2963,8 @@
         "minfin": 81
       },
       "link": {
-        "nbu": "/control/uk/bankdict/bank?id=28",
         "pdf": "https://bank.gov.ua/files/Licences_bank/321767.pdf",
+        "fund": "/not-paying/liquidation/234-at-vtb-bank",
         "minfin": "https://minfin.com.ua/ua/company/vtb-bank"
       }
     }
@@ -3706,26 +3731,17 @@
   {
     "id": "ЕРДЕ БАНК",
     "name": {
-      "dbf": "ЕРДЕ БАНК",
-      "api": "ЕРДЕ БАНК",
       "pdf": "ЕРДЕ БАНК",
       "fund": "ЕРДЕ БАНК",
       "minfin": "ЕРДЕ БАНК"
     },
     "active": {
-      "dbf": false,
-      "api": false,
       "pdf": false,
       "fund": false
     },
-    "dateOpen": {
-      "dbf": "2006-12-28",
-      "api": "2006-12-28"
-    },
+    "dateOpen": {},
     "dateIssue": {
-      "api": "2013-01-09",
-      "pdf": "2013-01-09",
-      "fund": "2012-10-30"
+      "pdf": "2013-01-09"
     },
     "site": {
       "minfin": [
@@ -3738,7 +3754,7 @@
       },
       "link": {
         "pdf": "https://bank.gov.ua/files/Licences_bank/380667.pdf",
-        "fund": "/not-paying/liquidation/58-erde-bank",
+        "fund": "/not-paying/banky-likvidovani-fondom/58-erde-bank",
         "minfin": "https://minfin.com.ua/ua/company/rd-bank"
       }
     }
@@ -4316,8 +4332,7 @@
     "dateIssue": {
       "api": "2016-08-11",
       "nbu": "2016-06-14",
-      "pdf": "2016-08-11",
-      "fund": "2016-06-15"
+      "pdf": "2016-08-11"
     },
     "site": {
       "minfin": [
@@ -4331,7 +4346,7 @@
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
         "pdf": "https://bank.gov.ua/files/Licences_bank/306704.pdf",
-        "fund": "/not-paying/liquidation/174-pat-klasykbank",
+        "fund": "/not-paying/banky-likvidovani-fondom/174-pat-klasykbank",
         "minfin": "https://minfin.com.ua/ua/company/classic-bank"
       }
     }
@@ -5162,7 +5177,6 @@
     "dateIssue": {},
     "site": {
       "fund": [
-        "http://www.megabank.net",
         "https://www.megabank.ua",
         "http://www"
       ],
@@ -5454,7 +5468,7 @@
       "nbu": "1993-11-05"
     },
     "dateIssue": {
-      "api": "2018-08-10"
+      "api": "2018-12-10"
     },
     "site": {
       "fund": [
@@ -6380,14 +6394,14 @@
     }
   },
   {
-    "id": "ПРАЙМ - БАНК",
+    "id": "ПРАЙМ-БАНК",
     "name": {
-      "dbf": "ПРАЙМ - БАНК",
-      "api": "ПРАЙМ - БАНК",
-      "nbu": "ПРАЙМ - БАНК",
-      "pdf": "ПРАЙМ - БАНК",
-      "fund": "ПРАЙМ - БАНК",
-      "minfin": "ПРАЙМ - БАНК"
+      "dbf": "ПРАЙМ-БАНК",
+      "api": "ПРАЙМ-БАНК",
+      "nbu": "ПРАЙМ-БАНК",
+      "pdf": "ПРАЙМ-БАНК",
+      "fund": "ПРАЙМ-БАНК",
+      "minfin": "ПРАЙМ-БАНК"
     },
     "active": {
       "dbf": false,
@@ -6597,7 +6611,7 @@
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=192",
         "pdf": "https://bank.gov.ua/files/Licences_bank/320984.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/procredit-bank"
+        "minfin": "https://minfin.com.ua/ua/company/procredit_bank"
       }
     }
   },
@@ -6959,7 +6973,7 @@
         "http://www.aval.ua"
       ],
       "minfin": [
-        "http://www.aval.ua/"
+        "https://www.aval.ua/"
       ]
     },
     "internal": {
@@ -7407,7 +7421,7 @@
     "dateIssue": {},
     "site": {
       "fund": [
-        "https://skybank.pro"
+        "https://sky.bank"
       ],
       "minfin": [
         "https://www.sky.bank/"
@@ -7854,26 +7868,17 @@
   {
     "id": "ТАВРИКА",
     "name": {
-      "dbf": "ТАВРИКА",
-      "api": "ТАВРИКА",
       "pdf": "ТАВРИКА",
       "fund": "ТАВРИКА",
       "minfin": "ТАВРИКА"
     },
     "active": {
-      "dbf": false,
-      "api": false,
       "pdf": false,
       "fund": false
     },
-    "dateOpen": {
-      "dbf": "1991-10-24",
-      "api": "1991-10-24"
-    },
+    "dateOpen": {},
     "dateIssue": {
-      "api": "2013-03-20",
-      "pdf": "2013-03-20",
-      "fund": "2012-12-21"
+      "pdf": "2013-03-20"
     },
     "site": {
       "minfin": [
@@ -7886,7 +7891,7 @@
       },
       "link": {
         "pdf": "https://bank.gov.ua/files/Licences_bank/300788.pdf",
-        "fund": "/not-paying/liquidation/57-tavryka",
+        "fund": "/not-paying/banky-likvidovani-fondom/57-tavryka",
         "minfin": "https://minfin.com.ua/ua/company/tavrika"
       }
     }
@@ -7914,7 +7919,7 @@
       "nbu": "1991-10-21"
     },
     "dateIssue": {
-      "api": "2018-07-10"
+      "api": "2018-12-10"
     },
     "site": {
       "fund": [
@@ -8140,30 +8145,15 @@
   {
     "id": "ТРАСТ-КАПІТАЛ",
     "name": {
-      "dbf": "ТРАСТ-КАПІТАЛ",
-      "api": "ТРАСТ-КАПІТАЛ",
-      "nbu": "ТРАСТ-КАПІТАЛ",
       "pdf": "ТРАСТ-КАПІТАЛ",
-      "fund": "ТРАСТ-КАПІТАЛ",
       "minfin": "ТРАСТ-КАПІТАЛ"
     },
     "active": {
-      "dbf": true,
-      "api": true,
-      "nbu": true,
-      "pdf": true,
-      "fund": true
+      "pdf": true
     },
-    "dateOpen": {
-      "dbf": "2004-03-10",
-      "api": "2004-03-10",
-      "nbu": "2004-03-10"
-    },
+    "dateOpen": {},
     "dateIssue": {},
     "site": {
-      "fund": [
-        "http://www.tc-bank.com"
-      ],
       "minfin": [
         "http://www.tc-bank.com/ua.html"
       ]
@@ -8173,7 +8163,6 @@
         "minfin": 120
       },
       "link": {
-        "nbu": "/control/uk/bankdict/bank?id=17923",
         "pdf": "https://bank.gov.ua/files/Licences_bank/380106.pdf",
         "minfin": "https://minfin.com.ua/ua/company/trust-capital"
       }
@@ -9534,17 +9523,13 @@
   {
     "id": "ЦЕНТР",
     "name": {
-      "dbf": "ЦЕНТР",
       "pdf": "ЦЕНТР",
       "minfin": "ЦЕНТР"
     },
     "active": {
-      "dbf": true,
       "pdf": false
     },
-    "dateOpen": {
-      "dbf": "2010-06-16"
-    },
+    "dateOpen": {},
     "dateIssue": {
       "pdf": "2018-10-30"
     },

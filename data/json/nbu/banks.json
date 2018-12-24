@@ -40,6 +40,14 @@
     "active": true
   },
   {
+    "id": "286",
+    "name": "РАДАБАНК",
+    "fullName": "РАДАБАНК",
+    "dateOpen": "1993-12-03",
+    "link": "/control/uk/bankdict/bank?id=286",
+    "active": true
+  },
+  {
     "id": "269",
     "name": "АЙБОКС БАНК",
     "fullName": "АЙБОКС БАНК",
@@ -85,6 +93,14 @@
     "fullName": "АЛЬФА-БАНК",
     "dateOpen": "1993-03-24",
     "link": "/control/uk/bankdict/bank?id=279",
+    "active": true
+  },
+  {
+    "id": "32183",
+    "name": "АП БАНК",
+    "fullName": "АГРОПРОСПЕРІС БАНК",
+    "dateOpen": "2007-11-28",
+    "link": "/control/uk/bankdict/bank?id=32183",
     "active": true
   },
   {
@@ -136,11 +152,27 @@
     "active": true
   },
   {
+    "id": "17923",
+    "name": "БАНК ТРАСТ-КАПІТАЛ",
+    "fullName": "БАНК ТРАСТ-КАПІТАЛ",
+    "dateOpen": "2004-03-10",
+    "link": "/control/uk/bankdict/bank?id=17923",
+    "active": true
+  },
+  {
     "id": "24345",
     "name": "БАНК ФОРВАРД",
     "fullName": "БАНК ФОРВАРД",
     "dateOpen": "2006-02-28",
     "link": "/control/uk/bankdict/bank?id=24345",
+    "active": true
+  },
+  {
+    "id": "35128",
+    "name": "БАНК 3/4",
+    "fullName": "БАНК 3/4",
+    "dateOpen": "2008-07-25",
+    "link": "/control/uk/bankdict/bank?id=35128",
     "active": true
   },
   {
@@ -152,11 +184,11 @@
     "active": true
   },
   {
-    "id": "28",
-    "name": "ВТБ БАНК",
-    "fullName": "ВТБ БАНК",
-    "dateOpen": "1992-11-11",
-    "link": "/control/uk/bankdict/bank?id=28",
+    "id": "37648",
+    "name": "ДОЙЧЕ БАНК ДБУ",
+    "fullName": "ДОЙЧЕ БАНК ДБУ",
+    "dateOpen": "2009-06-19",
+    "link": "/control/uk/bankdict/bank?id=37648",
     "active": true
   },
   {
@@ -197,6 +229,22 @@
     "fullName": "КОМЕРЦІЙНИЙ ІНВЕСТИЦІЙНИЙ БАНК",
     "dateOpen": "1992-12-16",
     "link": "/control/uk/bankdict/bank?id=95",
+    "active": true
+  },
+  {
+    "id": "25655",
+    "name": "КРЕДИТ ЄВРОПА БАНК",
+    "fullName": "КРЕДИТ ЄВРОПА БАНК",
+    "dateOpen": "2006-08-28",
+    "link": "/control/uk/bankdict/bank?id=25655",
+    "active": true
+  },
+  {
+    "id": "26321",
+    "name": "КРЕДИТВЕСТ БАНК",
+    "fullName": "ВЕСТ ФАЙНЕНС ЕНД КРЕДИТ БАНК",
+    "dateOpen": "2006-10-04",
+    "link": "/control/uk/bankdict/bank?id=26321",
     "active": true
   },
   {
@@ -320,11 +368,27 @@
     "active": true
   },
   {
+    "id": "52883",
+    "name": "РВС БАНК",
+    "fullName": "РВС БАНК",
+    "dateOpen": "2015-06-25",
+    "link": "/control/uk/bankdict/bank?id=52883",
+    "active": true
+  },
+  {
     "id": "193",
     "name": "СБЕРБАНК",
     "fullName": "СБЕРБАНК",
     "dateOpen": "2001-06-15",
     "link": "/control/uk/bankdict/bank?id=193",
+    "active": true
+  },
+  {
+    "id": "40403",
+    "name": "СЕБ КОРПОРАТИВНИЙ БАНК",
+    "fullName": "СЕБ КОРПОРАТИВНИЙ БАНК",
+    "dateOpen": "2011-01-19",
+    "link": "/control/uk/bankdict/bank?id=40403",
     "active": true
   },
   {
@@ -392,35 +456,11 @@
     "active": true
   },
   {
-    "id": "286",
-    "name": "РАДАБАНК",
-    "fullName": "РАДАБАНК",
-    "dateOpen": "1993-12-03",
-    "link": "/control/uk/bankdict/bank?id=286",
-    "active": true
-  },
-  {
     "id": "62",
     "name": "ЛЬВІВ",
     "fullName": "ЛЬВІВ",
     "dateOpen": "1991-10-14",
     "link": "/control/uk/bankdict/bank?id=62",
-    "active": true
-  },
-  {
-    "id": "17923",
-    "name": "ТРАСТ-КАПІТАЛ",
-    "fullName": "ТРАСТ-КАПІТАЛ",
-    "dateOpen": "2004-03-10",
-    "link": "/control/uk/bankdict/bank?id=17923",
-    "active": true
-  },
-  {
-    "id": "32183",
-    "name": "АП БАНК",
-    "fullName": "АГРОПРОСПЕРІС БАНК",
-    "dateOpen": "2007-11-28",
-    "link": "/control/uk/bankdict/bank?id=32183",
     "active": true
   },
   {
@@ -456,27 +496,11 @@
     "active": true
   },
   {
-    "id": "35128",
-    "name": "БАНК 3/4",
-    "fullName": "БАНК 3/4",
-    "dateOpen": "2008-07-25",
-    "link": "/control/uk/bankdict/bank?id=35128",
-    "active": true
-  },
-  {
     "id": "37186",
     "name": "ВЕРНУМ БАНК",
     "fullName": "ВЕРНУМ БАНК",
     "dateOpen": "2009-02-17",
     "link": "/control/uk/bankdict/bank?id=37186",
-    "active": true
-  },
-  {
-    "id": "37648",
-    "name": "ДОЙЧЕ БАНК ДБУ",
-    "fullName": "ДОЙЧЕ БАНК ДБУ",
-    "dateOpen": "2009-06-19",
-    "link": "/control/uk/bankdict/bank?id=37648",
     "active": true
   },
   {
@@ -509,22 +533,6 @@
     "fullName": "ФІНАНСОВА ІНІЦІАТИВА",
     "dateOpen": "2005-01-19",
     "link": "/control/uk/bankdict/bank?id=21393",
-    "active": true
-  },
-  {
-    "id": "25655",
-    "name": "КРЕДИТ ЄВРОПА БАНК",
-    "fullName": "КРЕДИТ ЄВРОПА БАНК",
-    "dateOpen": "2006-08-28",
-    "link": "/control/uk/bankdict/bank?id=25655",
-    "active": true
-  },
-  {
-    "id": "26321",
-    "name": "КРЕДИТВЕСТ БАНК",
-    "fullName": "ВЕСТ ФАЙНЕНС ЕНД КРЕДИТ БАНК",
-    "dateOpen": "2006-10-04",
-    "link": "/control/uk/bankdict/bank?id=26321",
     "active": true
   },
   {
@@ -576,27 +584,11 @@
     "active": true
   },
   {
-    "id": "52883",
-    "name": "РВС БАНК",
-    "fullName": "РВС БАНК",
-    "dateOpen": "2015-06-25",
-    "link": "/control/uk/bankdict/bank?id=52883",
-    "active": true
-  },
-  {
     "id": "38874",
     "name": "РОЗРАХУНКОВИЙ ЦЕНТР",
     "fullName": "РОЗРАХУНКОВИЙ ЦЕНТР З ОБСЛУГОВУВАННЯ ДОГОВОРІВ НА ФІНАНСОВИХ РИНКАХ",
     "dateOpen": "2013-09-06",
     "link": "/control/uk/bankdict/bank?id=38874",
-    "active": true
-  },
-  {
-    "id": "40403",
-    "name": "СЕБ КОРПОРАТИВНИЙ БАНК",
-    "fullName": "СЕБ КОРПОРАТИВНИЙ БАНК",
-    "dateOpen": "2011-01-19",
-    "link": "/control/uk/bankdict/bank?id=40403",
     "active": true
   },
   {

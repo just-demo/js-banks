@@ -7,17 +7,16 @@ let names = require('./names');
 let assert = require('./assert');
 let dbf = require('./dbf');
 
-// nbu.test();
 // let t = require('../src/test');
 // console.log(t.hello());
 
-nbu.saveAll();
-fund.saveAll();
-minfin.saveAll();
+// nbu.saveAll();
+// fund.saveAll();
+// minfin.saveAll();
 // names.rebuildBankNames();
 
-// combineBanks();
-dbf.parse('./binary/nbu/RCUKRU.DBF');
+combineBanks();
+// dbf.parse('../../data/binary/nbu/RCUKRU.DBF');
 
 function compareGovApiBanks() {
     const dbfBanks = nbu.getBanksDBF();
@@ -114,8 +113,8 @@ function combineBanks() {
         return bank;
     });
 
-    utils.writeFile('../public/banks.json', utils.toJson(banks));
-    utils.writeFile('../public/minfin-ratings.json', utils.readFile('./json/minfin/ratings.json'));
+    utils.writeFile('../../public/banks.json', utils.toJson(banks));
+    utils.writeFile('../../public/minfin-ratings.json', utils.readFile('../../data/json/minfin/ratings.json'));
 }
 
 function definedValues(object) {

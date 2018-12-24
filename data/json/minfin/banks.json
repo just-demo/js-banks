@@ -6,6 +6,12 @@
     "site": "http://a-bank.com.ua"
   },
   {
+    "id": 562,
+    "name": "Авангард Банк",
+    "link": "https://minfin.com.ua/ua/company/avangardbank",
+    "site": "http://www.avgd.ua/"
+  },
+  {
     "id": 273,
     "name": "Авант-Банк",
     "link": "https://minfin.com.ua/ua/company/avantbank",
@@ -72,6 +78,12 @@
     "site": "https://alfabank.ua"
   },
   {
+    "id": 114,
+    "name": "Альянс Банк",
+    "link": "https://minfin.com.ua/ua/company/alliance",
+    "site": "https://bankalliance.ua/"
+  },
+  {
     "id": 71,
     "name": "Апекс-банк",
     "link": "https://minfin.com.ua/ua/company/apeks-bank",
@@ -108,18 +120,6 @@
     "site": "https://www.bank34.ua/"
   },
   {
-    "id": 562,
-    "name": "Банк Авангард",
-    "link": "https://minfin.com.ua/ua/company/avangardbank",
-    "site": "http://www.avgd.ua/"
-  },
-  {
-    "id": 114,
-    "name": "Банк Альянс",
-    "link": "https://minfin.com.ua/ua/company/alliance",
-    "site": "https://bankalliance.ua/"
-  },
-  {
     "id": 100,
     "name": "Банк Богуслав",
     "link": "https://minfin.com.ua/ua/company/bank-boguslav",
@@ -132,12 +132,6 @@
     "site": null
   },
   {
-    "id": 18,
-    "name": "Банк Восток",
-    "link": "https://minfin.com.ua/ua/company/bank-vostok",
-    "site": "http://www.bankvostok.com.ua/"
-  },
-  {
     "id": 134,
     "name": "Банк Золоті ворота",
     "link": "https://minfin.com.ua/ua/company/zolotye-vorota",
@@ -145,7 +139,7 @@
   },
   {
     "id": 57,
-    "name": "Банк Інвестицій та Заощаджень",
+    "name": "Банк інвестицій та заощаджень",
     "link": "https://minfin.com.ua/ua/company/bis",
     "site": "http://www.bisbank.com.ua/"
   },
@@ -160,6 +154,12 @@
     "name": "Банк Національний кредит",
     "link": "https://minfin.com.ua/ua/company/natsionalniy-kredit",
     "site": "http://www.bnk.ua"
+  },
+  {
+    "id": 609,
+    "name": "Банк Розрахунковий центр",
+    "link": "https://minfin.com.ua/ua/company/settlement",
+    "site": "http://settlement.com.ua"
   },
   {
     "id": 271,
@@ -184,24 +184,6 @@
     "name": "Банк Траст",
     "link": "https://minfin.com.ua/ua/company/bank-trust",
     "site": "http://banktrust.com.ua/"
-  },
-  {
-    "id": 120,
-    "name": "Банк Траст-капітал",
-    "link": "https://minfin.com.ua/ua/company/trust-capital",
-    "site": "http://www.tc-bank.com/ua.html"
-  },
-  {
-    "id": 99,
-    "name": "Банк Фамільний",
-    "link": "https://minfin.com.ua/ua/company/bank-familnyi",
-    "site": "http://www.fbank.com.ua/"
-  },
-  {
-    "id": 135,
-    "name": "Банк Форвард",
-    "link": "https://minfin.com.ua/ua/company/forward-bank",
-    "site": "http://forward-bank.com/"
   },
   {
     "id": 470,
@@ -256,6 +238,12 @@
     "name": "ВіЕс Банк",
     "link": "https://minfin.com.ua/ua/company/volksbank",
     "site": "http://www.vsbank.com.ua/"
+  },
+  {
+    "id": 18,
+    "name": "Восток Банк",
+    "link": "https://minfin.com.ua/ua/company/bank-vostok",
+    "site": "http://www.bankvostok.com.ua/"
   },
   {
     "id": 53,
@@ -523,7 +511,7 @@
   },
   {
     "id": 43,
-    "name": "Кредит Дніпро",
+    "name": "Кредит Дніпро Банк",
     "link": "https://minfin.com.ua/ua/company/credit-dnepr",
     "site": "http://www.creditdnepr.com.ua/"
   },
@@ -643,7 +631,7 @@
   },
   {
     "id": 198,
-    "name": "Мотор-банк",
+    "name": "Мотор-Банк",
     "link": "https://minfin.com.ua/ua/company/motor-bank",
     "site": "http://motor-bank.ua/"
   },
@@ -679,7 +667,7 @@
   },
   {
     "id": 61,
-    "name": "ОКСІ Банк",
+    "name": "Оксі Банк",
     "link": "https://minfin.com.ua/ua/company/oksi-bank",
     "site": "http://www.okcibank.com.ua/"
   },
@@ -697,7 +685,7 @@
   },
   {
     "id": 132,
-    "name": "Перший Інвестиційний Банк",
+    "name": "Перший інвестиційний Банк",
     "link": "https://minfin.com.ua/ua/company/fib",
     "site": "http://www.pinbank.ua/"
   },
@@ -757,7 +745,7 @@
   },
   {
     "id": 155,
-    "name": "Правекс банк",
+    "name": "Правекс Банк",
     "link": "https://minfin.com.ua/ua/company/pravex-bank",
     "site": "https://www.pravex.com.ua/"
   },
@@ -775,14 +763,14 @@
   },
   {
     "id": 1,
-    "name": "ПриватБанк",
+    "name": "Приватбанк",
     "link": "https://minfin.com.ua/ua/company/privatbank",
     "site": "http://privatbank.ua/"
   },
   {
     "id": 143,
-    "name": "ПроКредит Банк",
-    "link": "https://minfin.com.ua/ua/company/procredit-bank",
+    "name": "Прокредит Банк",
+    "link": "https://minfin.com.ua/ua/company/procredit_bank",
     "site": "http://procreditbank.com.ua/"
   },
   {
@@ -831,7 +819,7 @@
     "id": 58,
     "name": "Райффайзен Банк Аваль",
     "link": "https://minfin.com.ua/ua/company/aval",
-    "site": "http://www.aval.ua/"
+    "site": "https://www.aval.ua/"
   },
   {
     "id": 14,
@@ -856,12 +844,6 @@
     "name": "Родовід банк",
     "link": "https://minfin.com.ua/ua/company/rodovid-bank",
     "site": "http://rodovidbank.com/"
-  },
-  {
-    "id": 609,
-    "name": "Розрахунковий центр",
-    "link": "https://minfin.com.ua/ua/company/settlement",
-    "site": "http://settlement.com.ua"
   },
   {
     "id": 16,
@@ -940,6 +922,12 @@
     "name": "ТК Кредит",
     "link": "https://minfin.com.ua/ua/company/tk-credit",
     "site": "http://www.tkcredit.kiev.ua/"
+  },
+  {
+    "id": 120,
+    "name": "Траст-капітал",
+    "link": "https://minfin.com.ua/ua/company/trust-capital",
+    "site": "http://www.tc-bank.com/ua.html"
   },
   {
     "id": 117,
@@ -1038,6 +1026,12 @@
     "site": "http://www.ufw-bank.com/"
   },
   {
+    "id": 99,
+    "name": "Фамільний Банк",
+    "link": "https://minfin.com.ua/ua/company/bank-familnyi",
+    "site": "http://www.fbank.com.ua/"
+  },
+  {
     "id": 154,
     "name": "Фідобанк",
     "link": "https://minfin.com.ua/ua/company/fidobank",
@@ -1084,6 +1078,12 @@
     "name": "Фінростбанк",
     "link": "https://minfin.com.ua/ua/company/finrostbank",
     "site": "http://www.frb.com.ua/"
+  },
+  {
+    "id": 135,
+    "name": "Форвард Банк",
+    "link": "https://minfin.com.ua/ua/company/forward-bank",
+    "site": "http://forward-bank.com/"
   },
   {
     "id": 25,

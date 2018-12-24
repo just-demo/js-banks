@@ -1,12 +1,14 @@
 let iconv = require('iconv-lite');
 let utils = require('./utils');
 let fs = require('fs');
+let _ = require('lodash');
 
 module.exports = {
-    parse(file) {
-        const buffer = fs.readFileSync(file);
+    parse(fileOrBuffer) {
+        const buffer = _.isString(fileOrBuffer) ? fs.readFileSync(fileOrBuffer) : fileOrBuffer;
         const records = new DbfParser('cp866').parse(buffer);
-        utils.writeFile('./tmp/2.json', utils.toJson(records));
+        //utils.writeFile('../../data/tmp/dbf.json', utils.toJson(records));
+        return records;
     }
 };
 

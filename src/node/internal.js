@@ -10,6 +10,6 @@ module.exports = {
     },
 
     path(file) {
-        return './json/' + file + '.json';
+        return '../../data/json/' + file + '.json';
     }
 };

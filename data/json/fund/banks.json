@@ -178,18 +178,10 @@
     "active": true
   },
   {
-    "name": "ВТБ БАНК",
-    "start": "1999-09-02",
-    "site": [
-      "http://www.vtb.com.ua"
-    ],
-    "active": true
-  },
-  {
     "name": "СКАЙ БАНК",
     "start": "1999-09-02",
     "site": [
-      "https://skybank.pro"
+      "https://sky.bank"
     ],
     "active": true
   },
@@ -205,7 +197,6 @@
     "name": "МЕГАБАНК",
     "start": "1999-09-02",
     "site": [
-      "http://www.megabank.net",
       "https://www.megabank.ua",
       "http://www"
     ],
@@ -413,7 +404,7 @@
     "active": true
   },
   {
-    "name": "ТРАСТ-КАПІТАЛ",
+    "name": "БАНК ТРАСТ-КАПІТАЛ",
     "start": "2004-04-28",
     "site": [
       "http://www.tc-bank.com"
@@ -635,6 +626,21 @@
     "active": false
   },
   {
+    "name": "ЕРДЕ БАНК",
+    "link": "/not-paying/banky-likvidovani-fondom/58-erde-bank",
+    "active": false
+  },
+  {
+    "name": "ТАВРИКА",
+    "link": "/not-paying/banky-likvidovani-fondom/57-tavryka",
+    "active": false
+  },
+  {
+    "name": "КЛАСИКБАНК",
+    "link": "/not-paying/banky-likvidovani-fondom/174-pat-klasykbank",
+    "active": false
+  },
+  {
     "name": "БАЗИС",
     "link": "/not-paying/completed/59-bazis",
     "active": false
@@ -795,15 +801,15 @@
     "active": false
   },
   {
-    "name": "ЮНІСОН",
-    "issue": "2016-04-28",
-    "link": "/not-paying/liquidation/167-pat-bank-yunison",
+    "name": "ВТБ БАНК",
+    "issue": "2018-11-28",
+    "link": "/not-paying/liquidation/234-at-vtb-bank",
     "active": false
   },
   {
-    "name": "РОДОВІД БАНК",
-    "issue": "2016-02-26",
-    "link": "/not-paying/liquidation/160-at-rodovid-bank",
+    "name": "ЮНІСОН",
+    "issue": "2016-04-28",
+    "link": "/not-paying/liquidation/167-pat-bank-yunison",
     "active": false
   },
   {
@@ -813,14 +819,74 @@
     "active": false
   },
   {
+    "name": "НОВИЙ",
+    "issue": "2017-07-14",
+    "link": "/not-paying/liquidation/208-akb-novyy",
+    "active": false
+  },
+  {
     "name": "ГЕФЕСТ",
     "link": "/not-paying/liquidation/210-pat-komertsiynyy-bank-hefest",
     "active": false
   },
   {
-    "name": "НОВИЙ",
-    "issue": "2017-07-14",
-    "link": "/not-paying/liquidation/208-akb-novyy",
+    "name": "АКБ БАНК",
+    "issue": "2014-05-30",
+    "link": "/not-paying/liquidation/47-avtokrazbank",
+    "active": false
+  },
+  {
+    "name": "ЗАХІДІНКОМБАНК",
+    "issue": "2014-05-29",
+    "link": "/not-paying/liquidation/48-zahidinkombank",
+    "active": false
+  },
+  {
+    "name": "ІНТЕРБАНК",
+    "issue": "2014-04-24",
+    "link": "/not-paying/liquidation/51-interbank",
+    "active": false
+  },
+  {
+    "name": "БАНК ФОРУМ",
+    "issue": "2014-03-14",
+    "link": "/not-paying/liquidation/52-forum",
+    "active": false
+  },
+  {
+    "name": "МЕРКУРІЙ",
+    "issue": "2014-03-14",
+    "link": "/not-paying/liquidation/53-mercury",
+    "active": false
+  },
+  {
+    "name": "БРОКБІЗНЕСБАНК",
+    "issue": "2014-03-03",
+    "link": "/not-paying/liquidation/54-brokbiznesbank",
+    "active": false
+  },
+  {
+    "name": "РЕАЛ БАНК",
+    "issue": "2014-03-03",
+    "link": "/not-paying/liquidation/55-real-bank",
+    "active": false
+  },
+  {
+    "name": "ДАНІЕЛЬ",
+    "issue": "2014-01-17",
+    "link": "/not-paying/liquidation/56-daniel",
+    "active": false
+  },
+  {
+    "name": "ТЕРРА БАНК",
+    "issue": "2014-08-22",
+    "link": "/not-paying/liquidation/41-terra-bank",
+    "active": false
+  },
+  {
+    "name": "РОДОВІД БАНК",
+    "issue": "2016-02-26",
+    "link": "/not-paying/liquidation/160-at-rodovid-bank",
     "active": false
   },
   {
@@ -887,12 +953,6 @@
     "name": "ЄВРОБАНК",
     "issue": "2016-06-17",
     "link": "/not-paying/liquidation/175-pat-kb-yevrobank",
-    "active": false
-  },
-  {
-    "name": "КЛАСИКБАНК",
-    "issue": "2016-06-15",
-    "link": "/not-paying/liquidation/174-pat-klasykbank",
     "active": false
   },
   {
@@ -1232,12 +1292,6 @@
     "active": false
   },
   {
-    "name": "ТЕРРА БАНК",
-    "issue": "2014-08-22",
-    "link": "/not-paying/liquidation/41-terra-bank",
-    "active": false
-  },
-  {
     "name": "АКТИВ-БАНК",
     "issue": "2014-09-03",
     "link": "/not-paying/liquidation/40-aktyv-bank",
@@ -1283,66 +1337,6 @@
     "name": "СТАРОКИЇВСЬКИЙ БАНК",
     "issue": "2014-06-18",
     "link": "/not-paying/liquidation/46-starokyiv-bank",
-    "active": false
-  },
-  {
-    "name": "АКБ БАНК",
-    "issue": "2014-05-30",
-    "link": "/not-paying/liquidation/47-avtokrazbank",
-    "active": false
-  },
-  {
-    "name": "ЗАХІДІНКОМБАНК",
-    "issue": "2014-05-29",
-    "link": "/not-paying/liquidation/48-zahidinkombank",
-    "active": false
-  },
-  {
-    "name": "ІНТЕРБАНК",
-    "issue": "2014-04-24",
-    "link": "/not-paying/liquidation/51-interbank",
-    "active": false
-  },
-  {
-    "name": "БАНК ФОРУМ",
-    "issue": "2014-03-14",
-    "link": "/not-paying/liquidation/52-forum",
-    "active": false
-  },
-  {
-    "name": "МЕРКУРІЙ",
-    "issue": "2014-03-14",
-    "link": "/not-paying/liquidation/53-mercury",
-    "active": false
-  },
-  {
-    "name": "БРОКБІЗНЕСБАНК",
-    "issue": "2014-03-03",
-    "link": "/not-paying/liquidation/54-brokbiznesbank",
-    "active": false
-  },
-  {
-    "name": "РЕАЛ БАНК",
-    "issue": "2014-03-03",
-    "link": "/not-paying/liquidation/55-real-bank",
-    "active": false
-  },
-  {
-    "name": "ДАНІЕЛЬ",
-    "issue": "2014-01-17",
-    "link": "/not-paying/liquidation/56-daniel",
-    "active": false
-  },
-  {
-    "name": "ТАВРИКА",
-    "issue": "2012-12-21",
-    "link": "/not-paying/liquidation/57-tavryka",
-    "active": false
-  },
-  {
-    "name": "ЕРДЕ БАНК",
-    "issue": "2012-10-30",
-    "link": "/not-paying/liquidation/58-erde-bank",
     "active": false
   }
 ]

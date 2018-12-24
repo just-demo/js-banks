@@ -35,7 +35,7 @@ module.exports = {
     },
 
     extractBankPureName(bankFullName) {
-        const match = bankFullName.match(/.*["«](.+?)["»]/);
+        const match = bankFullName.match(/.*['"«](.+?)['"»]/);
         return this.normalize(assert.true('Full name is pure name', match, bankFullName) ? match[1] : bankFullName);
     },
 

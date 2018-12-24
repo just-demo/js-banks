@@ -206,7 +206,8 @@ module.exports = {
 
         _.forOwn(bankFiles, (bankNames, file) => {
             const link = 'https://bank.gov.ua/files/Licences_bank/' + file;
-            const textFile = './binary/nbu/not-banks/text/' + file.split('.')[0] + '.txt';
+            // TODO: remove this dependency
+            const textFile = '../../data/binary/nbu/not-banks/text/' + file.split('.')[0] + '.txt';
             function process(text) {
                 //Дата відкликання20.07.2011
                 const bank = regex.findObject(text,/^(.+?)Назва банку(.*?Дата відкликання(\d{2}\.\d{2}\.\d{4}))?/g, {
@@ -236,7 +237,7 @@ module.exports = {
                 utils.writeFile(textFile, text);
                 process(text);
             });
-            pdfParser.loadPDF("./binary/nbu/not-banks/pdf/" + file);
+            pdfParser.loadPDF("../../data/binary/nbu/not-banks/pdf/" + file);
             // TODO: wait until all files are parsed and collect data in the very end
         });
     },
@@ -260,17 +261,11 @@ module.exports = {
     },
 
     // TODO: fetch based on ids from DBF file
-    fetchAndSaveBanksByIds() {
-        for (let id = 10300; id < 100000; id++) {
-            if (!(id % 100)) {
-                console.log('id:', id);
-            }
-            const html = utils.readURL('https://bank.gov.ua/control/uk/bankdict/bank?id=' + id);
-            const type = html.match(/<td.*?>Тип<\/td>\s*?<td.*?>(.+?)<\/td>/);
-            if (type && type[1] === 'Банк') {
-                const subFolder = (Math.floor(id / 1000) + 1) * 1000;
-                utils.writeFile('./html/nbu/banks/ids/' + subFolder + '/' + id + '.html', html);
-            }
+    fetchAndSaveBanksById(id) {
+        const html = utils.readURL('https://bank.gov.ua/control/uk/bankdict/bank?id=' + id);
+        const type = regex.findSingleValue(html, /<td.*?>Тип<\/td>\s*?<td.*?>(.+?)<\/td>/);
+        if (type === 'Банк') {
+            // TODO: cache and parse html same as in this.saveBanksUI
         }
     }
 };
