@@ -46,6 +46,15 @@ module.exports = {
         const files = Object.keys(bankFiles);
         const pool = new AsyncMapperPool(files, file => new Promise(resolve => {
             const url = 'https://bank.gov.ua/files/Licences_bank/' + file;
+            const textFile = 'nbu/not-banks/text/' + path.parse(file).name + '.txt';
+
+            // TODO: remove this temporary optimization and inline process function when there only one usage left
+            const text = ext.calc(textFile, () => null);
+            if (text) {
+                process(text);
+                return;
+            }
+
             const pdf = ext.download('nbu/not-banks/pdf/' + file, url);
             const pdfParser = new PDFParser();
             pdfParser.on("pdfParser_dataError", data => {
@@ -54,7 +63,11 @@ module.exports = {
             });
             pdfParser.on("pdfParser_dataReady", data => {
                 // Process immediately to save memory
-                const text = ext.calc('nbu/not-banks/text/' + path.parse(file).name + '.txt', () => this.extractText(data));
+                const text = ext.calc(textFile, () => this.extractText(data));
+                process(text);
+            });
+            pdfParser.parseBuffer(pdf);
+            function process(text) {
                 const bank = regex.findObject(text,/^(.+?)Назва банку(.*?Дата відкликання(\d{2}\.\d{2}\.\d{4}))?/g, {
                     name: 1, dateIssue: 3
                 });
@@ -64,8 +77,7 @@ module.exports = {
                     dateIssue: dates.format(bank.dateIssue),
                     link: url
                 });
-            });
-            pdfParser.parseBuffer(pdf);
+            }
         }));
         pool.start().then(banks => {
             banks.sort(names.compareNames);

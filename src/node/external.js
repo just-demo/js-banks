@@ -30,7 +30,7 @@ module.exports = {
             return read('READ', file, utils.readFile);
         }
         const result = read('CALC', cache, operation);
-        utils.writeFile(file, result);
+        result && utils.writeFile(file, result);
         return result;
     },
 };
