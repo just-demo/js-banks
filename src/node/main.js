@@ -18,27 +18,52 @@ console.log('start');
 
 const files = ['a', 'b', 'c', 'd', 'e'];
 
-const promises = function * () {
-    for (let file of files) {
-        yield new Promise(resolve => {
+// const pool = new AsyncMapperPool(files, file => file + '_done', 2);
+const pool = new AsyncMapperPool(files, file => {
+    return new Promise(resolve => {
             setTimeout(() => {
                 console.log(file);
                 resolve(file + '_done');
             }, 1000);
         });
+}, 2);
+pool.start().then(result => console.log(result));
+// const promises = function * () {
+//     for (let file of files) {
+//         yield new Promise(resolve => {
+//             setTimeout(() => {
+//                 console.log(file);
+//                 resolve(file + '_done');
+//             }, 1000);
+//         });
+//     }
+// };
+//
+// const promiseIterator = promises();
+// // TODO: start here - create PoolingAsyncMapper
+// const pool = new PromisePool(promiseIterator, 2);
+//
+// const data = [];
+// pool.addEventListener('fulfilled', function (event) {
+//     data.push(event.data.result);
+// });
+//
+// pool.start().then(() => console.log('Complete', data));
+
+function AsyncMapperPool(items, itemMapper, poolSize) {
+    poolSize = poolSize || 10;
+    this.start = function() {
+        const promises = function * () {
+            for (let item of items) {
+                yield new Promise(resolve => resolve(itemMapper(item)));
+            }
+        };
+        const pool = new PromisePool(promises(), poolSize);
+        const result = [];
+        pool.addEventListener('fulfilled', (event) => result.push(event.data.result));
+        return pool.start().then(() => result);
     }
-};
-
-const promiseIterator = promises();
-// TODO: start here - create PoolingAsyncMapper
-const pool = new PromisePool(promiseIterator, 2);
-
-const data = [];
-pool.addEventListener('fulfilled', function (event) {
-    data.push(event.data.result);
-});
-
-pool.start().then(() => console.log('Complete', data));
+}
 
 // nbuAPI.saveBanks();
 // nbuDBF.saveBanks();
