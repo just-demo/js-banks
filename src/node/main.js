@@ -15,15 +15,15 @@ const AsyncMapperPool = require('./async-mapper-pool');
 // let t = require('../src/test');
 // console.log(t.hello());
 
-// nbuAPI.saveBanks();
-// nbuDBF.saveBanks();
+nbuAPI.saveBanks();
+nbuDBF.saveBanks();
 nbuPDF.saveBanks();
-// nbuUI.saveBanks();
-// fund.saveAll();
-// minfin.saveAll();
-// names.rebuildBankNames();
+nbuUI.saveBanks();
+fund.saveAll();
+minfin.saveAll();
+names.rebuildBankNames();
 
-// combineBanks();
+combineBanks();
 // dbf.parse('../../data/binary/nbu/RCUKRU.DBF');
 
 // const banks = int.read('nbu/banks-pdf');
