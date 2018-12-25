@@ -24,7 +24,7 @@ module.exports = {
     },
 
     rebuildBankNames() {
-        const compareFirst = (a, b) => a[0] > b[0] ? 1 : a[0] < b[0] ? -1 : 0;
+        const compareFirst = (a, b) => compare(a[0], b[0]);
         const dbfNames = int.read('nbu/banks-dbf').map(bank => buildVariants([bank.name, bank.fullName]));
         dbfNames.sort(compareFirst);
         int.write('names/banks-dbf', dbfNames);
@@ -54,8 +54,30 @@ module.exports = {
 
     removeTags(name) {
         return name.replace(/<[^>]*>/g, '');
+    },
+
+    // TODO: move to a better place?
+    // Just for predictable sorting taking into account asynchrony being introduced
+    compareNames(a, b) {
+        // TODO: switch "name" to "names" everywhere
+        return compareArrays(a.name, b.name);
     }
 };
+
+function compareArrays(a, b) {
+    const len = Math.min(a.length, b.length);
+    for (let i = 0; i < len; i++) {
+        const diff = compare(a[i], b[i]);
+        if (diff) {
+            return diff;
+        }
+    }
+    return compare(a.length, b.length);
+}
+
+function compare(a, b) {
+    return a > b ? 1 : a < b ? -1 : 0;
+}
 
 function buildVariants(names) {
     const variants = [];

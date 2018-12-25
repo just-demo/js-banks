@@ -8,7 +8,7 @@ const assert = require('../assert');
 const regex = require('../regex');
 const PDFParser = require('pdf2json');
 const path = require('path');
-const PromisePool = require('es6-promise-pool');
+const AsyncMapperPool = require('../async-mapper-pool');
 
 module.exports = {
     // Банківський нагляд -> Реєстрація та ліцензування -> Банківські ліцензії та види діяльності банків України:
@@ -43,8 +43,8 @@ module.exports = {
             bankFiles[bank.file].push(names.normalize(names.removeTags(bank.name)));
         });
 
-        // TODO: reuse https://www.npmjs.com/package/es6-promise-pool
-        const promises = Object.keys(bankFiles).map(file => new Promise(resolve => {
+        const files = Object.keys(bankFiles);
+        const pool = new AsyncMapperPool(files, file => new Promise(resolve => {
             const url = 'https://bank.gov.ua/files/Licences_bank/' + file;
             const pdf = ext.download('nbu/not-banks/pdf/' + file, url);
             const pdfParser = new PDFParser();
@@ -67,9 +67,8 @@ module.exports = {
             });
             pdfParser.parseBuffer(pdf);
         }));
-
-        Promise.all(promises).then(banks => {
-            banks = banks.filter(bank => bank);
+        pool.start().then(banks => {
+            banks.sort(names.compareNames);
             int.write('nbu/banks-pdf', banks);
             console.log(banks.length);
             console.log('Time:', new Date() - startTime)

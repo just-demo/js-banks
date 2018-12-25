@@ -1,6 +1,29 @@
 [
   {
     "name": [
+      "ЄВРОБАНК"
+    ],
+    "dateIssue": "2016-08-16",
+    "link": "https://bank.gov.ua/files/Licences_bank/380355.pdf"
+  },
+  {
+    "name": [
+      "ЄВРОБАНК",
+      "ЗАХІДІНВЕСТБАНК",
+      "ХІАЛАБАНК"
+    ],
+    "dateIssue": "2000-04-24",
+    "link": "https://bank.gov.ua/files/Licences_bank/353166.pdf"
+  },
+  {
+    "name": [
+      "ЄВРОПЕЙСЬКИЙ"
+    ],
+    "dateIssue": "2009-08-19",
+    "link": "https://bank.gov.ua/files/Licences_bank/380184.pdf"
+  },
+  {
+    "name": [
       "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ",
       "VG БАНК",
       "СТОІК",
@@ -11,23 +34,162 @@
   },
   {
     "name": [
-      "ТК КРЕДИТ",
-      "А К УДБ БАНК",
-      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК ТК КРЕДИТ"
+      "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ",
+      "ЄБРЗ",
+      "ОКБ",
+      "СІНК"
     ],
-    "dateIssue": "2016-04-07",
-    "link": "https://bank.gov.ua/files/Licences_bank/322830.pdf"
+    "dateIssue": "2008-02-25",
+    "link": "https://bank.gov.ua/files/Licences_bank/324485.pdf"
   },
   {
     "name": [
-      "УНІВЕРСАЛ БАНК",
-      "АБ ОАЗИС",
-      "БАНК УНІВЕРСАЛЬНИЙ",
-      "ЄВРОЦЕНТР",
-      "КБ ОАЗИС"
+      "ЄВРОПЕЙСЬКИЙ ГАЗОВИЙ БАНК",
+      "ЄВРОГАЗБАНК"
+    ],
+    "dateIssue": "2014-11-17",
+    "link": "https://bank.gov.ua/files/Licences_bank/380430.pdf"
+  },
+  {
+    "name": [
+      "ЄВРОПЕЙСЬКИЙ ПРОМИСЛОВИЙ БАНК",
+      "ЄВРОПРОМБАНК"
     ],
     "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/322001.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/377090.pdf"
+  },
+  {
+    "name": [
+      "ІДЕЯ БАНК",
+      "ІДЕЯ БАНК (ПЛЮС БАНК)",
+      "ПЛЮС БАНК",
+      "ПРИКАРПАТЛІСБАНК",
+      "ПРИКАРПАТТЯ"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/336310.pdf"
+  },
+  {
+    "name": [
+      "ІМЕКСБАНК"
+    ],
+    "dateIssue": "2015-05-27",
+    "link": "https://bank.gov.ua/files/Licences_bank/328384.pdf"
+  },
+  {
+    "name": [
+      "ІНВЕСТ-БАНК УКРАЇНА",
+      "БАНК КІБ",
+      "ІНВЕСТ БАНК УКРАЇНА"
+    ],
+    "dateIssue": "2000-10-24",
+    "link": "https://bank.gov.ua/files/Licences_bank/351953.pdf"
+  },
+  {
+    "name": [
+      "ІНВЕСТБАНК",
+      "ОДЕСЬКИЙ КОМЕРЦІЙНИЙ БАНК ІНВЕСТБАНК"
+    ],
+    "dateIssue": "2017-01-11",
+    "link": "https://bank.gov.ua/files/Licences_bank/328210.pdf"
+  },
+  {
+    "name": [
+      "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
+      "ІНВЕСТИЦІЙНО ТРАСТОВИЙ БАНК"
+    ],
+    "dateIssue": "2016-05-31",
+    "link": "https://bank.gov.ua/files/Licences_bank/380957.pdf"
+  },
+  {
+    "name": [
+      "ІНГ БАНК УКРАЇНА"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/300539.pdf"
+  },
+  {
+    "name": [
+      "ІНДУСТРІАЛБАНК",
+      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК СПІВДРУЖНІСТЬ",
+      "СПІВДРУЖНІСТЬ"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/313849.pdf"
+  },
+  {
+    "name": [
+      "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК",
+      "АНДРІЇВСЬКИЙ",
+      "ІННОВАЦІЙНО ПРОМИСЛОВИЙ БАНК"
+    ],
+    "dateIssue": "2003-06-27",
+    "link": "https://bank.gov.ua/files/Licences_bank/322863.pdf"
+  },
+  {
+    "name": [
+      "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК",
+      "БАНК ТОРГОВОГО СПІВРОБІТНИЦТВА",
+      "ІНПРОМБАНК",
+      "УБТС"
+    ],
+    "dateIssue": "2012-03-02",
+    "link": "https://bank.gov.ua/files/Licences_bank/351878.pdf"
+  },
+  {
+    "name": [
+      "ІНТЕГРАЛ-БАНК",
+      "ІНТЕГРАЛ",
+      "ІНТЕГРАЛ БАНК"
+    ],
+    "dateIssue": "2015-11-25",
+    "link": "https://bank.gov.ua/files/Licences_bank/320735.pdf"
+  },
+  {
+    "name": [
+      "ІНТЕРБАНК"
+    ],
+    "dateIssue": "2014-07-23",
+    "link": "https://bank.gov.ua/files/Licences_bank/300216.pdf"
+  },
+  {
+    "name": [
+      "ІНТЕРКОНТБАНК"
+    ],
+    "dateIssue": "1999-10-20",
+    "link": "https://bank.gov.ua/files/Licences_bank/324678.pdf"
+  },
+  {
+    "name": [
+      "ІНТЕРКОНТИНЕНТБАНК",
+      "ЕДЛАНД",
+      "СИНДИКАТ"
+    ],
+    "dateIssue": "2006-04-04",
+    "link": "https://bank.gov.ua/files/Licences_bank/300313.pdf"
+  },
+  {
+    "name": [
+      "ІНТЕРКРЕДИТБАНК"
+    ],
+    "dateIssue": "2015-01-16",
+    "link": "https://bank.gov.ua/files/Licences_bank/307424.pdf"
+  },
+  {
+    "name": [
+      "ІПОБАНК"
+    ],
+    "dateIssue": "2010-03-23",
+    "link": "https://bank.gov.ua/files/Licences_bank/380270.pdf"
+  },
+  {
+    "name": [
+      "ІПОТЕЧНИЙ КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК",
+      "ІКАБ",
+      "ІПОТЕЧНИЙ КАБ"
+    ],
+    "dateIssue": "1999-03-02",
+    "link": "https://bank.gov.ua/files/Licences_bank/322636.pdf"
   },
   {
     "name": [
@@ -39,22 +201,6 @@
   },
   {
     "name": [
-      "РАЙФФАЙЗЕН БАНК АВАЛЬ",
-      "АВАЛЬ"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300335.pdf"
-  },
-  {
-    "name": [
-      "БАНК АВАНГАРД",
-      "АВАНГАРД"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380946.pdf"
-  },
-  {
-    "name": [
       "АВАНТ-БАНК",
       "АВАНТ БАНК"
     ],
@@ -63,32 +209,27 @@
   },
   {
     "name": [
-      "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
-      "АВІАТЕКБАНК",
-      "БАНК ПЕТРОКОММЕРЦ УКРАЇНА",
-      "ПЕТРОКОММЕРЦ УКРАЇНА"
-    ],
-    "dateIssue": "2016-04-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/300120.pdf"
-  },
-  {
-    "name": [
-      "АЛЬТБАНК",
-      "АВТОЗАЗБАНК",
-      "АЛЬТБАНК (НЕОС БАНК)",
-      "БАНК КІПРУ ( АВТОЗАЗБАНК )",
-      "КОМЕРЦІЙНИЙ АВТОЗАЗБАНК",
-      "НЕОС БАНК (БАНК КІПРУ)"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/320940.pdf"
-  },
-  {
-    "name": [
       "АВТОКРАЗБАНК"
     ],
     "dateIssue": "2014-08-29",
     "link": "https://bank.gov.ua/files/Licences_bank/331100.pdf"
+  },
+  {
+    "name": [
+      "АГРОПРОСПЕРІС БАНК",
+      "АГРОПРОСПЕРІС БАНК (АСТРА БАНК)",
+      "АСТРА"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/380548.pdf"
+  },
+  {
+    "name": [
+      "АЗОВ-БАНК",
+      "АЗОВ БАНК"
+    ],
+    "dateIssue": "1999-04-30",
+    "link": "https://bank.gov.ua/files/Licences_bank/335010.pdf"
   },
   {
     "name": [
@@ -102,72 +243,10 @@
   },
   {
     "name": [
-      "БАНК ВОСТОК",
-      "АГРОБАНК",
-      "БАНК ВОСТОК (ХОУМ КРЕДИТ БАНК)",
-      "ХОУМ КРЕДИТ БАНК",
-      "ХОУМ КРЕДІТ БАНК"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/307123.pdf"
-  },
-  {
-    "name": [
-      "АГРОПРОСПЕРІС БАНК",
-      "АГРОПРОСПЕРІС БАНК (АСТРА БАНК)",
-      "АСТРА"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380548.pdf"
-  },
-  {
-    "name": [
-      "ФІДОБАНК",
-      "АЖІО",
-      "СЕБ БАНК",
-      "ФІДОБАНК (СЕБ БАНК)"
-    ],
-    "dateIssue": "2016-07-18",
-    "link": "https://bank.gov.ua/files/Licences_bank/300175.pdf"
-  },
-  {
-    "name": [
-      "АЗОВ-БАНК",
-      "АЗОВ БАНК"
-    ],
-    "dateIssue": "1999-04-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/335010.pdf"
-  },
-  {
-    "name": [
-      "БАНК ФОРВАРД",
-      "АІС БАНК",
-      "БАНК РУСКИЙ СТАНДАРТ",
-      "БАНК ФОРВАРД (БАНК РУСКИЙ СТАНДАРТ)",
-      "РУСКИЙ СТАНДАРТ"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380418.pdf"
-  },
-  {
-    "name": [
       "АКОРДБАНК"
     ],
     "dateIssue": null,
     "link": "https://bank.gov.ua/files/Licences_bank/380634.pdf"
-  },
-  {
-    "name": [
-      "БГ БАНК",
-      "АКСІ БАНК",
-      "БАНК ПЕРШИЙ (БГ БАНК)",
-      "БАНК ПЕРШИЙ (БГ БАНК) (УБРП)",
-      "БГ БАНК (БАНК ПЕРШИЙ)",
-      "БГ БАНК (УБРП)",
-      "УНІВЕРС БАНК РОЗВИТКУ ТА ПАРТН"
-    ],
-    "dateIssue": "2015-02-26",
-    "link": "https://bank.gov.ua/files/Licences_bank/320995.pdf"
   },
   {
     "name": [
@@ -195,6 +274,23 @@
   },
   {
     "name": [
+      "АКЦІОНЕРНИЙ БАНК КРЕДІ СВІСС ФЬОРСТ БОСТОН (УКРАЇНА)",
+      "КРЕДІ СВІСС ФЬОРСТ БОСТОН"
+    ],
+    "dateIssue": "2004-03-23",
+    "link": "https://bank.gov.ua/files/Licences_bank/300562.pdf"
+  },
+  {
+    "name": [
+      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ ПРОМИСЛОВО-ІНВЕСТИЦІЙНИЙ БАНК",
+      "ПРОМІНВЕСТБАНК",
+      "ПРОМІНВЕСТБАНК УКРАЇНИ"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/300012.pdf"
+  },
+  {
+    "name": [
       "АКЦЕНТ-БАНК",
       "АКЦЕНТ БАНК",
       "КИЇВПРИВАТБАНК",
@@ -202,96 +298,6 @@
     ],
     "dateIssue": null,
     "link": "https://bank.gov.ua/files/Licences_bank/307770.pdf"
-  },
-  {
-    "name": [
-      "СЕБ КОРПОРАТИВНИЙ БАНК",
-      "АКЦЕПТ БАНК",
-      "СЕБ КОРПОРАТИВНИЙ БАНК (АКЦЕПТ БАНК)"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380797.pdf"
-  },
-  {
-    "name": [
-      "ДОНГОРБАНК",
-      "АКЦЕПТБАНК",
-      "ДОНМІСЬКБАНК",
-      "КОМЕРЦІЙНИЙ БАНК АКЦЕПТБАНК"
-    ],
-    "dateIssue": "2011-07-20",
-    "link": "https://bank.gov.ua/files/Licences_bank/334970.pdf"
-  },
-  {
-    "name": [
-      "УКРГАЗПРОМБАНК",
-      "АКЦІОНЕРНИЙ БАНК УКРГАЗПРОМБАНК"
-    ],
-    "dateIssue": "2015-09-14",
-    "link": "https://bank.gov.ua/files/Licences_bank/320843.pdf"
-  },
-  {
-    "name": [
-      "НАРОДНИЙ БАНК",
-      "АКЦІОНЕРНИЙ КИЇВСЬКИЙ НАРОДНИЙ БАНК",
-      "КИЇВСЬКИЙ НАРОДНИЙ БАНК"
-    ],
-    "dateIssue": "2002-06-27",
-    "link": "https://bank.gov.ua/files/Licences_bank/300090.pdf"
-  },
-  {
-    "name": [
-      "ТОРГОВО-ПРОМИСЛОВИЙ БАНК",
-      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК ТОРГОВО ПРОМИСЛОВИЙ БАНК",
-      "ТОРГОВО ПРОМИСЛОВИЙ БАНК",
-      "ТОРГПРОМБАНК"
-    ],
-    "dateIssue": "1999-05-13",
-    "link": "https://bank.gov.ua/files/Licences_bank/321660.pdf"
-  },
-  {
-    "name": [
-      "ВТБ БАНК",
-      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК МРІЯ",
-      "МРІЯ"
-    ],
-    "dateIssue": "2018-12-18",
-    "link": "https://bank.gov.ua/files/Licences_bank/321767.pdf"
-  },
-  {
-    "name": [
-      "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
-      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
-      "НАЦІОНАЛЬНИЙ КРЕДИТ"
-    ],
-    "dateIssue": "2015-08-31",
-    "link": "https://bank.gov.ua/files/Licences_bank/320702.pdf"
-  },
-  {
-    "name": [
-      "НОВИЙ",
-      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК НОВИЙ"
-    ],
-    "dateIssue": "2017-08-31",
-    "link": "https://bank.gov.ua/files/Licences_bank/305062.pdf"
-  },
-  {
-    "name": [
-      "РОДОВІД БАНК",
-      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК ПЕРСОНАЛЬНИЙ КОМП'ЮТЕР (ПЕРКОМБАНК)",
-      "ПЕРСОНАЛЬНИЙ КОМП'ЮТЕР"
-    ],
-    "dateIssue": "2017-12-19",
-    "link": "https://bank.gov.ua/files/Licences_bank/321712.pdf"
-  },
-  {
-    "name": [
-      "ІНДУСТРІАЛБАНК",
-      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК СПІВДРУЖНІСТЬ",
-      "СПІВДРУЖНІСТЬ"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/313849.pdf"
   },
   {
     "name": [
@@ -309,6 +315,18 @@
   },
   {
     "name": [
+      "АЛЬТБАНК",
+      "АВТОЗАЗБАНК",
+      "АЛЬТБАНК (НЕОС БАНК)",
+      "БАНК КІПРУ ( АВТОЗАЗБАНК )",
+      "КОМЕРЦІЙНИЙ АВТОЗАЗБАНК",
+      "НЕОС БАНК (БАНК КІПРУ)"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/320940.pdf"
+  },
+  {
+    "name": [
       "АЛЬФА-БАНК",
       "АЛЬФА БАНК",
       "ВІТО",
@@ -319,30 +337,11 @@
   },
   {
     "name": [
-      "БАНК АЛЬЯНС",
-      "АЛЬЯНС",
-      "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК АЛЬЯНС КРЕДИТ БАНК"
+      "АМАСКО",
+      "КОМЕРЦІЙНИЙ БАНК АМАСКО"
     ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300119.pdf"
-  },
-  {
-    "name": [
-      "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК",
-      "АНДРІЇВСЬКИЙ",
-      "ІННОВАЦІЙНО ПРОМИСЛОВИЙ БАНК"
-    ],
-    "dateIssue": "2003-06-27",
-    "link": "https://bank.gov.ua/files/Licences_bank/322863.pdf"
-  },
-  {
-    "name": [
-      "КОНТРАКТ",
-      "АНТАРЕС",
-      "БАНК АНТАРЕС"
-    ],
-    "dateIssue": "2015-12-10",
-    "link": "https://bank.gov.ua/files/Licences_bank/322465.pdf"
+    "dateIssue": "1999-09-23",
+    "link": "https://bank.gov.ua/files/Licences_bank/311517.pdf"
   },
   {
     "name": [
@@ -354,17 +353,17 @@
   },
   {
     "name": [
-      "АРКАДА"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/322335.pdf"
-  },
-  {
-    "name": [
       "АРКАДІЯ"
     ],
     "dateIssue": "2000-03-22",
     "link": "https://bank.gov.ua/files/Licences_bank/328094.pdf"
+  },
+  {
+    "name": [
+      "АРКАДА"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/322335.pdf"
   },
   {
     "name": [
@@ -390,16 +389,6 @@
   },
   {
     "name": [
-      "УКРАЇНСЬКИЙ ПРОМИСЛОВИЙ БАНК",
-      "АРЧ БАНК",
-      "ДЕМОСБАНК",
-      "УКРПРОМБАНК"
-    ],
-    "dateIssue": "2010-01-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/321228.pdf"
-  },
-  {
-    "name": [
       "АСВІО БАНК",
       "АСВІО БАНК (ПРИВАТІНВЕСТ)",
       "ПРИВАТІНВЕСТ",
@@ -410,21 +399,11 @@
   },
   {
     "name": [
-      "УКРСПЕЦІМПЕКСБАНК",
-      "АСКОЛЬД",
-      "БАНКІРСЬКИЙ ДІМ"
+      "БІГ ЕНЕРГІЯ",
+      "ЗЕВС"
     ],
-    "dateIssue": "2003-07-29",
-    "link": "https://bank.gov.ua/files/Licences_bank/322368.pdf"
-  },
-  {
-    "name": [
-      "ХФБ БАНК УКРАЇНА",
-      "БА КА УКРАЇНА",
-      "КРЕДИТАНШТАЛЬТ УКРАЇНА"
-    ],
-    "dateIssue": "2007-10-22",
-    "link": "https://bank.gov.ua/files/Licences_bank/320724.pdf"
+    "dateIssue": "2010-03-01",
+    "link": "https://bank.gov.ua/files/Licences_bank/322603.pdf"
   },
   {
     "name": [
@@ -435,28 +414,43 @@
   },
   {
     "name": [
-      "ЗЕМЕЛЬНИЙ КАПІТАЛ",
-      "БАНК ЗЕМЕЛЬНИЙ КАПІТАЛ"
+      "БАНК 3/4"
     ],
     "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/305880.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380645.pdf"
   },
   {
     "name": [
-      "ІНВЕСТ-БАНК УКРАЇНА",
-      "БАНК КІБ",
-      "ІНВЕСТ БАНК УКРАЇНА"
+      "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
+      "БАНК ІНВЕСТ ТА ЗАОЩАДЖЕНЬ"
     ],
-    "dateIssue": "2000-10-24",
-    "link": "https://bank.gov.ua/files/Licences_bank/351953.pdf"
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/380281.pdf"
   },
   {
     "name": [
-      "РАДАБАНК",
-      "БАНК АГРОС"
+      "БАНК АВАНГАРД",
+      "АВАНГАРД"
     ],
     "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/306500.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380946.pdf"
+  },
+  {
+    "name": [
+      "БАНК АЛЬЯНС",
+      "АЛЬЯНС",
+      "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК АЛЬЯНС КРЕДИТ БАНК"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/300119.pdf"
+  },
+  {
+    "name": [
+      "БАНК БОГУСЛАВ",
+      "БОГУСЛАВ"
+    ],
+    "dateIssue": "2017-11-30",
+    "link": "https://bank.gov.ua/files/Licences_bank/380322.pdf"
   },
   {
     "name": [
@@ -470,29 +464,30 @@
   },
   {
     "name": [
-      "ГРАНТ",
-      "БАНК ГРАНТ"
+      "БАНК ВОСТОК",
+      "АГРОБАНК",
+      "БАНК ВОСТОК (ХОУМ КРЕДИТ БАНК)",
+      "ХОУМ КРЕДИТ БАНК",
+      "ХОУМ КРЕДІТ БАНК"
     ],
     "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/351607.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/307123.pdf"
   },
   {
     "name": [
-      "ФІНАНСИ ТА КРЕДИТ",
-      "БАНК ДІЛОВОГО СПІВРОБІТНИЦТВА",
-      "БАНК ФІНАНСИ ТА КРЕДИТ",
-      "ФІНАНСИ І КРЕДИТ"
+      "БАНК ЗОЛОТІ ВОРОТА",
+      "ЗОЛОТІ ВОРОТА"
     ],
-    "dateIssue": "2015-12-17",
-    "link": "https://bank.gov.ua/files/Licences_bank/300131.pdf"
+    "dateIssue": "2014-12-04",
+    "link": "https://bank.gov.ua/files/Licences_bank/351931.pdf"
   },
   {
     "name": [
-      "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
-      "БАНК ІНВЕСТ ТА ЗАОЩАДЖЕНЬ"
+      "БАНК КАМБІО",
+      "КАМБІО"
     ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380281.pdf"
+    "dateIssue": "2015-02-27",
+    "link": "https://bank.gov.ua/files/Licences_bank/380399.pdf"
   },
   {
     "name": [
@@ -505,15 +500,11 @@
   },
   {
     "name": [
-      "КОРПОРАТИВНИЙ ТА ІНВЕСТИЦІЙНИЙ БАНК КРЕДІ АГРІКОЛЬ",
-      "БАНК КРЕДІ ЛІОНЕ УКРАЇНА",
-      "КАЛІОН БАНК УКРАЇНА",
-      "КІБ КРЕДІ АГРІКОЛЬ (КАЛІОН БАНК УКРАЇНА)",
-      "КРЕДІ ЛІОНЕ УКРАЇНА",
-      "ЛІОНСЬКИЙ КРЕДИТ УКРАЇНА"
+      "БАНК МИХАЙЛІВСЬКИЙ",
+      "МИХАЙЛІВСЬКИЙ"
     ],
-    "dateIssue": "2012-11-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/300379.pdf"
+    "dateIssue": "2016-07-12",
+    "link": "https://bank.gov.ua/files/Licences_bank/380935.pdf"
   },
   {
     "name": [
@@ -527,41 +518,31 @@
   },
   {
     "name": [
-      "СБЕРБАНК",
-      "БАНК НРБ",
-      "НРБ УКРАЇНА"
+      "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
+      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
+      "НАЦІОНАЛЬНИЙ КРЕДИТ"
     ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/320627.pdf"
+    "dateIssue": "2015-08-31",
+    "link": "https://bank.gov.ua/files/Licences_bank/320702.pdf"
   },
   {
     "name": [
-      "УНІКРЕДИТ БАНК",
-      "БАНК ПЕКАО (УКРАЇНА)",
-      "БАНК ПЕКАО (УКРАЇНА) ЛТД",
-      "БДК (УКРАЇНА) ЛТД",
-      "БДК (УКРАЇНА) ЛТД В ЛУЦЬКУ"
+      "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
+      "АВІАТЕКБАНК",
+      "БАНК ПЕТРОКОММЕРЦ УКРАЇНА",
+      "ПЕТРОКОММЕРЦ УКРАЇНА"
     ],
-    "dateIssue": "2013-12-05",
-    "link": "https://bank.gov.ua/files/Licences_bank/303536.pdf"
+    "dateIssue": "2016-04-21",
+    "link": "https://bank.gov.ua/files/Licences_bank/300120.pdf"
   },
   {
     "name": [
-      "УНІКОМБАНК",
-      "БАНК ПЕРСПЕКТИВА",
-      "ПУБЛІЧНЕ УНІКОМБАНК",
-      "УНІКОМБАНК (БАНК ПЕРСПЕКТИВА)"
+      "БАНК ПРОФЕСІЙНОГО ФІНАНСУВАННЯ",
+      "ІКАР БАНК",
+      "ПРОФІН БАНК (ІКАР БАНК)"
     ],
-    "dateIssue": "2015-12-03",
-    "link": "https://bank.gov.ua/files/Licences_bank/335902.pdf"
-  },
-  {
-    "name": [
-      "ПОРТАЛ",
-      "БАНК ПОРТАЛ"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/339016.pdf"
+    "dateIssue": "2015-04-15",
+    "link": "https://bank.gov.ua/files/Licences_bank/334594.pdf"
   },
   {
     "name": [
@@ -583,15 +564,6 @@
   },
   {
     "name": [
-      "СМАРТБАНК",
-      "БАНК РИНКОВІ ТЕХНОЛОГІЇ",
-      "СМАРТБАНК (БАНК РИНКОВІ ТЕХНОЛОГІЇ)"
-    ],
-    "dateIssue": "2016-07-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/380786.pdf"
-  },
-  {
-    "name": [
       "БАНК СІЧ"
     ],
     "dateIssue": null,
@@ -599,32 +571,11 @@
   },
   {
     "name": [
-      "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК",
-      "БАНК ТОРГОВОГО СПІВРОБІТНИЦТВА",
-      "ІНПРОМБАНК",
-      "УБТС"
+      "БАНК СТОЛИЦЯ",
+      "СТОЛИЦЯ"
     ],
-    "dateIssue": "2012-03-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/351878.pdf"
-  },
-  {
-    "name": [
-      "УКРАЇНА",
-      "БАНК УКРАЇНА",
-      "БАНК УКРАЇНА АК"
-    ],
-    "dateIssue": "2001-07-16",
-    "link": "https://bank.gov.ua/files/Licences_bank/300410.pdf"
-  },
-  {
-    "name": [
-      "УКРАЇНСЬКИЙ КАПІТАЛ",
-      "БАНК УКРАЇНСЬКИЙ КАПІТАЛ",
-      "ЗАКАРПАТСЬКИЙ ЗАКАРПАТТЯ",
-      "ЗАКАРПАТТЯ"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/320371.pdf"
+    "dateIssue": "2012-01-31",
+    "link": "https://bank.gov.ua/files/Licences_bank/380623.pdf"
   },
   {
     "name": [
@@ -636,54 +587,36 @@
   },
   {
     "name": [
-      "ЮНІСОН",
-      "БАНК ЮНІСОН"
-    ],
-    "dateIssue": "2018-06-18",
-    "link": "https://bank.gov.ua/files/Licences_bank/380902.pdf"
-  },
-  {
-    "name": [
-      "БАНК 3/4"
+      "БАНК ФОРВАРД",
+      "АІС БАНК",
+      "БАНК РУСКИЙ СТАНДАРТ",
+      "БАНК ФОРВАРД (БАНК РУСКИЙ СТАНДАРТ)",
+      "РУСКИЙ СТАНДАРТ"
     ],
     "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380645.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380418.pdf"
   },
   {
     "name": [
-      "УКРУНІВЕРСАЛБАНК",
-      "БЕРЕГИНЯ"
+      "БАНК ФОРУМ",
+      "ЛАД КРЕДИТ БАНК",
+      "ФОРУМ"
     ],
-    "dateIssue": "1999-04-01",
-    "link": "https://bank.gov.ua/files/Licences_bank/321916.pdf"
+    "dateIssue": "2014-06-13",
+    "link": "https://bank.gov.ua/files/Licences_bank/322948.pdf"
   },
   {
     "name": [
-      "БІГ ЕНЕРГІЯ",
-      "ЗЕВС"
+      "БГ БАНК",
+      "АКСІ БАНК",
+      "БАНК ПЕРШИЙ (БГ БАНК)",
+      "БАНК ПЕРШИЙ (БГ БАНК) (УБРП)",
+      "БГ БАНК (БАНК ПЕРШИЙ)",
+      "БГ БАНК (УБРП)",
+      "УНІВЕРС БАНК РОЗВИТКУ ТА ПАРТН"
     ],
-    "dateIssue": "2010-03-01",
-    "link": "https://bank.gov.ua/files/Licences_bank/322603.pdf"
-  },
-  {
-    "name": [
-      "ТАСКОМБАНК",
-      "БІЗНЕС СТАНДАРТ (ТАС БІЗНЕСБАНК)",
-      "МУНІЦИПАЛЬНИЙ",
-      "ТАВРІДАБАНК",
-      "ТАС БІЗНЕСБАНК",
-      "ТАСКОМБАНК (БІЗНЕС СТАНДАРТ)"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/339500.pdf"
-  },
-  {
-    "name": [
-      "СЛОБОЖАНЩИНА",
-      "БІЗНЕСБАНК"
-    ],
-    "dateIssue": "2000-09-04",
-    "link": "https://bank.gov.ua/files/Licences_bank/337535.pdf"
+    "dateIssue": "2015-02-26",
+    "link": "https://bank.gov.ua/files/Licences_bank/320995.pdf"
   },
   {
     "name": [
@@ -691,22 +624,6 @@
     ],
     "dateIssue": "2018-11-06",
     "link": "https://bank.gov.ua/files/Licences_bank/380913.pdf"
-  },
-  {
-    "name": [
-      "БАНК БОГУСЛАВ",
-      "БОГУСЛАВ"
-    ],
-    "dateIssue": "2017-11-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/380322.pdf"
-  },
-  {
-    "name": [
-      "СТОЛИЧНИЙ",
-      "БОНУС БАНК"
-    ],
-    "dateIssue": "2015-09-17",
-    "link": "https://bank.gov.ua/files/Licences_bank/397133.pdf"
   },
   {
     "name": [
@@ -723,69 +640,6 @@
     ],
     "dateIssue": null,
     "link": "https://bank.gov.ua/files/Licences_bank/321723.pdf"
-  },
-  {
-    "name": [
-      "КИЇВСЬКИЙ УНІВЕРСАЛЬНИЙ БАНК",
-      "БУКОВИНА"
-    ],
-    "dateIssue": "2006-05-29",
-    "link": "https://bank.gov.ua/files/Licences_bank/380087.pdf"
-  },
-  {
-    "name": [
-      "ВСЕУКРАЇНСЬКИЙ АКЦІОНЕРНИЙ БАНК",
-      "ВАБАНК",
-      "ВІЕЙБІ БАНК",
-      "ВСЕУКРАЇНСЬКИЙ ВАБАНК КИЇВ"
-    ],
-    "dateIssue": "2015-03-19",
-    "link": "https://bank.gov.ua/files/Licences_bank/380537.pdf"
-  },
-  {
-    "name": [
-      "ВСЕУКРАЇНСЬКИЙ БАНК РОЗВИТКУ",
-      "ВБР"
-    ],
-    "dateIssue": "2015-12-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/380719.pdf"
-  },
-  {
-    "name": [
-      "ВЕКТОР БАНК"
-    ],
-    "dateIssue": "2017-03-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/339038.pdf"
-  },
-  {
-    "name": [
-      "ВЕРНУМ БАНК",
-      "ВЕРНУМ БАНК (ДІАПАЗОН МАКСИМУМ БАНК)",
-      "ДІАПАЗОН МАКСИМУМ БАНК"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380689.pdf"
-  },
-  {
-    "name": [
-      "КИЄВО-ПЕЧЕРСЬКИЙ АКЦІОНЕРНО-КОМЕРЦІЙНИЙ БАНК",
-      "ВЕРХОВИНА",
-      "КИЄВО ПЕЧЕРСЬКИЙ АКБ"
-    ],
-    "dateIssue": "2000-07-07",
-    "link": "https://bank.gov.ua/files/Licences_bank/320564.pdf"
-  },
-  {
-    "name": [
-      "ЮНІОН СТАНДАРД БАНК",
-      "ВІДЕРГЕБУРТ",
-      "ЄКАТЕРИНОСЛАВСЬКИЙ (ФСБАНК)",
-      "ТЕХНОБАНК",
-      "ФІНАНСОВИЙ СОЮЗ БАНК",
-      "ЮНІОН СТАНДАРД БАНК (ЄКАТЕРИНОСЛАВСЬКИЙ КОМЕРЦІЙНИЙ БАНК)"
-    ],
-    "dateIssue": "2015-12-24",
-    "link": "https://bank.gov.ua/files/Licences_bank/305987.pdf"
   },
   {
     "name": [
@@ -807,20 +661,34 @@
   },
   {
     "name": [
+      "ВЕКТОР БАНК"
+    ],
+    "dateIssue": "2017-03-21",
+    "link": "https://bank.gov.ua/files/Licences_bank/339038.pdf"
+  },
+  {
+    "name": [
+      "ВЕРНУМ БАНК",
+      "ВЕРНУМ БАНК (ДІАПАЗОН МАКСИМУМ БАНК)",
+      "ДІАПАЗОН МАКСИМУМ БАНК"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/380689.pdf"
+  },
+  {
+    "name": [
+      "ВЕСТ ФАЙНЕНС ЕНД КРЕДИТ БАНК",
+      "КРЕДИТВЕСТ БАНК"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/380441.pdf"
+  },
+  {
+    "name": [
       "ВНЄШТОРГБАНК (УКРАЇНА)"
     ],
     "dateIssue": "2007-10-19",
     "link": "https://bank.gov.ua/files/Licences_bank/380195.pdf"
-  },
-  {
-    "name": [
-      "ДІАЛОГБАНК",
-      "ВОЛИНЬТОРГІНВЕСТБАНК",
-      "ІЗУМРУД",
-      "КОРОНА"
-    ],
-    "dateIssue": "2011-05-11",
-    "link": "https://bank.gov.ua/files/Licences_bank/307112.pdf"
   },
   {
     "name": [
@@ -831,21 +699,30 @@
   },
   {
     "name": [
-      "ФІНЕКСБАНК",
-      "ГАЛУЗЕВИЙ МОНТАЖСПЕЦБАНК",
-      "КОРАЛ БАНК",
-      "КРИМУНІВЕРСАЛБАНК"
+      "ВСЕУКРАЇНСЬКИЙ АКЦІОНЕРНИЙ БАНК",
+      "ВАБАНК",
+      "ВІЕЙБІ БАНК",
+      "ВСЕУКРАЇНСЬКИЙ ВАБАНК КИЇВ"
     ],
-    "dateIssue": "2016-11-18",
-    "link": "https://bank.gov.ua/files/Licences_bank/380311.pdf"
+    "dateIssue": "2015-03-19",
+    "link": "https://bank.gov.ua/files/Licences_bank/380537.pdf"
   },
   {
     "name": [
-      "ЕНЕРГОБАНК",
-      "ГАЛУЗЕВИЙ ЕНЕРГОБАНК КИЇВ"
+      "ВСЕУКРАЇНСЬКИЙ БАНК РОЗВИТКУ",
+      "ВБР"
     ],
-    "dateIssue": "2015-06-11",
-    "link": "https://bank.gov.ua/files/Licences_bank/300272.pdf"
+    "dateIssue": "2015-12-21",
+    "link": "https://bank.gov.ua/files/Licences_bank/380719.pdf"
+  },
+  {
+    "name": [
+      "ВТБ БАНК",
+      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК МРІЯ",
+      "МРІЯ"
+    ],
+    "dateIssue": "2018-12-18",
+    "link": "https://bank.gov.ua/files/Licences_bank/321767.pdf"
   },
   {
     "name": [
@@ -890,6 +767,39 @@
   },
   {
     "name": [
+      "ГРАНТ",
+      "БАНК ГРАНТ"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/351607.pdf"
+  },
+  {
+    "name": [
+      "ДІАЛОГБАНК",
+      "ВОЛИНЬТОРГІНВЕСТБАНК",
+      "ІЗУМРУД",
+      "КОРОНА"
+    ],
+    "dateIssue": "2011-05-11",
+    "link": "https://bank.gov.ua/files/Licences_bank/307112.pdf"
+  },
+  {
+    "name": [
+      "ДІАМАНТБАНК",
+      "ДІАМАНТ"
+    ],
+    "dateIssue": "2017-06-22",
+    "link": "https://bank.gov.ua/files/Licences_bank/320854.pdf"
+  },
+  {
+    "name": [
+      "ДІВІ БАНК"
+    ],
+    "dateIssue": "2018-08-14",
+    "link": "https://bank.gov.ua/files/Licences_bank/380827.pdf"
+  },
+  {
+    "name": [
       "ДАНІЕЛЬ"
     ],
     "dateIssue": "2014-04-15",
@@ -921,6 +831,14 @@
   },
   {
     "name": [
+      "ДЕРЖАВНИЙ ЕКСПОРТНО-ІМПОРТНИЙ БАНК УКРАЇНИ",
+      "УКРЕКСІМБАНК"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/322313.pdf"
+  },
+  {
+    "name": [
       "ДЕРЖАВНИЙ ЗЕМЕЛЬНИЙ БАНК",
       "ДЕРЖЗЕМБАНК"
     ],
@@ -929,26 +847,13 @@
   },
   {
     "name": [
-      "ДІАМАНТБАНК",
-      "ДІАМАНТ"
+      "ДЕРЖАВНИЙ ОЩАДНИЙ БАНК УКРАЇНИ",
+      "ОЩАДБАНК",
+      "ОЩАДБАНК УКРАЇНИ",
+      "ОЩАДНИЙ БАНК УКРАЇНИ ОЩАДБАНК"
     ],
-    "dateIssue": "2017-06-22",
-    "link": "https://bank.gov.ua/files/Licences_bank/320854.pdf"
-  },
-  {
-    "name": [
-      "ДІВІ БАНК"
-    ],
-    "dateIssue": "2018-08-14",
-    "link": "https://bank.gov.ua/files/Licences_bank/380827.pdf"
-  },
-  {
-    "name": [
-      "ПІВДЕНКОМБАНК",
-      "ДНІПРОПЕТРОВСЬКИЙ КІІБ ПІВДЕНКОМІНБАНК"
-    ],
-    "dateIssue": "2014-09-26",
-    "link": "https://bank.gov.ua/files/Licences_bank/335946.pdf"
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/300465.pdf"
   },
   {
     "name": [
@@ -974,42 +879,13 @@
   },
   {
     "name": [
-      "МТ-БАНК",
-      "ДОНЕЦЬКИЙ ДОНКОМБАНК",
-      "МТ БАНК"
+      "ДОНГОРБАНК",
+      "АКЦЕПТБАНК",
+      "ДОНМІСЬКБАНК",
+      "КОМЕРЦІЙНИЙ БАНК АКЦЕПТБАНК"
     ],
-    "dateIssue": "2006-01-17",
-    "link": "https://bank.gov.ua/files/Licences_bank/331304.pdf"
-  },
-  {
-    "name": [
-      "УКРАЇНСЬКИЙ БІЗНЕС БАНК",
-      "ДОНЕЧЧИНА",
-      "СІЛЬГОСПБАНК",
-      "СІЛЬГОСПОД СІЛЬГОСПБАНК",
-      "УКРБІЗНЕСБАНК"
-    ],
-    "dateIssue": "2015-04-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/334969.pdf"
-  },
-  {
-    "name": [
-      "КСГ БАНК",
-      "ДОНКРЕДИТІНВЕСТ",
-      "ЄВРОПЕЙСЬКИЙ БАНК РАЦІОН ФІНАНСУВАННЯ",
-      "КСГ БАНК (ЄВРОПЕЙСЬКИЙ БАНК РАЦІОН ФІНАНСУВАННЯ)"
-    ],
-    "dateIssue": "2016-08-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/380292.pdf"
-  },
-  {
-    "name": [
-      "ІНТЕРКОНТИНЕНТБАНК",
-      "ЕДЛАНД",
-      "СИНДИКАТ"
-    ],
-    "dateIssue": "2006-04-04",
-    "link": "https://bank.gov.ua/files/Licences_bank/300313.pdf"
+    "dateIssue": "2011-07-20",
+    "link": "https://bank.gov.ua/files/Licences_bank/334970.pdf"
   },
   {
     "name": [
@@ -1029,12 +905,11 @@
   },
   {
     "name": [
-      "НАШ БАНК",
-      "ЕЛІТА",
-      "КОМЕРЦІЙНИЙ БАНК ЕЛІТА"
+      "ЕНЕРГОБАНК",
+      "ГАЛУЗЕВИЙ ЕНЕРГОБАНК КИЇВ"
     ],
-    "dateIssue": "2003-11-20",
-    "link": "https://bank.gov.ua/files/Licences_bank/313690.pdf"
+    "dateIssue": "2015-06-11",
+    "link": "https://bank.gov.ua/files/Licences_bank/300272.pdf"
   },
   {
     "name": [
@@ -1054,69 +929,10 @@
   },
   {
     "name": [
-      "ФІДОКОМБАНК",
-      "ЕРСТЕ БАНК",
-      "ПРЕСТИЖ",
-      "ФБАНК (ЕРСТЕ БАНК)"
-    ],
-    "dateIssue": "2013-10-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/380009.pdf"
-  },
-  {
-    "name": [
       "ЕТАЛОН"
     ],
     "dateIssue": "2002-10-02",
     "link": "https://bank.gov.ua/files/Licences_bank/322904.pdf"
-  },
-  {
-    "name": [
-      "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ",
-      "ЄБРЗ",
-      "ОКБ",
-      "СІНК"
-    ],
-    "dateIssue": "2008-02-25",
-    "link": "https://bank.gov.ua/files/Licences_bank/324485.pdf"
-  },
-  {
-    "name": [
-      "ЄВРОБАНК",
-      "ЗАХІДІНВЕСТБАНК",
-      "ХІАЛАБАНК"
-    ],
-    "dateIssue": "2000-04-24",
-    "link": "https://bank.gov.ua/files/Licences_bank/353166.pdf"
-  },
-  {
-    "name": [
-      "ЄВРОБАНК"
-    ],
-    "dateIssue": "2016-08-16",
-    "link": "https://bank.gov.ua/files/Licences_bank/380355.pdf"
-  },
-  {
-    "name": [
-      "ЄВРОПЕЙСЬКИЙ ГАЗОВИЙ БАНК",
-      "ЄВРОГАЗБАНК"
-    ],
-    "dateIssue": "2014-11-17",
-    "link": "https://bank.gov.ua/files/Licences_bank/380430.pdf"
-  },
-  {
-    "name": [
-      "ЄВРОПЕЙСЬКИЙ"
-    ],
-    "dateIssue": "2009-08-19",
-    "link": "https://bank.gov.ua/files/Licences_bank/380184.pdf"
-  },
-  {
-    "name": [
-      "ЄВРОПЕЙСЬКИЙ ПРОМИСЛОВИЙ БАНК",
-      "ЄВРОПРОМБАНК"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/377090.pdf"
   },
   {
     "name": [
@@ -1129,13 +945,6 @@
   },
   {
     "name": [
-      "ЗАХІДБУДГАЗБАНК"
-    ],
-    "dateIssue": "2004-04-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/336291.pdf"
-  },
-  {
-    "name": [
       "ЗАХІДІНКОМБАНК",
       "СКІФІЯ БАНК"
     ],
@@ -1144,21 +953,10 @@
   },
   {
     "name": [
-      "КРЕДОБАНК",
-      "ЗАХІДНО УКРАЇНСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
-      "КРЕДИТ БАНК (УКРАЇНА)"
+      "ЗАХІДБУДГАЗБАНК"
     ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/325365.pdf"
-  },
-  {
-    "name": [
-      "ХРЕЩАТИК",
-      "ЗГОДАБАНК",
-      "ХРЕЩАТИК БАНК"
-    ],
-    "dateIssue": "2016-06-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/300670.pdf"
+    "dateIssue": "2004-04-23",
+    "link": "https://bank.gov.ua/files/Licences_bank/336291.pdf"
   },
   {
     "name": [
@@ -1170,6 +968,14 @@
   },
   {
     "name": [
+      "ЗЕМЕЛЬНИЙ КАПІТАЛ",
+      "БАНК ЗЕМЕЛЬНИЙ КАПІТАЛ"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/305880.pdf"
+  },
+  {
+    "name": [
       "ЗЛАТОБАНК"
     ],
     "dateIssue": "2015-05-12",
@@ -1177,182 +983,11 @@
   },
   {
     "name": [
-      "КРЕДІ АГРІКОЛЬ БАНК",
-      "ЗОЛОТИЙ ЛЕВ",
-      "ІНДЕКС БАНК",
-      "ІНДУСТРІАЛЬНО ЕКСПОРТНИЙ БАНК",
-      "КРЕДІ АГРІКОЛЬ БАНК (ІНДЕКС БАНК)"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300614.pdf"
-  },
-  {
-    "name": [
-      "БАНК ЗОЛОТІ ВОРОТА",
-      "ЗОЛОТІ ВОРОТА"
-    ],
-    "dateIssue": "2014-12-04",
-    "link": "https://bank.gov.ua/files/Licences_bank/351931.pdf"
-  },
-  {
-    "name": [
-      "ІДЕЯ БАНК",
-      "ІДЕЯ БАНК (ПЛЮС БАНК)",
-      "ПЛЮС БАНК",
-      "ПРИКАРПАТЛІСБАНК",
-      "ПРИКАРПАТТЯ"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/336310.pdf"
-  },
-  {
-    "name": [
-      "РЕАЛ БАНК",
-      "ІК НПК БАНК"
-    ],
-    "dateIssue": "2014-05-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/351588.pdf"
-  },
-  {
-    "name": [
-      "ІПОТЕЧНИЙ КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК",
-      "ІКАБ",
-      "ІПОТЕЧНИЙ КАБ"
-    ],
-    "dateIssue": "1999-03-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/322636.pdf"
-  },
-  {
-    "name": [
-      "БАНК ПРОФЕСІЙНОГО ФІНАНСУВАННЯ",
-      "ІКАР БАНК",
-      "ПРОФІН БАНК (ІКАР БАНК)"
-    ],
-    "dateIssue": "2015-04-15",
-    "link": "https://bank.gov.ua/files/Licences_bank/334594.pdf"
-  },
-  {
-    "name": [
-      "КРИМ ЮРТ",
-      "ІМДАТ БАНК ( СПРИЯННЯ )"
+      "ЗОРЯ",
+      "КОМЕРЦІЙНИЙ БАНК ЗОРЯ"
     ],
     "dateIssue": "1998-10-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/324667.pdf"
-  },
-  {
-    "name": [
-      "ІМЕКСБАНК"
-    ],
-    "dateIssue": "2015-05-27",
-    "link": "https://bank.gov.ua/files/Licences_bank/328384.pdf"
-  },
-  {
-    "name": [
-      "ТЕРРА БАНК",
-      "ІНВЕСТ КРЕДИТ БАНК",
-      "ІНВЕСТ КРИВБАС БАНК",
-      "ТЕРРА БАНК (ІНВЕСТ КРЕДИТ БАНК)",
-      "УБМС ІНВЕСТ КРИВБАС БАНК"
-    ],
-    "dateIssue": "2014-12-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/380601.pdf"
-  },
-  {
-    "name": [
-      "ІНВЕСТБАНК",
-      "ОДЕСЬКИЙ КОМЕРЦІЙНИЙ БАНК ІНВЕСТБАНК"
-    ],
-    "dateIssue": "2017-01-11",
-    "link": "https://bank.gov.ua/files/Licences_bank/328210.pdf"
-  },
-  {
-    "name": [
-      "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
-      "ІНВЕСТИЦІЙНО ТРАСТОВИЙ БАНК"
-    ],
-    "dateIssue": "2016-05-31",
-    "link": "https://bank.gov.ua/files/Licences_bank/380957.pdf"
-  },
-  {
-    "name": [
-      "ІНГ БАНК УКРАЇНА"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300539.pdf"
-  },
-  {
-    "name": [
-      "КРЕДИТПРОМБАНК",
-      "ІНКОМБАНК УКРАЇНА"
-    ],
-    "dateIssue": "2015-06-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/300863.pdf"
-  },
-  {
-    "name": [
-      "ІНТЕГРАЛ-БАНК",
-      "ІНТЕГРАЛ",
-      "ІНТЕГРАЛ БАНК"
-    ],
-    "dateIssue": "2015-11-25",
-    "link": "https://bank.gov.ua/files/Licences_bank/320735.pdf"
-  },
-  {
-    "name": [
-      "ОМЕГА БАНК",
-      "ІНТЕЛЕКТБАНК",
-      "КИЇВ ПРИВАТ",
-      "ОМЕГА БАНК (СВЕДБАНК)",
-      "СВЕДБАНК",
-      "ТАС КОМЕРЦБАНК"
-    ],
-    "dateIssue": "2015-07-06",
-    "link": "https://bank.gov.ua/files/Licences_bank/300164.pdf"
-  },
-  {
-    "name": [
-      "ІНТЕРБАНК"
-    ],
-    "dateIssue": "2014-07-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/300216.pdf"
-  },
-  {
-    "name": [
-      "УКРГАЗБАНК",
-      "ІНТЕРГАЗБАНК",
-      "ХАДЖИБЕЙ"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/320478.pdf"
-  },
-  {
-    "name": [
-      "ІНТЕРКОНТБАНК"
-    ],
-    "dateIssue": "1999-10-20",
-    "link": "https://bank.gov.ua/files/Licences_bank/324678.pdf"
-  },
-  {
-    "name": [
-      "ІНТЕРКРЕДИТБАНК"
-    ],
-    "dateIssue": "2015-01-16",
-    "link": "https://bank.gov.ua/files/Licences_bank/307424.pdf"
-  },
-  {
-    "name": [
-      "ІПОБАНК"
-    ],
-    "dateIssue": "2010-03-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/380270.pdf"
-  },
-  {
-    "name": [
-      "БАНК КАМБІО",
-      "КАМБІО"
-    ],
-    "dateIssue": "2015-02-27",
-    "link": "https://bank.gov.ua/files/Licences_bank/380399.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/333238.pdf"
   },
   {
     "name": [
@@ -1360,6 +995,15 @@
     ],
     "dateIssue": "2015-10-29",
     "link": "https://bank.gov.ua/files/Licences_bank/334828.pdf"
+  },
+  {
+    "name": [
+      "КИЄВО-ПЕЧЕРСЬКИЙ АКЦІОНЕРНО-КОМЕРЦІЙНИЙ БАНК",
+      "ВЕРХОВИНА",
+      "КИЄВО ПЕЧЕРСЬКИЙ АКБ"
+    ],
+    "dateIssue": "2000-07-07",
+    "link": "https://bank.gov.ua/files/Licences_bank/320564.pdf"
   },
   {
     "name": [
@@ -1378,29 +1022,26 @@
   },
   {
     "name": [
-      "УКРАЇНСЬКИЙ АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК РОЗВИТКУ НАФТОГАЗОВОГО КОМПЛЕКСУ",
-      "КИЇВСЬКИЙ БІРЖОВИЙ БАНК",
-      "УКРНАФТОГАЗБАНК"
+      "КИЇВСЬКИЙ МІЖНАРОДНИЙ БАНК",
+      "КМБ"
     ],
-    "dateIssue": "2000-03-22",
-    "link": "https://bank.gov.ua/files/Licences_bank/300294.pdf"
+    "dateIssue": "2000-11-20",
+    "link": "https://bank.gov.ua/files/Licences_bank/320791.pdf"
   },
   {
     "name": [
-      "ТРАНСБАНК",
-      "КИЇВШЛЯХБАНК"
+      "КИЇВСЬКИЙ УНІВЕРСАЛЬНИЙ БАНК",
+      "БУКОВИНА"
     ],
-    "dateIssue": "2010-03-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/300089.pdf"
+    "dateIssue": "2006-05-29",
+    "link": "https://bank.gov.ua/files/Licences_bank/380087.pdf"
   },
   {
     "name": [
-      "КОМЕРЦІЙНИЙ ІНДУСТРІАЛЬНИЙ БАНК",
-      "КІБ",
-      "КОНКОРДІЯ БАНК"
+      "КЛІРИНГОВИЙ ДІМ"
     ],
     "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/322540.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300647.pdf"
   },
   {
     "name": [
@@ -1412,87 +1053,11 @@
   },
   {
     "name": [
-      "КЛІРИНГОВИЙ ДІМ"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300647.pdf"
-  },
-  {
-    "name": [
-      "КИЇВСЬКИЙ МІЖНАРОДНИЙ БАНК",
-      "КМБ"
-    ],
-    "dateIssue": "2000-11-20",
-    "link": "https://bank.gov.ua/files/Licences_bank/320791.pdf"
-  },
-  {
-    "name": [
-      "СХІДНО-ЄВРОПЕЙСЬКИЙ БАНК",
-      "КОМЕРЦ БАНК КИЇВКООПБАНК",
-      "СХІДНО ЄВРОПЕЙСЬКИЙ БАНК"
-    ],
-    "dateIssue": "2009-12-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/322658.pdf"
-  },
-  {
-    "name": [
-      "КРИМ-БАНК",
-      "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК КРИМ БАНК",
-      "КРИМСЬКИЙ КООПЕРАТИВНИЙ БАНК КРИМ БАНК"
-    ],
-    "dateIssue": "1997-02-03",
-    "link": "https://bank.gov.ua/files/Licences_bank/324816.pdf"
-  },
-  {
-    "name": [
-      "КРИМКРЕДИТ",
-      "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК КРИМКРЕДИТ"
-    ],
-    "dateIssue": "1998-10-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/324355.pdf"
-  },
-  {
-    "name": [
-      "АМАСКО",
-      "КОМЕРЦІЙНИЙ БАНК АМАСКО"
-    ],
-    "dateIssue": "1999-09-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/311517.pdf"
-  },
-  {
-    "name": [
-      "ОКСІ БАНК",
-      "КОМЕРЦІЙНИЙ БАНК ГАЛС",
-      "КОМЕРЦІЙНИЙ ГАЛС БАНК",
-      "ОКСІ БАНК ( ГАЛС )",
-      "ПЛАСТИК"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/325990.pdf"
-  },
-  {
-    "name": [
-      "ЗОРЯ",
-      "КОМЕРЦІЙНИЙ БАНК ЗОРЯ"
-    ],
-    "dateIssue": "1998-10-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/333238.pdf"
-  },
-  {
-    "name": [
       "КНЯЖИЙ",
       "КОМЕРЦІЙНИЙ БАНК КНЯЖИЙ"
     ],
     "dateIssue": "1999-06-10",
     "link": "https://bank.gov.ua/files/Licences_bank/333874.pdf"
-  },
-  {
-    "name": [
-      "ПАРИТЕТ",
-      "КОМЕРЦІЙНИЙ БАНК ПАРИТЕТ"
-    ],
-    "dateIssue": "1998-01-04",
-    "link": "https://bank.gov.ua/files/Licences_bank/334958.pdf"
   },
   {
     "name": [
@@ -1506,14 +1071,12 @@
   },
   {
     "name": [
-      "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
-      "КОНВЕРСБАНК ( ПАРТНЕР БАНК )",
-      "КОНВЕРСБАНК (ПАРТНЕР БАНК)",
-      "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК (КОНВЕРСБАНК)",
-      "ПАРТНЕР БАНК"
+      "КОМЕРЦІЙНИЙ ІНДУСТРІАЛЬНИЙ БАНК",
+      "КІБ",
+      "КОНКОРДІЯ БАНК"
     ],
-    "dateIssue": "2015-03-19",
-    "link": "https://bank.gov.ua/files/Licences_bank/339339.pdf"
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/322540.pdf"
   },
   {
     "name": [
@@ -1528,6 +1091,38 @@
     ],
     "dateIssue": "2000-05-15",
     "link": "https://bank.gov.ua/files/Licences_bank/328083.pdf"
+  },
+  {
+    "name": [
+      "КОНТРАКТ",
+      "АНТАРЕС",
+      "БАНК АНТАРЕС"
+    ],
+    "dateIssue": "2015-12-10",
+    "link": "https://bank.gov.ua/files/Licences_bank/322465.pdf"
+  },
+  {
+    "name": [
+      "КОРПОРАТИВНИЙ ТА ІНВЕСТИЦІЙНИЙ БАНК КРЕДІ АГРІКОЛЬ",
+      "БАНК КРЕДІ ЛІОНЕ УКРАЇНА",
+      "КАЛІОН БАНК УКРАЇНА",
+      "КІБ КРЕДІ АГРІКОЛЬ (КАЛІОН БАНК УКРАЇНА)",
+      "КРЕДІ ЛІОНЕ УКРАЇНА",
+      "ЛІОНСЬКИЙ КРЕДИТ УКРАЇНА"
+    ],
+    "dateIssue": "2012-11-21",
+    "link": "https://bank.gov.ua/files/Licences_bank/300379.pdf"
+  },
+  {
+    "name": [
+      "КРЕДІ АГРІКОЛЬ БАНК",
+      "ЗОЛОТИЙ ЛЕВ",
+      "ІНДЕКС БАНК",
+      "ІНДУСТРІАЛЬНО ЕКСПОРТНИЙ БАНК",
+      "КРЕДІ АГРІКОЛЬ БАНК (ІНДЕКС БАНК)"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/300614.pdf"
   },
   {
     "name": [
@@ -1549,19 +1144,45 @@
   },
   {
     "name": [
-      "ВЕСТ ФАЙНЕНС ЕНД КРЕДИТ БАНК",
-      "КРЕДИТВЕСТ БАНК"
+      "КРЕДИТПРОМБАНК",
+      "ІНКОМБАНК УКРАЇНА"
     ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380441.pdf"
+    "dateIssue": "2015-06-02",
+    "link": "https://bank.gov.ua/files/Licences_bank/300863.pdf"
   },
   {
     "name": [
-      "АКЦІОНЕРНИЙ БАНК КРЕДІ СВІСС ФЬОРСТ БОСТОН (УКРАЇНА)",
-      "КРЕДІ СВІСС ФЬОРСТ БОСТОН"
+      "КРЕДОБАНК",
+      "ЗАХІДНО УКРАЇНСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
+      "КРЕДИТ БАНК (УКРАЇНА)"
     ],
-    "dateIssue": "2004-03-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/300562.pdf"
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/325365.pdf"
+  },
+  {
+    "name": [
+      "КРИМ ЮРТ",
+      "ІМДАТ БАНК ( СПРИЯННЯ )"
+    ],
+    "dateIssue": "1998-10-02",
+    "link": "https://bank.gov.ua/files/Licences_bank/324667.pdf"
+  },
+  {
+    "name": [
+      "КРИМ-БАНК",
+      "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК КРИМ БАНК",
+      "КРИМСЬКИЙ КООПЕРАТИВНИЙ БАНК КРИМ БАНК"
+    ],
+    "dateIssue": "1997-02-03",
+    "link": "https://bank.gov.ua/files/Licences_bank/324816.pdf"
+  },
+  {
+    "name": [
+      "КРИМКРЕДИТ",
+      "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК КРИМКРЕДИТ"
+    ],
+    "dateIssue": "1998-10-02",
+    "link": "https://bank.gov.ua/files/Licences_bank/324355.pdf"
   },
   {
     "name": [
@@ -1573,21 +1194,13 @@
   },
   {
     "name": [
-      "БАНК ФОРУМ",
-      "ЛАД КРЕДИТ БАНК",
-      "ФОРУМ"
+      "КСГ БАНК",
+      "ДОНКРЕДИТІНВЕСТ",
+      "ЄВРОПЕЙСЬКИЙ БАНК РАЦІОН ФІНАНСУВАННЯ",
+      "КСГ БАНК (ЄВРОПЕЙСЬКИЙ БАНК РАЦІОН ФІНАНСУВАННЯ)"
     ],
-    "dateIssue": "2014-06-13",
-    "link": "https://bank.gov.ua/files/Licences_bank/322948.pdf"
-  },
-  {
-    "name": [
-      "ПІРЕУС БАНК МКБ",
-      "ЛЕВАДА",
-      "МІЖНАРОДНИЙ КОМЕРЦІЙНИЙ БАНК"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300658.pdf"
+    "dateIssue": "2016-08-30",
+    "link": "https://bank.gov.ua/files/Licences_bank/380292.pdf"
   },
   {
     "name": [
@@ -1605,34 +1218,29 @@
   },
   {
     "name": [
-      "ШАХТЕКОНОМБАНК",
-      "МАКІЇВСЬКИЙ ШАХТЕКОНОМБАНК"
-    ],
-    "dateIssue": "1999-02-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/334936.pdf"
-  },
-  {
-    "name": [
-      "МТБ БАНК",
-      "МАРФІН БАНК",
-      "МІДО",
-      "МОРСЬКИЙ ТРАНСПОРТНИЙ БАНК",
-      "МОРТОРГБАНК",
-      "МТБ"
+      "МІЖНАРОДНИЙ ІНВЕСТИЦІЙНИЙ БАНК"
     ],
     "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/328168.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380582.pdf"
   },
   {
     "name": [
-      "УКРАЇНСЬКИЙ ПРОФЕСІЙНИЙ БАНК",
-      "МЕБЛІБАНК",
-      "МЕБЛІПРОМБАНК",
-      "УКРПРОФБАНК",
-      "УПБ"
+      "МІСТО БАНК",
+      "ШИРЯЄВЕ"
     ],
-    "dateIssue": "2015-08-28",
-    "link": "https://bank.gov.ua/files/Licences_bank/300205.pdf"
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/328760.pdf"
+  },
+  {
+    "name": [
+      "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
+      "КОНВЕРСБАНК ( ПАРТНЕР БАНК )",
+      "КОНВЕРСБАНК (ПАРТНЕР БАНК)",
+      "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК (КОНВЕРСБАНК)",
+      "ПАРТНЕР БАНК"
+    ],
+    "dateIssue": "2015-03-19",
+    "link": "https://bank.gov.ua/files/Licences_bank/339339.pdf"
   },
   {
     "name": [
@@ -1676,48 +1284,6 @@
   },
   {
     "name": [
-      "БАНК МИХАЙЛІВСЬКИЙ",
-      "МИХАЙЛІВСЬКИЙ"
-    ],
-    "dateIssue": "2016-07-12",
-    "link": "https://bank.gov.ua/files/Licences_bank/380935.pdf"
-  },
-  {
-    "name": [
-      "МІЖНАРОДНИЙ ІНВЕСТИЦІЙНИЙ БАНК"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380582.pdf"
-  },
-  {
-    "name": [
-      "ПЛАТИНУМ БАНК",
-      "МІЖНАРОДНИЙ ІПОТЕЧНИЙ БАНК",
-      "МІЖНАРОДНИЙ ІПОТЕЧНИЙ БАНК (МІБ)",
-      "ПЛАТИНУМ БАНК (МІЖНАРОД ІПОТЕЧНИЙ БАНК)"
-    ],
-    "dateIssue": "2017-02-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/380388.pdf"
-  },
-  {
-    "name": [
-      "ПРОКРЕДИТ БАНК",
-      "МІКРОФІНАНСОВИЙ БАНК",
-      "МФБ"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/320984.pdf"
-  },
-  {
-    "name": [
-      "МІСТО БАНК",
-      "ШИРЯЄВЕ"
-    ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/328760.pdf"
-  },
-  {
-    "name": [
       "МОРСЬКИЙ"
     ],
     "dateIssue": "2014-05-06",
@@ -1733,6 +1299,27 @@
   },
   {
     "name": [
+      "МТ-БАНК",
+      "ДОНЕЦЬКИЙ ДОНКОМБАНК",
+      "МТ БАНК"
+    ],
+    "dateIssue": "2006-01-17",
+    "link": "https://bank.gov.ua/files/Licences_bank/331304.pdf"
+  },
+  {
+    "name": [
+      "МТБ БАНК",
+      "МАРФІН БАНК",
+      "МІДО",
+      "МОРСЬКИЙ ТРАНСПОРТНИЙ БАНК",
+      "МОРТОРГБАНК",
+      "МТБ"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/328168.pdf"
+  },
+  {
+    "name": [
       "НАДРА"
     ],
     "dateIssue": "2015-06-04",
@@ -1740,11 +1327,12 @@
   },
   {
     "name": [
-      "НАЦІОНАЛЬНИЙ СТАНДАРТ",
-      "СЛАВУТИЧ"
+      "НАРОДНИЙ БАНК",
+      "АКЦІОНЕРНИЙ КИЇВСЬКИЙ НАРОДНИЙ БАНК",
+      "КИЇВСЬКИЙ НАРОДНИЙ БАНК"
     ],
-    "dateIssue": "2009-08-19",
-    "link": "https://bank.gov.ua/files/Licences_bank/321466.pdf"
+    "dateIssue": "2002-06-27",
+    "link": "https://bank.gov.ua/files/Licences_bank/300090.pdf"
   },
   {
     "name": [
@@ -1756,14 +1344,20 @@
   },
   {
     "name": [
-      "ФІНАНС БАНК",
-      "НЕВІКОН БАНК",
-      "НЕВІКОН БАНК (ЗЮЙД)",
-      "ТММ БАНК",
-      "ФІНАНС БАНК (ТММ БАНК)"
+      "НАЦІОНАЛЬНИЙ СТАНДАРТ",
+      "СЛАВУТИЧ"
     ],
-    "dateIssue": "2016-05-31",
-    "link": "https://bank.gov.ua/files/Licences_bank/300896.pdf"
+    "dateIssue": "2009-08-19",
+    "link": "https://bank.gov.ua/files/Licences_bank/321466.pdf"
+  },
+  {
+    "name": [
+      "НАШ БАНК",
+      "ЕЛІТА",
+      "КОМЕРЦІЙНИЙ БАНК ЕЛІТА"
+    ],
+    "dateIssue": "2003-11-20",
+    "link": "https://bank.gov.ua/files/Licences_bank/313690.pdf"
   },
   {
     "name": [
@@ -1771,6 +1365,14 @@
     ],
     "dateIssue": "1997-07-14",
     "link": "https://bank.gov.ua/files/Licences_bank/322476.pdf"
+  },
+  {
+    "name": [
+      "НОВИЙ",
+      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК НОВИЙ"
+    ],
+    "dateIssue": "2017-08-31",
+    "link": "https://bank.gov.ua/files/Licences_bank/305062.pdf"
   },
   {
     "name": [
@@ -1783,12 +1385,14 @@
   },
   {
     "name": [
-      "ПОРТО-ФРАНКО",
-      "ОДЕСЬКИЙ КОМЕРЦІЙНИЙ БАНК ПОРТО ФРАНКО ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ",
-      "ПОРТО ФРАНКО"
+      "ОКСІ БАНК",
+      "КОМЕРЦІЙНИЙ БАНК ГАЛС",
+      "КОМЕРЦІЙНИЙ ГАЛС БАНК",
+      "ОКСІ БАНК ( ГАЛС )",
+      "ПЛАСТИК"
     ],
-    "dateIssue": "2015-01-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/328180.pdf"
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/325990.pdf"
   },
   {
     "name": [
@@ -1796,6 +1400,18 @@
     ],
     "dateIssue": "2003-04-22",
     "link": "https://bank.gov.ua/files/Licences_bank/322885.pdf"
+  },
+  {
+    "name": [
+      "ОМЕГА БАНК",
+      "ІНТЕЛЕКТБАНК",
+      "КИЇВ ПРИВАТ",
+      "ОМЕГА БАНК (СВЕДБАНК)",
+      "СВЕДБАНК",
+      "ТАС КОМЕРЦБАНК"
+    ],
+    "dateIssue": "2015-07-06",
+    "link": "https://bank.gov.ua/files/Licences_bank/300164.pdf"
   },
   {
     "name": [
@@ -1807,21 +1423,35 @@
   },
   {
     "name": [
-      "ДЕРЖАВНИЙ ОЩАДНИЙ БАНК УКРАЇНИ",
-      "ОЩАДБАНК",
-      "ОЩАДБАНК УКРАЇНИ",
-      "ОЩАДНИЙ БАНК УКРАЇНИ ОЩАДБАНК"
+      "ПІВДЕНКОМБАНК",
+      "ДНІПРОПЕТРОВСЬКИЙ КІІБ ПІВДЕНКОМІНБАНК"
     ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300465.pdf"
+    "dateIssue": "2014-09-26",
+    "link": "https://bank.gov.ua/files/Licences_bank/335946.pdf"
   },
   {
     "name": [
-      "РВС БАНК",
-      "ПЕРЕХІДНИЙ БАНК РВС БАНК"
+      "ПІВДЕННИЙ"
     ],
     "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/339072.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/328209.pdf"
+  },
+  {
+    "name": [
+      "ПІРЕУС БАНК МКБ",
+      "ЛЕВАДА",
+      "МІЖНАРОДНИЙ КОМЕРЦІЙНИЙ БАНК"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/300658.pdf"
+  },
+  {
+    "name": [
+      "ПАРИТЕТ",
+      "КОМЕРЦІЙНИЙ БАНК ПАРИТЕТ"
+    ],
+    "dateIssue": "1998-01-04",
+    "link": "https://bank.gov.ua/files/Licences_bank/334958.pdf"
   },
   {
     "name": [
@@ -1841,10 +1471,21 @@
   },
   {
     "name": [
-      "ПІВДЕННИЙ"
+      "ПЛАТИНУМ БАНК",
+      "МІЖНАРОДНИЙ ІПОТЕЧНИЙ БАНК",
+      "МІЖНАРОДНИЙ ІПОТЕЧНИЙ БАНК (МІБ)",
+      "ПЛАТИНУМ БАНК (МІЖНАРОД ІПОТЕЧНИЙ БАНК)"
     ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/328209.pdf"
+    "dateIssue": "2017-02-23",
+    "link": "https://bank.gov.ua/files/Licences_bank/380388.pdf"
+  },
+  {
+    "name": [
+      "ПОДІЛЛЯ",
+      "СПОЖИВ КООПЕР ПОДІЛЛЯ"
+    ],
+    "dateIssue": "2000-02-08",
+    "link": "https://bank.gov.ua/files/Licences_bank/315568.pdf"
   },
   {
     "name": [
@@ -1864,11 +1505,20 @@
   },
   {
     "name": [
-      "СТАРОКИЇВСЬКИЙ БАНК",
-      "ПОШТАБАНК"
+      "ПОРТАЛ",
+      "БАНК ПОРТАЛ"
     ],
-    "dateIssue": "2014-09-18",
-    "link": "https://bank.gov.ua/files/Licences_bank/321477.pdf"
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/339016.pdf"
+  },
+  {
+    "name": [
+      "ПОРТО-ФРАНКО",
+      "ОДЕСЬКИЙ КОМЕРЦІЙНИЙ БАНК ПОРТО ФРАНКО ТОВАРИСТВО З ОБМЕЖЕНОЮ ВІДПОВІДАЛЬНІСТЮ",
+      "ПОРТО ФРАНКО"
+    ],
+    "dateIssue": "2015-01-30",
+    "link": "https://bank.gov.ua/files/Licences_bank/328180.pdf"
   },
   {
     "name": [
@@ -1902,15 +1552,6 @@
   },
   {
     "name": [
-      "ФАКТОРІАЛ-БАНК",
-      "ПРИВАТ ЕКСЕЛ",
-      "ФАКТОРІАЛ БАНК"
-    ],
-    "dateIssue": "2009-12-15",
-    "link": "https://bank.gov.ua/files/Licences_bank/351715.pdf"
-  },
-  {
-    "name": [
       "ПРИВАТБАНК"
     ],
     "dateIssue": null,
@@ -1922,6 +1563,15 @@
     ],
     "dateIssue": "2009-05-25",
     "link": "https://bank.gov.ua/files/Licences_bank/306759.pdf"
+  },
+  {
+    "name": [
+      "ПРОКРЕДИТ БАНК",
+      "МІКРОФІНАНСОВИЙ БАНК",
+      "МФБ"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/320984.pdf"
   },
   {
     "name": [
@@ -1941,12 +1591,11 @@
   },
   {
     "name": [
-      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ ПРОМИСЛОВО-ІНВЕСТИЦІЙНИЙ БАНК",
-      "ПРОМІНВЕСТБАНК",
-      "ПРОМІНВЕСТБАНК УКРАЇНИ"
+      "РАДАБАНК",
+      "БАНК АГРОС"
     ],
     "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300012.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/306500.pdf"
   },
   {
     "name": [
@@ -1957,28 +1606,36 @@
   },
   {
     "name": [
-      "СКАЙ БАНК",
-      "РЕГІОН БАНК"
+      "РАЙФФАЙЗЕН БАНК АВАЛЬ",
+      "АВАЛЬ"
     ],
     "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/351254.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300335.pdf"
   },
   {
     "name": [
-      "УКРСОЦБАНК",
-      "РЕСПУБЛІКАНСЬКИЙ АКЦІОНЕРНО КОМЕРЦІЙНИЙ БАНК СОЦІАЛЬНОГО РОЗВИТКУ УКРСОЦБАНК"
+      "РВС БАНК",
+      "ПЕРЕХІДНИЙ БАНК РВС БАНК"
     ],
     "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300023.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/339072.pdf"
   },
   {
     "name": [
-      "ТРАСТ",
-      "РОЗДРІБНИЙ НЕОБМЕЖЕНИЙ СЕРВІС",
-      "ТРАСТ (РОЗДРІБНИЙ НЕОБМЕЖЕНИЙ СЕРВІС)"
+      "РЕАЛ БАНК",
+      "ІК НПК БАНК"
     ],
-    "dateIssue": "2016-12-29",
-    "link": "https://bank.gov.ua/files/Licences_bank/380474.pdf"
+    "dateIssue": "2014-05-21",
+    "link": "https://bank.gov.ua/files/Licences_bank/351588.pdf"
+  },
+  {
+    "name": [
+      "РОДОВІД БАНК",
+      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК ПЕРСОНАЛЬНИЙ КОМП'ЮТЕР (ПЕРКОМБАНК)",
+      "ПЕРСОНАЛЬНИЙ КОМП'ЮТЕР"
+    ],
+    "dateIssue": "2017-12-19",
+    "link": "https://bank.gov.ua/files/Licences_bank/321712.pdf"
   },
   {
     "name": [
@@ -2004,12 +1661,38 @@
   },
   {
     "name": [
+      "СІТІБАНК",
+      "СІТІБАНК (УКРАЇНА)"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/300584.pdf"
+  },
+  {
+    "name": [
+      "СБЕРБАНК",
+      "БАНК НРБ",
+      "НРБ УКРАЇНА"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/320627.pdf"
+  },
+  {
+    "name": [
       "СВЕДБАНК ІНВЕСТ",
       "СОСЬЄТЕ ЖЕНЕРАЛЬ УКРАЇНА",
       "ТАС ІНВЕСТБАНК"
     ],
     "dateIssue": "2009-11-18",
     "link": "https://bank.gov.ua/files/Licences_bank/320650.pdf"
+  },
+  {
+    "name": [
+      "СЕБ КОРПОРАТИВНИЙ БАНК",
+      "АКЦЕПТ БАНК",
+      "СЕБ КОРПОРАТИВНИЙ БАНК (АКЦЕПТ БАНК)"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/380797.pdf"
   },
   {
     "name": [
@@ -2027,11 +1710,19 @@
   },
   {
     "name": [
-      "СІТІБАНК",
-      "СІТІБАНК (УКРАЇНА)"
+      "СКАЙ БАНК",
+      "РЕГІОН БАНК"
     ],
     "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300584.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/351254.pdf"
+  },
+  {
+    "name": [
+      "СЛОБОЖАНЩИНА",
+      "БІЗНЕСБАНК"
+    ],
+    "dateIssue": "2000-09-04",
+    "link": "https://bank.gov.ua/files/Licences_bank/337535.pdf"
   },
   {
     "name": [
@@ -2039,6 +1730,15 @@
     ],
     "dateIssue": "2001-01-11",
     "link": "https://bank.gov.ua/files/Licences_bank/313797.pdf"
+  },
+  {
+    "name": [
+      "СМАРТБАНК",
+      "БАНК РИНКОВІ ТЕХНОЛОГІЇ",
+      "СМАРТБАНК (БАНК РИНКОВІ ТЕХНОЛОГІЇ)"
+    ],
+    "dateIssue": "2016-07-21",
+    "link": "https://bank.gov.ua/files/Licences_bank/380786.pdf"
   },
   {
     "name": [
@@ -2064,14 +1764,6 @@
   },
   {
     "name": [
-      "ПОДІЛЛЯ",
-      "СПОЖИВ КООПЕР ПОДІЛЛЯ"
-    ],
-    "dateIssue": "2000-02-08",
-    "link": "https://bank.gov.ua/files/Licences_bank/315568.pdf"
-  },
-  {
-    "name": [
       "СТАНДАРТ"
     ],
     "dateIssue": "2015-06-18",
@@ -2079,11 +1771,28 @@
   },
   {
     "name": [
-      "БАНК СТОЛИЦЯ",
-      "СТОЛИЦЯ"
+      "СТАРОКИЇВСЬКИЙ БАНК",
+      "ПОШТАБАНК"
     ],
-    "dateIssue": "2012-01-31",
-    "link": "https://bank.gov.ua/files/Licences_bank/380623.pdf"
+    "dateIssue": "2014-09-18",
+    "link": "https://bank.gov.ua/files/Licences_bank/321477.pdf"
+  },
+  {
+    "name": [
+      "СТОЛИЧНИЙ",
+      "БОНУС БАНК"
+    ],
+    "dateIssue": "2015-09-17",
+    "link": "https://bank.gov.ua/files/Licences_bank/397133.pdf"
+  },
+  {
+    "name": [
+      "СХІДНО-ЄВРОПЕЙСЬКИЙ БАНК",
+      "КОМЕРЦ БАНК КИЇВКООПБАНК",
+      "СХІДНО ЄВРОПЕЙСЬКИЙ БАНК"
+    ],
+    "dateIssue": "2009-12-21",
+    "link": "https://bank.gov.ua/files/Licences_bank/322658.pdf"
   },
   {
     "name": [
@@ -2096,6 +1805,13 @@
   },
   {
     "name": [
+      "ТАВРІЯ"
+    ],
+    "dateIssue": "2001-05-11",
+    "link": "https://bank.gov.ua/files/Licences_bank/384685.pdf"
+  },
+  {
+    "name": [
       "ТАВРИКА",
       "ТАВРІКА"
     ],
@@ -2104,21 +1820,15 @@
   },
   {
     "name": [
-      "ТАВРІЯ"
+      "ТАСКОМБАНК",
+      "БІЗНЕС СТАНДАРТ (ТАС БІЗНЕСБАНК)",
+      "МУНІЦИПАЛЬНИЙ",
+      "ТАВРІДАБАНК",
+      "ТАС БІЗНЕСБАНК",
+      "ТАСКОМБАНК (БІЗНЕС СТАНДАРТ)"
     ],
-    "dateIssue": "2001-05-11",
-    "link": "https://bank.gov.ua/files/Licences_bank/384685.pdf"
-  },
-  {
-    "name": [
-      "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ",
-      "ТАРУТІНО",
-      "ЧБРР",
-      "ЧОРН БАНК РОЗВИТКУ ТА РЕКОНСТР",
-      "ЧОРНОМОР БАНК РОЗВИТКУ ТА РЕКОНСТР"
-    ],
-    "dateIssue": "2014-05-06",
-    "link": "https://bank.gov.ua/files/Licences_bank/384577.pdf"
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/339500.pdf"
   },
   {
     "name": [
@@ -2130,12 +1840,50 @@
   },
   {
     "name": [
-      "ЮНЕКС БАНК",
-      "ТРАНСКРЕДОБАНК",
-      "ЮНЕКС"
+      "ТЕРРА БАНК",
+      "ІНВЕСТ КРЕДИТ БАНК",
+      "ІНВЕСТ КРИВБАС БАНК",
+      "ТЕРРА БАНК (ІНВЕСТ КРЕДИТ БАНК)",
+      "УБМС ІНВЕСТ КРИВБАС БАНК"
     ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/322539.pdf"
+    "dateIssue": "2014-12-23",
+    "link": "https://bank.gov.ua/files/Licences_bank/380601.pdf"
+  },
+  {
+    "name": [
+      "ТК КРЕДИТ",
+      "А К УДБ БАНК",
+      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК ТК КРЕДИТ"
+    ],
+    "dateIssue": "2016-04-07",
+    "link": "https://bank.gov.ua/files/Licences_bank/322830.pdf"
+  },
+  {
+    "name": [
+      "ТОРГОВО-ПРОМИСЛОВИЙ БАНК",
+      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК ТОРГОВО ПРОМИСЛОВИЙ БАНК",
+      "ТОРГОВО ПРОМИСЛОВИЙ БАНК",
+      "ТОРГПРОМБАНК"
+    ],
+    "dateIssue": "1999-05-13",
+    "link": "https://bank.gov.ua/files/Licences_bank/321660.pdf"
+  },
+  {
+    "name": [
+      "ТРАНСБАНК",
+      "КИЇВШЛЯХБАНК"
+    ],
+    "dateIssue": "2010-03-02",
+    "link": "https://bank.gov.ua/files/Licences_bank/300089.pdf"
+  },
+  {
+    "name": [
+      "ТРАСТ",
+      "РОЗДРІБНИЙ НЕОБМЕЖЕНИЙ СЕРВІС",
+      "ТРАСТ (РОЗДРІБНИЙ НЕОБМЕЖЕНИЙ СЕРВІС)"
+    ],
+    "dateIssue": "2016-12-29",
+    "link": "https://bank.gov.ua/files/Licences_bank/380474.pdf"
   },
   {
     "name": [
@@ -2154,11 +1902,12 @@
   },
   {
     "name": [
-      "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
-      "УКР БАНК РЕКОНСТР ТА РОЗВИТКУ"
+      "УКРАЇНА",
+      "БАНК УКРАЇНА",
+      "БАНК УКРАЇНА АК"
     ],
-    "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380883.pdf"
+    "dateIssue": "2001-07-16",
+    "link": "https://bank.gov.ua/files/Licences_bank/300410.pdf"
   },
   {
     "name": [
@@ -2169,11 +1918,39 @@
   },
   {
     "name": [
-      "УКРАЇНСЬКИЙ ФІНАНСОВИЙ СВІТ",
-      "УФС"
+      "УКРАЇНСЬКИЙ ІННОВАЦІЙНИЙ БАНК",
+      "УКРІНБАНК"
     ],
-    "dateIssue": "2014-11-10",
-    "link": "https://bank.gov.ua/files/Licences_bank/377777.pdf"
+    "dateIssue": "2016-03-22",
+    "link": "https://bank.gov.ua/files/Licences_bank/300142.pdf"
+  },
+  {
+    "name": [
+      "УКРАЇНСЬКИЙ АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК РОЗВИТКУ НАФТОГАЗОВОГО КОМПЛЕКСУ",
+      "КИЇВСЬКИЙ БІРЖОВИЙ БАНК",
+      "УКРНАФТОГАЗБАНК"
+    ],
+    "dateIssue": "2000-03-22",
+    "link": "https://bank.gov.ua/files/Licences_bank/300294.pdf"
+  },
+  {
+    "name": [
+      "УКРАЇНСЬКИЙ БІЗНЕС БАНК",
+      "ДОНЕЧЧИНА",
+      "СІЛЬГОСПБАНК",
+      "СІЛЬГОСПОД СІЛЬГОСПБАНК",
+      "УКРБІЗНЕСБАНК"
+    ],
+    "dateIssue": "2015-04-23",
+    "link": "https://bank.gov.ua/files/Licences_bank/334969.pdf"
+  },
+  {
+    "name": [
+      "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
+      "УКР БАНК РЕКОНСТР ТА РОЗВИТКУ"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/380883.pdf"
   },
   {
     "name": [
@@ -2186,19 +1963,13 @@
   },
   {
     "name": [
-      "ДЕРЖАВНИЙ ЕКСПОРТНО-ІМПОРТНИЙ БАНК УКРАЇНИ",
-      "УКРЕКСІМБАНК"
+      "УКРАЇНСЬКИЙ КАПІТАЛ",
+      "БАНК УКРАЇНСЬКИЙ КАПІТАЛ",
+      "ЗАКАРПАТСЬКИЙ ЗАКАРПАТТЯ",
+      "ЗАКАРПАТТЯ"
     ],
     "dateIssue": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/322313.pdf"
-  },
-  {
-    "name": [
-      "УКРАЇНСЬКИЙ ІННОВАЦІЙНИЙ БАНК",
-      "УКРІНБАНК"
-    ],
-    "dateIssue": "2016-03-22",
-    "link": "https://bank.gov.ua/files/Licences_bank/300142.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/320371.pdf"
   },
   {
     "name": [
@@ -2211,11 +1982,82 @@
   },
   {
     "name": [
+      "УКРАЇНСЬКИЙ ПРОМИСЛОВИЙ БАНК",
+      "АРЧ БАНК",
+      "ДЕМОСБАНК",
+      "УКРПРОМБАНК"
+    ],
+    "dateIssue": "2010-01-21",
+    "link": "https://bank.gov.ua/files/Licences_bank/321228.pdf"
+  },
+  {
+    "name": [
+      "УКРАЇНСЬКИЙ ПРОФЕСІЙНИЙ БАНК",
+      "МЕБЛІБАНК",
+      "МЕБЛІПРОМБАНК",
+      "УКРПРОФБАНК",
+      "УПБ"
+    ],
+    "dateIssue": "2015-08-28",
+    "link": "https://bank.gov.ua/files/Licences_bank/300205.pdf"
+  },
+  {
+    "name": [
+      "УКРАЇНСЬКИЙ ФІНАНСОВИЙ СВІТ",
+      "УФС"
+    ],
+    "dateIssue": "2014-11-10",
+    "link": "https://bank.gov.ua/files/Licences_bank/377777.pdf"
+  },
+  {
+    "name": [
+      "УКРГАЗБАНК",
+      "ІНТЕРГАЗБАНК",
+      "ХАДЖИБЕЙ"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/320478.pdf"
+  },
+  {
+    "name": [
+      "УКРГАЗПРОМБАНК",
+      "АКЦІОНЕРНИЙ БАНК УКРГАЗПРОМБАНК"
+    ],
+    "dateIssue": "2015-09-14",
+    "link": "https://bank.gov.ua/files/Licences_bank/320843.pdf"
+  },
+  {
+    "name": [
       "УКРСИББАНК",
       "ХАРКІВІНКОМБАНК"
     ],
     "dateIssue": null,
     "link": "https://bank.gov.ua/files/Licences_bank/351005.pdf"
+  },
+  {
+    "name": [
+      "УКРСОЦБАНК",
+      "РЕСПУБЛІКАНСЬКИЙ АКЦІОНЕРНО КОМЕРЦІЙНИЙ БАНК СОЦІАЛЬНОГО РОЗВИТКУ УКРСОЦБАНК"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/300023.pdf"
+  },
+  {
+    "name": [
+      "УКРСПЕЦІМПЕКСБАНК",
+      "АСКОЛЬД",
+      "БАНКІРСЬКИЙ ДІМ"
+    ],
+    "dateIssue": "2003-07-29",
+    "link": "https://bank.gov.ua/files/Licences_bank/322368.pdf"
+  },
+  {
+    "name": [
+      "УКРУНІВЕРСАЛБАНК",
+      "БЕРЕГИНЯ"
+    ],
+    "dateIssue": "1999-04-01",
+    "link": "https://bank.gov.ua/files/Licences_bank/321916.pdf"
   },
   {
     "name": [
@@ -2226,11 +2068,76 @@
   },
   {
     "name": [
-      "ФІНРОСТБАНК",
-      "ФЕБ"
+      "УНІВЕРСАЛ БАНК",
+      "АБ ОАЗИС",
+      "БАНК УНІВЕРСАЛЬНИЙ",
+      "ЄВРОЦЕНТР",
+      "КБ ОАЗИС"
     ],
-    "dateIssue": "2014-10-16",
-    "link": "https://bank.gov.ua/files/Licences_bank/328599.pdf"
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/322001.pdf"
+  },
+  {
+    "name": [
+      "УНІКОМБАНК",
+      "БАНК ПЕРСПЕКТИВА",
+      "ПУБЛІЧНЕ УНІКОМБАНК",
+      "УНІКОМБАНК (БАНК ПЕРСПЕКТИВА)"
+    ],
+    "dateIssue": "2015-12-03",
+    "link": "https://bank.gov.ua/files/Licences_bank/335902.pdf"
+  },
+  {
+    "name": [
+      "УНІКРЕДИТ БАНК",
+      "БАНК ПЕКАО (УКРАЇНА)",
+      "БАНК ПЕКАО (УКРАЇНА) ЛТД",
+      "БДК (УКРАЇНА) ЛТД",
+      "БДК (УКРАЇНА) ЛТД В ЛУЦЬКУ"
+    ],
+    "dateIssue": "2013-12-05",
+    "link": "https://bank.gov.ua/files/Licences_bank/303536.pdf"
+  },
+  {
+    "name": [
+      "ФІДОБАНК",
+      "АЖІО",
+      "СЕБ БАНК",
+      "ФІДОБАНК (СЕБ БАНК)"
+    ],
+    "dateIssue": "2016-07-18",
+    "link": "https://bank.gov.ua/files/Licences_bank/300175.pdf"
+  },
+  {
+    "name": [
+      "ФІДОКОМБАНК",
+      "ЕРСТЕ БАНК",
+      "ПРЕСТИЖ",
+      "ФБАНК (ЕРСТЕ БАНК)"
+    ],
+    "dateIssue": "2013-10-30",
+    "link": "https://bank.gov.ua/files/Licences_bank/380009.pdf"
+  },
+  {
+    "name": [
+      "ФІНАНС БАНК",
+      "НЕВІКОН БАНК",
+      "НЕВІКОН БАНК (ЗЮЙД)",
+      "ТММ БАНК",
+      "ФІНАНС БАНК (ТММ БАНК)"
+    ],
+    "dateIssue": "2016-05-31",
+    "link": "https://bank.gov.ua/files/Licences_bank/300896.pdf"
+  },
+  {
+    "name": [
+      "ФІНАНСИ ТА КРЕДИТ",
+      "БАНК ДІЛОВОГО СПІВРОБІТНИЦТВА",
+      "БАНК ФІНАНСИ ТА КРЕДИТ",
+      "ФІНАНСИ І КРЕДИТ"
+    ],
+    "dateIssue": "2015-12-17",
+    "link": "https://bank.gov.ua/files/Licences_bank/300131.pdf"
   },
   {
     "name": [
@@ -2255,6 +2162,33 @@
   },
   {
     "name": [
+      "ФІНЕКСБАНК",
+      "ГАЛУЗЕВИЙ МОНТАЖСПЕЦБАНК",
+      "КОРАЛ БАНК",
+      "КРИМУНІВЕРСАЛБАНК"
+    ],
+    "dateIssue": "2016-11-18",
+    "link": "https://bank.gov.ua/files/Licences_bank/380311.pdf"
+  },
+  {
+    "name": [
+      "ФІНРОСТБАНК",
+      "ФЕБ"
+    ],
+    "dateIssue": "2014-10-16",
+    "link": "https://bank.gov.ua/files/Licences_bank/328599.pdf"
+  },
+  {
+    "name": [
+      "ФАКТОРІАЛ-БАНК",
+      "ПРИВАТ ЕКСЕЛ",
+      "ФАКТОРІАЛ БАНК"
+    ],
+    "dateIssue": "2009-12-15",
+    "link": "https://bank.gov.ua/files/Licences_bank/351715.pdf"
+  },
+  {
+    "name": [
       "ФОРТУНА-БАНК",
       "ФОРТУНА БАНК"
     ],
@@ -2263,10 +2197,76 @@
   },
   {
     "name": [
+      "ХРЕЩАТИК",
+      "ЗГОДАБАНК",
+      "ХРЕЩАТИК БАНК"
+    ],
+    "dateIssue": "2016-06-02",
+    "link": "https://bank.gov.ua/files/Licences_bank/300670.pdf"
+  },
+  {
+    "name": [
+      "ХФБ БАНК УКРАЇНА",
+      "БА КА УКРАЇНА",
+      "КРЕДИТАНШТАЛЬТ УКРАЇНА"
+    ],
+    "dateIssue": "2007-10-22",
+    "link": "https://bank.gov.ua/files/Licences_bank/320724.pdf"
+  },
+  {
+    "name": [
       "ЦЕНТР"
     ],
     "dateIssue": "2018-10-30",
     "link": "https://bank.gov.ua/files/Licences_bank/380742.pdf"
+  },
+  {
+    "name": [
+      "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ",
+      "ТАРУТІНО",
+      "ЧБРР",
+      "ЧОРН БАНК РОЗВИТКУ ТА РЕКОНСТР",
+      "ЧОРНОМОР БАНК РОЗВИТКУ ТА РЕКОНСТР"
+    ],
+    "dateIssue": "2014-05-06",
+    "link": "https://bank.gov.ua/files/Licences_bank/384577.pdf"
+  },
+  {
+    "name": [
+      "ШАХТЕКОНОМБАНК",
+      "МАКІЇВСЬКИЙ ШАХТЕКОНОМБАНК"
+    ],
+    "dateIssue": "1999-02-23",
+    "link": "https://bank.gov.ua/files/Licences_bank/334936.pdf"
+  },
+  {
+    "name": [
+      "ЮНІОН СТАНДАРД БАНК",
+      "ВІДЕРГЕБУРТ",
+      "ЄКАТЕРИНОСЛАВСЬКИЙ (ФСБАНК)",
+      "ТЕХНОБАНК",
+      "ФІНАНСОВИЙ СОЮЗ БАНК",
+      "ЮНІОН СТАНДАРД БАНК (ЄКАТЕРИНОСЛАВСЬКИЙ КОМЕРЦІЙНИЙ БАНК)"
+    ],
+    "dateIssue": "2015-12-24",
+    "link": "https://bank.gov.ua/files/Licences_bank/305987.pdf"
+  },
+  {
+    "name": [
+      "ЮНІСОН",
+      "БАНК ЮНІСОН"
+    ],
+    "dateIssue": "2018-06-18",
+    "link": "https://bank.gov.ua/files/Licences_bank/380902.pdf"
+  },
+  {
+    "name": [
+      "ЮНЕКС БАНК",
+      "ТРАНСКРЕДОБАНК",
+      "ЮНЕКС"
+    ],
+    "dateIssue": null,
+    "link": "https://bank.gov.ua/files/Licences_bank/322539.pdf"
   },
   {
     "name": [
