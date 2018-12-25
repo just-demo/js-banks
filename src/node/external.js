@@ -1,4 +1,5 @@
 let utils = require('./utils');
+let fs = require('fs');
 
 module.exports = {
     read(file, url, encoding) {
@@ -14,7 +15,7 @@ module.exports = {
     download(file, url) {
         file = '../../data/binary/' + file;
         if (utils.fileExists(file)) {
-            return read('READ', file, file => utils.readFile(file, 'binary'));
+            return read('READ', file, file => fs.readFileSync(file));
         }
 
         const content = read('GET', url, utils.downloadURL);

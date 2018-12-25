@@ -50,6 +50,10 @@ module.exports = {
             .replace(/`/g, '\'')
             .replace(/\s+/g, ' ')
             .replace(/\s*-\s*/g, '-');
+    },
+
+    removeTags(name) {
+        return name.replace(/<[^>]*>/g, '');
     }
 };
 
