@@ -7,6 +7,8 @@ const dates = require('../dates');
 const assert = require('../assert');
 const regex = require('../regex');
 const PDFParser = require('pdf2json');
+const path = require('path');
+const PromisePool = require('es6-promise-pool');
 
 module.exports = {
     // Банківський нагляд -> Реєстрація та ліцензування -> Банківські ліцензії та види діяльності банків України:
@@ -51,13 +53,12 @@ module.exports = {
                 resolve(null);
             });
             pdfParser.on("pdfParser_dataReady", data => {
-                const text = this.extractText(data);
-                //Дата відкликання20.07.2011
+                // Process immediately to save memory
+                const text = ext.calc('nbu/not-banks/text/' + path.parse(file).name + '.txt', () => this.extractText(data));
                 const bank = regex.findObject(text,/^(.+?)Назва банку(.*?Дата відкликання(\d{2}\.\d{2}\.\d{4}))?/g, {
                     name: 1, dateIssue: 3
                 });
-                const bankNames = [names.extractBankPureName(bank.name), ...bankFiles[file]]
-                    .map(names.normalize); // TODO: why not just names.normalize?
+                const bankNames = [names.extractBankPureName(bank.name), ...bankFiles[file]].map(names.normalize);
                 resolve({
                     name: _.uniq(bankNames),
                     dateIssue: dates.format(bank.dateIssue),

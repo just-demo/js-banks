@@ -21,7 +21,18 @@ module.exports = {
         const content = read('GET', url, utils.downloadURL);
         utils.writeFile(file, content, 'binary');
         return content;
-    }
+    },
+
+    // TODO: rename the module to cacheable
+    calc(cache, operation) {
+        const file = '../../data/calc/' + cache;
+        if (utils.fileExists(file)) {
+            return read('READ', file, utils.readFile);
+        }
+        const result = read('CALC', cache, operation);
+        utils.writeFile(file, result);
+        return result;
+    },
 };
 
 function read(operation, source, reader) {

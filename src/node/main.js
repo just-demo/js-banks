@@ -9,21 +9,46 @@ let utils = require('./utils');
 let names = require('./names');
 let assert = require('./assert');
 let dbf = require('./dbf');
+const PromisePool = require('es6-promise-pool');
 
 // let t = require('../src/test');
 // console.log(t.hello());
 
-console.log(names.extractBankPureName("\t\t\tАКБ «Прем'єрбанк»"));
+console.log('start');
 
-nbuAPI.saveBanks();
-nbuDBF.saveBanks();
-nbuPDF.saveBanks();
-nbuUI.saveBanks();
-fund.saveAll();
-minfin.saveAll();
-names.rebuildBankNames();
+const files = ['a', 'b', 'c', 'd', 'e'];
 
-combineBanks();
+const promises = function * () {
+    for (let file of files) {
+        yield new Promise(resolve => {
+            setTimeout(() => {
+                console.log(file);
+                resolve(file + '_done');
+            }, 1000);
+        });
+    }
+};
+
+const promiseIterator = promises();
+// TODO: start here - create PoolingAsyncMapper
+const pool = new PromisePool(promiseIterator, 2);
+
+const data = [];
+pool.addEventListener('fulfilled', function (event) {
+    data.push(event.data.result);
+});
+
+pool.start().then(() => console.log('Complete', data));
+
+// nbuAPI.saveBanks();
+// nbuDBF.saveBanks();
+// nbuPDF.saveBanks();
+// nbuUI.saveBanks();
+// fund.saveAll();
+// minfin.saveAll();
+// names.rebuildBankNames();
+
+// combineBanks();
 // dbf.parse('../../data/binary/nbu/RCUKRU.DBF');
 
 function combineBanks() {
