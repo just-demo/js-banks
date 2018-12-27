@@ -2,6 +2,7 @@ let fs = require('fs');
 let mkdirp = require('mkdirp');
 let path = require('path');
 let request = require('sync-request');
+const asyncRequest = require('request-promise-native');
 let iconv = require('iconv-lite');
 
 module.exports = {
@@ -22,6 +23,17 @@ module.exports = {
     readURL(url, encoding) {
         const response = request('GET', url, {headers: {'User-Agent': 'javascript'}});
         return encoding ? iconv.decode(response.getBody(), encoding) : response.getBody('utf8');
+    },
+
+    asyncReadURL(url, encoding) {
+        return asyncRequest({
+            uri: url,
+            headers: {'User-Agent': 'javascript'},
+            resolveWithFullResponse: true,
+            encoding: 'binary',
+            // transform: body => encoding ? iconv.decode(body, encoding) : body
+            // TODO: test timing and simplify if encoding is default
+        }).then(response => iconv.decode(response.body, encoding || 'utf8'));
     },
 
     downloadURL(url) {

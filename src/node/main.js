@@ -18,20 +18,35 @@ const AsyncMapperPool = require('./async-mapper-pool');
 const startTime = new Date();
 
 // TODO: switch from sync request to async and same for file system operations
-Promise.all([
-    nbuAPI.saveBanks(),
-    nbuDBF.saveBanks(),
-    nbuPDF.saveBanks(),
-    nbuUI.saveBanks(),
-    fund.saveBanks(),
-    minfin.saveBanks(),
-    minfin.saveRatings()
-]).then(() => {
-    names.rebuildBankNames();
-    combineBanks();
-    console.log('Total time:', new Date() - startTime);
-});
+// Promise.all([
+//     nbuAPI.saveBanks(),
+//     nbuDBF.saveBanks(),
+//     nbuPDF.saveBanks(),
+//     nbuUI.saveBanks(),
+//     fund.saveBanks(),
+//     minfin.saveBanks(),
+//     minfin.saveRatings()
+// ]).then(() => {
+//     names.rebuildBankNames();
+//     combineBanks();
+//     console.log('Total time:', new Date() - startTime);
+// });
 // names.rebuildBankNames();
+
+// Promise.all([
+//     test(),
+//     test(),
+//     test()
+// ]).then((results) => {
+//     console.log('Total time:', new Date() - startTime);
+//     console.log(results);
+// });
+//
+// function test() {
+//     return new Promise(resolve => resolve(utils.asyncReadURL("http://localhost:3333/")));
+// }
+
+utils.asyncReadURL('https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251').then(data => console.log(data));
 
 // combineBanks();
 // dbf.parse('../../data/binary/nbu/RCUKRU.DBF');
