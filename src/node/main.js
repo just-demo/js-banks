@@ -15,16 +15,25 @@ const AsyncMapperPool = require('./async-mapper-pool');
 // let t = require('../src/test');
 // console.log(t.hello());
 
-nbuAPI.saveBanks();
-nbuDBF.saveBanks();
-nbuPDF.saveBanks();
-nbuUI.saveBanks();
-fund.saveBanks();
-minfin.saveBanks();
-minfin.saveRatings();
-names.rebuildBankNames();
+const startTime = new Date();
 
-combineBanks();
+// TODO: switch from sync request to async and same for file system operations
+Promise.all([
+    nbuAPI.saveBanks(),
+    nbuDBF.saveBanks(),
+    nbuPDF.saveBanks(),
+    nbuUI.saveBanks(),
+    fund.saveBanks(),
+    minfin.saveBanks(),
+    minfin.saveRatings()
+]).then(() => {
+    names.rebuildBankNames();
+    combineBanks();
+    console.log('Total time:', new Date() - startTime);
+});
+// names.rebuildBankNames();
+
+// combineBanks();
 // dbf.parse('../../data/binary/nbu/RCUKRU.DBF');
 
 // const banks = int.read('nbu/banks-pdf');

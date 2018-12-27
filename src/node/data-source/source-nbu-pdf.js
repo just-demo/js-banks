@@ -31,6 +31,7 @@ module.exports = {
     },
 
     saveBanks() {
+        // TODO: wrap everything into a promise
         const startTime = new Date();
 
         // TODO: why does "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК" fall into different buckets?
@@ -79,11 +80,12 @@ module.exports = {
                 });
             }
         }));
-        pool.start().then(banks => {
+        return pool.start().then(banks => {
             banks.sort(names.compareNames);
             int.write('nbu/banks-pdf', banks);
             console.log(banks.length);
-            console.log('Time:', new Date() - startTime)
+            console.log('PDF Time:', new Date() - startTime);
+            return banks;
         });
     },
 
