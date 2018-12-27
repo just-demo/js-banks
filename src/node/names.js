@@ -61,6 +61,10 @@ module.exports = {
     compareNames(a, b) {
         // TODO: switch "name" to "names" everywhere
         return compareArrays(a.name, b.name);
+    },
+
+    compareName(a, b) {
+        return compare(a.name, b.name);
     }
 };
 

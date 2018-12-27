@@ -16,11 +16,6 @@ module.exports = {
         return banks;
     },
 
-    saveAll() {
-        this.saveBanks();
-        this.saveRatings();
-    },
-
     saveBanks() {
         const banksHtml = ext.read('minfin/banks', 'https://minfin.com.ua/ua/banks/all/');
         const banks = regex.findManyObjects(banksHtml, /class="bank-emblem--desktop"[\S\s]+?\/company\/(.+?)\/[\S\s]+?<a href="\/ua\/company\/(.+?)\/">(.+?)<\/a>/g, {
@@ -36,6 +31,7 @@ module.exports = {
                 site: site
             }
         });
+        banks.sort(names.compareName);
         int.write('minfin/banks', banks);
     },
 

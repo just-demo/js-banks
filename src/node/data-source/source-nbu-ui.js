@@ -80,6 +80,7 @@ module.exports = {
         });
 
         banks.push(...banksInactive);
+        banks.sort(names.compareName);
         int.write('nbu/banks', banks);
     },
 

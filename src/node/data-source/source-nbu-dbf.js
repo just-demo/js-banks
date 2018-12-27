@@ -51,6 +51,7 @@ module.exports = {
                 active: record['REESTR'].toUpperCase() !== 'Л'
             };
         });
+        banks.sort(names.compareName);
         int.write('nbu/banks-dbf', banks);
     }
 };

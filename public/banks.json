@@ -2343,12 +2343,15 @@
       "dbf": "БАНК ТРАСТ-КАПІТАЛ",
       "api": "БАНК ТРАСТ-КАПІТАЛ",
       "nbu": "БАНК ТРАСТ-КАПІТАЛ",
-      "fund": "БАНК ТРАСТ-КАПІТАЛ"
+      "pdf": "БАНК ТРАСТ-КАПІТАЛ",
+      "fund": "БАНК ТРАСТ-КАПІТАЛ",
+      "minfin": "БАНК ТРАСТ-КАПІТАЛ"
     },
     "active": {
       "dbf": true,
       "api": true,
       "nbu": true,
+      "pdf": true,
       "fund": true
     },
     "dateOpen": {
@@ -2361,12 +2364,18 @@
       "fund": [
         "http://www.tc-bank.com"
       ],
-      "minfin": []
+      "minfin": [
+        "http://www.tc-bank.com/ua.html"
+      ]
     },
     "internal": {
-      "id": {},
+      "id": {
+        "minfin": 120
+      },
       "link": {
-        "nbu": "/control/uk/bankdict/bank?id=17923"
+        "nbu": "/control/uk/bankdict/bank?id=17923",
+        "pdf": "https://bank.gov.ua/files/Licences_bank/380106.pdf",
+        "minfin": "https://minfin.com.ua/ua/company/trust-capital"
       }
     }
   },
@@ -8143,32 +8152,6 @@
     }
   },
   {
-    "id": "ТРАСТ-КАПІТАЛ",
-    "name": {
-      "pdf": "ТРАСТ-КАПІТАЛ",
-      "minfin": "ТРАСТ-КАПІТАЛ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://www.tc-bank.com/ua.html"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 120
-      },
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380106.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/trust-capital"
-      }
-    }
-  },
-  {
     "id": "УКООПСПІЛКА",
     "name": {
       "dbf": "УКООПСПІЛКА",
@@ -9207,17 +9190,17 @@
     "active": {
       "dbf": true,
       "api": false,
-      "nbu": false,
+      "nbu": true,
       "pdf": true,
       "fund": true
     },
     "dateOpen": {
       "dbf": "2005-01-19",
-      "api": "2005-01-19"
+      "api": "2005-01-19",
+      "nbu": "2005-01-19"
     },
     "dateIssue": {
       "api": "2015-06-23",
-      "nbu": "2015-06-23",
       "fund": "2015-06-24"
     },
     "site": {
@@ -9233,7 +9216,7 @@
         "minfin": 73
       },
       "link": {
-        "nbu": "/control/uk/publish/article?art_id=75535",
+        "nbu": "/control/uk/bankdict/bank?id=21393",
         "pdf": "https://bank.gov.ua/files/Licences_bank/380054.pdf",
         "fund": "/not-paying/temporary/128-finansovaya-iniciativa",
         "minfin": "https://minfin.com.ua/ua/company/finansovaya-iniciativa"

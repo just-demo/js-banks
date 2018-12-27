@@ -16,10 +16,6 @@ module.exports = {
         return banks;
     },
 
-    saveAll() {
-        this.saveBanks();
-    },
-
     saveBanks() {
         const htmlActive = ext.read('fund/banks-active', 'http://www.fg.gov.ua/uchasnyky-fondu');
         const banks = regex.findManyObjects(htmlActive, /<tr.*?>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>([\S\s]*?)<\/td>\s+?<\/tr>/g, {
@@ -56,7 +52,7 @@ module.exports = {
                 existing.link = bank.link;
             }
         });
-
+        banks.sort(names.compareName);
         int.write('fund/banks', banks);
     },
 

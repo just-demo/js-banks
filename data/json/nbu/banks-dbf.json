@@ -1,394 +1,34 @@
 [
   {
-    "id": 2,
-    "name": "УКРЕКСІМБАНК",
-    "fullName": "ДЕРЖАВНИЙ ЕКСПОРТНО-ІМПОРТНИЙ БАНК УКРАЇНИ",
-    "dateRegister": "1992-01-23",
-    "dateOpen": "1992-01-23",
+    "id": 21482,
+    "name": "ЄВРОБАНК",
+    "fullName": "ЄВРОБАНК",
+    "dateRegister": "2005-01-18",
+    "dateOpen": "2005-01-18",
+    "active": false
+  },
+  {
+    "id": 26184,
+    "name": "ЄВРОГАЗБАНК",
+    "fullName": "ЄВРОПЕЙСЬКИЙ ГАЗОВИЙ БАНК",
+    "dateRegister": "2006-10-17",
+    "dateOpen": "2006-10-17",
+    "active": false
+  },
+  {
+    "id": 35386,
+    "name": "ЄПБ",
+    "fullName": "ЄВРОПЕЙСЬКИЙ ПРОМИСЛОВИЙ БАНК",
+    "dateRegister": "2008-08-13",
+    "dateOpen": "2008-08-13",
     "active": true
   },
   {
-    "id": 3,
-    "name": "ПРОМІНВЕСТБАНК",
-    "fullName": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ ПРОМИСЛОВО-ІНВЕСТИЦІЙНИЙ БАНК",
-    "dateRegister": "1992-08-26",
-    "dateOpen": "1992-08-26",
-    "active": true
-  },
-  {
-    "id": 5,
-    "name": "УКРСОЦБАНК",
-    "fullName": "УКРСОЦБАНК",
-    "dateRegister": "1991-09-27",
-    "dateOpen": "1991-09-27",
-    "active": true
-  },
-  {
-    "id": 6,
-    "name": "ОЩАДБАНК",
-    "fullName": "ДЕРЖАВНИЙ ОЩАДНИЙ БАНК УКРАЇНИ",
-    "dateRegister": "1991-12-31",
-    "dateOpen": "1991-12-31",
-    "active": true
-  },
-  {
-    "id": 8,
-    "name": "ЛЕГБАНК",
-    "fullName": "ЛЕГБАНК",
-    "dateRegister": "1991-10-08",
-    "dateOpen": "1991-10-08",
-    "active": false
-  },
-  {
-    "id": 12,
-    "name": "УКРІНБАНК",
-    "fullName": "УКРАЇНСЬКИЙ ІННОВАЦІЙНИЙ БАНК",
-    "dateRegister": "1991-10-02",
-    "dateOpen": "1991-10-02",
-    "active": false
-  },
-  {
-    "id": 15,
-    "name": "ФІДОБАНК",
-    "fullName": "ФІДОБАНК",
-    "dateRegister": "1991-10-02",
-    "dateOpen": "1991-10-02",
-    "active": false
-  },
-  {
-    "id": 19,
-    "name": "ІНТЕГРАЛ-БАНК",
-    "fullName": "ІНТЕГРАЛ-БАНК",
-    "dateRegister": "1994-09-30",
-    "dateOpen": "1994-09-30",
-    "active": false
-  },
-  {
-    "id": 20,
-    "name": "ЕНЕРГОБАНК",
-    "fullName": "ЕНЕРГОБАНК",
-    "dateRegister": "1991-10-31",
-    "dateOpen": "1991-10-31",
-    "active": false
-  },
-  {
-    "id": 23,
-    "name": "ІНТЕРБАНК",
-    "fullName": "ІНТЕРБАНК",
-    "dateRegister": "1992-03-23",
-    "dateOpen": "1992-03-23",
-    "active": false
-  },
-  {
-    "id": 24,
-    "name": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
-    "fullName": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
-    "dateRegister": "1992-03-27",
-    "dateOpen": "1992-03-27",
-    "active": true
-  },
-  {
-    "id": 25,
-    "name": "БРОКБІЗНЕСБАНК",
-    "fullName": "БРОКБІЗНЕСБАНК",
-    "dateRegister": "1991-10-07",
-    "dateOpen": "1991-10-07",
-    "active": false
-  },
-  {
-    "id": 28,
-    "name": "ВТБ БАНК",
-    "fullName": "ВТБ БАНК",
-    "dateRegister": "1992-11-11",
-    "dateOpen": "1992-11-11",
-    "active": false
-  },
-  {
-    "id": 29,
-    "name": "АЛЬТБАНК",
-    "fullName": "АЛЬТБАНК",
-    "dateRegister": "1991-10-21",
-    "dateOpen": "1991-10-21",
-    "active": true
-  },
-  {
-    "id": 31,
-    "name": "ПРИВАТБАНК",
-    "fullName": "ПРИВАТБАНК",
-    "dateRegister": "1992-03-19",
-    "dateOpen": "1992-03-19",
-    "active": true
-  },
-  {
-    "id": 32,
-    "name": "НОВИЙ",
-    "fullName": "НОВИЙ",
-    "dateRegister": "1992-04-06",
-    "dateOpen": "1992-04-06",
-    "active": false
-  },
-  {
-    "id": 33,
-    "name": "ПОЛІКОМБАНК",
-    "fullName": "ПОЛІКОМБАНК",
-    "dateRegister": "1994-08-18",
-    "dateOpen": "1994-08-18",
-    "active": true
-  },
-  {
-    "id": 37,
-    "name": "ПРОФІН БАНК",
-    "fullName": "БАНК ПРОФЕСІЙНОГО ФІНАНСУВАННЯ",
-    "dateRegister": "1991-10-01",
-    "dateOpen": "1991-10-01",
-    "active": false
-  },
-  {
-    "id": 41,
-    "name": "КАПІТАЛ",
-    "fullName": "КАПІТАЛ",
-    "dateRegister": "1991-10-31",
-    "dateOpen": "1991-10-31",
-    "active": false
-  },
-  {
-    "id": 46,
-    "name": "РОДОВІД БАНК",
-    "fullName": "РОДОВІД БАНК",
-    "dateRegister": "1991-10-07",
-    "dateOpen": "1991-10-07",
-    "active": false
-  },
-  {
-    "id": 47,
-    "name": "ЕКСПОБАНК",
-    "fullName": "ЕКСПОБАНК",
-    "dateRegister": "1991-12-26",
-    "dateOpen": "1991-12-26",
-    "active": false
-  },
-  {
-    "id": 49,
-    "name": "БАНК ФАМІЛЬНИЙ",
-    "fullName": "БАНК ФАМІЛЬНИЙ",
-    "dateRegister": "1991-12-27",
-    "dateOpen": "1991-12-27",
-    "active": true
-  },
-  {
-    "id": 52,
-    "name": "ВІЕЙБІ БАНК",
-    "fullName": "ВСЕУКРАЇНСЬКИЙ АКЦІОНЕРНИЙ БАНК",
-    "dateRegister": "1992-07-02",
-    "dateOpen": "1992-07-02",
-    "active": false
-  },
-  {
-    "id": 62,
-    "name": "ЛЬВІВ",
-    "fullName": "ЛЬВІВ",
-    "dateRegister": "1991-10-14",
-    "dateOpen": "1991-10-14",
-    "active": true
-  },
-  {
-    "id": 64,
-    "name": "ОКСІ БАНК",
-    "fullName": "ОКСІ БАНК",
-    "dateRegister": "1991-10-14",
-    "dateOpen": "1991-10-14",
-    "active": true
-  },
-  {
-    "id": 65,
-    "name": "А-БАНК",
-    "fullName": "АКЦЕНТ-БАНК",
-    "dateRegister": "1992-10-30",
-    "dateOpen": "1992-10-30",
-    "active": true
-  },
-  {
-    "id": 67,
-    "name": "МЕРКУРІЙ",
-    "fullName": "МЕРКУРІЙ",
-    "dateRegister": "1992-11-18",
-    "dateOpen": "1992-11-18",
-    "active": false
-  },
-  {
-    "id": 72,
-    "name": "ПІВДЕННИЙ",
-    "fullName": "ПІВДЕННИЙ",
-    "dateRegister": "1993-12-03",
-    "dateOpen": "1993-12-03",
-    "active": true
-  },
-  {
-    "id": 73,
-    "name": "ПОРТО-ФРАНКО",
-    "fullName": "ПОРТО-ФРАНКО",
-    "dateRegister": "1991-10-17",
-    "dateOpen": "1991-10-17",
-    "active": false
-  },
-  {
-    "id": 74,
-    "name": "ІНВЕСТБАНК",
-    "fullName": "ІНВЕСТБАНК",
-    "dateRegister": "1992-03-31",
-    "dateOpen": "1992-03-31",
-    "active": false
-  },
-  {
-    "id": 78,
-    "name": "ПОЛТАВА-БАНК",
-    "fullName": "ПОЛТАВА-БАНК",
-    "dateRegister": "1991-10-16",
-    "dateOpen": "1991-10-16",
-    "active": true
-  },
-  {
-    "id": 80,
-    "name": "ПУМБ",
-    "fullName": "ПЕРШИЙ УКРАЇНСЬКИЙ МІЖНАРОДНИЙ БАНК",
-    "dateRegister": "1991-12-23",
-    "dateOpen": "1991-12-23",
-    "active": true
-  },
-  {
-    "id": 84,
-    "name": "ФІНБАНК",
-    "fullName": "ФІНБАНК",
-    "dateRegister": "1993-12-24",
-    "dateOpen": "1993-12-24",
-    "active": false
-  },
-  {
-    "id": 85,
-    "name": "ГРАНТ",
-    "fullName": "ГРАНТ",
-    "dateRegister": "1991-10-29",
-    "dateOpen": "1991-10-29",
-    "active": true
-  },
-  {
-    "id": 87,
-    "name": "СКАЙ БАНК",
-    "fullName": "СКАЙ БАНК",
-    "dateRegister": "1991-10-28",
-    "dateOpen": "1991-10-28",
-    "active": true
-  },
-  {
-    "id": 91,
-    "name": "УКРСИББАНК",
-    "fullName": "УКРСИББАНК",
-    "dateRegister": "1991-10-28",
-    "dateOpen": "1991-10-28",
-    "active": true
-  },
-  {
-    "id": 95,
-    "name": "КОМІНВЕСТБАНК",
-    "fullName": "КОМЕРЦІЙНИЙ ІНВЕСТИЦІЙНИЙ БАНК",
-    "dateRegister": "1992-12-16",
-    "dateOpen": "1992-12-16",
-    "active": true
-  },
-  {
-    "id": 100,
-    "name": "ПРАВЕКС БАНК",
-    "fullName": "ПРАВЕКС БАНК",
-    "dateRegister": "1992-12-29",
-    "dateOpen": "1992-12-29",
-    "active": true
-  },
-  {
-    "id": 111,
-    "name": "ФІНРОСТБАНК",
-    "fullName": "ФІНРОСТБАНК",
-    "dateRegister": "1993-01-29",
-    "dateOpen": "1993-01-29",
-    "active": false
-  },
-  {
-    "id": 113,
-    "name": "НК БАНК",
-    "fullName": "БАНК НАРОДНИЙ КАПІТАЛ",
-    "dateRegister": "1993-09-21",
-    "dateOpen": "1993-09-21",
-    "active": false
-  },
-  {
-    "id": 127,
-    "name": "АРКАДА",
-    "fullName": "АРКАДА",
-    "dateRegister": "1993-06-23",
-    "dateOpen": "1993-06-23",
-    "active": true
-  },
-  {
-    "id": 131,
-    "name": "АКБ БАНК",
-    "fullName": "АВТОКРАЗБАНК",
-    "dateRegister": "1993-07-07",
-    "dateOpen": "1993-07-07",
-    "active": false
-  },
-  {
-    "id": 132,
-    "name": "КОНТРАКТ",
-    "fullName": "КОНТРАКТ",
-    "dateRegister": "1993-05-18",
-    "dateOpen": "1993-05-18",
-    "active": false
-  },
-  {
-    "id": 134,
-    "name": "МЕТАБАНК",
-    "fullName": "МЕТАБАНК",
-    "dateRegister": "1993-07-12",
-    "dateOpen": "1993-07-12",
-    "active": true
-  },
-  {
-    "id": 136,
-    "name": "БАНК ЗОЛОТІ ВОРОТА",
-    "fullName": "БАНК ЗОЛОТІ ВОРОТА",
-    "dateRegister": "1993-08-18",
-    "dateOpen": "1993-08-18",
-    "active": false
-  },
-  {
-    "id": 147,
-    "name": "УКООПСПІЛКА",
-    "fullName": "УКООПСПІЛКА",
-    "dateRegister": "1993-10-25",
-    "dateOpen": "1993-10-25",
-    "active": false
-  },
-  {
-    "id": 149,
-    "name": "НАДРА",
-    "fullName": "НАДРА",
-    "dateRegister": "1993-10-26",
-    "dateOpen": "1993-10-26",
-    "active": false
-  },
-  {
-    "id": 155,
-    "name": "КСГ БАНК",
-    "fullName": "КСГ БАНК",
-    "dateRegister": "1993-11-24",
-    "dateOpen": "1993-11-24",
-    "active": false
-  },
-  {
-    "id": 157,
-    "name": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
-    "fullName": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
-    "dateRegister": "1994-01-31",
-    "dateOpen": "1994-01-31",
+    "id": 243,
+    "name": "ІДЕЯ БАНК",
+    "fullName": "ІДЕЯ БАНК",
+    "dateRegister": "1991-10-22",
+    "dateOpen": "1991-10-22",
     "active": true
   },
   {
@@ -400,52 +40,20 @@
     "active": false
   },
   {
-    "id": 178,
-    "name": "СП БАНК",
-    "fullName": "СХІДНО-ПРОМИСЛОВИЙ КОМЕРЦІЙНИЙ БАНК",
-    "dateRegister": "1995-09-13",
-    "dateOpen": "1995-09-13",
+    "id": 74,
+    "name": "ІНВЕСТБАНК",
+    "fullName": "ІНВЕСТБАНК",
+    "dateRegister": "1992-03-31",
+    "dateOpen": "1992-03-31",
     "active": false
   },
   {
-    "id": 179,
-    "name": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
-    "fullName": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
-    "dateRegister": "1996-01-31",
-    "dateOpen": "1996-01-31",
+    "id": 46951,
+    "name": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
+    "fullName": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
+    "dateRegister": "2013-08-30",
+    "dateOpen": "2013-08-30",
     "active": false
-  },
-  {
-    "id": 180,
-    "name": "УКРГАЗПРОМБАНК",
-    "fullName": "УКРГАЗПРОМБАНК",
-    "dateRegister": "1996-03-27",
-    "dateOpen": "1996-03-27",
-    "active": false
-  },
-  {
-    "id": 184,
-    "name": "ТЕРРА БАНК",
-    "fullName": "ТЕРРА БАНК",
-    "dateRegister": "1996-10-18",
-    "dateOpen": "1996-10-18",
-    "active": false
-  },
-  {
-    "id": 185,
-    "name": "КЛІРИНГОВИЙ ДІМ",
-    "fullName": "КЛІРИНГОВИЙ ДІМ",
-    "dateRegister": "1996-12-30",
-    "dateOpen": "1996-12-30",
-    "active": true
-  },
-  {
-    "id": 186,
-    "name": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
-    "fullName": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
-    "dateRegister": "1997-06-20",
-    "dateOpen": "1997-06-20",
-    "active": true
   },
   {
     "id": 189,
@@ -453,166 +61,6 @@
     "fullName": "ІНГ БАНК УКРАЇНА",
     "dateRegister": "1997-12-15",
     "dateOpen": "1997-12-15",
-    "active": true
-  },
-  {
-    "id": 190,
-    "name": "ОТП БАНК",
-    "fullName": "ОТП БАНК",
-    "dateRegister": "1998-03-02",
-    "dateOpen": "1998-03-02",
-    "active": true
-  },
-  {
-    "id": 191,
-    "name": "СІТІБАНК",
-    "fullName": "СІТІБАНК",
-    "dateRegister": "1998-05-11",
-    "dateOpen": "1998-05-11",
-    "active": true
-  },
-  {
-    "id": 192,
-    "name": "ПРОКРЕДИТ БАНК",
-    "fullName": "ПРОКРЕДИТ БАНК",
-    "dateRegister": "2000-12-28",
-    "dateOpen": "2000-12-28",
-    "active": true
-  },
-  {
-    "id": 193,
-    "name": "СБЕРБАНК",
-    "fullName": "СБЕРБАНК",
-    "dateRegister": "2001-06-15",
-    "dateOpen": "2001-06-15",
-    "active": true
-  },
-  {
-    "id": 194,
-    "name": "ПРАЙМ-БАНК",
-    "fullName": "ПРАЙМ-БАНК",
-    "dateRegister": "2001-07-30",
-    "dateOpen": "2001-07-30",
-    "active": false
-  },
-  {
-    "id": 195,
-    "name": "АКТИВ-БАНК",
-    "fullName": "АКТИВ-БАНК",
-    "dateRegister": "2002-08-06",
-    "dateOpen": "2002-08-06",
-    "active": false
-  },
-  {
-    "id": 196,
-    "name": "АРТЕМ-БАНК",
-    "fullName": "АРТЕМ-БАНК",
-    "dateRegister": "2002-08-06",
-    "dateOpen": "2002-08-06",
-    "active": false
-  },
-  {
-    "id": 197,
-    "name": "ФОРТУНА-БАНК",
-    "fullName": "ФОРТУНА-БАНК",
-    "dateRegister": "2002-10-17",
-    "dateOpen": "2002-10-17",
-    "active": false
-  },
-  {
-    "id": 198,
-    "name": "БАНК ВОСТОК",
-    "fullName": "БАНК ВОСТОК",
-    "dateRegister": "2002-10-17",
-    "dateOpen": "2002-10-17",
-    "active": true
-  },
-  {
-    "id": 199,
-    "name": "УНІКОМБАНК",
-    "fullName": "УНІКОМБАНК",
-    "dateRegister": "2002-10-28",
-    "dateOpen": "2002-10-28",
-    "active": false
-  },
-  {
-    "id": 208,
-    "name": "ОМЕГА БАНК",
-    "fullName": "ОМЕГА БАНК",
-    "dateRegister": "1991-10-31",
-    "dateOpen": "1991-10-31",
-    "active": false
-  },
-  {
-    "id": 209,
-    "name": "ФІНАНСИ ТА КРЕДИТ",
-    "fullName": "ФІНАНСИ ТА КРЕДИТ",
-    "dateRegister": "1991-10-30",
-    "dateOpen": "1991-10-30",
-    "active": false
-  },
-  {
-    "id": 214,
-    "name": "БАНК АЛЬЯНС",
-    "fullName": "БАНК АЛЬЯНС",
-    "dateRegister": "1992-03-10",
-    "dateOpen": "1992-03-10",
-    "active": true
-  },
-  {
-    "id": 215,
-    "name": "УПБ",
-    "fullName": "УКРАЇНСЬКИЙ ПРОФЕСІЙНИЙ БАНК",
-    "dateRegister": "1992-01-30",
-    "dateOpen": "1992-01-30",
-    "active": false
-  },
-  {
-    "id": 218,
-    "name": "ПІВДЕНКОМБАНК",
-    "fullName": "ПІВДЕНКОМБАНК",
-    "dateRegister": "1991-10-03",
-    "dateOpen": "1991-10-03",
-    "active": false
-  },
-  {
-    "id": 219,
-    "name": "ЮСБ БАНК",
-    "fullName": "ЮНІОН СТАНДАРД БАНК",
-    "dateRegister": "1994-06-23",
-    "dateOpen": "1994-06-23",
-    "active": false
-  },
-  {
-    "id": 220,
-    "name": "ПРОМЕКОНОМБАНК",
-    "fullName": "ПРОМЕКОНОМБАНК",
-    "dateRegister": "1993-08-25",
-    "dateOpen": "1993-08-25",
-    "active": false
-  },
-  {
-    "id": 221,
-    "name": "ТАСКОМБАНК",
-    "fullName": "ТАСКОМБАНК",
-    "dateRegister": "1991-10-21",
-    "dateOpen": "1991-10-21",
-    "active": true
-  },
-  {
-    "id": 223,
-    "name": "СТАРОКИЇВСЬКИЙ БАНК",
-    "fullName": "СТАРОКИЇВСЬКИЙ БАНК",
-    "dateRegister": "1991-12-31",
-    "dateOpen": "1991-12-31",
-    "active": false
-  },
-  {
-    "id": 227,
-    "name": "КРЕДОБАНК",
-    "fullName": "КРЕДОБАНК",
-    "dateRegister": "1992-03-31",
-    "dateOpen": "1992-03-31",
     "active": true
   },
   {
@@ -624,563 +72,35 @@
     "active": true
   },
   {
-    "id": 231,
-    "name": "МТБ БАНК",
-    "fullName": "МТБ БАНК",
-    "dateRegister": "1993-11-05",
-    "dateOpen": "1993-11-05",
-    "active": true
-  },
-  {
-    "id": 236,
-    "name": "РЕАЛ БАНК",
-    "fullName": "РЕАЛ БАНК",
-    "dateRegister": "1991-10-29",
-    "dateOpen": "1991-10-29",
+    "id": 19,
+    "name": "ІНТЕГРАЛ-БАНК",
+    "fullName": "ІНТЕГРАЛ-БАНК",
+    "dateRegister": "1994-09-30",
+    "dateOpen": "1994-09-30",
     "active": false
   },
   {
-    "id": 237,
-    "name": "МЕГАБАНК",
-    "fullName": "МЕГАБАНК",
-    "dateRegister": "1991-10-28",
-    "dateOpen": "1991-10-28",
-    "active": true
-  },
-  {
-    "id": 238,
-    "name": "ГРІН БАНК",
-    "fullName": "ГРІН БАНК",
-    "dateRegister": "1992-01-09",
-    "dateOpen": "1992-01-09",
+    "id": 23,
+    "name": "ІНТЕРБАНК",
+    "fullName": "ІНТЕРБАНК",
+    "dateRegister": "1992-03-23",
+    "dateOpen": "1992-03-23",
     "active": false
   },
   {
-    "id": 239,
-    "name": "БТА БАНК",
-    "fullName": "БТА БАНК",
-    "dateRegister": "1992-12-10",
-    "dateOpen": "1992-12-10",
-    "active": true
-  },
-  {
-    "id": 240,
-    "name": "АСВІО БАНК",
-    "fullName": "АСВІО БАНК",
-    "dateRegister": "1991-10-30",
-    "dateOpen": "1991-10-30",
-    "active": true
-  },
-  {
-    "id": 241,
-    "name": "ДЕМАРК",
-    "fullName": "ДЕМАРК",
-    "dateRegister": "1992-07-10",
-    "dateOpen": "1992-07-10",
+    "id": 41247,
+    "name": "ІНТЕРКРЕДИТБАНК",
+    "fullName": "ІНТЕРКРЕДИТБАНК",
+    "dateRegister": "2011-06-14",
+    "dateOpen": "2011-06-14",
     "active": false
   },
   {
-    "id": 243,
-    "name": "ІДЕЯ БАНК",
-    "fullName": "ІДЕЯ БАНК",
-    "dateRegister": "1991-10-22",
-    "dateOpen": "1991-10-22",
-    "active": true
-  },
-  {
-    "id": 244,
-    "name": "УКРАЇНСЬКИЙ КАПІТАЛ",
-    "fullName": "УКРАЇНСЬКИЙ КАПІТАЛ",
-    "dateRegister": "1992-12-25",
-    "dateOpen": "1992-12-25",
-    "active": true
-  },
-  {
-    "id": 247,
-    "name": "ФІНАНС БАНК",
-    "fullName": "ФІНАНС БАНК",
-    "dateRegister": "1992-01-20",
-    "dateOpen": "1992-01-20",
-    "active": false
-  },
-  {
-    "id": 249,
-    "name": "КРЕДІ АГРІКОЛЬ БАНК",
-    "fullName": "КРЕДІ АГРІКОЛЬ БАНК",
-    "dateRegister": "1993-02-10",
-    "dateOpen": "1993-02-10",
-    "active": true
-  },
-  {
-    "id": 253,
-    "name": "УКРБІЗНЕСБАНК",
-    "fullName": "УКРАЇНСЬКИЙ БІЗНЕС БАНК",
-    "dateRegister": "1993-05-19",
-    "dateOpen": "1993-05-19",
-    "active": false
-  },
-  {
-    "id": 255,
-    "name": "УКРКОМУНБАНК",
-    "fullName": "УКРАЇНСЬКИЙ КОМУНАЛЬНИЙ БАНК",
-    "dateRegister": "1993-08-10",
-    "dateOpen": "1993-08-10",
-    "active": false
-  },
-  {
-    "id": 256,
-    "name": "ХРЕЩАТИК",
-    "fullName": "ХРЕЩАТИК",
-    "dateRegister": "1993-05-19",
-    "dateOpen": "1993-05-19",
-    "active": false
-  },
-  {
-    "id": 257,
-    "name": "КИЇВ",
-    "fullName": "КИЇВ",
-    "dateRegister": "1993-05-19",
-    "dateOpen": "1993-05-19",
-    "active": false
-  },
-  {
-    "id": 258,
-    "name": "МІСТО БАНК",
-    "fullName": "МІСТО БАНК",
-    "dateRegister": "1993-07-23",
-    "dateOpen": "1993-07-23",
-    "active": true
-  },
-  {
-    "id": 262,
-    "name": "СТОЛИЧНИЙ",
-    "fullName": "СТОЛИЧНИЙ",
-    "dateRegister": "1993-10-22",
-    "dateOpen": "1993-10-22",
-    "active": false
-  },
-  {
-    "id": 263,
-    "name": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
-    "fullName": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
-    "dateRegister": "1993-11-09",
-    "dateOpen": "1993-11-09",
-    "active": false
-  },
-  {
-    "id": 264,
-    "name": "БГ БАНК",
-    "fullName": "БГ БАНК",
-    "dateRegister": "1994-01-26",
-    "dateOpen": "1994-01-26",
-    "active": false
-  },
-  {
-    "id": 265,
-    "name": "ЮНЕКС БАНК",
-    "fullName": "ЮНЕКС БАНК",
-    "dateRegister": "1993-12-03",
-    "dateOpen": "1993-12-03",
-    "active": true
-  },
-  {
-    "id": 266,
-    "name": "ДІАМАНТБАНК",
-    "fullName": "ДІАМАНТБАНК",
-    "dateRegister": "1993-11-17",
-    "dateOpen": "1993-11-17",
-    "active": false
-  },
-  {
-    "id": 268,
-    "name": "КІБ",
-    "fullName": "КОМЕРЦІЙНИЙ ІНДУСТРІАЛЬНИЙ БАНК",
-    "dateRegister": "1993-12-03",
-    "dateOpen": "1993-12-03",
-    "active": true
-  },
-  {
-    "id": 269,
-    "name": "АЙБОКС БАНК",
-    "fullName": "АЙБОКС БАНК",
-    "dateRegister": "1993-12-24",
-    "dateOpen": "1993-12-24",
-    "active": true
-  },
-  {
-    "id": 270,
-    "name": "УНІВЕРСАЛ БАНК",
-    "fullName": "УНІВЕРСАЛ БАНК",
-    "dateRegister": "1994-01-20",
-    "dateOpen": "1994-01-20",
-    "active": true
-  },
-  {
-    "id": 271,
-    "name": "БАНК ФОРУМ",
-    "fullName": "БАНК ФОРУМ",
-    "dateRegister": "1994-01-31",
-    "dateOpen": "1994-01-31",
-    "active": false
-  },
-  {
-    "id": 272,
-    "name": "ПІРЕУС БАНК МКБ",
-    "fullName": "ПІРЕУС БАНК МКБ",
-    "dateRegister": "1994-01-31",
-    "dateOpen": "1994-01-31",
-    "active": true
-  },
-  {
-    "id": 274,
-    "name": "БАНК ВЕЛЕС",
-    "fullName": "БАНК ВЕЛЕС",
-    "dateRegister": "1994-03-18",
-    "dateOpen": "1994-03-18",
-    "active": false
-  },
-  {
-    "id": 276,
-    "name": "ТК КРЕДИТ",
-    "fullName": "ТК КРЕДИТ",
-    "dateRegister": "1994-04-28",
-    "dateOpen": "1994-04-28",
-    "active": false
-  },
-  {
-    "id": 278,
-    "name": "БАНК КРЕДИТ ДНІПРО",
-    "fullName": "БАНК КРЕДИТ ДНІПРО",
-    "dateRegister": "1993-07-07",
-    "dateOpen": "1993-07-07",
-    "active": true
-  },
-  {
-    "id": 279,
-    "name": "АЛЬФА-БАНК",
-    "fullName": "АЛЬФА-БАНК",
-    "dateRegister": "1993-03-24",
-    "dateOpen": "1993-03-24",
-    "active": true
-  },
-  {
-    "id": 280,
-    "name": "ЗАХІДІНКОМБАНК",
-    "fullName": "ЗАХІДІНКОМБАНК",
-    "dateRegister": "1993-03-11",
-    "dateOpen": "1993-03-11",
-    "active": false
-  },
-  {
-    "id": 281,
-    "name": "УКРГАЗБАНК",
-    "fullName": "УКРГАЗБАНК",
-    "dateRegister": "1993-07-21",
-    "dateOpen": "1993-07-21",
-    "active": true
-  },
-  {
-    "id": 282,
-    "name": "КЛАСИКБАНК",
-    "fullName": "КЛАСИКБАНК",
-    "dateRegister": "1995-10-06",
-    "dateOpen": "1995-10-06",
-    "active": false
-  },
-  {
-    "id": 283,
-    "name": "КИЇВСЬКА РУСЬ",
-    "fullName": "КИЇВСЬКА РУСЬ",
-    "dateRegister": "1996-05-30",
-    "dateOpen": "1996-05-30",
-    "active": false
-  },
-  {
-    "id": 285,
-    "name": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
-    "fullName": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
-    "dateRegister": "1996-09-26",
-    "dateOpen": "1996-09-26",
-    "active": false
-  },
-  {
-    "id": 286,
-    "name": "РАДАБАНК",
-    "fullName": "РАДАБАНК",
-    "dateRegister": "1993-12-03",
-    "dateOpen": "1993-12-03",
-    "active": true
-  },
-  {
-    "id": 288,
-    "name": "КРЕДИТПРОМБАНК",
-    "fullName": "КРЕДИТПРОМБАНК",
-    "dateRegister": "1997-05-20",
-    "dateOpen": "1997-05-20",
-    "active": false
-  },
-  {
-    "id": 17541,
-    "name": "УФС",
-    "fullName": "УКРАЇНСЬКИЙ ФІНАНСОВИЙ СВІТ",
-    "dateRegister": "2003-11-12",
-    "dateOpen": "2003-11-12",
-    "active": false
-  },
-  {
-    "id": 17559,
-    "name": "ДАНІЕЛЬ",
-    "fullName": "ДАНІЕЛЬ",
-    "dateRegister": "2003-11-27",
-    "dateOpen": "2003-11-27",
-    "active": false
-  },
-  {
-    "id": 17923,
-    "name": "БАНК ТРАСТ-КАПІТАЛ",
-    "fullName": "БАНК ТРАСТ-КАПІТАЛ",
-    "dateRegister": "2004-03-10",
-    "dateOpen": "2004-03-10",
-    "active": true
-  },
-  {
-    "id": 17985,
-    "name": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
-    "fullName": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
-    "dateRegister": "2004-03-19",
-    "dateOpen": "2004-03-19",
-    "active": true
-  },
-  {
-    "id": 18334,
-    "name": "УКРБУДІНВЕСТБАНК",
-    "fullName": "УКРАЇНСЬКИЙ БУДІВЕЛЬНО-ІНВЕСТИЦІЙНИЙ БАНК",
-    "dateRegister": "2004-04-20",
-    "dateOpen": "2004-04-20",
-    "active": true
-  },
-  {
-    "id": 18642,
-    "name": "БАНК КАМБІО",
-    "fullName": "БАНК КАМБІО",
-    "dateRegister": "2004-06-30",
-    "dateOpen": "2004-06-30",
-    "active": false
-  },
-  {
-    "id": 21134,
-    "name": "ПТБ",
-    "fullName": "ПЛАТИНУМ БАНК",
-    "dateRegister": "2005-01-13",
-    "dateOpen": "2005-01-13",
-    "active": false
-  },
-  {
-    "id": 21393,
-    "name": "ФІНАНСОВА ІНІЦІАТИВА",
-    "fullName": "ФІНАНСОВА ІНІЦІАТИВА",
-    "dateRegister": "2005-01-19",
-    "dateOpen": "2005-01-19",
-    "active": true
-  },
-  {
-    "id": 21482,
-    "name": "ЄВРОБАНК",
-    "fullName": "ЄВРОБАНК",
-    "dateRegister": "2005-01-18",
-    "dateOpen": "2005-01-18",
-    "active": false
-  },
-  {
-    "id": 22799,
-    "name": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
-    "fullName": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
-    "dateRegister": "2005-08-09",
-    "dateOpen": "2005-08-09",
-    "active": true
-  },
-  {
-    "id": 23884,
-    "name": "АКСІОМА",
-    "fullName": "АКСІОМА",
-    "dateRegister": "2006-01-10",
-    "dateOpen": "2006-01-10",
-    "active": false
-  },
-  {
-    "id": 24177,
-    "name": "ДЕЛЬТА БАНК",
-    "fullName": "ДЕЛЬТА БАНК",
-    "dateRegister": "2006-02-15",
-    "dateOpen": "2006-02-15",
-    "active": false
-  },
-  {
-    "id": 24345,
-    "name": "БАНК ФОРВАРД",
-    "fullName": "БАНК ФОРВАРД",
-    "dateRegister": "2006-02-28",
-    "dateOpen": "2006-02-28",
-    "active": true
-  },
-  {
-    "id": 24738,
-    "name": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
-    "fullName": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
-    "dateRegister": "2006-05-06",
-    "dateOpen": "2006-05-06",
-    "active": false
-  },
-  {
-    "id": 25482,
-    "name": "КОНКОРД",
-    "fullName": "КОНКОРД",
-    "dateRegister": "2006-08-07",
-    "dateOpen": "2006-08-07",
-    "active": true
-  },
-  {
-    "id": 25539,
-    "name": "БАНК БОГУСЛАВ",
-    "fullName": "БАНК БОГУСЛАВ",
-    "dateRegister": "2006-08-04",
-    "dateOpen": "2006-08-04",
-    "active": false
-  },
-  {
-    "id": 25655,
-    "name": "КРЕДИТ ЄВРОПА БАНК",
-    "fullName": "КРЕДИТ ЄВРОПА БАНК",
-    "dateRegister": "2006-08-28",
-    "dateOpen": "2006-08-28",
-    "active": true
-  },
-  {
-    "id": 26184,
-    "name": "ЄВРОГАЗБАНК",
-    "fullName": "ЄВРОПЕЙСЬКИЙ ГАЗОВИЙ БАНК",
-    "dateRegister": "2006-10-17",
-    "dateOpen": "2006-10-17",
-    "active": false
-  },
-  {
-    "id": 26321,
-    "name": "КРЕДИТВЕСТ БАНК",
-    "fullName": "ВЕСТ ФАЙНЕНС ЕНД КРЕДИТ БАНК",
-    "dateRegister": "2006-10-04",
-    "dateOpen": "2006-10-04",
-    "active": true
-  },
-  {
-    "id": 30288,
-    "name": "ПРЕМІУМ",
-    "fullName": "ПРЕМІУМ",
-    "dateRegister": "2007-07-24",
-    "dateOpen": "2007-07-24",
-    "active": false
-  },
-  {
-    "id": 30619,
-    "name": "ТРАСТ",
-    "fullName": "ТРАСТ",
-    "dateRegister": "2007-08-22",
-    "dateOpen": "2007-08-22",
-    "active": false
-  },
-  {
-    "id": 30620,
-    "name": "МОТОР-БАНК",
-    "fullName": "МОТОР-БАНК",
-    "dateRegister": "2007-08-10",
-    "dateOpen": "2007-08-10",
-    "active": true
-  },
-  {
-    "id": 32001,
-    "name": "СОЮЗ",
-    "fullName": "СОЮЗ",
-    "dateRegister": "2007-11-26",
-    "dateOpen": "2007-11-26",
-    "active": false
-  },
-  {
-    "id": 32050,
-    "name": "ГЛОБУС",
-    "fullName": "ГЛОБУС",
-    "dateRegister": "2007-11-29",
-    "dateOpen": "2007-11-29",
-    "active": true
-  },
-  {
-    "id": 32183,
-    "name": "АП БАНК",
-    "fullName": "АГРОПРОСПЕРІС БАНК",
-    "dateRegister": "2007-11-28",
-    "dateOpen": "2007-11-28",
-    "active": true
-  },
-  {
-    "id": 33468,
-    "name": "МІБ",
-    "fullName": "МІЖНАРОДНИЙ ІНВЕСТИЦІЙНИЙ БАНК",
-    "dateRegister": "2008-03-11",
-    "dateOpen": "2008-03-11",
-    "active": true
-  },
-  {
-    "id": 33992,
-    "name": "АКТАБАНК",
-    "fullName": "АКТАБАНК",
-    "dateRegister": "2008-04-23",
-    "dateOpen": "2008-04-23",
-    "active": false
-  },
-  {
-    "id": 34374,
-    "name": "ЗЛАТОБАНК",
-    "fullName": "ЗЛАТОБАНК",
-    "dateRegister": "2008-05-16",
-    "dateOpen": "2008-05-16",
-    "active": false
-  },
-  {
-    "id": 34501,
-    "name": "АКОРДБАНК",
-    "fullName": "АКОРДБАНК",
-    "dateRegister": "2008-06-04",
-    "dateOpen": "2008-06-04",
-    "active": true
-  },
-  {
-    "id": 35128,
-    "name": "БАНК 3/4",
-    "fullName": "БАНК 3/4",
-    "dateRegister": "2008-07-25",
-    "dateOpen": "2008-07-25",
-    "active": true
-  },
-  {
-    "id": 35386,
-    "name": "ЄПБ",
-    "fullName": "ЄВРОПЕЙСЬКИЙ ПРОМИСЛОВИЙ БАНК",
-    "dateRegister": "2008-08-13",
-    "dateOpen": "2008-08-13",
-    "active": true
-  },
-  {
-    "id": 36978,
-    "name": "СТАНДАРТ",
-    "fullName": "СТАНДАРТ",
-    "dateRegister": "2008-12-31",
-    "dateOpen": "2008-12-31",
-    "active": false
-  },
-  {
-    "id": 37186,
-    "name": "ВЕРНУМ БАНК",
-    "fullName": "ВЕРНУМ БАНК",
-    "dateRegister": "2009-02-17",
-    "dateOpen": "2009-02-17",
+    "id": 65,
+    "name": "А-БАНК",
+    "fullName": "АКЦЕНТ-БАНК",
+    "dateRegister": "1992-10-30",
+    "dateOpen": "1992-10-30",
     "active": true
   },
   {
@@ -1192,83 +112,51 @@
     "active": false
   },
   {
-    "id": 37620,
-    "name": "ВБР",
-    "fullName": "ВСЕУКРАЇНСЬКИЙ БАНК РОЗВИТКУ",
-    "dateRegister": "2009-04-30",
-    "dateOpen": "2009-04-30",
-    "active": false
-  },
-  {
-    "id": 37648,
-    "name": "ДОЙЧЕ БАНК ДБУ",
-    "fullName": "ДОЙЧЕ БАНК ДБУ",
-    "dateRegister": "2009-06-19",
-    "dateOpen": "2009-06-19",
+    "id": 269,
+    "name": "АЙБОКС БАНК",
+    "fullName": "АЙБОКС БАНК",
+    "dateRegister": "1993-12-24",
+    "dateOpen": "1993-12-24",
     "active": true
   },
   {
-    "id": 38780,
-    "name": "РАДИКАЛ БАНК",
-    "fullName": "РАДИКАЛ БАНК",
-    "dateRegister": "2010-03-23",
-    "dateOpen": "2010-03-23",
+    "id": 131,
+    "name": "АКБ БАНК",
+    "fullName": "АВТОКРАЗБАНК",
+    "dateRegister": "1993-07-07",
+    "dateOpen": "1993-07-07",
     "active": false
   },
   {
-    "id": 38874,
-    "name": "РОЗРАХУНКОВИЙ ЦЕНТР",
-    "fullName": "РОЗРАХУНКОВИЙ ЦЕНТР З ОБСЛУГОВУВАННЯ ДОГОВОРІВ НА ФІНАНСОВИХ РИНКАХ",
-    "dateRegister": "2013-09-06",
-    "dateOpen": "2013-09-06",
+    "id": 34501,
+    "name": "АКОРДБАНК",
+    "fullName": "АКОРДБАНК",
+    "dateRegister": "2008-06-04",
+    "dateOpen": "2008-06-04",
     "active": true
   },
   {
-    "id": 39748,
-    "name": "СМАРТБАНК",
-    "fullName": "СМАРТБАНК",
-    "dateRegister": "2010-09-13",
-    "dateOpen": "2010-09-13",
+    "id": 23884,
+    "name": "АКСІОМА",
+    "fullName": "АКСІОМА",
+    "dateRegister": "2006-01-10",
+    "dateOpen": "2006-01-10",
     "active": false
   },
   {
-    "id": 40403,
-    "name": "СЕБ КОРПОРАТИВНИЙ БАНК",
-    "fullName": "СЕБ КОРПОРАТИВНИЙ БАНК",
-    "dateRegister": "2011-01-19",
-    "dateOpen": "2011-01-19",
-    "active": true
-  },
-  {
-    "id": 41118,
-    "name": "БАНК СІЧ",
-    "fullName": "БАНК СІЧ",
-    "dateRegister": "2011-05-24",
-    "dateOpen": "2011-05-24",
-    "active": true
-  },
-  {
-    "id": 41247,
-    "name": "ІНТЕРКРЕДИТБАНК",
-    "fullName": "ІНТЕРКРЕДИТБАНК",
-    "dateRegister": "2011-06-14",
-    "dateOpen": "2011-06-14",
+    "id": 33992,
+    "name": "АКТАБАНК",
+    "fullName": "АКТАБАНК",
+    "dateRegister": "2008-04-23",
+    "dateOpen": "2008-04-23",
     "active": false
   },
   {
-    "id": 43332,
-    "name": "МЕЛІОР БАНК",
-    "fullName": "МЕЛІОР БАНК",
-    "dateRegister": "2012-02-24",
-    "dateOpen": "2012-02-24",
-    "active": false
-  },
-  {
-    "id": 43429,
-    "name": "СОФІЙСЬКИЙ",
-    "fullName": "СОФІЙСЬКИЙ",
-    "dateRegister": "2012-03-16",
-    "dateOpen": "2012-03-16",
+    "id": 195,
+    "name": "АКТИВ-БАНК",
+    "fullName": "АКТИВ-БАНК",
+    "dateRegister": "2002-08-06",
+    "dateOpen": "2002-08-06",
     "active": false
   },
   {
@@ -1280,20 +168,68 @@
     "active": true
   },
   {
-    "id": 45490,
-    "name": "ЮНІСОН",
-    "fullName": "ЮНІСОН",
-    "dateRegister": "2013-02-08",
-    "dateOpen": "2013-02-08",
+    "id": 29,
+    "name": "АЛЬТБАНК",
+    "fullName": "АЛЬТБАНК",
+    "dateRegister": "1991-10-21",
+    "dateOpen": "1991-10-21",
+    "active": true
+  },
+  {
+    "id": 279,
+    "name": "АЛЬФА-БАНК",
+    "fullName": "АЛЬФА-БАНК",
+    "dateRegister": "1993-03-24",
+    "dateOpen": "1993-03-24",
+    "active": true
+  },
+  {
+    "id": 32183,
+    "name": "АП БАНК",
+    "fullName": "АГРОПРОСПЕРІС БАНК",
+    "dateRegister": "2007-11-28",
+    "dateOpen": "2007-11-28",
+    "active": true
+  },
+  {
+    "id": 127,
+    "name": "АРКАДА",
+    "fullName": "АРКАДА",
+    "dateRegister": "1993-06-23",
+    "dateOpen": "1993-06-23",
+    "active": true
+  },
+  {
+    "id": 196,
+    "name": "АРТЕМ-БАНК",
+    "fullName": "АРТЕМ-БАНК",
+    "dateRegister": "2002-08-06",
+    "dateOpen": "2002-08-06",
     "active": false
   },
   {
-    "id": 46434,
-    "name": "БАНК МИХАЙЛІВСЬКИЙ",
-    "fullName": "БАНК МИХАЙЛІВСЬКИЙ",
-    "dateRegister": "2013-06-14",
-    "dateOpen": "2013-06-14",
-    "active": false
+    "id": 240,
+    "name": "АСВІО БАНК",
+    "fullName": "АСВІО БАНК",
+    "dateRegister": "1991-10-30",
+    "dateOpen": "1991-10-30",
+    "active": true
+  },
+  {
+    "id": 35128,
+    "name": "БАНК 3/4",
+    "fullName": "БАНК 3/4",
+    "dateRegister": "2008-07-25",
+    "dateOpen": "2008-07-25",
+    "active": true
+  },
+  {
+    "id": 22799,
+    "name": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
+    "fullName": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
+    "dateRegister": "2005-08-09",
+    "dateOpen": "2005-08-09",
+    "active": true
   },
   {
     "id": 46526,
@@ -1304,27 +240,163 @@
     "active": true
   },
   {
-    "id": 46951,
-    "name": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
-    "fullName": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
-    "dateRegister": "2013-08-30",
-    "dateOpen": "2013-08-30",
-    "active": false
-  },
-  {
-    "id": 47216,
-    "name": "ПОРТАЛ",
-    "fullName": "ПОРТАЛ",
-    "dateRegister": "2013-09-20",
-    "dateOpen": "2013-09-20",
+    "id": 214,
+    "name": "БАНК АЛЬЯНС",
+    "fullName": "БАНК АЛЬЯНС",
+    "dateRegister": "1992-03-10",
+    "dateOpen": "1992-03-10",
     "active": true
   },
   {
-    "id": 47332,
-    "name": "ГЕФЕСТ",
-    "fullName": "ГЕФЕСТ",
-    "dateRegister": "2013-10-04",
-    "dateOpen": "2013-10-04",
+    "id": 25539,
+    "name": "БАНК БОГУСЛАВ",
+    "fullName": "БАНК БОГУСЛАВ",
+    "dateRegister": "2006-08-04",
+    "dateOpen": "2006-08-04",
+    "active": false
+  },
+  {
+    "id": 274,
+    "name": "БАНК ВЕЛЕС",
+    "fullName": "БАНК ВЕЛЕС",
+    "dateRegister": "1994-03-18",
+    "dateOpen": "1994-03-18",
+    "active": false
+  },
+  {
+    "id": 198,
+    "name": "БАНК ВОСТОК",
+    "fullName": "БАНК ВОСТОК",
+    "dateRegister": "2002-10-17",
+    "dateOpen": "2002-10-17",
+    "active": true
+  },
+  {
+    "id": 136,
+    "name": "БАНК ЗОЛОТІ ВОРОТА",
+    "fullName": "БАНК ЗОЛОТІ ВОРОТА",
+    "dateRegister": "1993-08-18",
+    "dateOpen": "1993-08-18",
+    "active": false
+  },
+  {
+    "id": 18642,
+    "name": "БАНК КАМБІО",
+    "fullName": "БАНК КАМБІО",
+    "dateRegister": "2004-06-30",
+    "dateOpen": "2004-06-30",
+    "active": false
+  },
+  {
+    "id": 278,
+    "name": "БАНК КРЕДИТ ДНІПРО",
+    "fullName": "БАНК КРЕДИТ ДНІПРО",
+    "dateRegister": "1993-07-07",
+    "dateOpen": "1993-07-07",
+    "active": true
+  },
+  {
+    "id": 46434,
+    "name": "БАНК МИХАЙЛІВСЬКИЙ",
+    "fullName": "БАНК МИХАЙЛІВСЬКИЙ",
+    "dateRegister": "2013-06-14",
+    "dateOpen": "2013-06-14",
+    "active": false
+  },
+  {
+    "id": 179,
+    "name": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
+    "fullName": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
+    "dateRegister": "1996-01-31",
+    "dateOpen": "1996-01-31",
+    "active": false
+  },
+  {
+    "id": 285,
+    "name": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
+    "fullName": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
+    "dateRegister": "1996-09-26",
+    "dateOpen": "1996-09-26",
+    "active": false
+  },
+  {
+    "id": 41118,
+    "name": "БАНК СІЧ",
+    "fullName": "БАНК СІЧ",
+    "dateRegister": "2011-05-24",
+    "dateOpen": "2011-05-24",
+    "active": true
+  },
+  {
+    "id": 17923,
+    "name": "БАНК ТРАСТ-КАПІТАЛ",
+    "fullName": "БАНК ТРАСТ-КАПІТАЛ",
+    "dateRegister": "2004-03-10",
+    "dateOpen": "2004-03-10",
+    "active": true
+  },
+  {
+    "id": 49,
+    "name": "БАНК ФАМІЛЬНИЙ",
+    "fullName": "БАНК ФАМІЛЬНИЙ",
+    "dateRegister": "1991-12-27",
+    "dateOpen": "1991-12-27",
+    "active": true
+  },
+  {
+    "id": 24345,
+    "name": "БАНК ФОРВАРД",
+    "fullName": "БАНК ФОРВАРД",
+    "dateRegister": "2006-02-28",
+    "dateOpen": "2006-02-28",
+    "active": true
+  },
+  {
+    "id": 271,
+    "name": "БАНК ФОРУМ",
+    "fullName": "БАНК ФОРУМ",
+    "dateRegister": "1994-01-31",
+    "dateOpen": "1994-01-31",
+    "active": false
+  },
+  {
+    "id": 264,
+    "name": "БГ БАНК",
+    "fullName": "БГ БАНК",
+    "dateRegister": "1994-01-26",
+    "dateOpen": "1994-01-26",
+    "active": false
+  },
+  {
+    "id": 25,
+    "name": "БРОКБІЗНЕСБАНК",
+    "fullName": "БРОКБІЗНЕСБАНК",
+    "dateRegister": "1991-10-07",
+    "dateOpen": "1991-10-07",
+    "active": false
+  },
+  {
+    "id": 239,
+    "name": "БТА БАНК",
+    "fullName": "БТА БАНК",
+    "dateRegister": "1992-12-10",
+    "dateOpen": "1992-12-10",
+    "active": true
+  },
+  {
+    "id": 52,
+    "name": "ВІЕЙБІ БАНК",
+    "fullName": "ВСЕУКРАЇНСЬКИЙ АКЦІОНЕРНИЙ БАНК",
+    "dateRegister": "1992-07-02",
+    "dateOpen": "1992-07-02",
+    "active": false
+  },
+  {
+    "id": 37620,
+    "name": "ВБР",
+    "fullName": "ВСЕУКРАЇНСЬКИЙ БАНК РОЗВИТКУ",
+    "dateRegister": "2009-04-30",
+    "dateOpen": "2009-04-30",
     "active": false
   },
   {
@@ -1336,11 +408,579 @@
     "active": false
   },
   {
+    "id": 37186,
+    "name": "ВЕРНУМ БАНК",
+    "fullName": "ВЕРНУМ БАНК",
+    "dateRegister": "2009-02-17",
+    "dateOpen": "2009-02-17",
+    "active": true
+  },
+  {
+    "id": 28,
+    "name": "ВТБ БАНК",
+    "fullName": "ВТБ БАНК",
+    "dateRegister": "1992-11-11",
+    "dateOpen": "1992-11-11",
+    "active": false
+  },
+  {
+    "id": 47332,
+    "name": "ГЕФЕСТ",
+    "fullName": "ГЕФЕСТ",
+    "dateRegister": "2013-10-04",
+    "dateOpen": "2013-10-04",
+    "active": false
+  },
+  {
+    "id": 32050,
+    "name": "ГЛОБУС",
+    "fullName": "ГЛОБУС",
+    "dateRegister": "2007-11-29",
+    "dateOpen": "2007-11-29",
+    "active": true
+  },
+  {
+    "id": 238,
+    "name": "ГРІН БАНК",
+    "fullName": "ГРІН БАНК",
+    "dateRegister": "1992-01-09",
+    "dateOpen": "1992-01-09",
+    "active": false
+  },
+  {
+    "id": 85,
+    "name": "ГРАНТ",
+    "fullName": "ГРАНТ",
+    "dateRegister": "1991-10-29",
+    "dateOpen": "1991-10-29",
+    "active": true
+  },
+  {
+    "id": 266,
+    "name": "ДІАМАНТБАНК",
+    "fullName": "ДІАМАНТБАНК",
+    "dateRegister": "1993-11-17",
+    "dateOpen": "1993-11-17",
+    "active": false
+  },
+  {
+    "id": 17559,
+    "name": "ДАНІЕЛЬ",
+    "fullName": "ДАНІЕЛЬ",
+    "dateRegister": "2003-11-27",
+    "dateOpen": "2003-11-27",
+    "active": false
+  },
+  {
+    "id": 24177,
+    "name": "ДЕЛЬТА БАНК",
+    "fullName": "ДЕЛЬТА БАНК",
+    "dateRegister": "2006-02-15",
+    "dateOpen": "2006-02-15",
+    "active": false
+  },
+  {
+    "id": 241,
+    "name": "ДЕМАРК",
+    "fullName": "ДЕМАРК",
+    "dateRegister": "1992-07-10",
+    "dateOpen": "1992-07-10",
+    "active": false
+  },
+  {
+    "id": 37648,
+    "name": "ДОЙЧЕ БАНК ДБУ",
+    "fullName": "ДОЙЧЕ БАНК ДБУ",
+    "dateRegister": "2009-06-19",
+    "dateOpen": "2009-06-19",
+    "active": true
+  },
+  {
+    "id": 47,
+    "name": "ЕКСПОБАНК",
+    "fullName": "ЕКСПОБАНК",
+    "dateRegister": "1991-12-26",
+    "dateOpen": "1991-12-26",
+    "active": false
+  },
+  {
+    "id": 20,
+    "name": "ЕНЕРГОБАНК",
+    "fullName": "ЕНЕРГОБАНК",
+    "dateRegister": "1991-10-31",
+    "dateOpen": "1991-10-31",
+    "active": false
+  },
+  {
+    "id": 280,
+    "name": "ЗАХІДІНКОМБАНК",
+    "fullName": "ЗАХІДІНКОМБАНК",
+    "dateRegister": "1993-03-11",
+    "dateOpen": "1993-03-11",
+    "active": false
+  },
+  {
+    "id": 157,
+    "name": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
+    "fullName": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
+    "dateRegister": "1994-01-31",
+    "dateOpen": "1994-01-31",
+    "active": true
+  },
+  {
+    "id": 34374,
+    "name": "ЗЛАТОБАНК",
+    "fullName": "ЗЛАТОБАНК",
+    "dateRegister": "2008-05-16",
+    "dateOpen": "2008-05-16",
+    "active": false
+  },
+  {
+    "id": 268,
+    "name": "КІБ",
+    "fullName": "КОМЕРЦІЙНИЙ ІНДУСТРІАЛЬНИЙ БАНК",
+    "dateRegister": "1993-12-03",
+    "dateOpen": "1993-12-03",
+    "active": true
+  },
+  {
+    "id": 41,
+    "name": "КАПІТАЛ",
+    "fullName": "КАПІТАЛ",
+    "dateRegister": "1991-10-31",
+    "dateOpen": "1991-10-31",
+    "active": false
+  },
+  {
+    "id": 257,
+    "name": "КИЇВ",
+    "fullName": "КИЇВ",
+    "dateRegister": "1993-05-19",
+    "dateOpen": "1993-05-19",
+    "active": false
+  },
+  {
+    "id": 283,
+    "name": "КИЇВСЬКА РУСЬ",
+    "fullName": "КИЇВСЬКА РУСЬ",
+    "dateRegister": "1996-05-30",
+    "dateOpen": "1996-05-30",
+    "active": false
+  },
+  {
+    "id": 185,
+    "name": "КЛІРИНГОВИЙ ДІМ",
+    "fullName": "КЛІРИНГОВИЙ ДІМ",
+    "dateRegister": "1996-12-30",
+    "dateOpen": "1996-12-30",
+    "active": true
+  },
+  {
+    "id": 282,
+    "name": "КЛАСИКБАНК",
+    "fullName": "КЛАСИКБАНК",
+    "dateRegister": "1995-10-06",
+    "dateOpen": "1995-10-06",
+    "active": false
+  },
+  {
+    "id": 95,
+    "name": "КОМІНВЕСТБАНК",
+    "fullName": "КОМЕРЦІЙНИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+    "dateRegister": "1992-12-16",
+    "dateOpen": "1992-12-16",
+    "active": true
+  },
+  {
+    "id": 25482,
+    "name": "КОНКОРД",
+    "fullName": "КОНКОРД",
+    "dateRegister": "2006-08-07",
+    "dateOpen": "2006-08-07",
+    "active": true
+  },
+  {
+    "id": 132,
+    "name": "КОНТРАКТ",
+    "fullName": "КОНТРАКТ",
+    "dateRegister": "1993-05-18",
+    "dateOpen": "1993-05-18",
+    "active": false
+  },
+  {
+    "id": 249,
+    "name": "КРЕДІ АГРІКОЛЬ БАНК",
+    "fullName": "КРЕДІ АГРІКОЛЬ БАНК",
+    "dateRegister": "1993-02-10",
+    "dateOpen": "1993-02-10",
+    "active": true
+  },
+  {
+    "id": 25655,
+    "name": "КРЕДИТ ЄВРОПА БАНК",
+    "fullName": "КРЕДИТ ЄВРОПА БАНК",
+    "dateRegister": "2006-08-28",
+    "dateOpen": "2006-08-28",
+    "active": true
+  },
+  {
+    "id": 26321,
+    "name": "КРЕДИТВЕСТ БАНК",
+    "fullName": "ВЕСТ ФАЙНЕНС ЕНД КРЕДИТ БАНК",
+    "dateRegister": "2006-10-04",
+    "dateOpen": "2006-10-04",
+    "active": true
+  },
+  {
+    "id": 288,
+    "name": "КРЕДИТПРОМБАНК",
+    "fullName": "КРЕДИТПРОМБАНК",
+    "dateRegister": "1997-05-20",
+    "dateOpen": "1997-05-20",
+    "active": false
+  },
+  {
+    "id": 227,
+    "name": "КРЕДОБАНК",
+    "fullName": "КРЕДОБАНК",
+    "dateRegister": "1992-03-31",
+    "dateOpen": "1992-03-31",
+    "active": true
+  },
+  {
     "id": 51316,
     "name": "КРИСТАЛБАНК",
     "fullName": "КРИСТАЛБАНК",
     "dateRegister": "2014-12-16",
     "dateOpen": "2014-12-16",
+    "active": true
+  },
+  {
+    "id": 155,
+    "name": "КСГ БАНК",
+    "fullName": "КСГ БАНК",
+    "dateRegister": "1993-11-24",
+    "dateOpen": "1993-11-24",
+    "active": false
+  },
+  {
+    "id": 8,
+    "name": "ЛЕГБАНК",
+    "fullName": "ЛЕГБАНК",
+    "dateRegister": "1991-10-08",
+    "dateOpen": "1991-10-08",
+    "active": false
+  },
+  {
+    "id": 62,
+    "name": "ЛЬВІВ",
+    "fullName": "ЛЬВІВ",
+    "dateRegister": "1991-10-14",
+    "dateOpen": "1991-10-14",
+    "active": true
+  },
+  {
+    "id": 33468,
+    "name": "МІБ",
+    "fullName": "МІЖНАРОДНИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+    "dateRegister": "2008-03-11",
+    "dateOpen": "2008-03-11",
+    "active": true
+  },
+  {
+    "id": 258,
+    "name": "МІСТО БАНК",
+    "fullName": "МІСТО БАНК",
+    "dateRegister": "1993-07-23",
+    "dateOpen": "1993-07-23",
+    "active": true
+  },
+  {
+    "id": 24738,
+    "name": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
+    "fullName": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
+    "dateRegister": "2006-05-06",
+    "dateOpen": "2006-05-06",
+    "active": false
+  },
+  {
+    "id": 237,
+    "name": "МЕГАБАНК",
+    "fullName": "МЕГАБАНК",
+    "dateRegister": "1991-10-28",
+    "dateOpen": "1991-10-28",
+    "active": true
+  },
+  {
+    "id": 43332,
+    "name": "МЕЛІОР БАНК",
+    "fullName": "МЕЛІОР БАНК",
+    "dateRegister": "2012-02-24",
+    "dateOpen": "2012-02-24",
+    "active": false
+  },
+  {
+    "id": 67,
+    "name": "МЕРКУРІЙ",
+    "fullName": "МЕРКУРІЙ",
+    "dateRegister": "1992-11-18",
+    "dateOpen": "1992-11-18",
+    "active": false
+  },
+  {
+    "id": 134,
+    "name": "МЕТАБАНК",
+    "fullName": "МЕТАБАНК",
+    "dateRegister": "1993-07-12",
+    "dateOpen": "1993-07-12",
+    "active": true
+  },
+  {
+    "id": 30620,
+    "name": "МОТОР-БАНК",
+    "fullName": "МОТОР-БАНК",
+    "dateRegister": "2007-08-10",
+    "dateOpen": "2007-08-10",
+    "active": true
+  },
+  {
+    "id": 231,
+    "name": "МТБ БАНК",
+    "fullName": "МТБ БАНК",
+    "dateRegister": "1993-11-05",
+    "dateOpen": "1993-11-05",
+    "active": true
+  },
+  {
+    "id": 149,
+    "name": "НАДРА",
+    "fullName": "НАДРА",
+    "dateRegister": "1993-10-26",
+    "dateOpen": "1993-10-26",
+    "active": false
+  },
+  {
+    "id": 263,
+    "name": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
+    "fullName": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
+    "dateRegister": "1993-11-09",
+    "dateOpen": "1993-11-09",
+    "active": false
+  },
+  {
+    "id": 113,
+    "name": "НК БАНК",
+    "fullName": "БАНК НАРОДНИЙ КАПІТАЛ",
+    "dateRegister": "1993-09-21",
+    "dateOpen": "1993-09-21",
+    "active": false
+  },
+  {
+    "id": 32,
+    "name": "НОВИЙ",
+    "fullName": "НОВИЙ",
+    "dateRegister": "1992-04-06",
+    "dateOpen": "1992-04-06",
+    "active": false
+  },
+  {
+    "id": 64,
+    "name": "ОКСІ БАНК",
+    "fullName": "ОКСІ БАНК",
+    "dateRegister": "1991-10-14",
+    "dateOpen": "1991-10-14",
+    "active": true
+  },
+  {
+    "id": 208,
+    "name": "ОМЕГА БАНК",
+    "fullName": "ОМЕГА БАНК",
+    "dateRegister": "1991-10-31",
+    "dateOpen": "1991-10-31",
+    "active": false
+  },
+  {
+    "id": 190,
+    "name": "ОТП БАНК",
+    "fullName": "ОТП БАНК",
+    "dateRegister": "1998-03-02",
+    "dateOpen": "1998-03-02",
+    "active": true
+  },
+  {
+    "id": 6,
+    "name": "ОЩАДБАНК",
+    "fullName": "ДЕРЖАВНИЙ ОЩАДНИЙ БАНК УКРАЇНИ",
+    "dateRegister": "1991-12-31",
+    "dateOpen": "1991-12-31",
+    "active": true
+  },
+  {
+    "id": 218,
+    "name": "ПІВДЕНКОМБАНК",
+    "fullName": "ПІВДЕНКОМБАНК",
+    "dateRegister": "1991-10-03",
+    "dateOpen": "1991-10-03",
+    "active": false
+  },
+  {
+    "id": 72,
+    "name": "ПІВДЕННИЙ",
+    "fullName": "ПІВДЕННИЙ",
+    "dateRegister": "1993-12-03",
+    "dateOpen": "1993-12-03",
+    "active": true
+  },
+  {
+    "id": 272,
+    "name": "ПІРЕУС БАНК МКБ",
+    "fullName": "ПІРЕУС БАНК МКБ",
+    "dateRegister": "1994-01-31",
+    "dateOpen": "1994-01-31",
+    "active": true
+  },
+  {
+    "id": 186,
+    "name": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+    "fullName": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+    "dateRegister": "1997-06-20",
+    "dateOpen": "1997-06-20",
+    "active": true
+  },
+  {
+    "id": 33,
+    "name": "ПОЛІКОМБАНК",
+    "fullName": "ПОЛІКОМБАНК",
+    "dateRegister": "1994-08-18",
+    "dateOpen": "1994-08-18",
+    "active": true
+  },
+  {
+    "id": 78,
+    "name": "ПОЛТАВА-БАНК",
+    "fullName": "ПОЛТАВА-БАНК",
+    "dateRegister": "1991-10-16",
+    "dateOpen": "1991-10-16",
+    "active": true
+  },
+  {
+    "id": 47216,
+    "name": "ПОРТАЛ",
+    "fullName": "ПОРТАЛ",
+    "dateRegister": "2013-09-20",
+    "dateOpen": "2013-09-20",
+    "active": true
+  },
+  {
+    "id": 73,
+    "name": "ПОРТО-ФРАНКО",
+    "fullName": "ПОРТО-ФРАНКО",
+    "dateRegister": "1991-10-17",
+    "dateOpen": "1991-10-17",
+    "active": false
+  },
+  {
+    "id": 100,
+    "name": "ПРАВЕКС БАНК",
+    "fullName": "ПРАВЕКС БАНК",
+    "dateRegister": "1992-12-29",
+    "dateOpen": "1992-12-29",
+    "active": true
+  },
+  {
+    "id": 194,
+    "name": "ПРАЙМ-БАНК",
+    "fullName": "ПРАЙМ-БАНК",
+    "dateRegister": "2001-07-30",
+    "dateOpen": "2001-07-30",
+    "active": false
+  },
+  {
+    "id": 30288,
+    "name": "ПРЕМІУМ",
+    "fullName": "ПРЕМІУМ",
+    "dateRegister": "2007-07-24",
+    "dateOpen": "2007-07-24",
+    "active": false
+  },
+  {
+    "id": 31,
+    "name": "ПРИВАТБАНК",
+    "fullName": "ПРИВАТБАНК",
+    "dateRegister": "1992-03-19",
+    "dateOpen": "1992-03-19",
+    "active": true
+  },
+  {
+    "id": 192,
+    "name": "ПРОКРЕДИТ БАНК",
+    "fullName": "ПРОКРЕДИТ БАНК",
+    "dateRegister": "2000-12-28",
+    "dateOpen": "2000-12-28",
+    "active": true
+  },
+  {
+    "id": 3,
+    "name": "ПРОМІНВЕСТБАНК",
+    "fullName": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ ПРОМИСЛОВО-ІНВЕСТИЦІЙНИЙ БАНК",
+    "dateRegister": "1992-08-26",
+    "dateOpen": "1992-08-26",
+    "active": true
+  },
+  {
+    "id": 220,
+    "name": "ПРОМЕКОНОМБАНК",
+    "fullName": "ПРОМЕКОНОМБАНК",
+    "dateRegister": "1993-08-25",
+    "dateOpen": "1993-08-25",
+    "active": false
+  },
+  {
+    "id": 37,
+    "name": "ПРОФІН БАНК",
+    "fullName": "БАНК ПРОФЕСІЙНОГО ФІНАНСУВАННЯ",
+    "dateRegister": "1991-10-01",
+    "dateOpen": "1991-10-01",
+    "active": false
+  },
+  {
+    "id": 21134,
+    "name": "ПТБ",
+    "fullName": "ПЛАТИНУМ БАНК",
+    "dateRegister": "2005-01-13",
+    "dateOpen": "2005-01-13",
+    "active": false
+  },
+  {
+    "id": 80,
+    "name": "ПУМБ",
+    "fullName": "ПЕРШИЙ УКРАЇНСЬКИЙ МІЖНАРОДНИЙ БАНК",
+    "dateRegister": "1991-12-23",
+    "dateOpen": "1991-12-23",
+    "active": true
+  },
+  {
+    "id": 286,
+    "name": "РАДАБАНК",
+    "fullName": "РАДАБАНК",
+    "dateRegister": "1993-12-03",
+    "dateOpen": "1993-12-03",
+    "active": true
+  },
+  {
+    "id": 38780,
+    "name": "РАДИКАЛ БАНК",
+    "fullName": "РАДИКАЛ БАНК",
+    "dateRegister": "2010-03-23",
+    "dateOpen": "2010-03-23",
+    "active": false
+  },
+  {
+    "id": 24,
+    "name": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
+    "fullName": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
+    "dateRegister": "1992-03-27",
+    "dateOpen": "1992-03-27",
     "active": true
   },
   {
@@ -1350,5 +990,365 @@
     "dateRegister": "2015-06-25",
     "dateOpen": "2015-06-25",
     "active": true
+  },
+  {
+    "id": 236,
+    "name": "РЕАЛ БАНК",
+    "fullName": "РЕАЛ БАНК",
+    "dateRegister": "1991-10-29",
+    "dateOpen": "1991-10-29",
+    "active": false
+  },
+  {
+    "id": 46,
+    "name": "РОДОВІД БАНК",
+    "fullName": "РОДОВІД БАНК",
+    "dateRegister": "1991-10-07",
+    "dateOpen": "1991-10-07",
+    "active": false
+  },
+  {
+    "id": 38874,
+    "name": "РОЗРАХУНКОВИЙ ЦЕНТР",
+    "fullName": "РОЗРАХУНКОВИЙ ЦЕНТР З ОБСЛУГОВУВАННЯ ДОГОВОРІВ НА ФІНАНСОВИХ РИНКАХ",
+    "dateRegister": "2013-09-06",
+    "dateOpen": "2013-09-06",
+    "active": true
+  },
+  {
+    "id": 191,
+    "name": "СІТІБАНК",
+    "fullName": "СІТІБАНК",
+    "dateRegister": "1998-05-11",
+    "dateOpen": "1998-05-11",
+    "active": true
+  },
+  {
+    "id": 193,
+    "name": "СБЕРБАНК",
+    "fullName": "СБЕРБАНК",
+    "dateRegister": "2001-06-15",
+    "dateOpen": "2001-06-15",
+    "active": true
+  },
+  {
+    "id": 40403,
+    "name": "СЕБ КОРПОРАТИВНИЙ БАНК",
+    "fullName": "СЕБ КОРПОРАТИВНИЙ БАНК",
+    "dateRegister": "2011-01-19",
+    "dateOpen": "2011-01-19",
+    "active": true
+  },
+  {
+    "id": 87,
+    "name": "СКАЙ БАНК",
+    "fullName": "СКАЙ БАНК",
+    "dateRegister": "1991-10-28",
+    "dateOpen": "1991-10-28",
+    "active": true
+  },
+  {
+    "id": 39748,
+    "name": "СМАРТБАНК",
+    "fullName": "СМАРТБАНК",
+    "dateRegister": "2010-09-13",
+    "dateOpen": "2010-09-13",
+    "active": false
+  },
+  {
+    "id": 43429,
+    "name": "СОФІЙСЬКИЙ",
+    "fullName": "СОФІЙСЬКИЙ",
+    "dateRegister": "2012-03-16",
+    "dateOpen": "2012-03-16",
+    "active": false
+  },
+  {
+    "id": 32001,
+    "name": "СОЮЗ",
+    "fullName": "СОЮЗ",
+    "dateRegister": "2007-11-26",
+    "dateOpen": "2007-11-26",
+    "active": false
+  },
+  {
+    "id": 178,
+    "name": "СП БАНК",
+    "fullName": "СХІДНО-ПРОМИСЛОВИЙ КОМЕРЦІЙНИЙ БАНК",
+    "dateRegister": "1995-09-13",
+    "dateOpen": "1995-09-13",
+    "active": false
+  },
+  {
+    "id": 36978,
+    "name": "СТАНДАРТ",
+    "fullName": "СТАНДАРТ",
+    "dateRegister": "2008-12-31",
+    "dateOpen": "2008-12-31",
+    "active": false
+  },
+  {
+    "id": 223,
+    "name": "СТАРОКИЇВСЬКИЙ БАНК",
+    "fullName": "СТАРОКИЇВСЬКИЙ БАНК",
+    "dateRegister": "1991-12-31",
+    "dateOpen": "1991-12-31",
+    "active": false
+  },
+  {
+    "id": 262,
+    "name": "СТОЛИЧНИЙ",
+    "fullName": "СТОЛИЧНИЙ",
+    "dateRegister": "1993-10-22",
+    "dateOpen": "1993-10-22",
+    "active": false
+  },
+  {
+    "id": 221,
+    "name": "ТАСКОМБАНК",
+    "fullName": "ТАСКОМБАНК",
+    "dateRegister": "1991-10-21",
+    "dateOpen": "1991-10-21",
+    "active": true
+  },
+  {
+    "id": 184,
+    "name": "ТЕРРА БАНК",
+    "fullName": "ТЕРРА БАНК",
+    "dateRegister": "1996-10-18",
+    "dateOpen": "1996-10-18",
+    "active": false
+  },
+  {
+    "id": 276,
+    "name": "ТК КРЕДИТ",
+    "fullName": "ТК КРЕДИТ",
+    "dateRegister": "1994-04-28",
+    "dateOpen": "1994-04-28",
+    "active": false
+  },
+  {
+    "id": 30619,
+    "name": "ТРАСТ",
+    "fullName": "ТРАСТ",
+    "dateRegister": "2007-08-22",
+    "dateOpen": "2007-08-22",
+    "active": false
+  },
+  {
+    "id": 147,
+    "name": "УКООПСПІЛКА",
+    "fullName": "УКООПСПІЛКА",
+    "dateRegister": "1993-10-25",
+    "dateOpen": "1993-10-25",
+    "active": false
+  },
+  {
+    "id": 12,
+    "name": "УКРІНБАНК",
+    "fullName": "УКРАЇНСЬКИЙ ІННОВАЦІЙНИЙ БАНК",
+    "dateRegister": "1991-10-02",
+    "dateOpen": "1991-10-02",
+    "active": false
+  },
+  {
+    "id": 17985,
+    "name": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
+    "fullName": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
+    "dateRegister": "2004-03-19",
+    "dateOpen": "2004-03-19",
+    "active": true
+  },
+  {
+    "id": 244,
+    "name": "УКРАЇНСЬКИЙ КАПІТАЛ",
+    "fullName": "УКРАЇНСЬКИЙ КАПІТАЛ",
+    "dateRegister": "1992-12-25",
+    "dateOpen": "1992-12-25",
+    "active": true
+  },
+  {
+    "id": 253,
+    "name": "УКРБІЗНЕСБАНК",
+    "fullName": "УКРАЇНСЬКИЙ БІЗНЕС БАНК",
+    "dateRegister": "1993-05-19",
+    "dateOpen": "1993-05-19",
+    "active": false
+  },
+  {
+    "id": 18334,
+    "name": "УКРБУДІНВЕСТБАНК",
+    "fullName": "УКРАЇНСЬКИЙ БУДІВЕЛЬНО-ІНВЕСТИЦІЙНИЙ БАНК",
+    "dateRegister": "2004-04-20",
+    "dateOpen": "2004-04-20",
+    "active": true
+  },
+  {
+    "id": 281,
+    "name": "УКРГАЗБАНК",
+    "fullName": "УКРГАЗБАНК",
+    "dateRegister": "1993-07-21",
+    "dateOpen": "1993-07-21",
+    "active": true
+  },
+  {
+    "id": 180,
+    "name": "УКРГАЗПРОМБАНК",
+    "fullName": "УКРГАЗПРОМБАНК",
+    "dateRegister": "1996-03-27",
+    "dateOpen": "1996-03-27",
+    "active": false
+  },
+  {
+    "id": 2,
+    "name": "УКРЕКСІМБАНК",
+    "fullName": "ДЕРЖАВНИЙ ЕКСПОРТНО-ІМПОРТНИЙ БАНК УКРАЇНИ",
+    "dateRegister": "1992-01-23",
+    "dateOpen": "1992-01-23",
+    "active": true
+  },
+  {
+    "id": 255,
+    "name": "УКРКОМУНБАНК",
+    "fullName": "УКРАЇНСЬКИЙ КОМУНАЛЬНИЙ БАНК",
+    "dateRegister": "1993-08-10",
+    "dateOpen": "1993-08-10",
+    "active": false
+  },
+  {
+    "id": 91,
+    "name": "УКРСИББАНК",
+    "fullName": "УКРСИББАНК",
+    "dateRegister": "1991-10-28",
+    "dateOpen": "1991-10-28",
+    "active": true
+  },
+  {
+    "id": 5,
+    "name": "УКРСОЦБАНК",
+    "fullName": "УКРСОЦБАНК",
+    "dateRegister": "1991-09-27",
+    "dateOpen": "1991-09-27",
+    "active": true
+  },
+  {
+    "id": 270,
+    "name": "УНІВЕРСАЛ БАНК",
+    "fullName": "УНІВЕРСАЛ БАНК",
+    "dateRegister": "1994-01-20",
+    "dateOpen": "1994-01-20",
+    "active": true
+  },
+  {
+    "id": 199,
+    "name": "УНІКОМБАНК",
+    "fullName": "УНІКОМБАНК",
+    "dateRegister": "2002-10-28",
+    "dateOpen": "2002-10-28",
+    "active": false
+  },
+  {
+    "id": 215,
+    "name": "УПБ",
+    "fullName": "УКРАЇНСЬКИЙ ПРОФЕСІЙНИЙ БАНК",
+    "dateRegister": "1992-01-30",
+    "dateOpen": "1992-01-30",
+    "active": false
+  },
+  {
+    "id": 17541,
+    "name": "УФС",
+    "fullName": "УКРАЇНСЬКИЙ ФІНАНСОВИЙ СВІТ",
+    "dateRegister": "2003-11-12",
+    "dateOpen": "2003-11-12",
+    "active": false
+  },
+  {
+    "id": 15,
+    "name": "ФІДОБАНК",
+    "fullName": "ФІДОБАНК",
+    "dateRegister": "1991-10-02",
+    "dateOpen": "1991-10-02",
+    "active": false
+  },
+  {
+    "id": 247,
+    "name": "ФІНАНС БАНК",
+    "fullName": "ФІНАНС БАНК",
+    "dateRegister": "1992-01-20",
+    "dateOpen": "1992-01-20",
+    "active": false
+  },
+  {
+    "id": 209,
+    "name": "ФІНАНСИ ТА КРЕДИТ",
+    "fullName": "ФІНАНСИ ТА КРЕДИТ",
+    "dateRegister": "1991-10-30",
+    "dateOpen": "1991-10-30",
+    "active": false
+  },
+  {
+    "id": 21393,
+    "name": "ФІНАНСОВА ІНІЦІАТИВА",
+    "fullName": "ФІНАНСОВА ІНІЦІАТИВА",
+    "dateRegister": "2005-01-19",
+    "dateOpen": "2005-01-19",
+    "active": true
+  },
+  {
+    "id": 84,
+    "name": "ФІНБАНК",
+    "fullName": "ФІНБАНК",
+    "dateRegister": "1993-12-24",
+    "dateOpen": "1993-12-24",
+    "active": false
+  },
+  {
+    "id": 111,
+    "name": "ФІНРОСТБАНК",
+    "fullName": "ФІНРОСТБАНК",
+    "dateRegister": "1993-01-29",
+    "dateOpen": "1993-01-29",
+    "active": false
+  },
+  {
+    "id": 197,
+    "name": "ФОРТУНА-БАНК",
+    "fullName": "ФОРТУНА-БАНК",
+    "dateRegister": "2002-10-17",
+    "dateOpen": "2002-10-17",
+    "active": false
+  },
+  {
+    "id": 256,
+    "name": "ХРЕЩАТИК",
+    "fullName": "ХРЕЩАТИК",
+    "dateRegister": "1993-05-19",
+    "dateOpen": "1993-05-19",
+    "active": false
+  },
+  {
+    "id": 45490,
+    "name": "ЮНІСОН",
+    "fullName": "ЮНІСОН",
+    "dateRegister": "2013-02-08",
+    "dateOpen": "2013-02-08",
+    "active": false
+  },
+  {
+    "id": 265,
+    "name": "ЮНЕКС БАНК",
+    "fullName": "ЮНЕКС БАНК",
+    "dateRegister": "1993-12-03",
+    "dateOpen": "1993-12-03",
+    "active": true
+  },
+  {
+    "id": 219,
+    "name": "ЮСБ БАНК",
+    "fullName": "ЮНІОН СТАНДАРД БАНК",
+    "dateRegister": "1994-06-23",
+    "dateOpen": "1994-06-23",
+    "active": false
   }
 ]

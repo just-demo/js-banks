@@ -19,8 +19,9 @@ nbuAPI.saveBanks();
 nbuDBF.saveBanks();
 nbuPDF.saveBanks();
 nbuUI.saveBanks();
-fund.saveAll();
-minfin.saveAll();
+fund.saveBanks();
+minfin.saveBanks();
+minfin.saveRatings();
 names.rebuildBankNames();
 
 combineBanks();
