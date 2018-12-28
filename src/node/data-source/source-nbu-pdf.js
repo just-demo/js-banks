@@ -57,6 +57,7 @@ module.exports = {
             }
 
             const pdf = ext.download('nbu/not-banks/pdf/' + file, url);
+            // TODO: if performance is too bad consider finding a way to read the first page only
             const pdfParser = new PDFParser();
             pdfParser.on("pdfParser_dataError", data => {
                 console.error(data.parserError);

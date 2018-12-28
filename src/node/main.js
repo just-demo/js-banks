@@ -11,6 +11,8 @@ let assert = require('./assert');
 let dbf = require('./dbf');
 let int = require('./internal');
 const AsyncMapperPool = require('./async-mapper-pool');
+const urls = require('./urls');
+const files = require('./files');
 
 // let t = require('../src/test');
 // console.log(t.hello());
@@ -46,7 +48,22 @@ const startTime = new Date();
 //     return new Promise(resolve => resolve(utils.asyncReadURL("http://localhost:3333/")));
 // }
 
-utils.asyncReadURL('https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251').then(data => console.log(data));
+// utils.asyncReadURL('https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251').then(data => console.log(data));
+// urls.read('https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251').then(data =>
+//     files.write('../..//tmp/1.txt', data));
+// urls.download('https://bank.gov.ua/files/Licences_bank/320779.pdf').then(data =>
+//     files.writeRaw('../..//tmp/1.pdf', data));
+
+
+
+files.exists('../..//tmp/1.txt').then(res => console.log(res));
+files.exists('../..//tmp/2.txt').then(res => console.log(res));
+
+files.read('../..//tmp/1.txt').then(data =>
+    files.write('../..//tmp/2.txt', data));
+files.readRaw('../..//tmp/1.pdf').then(data =>
+    files.writeRaw('../..//tmp/2.pdf', data));
+
 
 // combineBanks();
 // dbf.parse('../../data/binary/nbu/RCUKRU.DBF');
