@@ -2343,12 +2343,15 @@
       "dbf": "БАНК ТРАСТ-КАПІТАЛ",
       "api": "БАНК ТРАСТ-КАПІТАЛ",
       "nbu": "БАНК ТРАСТ-КАПІТАЛ",
-      "fund": "БАНК ТРАСТ-КАПІТАЛ"
+      "pdf": "БАНК ТРАСТ-КАПІТАЛ",
+      "fund": "БАНК ТРАСТ-КАПІТАЛ",
+      "minfin": "БАНК ТРАСТ-КАПІТАЛ"
     },
     "active": {
       "dbf": true,
       "api": true,
       "nbu": true,
+      "pdf": true,
       "fund": true
     },
     "dateOpen": {
@@ -2361,12 +2364,18 @@
       "fund": [
         "http://www.tc-bank.com"
       ],
-      "minfin": []
+      "minfin": [
+        "http://www.tc-bank.com/ua.html"
+      ]
     },
     "internal": {
-      "id": {},
+      "id": {
+        "minfin": 120
+      },
       "link": {
-        "nbu": "/control/uk/bankdict/bank?id=17923"
+        "nbu": "/control/uk/bankdict/bank?id=17923",
+        "pdf": "https://bank.gov.ua/files/Licences_bank/380106.pdf",
+        "minfin": "https://minfin.com.ua/ua/company/trust-capital"
       }
     }
   },
@@ -8139,32 +8148,6 @@
         "pdf": "https://bank.gov.ua/files/Licences_bank/380474.pdf",
         "fund": "/not-paying/liquidation/185-pat-bank-trast",
         "minfin": "https://minfin.com.ua/ua/company/bank-trust"
-      }
-    }
-  },
-  {
-    "id": "ТРАСТ-КАПІТАЛ",
-    "name": {
-      "pdf": "ТРАСТ-КАПІТАЛ",
-      "minfin": "ТРАСТ-КАПІТАЛ"
-    },
-    "active": {
-      "pdf": true
-    },
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "http://www.tc-bank.com/ua.html"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 120
-      },
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380106.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/trust-capital"
       }
     }
   },

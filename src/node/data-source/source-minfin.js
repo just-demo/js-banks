@@ -1,5 +1,4 @@
 const _ = require('lodash');
-const utils = require('../utils');
 const names = require('../names');
 const ext = require('../external');
 const int = require('../internal');
@@ -62,9 +61,5 @@ module.exports = {
                 return ratings;
             });
         });
-    },
-
-    fromJson(json) {
-        return utils.fromJson(json.replace(/(\d+):/g, '"$1":').replace(/'/g, '"'));
     }
 };

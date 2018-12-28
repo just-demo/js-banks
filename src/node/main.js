@@ -5,7 +5,6 @@ let nbuUI = require('./data-source/source-nbu-ui');
 let fund = require('./data-source/source-fund');
 let minfin = require('./data-source/source-minfin');
 let _ = require('lodash');
-let utils = require('./utils');
 let names = require('./names');
 let assert = require('./assert');
 let dbf = require('./dbf');
@@ -160,7 +159,7 @@ function combineBanks() {
         return bank;
     });
 
-    files.write('../../public/banks.json', utils.toJson(banks));
+    files.write('../../public/banks.json', JSON.stringify(banks, null, 2));
     files.read('../../data/json/minfin/ratings.json')
         .then(ratings => files.write('../../public/minfin-ratings.json', ratings));
 }

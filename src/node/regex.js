@@ -1,5 +1,3 @@
-let _ = require('lodash');
-
 module.exports = {
     findSingleValue(string, regex, mapping) {
         mapping = mapping || 1;

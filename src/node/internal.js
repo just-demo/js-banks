@@ -1,16 +1,21 @@
-const utils = require('./utils');
+const fs = require('fs');
+const mkdirp = require('mkdirp');
+const path = require('path');
 
 // TODO: make async
 module.exports = {
     read(file) {
-        return utils.fromJson(utils.readFile(this.path(file)))
+        file = fullPath(file);
+        return JSON.parse(fs.readFileSync(file, 'utf8'));
     },
 
     write(file, obj) {
-        utils.writeFile(this.path(file), utils.toJson(obj));
-    },
-
-    path(file) {
-        return '../../data/json/' + file + '.json';
+        file = fullPath(file);
+        mkdirp.sync(path.dirname(file));
+        fs.writeFileSync(file, JSON.stringify(obj, null, 2), 'utf8');
     }
 };
+
+function fullPath(file) {
+    return '../../data/json/' + file + '.json';
+}

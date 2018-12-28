@@ -1,0 +1,21 @@
+.files {
+    display: flex;
+}
+
+.file {
+    margin: 5px;
+    padding: 10px;
+}
+
+.file.selected {
+    font-weight: bold;
+}
+
+.file:hover {
+    cursor: pointer;
+    background-color: #dddddd;
+}
+
+.time {
+    background-color: skyblue;
+}

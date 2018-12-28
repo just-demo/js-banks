@@ -1,0 +1,1699 @@
+GET https://bank.gov.ua/files/RcuKru.arj 367ms
+Different main indicator - Приватне акціонерне товариство "Українська фінансова група": [ false, true, false ]
+Full name is pure name: [ 'Полікомбанк' ]
+GET https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0 1101ms
+Full name is pure name: [ 'Полікомбанк' ]
+GET http://www.fg.gov.ua/not-paying 1671ms
+GET http://www.fg.gov.ua/uchasnyky-fondu 1674ms
+Many site matches: [ '<a href="https://tascombank.ua/">http://www.tascombank.ua</a>',
+  [ 'https://tascombank.ua', 'http://www.tascombank.ua' ] ]
+Many site matches: [ '<a href="http://www.indexbank.ua">http://credit-agricole.com.ua/ukr/</a>',
+  [ 'http://www.indexbank.ua', 'http://credit-agricole.com.ua' ] ]
+Many site matches: [ '<p><a href="https://www.megabank.ua/" style="font-size: 16.016px;"><span class="FontStyle51">http://www</span><span class="FontStyle51">.</span><span class="FontStyle51">megabank</span><span class="FontStyle51">.</span><span class="FontStyle51">ua</span></a></p>',
+  [ 'https://www.megabank.ua', 'http://www' ] ]
+Many site matches: [ '<a href="http://mtb.ua/">http://www.mtb.ua</a>',
+  [ 'http://mtb.ua', 'http://www.mtb.ua' ] ]
+Site is empty: []
+Many site matches: [ '<a href="https://www.sberbank.ua/">https://www.sberbank.ua</a><a href="http://sberbank.com.ua"><br /></a>',
+  [ 'https://www.sberbank.ua', 'http://sberbank.com.ua' ] ]
+Many site matches: [ '<a href="https://ubib.com.ua/">https://ubib.com.ua</a><a href="http://www.uci-bank.com"><br /></a>',
+  [ 'https://ubib.com.ua', 'http://www.uci-bank.com' ] ]
+Many site matches: [ '<a href="http://www.ap-bank.com/">http://www.ap-bank.com</a><a href="http://www.astrabank.ua"><br /></a>',
+  [ 'http://www.ap-bank.com', 'http://www.astrabank.ua' ] ]
+Many site matches: [ '<a href="http://mtb.ua/">http://europrombank.kiev.ua</a><a href="http://www.europrombank.com"></a>',
+  [ 'http://mtb.ua',
+    'http://europrombank.kiev.ua',
+    'http://www.europrombank.com' ] ]
+Site is empty: []
+Site is empty: []
+Site is empty: []
+Site is empty: []
+Site is empty: []
+Many sites: [ 'ТАСКОМБАНК',
+  [ 'https://tascombank.ua', 'http://www.tascombank.ua' ] ]
+Many sites: [ 'КРЕДІ АГРІКОЛЬ БАНК',
+  [ 'http://www.indexbank.ua', 'http://credit-agricole.com.ua' ] ]
+Many sites: [ 'МЕГАБАНК', [ 'https://www.megabank.ua', 'http://www' ] ]
+Many sites: [ 'МТБ БАНК', [ 'http://mtb.ua', 'http://www.mtb.ua' ] ]
+Many sites: [ 'СБЕРБАНК',
+  [ 'https://www.sberbank.ua', 'http://sberbank.com.ua' ] ]
+Many sites: [ 'УКРАЇНСЬКИЙ БУДІВЕЛЬНО-ІНВЕСТИЦІЙНИЙ БАНК',
+  [ 'https://ubib.com.ua', 'http://www.uci-bank.com' ] ]
+Many sites: [ 'АГРОПРОСПЕРІС БАНК',
+  [ 'http://www.ap-bank.com', 'http://www.astrabank.ua' ] ]
+Many sites: [ 'ЄВРОПЕЙСЬКИЙ ПРОМИСЛОВИЙ БАНК',
+  [ 'http://mtb.ua',
+    'http://europrombank.kiev.ua',
+    'http://www.europrombank.com' ] ]
+GET http://www.fg.gov.ua/not-paying/banks-sold-to-state/188-pat-kb-pryvatbank 101ms
+GET https://minfin.com.ua/ua/banks/rating/ 1950ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2016-07-01 426ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2017-08-18 470ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2017-05-21 495ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2016-10-01 501ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2018-03-07 513ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2018-10-01 525ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2018-07-01 537ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2017-01-01 546ms
+GET https://bank.gov.ua/control/bankdict/banks 2686ms
+GET https://bank.gov.ua/control/uk/publish/article?art_id=52047 2729ms
+GET https://bank.gov.ua/control/uk/publish/article?art_id=75535 2740ms
+CALC nbu/not-banks/text/320779.txt 0ms
+CALC nbu/not-banks/text/322830.txt 0ms
+CALC nbu/not-banks/text/322001.txt 0ms
+CALC nbu/not-banks/text/324827.txt 0ms
+CALC nbu/not-banks/text/300335.txt 0ms
+CALC nbu/not-banks/text/380946.txt 0ms
+CALC nbu/not-banks/text/380708.txt 0ms
+CALC nbu/not-banks/text/300120.txt 0ms
+CALC nbu/not-banks/text/320940.txt 0ms
+CALC nbu/not-banks/text/331100.txt 0ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2015-01-01 547ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2016-01-01 630ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2016-04-01 666ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2015-10-01 668ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2015-07-01 686ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2014-10-01 699ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2015-04-01 751ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2014-07-01 780ms
+GET https://bank.gov.ua/files/Licences_bank/380946.pdf 668ms
+GET https://bank.gov.ua/files/Licences_bank/300120.pdf 669ms
+GET https://bank.gov.ua/files/Licences_bank/380708.pdf 671ms
+GET https://bank.gov.ua/files/Licences_bank/320779.pdf 726ms
+GET https://bank.gov.ua/files/Licences_bank/322001.pdf 725ms
+GET https://bank.gov.ua/files/Licences_bank/331100.pdf 728ms
+GET https://bank.gov.ua/files/Licences_bank/300335.pdf 1096ms
+GET https://bank.gov.ua/files/Licences_bank/320940.pdf 1102ms
+GET https://bank.gov.ua/files/Licences_bank/324827.pdf 1106ms
+GET https://bank.gov.ua/files/Licences_bank/322830.pdf 1110ms
+GET http://www.fg.gov.ua/not-paying/banky-prodani-investoram/115-astra 2194ms
+GET http://www.fg.gov.ua/not-paying/banky-likvidovani-fondom/174-pat-klasykbank 2193ms
+GET https://bank.gov.ua/control/bankdict/banks?type=369&sort=name&cPage=1&startIndx=21 1825ms
+GET https://bank.gov.ua/control/bankdict/banks?type=369&sort=name&cPage=2&startIndx=41 1828ms
+GET http://www.fg.gov.ua/not-paying/completed/62-kb-sotskom-bank 2847ms
+GET https://bank.gov.ua/control/bankdict/banks?type=369&sort=name&cPage=3&startIndx=61 1840ms
+GET http://www.fg.gov.ua/not-paying/completed/59-bazis 2867ms
+GET http://www.fg.gov.ua/not-paying/banky-likvidovani-fondom/179-pat-derzhzembank 2870ms
+GET http://www.fg.gov.ua/not-paying/completed/61-stolytsia 2869ms
+GET http://www.fg.gov.ua/not-paying/temporary/128-finansovaya-iniciativa 2883ms
+GET http://www.fg.gov.ua/not-paying/completed/63-volodymyrskyi 2777ms
+GET http://www.fg.gov.ua/not-paying/banky-likvidovani-fondom/57-tavryka 2881ms
+GET http://www.fg.gov.ua/not-paying/banky-likvidovani-fondom/58-erde-bank 2892ms
+CALC nbu/not-banks/text/380946.txt 1321ms
+CALC nbu/not-banks/text/380708.txt 1646ms
+CALC nbu/not-banks/text/324827.txt 1172ms
+CALC nbu/not-banks/text/331100.txt 2116ms
+CALC nbu/not-banks/text/320779.txt 2333ms
+CALC nbu/not-banks/text/322302.txt 0ms
+CALC nbu/not-banks/text/322830.txt 1821ms
+CALC nbu/not-banks/text/307123.txt 0ms
+CALC nbu/not-banks/text/322001.txt 3002ms
+CALC nbu/not-banks/text/300120.txt 3004ms
+CALC nbu/not-banks/text/320940.txt 2240ms
+CALC nbu/not-banks/text/380548.txt 0ms
+CALC nbu/not-banks/text/300175.txt 0ms
+CALC nbu/not-banks/text/335010.txt 0ms
+GET http://www.fg.gov.ua/not-paying/completed/64-dialogbank 2244ms
+CALC nbu/not-banks/text/380418.txt 0ms
+CALC nbu/not-banks/text/380634.txt 0ms
+CALC nbu/not-banks/text/320995.txt 0ms
+CALC nbu/not-banks/text/307305.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/322302.pdf 827ms
+GET https://bank.gov.ua/files/Licences_bank/307123.pdf 367ms
+GET https://bank.gov.ua/files/Licences_bank/380548.pdf 177ms
+GET https://bank.gov.ua/files/Licences_bank/300175.pdf 178ms
+GET https://bank.gov.ua/files/Licences_bank/335010.pdf 183ms
+GET https://bank.gov.ua/files/Licences_bank/380634.pdf 114ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=72 1962ms
+CALC nbu/not-banks/text/300335.txt 2769ms
+GET http://www.fg.gov.ua/not-paying/completed/65-syntez 2769ms
+GET https://bank.gov.ua/files/Licences_bank/380418.pdf 462ms
+GET https://bank.gov.ua/files/Licences_bank/307305.pdf 426ms
+GET https://bank.gov.ua/files/Licences_bank/320995.pdf 454ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=65 2256ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=286 2260ms
+GET http://www.fg.gov.ua/not-paying/completed/66-zemel-bank 2276ms
+GET http://www.fg.gov.ua/not-paying/completed/69-big-energy 2279ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2013-10-01 4777ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2014-01-01 4808ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=230 2876ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=281 2880ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=25482 2885ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=185 2894ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=44804 2893ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=269 2904ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=127 2928ms
+GET http://www.fg.gov.ua/not-paying/completed/68-dnister 2929ms
+GET http://www.fg.gov.ua/not-paying/completed/70-transbank 2919ms
+GET http://www.fg.gov.ua/not-paying/completed/67-ipobank 2985ms
+GET http://www.fg.gov.ua/not-paying/completed/72-ukr-prom-bank 2975ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2017-12-07 6447ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2018-05-14 6496ms
+GET http://www.fg.gov.ua/not-paying/completed/74-ukr-fin-group 3057ms
+GET http://www.fg.gov.ua/not-paying/completed/71-arma 3060ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2013-01-01 5110ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2013-07-01 5122ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2013-04-01 5159ms
+GET http://www.fg.gov.ua/not-paying/completed/73-shid-evro-bank 1421ms
+GET https://minfin.com.ua/ua/banks/all/ 8684ms
+CALC nbu/not-banks/text/335010.txt 1332ms
+CALC nbu/not-banks/text/380634.txt 1332ms
+CALC nbu/not-banks/text/307394.txt 0ms
+GET https://minfin.com.ua/ua/banks/rating/?date=2014-04-01 6132ms
+CALC nbu/not-banks/text/380548.txt 2194ms
+CALC nbu/not-banks/text/300852.txt 0ms
+CALC nbu/not-banks/text/307770.txt 0ms
+CALC nbu/not-banks/text/307305.txt 912ms
+GET https://bank.gov.ua/files/Licences_bank/307394.pdf 920ms
+GET http://www.fg.gov.ua/not-paying/completed/78-odesa-bank 684ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=29 1114ms
+CALC nbu/not-banks/text/307123.txt 2581ms
+CALC nbu/not-banks/text/380418.txt 1228ms
+CALC nbu/not-banks/text/300175.txt 2753ms
+CALC nbu/not-banks/text/322302.txt 2897ms
+CALC nbu/not-banks/text/320995.txt 1496ms
+CALC nbu/not-banks/text/380797.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/300852.pdf 592ms
+GET https://bank.gov.ua/files/Licences_bank/307770.pdf 592ms
+CALC nbu/not-banks/text/334970.txt 0ms
+CALC nbu/not-banks/text/320843.txt 0ms
+CALC nbu/not-banks/text/300090.txt 0ms
+CALC nbu/not-banks/text/321660.txt 0ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=279 1610ms
+CALC nbu/not-banks/text/321767.txt 0ms
+CALC nbu/not-banks/text/320702.txt 0ms
+CALC nbu/not-banks/text/307394.txt 340ms
+GET https://bank.gov.ua/files/Licences_bank/380797.pdf 353ms
+GET https://bank.gov.ua/files/Licences_bank/321660.pdf 365ms
+GET https://bank.gov.ua/files/Licences_bank/300090.pdf 366ms
+GET https://bank.gov.ua/files/Licences_bank/320843.pdf 393ms
+GET https://bank.gov.ua/files/Licences_bank/334970.pdf 398ms
+GET https://bank.gov.ua/files/Licences_bank/321767.pdf 368ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=32183 2033ms
+CALC nbu/not-banks/text/305062.txt 0ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=41118 1897ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=240 1905ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=17923 1916ms
+GET https://bank.gov.ua/files/Licences_bank/320702.pdf 495ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=278 2049ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=214 2053ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=46526 2057ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=85 2072ms
+GET http://www.fg.gov.ua/not-paying/completed/77-evropeisky 2308ms
+CALC nbu/not-banks/text/300852.txt 1200ms
+GET http://www.fg.gov.ua/not-paying/completed/75-bank-reg-rozv 2884ms
+GET https://minfin.com.ua/ua/company/avangardbank/ 2218ms
+GET https://minfin.com.ua/ua/company/agroprosperis-bank/ 2226ms
+GET https://minfin.com.ua/ua/company/iboxbank/ 2233ms
+GET https://minfin.com.ua/ua/company/axiomabank/ 2240ms
+GET https://minfin.com.ua/ua/company/a-bank/ 2254ms
+GET https://minfin.com.ua/ua/company/accordbank/ 2262ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=24345 1416ms
+GET https://minfin.com.ua/ua/company/avtokrazbank/ 2279ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=35128 1064ms
+GET http://www.fg.gov.ua/not-paying/completed/76-natsional-standart 2954ms
+GET https://minfin.com.ua/ua/company/aktabank/ 2291ms
+GET https://minfin.com.ua/ua/company/active-bank/ 2299ms
+GET https://minfin.com.ua/ua/company/avantbank/ 2311ms
+GET http://www.fg.gov.ua/not-paying/completed/81-kyiv-universal 2743ms
+GET http://www.fg.gov.ua/not-paying/completed/80-evro-bank-rz 2746ms
+GET http://www.fg.gov.ua/not-paying/completed/84-premierbank 2576ms
+GET http://www.fg.gov.ua/not-paying/completed/79-prychornomor 2751ms
+GET http://www.fg.gov.ua/not-paying/completed/83-garant 2751ms
+CALC nbu/not-banks/text/380797.txt 1048ms
+CALC nbu/not-banks/text/307770.txt 1505ms
+GET https://bank.gov.ua/files/Licences_bank/305062.pdf 1062ms
+GET http://www.fg.gov.ua/not-paying/completed/82-interkontinent 2933ms
+GET http://www.fg.gov.ua/not-paying/completed/85-allonz 1650ms
+CALC nbu/not-banks/text/300090.txt 1099ms
+CALC nbu/not-banks/text/321660.txt 1360ms
+CALC nbu/not-banks/text/321712.txt 1ms
+CALC nbu/not-banks/text/313849.txt 0ms
+CALC nbu/not-banks/text/321659.txt 0ms
+CALC nbu/not-banks/text/334970.txt 2088ms
+CALC nbu/not-banks/text/380894.txt 0ms
+CALC nbu/not-banks/text/300346.txt 0ms
+CALC nbu/not-banks/text/320702.txt 1411ms
+CALC nbu/not-banks/text/320843.txt 2315ms
+GET https://bank.gov.ua/files/Licences_bank/321712.pdf 666ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=239 1829ms
+CALC nbu/not-banks/text/321767.txt 2444ms
+GET https://bank.gov.ua/files/Licences_bank/313849.pdf 676ms
+GET https://bank.gov.ua/files/Licences_bank/321659.pdf 677ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=37648 1552ms
+CALC nbu/not-banks/text/305062.txt 757ms
+CALC nbu/not-banks/text/300119.txt 0ms
+CALC nbu/not-banks/text/322863.txt 0ms
+CALC nbu/not-banks/text/322465.txt 0ms
+CALC nbu/not-banks/text/380720.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380894.pdf 333ms
+CALC nbu/not-banks/text/322335.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/300346.pdf 443ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=35386 1988ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=157 1788ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=25655 1239ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=243 2129ms
+GET https://bank.gov.ua/files/Licences_bank/300119.pdf 489ms
+CALC nbu/not-banks/text/321659.txt 569ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=268 2118ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=31 2127ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=95 1582ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=189 2143ms
+GET https://bank.gov.ua/files/Licences_bank/322863.pdf 696ms
+GET https://bank.gov.ua/files/Licences_bank/322465.pdf 697ms
+GET https://minfin.com.ua/ua/company/bankalpari/ 1714ms
+GET https://bank.gov.ua/files/Licences_bank/380720.pdf 682ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=26321 769ms
+GET https://minfin.com.ua/ua/company/asvio_bank/ 1683ms
+GET http://www.fg.gov.ua/not-paying/completed/86-rostok-bank 2233ms
+CALC nbu/not-banks/text/321712.txt 998ms
+GET https://bank.gov.ua/files/Licences_bank/322335.pdf 717ms
+GET https://minfin.com.ua/ua/company/apeks-bank/ 1914ms
+GET https://minfin.com.ua/ua/company/altbank/ 1922ms
+GET https://minfin.com.ua/ua/company/bank-3-4/ 1925ms
+GET https://minfin.com.ua/ua/company/basis/ 1933ms
+GET https://minfin.com.ua/ua/company/arkada/ 1958ms
+GET https://minfin.com.ua/ua/company/alliance/ 1967ms
+GET https://minfin.com.ua/ua/company/artem-bank/ 1973ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=51316 987ms
+CALC nbu/not-banks/text/380894.txt 400ms
+GET https://minfin.com.ua/ua/company/alfa-bank/ 2076ms
+CALC nbu/not-banks/text/328094.txt 0ms
+CALC nbu/not-banks/text/380300.txt 0ms
+GET http://www.fg.gov.ua/not-paying/completed/87-nash-bank 2511ms
+GET http://www.fg.gov.ua/not-paying/completed/90-sloviansky 2508ms
+CALC nbu/not-banks/text/313849.txt 1740ms
+CALC nbu/not-banks/text/380720.txt 228ms
+CALC nbu/not-banks/text/328652.txt 0ms
+GET http://www.fg.gov.ua/not-paying/completed/60-inno-prom-bank 2755ms
+GET http://www.fg.gov.ua/not-paying/completed/88-olbank 2758ms
+GET http://www.fg.gov.ua/not-paying/liquidation/219-at-bank-bohuslav 2643ms
+GET http://www.fg.gov.ua/not-paying/liquidation/234-at-vtb-bank 2759ms
+GET http://www.fg.gov.ua/not-paying/completed/89-ukraina 2761ms
+GET http://www.fg.gov.ua/not-paying/liquidation/167-pat-bank-yunison 2762ms
+GET http://www.fg.gov.ua/not-paying/liquidation/208-akb-novyy 2657ms
+CALC nbu/not-banks/text/300119.txt 1013ms
+GET https://bank.gov.ua/files/Licences_bank/328094.pdf 796ms
+GET https://bank.gov.ua/files/Licences_bank/380300.pdf 575ms
+CALC nbu/not-banks/text/300885.txt 0ms
+CALC nbu/not-banks/text/321228.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/328652.pdf 441ms
+CALC nbu/not-banks/text/322863.txt 1219ms
+CALC nbu/not-banks/text/300346.txt 1640ms
+CALC nbu/not-banks/text/353489.txt 0ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=134 1543ms
+CALC nbu/not-banks/text/322335.txt 1061ms
+CALC nbu/not-banks/text/322465.txt 1474ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=258 1713ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=190 1496ms
+GET http://www.fg.gov.ua/not-paying/liquidation/210-pat-komertsiynyy-bank-hefest 1310ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=30620 1591ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=33468 1869ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=237 1875ms
+GET http://www.fg.gov.ua/not-paying/liquidation/51-interbank 424ms
+CALC nbu/not-banks/text/322368.txt 0ms
+CALC nbu/not-banks/text/320724.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/300885.pdf 597ms
+GET https://bank.gov.ua/files/Licences_bank/321228.pdf 607ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=78 1396ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=186 1845ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=272 1665ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=6 1855ms
+CALC nbu/not-banks/text/328094.txt 479ms
+CALC nbu/not-banks/text/328652.txt 143ms
+GET https://bank.gov.ua/files/Licences_bank/353489.pdf 491ms
+GET https://minfin.com.ua/ua/company/bank-boguslav/ 1972ms
+CALC nbu/not-banks/text/380300.txt 387ms
+CALC nbu/not-banks/text/351760.txt 0ms
+CALC nbu/not-banks/text/305880.txt 0ms
+GET https://minfin.com.ua/ua/company/settlement/ 1688ms
+CALC nbu/not-banks/text/351953.txt 0ms
+CALC nbu/not-banks/text/306500.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/320724.pdf 333ms
+GET https://bank.gov.ua/files/Licences_bank/322368.pdf 339ms
+GET https://minfin.com.ua/ua/company/bank-veles/ 2120ms
+GET https://minfin.com.ua/ua/company/bis/ 1907ms
+GET https://minfin.com.ua/ua/company/bank-sich/ 1898ms
+GET https://minfin.com.ua/ua/company/cambio/ 1936ms
+GET https://minfin.com.ua/ua/company/zolotye-vorota/ 1945ms
+GET https://minfin.com.ua/ua/company/sf/ 1936ms
+CALC nbu/not-banks/text/322799.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/305880.pdf 460ms
+GET https://bank.gov.ua/files/Licences_bank/351760.pdf 461ms
+GET https://minfin.com.ua/ua/company/stolichnyi/ 1891ms
+GET https://minfin.com.ua/ua/company/natsionalniy-kredit/ 2109ms
+No site: [ 'Банк Велес' ]
+GET https://bank.gov.ua/files/Licences_bank/351953.pdf 584ms
+GET https://bank.gov.ua/files/Licences_bank/306500.pdf 585ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=80 993ms
+GET https://bank.gov.ua/files/Licences_bank/322799.pdf 465ms
+CALC nbu/not-banks/text/300885.txt 1221ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=192 1365ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=100 1507ms
+GET http://www.fg.gov.ua/not-paying/liquidation/48-zahidinkombank 2472ms
+CALC nbu/not-banks/text/322368.txt 849ms
+CALC nbu/not-banks/text/351953.txt 362ms
+GET http://www.fg.gov.ua/not-paying/liquidation/47-avtokrazbank 2839ms
+GET http://www.fg.gov.ua/not-paying/liquidation/53-mercury 2673ms
+GET http://www.fg.gov.ua/not-paying/liquidation/54-brokbiznesbank 2674ms
+GET http://www.fg.gov.ua/not-paying/liquidation/56-daniel 2676ms
+GET http://www.fg.gov.ua/not-paying/liquidation/55-real-bank 2678ms
+GET http://www.fg.gov.ua/not-paying/liquidation/41-terra-bank 2678ms
+CALC nbu/not-banks/text/321228.txt 2018ms
+CALC nbu/not-banks/text/351607.txt 0ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=221 2034ms
+GET http://www.fg.gov.ua/not-paying/liquidation/52-forum 2947ms
+GET http://www.fg.gov.ua/not-paying/liquidation/203-pat-diamantbank 2047ms
+GET http://www.fg.gov.ua/not-paying/liquidation/160-at-rodovid-bank 2118ms
+CALC nbu/not-banks/text/351760.txt 1444ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=193 2409ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=52883 2412ms
+GET https://minfin.com.ua/ua/company/bank-trust/ 2242ms
+GET https://minfin.com.ua/ua/company/unisonbank/ 1828ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=40403 2400ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=24 2442ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=87 2405ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=191 2409ms
+CALC nbu/not-banks/text/320724.txt 1827ms
+GET https://minfin.com.ua/ua/company/vectorbank/ 1849ms
+GET https://minfin.com.ua/ua/company/bg-bank/ 1870ms
+GET https://minfin.com.ua/ua/company/bta-bank/ 1881ms
+GET https://minfin.com.ua/ua/company/vernum-bank/ 1902ms
+CALC nbu/not-banks/text/306500.txt 1401ms
+GET https://minfin.com.ua/ua/company/brokbiznesbank/ 2067ms
+GET https://minfin.com.ua/ua/company/bm-bank/ 2086ms
+GET https://minfin.com.ua/ua/company/volksbank/ 1957ms
+CALC nbu/not-banks/text/305880.txt 2065ms
+CALC nbu/not-banks/text/300131.txt 0ms
+CALC nbu/not-banks/text/380281.txt 0ms
+GET https://minfin.com.ua/ua/company/vab-bank/ 2099ms
+CALC nbu/not-banks/text/322799.txt 1117ms
+GET https://bank.gov.ua/files/Licences_bank/351607.pdf 817ms
+CALC nbu/not-banks/text/305749.txt 0ms
+CALC nbu/not-banks/text/300379.txt 0ms
+CALC nbu/not-banks/text/322432.txt 0ms
+CALC nbu/not-banks/text/320627.txt 0ms
+CALC nbu/not-banks/text/353489.txt 3444ms
+CALC nbu/not-banks/text/303536.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/300131.pdf 460ms
+GET https://bank.gov.ua/files/Licences_bank/380281.pdf 460ms
+GET http://www.fg.gov.ua/not-paying/liquidation/190-pat-platynum-bank 463ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=17985 1609ms
+CALC nbu/not-banks/text/335902.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/322432.pdf 452ms
+GET https://bank.gov.ua/files/Licences_bank/300379.pdf 507ms
+GET https://bank.gov.ua/files/Licences_bank/305749.pdf 509ms
+CALC nbu/not-banks/text/339016.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/303536.pdf 363ms
+GET https://bank.gov.ua/files/Licences_bank/335902.pdf 336ms
+GET https://bank.gov.ua/files/Licences_bank/320627.pdf 420ms
+GET https://bank.gov.ua/files/Licences_bank/339016.pdf 434ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=18334 1677ms
+CALC nbu/not-banks/text/380281.txt 649ms
+CALC nbu/not-banks/text/322432.txt 957ms
+CALC nbu/not-banks/text/351607.txt 1417ms
+GET https://minfin.com.ua/ua/company/vbr/ 1818ms
+GET https://minfin.com.ua/ua/company/grant/ 1771ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=2 2131ms
+CALC nbu/not-banks/text/300540.txt 0ms
+GET https://minfin.com.ua/ua/company/daniel/ 1653ms
+GET https://minfin.com.ua/ua/company/bankgefest/ 1917ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=198 1972ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=265 1980ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=22799 1982ms
+CALC nbu/not-banks/text/335902.txt 1105ms
+CALC nbu/not-banks/text/300131.txt 1945ms
+CALC nbu/not-banks/text/305749.txt 1512ms
+CALC nbu/not-banks/text/339016.txt 537ms
+GET https://minfin.com.ua/ua/company/globus/ 2469ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=5 2527ms
+GET https://minfin.com.ua/ua/company/demark/ 2167ms
+GET https://minfin.com.ua/ua/company/vtb-bank/ 2485ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=91 2594ms
+GET http://www.fg.gov.ua/not-paying/liquidation/202-pat-finbank 2844ms
+GET https://minfin.com.ua/ua/company/olympic-ukraine/ 2235ms
+GET https://minfin.com.ua/ua/company/bank-vostok/ 2554ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=47216 2556ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=244 2010ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=62 2565ms
+GET https://minfin.com.ua/ua/company/delta-bank/ 2295ms
+GET http://www.fg.gov.ua/not-paying/liquidation/183-at-artem-bank 2663ms
+GET http://www.fg.gov.ua/not-paying/liquidation/198-pat-vektor-bank 2762ms
+GET http://www.fg.gov.ua/not-paying/liquidation/185-pat-bank-trast 2761ms
+GET http://www.fg.gov.ua/not-paying/liquidation/186-pat-kb-investbank 2765ms
+GET http://www.fg.gov.ua/not-paying/liquidation/192-at-nk-bank 2767ms
+GET http://www.fg.gov.ua/not-paying/liquidation/175-pat-kb-yevrobank 2679ms
+GET http://www.fg.gov.ua/not-paying/liquidation/180-pat-ksh-bank 2691ms
+GET http://www.fg.gov.ua/not-paying/liquidation/194-at-fortuna-bank 2796ms
+CALC nbu/not-banks/text/300379.txt 1978ms
+GET http://www.fg.gov.ua/not-paying/liquidation/173-puat-smartbank 2292ms
+CALC nbu/not-banks/text/320627.txt 1536ms
+CALC nbu/not-banks/text/380010.txt 0ms
+CALC nbu/not-banks/text/380786.txt 0ms
+CALC nbu/not-banks/text/303536.txt 1716ms
+CALC nbu/not-banks/text/380816.txt 0ms
+CALC nbu/not-banks/text/351878.txt 0ms
+CALC nbu/not-banks/text/300410.txt 0ms
+CALC nbu/not-banks/text/320371.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/300540.pdf 643ms
+CALC nbu/not-banks/text/334840.txt 0ms
+CALC nbu/not-banks/text/380902.txt 0ms
+CALC nbu/not-banks/text/380645.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380010.pdf 350ms
+GET https://bank.gov.ua/files/Licences_bank/380786.pdf 347ms
+CALC nbu/not-banks/text/300540.txt 244ms
+GET https://bank.gov.ua/files/Licences_bank/380816.pdf 306ms
+GET https://bank.gov.ua/files/Licences_bank/351878.pdf 306ms
+GET https://bank.gov.ua/files/Licences_bank/300410.pdf 308ms
+GET http://www.fg.gov.ua/not-paying/liquidation/159-pat-kb-premium 267ms
+GET https://bank.gov.ua/files/Licences_bank/320371.pdf 395ms
+GET https://bank.gov.ua/files/Licences_bank/334840.pdf 354ms
+GET https://bank.gov.ua/files/Licences_bank/380645.pdf 339ms
+CALC nbu/not-banks/text/380786.txt 193ms
+CALC nbu/not-banks/text/321916.txt 0ms
+CALC nbu/not-banks/text/380010.txt 261ms
+GET https://bank.gov.ua/files/Licences_bank/380902.pdf 776ms
+CALC nbu/not-banks/text/380816.txt 537ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=32050 1265ms
+CALC nbu/not-banks/text/380645.txt 558ms
+CALC nbu/not-banks/text/300410.txt 812ms
+CALC nbu/not-banks/text/322603.txt 0ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=3 1386ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=37186 2591ms
+CALC nbu/not-banks/text/339500.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/321916.pdf 870ms
+GET https://minfin.com.ua/ua/company/dzbank/ 1612ms
+CALC nbu/not-banks/text/337535.txt 0ms
+No xml encoded quotes: [ 'Полікомбанк' ]
+Full name is pure name: [ 'Полікомбанк' ]
+GET https://minfin.com.ua/ua/company/expobank/ 1684ms
+GET https://minfin.com.ua/ua/company/dongorbank/ 1688ms
+GET https://minfin.com.ua/ua/company/divi-bank/ 1733ms
+GET https://minfin.com.ua/ua/company/diamantbank/ 1865ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=231 1714ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=270 1725ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=21393 1771ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=227 1773ms
+GET https://minfin.com.ua/ua/company/energobank/ 1746ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=249 1790ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=64 1752ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=38874 1754ms
+GET https://minfin.com.ua/ua/company/eurobank/ 1764ms
+CALC nbu/not-banks/text/380902.txt 273ms
+CALC nbu/not-banks/text/380913.txt 0ms
+CALC nbu/not-banks/text/380322.txt 0ms
+GET https://minfin.com.ua/ua/company/rd-bank/ 1815ms
+GET https://minfin.com.ua/ua/company/express-bank/ 1820ms
+CALC nbu/not-banks/text/320371.txt 1133ms
+GET https://bank.gov.ua/files/Licences_bank/339500.pdf 510ms
+GET https://minfin.com.ua/ua/company/db/ 2010ms
+GET http://www.fg.gov.ua/not-paying/liquidation/157-pat-avant-bank 1966ms
+CALC nbu/not-banks/text/351878.txt 1703ms
+CALC nbu/not-banks/text/334840.txt 1448ms
+CALC nbu/not-banks/text/321916.txt 250ms
+GET https://bank.gov.ua/files/Licences_bank/337535.pdf 650ms
+GET http://www.fg.gov.ua/not-paying/liquidation/158-at-kb-tk-kredyt 2315ms
+CALC nbu/not-banks/text/397133.txt 0ms
+CALC nbu/not-banks/text/300249.txt 0ms
+CALC nbu/not-banks/text/321723.txt 0ms
+CALC nbu/not-banks/text/380087.txt 1ms
+CALC nbu/not-banks/text/380537.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380913.pdf 520ms
+GET http://www.fg.gov.ua/not-paying/liquidation/164-pat-bank-petrokommerts-ukrayina 2476ms
+GET https://bank.gov.ua/files/Licences_bank/380322.pdf 527ms
+GET http://www.fg.gov.ua/not-paying/liquidation/153-pat-bank-sofiyskyy 2485ms
+GET http://www.fg.gov.ua/not-paying/liquidation/163-at-kb-soyuz 2631ms
+GET http://www.fg.gov.ua/not-paying/liquidation/165-pat-kb-khreshchatyk 2632ms
+GET http://www.fg.gov.ua/not-paying/liquidation/154-pat-ukrinbank 2633ms
+GET http://www.fg.gov.ua/not-paying/liquidation/171-pat-bank-mykhaylivskyy 2636ms
+GET https://bank.gov.ua/files/Licences_bank/397133.pdf 297ms
+GET http://www.fg.gov.ua/not-paying/liquidation/170-puat-fidobank 2659ms
+GET https://bank.gov.ua/files/Licences_bank/322603.pdf 1259ms
+GET http://www.fg.gov.ua/not-paying/liquidation/147-pat-yusb-bank 2232ms
+GET https://bank.gov.ua/files/Licences_bank/380087.pdf 402ms
+GET https://bank.gov.ua/files/Licences_bank/321723.pdf 403ms
+GET https://bank.gov.ua/files/Licences_bank/380537.pdf 403ms
+GET https://bank.gov.ua/files/Licences_bank/300249.pdf 544ms
+CALC nbu/not-banks/text/337535.txt 692ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=49 1253ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=33 1547ms
+GET https://bank.gov.ua/control/uk/bankdict/bank?id=34501 1259ms
+CALC nbu/not-banks/text/380322.txt 685ms
+CALC nbu/not-banks/text/380913.txt 1131ms
+GET https://minfin.com.ua/ua/company/europrombank/ 1616ms
+GET https://minfin.com.ua/ua/company/zemelnyi-kapital/ 1624ms
+GET https://minfin.com.ua/ua/company/imexbank/ 1600ms
+GET https://minfin.com.ua/ua/company/zembank/ 1645ms
+GET https://minfin.com.ua/ua/company/eurogasbank/ 1713ms
+GET https://minfin.com.ua/ua/company/zakhidinkombank/ 1682ms
+GET https://minfin.com.ua/ua/company/ideabank/ 1688ms
+GET https://minfin.com.ua/ua/company/zlatobank/ 1707ms
+GET https://minfin.com.ua/ua/company/investtrustbank/ 1665ms
+GET https://minfin.com.ua/ua/company/investbank/ 1687ms
+GET http://www.fg.gov.ua/not-paying/liquidation/26-vseukr-bank-rozv 1672ms
+CALC nbu/not-banks/text/380719.txt 0ms
+No xml encoded quotes: [ 'Полікомбанк' ]
+Full name is pure name: [ 'Полікомбанк' ]
+GET http://www.fg.gov.ua/not-paying/liquidation/118-delta 688ms
+GET http://www.fg.gov.ua/not-paying/liquidation/145-at-bank-finansy-ta-kredyt 1660ms
+CALC nbu/not-banks/text/322603.txt 1260ms
+CALC nbu/not-banks/text/339038.txt 0ms
+CALC nbu/not-banks/text/339500.txt 2334ms
+CALC nbu/not-banks/text/380087.txt 1196ms
+GET http://www.fg.gov.ua/not-paying/liquidation/146-at-bank-natsionalni-investytsii 1748ms
+CALC nbu/not-banks/text/380537.txt 1332ms
+CALC nbu/not-banks/text/380689.txt 0ms
+GET http://www.fg.gov.ua/not-paying/liquidation/152-at-bank-veles 2055ms
+GET http://www.fg.gov.ua/not-paying/liquidation/148-bank-kontrakt 2056ms
+CALC nbu/not-banks/text/397133.txt 1902ms
+GET https://bank.gov.ua/files/Licences_bank/380719.pdf 649ms
+GET http://www.fg.gov.ua/not-paying/liquidation/131-pat-akb-kapital 1910ms
+GET http://www.fg.gov.ua/not-paying/liquidation/144-pat-intehral-bank 2077ms
+GET http://www.fg.gov.ua/not-paying/liquidation/149-pat-unikombank 2080ms
+GET http://www.fg.gov.ua/not-paying/liquidation/130-pat-radykal-bank 2110ms
+CALC nbu/not-banks/text/320564.txt 0ms
+CALC nbu/not-banks/text/305987.txt 0ms
+CALC nbu/not-banks/text/325213.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/339038.pdf 429ms
+CALC nbu/not-banks/text/315353.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380689.pdf 246ms
+CALC nbu/not-banks/text/300249.txt 1806ms
+CALC nbu/not-banks/text/380195.txt 0ms
+CALC nbu/not-banks/text/321723.txt 1958ms
+CALC nbu/not-banks/text/380719.txt 235ms
+CALC nbu/not-banks/text/339038.txt 71ms
+GET https://bank.gov.ua/files/Licences_bank/305987.pdf 411ms
+GET https://bank.gov.ua/files/Licences_bank/320564.pdf 414ms
+GET https://bank.gov.ua/files/Licences_bank/325213.pdf 413ms
+GET https://bank.gov.ua/files/Licences_bank/315353.pdf 476ms
+CALC nbu/not-banks/text/307112.txt 0ms
+CALC nbu/not-banks/text/337933.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380195.pdf 262ms
+CALC nbu/not-banks/text/380311.txt 0ms
+CALC nbu/not-banks/text/300272.txt 0ms
+CALC nbu/not-banks/text/380689.txt 407ms
+CALC nbu/not-banks/text/315353.txt 152ms
+GET https://bank.gov.ua/files/Licences_bank/307112.pdf 415ms
+GET https://bank.gov.ua/files/Licences_bank/337933.pdf 415ms
+CALC nbu/not-banks/text/320564.txt 451ms
+GET https://bank.gov.ua/files/Licences_bank/380311.pdf 454ms
+GET https://bank.gov.ua/files/Licences_bank/300272.pdf 439ms
+GET https://minfin.com.ua/ua/company/interbank/ 1344ms
+CALC nbu/not-banks/text/380195.txt 157ms
+CALC nbu/not-banks/text/325213.txt 701ms
+CALC nbu/not-banks/text/300807.txt 0ms
+GET https://minfin.com.ua/ua/company/capital/ 1507ms
+GET https://minfin.com.ua/ua/company/ing/ 1513ms
+GET https://minfin.com.ua/ua/company/kievskaya-rus/ 1517ms
+GET https://minfin.com.ua/ua/company/integral/ 1522ms
+GET https://minfin.com.ua/ua/company/inter-credit-bank/ 1526ms
+GET https://minfin.com.ua/ua/company/classic-bank/ 1532ms
+CALC nbu/not-banks/text/328072.txt 0ms
+Full name is pure name: [ 'Києво-Печерський акціонерно-комерційний банк' ]
+GET https://minfin.com.ua/ua/company/inprombank/ 1567ms
+CALC nbu/not-banks/text/377120.txt 0ms
+GET https://minfin.com.ua/ua/company/industrialbank/ 1595ms
+GET https://minfin.com.ua/ua/company/kiev/ 1604ms
+CALC nbu/not-banks/text/380526.txt 0ms
+GET http://www.fg.gov.ua/not-paying/liquidation/129-pat-ab-stolychnyy 1971ms
+CALC nbu/not-banks/text/322324.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/300807.pdf 490ms
+CALC nbu/not-banks/text/305987.txt 1442ms
+CALC nbu/not-banks/text/337933.txt 659ms
+GET https://bank.gov.ua/files/Licences_bank/328072.pdf 667ms
+CALC nbu/not-banks/text/307112.txt 838ms
+GET https://bank.gov.ua/files/Licences_bank/377120.pdf 685ms
+CALC nbu/not-banks/text/300272.txt 828ms
+CALC nbu/not-banks/text/380311.txt 828ms
+GET https://bank.gov.ua/files/Licences_bank/380526.pdf 545ms
+GET https://bank.gov.ua/files/Licences_bank/322324.pdf 331ms
+CALC nbu/not-banks/text/380980.txt 0ms
+CALC nbu/not-banks/text/380236.txt 0ms
+GET http://www.fg.gov.ua/not-paying/liquidation/137-bank-morskyi 2361ms
+GET http://www.fg.gov.ua/not-paying/liquidation/138-at-sp-bank 2390ms
+CALC nbu/not-banks/text/353575.txt 0ms
+GET http://www.fg.gov.ua/not-paying/liquidation/124-ukr-komun-bank 2616ms
+GET http://www.fg.gov.ua/not-paying/liquidation/113-ukrgazprombank 2617ms
+CALC nbu/not-banks/text/328072.txt 137ms
+CALC nbu/not-banks/text/377120.txt 53ms
+CALC nbu/not-banks/text/322272.txt 0ms
+CALC nbu/not-banks/text/380968.txt 0ms
+CALC nbu/not-banks/text/300807.txt 295ms
+GET http://www.fg.gov.ua/not-paying/liquidation/126-upb 2358ms
+GET http://www.fg.gov.ua/not-paying/liquidation/114-kyivska-rus 2359ms
+GET http://www.fg.gov.ua/not-paying/liquidation/136-pat-chbrr 2754ms
+GET https://bank.gov.ua/files/Licences_bank/380980.pdf 401ms
+GET https://bank.gov.ua/files/Licences_bank/380236.pdf 402ms
+GET http://www.fg.gov.ua/not-paying/liquidation/117-omega 2498ms
+GET http://www.fg.gov.ua/not-paying/liquidation/127-national-credit 2661ms
+CALC nbu/not-banks/text/320854.txt 0ms
+CALC nbu/not-banks/text/380827.txt 0ms
+CALC nbu/not-banks/text/335946.txt 0ms
+CALC nbu/not-banks/text/380526.txt 348ms
+GET https://bank.gov.ua/files/Licences_bank/353575.pdf 469ms
+GET https://bank.gov.ua/files/Licences_bank/322272.pdf 356ms
+GET https://bank.gov.ua/files/Licences_bank/380968.pdf 357ms
+CALC nbu/not-banks/text/322324.txt 632ms
+GET https://bank.gov.ua/files/Licences_bank/320854.pdf 440ms
+GET https://minfin.com.ua/ua/company/cominvestbank/ 1383ms
+GET https://minfin.com.ua/ua/company/clearing-house/ 1675ms
+GET https://minfin.com.ua/ua/company/cib/ 1510ms
+GET https://bank.gov.ua/files/Licences_bank/380827.pdf 626ms
+CALC nbu/not-banks/text/325569.txt 0ms
+GET https://minfin.com.ua/ua/company/contract/ 1557ms
+GET https://minfin.com.ua/ua/company/credit-europe-bank/ 1559ms
+GET https://bank.gov.ua/files/Licences_bank/335946.pdf 689ms
+GET https://minfin.com.ua/ua/company/credit-optima/ 1531ms
+GET https://minfin.com.ua/ua/company/creditwest-bank/ 1431ms
+CALC nbu/not-banks/text/380236.txt 906ms
+CALC nbu/not-banks/text/322272.txt 340ms
+CALC nbu/not-banks/text/380968.txt 340ms
+CALC nbu/not-banks/text/380731.txt 0ms
+GET https://minfin.com.ua/ua/company/concord/ 1895ms
+GET https://minfin.com.ua/ua/company/credit-dnepr/ 1901ms
+GET https://minfin.com.ua/ua/company/creditprombank/ 1731ms
+GET http://www.fg.gov.ua/not-paying/liquidation/119-kiyv 1586ms
+CALC nbu/not-banks/text/380980.txt 1210ms
+GET https://bank.gov.ua/files/Licences_bank/325569.pdf 318ms
+CALC nbu/not-banks/text/380827.txt 135ms
+CALC nbu/not-banks/text/334895.txt 0ms
+CALC nbu/not-banks/text/331304.txt 0ms
+CALC nbu/not-banks/text/334969.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380731.pdf 419ms
+CALC nbu/not-banks/text/353575.txt 1085ms
+GET http://www.fg.gov.ua/not-paying/liquidation/111-energobank 1827ms
+CALC nbu/not-banks/text/320854.txt 808ms
+CALC nbu/not-banks/text/380292.txt 0ms
+GET http://www.fg.gov.ua/not-paying/liquidation/29-vab-bank 302ms
+CALC nbu/not-banks/text/300313.txt 0ms
+GET http://www.fg.gov.ua/not-paying/liquidation/120-standart 1953ms
+GET https://bank.gov.ua/files/Licences_bank/334895.pdf 422ms
+GET https://bank.gov.ua/files/Licences_bank/331304.pdf 423ms
+GET https://bank.gov.ua/files/Licences_bank/334969.pdf 430ms
+GET http://www.fg.gov.ua/not-paying/liquidation/116-kreditprombank 2048ms
+CALC nbu/not-banks/text/335946.txt 740ms
+CALC nbu/not-banks/text/322294.txt 0ms
+GET http://www.fg.gov.ua/not-paying/liquidation/96-imexbank 2192ms
+GET http://www.fg.gov.ua/not-paying/liquidation/95-ukoopspilka 2104ms
+GET http://www.fg.gov.ua/not-paying/liquidation/97-nadra 2271ms
+GET http://www.fg.gov.ua/not-paying/liquidation/121-zlato 2192ms
+CALC nbu/not-banks/text/380731.txt 294ms
+GET https://bank.gov.ua/files/Licences_bank/380292.pdf 394ms
+GET http://www.fg.gov.ua/not-paying/liquidation/93-ukrbiznesbank 2175ms
+GET http://www.fg.gov.ua/not-paying/liquidation/94-profin-bank 2176ms
+CALC nbu/not-banks/text/322959.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/300313.pdf 380ms
+CALC nbu/not-banks/text/325569.txt 664ms
+CALC nbu/not-banks/text/313690.txt 0ms
+CALC nbu/not-banks/text/351793.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/322294.pdf 384ms
+CALC nbu/not-banks/text/334895.txt 449ms
+CALC nbu/not-banks/text/331304.txt 449ms
+GET https://bank.gov.ua/files/Licences_bank/322959.pdf 480ms
+GET https://minfin.com.ua/ua/company/kredobank/ 1649ms
+GET https://minfin.com.ua/ua/company/credit-agricole/ 1657ms
+GET https://bank.gov.ua/files/Licences_bank/313690.pdf 371ms
+GET https://minfin.com.ua/ua/company/crystalbank/ 1656ms
+GET https://minfin.com.ua/ua/company/legbank/ 1526ms
+GET https://minfin.com.ua/ua/company/ksgbank/ 1532ms
+GET https://minfin.com.ua/ua/company/lvov/ 1538ms
+CALC nbu/not-banks/text/380667.txt 0ms
+CALC nbu/not-banks/text/334969.txt 856ms
+GET https://minfin.com.ua/ua/company/mercury/ 1676ms
+GET https://minfin.com.ua/ua/company/megabank/ 1777ms
+GET https://minfin.com.ua/ua/company/melior/ 1708ms
+GET https://minfin.com.ua/ua/company/metabank/ 1716ms
+GET https://bank.gov.ua/files/Licences_bank/351793.pdf 623ms
+CALC nbu/not-banks/text/300313.txt 514ms
+CALC nbu/not-banks/text/380009.txt 0ms
+CALC nbu/not-banks/text/322904.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380667.pdf 539ms
+CALC nbu/not-banks/text/380292.txt 1449ms
+CALC nbu/not-banks/text/324485.txt 0ms
+CALC nbu/not-banks/text/353166.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380009.pdf 603ms
+GET https://bank.gov.ua/files/Licences_bank/322904.pdf 604ms
+GET http://www.fg.gov.ua/not-paying/liquidation/30-mis-kom-bank 1838ms
+CALC nbu/not-banks/text/351793.txt 167ms
+CALC nbu/not-banks/text/322959.txt 909ms
+GET http://www.fg.gov.ua/not-paying/liquidation/28-legbank 2077ms
+CALC nbu/not-banks/text/313690.txt 927ms
+CALC nbu/not-banks/text/322294.txt 1281ms
+CALC nbu/not-banks/text/380355.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/324485.pdf 492ms
+GET https://bank.gov.ua/files/Licences_bank/353166.pdf 491ms
+GET http://www.fg.gov.ua/not-paying/liquidation/27-bg-bank 2321ms
+GET http://www.fg.gov.ua/not-paying/liquidation/38-grin-bank 2038ms
+CALC nbu/not-banks/text/380430.txt 0ms
+GET http://www.fg.gov.ua/not-paying/liquidation/22-kambio 2482ms
+GET http://www.fg.gov.ua/not-paying/liquidation/31-melior-bank 2182ms
+GET http://www.fg.gov.ua/not-paying/liquidation/33-aksioma 2183ms
+CALC nbu/not-banks/text/380184.txt 0ms
+GET http://www.fg.gov.ua/not-paying/liquidation/36-demark 2261ms
+GET http://www.fg.gov.ua/not-paying/liquidation/37-ekspobank 2218ms
+GET http://www.fg.gov.ua/not-paying/liquidation/35-porto-franko 2264ms
+CALC nbu/not-banks/text/322904.txt 273ms
+CALC nbu/not-banks/text/380667.txt 605ms
+CALC nbu/not-banks/text/377090.txt 0ms
+CALC nbu/not-banks/text/306544.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380355.pdf 369ms
+GET https://minfin.com.ua/ua/company/ii-bank/ 1566ms
+CALC nbu/not-banks/text/380009.txt 610ms
+CALC nbu/not-banks/text/353166.txt 229ms
+GET https://bank.gov.ua/files/Licences_bank/380184.pdf 344ms
+GET https://bank.gov.ua/files/Licences_bank/380430.pdf 448ms
+CALC nbu/not-banks/text/336291.txt 0ms
+CALC nbu/not-banks/text/303484.txt 0ms
+GET https://minfin.com.ua/ua/company/mihailovskiy/ 1840ms
+GET https://minfin.com.ua/ua/company/morskoy/ 1616ms
+GET https://minfin.com.ua/ua/company/motor-bank/ 1621ms
+GET https://bank.gov.ua/files/Licences_bank/306544.pdf 411ms
+GET https://bank.gov.ua/files/Licences_bank/377090.pdf 414ms
+GET https://minfin.com.ua/ua/company/misto-bank/ 1740ms
+CALC nbu/not-banks/text/325365.txt 0ms
+CALC nbu/not-banks/text/300670.txt 0ms
+GET https://minfin.com.ua/ua/company/citycommercebank/ 1801ms
+GET https://minfin.com.ua/ua/company/bni/ 1464ms
+CALC nbu/not-banks/text/380355.txt 356ms
+GET https://minfin.com.ua/ua/company/marfinbank/ 1633ms
+GET https://bank.gov.ua/files/Licences_bank/336291.pdf 399ms
+GET https://minfin.com.ua/ua/company/narodniy-kapital/ 1640ms
+CALC nbu/not-banks/text/324485.txt 761ms
+No site: [ 'Морський' ]
+GET https://bank.gov.ua/files/Licences_bank/303484.pdf 477ms
+GET https://minfin.com.ua/ua/company/nadra/ 1750ms
+CALC nbu/not-banks/text/380184.txt 393ms
+GET https://bank.gov.ua/files/Licences_bank/300670.pdf 403ms
+CALC nbu/not-banks/text/380430.txt 543ms
+CALC nbu/not-banks/text/306544.txt 167ms
+GET https://bank.gov.ua/files/Licences_bank/325365.pdf 568ms
+CALC nbu/not-banks/text/377090.txt 226ms
+CALC nbu/not-banks/text/351652.txt 0ms
+CALC nbu/not-banks/text/380612.txt 0ms
+CALC nbu/not-banks/text/300614.txt 0ms
+CALC nbu/not-banks/text/336291.txt 194ms
+CALC nbu/not-banks/text/351931.txt 0ms
+CALC nbu/not-banks/text/336310.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/351652.pdf 271ms
+CALC nbu/not-banks/text/303484.txt 330ms
+CALC nbu/not-banks/text/351588.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380612.pdf 333ms
+GET http://www.fg.gov.ua/not-paying/liquidation/39-aktabank 1626ms
+GET https://bank.gov.ua/files/Licences_bank/300614.pdf 287ms
+CALC nbu/not-banks/text/322636.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/351931.pdf 281ms
+GET https://bank.gov.ua/files/Licences_bank/336310.pdf 281ms
+CALC nbu/not-banks/text/325365.txt 392ms
+GET https://bank.gov.ua/files/Licences_bank/351588.pdf 230ms
+GET http://www.fg.gov.ua/not-paying/liquidation/32-interkredytbank 2179ms
+CALC nbu/not-banks/text/334594.txt 0ms
+GET https://minfin.com.ua/ua/company/new/ 1739ms
+GET https://bank.gov.ua/files/Licences_bank/322636.pdf 404ms
+CALC nbu/not-banks/text/300670.txt 1053ms
+GET http://www.fg.gov.ua/not-paying/liquidation/49-pivdenkombank 2146ms
+GET http://www.fg.gov.ua/not-paying/liquidation/43-zoloti-vorota 2170ms
+GET https://minfin.com.ua/ua/company/oksi-bank/ 1643ms
+GET http://www.fg.gov.ua/not-paying/liquidation/34-praym-bank 2409ms
+GET http://www.fg.gov.ua/not-paying/liquidation/50-promekonombank 2160ms
+CALC nbu/not-banks/text/380612.txt 776ms
+CALC nbu/not-banks/text/324667.txt 0ms
+GET https://minfin.com.ua/ua/company/fib/ 1738ms
+GET https://minfin.com.ua/ua/company/pku/ 1579ms
+GET http://www.fg.gov.ua/not-paying/liquidation/42-ukr-fin-svit 2422ms
+GET https://minfin.com.ua/ua/company/otp-bank/ 1821ms
+GET http://www.fg.gov.ua/not-paying/liquidation/40-aktyv-bank 2657ms
+GET http://www.fg.gov.ua/not-paying/liquidation/44-evrogazbank 2430ms
+GET http://www.fg.gov.ua/not-paying/liquidation/45-finrostbank 2411ms
+GET https://minfin.com.ua/ua/company/pivdencombank/ 1597ms
+GET https://bank.gov.ua/files/Licences_bank/334594.pdf 772ms
+GET https://minfin.com.ua/ua/company/pivdenny/ 1665ms
+GET https://minfin.com.ua/ua/company/oschadbank/ 1966ms
+GET https://minfin.com.ua/ua/company/platinumbank/ 1622ms
+CALC nbu/not-banks/text/351652.txt 1184ms
+GET https://minfin.com.ua/ua/company/piraeus-bank/ 1852ms
+CALC nbu/not-banks/text/328384.txt 0ms
+GET http://www.fg.gov.ua/not-paying/liquidation/46-starokyiv-bank 1191ms
+CALC nbu/not-banks/text/322636.txt 282ms
+CALC nbu/not-banks/text/380601.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/324667.pdf 537ms
+CALC nbu/not-banks/text/351931.txt 1120ms
+CALC nbu/not-banks/text/300614.txt 1459ms
+CALC nbu/not-banks/text/336310.txt 1243ms
+CALC nbu/not-banks/text/328210.txt 0ms
+CALC nbu/not-banks/text/351588.txt 1154ms
+Bank is still active: [ 'ПРИВАТБАНК' ]
+Bank is still active: [ 'ФІНАНСОВА ІНІЦІАТИВА' ]
+GET https://bank.gov.ua/files/Licences_bank/328384.pdf 598ms
+Full name is pure name: [ 'Іпотечний комерційний акціонерний банк' ]
+CALC nbu/not-banks/text/380957.txt 0ms
+CALC nbu/not-banks/text/300539.txt 0ms
+CALC nbu/not-banks/text/300863.txt 0ms
+CALC nbu/not-banks/text/324667.txt 80ms
+CALC nbu/not-banks/text/320735.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380601.pdf 434ms
+GET https://bank.gov.ua/files/Licences_bank/328210.pdf 181ms
+CALC nbu/not-banks/text/334594.txt 417ms
+CALC nbu/not-banks/text/300164.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380957.pdf 285ms
+CALC nbu/not-banks/text/300216.txt 0ms
+CALC nbu/not-banks/text/320478.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/300863.pdf 325ms
+GET https://bank.gov.ua/files/Licences_bank/300539.pdf 328ms
+GET https://bank.gov.ua/files/Licences_bank/320735.pdf 316ms
+GET https://bank.gov.ua/files/Licences_bank/300164.pdf 313ms
+GET https://bank.gov.ua/files/Licences_bank/300216.pdf 247ms
+GET https://bank.gov.ua/files/Licences_bank/320478.pdf 248ms
+CALC nbu/not-banks/text/328384.txt 589ms
+CALC nbu/not-banks/text/380957.txt 135ms
+GET https://minfin.com.ua/ua/company/policombank/ 1695ms
+CALC nbu/not-banks/text/328210.txt 584ms
+CALC nbu/not-banks/text/380601.txt 782ms
+GET https://minfin.com.ua/ua/company/poltava-bank/ 1762ms
+GET https://minfin.com.ua/ua/company/prime-bank/ 1430ms
+GET https://minfin.com.ua/ua/company/bankportal/ 1438ms
+GET https://minfin.com.ua/ua/company/porto-franko/ 1619ms
+GET https://minfin.com.ua/ua/company/premium/ 1506ms
+GET https://minfin.com.ua/ua/company/promeconombank/ 1384ms
+CALC nbu/not-banks/text/324678.txt 0ms
+GET https://minfin.com.ua/ua/company/pravex-bank/ 1735ms
+GET https://minfin.com.ua/ua/company/procredit_bank/ 1646ms
+CALC nbu/not-banks/text/307424.txt 0ms
+CALC nbu/not-banks/text/380270.txt 0ms
+CALC nbu/not-banks/text/300539.txt 973ms
+CALC nbu/not-banks/text/300863.txt 1101ms
+GET https://minfin.com.ua/ua/company/privatbank/ 2217ms
+CALC nbu/not-banks/text/380399.txt 0ms
+CALC nbu/not-banks/text/300216.txt 858ms
+GET https://bank.gov.ua/files/Licences_bank/324678.pdf 650ms
+CALC nbu/not-banks/text/320735.txt 1388ms
+CALC nbu/not-banks/text/300164.txt 1389ms
+GET https://bank.gov.ua/files/Licences_bank/307424.pdf 538ms
+GET https://bank.gov.ua/files/Licences_bank/380270.pdf 539ms
+CALC nbu/not-banks/text/334828.txt 0ms
+CALC nbu/not-banks/text/320478.txt 1270ms
+CALC nbu/not-banks/text/322498.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380399.pdf 418ms
+CALC nbu/not-banks/text/319092.txt 0ms
+CALC nbu/not-banks/text/300294.txt 0ms
+CALC nbu/not-banks/text/300089.txt 0ms
+CALC nbu/not-banks/text/307424.txt 126ms
+CALC nbu/not-banks/text/380270.txt 126ms
+CALC nbu/not-banks/text/322540.txt 0ms
+CALC nbu/not-banks/text/324678.txt 208ms
+GET https://bank.gov.ua/files/Licences_bank/334828.pdf 290ms
+GET https://bank.gov.ua/files/Licences_bank/322498.pdf 280ms
+GET https://bank.gov.ua/files/Licences_bank/319092.pdf 274ms
+GET https://bank.gov.ua/files/Licences_bank/300294.pdf 277ms
+GET https://bank.gov.ua/files/Licences_bank/300089.pdf 277ms
+CALC nbu/not-banks/text/380399.txt 146ms
+CALC nbu/not-banks/text/306704.txt 0ms
+CALC nbu/not-banks/text/300647.txt 0ms
+CALC nbu/not-banks/text/320791.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/322540.pdf 157ms
+CALC nbu/not-banks/text/322658.txt 0ms
+CALC nbu/not-banks/text/300294.txt 247ms
+GET https://bank.gov.ua/files/Licences_bank/306704.pdf 419ms
+GET https://bank.gov.ua/files/Licences_bank/300647.pdf 420ms
+GET https://bank.gov.ua/files/Licences_bank/320791.pdf 483ms
+GET https://minfin.com.ua/ua/company/prominvestbank/ 2070ms
+CALC nbu/not-banks/text/334828.txt 963ms
+CALC nbu/not-banks/text/322498.txt 963ms
+GET https://bank.gov.ua/files/Licences_bank/322658.pdf 630ms
+GET https://minfin.com.ua/ua/company/rwsbank/ 1488ms
+GET https://minfin.com.ua/ua/company/pfb/ 1926ms
+GET https://minfin.com.ua/ua/company/profin-bank/ 1934ms
+GET https://minfin.com.ua/ua/company/pumb/ 1940ms
+GET https://minfin.com.ua/ua/company/radical-bank/ 1725ms
+GET https://minfin.com.ua/ua/company/radabank/ 1739ms
+GET https://minfin.com.ua/ua/company/real-bank/ 1532ms
+Full name is pure name: [ 'Український акціонерний комерційний банк розвитку нафтогазового комплексу' ]
+GET https://minfin.com.ua/ua/company/rccf/ 1479ms
+GET https://minfin.com.ua/ua/company/aval/ 1833ms
+CALC nbu/not-banks/text/300089.txt 1106ms
+CALC nbu/not-banks/text/324816.txt 0ms
+CALC nbu/not-banks/text/319092.txt 1620ms
+CALC nbu/not-banks/text/320791.txt 216ms
+CALC nbu/not-banks/text/324355.txt 0ms
+CALC nbu/not-banks/text/311517.txt 0ms
+CALC nbu/not-banks/text/322540.txt 1372ms
+CALC nbu/not-banks/text/325990.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/324816.pdf 719ms
+CALC nbu/not-banks/text/333238.txt 0ms
+CALC nbu/not-banks/text/333874.txt 0ms
+CALC nbu/not-banks/text/300647.txt 1045ms
+GET https://bank.gov.ua/files/Licences_bank/311517.pdf 660ms
+GET https://bank.gov.ua/files/Licences_bank/324355.pdf 662ms
+CALC nbu/not-banks/text/306704.txt 1184ms
+CALC nbu/not-banks/text/334958.txt 0ms
+CALC nbu/not-banks/text/322658.txt 885ms
+GET https://bank.gov.ua/files/Licences_bank/325990.pdf 381ms
+GET https://bank.gov.ua/files/Licences_bank/333238.pdf 284ms
+GET https://bank.gov.ua/files/Licences_bank/333874.pdf 285ms
+CALC nbu/not-banks/text/312248.txt 0ms
+CALC nbu/not-banks/text/324816.txt 62ms
+CALC nbu/not-banks/text/339339.txt 0ms
+CALC nbu/not-banks/text/324355.txt 94ms
+CALC nbu/not-banks/text/307350.txt 0ms
+CALC nbu/not-banks/text/311517.txt 177ms
+GET https://bank.gov.ua/files/Licences_bank/334958.pdf 330ms
+CALC nbu/not-banks/text/328083.txt 0ms
+CALC nbu/not-banks/text/333238.txt 211ms
+CALC nbu/not-banks/text/333874.txt 212ms
+GET https://bank.gov.ua/files/Licences_bank/312248.pdf 396ms
+GET https://bank.gov.ua/files/Licences_bank/339339.pdf 301ms
+CALC nbu/not-banks/text/380366.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/307350.pdf 327ms
+CALC nbu/not-banks/text/380571.txt 0ms
+CALC nbu/not-banks/text/325990.txt 439ms
+CALC nbu/not-banks/text/334958.txt 83ms
+CALC nbu/not-banks/text/380441.txt 0ms
+CALC nbu/not-banks/text/300562.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/328083.pdf 158ms
+GET https://bank.gov.ua/files/Licences_bank/380366.pdf 252ms
+GET https://minfin.com.ua/ua/company/rodovid-bank/ 1711ms
+CALC nbu/not-banks/text/339050.txt 0ms
+CALC nbu/not-banks/text/322948.txt 0ms
+GET https://minfin.com.ua/ua/company/sebcorpratebank/ 1825ms
+GET https://bank.gov.ua/files/Licences_bank/380571.pdf 329ms
+GET https://minfin.com.ua/ua/company/smartbank/ 1830ms
+GET https://minfin.com.ua/ua/company/soyuz/ 1838ms
+GET https://minfin.com.ua/ua/company/skybank/ 1848ms
+GET https://minfin.com.ua/ua/company/starokievskiy-bank/ 1428ms
+GET https://minfin.com.ua/ua/company/citibank/ 1868ms
+GET https://minfin.com.ua/ua/company/vpbank/ 1432ms
+GET https://bank.gov.ua/files/Licences_bank/380441.pdf 434ms
+GET https://bank.gov.ua/files/Licences_bank/300562.pdf 439ms
+GET https://minfin.com.ua/ua/company/sberbank/ 1951ms
+GET https://minfin.com.ua/ua/company/standart/ 1957ms
+CALC nbu/not-banks/text/307350.txt 417ms
+CALC nbu/not-banks/text/339339.txt 737ms
+CALC nbu/not-banks/text/312248.txt 737ms
+CALC nbu/not-banks/text/328083.txt 396ms
+CALC nbu/not-banks/text/300658.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/322948.pdf 522ms
+GET https://bank.gov.ua/files/Licences_bank/339050.pdf 525ms
+CALC nbu/not-banks/text/380366.txt 356ms
+CALC nbu/not-banks/text/300562.txt 205ms
+CALC nbu/not-banks/text/380571.txt 342ms
+CALC nbu/not-banks/text/300056.txt 0ms
+CALC nbu/not-banks/text/325268.txt 0ms
+CALC nbu/not-banks/text/334936.txt 0ms
+CALC nbu/not-banks/text/380441.txt 464ms
+CALC nbu/not-banks/text/339050.txt 148ms
+CALC nbu/not-banks/text/328168.txt 0ms
+CALC nbu/not-banks/text/300205.txt 0ms
+CALC nbu/not-banks/text/351629.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/300658.pdf 321ms
+GET https://bank.gov.ua/files/Licences_bank/300056.pdf 261ms
+GET https://bank.gov.ua/files/Licences_bank/325268.pdf 264ms
+CALC nbu/not-banks/text/307435.txt 0ms
+CALC nbu/not-banks/text/351663.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/334936.pdf 257ms
+GET https://bank.gov.ua/files/Licences_bank/328168.pdf 128ms
+GET https://bank.gov.ua/files/Licences_bank/300205.pdf 322ms
+GET https://bank.gov.ua/files/Licences_bank/351629.pdf 324ms
+GET https://bank.gov.ua/files/Licences_bank/307435.pdf 383ms
+GET https://bank.gov.ua/files/Licences_bank/351663.pdf 383ms
+CALC nbu/not-banks/text/334936.txt 230ms
+CALC nbu/not-banks/text/322948.txt 1011ms
+CALC nbu/not-banks/text/300658.txt 963ms
+CALC nbu/not-banks/text/300056.txt 823ms
+GET https://minfin.com.ua/ua/company/tavrika/ 1631ms
+GET https://minfin.com.ua/ua/company/ubrr/ 1598ms
+GET https://minfin.com.ua/ua/company/ukoopspilka/ 1605ms
+GET https://minfin.com.ua/ua/company/tk-credit/ 1610ms
+GET https://minfin.com.ua/ua/company/trust-capital/ 1615ms
+GET https://minfin.com.ua/ua/company/ukrcapital/ 1622ms
+GET https://minfin.com.ua/ua/company/ubb/ 1584ms
+CALC nbu/not-banks/text/325268.txt 1116ms
+CALC nbu/not-banks/text/322818.txt 0ms
+GET https://minfin.com.ua/ua/company/ukrstroyinvestbank/ 1808ms
+GET https://minfin.com.ua/ua/company/terra-bank/ 1900ms
+GET https://minfin.com.ua/ua/company/taskombank/ 1908ms
+CALC nbu/not-banks/text/307435.txt 213ms
+CALC nbu/not-banks/text/313582.txt 0ms
+CALC nbu/not-banks/text/380935.txt 0ms
+CALC nbu/not-banks/text/380582.txt 0ms
+CALC nbu/not-banks/text/380388.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/322818.pdf 339ms
+CALC nbu/not-banks/text/328168.txt 1472ms
+CALC nbu/not-banks/text/300205.txt 984ms
+CALC nbu/not-banks/text/320984.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380935.pdf 545ms
+GET https://bank.gov.ua/files/Licences_bank/380582.pdf 545ms
+GET https://bank.gov.ua/files/Licences_bank/313582.pdf 548ms
+CALC nbu/not-banks/text/328760.txt 0ms
+CALC nbu/not-banks/text/324742.txt 0ms
+CALC nbu/not-banks/text/322818.txt 30ms
+GET https://bank.gov.ua/files/Licences_bank/380388.pdf 297ms
+CALC nbu/not-banks/text/351629.txt 1617ms
+CALC nbu/not-banks/text/351663.txt 1395ms
+GET https://bank.gov.ua/files/Licences_bank/320984.pdf 507ms
+CALC nbu/not-banks/text/313009.txt 0ms
+CALC nbu/not-banks/text/380764.txt 0ms
+CALC nbu/not-banks/text/380935.txt 306ms
+CALC nbu/not-banks/text/321466.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/324742.pdf 725ms
+GET https://bank.gov.ua/files/Licences_bank/328760.pdf 733ms
+CALC nbu/not-banks/text/380582.txt 586ms
+CALC nbu/not-banks/text/313582.txt 728ms
+GET https://bank.gov.ua/files/Licences_bank/313009.pdf 423ms
+GET https://bank.gov.ua/files/Licences_bank/380764.pdf 423ms
+CALC nbu/not-banks/text/380388.txt 592ms
+CALC nbu/not-banks/text/320984.txt 436ms
+GET https://bank.gov.ua/files/Licences_bank/321466.pdf 438ms
+GET https://minfin.com.ua/ua/company/ukreximbank/ 1771ms
+CALC nbu/not-banks/text/300498.txt 0ms
+CALC nbu/not-banks/text/300896.txt 0ms
+GET https://minfin.com.ua/ua/company/ukrcommunbank/ 1887ms
+GET https://minfin.com.ua/ua/company/ukrgazprombank/ 1892ms
+GET https://minfin.com.ua/ua/company/ukrsibbank/ 1898ms
+GET https://minfin.com.ua/ua/company/upb/ 1595ms
+GET https://minfin.com.ua/ua/company/ukrincombank/ 1603ms
+GET https://minfin.com.ua/ua/company/ukrgasbank/ 1919ms
+GET https://minfin.com.ua/ua/company/ukrsocbank/ 1884ms
+GET https://minfin.com.ua/ua/company/ukrinbank/ 1985ms
+CALC nbu/not-banks/text/322476.txt 0ms
+CALC nbu/not-banks/text/328102.txt 0ms
+CALC nbu/not-banks/text/328180.txt 0ms
+GET https://minfin.com.ua/ua/company/universal-bank/ 1885ms
+GET https://bank.gov.ua/files/Licences_bank/300498.pdf 412ms
+GET https://bank.gov.ua/files/Licences_bank/300896.pdf 455ms
+CALC nbu/not-banks/text/313009.txt 570ms
+CALC nbu/not-banks/text/324742.txt 804ms
+CALC nbu/not-banks/text/328760.txt 921ms
+GET https://bank.gov.ua/files/Licences_bank/322476.pdf 543ms
+GET https://bank.gov.ua/files/Licences_bank/328102.pdf 543ms
+GET https://bank.gov.ua/files/Licences_bank/328180.pdf 545ms
+CALC nbu/not-banks/text/321466.txt 842ms
+CALC nbu/not-banks/text/322885.txt 0ms
+CALC nbu/not-banks/text/300528.txt 0ms
+CALC nbu/not-banks/text/380764.txt 1195ms
+CALC nbu/not-banks/text/300465.txt 0ms
+CALC nbu/not-banks/text/322476.txt 177ms
+CALC nbu/not-banks/text/300896.txt 702ms
+CALC nbu/not-banks/text/300498.txt 883ms
+CALC nbu/not-banks/text/339072.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/322885.pdf 644ms
+GET https://bank.gov.ua/files/Licences_bank/300528.pdf 645ms
+CALC nbu/not-banks/text/328102.txt 588ms
+GET https://minfin.com.ua/ua/company/ufw-bank/ 1636ms
+CALC nbu/not-banks/text/328180.txt 690ms
+CALC nbu/not-banks/text/300506.txt 0ms
+CALC nbu/not-banks/text/334851.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/300465.pdf 515ms
+CALC nbu/not-banks/text/328209.txt 0ms
+CALC nbu/not-banks/text/353100.txt 0ms
+GET https://minfin.com.ua/ua/company/tmm-bank/ 1356ms
+CALC nbu/not-banks/text/331489.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/339072.pdf 284ms
+GET https://minfin.com.ua/ua/company/bank-familnyi/ 1504ms
+GET https://minfin.com.ua/ua/company/financial-partner/ 1509ms
+GET https://minfin.com.ua/ua/company/fidobank/ 1543ms
+GET https://minfin.com.ua/ua/company/finbank/ 1431ms
+CALC nbu/not-banks/text/321477.txt 0ms
+GET https://minfin.com.ua/ua/company/finansy-i-kredit/ 1674ms
+GET https://minfin.com.ua/ua/company/finansovaya-iniciativa/ 1690ms
+GET https://bank.gov.ua/files/Licences_bank/300506.pdf 373ms
+GET https://minfin.com.ua/ua/company/finexbank/ 1582ms
+GET https://bank.gov.ua/files/Licences_bank/334851.pdf 368ms
+CALC nbu/not-banks/text/322885.txt 431ms
+GET https://bank.gov.ua/files/Licences_bank/331489.pdf 304ms
+GET https://bank.gov.ua/files/Licences_bank/328209.pdf 442ms
+GET https://bank.gov.ua/files/Licences_bank/353100.pdf 443ms
+GET https://minfin.com.ua/ua/company/finrostbank/ 1596ms
+CALC nbu/not-banks/text/300528.txt 613ms
+CALC nbu/not-banks/text/339072.txt 75ms
+GET https://bank.gov.ua/files/Licences_bank/321477.pdf 390ms
+CALC nbu/not-banks/text/380838.txt 0ms
+CALC nbu/not-banks/text/300465.txt 964ms
+CALC nbu/not-banks/text/300669.txt 0ms
+CALC nbu/not-banks/text/305686.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380838.pdf 647ms
+CALC nbu/not-banks/text/334851.txt 999ms
+GET https://minfin.com.ua/ua/company/forward-bank/ 1589ms
+CALC nbu/not-banks/text/339555.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/300669.pdf 542ms
+CALC nbu/not-banks/text/331489.txt 1092ms
+GET https://bank.gov.ua/files/Licences_bank/305686.pdf 634ms
+GET https://minfin.com.ua/ua/company/fortuna-bank/ 1548ms
+CALC nbu/not-banks/text/300506.txt 1411ms
+GET https://minfin.com.ua/ua/company/khreschatyk/ 1508ms
+CALC nbu/not-banks/text/353100.txt 1391ms
+GET https://minfin.com.ua/ua/company/bank-forum/ 1660ms
+CALC nbu/not-banks/text/321477.txt 1153ms
+CALC nbu/not-banks/text/328209.txt 1615ms
+GET https://minfin.com.ua/ua/company/center/ 1814ms
+CALC nbu/not-banks/text/351715.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/339555.pdf 589ms
+GET https://minfin.com.ua/ua/company/chbrr/ 1880ms
+GET https://minfin.com.ua/ua/company/unexbank/ 1896ms
+CALC nbu/not-banks/text/305299.txt 0ms
+CALC nbu/not-banks/text/306759.txt 0ms
+GET https://minfin.com.ua/ua/company/monobank/ 1975ms
+GET https://minfin.com.ua/ua/company/unionstandardbank/ 1992ms
+CALC nbu/not-banks/text/334992.txt 0ms
+CALC nbu/not-banks/text/331768.txt 0ms
+CALC nbu/not-banks/text/300012.txt 0ms
+CALC nbu/not-banks/text/300669.txt 335ms
+No site: [ 'Чорноморський банк розвитку та реконструкції' ]
+GET https://bank.gov.ua/files/Licences_bank/351715.pdf 345ms
+CALC nbu/not-banks/text/305686.txt 420ms
+GET https://bank.gov.ua/files/Licences_bank/305299.pdf 321ms
+GET https://bank.gov.ua/files/Licences_bank/306759.pdf 321ms
+CALC nbu/not-banks/text/380838.txt 731ms
+CALC nbu/not-banks/text/339555.txt 272ms
+GET https://bank.gov.ua/files/Licences_bank/334992.pdf 395ms
+CALC nbu/not-banks/text/319111.txt 0ms
+CALC nbu/not-banks/text/351254.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/331768.pdf 381ms
+GET https://bank.gov.ua/files/Licences_bank/300012.pdf 381ms
+CALC nbu/not-banks/text/300023.txt 0ms
+CALC nbu/not-banks/text/351715.txt 286ms
+CALC nbu/not-banks/text/380474.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/319111.pdf 288ms
+GET https://bank.gov.ua/files/Licences_bank/351254.pdf 322ms
+GET https://bank.gov.ua/files/Licences_bank/300023.pdf 251ms
+CALC nbu/not-banks/text/306759.txt 607ms
+CALC nbu/not-banks/text/344443.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380474.pdf 421ms
+CALC nbu/not-banks/text/319111.txt 102ms
+CALC nbu/not-banks/text/305299.txt 1016ms
+CALC nbu/not-banks/text/322692.txt 0ms
+CALC nbu/not-banks/text/334992.txt 1061ms
+GET https://bank.gov.ua/files/Licences_bank/344443.pdf 571ms
+CALC nbu/not-banks/text/331768.txt 1078ms
+CALC nbu/not-banks/text/300012.txt 1237ms
+CALC nbu/not-banks/text/321325.txt 0ms
+CALC nbu/not-banks/text/320650.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/322692.pdf 418ms
+CALC nbu/not-banks/text/380474.txt 359ms
+CALC nbu/not-banks/text/312776.txt 0ms
+CALC nbu/not-banks/text/300023.txt 790ms
+CALC nbu/not-banks/text/322711.txt 0ms
+CALC nbu/not-banks/text/351254.txt 1065ms
+CALC nbu/not-banks/text/344443.txt 154ms
+CALC nbu/not-banks/text/300584.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/321325.pdf 439ms
+CALC nbu/not-banks/text/313797.txt 0ms
+CALC nbu/not-banks/text/380861.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/320650.pdf 424ms
+CALC nbu/not-banks/text/388313.txt 0ms
+CALC nbu/not-banks/text/380515.txt 0ms
+CALC nbu/not-banks/text/322692.txt 134ms
+GET https://bank.gov.ua/files/Licences_bank/312776.pdf 318ms
+GET https://bank.gov.ua/files/Licences_bank/322711.pdf 152ms
+GET https://bank.gov.ua/files/Licences_bank/300584.pdf 147ms
+CALC nbu/not-banks/text/321325.txt 54ms
+CALC nbu/not-banks/text/315568.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/313797.pdf 237ms
+CALC nbu/not-banks/text/380690.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380861.pdf 244ms
+GET https://bank.gov.ua/files/Licences_bank/388313.pdf 380ms
+GET https://bank.gov.ua/files/Licences_bank/380515.pdf 380ms
+CALC nbu/not-banks/text/312776.txt 292ms
+GET https://bank.gov.ua/files/Licences_bank/315568.pdf 404ms
+CALC nbu/not-banks/text/320650.txt 646ms
+GET https://bank.gov.ua/files/Licences_bank/380690.pdf 329ms
+CALC nbu/not-banks/text/300584.txt 667ms
+CALC nbu/not-banks/text/380861.txt 82ms
+CALC nbu/not-banks/text/380623.txt 0ms
+CALC nbu/not-banks/text/322711.txt 969ms
+CALC nbu/not-banks/text/313797.txt 438ms
+CALC nbu/not-banks/text/304706.txt 0ms
+CALC nbu/not-banks/text/300788.txt 0ms
+CALC nbu/not-banks/text/388313.txt 498ms
+CALC nbu/not-banks/text/380515.txt 499ms
+CALC nbu/not-banks/text/315568.txt 263ms
+CALC nbu/not-banks/text/380690.txt 214ms
+CALC nbu/not-banks/text/384685.txt 0ms
+CALC nbu/not-banks/text/384577.txt 0ms
+CALC nbu/not-banks/text/338255.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380623.pdf 327ms
+CALC nbu/not-banks/text/322539.txt 0ms
+CALC nbu/not-banks/text/380106.txt 0ms
+CALC nbu/not-banks/text/322625.txt 0ms
+CALC nbu/not-banks/text/380883.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/304706.pdf 276ms
+CALC nbu/not-banks/text/380623.txt 180ms
+GET https://bank.gov.ua/files/Licences_bank/300788.pdf 247ms
+GET https://bank.gov.ua/files/Licences_bank/384577.pdf 199ms
+GET https://bank.gov.ua/files/Licences_bank/384685.pdf 201ms
+GET https://bank.gov.ua/files/Licences_bank/322625.pdf 191ms
+GET https://bank.gov.ua/files/Licences_bank/322539.pdf 197ms
+GET https://bank.gov.ua/files/Licences_bank/380106.pdf 198ms
+GET https://bank.gov.ua/files/Licences_bank/338255.pdf 207ms
+GET https://bank.gov.ua/files/Licences_bank/380883.pdf 237ms
+CALC nbu/not-banks/text/380128.txt 0ms
+CALC nbu/not-banks/text/338255.txt 312ms
+CALC nbu/not-banks/text/384685.txt 595ms
+CALC nbu/not-banks/text/322625.txt 811ms
+CALC nbu/not-banks/text/380106.txt 811ms
+CALC nbu/not-banks/text/304706.txt 985ms
+CALC nbu/not-banks/text/380883.txt 404ms
+CALC nbu/not-banks/text/322539.txt 1005ms
+CALC nbu/not-banks/text/300788.txt 1006ms
+GET https://bank.gov.ua/files/Licences_bank/380128.pdf 696ms
+CALC nbu/not-banks/text/384577.txt 1070ms
+CALC nbu/not-banks/text/377777.txt 0ms
+CALC nbu/not-banks/text/380377.txt 0ms
+CALC nbu/not-banks/text/322313.txt 0ms
+CALC nbu/not-banks/text/300142.txt 0ms
+CALC nbu/not-banks/text/304988.txt 0ms
+CALC nbu/not-banks/text/351005.txt 0ms
+CALC nbu/not-banks/text/322164.txt 0ms
+CALC nbu/not-banks/text/328599.txt 0ms
+CALC nbu/not-banks/text/380054.txt 0ms
+CALC nbu/not-banks/text/380128.txt 91ms
+GET https://bank.gov.ua/files/Licences_bank/377777.pdf 121ms
+CALC nbu/not-banks/text/380872.txt 0ms
+GET https://bank.gov.ua/files/Licences_bank/380377.pdf 200ms
+GET https://bank.gov.ua/files/Licences_bank/322313.pdf 197ms
+GET https://bank.gov.ua/files/Licences_bank/300142.pdf 197ms
+GET https://bank.gov.ua/files/Licences_bank/304988.pdf 199ms
+GET https://bank.gov.ua/files/Licences_bank/351005.pdf 201ms
+GET https://bank.gov.ua/files/Licences_bank/328599.pdf 235ms
+GET https://bank.gov.ua/files/Licences_bank/380054.pdf 189ms
+GET https://bank.gov.ua/files/Licences_bank/322164.pdf 241ms
+GET https://bank.gov.ua/files/Licences_bank/380872.pdf 407ms
+CALC nbu/not-banks/text/377777.txt 532ms
+CALC nbu/not-banks/text/380377.txt 625ms
+CALC nbu/not-banks/text/304988.txt 1081ms
+CALC nbu/not-banks/text/300142.txt 1082ms
+CALC nbu/not-banks/text/322313.txt 1082ms
+CALC nbu/not-banks/text/380054.txt 467ms
+CALC nbu/not-banks/text/322164.txt 468ms
+CALC nbu/not-banks/text/351005.txt 1282ms
+CALC nbu/not-banks/text/328685.txt 0ms
+CALC nbu/not-banks/text/380872.txt 57ms
+CALC nbu/not-banks/text/300904.txt 0ms
+CALC nbu/not-banks/text/380742.txt 0ms
+CALC nbu/not-banks/text/324850.txt 0ms
+CALC nbu/not-banks/text/328599.txt 764ms
+GET https://bank.gov.ua/files/Licences_bank/328685.pdf 224ms
+GET https://bank.gov.ua/files/Licences_bank/324850.pdf 183ms
+GET https://bank.gov.ua/files/Licences_bank/300904.pdf 189ms
+GET https://bank.gov.ua/files/Licences_bank/380742.pdf 347ms
+CALC nbu/not-banks/text/324850.txt 287ms
+CALC nbu/not-banks/text/380742.txt 148ms
+CALC nbu/not-banks/text/300904.txt 607ms
+CALC nbu/not-banks/text/328685.txt 716ms
+271
+PDF Time: 65480
+Duplicate bank name: [ 'ЄВРОБАНК' ]
+Duplicate bank name: [ 'ЄВРОБАНК' ]
+Duplicate bank name: [ 'ЄВРОБАНК' ]
+Duplicate bank name: [ 'ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ' ]
+Duplicate bank name: [ 'ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ' ]
+Duplicate bank name: [ 'ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ' ]
+Duplicate bank name: [ 'ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ' ]
+Duplicate bank name: [ 'ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ' ]
+Duplicate bank name: [ 'ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ' ]
+Duplicate bank name: [ 'ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ' ]
+Duplicate bank name: [ 'ЄВРОГАЗБАНК' ]
+Duplicate bank name: [ 'ЄПБ' ]
+Duplicate bank name: [ 'ІДЕЯ БАНК' ]
+Duplicate bank name: [ 'ІДЕЯ БАНК' ]
+Duplicate bank name: [ 'ІДЕЯ БАНК' ]
+Duplicate bank name: [ 'ІДЕЯ БАНК' ]
+Duplicate bank name: [ 'ІНВЕСТ-БАНК УКРАЇНА' ]
+Duplicate bank name: [ 'ІНВЕСТ-БАНК УКРАЇНА' ]
+Duplicate bank name: [ 'ІНВЕСТБАНК' ]
+Duplicate bank name: [ 'ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК' ]
+Duplicate bank name: [ 'ІНДУСТРІАЛБАНК' ]
+Duplicate bank name: [ 'ІНДУСТРІАЛБАНК' ]
+Duplicate bank name: [ 'ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК' ]
+Duplicate bank name: [ 'ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК' ]
+Duplicate bank name: [ 'ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК' ]
+Duplicate bank name: [ 'ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК' ]
+Duplicate bank name: [ 'ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК' ]
+Duplicate bank name: [ 'ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК' ]
+Duplicate bank name: [ 'ІНТЕГРАЛ-БАНК' ]
+Duplicate bank name: [ 'ІНТЕГРАЛ-БАНК' ]
+Duplicate bank name: [ 'ІНТЕРКОНТИНЕНТБАНК' ]
+Duplicate bank name: [ 'ІНТЕРКОНТИНЕНТБАНК' ]
+Duplicate bank name: [ 'ІПОТЕЧНИЙ КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК' ]
+Duplicate bank name: [ 'ІПОТЕЧНИЙ КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК' ]
+Duplicate bank name: [ 'АБСОЛЮТ' ]
+Duplicate bank name: [ 'АВАНТ-БАНК' ]
+Duplicate bank name: [ 'АП БАНК' ]
+Duplicate bank name: [ 'АП БАНК' ]
+Duplicate bank name: [ 'АЗОВ-БАНК' ]
+Duplicate bank name: [ 'АЙБОКС БАНК' ]
+Duplicate bank name: [ 'АЙБОКС БАНК' ]
+Duplicate bank name: [ 'АЙБОКС БАНК' ]
+Duplicate bank name: [ 'АКСІОМА' ]
+Duplicate bank name: [ 'АКСІОМА' ]
+Duplicate bank name: [ 'АКТИВ-БАНК' ]
+Duplicate bank name: [ 'АКЦІОНЕРНИЙ БАНК КРЕДІ СВІСС ФЬОРСТ БОСТОН (УКРАЇНА)' ]
+Duplicate bank name: [ 'ПРОМІНВЕСТБАНК' ]
+Duplicate bank name: [ 'ПРОМІНВЕСТБАНК' ]
+Duplicate bank name: [ 'А-БАНК' ]
+Duplicate bank name: [ 'А-БАНК' ]
+Duplicate bank name: [ 'А-БАНК' ]
+Duplicate bank name: [ 'АЛЬТБАНК' ]
+Duplicate bank name: [ 'АЛЬТБАНК' ]
+Duplicate bank name: [ 'АЛЬТБАНК' ]
+Duplicate bank name: [ 'АЛЬТБАНК' ]
+Duplicate bank name: [ 'АЛЬТБАНК' ]
+Duplicate bank name: [ 'АЛЬФА-БАНК' ]
+Duplicate bank name: [ 'АЛЬФА-БАНК' ]
+Duplicate bank name: [ 'АЛЬФА-БАНК' ]
+Duplicate bank name: [ 'АМАСКО' ]
+Duplicate bank name: [ 'АПЕКС-БАНК' ]
+Duplicate bank name: [ 'АРТЕМ-БАНК' ]
+Duplicate bank name: [ 'АСВІО БАНК' ]
+Duplicate bank name: [ 'АСВІО БАНК' ]
+Duplicate bank name: [ 'АСВІО БАНК' ]
+Duplicate bank name: [ 'БІГ ЕНЕРГІЯ' ]
+Duplicate bank name: [ 'БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ' ]
+Duplicate bank name: [ 'БАНК АВАНГАРД' ]
+Duplicate bank name: [ 'БАНК АЛЬЯНС' ]
+Duplicate bank name: [ 'БАНК АЛЬЯНС' ]
+Duplicate bank name: [ 'БАНК БОГУСЛАВ' ]
+Duplicate bank name: [ 'БАНК ВЕЛЕС' ]
+Duplicate bank name: [ 'БАНК ВЕЛЕС' ]
+Duplicate bank name: [ 'БАНК ВЕЛЕС' ]
+Duplicate bank name: [ 'БАНК ВОСТОК' ]
+Duplicate bank name: [ 'БАНК ВОСТОК' ]
+Duplicate bank name: [ 'БАНК ВОСТОК' ]
+Duplicate bank name: [ 'БАНК ВОСТОК' ]
+Duplicate bank name: [ 'БАНК ЗОЛОТІ ВОРОТА' ]
+Duplicate bank name: [ 'БАНК КАМБІО' ]
+Duplicate bank name: [ 'БАНК КРЕДИТ ДНІПРО' ]
+Duplicate bank name: [ 'БАНК КРЕДИТ ДНІПРО' ]
+Duplicate bank name: [ 'БАНК МИХАЙЛІВСЬКИЙ' ]
+Duplicate bank name: [ 'НК БАНК' ]
+Duplicate bank name: [ 'НК БАНК' ]
+Duplicate bank name: [ 'НК БАНК' ]
+Duplicate bank name: [ 'БАНК НАЦІОНАЛЬНИЙ КРЕДИТ' ]
+Duplicate bank name: [ 'БАНК НАЦІОНАЛЬНИЙ КРЕДИТ' ]
+Duplicate bank name: [ 'БАНК ПЕТРОКОММЕРЦ-УКРАЇНА' ]
+Duplicate bank name: [ 'БАНК ПЕТРОКОММЕРЦ-УКРАЇНА' ]
+Duplicate bank name: [ 'БАНК ПЕТРОКОММЕРЦ-УКРАЇНА' ]
+Duplicate bank name: [ 'ПРОФІН БАНК' ]
+Duplicate bank name: [ 'ПРОФІН БАНК' ]
+Duplicate bank name: [ 'БАНК РЕГІОНАЛЬНОГО РОЗВИТКУ' ]
+Duplicate bank name: [ 'БАНК РЕГІОНАЛЬНОГО РОЗВИТКУ' ]
+Duplicate bank name: [ 'БАНК РЕНЕСАНС КАПІТАЛ' ]
+Duplicate bank name: [ 'БАНК РЕНЕСАНС КАПІТАЛ' ]
+Duplicate bank name: [ 'БАНК СТОЛИЦЯ' ]
+Duplicate bank name: [ 'БАНК ТРАСТ-КАПІТАЛ' ]
+Duplicate bank name: [ 'БАНК ФАМІЛЬНИЙ' ]
+Duplicate bank name: [ 'БАНК ФОРВАРД' ]
+Duplicate bank name: [ 'БАНК ФОРВАРД' ]
+Duplicate bank name: [ 'БАНК ФОРВАРД' ]
+Duplicate bank name: [ 'БАНК ФОРВАРД' ]
+Duplicate bank name: [ 'БАНК ФОРУМ' ]
+Duplicate bank name: [ 'БАНК ФОРУМ' ]
+Duplicate bank name: [ 'БГ БАНК' ]
+Duplicate bank name: [ 'БГ БАНК' ]
+Duplicate bank name: [ 'БГ БАНК' ]
+Duplicate bank name: [ 'БГ БАНК' ]
+Duplicate bank name: [ 'БГ БАНК' ]
+Duplicate bank name: [ 'БГ БАНК' ]
+Duplicate bank name: [ 'БТА БАНК' ]
+Duplicate bank name: [ 'БТА БАНК' ]
+Duplicate bank name: [ 'ВІЕС БАНК' ]
+Duplicate bank name: [ 'ВІЕС БАНК' ]
+Duplicate bank name: [ 'ВІЕС БАНК' ]
+Duplicate bank name: [ 'ВІЕС БАНК' ]
+Duplicate bank name: [ 'ВЕРНУМ БАНК' ]
+Duplicate bank name: [ 'ВЕРНУМ БАНК' ]
+Duplicate bank name: [ 'КРЕДИТВЕСТ БАНК' ]
+Duplicate bank name: [ 'ВІЕЙБІ БАНК' ]
+Duplicate bank name: [ 'ВІЕЙБІ БАНК' ]
+Duplicate bank name: [ 'ВІЕЙБІ БАНК' ]
+Duplicate bank name: [ 'ВБР' ]
+Duplicate bank name: [ 'ВТБ БАНК' ]
+Duplicate bank name: [ 'ВТБ БАНК' ]
+Duplicate bank name: [ 'ГАРАНТ' ]
+Duplicate bank name: [ 'ГЕНЕРАЛЬНИЙ ІНВЕСТИЦІЙНИЙ БАНК' ]
+Duplicate bank name: [ 'ГРІН БАНК' ]
+Duplicate bank name: [ 'ГРІН БАНК' ]
+Duplicate bank name: [ 'ГРІН БАНК' ]
+Duplicate bank name: [ 'ГРІН БАНК' ]
+Duplicate bank name: [ 'ГРАНТ' ]
+Duplicate bank name: [ 'ДІАЛОГБАНК' ]
+Duplicate bank name: [ 'ДІАЛОГБАНК' ]
+Duplicate bank name: [ 'ДІАЛОГБАНК' ]
+Duplicate bank name: [ 'ДІАМАНТБАНК' ]
+Duplicate bank name: [ 'ДЕЛЬТА БАНК' ]
+Duplicate bank name: [ 'ДЕМАРК' ]
+Duplicate bank name: [ 'ДЕНДІ' ]
+Duplicate bank name: [ 'УКРЕКСІМБАНК' ]
+Duplicate bank name: [ 'ДЕРЖАВНИЙ ЗЕМЕЛЬНИЙ БАНК' ]
+Duplicate bank name: [ 'ОЩАДБАНК' ]
+Duplicate bank name: [ 'ОЩАДБАНК' ]
+Duplicate bank name: [ 'ОЩАДБАНК' ]
+Duplicate bank name: [ 'ДОНВУГЛЕКОМБАНК' ]
+Duplicate bank name: [ 'ДОНГОРБАНК' ]
+Duplicate bank name: [ 'ДОНГОРБАНК' ]
+Duplicate bank name: [ 'ДОНГОРБАНК' ]
+Duplicate bank name: [ 'ЕКСПОБАНК' ]
+Duplicate bank name: [ 'ЕКСПРЕС-БАНК' ]
+Duplicate bank name: [ 'ЕНЕРГОБАНК' ]
+Duplicate bank name: [ 'ЕРА' ]
+Duplicate bank name: [ 'ЕРДЕ БАНК' ]
+Duplicate bank name: [ 'ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК' ]
+Duplicate bank name: [ 'ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК' ]
+Duplicate bank name: [ 'ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК' ]
+Duplicate bank name: [ 'ЗАХІДІНКОМБАНК' ]
+Duplicate bank name: [ 'ЗЕМЕЛЬНИЙ БАНК' ]
+Duplicate bank name: [ 'ЗЕМЕЛЬНИЙ КАПІТАЛ' ]
+Duplicate bank name: [ 'ЗОРЯ' ]
+Duplicate bank name: [ 'КИЄВО-ПЕЧЕРСЬКИЙ АКЦІОНЕРНО-КОМЕРЦІЙНИЙ БАНК' ]
+Duplicate bank name: [ 'КИЄВО-ПЕЧЕРСЬКИЙ АКЦІОНЕРНО-КОМЕРЦІЙНИЙ БАНК' ]
+Duplicate bank name: [ 'КИЇВ' ]
+Duplicate bank name: [ 'КИЇВСЬКИЙ МІЖНАРОДНИЙ БАНК' ]
+Duplicate bank name: [ 'КИЇВСЬКИЙ УНІВЕРСАЛЬНИЙ БАНК' ]
+Duplicate bank name: [ 'КЛАСИКБАНК' ]
+Duplicate bank name: [ 'КНЯЖИЙ' ]
+Duplicate bank name: [ 'КОМІНВЕСТБАНК' ]
+Duplicate bank name: [ 'КОМІНВЕСТБАНК' ]
+Duplicate bank name: [ 'КОМІНВЕСТБАНК' ]
+Duplicate bank name: [ 'КІБ' ]
+Duplicate bank name: [ 'КІБ' ]
+Duplicate bank name: [ 'КОНТРАКТ' ]
+Duplicate bank name: [ 'КОНТРАКТ' ]
+Duplicate bank name: [ 'КОРПОРАТИВНИЙ ТА ІНВЕСТИЦІЙНИЙ БАНК КРЕДІ АГРІКОЛЬ' ]
+Duplicate bank name: [ 'КОРПОРАТИВНИЙ ТА ІНВЕСТИЦІЙНИЙ БАНК КРЕДІ АГРІКОЛЬ' ]
+Duplicate bank name: [ 'КОРПОРАТИВНИЙ ТА ІНВЕСТИЦІЙНИЙ БАНК КРЕДІ АГРІКОЛЬ' ]
+Duplicate bank name: [ 'КОРПОРАТИВНИЙ ТА ІНВЕСТИЦІЙНИЙ БАНК КРЕДІ АГРІКОЛЬ' ]
+Duplicate bank name: [ 'КОРПОРАТИВНИЙ ТА ІНВЕСТИЦІЙНИЙ БАНК КРЕДІ АГРІКОЛЬ' ]
+Duplicate bank name: [ 'КРЕДІ АГРІКОЛЬ БАНК' ]
+Duplicate bank name: [ 'КРЕДІ АГРІКОЛЬ БАНК' ]
+Duplicate bank name: [ 'КРЕДІ АГРІКОЛЬ БАНК' ]
+Duplicate bank name: [ 'КРЕДІ АГРІКОЛЬ БАНК' ]
+Duplicate bank name: [ 'КРЕДИТ ЄВРОПА БАНК' ]
+Duplicate bank name: [ 'КРЕДИТ ОПТИМА БАНК' ]
+Duplicate bank name: [ 'КРЕДИТ ОПТИМА БАНК' ]
+Duplicate bank name: [ 'КРЕДИТ ОПТИМА БАНК' ]
+Duplicate bank name: [ 'КРЕДИТПРОМБАНК' ]
+Duplicate bank name: [ 'КРЕДОБАНК' ]
+Duplicate bank name: [ 'КРЕДОБАНК' ]
+Duplicate bank name: [ 'КРИМ ЮРТ' ]
+Duplicate bank name: [ 'КРИМ-БАНК' ]
+Duplicate bank name: [ 'КРИМ-БАНК' ]
+Duplicate bank name: [ 'КРИМКРЕДИТ' ]
+Duplicate bank name: [ 'КРИСТАЛБАНК' ]
+Duplicate bank name: [ 'КСГ БАНК' ]
+Duplicate bank name: [ 'КСГ БАНК' ]
+Duplicate bank name: [ 'КСГ БАНК' ]
+Duplicate bank name: [ 'МІСТО БАНК' ]
+Duplicate bank name: [ 'МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК' ]
+Duplicate bank name: [ 'МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК' ]
+Duplicate bank name: [ 'МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК' ]
+Duplicate bank name: [ 'МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК' ]
+Duplicate bank name: [ 'МЕГАБАНК' ]
+Duplicate bank name: [ 'МЕТА-БАНК' ]
+Duplicate bank name: [ 'МЕТАБАНК' ]
+Duplicate bank name: [ 'МЕТАБАНК' ]
+Duplicate bank name: [ 'МЕТАБАНК' ]
+Duplicate bank name: [ 'МОТОР-БАНК' ]
+Duplicate bank name: [ 'МТ-БАНК' ]
+Duplicate bank name: [ 'МТ-БАНК' ]
+Duplicate bank name: [ 'МТБ БАНК' ]
+Duplicate bank name: [ 'МТБ БАНК' ]
+Duplicate bank name: [ 'МТБ БАНК' ]
+Duplicate bank name: [ 'МТБ БАНК' ]
+Duplicate bank name: [ 'МТБ БАНК' ]
+Duplicate bank name: [ 'НАРОДНИЙ БАНК' ]
+Duplicate bank name: [ 'НАРОДНИЙ БАНК' ]
+Duplicate bank name: [ 'НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ' ]
+Duplicate bank name: [ 'НАЦІОНАЛЬНИЙ СТАНДАРТ' ]
+Duplicate bank name: [ 'НАШ БАНК' ]
+Duplicate bank name: [ 'НАШ БАНК' ]
+Duplicate bank name: [ 'НОВИЙ' ]
+Duplicate bank name: [ 'ОДЕСА-БАНК' ]
+Duplicate bank name: [ 'ОДЕСА-БАНК' ]
+Duplicate bank name: [ 'ОКСІ БАНК' ]
+Duplicate bank name: [ 'ОКСІ БАНК' ]
+Duplicate bank name: [ 'ОКСІ БАНК' ]
+Duplicate bank name: [ 'ОКСІ БАНК' ]
+Duplicate bank name: [ 'ОМЕГА БАНК' ]
+Duplicate bank name: [ 'ОМЕГА БАНК' ]
+Duplicate bank name: [ 'ОМЕГА БАНК' ]
+Duplicate bank name: [ 'ОМЕГА БАНК' ]
+Duplicate bank name: [ 'ОМЕГА БАНК' ]
+Duplicate bank name: [ 'ОТП БАНК' ]
+Duplicate bank name: [ 'ПІВДЕНКОМБАНК' ]
+Duplicate bank name: [ 'ПІРЕУС БАНК МКБ' ]
+Duplicate bank name: [ 'ПІРЕУС БАНК МКБ' ]
+Duplicate bank name: [ 'ПАРИТЕТ' ]
+Duplicate bank name: [ 'ПУМБ' ]
+Duplicate bank name: [ 'ПУМБ' ]
+Duplicate bank name: [ 'ПТБ' ]
+Duplicate bank name: [ 'ПТБ' ]
+Duplicate bank name: [ 'ПТБ' ]
+Duplicate bank name: [ 'ПОДІЛЛЯ' ]
+Duplicate bank name: [ 'ПОЛТАВА-БАНК' ]
+Duplicate bank name: [ 'ПОЛТАВА-БАНК' ]
+Duplicate bank name: [ 'ПОРТАЛ' ]
+Duplicate bank name: [ 'ПОРТО-ФРАНКО' ]
+Duplicate bank name: [ 'ПОРТО-ФРАНКО' ]
+Duplicate bank name: [ 'ПРАЙМ-БАНК' ]
+Duplicate bank name: [ 'ПРЕМ\'ЄРБАНК' ]
+Duplicate bank name: [ 'ПРОКРЕДИТ БАНК' ]
+Duplicate bank name: [ 'ПРОКРЕДИТ БАНК' ]
+Duplicate bank name: [ 'ПРОМЕКОНОМБАНК' ]
+Duplicate bank name: [ 'ПРОМИСЛОВО-ФІНАНСОВИЙ БАНК' ]
+Duplicate bank name: [ 'РАДАБАНК' ]
+Duplicate bank name: [ 'РАЙФФАЙЗЕН БАНК АВАЛЬ' ]
+Duplicate bank name: [ 'РВС БАНК' ]
+Duplicate bank name: [ 'РЕАЛ БАНК' ]
+Duplicate bank name: [ 'РОДОВІД БАНК' ]
+Duplicate bank name: [ 'РОДОВІД БАНК' ]
+Duplicate bank name: [ 'РОЗРАХУНКОВИЙ ЦЕНТР' ]
+Duplicate bank name: [ 'СІТІБАНК' ]
+Duplicate bank name: [ 'СБЕРБАНК' ]
+Duplicate bank name: [ 'СБЕРБАНК' ]
+Duplicate bank name: [ 'СВЕДБАНК ІНВЕСТ' ]
+Duplicate bank name: [ 'СВЕДБАНК ІНВЕСТ' ]
+Duplicate bank name: [ 'СЕБ КОРПОРАТИВНИЙ БАНК' ]
+Duplicate bank name: [ 'СЕБ КОРПОРАТИВНИЙ БАНК' ]
+Duplicate bank name: [ 'СКАЙ БАНК' ]
+Duplicate bank name: [ 'СЛОБОЖАНЩИНА' ]
+Duplicate bank name: [ 'СМАРТБАНК' ]
+Duplicate bank name: [ 'СМАРТБАНК' ]
+Duplicate bank name: [ 'СОЦКОМ БАНК' ]
+Duplicate bank name: [ 'СТАРОКИЇВСЬКИЙ БАНК' ]
+Duplicate bank name: [ 'СТОЛИЧНИЙ' ]
+Duplicate bank name: [ 'СХІДНО-ЄВРОПЕЙСЬКИЙ БАНК' ]
+Duplicate bank name: [ 'СХІДНО-ЄВРОПЕЙСЬКИЙ БАНК' ]
+Duplicate bank name: [ 'СП БАНК' ]
+Duplicate bank name: [ 'СП БАНК' ]
+Duplicate bank name: [ 'ТАВРИКА' ]
+Duplicate bank name: [ 'ТАСКОМБАНК' ]
+Duplicate bank name: [ 'ТАСКОМБАНК' ]
+Duplicate bank name: [ 'ТАСКОМБАНК' ]
+Duplicate bank name: [ 'ТАСКОМБАНК' ]
+Duplicate bank name: [ 'ТАСКОМБАНК' ]
+Duplicate bank name: [ 'ТЕРНОПІЛЬ-КРЕДИТ' ]
+Duplicate bank name: [ 'ТЕРРА БАНК' ]
+Duplicate bank name: [ 'ТЕРРА БАНК' ]
+Duplicate bank name: [ 'ТЕРРА БАНК' ]
+Duplicate bank name: [ 'ТЕРРА БАНК' ]
+Duplicate bank name: [ 'ТК КРЕДИТ' ]
+Duplicate bank name: [ 'ТК КРЕДИТ' ]
+Duplicate bank name: [ 'ТОРГОВО-ПРОМИСЛОВИЙ БАНК' ]
+Duplicate bank name: [ 'ТОРГОВО-ПРОМИСЛОВИЙ БАНК' ]
+Duplicate bank name: [ 'ТОРГОВО-ПРОМИСЛОВИЙ БАНК' ]
+Duplicate bank name: [ 'ТРАНСБАНК' ]
+Duplicate bank name: [ 'ТРАСТ' ]
+Duplicate bank name: [ 'ТРАСТ' ]
+Duplicate bank name: [ 'УКРАЇНА' ]
+Duplicate bank name: [ 'УКРАЇНА' ]
+Duplicate bank name: [ 'УКРІНБАНК' ]
+Duplicate bank name: [ 'УКРАЇНСЬКИЙ АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК РОЗВИТКУ НАФТОГАЗОВОГО КОМПЛЕКСУ' ]
+Duplicate bank name: [ 'УКРАЇНСЬКИЙ АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК РОЗВИТКУ НАФТОГАЗОВОГО КОМПЛЕКСУ' ]
+Duplicate bank name: [ 'УКРБІЗНЕСБАНК' ]
+Duplicate bank name: [ 'УКРБІЗНЕСБАНК' ]
+Duplicate bank name: [ 'УКРБІЗНЕСБАНК' ]
+Duplicate bank name: [ 'УКРБІЗНЕСБАНК' ]
+Duplicate bank name: [ 'УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ' ]
+Duplicate bank name: [ 'УКРБУДІНВЕСТБАНК' ]
+Duplicate bank name: [ 'УКРБУДІНВЕСТБАНК' ]
+Duplicate bank name: [ 'УКРАЇНСЬКИЙ КАПІТАЛ' ]
+Duplicate bank name: [ 'УКРАЇНСЬКИЙ КАПІТАЛ' ]
+Duplicate bank name: [ 'УКРАЇНСЬКИЙ КАПІТАЛ' ]
+Duplicate bank name: [ 'УКРКОМУНБАНК' ]
+Duplicate bank name: [ 'УКРКОМУНБАНК' ]
+Duplicate bank name: [ 'УКРАЇНСЬКИЙ ПРОМИСЛОВИЙ БАНК' ]
+Duplicate bank name: [ 'УКРАЇНСЬКИЙ ПРОМИСЛОВИЙ БАНК' ]
+Duplicate bank name: [ 'УКРАЇНСЬКИЙ ПРОМИСЛОВИЙ БАНК' ]
+Duplicate bank name: [ 'УПБ' ]
+Duplicate bank name: [ 'УПБ' ]
+Duplicate bank name: [ 'УПБ' ]
+Duplicate bank name: [ 'УПБ' ]
+Duplicate bank name: [ 'УФС' ]
+Duplicate bank name: [ 'УКРГАЗБАНК' ]
+Duplicate bank name: [ 'УКРГАЗБАНК' ]
+Duplicate bank name: [ 'УКРГАЗПРОМБАНК' ]
+Duplicate bank name: [ 'УКРСИББАНК' ]
+Duplicate bank name: [ 'УКРСОЦБАНК' ]
+Duplicate bank name: [ 'УКРСПЕЦІМПЕКСБАНК' ]
+Duplicate bank name: [ 'УКРСПЕЦІМПЕКСБАНК' ]
+Duplicate bank name: [ 'УКРУНІВЕРСАЛБАНК' ]
+Duplicate bank name: [ 'УНІВЕРСАЛ БАНК' ]
+Duplicate bank name: [ 'УНІВЕРСАЛ БАНК' ]
+Duplicate bank name: [ 'УНІВЕРСАЛ БАНК' ]
+Duplicate bank name: [ 'УНІВЕРСАЛ БАНК' ]
+Duplicate bank name: [ 'УНІКОМБАНК' ]
+Duplicate bank name: [ 'УНІКОМБАНК' ]
+Duplicate bank name: [ 'УНІКОМБАНК' ]
+Duplicate bank name: [ 'УНІКРЕДИТ БАНК' ]
+Duplicate bank name: [ 'УНІКРЕДИТ БАНК' ]
+Duplicate bank name: [ 'УНІКРЕДИТ БАНК' ]
+Duplicate bank name: [ 'УНІКРЕДИТ БАНК' ]
+Duplicate bank name: [ 'ФІДОБАНК' ]
+Duplicate bank name: [ 'ФІДОБАНК' ]
+Duplicate bank name: [ 'ФІДОБАНК' ]
+Duplicate bank name: [ 'ФІДОКОМБАНК' ]
+Duplicate bank name: [ 'ФІДОКОМБАНК' ]
+Duplicate bank name: [ 'ФІДОКОМБАНК' ]
+Duplicate bank name: [ 'ФІНАНС БАНК' ]
+Duplicate bank name: [ 'ФІНАНС БАНК' ]
+Duplicate bank name: [ 'ФІНАНС БАНК' ]
+Duplicate bank name: [ 'ФІНАНС БАНК' ]
+Duplicate bank name: [ 'ФІНАНСИ ТА КРЕДИТ' ]
+Duplicate bank name: [ 'ФІНАНСИ ТА КРЕДИТ' ]
+Duplicate bank name: [ 'ФІНАНСИ ТА КРЕДИТ' ]
+Duplicate bank name: [ 'ФІНЕКСБАНК' ]
+Duplicate bank name: [ 'ФІНЕКСБАНК' ]
+Duplicate bank name: [ 'ФІНЕКСБАНК' ]
+Duplicate bank name: [ 'ФІНРОСТБАНК' ]
+Duplicate bank name: [ 'ФАКТОРІАЛ-БАНК' ]
+Duplicate bank name: [ 'ФАКТОРІАЛ-БАНК' ]
+Duplicate bank name: [ 'ФОРТУНА-БАНК' ]
+Duplicate bank name: [ 'ХРЕЩАТИК' ]
+Duplicate bank name: [ 'ХРЕЩАТИК' ]
+Duplicate bank name: [ 'ХФБ БАНК УКРАЇНА' ]
+Duplicate bank name: [ 'ХФБ БАНК УКРАЇНА' ]
+Duplicate bank name: [ 'ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ' ]
+Duplicate bank name: [ 'ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ' ]
+Duplicate bank name: [ 'ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ' ]
+Duplicate bank name: [ 'ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ' ]
+Duplicate bank name: [ 'ШАХТЕКОНОМБАНК' ]
+Duplicate bank name: [ 'ЮСБ БАНК' ]
+Duplicate bank name: [ 'ЮСБ БАНК' ]
+Duplicate bank name: [ 'ЮСБ БАНК' ]
+Duplicate bank name: [ 'ЮСБ БАНК' ]
+Duplicate bank name: [ 'ЮСБ БАНК' ]
+Duplicate bank name: [ 'ЮНІСОН' ]
+Duplicate bank name: [ 'ЮНЕКС БАНК' ]
+Duplicate bank name: [ 'ЮНЕКС БАНК' ]
+Duplicate bank name: [ 'АП БАНК' ]
+Duplicate bank name: [ 'ФІНАНСОВА ІНІЦІАТИВА' ]
+DBF: 169
+API: 169
+NBU UI: 172
+NBU PDF: 267
+Fund: 203
+Minfin: 189
+Intersection: 164
+Union: 271
+Active mismatch - АП БАНК - {"dbf":true,"api":true,"nbu":false,"pdf":true,"fund":false}: [ true, true, false, true, false ]
+Active mismatch - ВЕРНУМ БАНК - {"dbf":true,"api":false,"nbu":true,"pdf":true,"fund":true}: [ true, false, true, true, true ]
+Active mismatch - ФІНАНСОВА ІНІЦІАТИВА - {"dbf":true,"api":false,"nbu":false,"pdf":true,"fund":true}: [ true, false, false, true, true ]
+Total time: 65875
