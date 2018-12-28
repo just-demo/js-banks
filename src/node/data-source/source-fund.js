@@ -1,11 +1,11 @@
-let _ = require('lodash');
-let names = require('../names');
-let ext = require('../external');
-let int = require('../internal');
-let dates = require('../dates');
-let assert = require('../assert');
-let regex = require('../regex');
-const AsyncMapperPool = require('../async-mapper-pool');
+const _ = require('lodash');
+const names = require('../names');
+const ext = require('../external');
+const int = require('../internal');
+const dates = require('../dates');
+const assert = require('../assert');
+const regex = require('../regex');
+const mapAsync = require('../map-async');
 
 module.exports = {
     getBanks() {
@@ -59,7 +59,7 @@ module.exports = {
                 link: 1, id: 2, name: 3
             });
 
-            return new AsyncMapperPool(banks, bank =>
+            return mapAsync(banks, bank =>
                 ext.read('fund/banks/' + bank.id, 'http://www.fg.gov.ua' + bank.link)
                     .then(htmlBank => {
                         const issueDates = regex.findManyValues(htmlBank, /<td[^>]*>Термін [^<]*<\/td>\s*<td[^>]*>[^<]*?(\d{2}\.\d{2}\.\d{4})[^<]*<\/td>/g)
@@ -71,7 +71,7 @@ module.exports = {
                             active: false
                         };
                     })
-            ).start();
+            );
         });
     },
 

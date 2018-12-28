@@ -1,4 +1,4 @@
-let utils = require('./utils');
+const utils = require('./utils');
 
 // TODO: make async
 module.exports = {

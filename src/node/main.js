@@ -10,29 +10,38 @@ let names = require('./names');
 let assert = require('./assert');
 let dbf = require('./dbf');
 let int = require('./internal');
-const AsyncMapperPool = require('./async-mapper-pool');
+const mapAsync = require('./map-async');
 const urls = require('./urls');
 const files = require('./files');
 
 // let t = require('../src/test');
 // console.log(t.hello());
 
+// mapAsync(['a', 'b', 'c', 'd', 'e'], file => {
+//     return new Promise(resolve => {
+//         setTimeout(() => {
+//             console.log(file);
+//             resolve(file + '_done');
+//         }, 1000);
+//     });
+// }, 2).then(result => console.log(result));
+
 const startTime = new Date();
 
 // TODO: switch from sync request to async and same for file system operations
-// Promise.all([
-//     nbuAPI.saveBanks(),
-//     nbuDBF.saveBanks(),
-//     nbuPDF.saveBanks(),
-//     nbuUI.saveBanks(),
-//     fund.saveBanks(),
-//     minfin.saveBanks(),
-//     minfin.saveRatings()
-// ]).then(() => {
-//     names.rebuildBankNames();
-//     combineBanks();
-//     console.log('Total time:', new Date() - startTime);
-// });
+Promise.all([
+    nbuAPI.saveBanks(),
+    nbuDBF.saveBanks(),
+    nbuPDF.saveBanks(),
+    nbuUI.saveBanks(),
+    fund.saveBanks(),
+    minfin.saveBanks(),
+    minfin.saveRatings()
+]).then(() => {
+    names.rebuildBankNames();
+    combineBanks();
+    console.log('Total time:', new Date() - startTime);
+});
 // names.rebuildBankNames();
 
 // Promise.all([
@@ -50,19 +59,18 @@ const startTime = new Date();
 
 // utils.asyncReadURL('https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251').then(data => console.log(data));
 // urls.read('https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251').then(data =>
-//     files.write('../..//tmp/1.txt', data));
+//     files.write('../../tmp/1.txt', data));
 // urls.download('https://bank.gov.ua/files/Licences_bank/320779.pdf').then(data =>
-//     files.writeRaw('../..//tmp/1.pdf', data));
-
-
-
-files.exists('../..//tmp/1.txt').then(res => console.log(res));
-files.exists('../..//tmp/2.txt').then(res => console.log(res));
-
-files.read('../..//tmp/1.txt').then(data =>
-    files.write('../..//tmp/2.txt', data));
-files.readRaw('../..//tmp/1.pdf').then(data =>
-    files.writeRaw('../..//tmp/2.pdf', data));
+//     files.writeRaw('../../tmp/1.pdf', data));
+//
+//
+// files.exists('../../tmp/1.txt').then(res => console.log(res));
+// files.exists('../../tmp/2.txt').then(res => console.log(res));
+//
+// files.read('../../tmp/1.txt').then(data =>
+//     files.write('../../tmp/2.txt', data));
+// files.readRaw('../../tmp/1.pdf').then(data =>
+//     files.writeRaw('../../tmp/2.pdf', data));
 
 
 // combineBanks();
@@ -152,8 +160,9 @@ function combineBanks() {
         return bank;
     });
 
-    utils.writeFile('../../public/banks.json', utils.toJson(banks));
-    utils.writeFile('../../public/minfin-ratings.json', utils.readFile('../../data/json/minfin/ratings.json'));
+    files.write('../../public/banks.json', utils.toJson(banks));
+    files.read('../../data/json/minfin/ratings.json')
+        .then(ratings => files.write('../../public/minfin-ratings.json', ratings));
 }
 
 function definedValues(object) {

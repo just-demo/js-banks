@@ -1,7 +1,7 @@
-let fs = require('fs');
-let mkdirp = require('mkdirp');
-let path = require('path');
-let iconv = require('iconv-lite');
+const fs = require('fs');
+const mkdirp = require('mkdirp');
+const path = require('path');
+const iconv = require('iconv-lite');
 
 // TODO: log errors
 module.exports = {
@@ -28,7 +28,7 @@ module.exports = {
     },
 
     readRaw(file) {
-        return this.read(file, null)
+        return this.read(file, null);
     },
 
     exists(file) {

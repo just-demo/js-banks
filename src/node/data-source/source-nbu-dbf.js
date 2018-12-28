@@ -20,39 +20,41 @@ module.exports = {
     },
 
     saveBanks() {
-        ext.download('nbu/rcukru.arj', 'https://bank.gov.ua/files/RcuKru.arj').then(arjContent => {
-            const dbfContent = arj.unpack(arjContent);
-            const records = dbf.parse(dbfContent);
-            const header = records[0];
-            const banks = records.slice(1).map(record => {
-                const map = {};
-                header.forEach((field, index) => map[field] = record[index]);
-                return map;
-            }).filter(record => {
-                const isMainNum = record['GLB'] === record['PRKB'];
-                const isMainName = !!record['NLF'];
-                assert.equals('Different main indicator - ' + record['FULLNAME'], isMainNum, isMainName);
-                return isMainNum;
-            }).filter(record => {
-                const isBankType = !!record['VID'];
-                const isBankReg = !!record['DATAR'];
-                const isBankGroup = !!record['GR1'];
-                // TODO: Приватне акцўонерне товариство "Укра∙нська фўнансова група"?
-                assert.equals('Different main indicator - ' + record['FULLNAME'], isBankType, isBankReg, isBankGroup);
-                return isBankType;
-            }).map(record => {
-                assert.equals('Different date - ' + record['FULLNAME'], record['DATAR'], record['D_OPEN']);
-                return {
-                    id: record['SID'],
-                    name: names.extractBankPureName(record['SHORTNAME']),
-                    fullName: names.extractBankPureName(record['FULLNAME']),
-                    dateRegister: dates.formatTimestamp(record['DATAR']),
-                    dateOpen: dates.formatTimestamp(record['D_OPEN']),
-                    active: record['REESTR'].toUpperCase() !== 'Л'
-                };
+        return ext.download('nbu/rcukru.arj', 'https://bank.gov.ua/files/RcuKru.arj')
+            .then(arjContent => arj.unpack(arjContent))
+            .then(dbfContent => dbf.parse(dbfContent))
+            .then(records => {
+                const header = records[0];
+                const banks = records.slice(1).map(record => {
+                    const map = {};
+                    header.forEach((field, index) => map[field] = record[index]);
+                    return map;
+                }).filter(record => {
+                    const isMainNum = record['GLB'] === record['PRKB'];
+                    const isMainName = !!record['NLF'];
+                    assert.equals('Different main indicator - ' + record['FULLNAME'], isMainNum, isMainName);
+                    return isMainNum;
+                }).filter(record => {
+                    const isBankType = !!record['VID'];
+                    const isBankReg = !!record['DATAR'];
+                    const isBankGroup = !!record['GR1'];
+                    // TODO: Приватне акцўонерне товариство "Укра∙нська фўнансова група"?
+                    assert.equals('Different main indicator - ' + record['FULLNAME'], isBankType, isBankReg, isBankGroup);
+                    return isBankType;
+                }).map(record => {
+                    assert.equals('Different date - ' + record['FULLNAME'], record['DATAR'], record['D_OPEN']);
+                    return {
+                        id: record['SID'],
+                        name: names.extractBankPureName(record['SHORTNAME']),
+                        fullName: names.extractBankPureName(record['FULLNAME']),
+                        dateRegister: dates.formatTimestamp(record['DATAR']),
+                        dateOpen: dates.formatTimestamp(record['D_OPEN']),
+                        active: record['REESTR'].toUpperCase() !== 'Л'
+                    };
+                });
+                banks.sort(names.compareName);
+                int.write('nbu/banks-dbf', banks);
+                return banks;
             });
-            banks.sort(names.compareName);
-            int.write('nbu/banks-dbf', banks);
-        });
     }
 };

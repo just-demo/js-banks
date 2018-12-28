@@ -7,7 +7,7 @@ const assert = require('../assert');
 const regex = require('../regex');
 const PDFParser = require('pdf2json');
 const path = require('path');
-const AsyncMapperPool = require('../async-mapper-pool');
+const mapAsync = require('../map-async');
 
 module.exports = {
     // Банківський нагляд -> Реєстрація та ліцензування -> Банківські ліцензії та види діяльності банків України:
@@ -32,8 +32,8 @@ module.exports = {
     saveBanks() {
         const startTime = new Date();
         // TODO: why does "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК" fall into different buckets?
-        //TODO: is art_id the same? consider fetching the link from UI page
-        ext.read('nbu/not-banks', 'https://bank.gov.ua/control/uk/publish/article?art_id=52047').then(html => {
+        // TODO: is art_id the same? consider fetching the link from UI page
+        return ext.read('nbu/not-banks', 'https://bank.gov.ua/control/uk/publish/article?art_id=52047').then(html => {
             const bankFiles = {};
             regex.findManyObjects(html, /<a\s+href="files\/Licences_bank\/(.+?)".*?>([\s\S]+?)<\/a>/g, {
                 file: 1, name: 2
@@ -42,7 +42,7 @@ module.exports = {
                 bankFiles[bank.file].push(names.normalize(names.removeTags(bank.name)));
             });
             const files = Object.keys(bankFiles);
-            const pool = new AsyncMapperPool(files, file => {
+            return mapAsync(files, file => {
                 const url = 'https://bank.gov.ua/files/Licences_bank/' + file;
                 const textFile = 'nbu/not-banks/text/' + path.parse(file).name + '.txt';
                 // TODO: to optimize performance consider parsing first page only
@@ -60,9 +60,7 @@ module.exports = {
                             link: url
                         };
                     });
-            });
-
-            return pool.start().then(banks => {
+            }).then(banks => {
                 banks.sort(names.compareNames);
                 int.write('nbu/banks-pdf', banks);
                 console.log(banks.length);
