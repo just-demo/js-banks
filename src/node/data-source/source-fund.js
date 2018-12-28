@@ -37,8 +37,7 @@ module.exports = {
     },
 
     readActiveBanks() {
-        return new Promise(resolve => {
-            const html = ext.read('fund/banks-active', 'http://www.fg.gov.ua/uchasnyky-fondu');
+        return ext.read('fund/banks-active', 'http://www.fg.gov.ua/uchasnyky-fondu').then(html => {
             const banks = regex.findManyObjects(html, /<tr.*?>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>([\S\s]*?)<\/td>\s+?<\/tr>/g, {
                 name: 2, date: 4, site: 7
             }).map(bank => {
@@ -50,28 +49,29 @@ module.exports = {
                 };
             });
             banks.forEach(bank => assert.false('Many sites', bank.site.length > 1, bank.name, bank.site));
-            resolve(banks);
+            return banks;
         });
     },
 
     readInactiveBanks() {
-        return new Promise(resolve => {
-            const html = ext.read('fund/banks-not-paying', 'http://www.fg.gov.ua/not-paying');
+        return ext.read('fund/banks-not-paying', 'http://www.fg.gov.ua/not-paying').then(html => {
             const banks = regex.findManyObjects(html, /<h3 class="item-title"><a href="(\/.+?\/.+?\/(\d+?)-.+?)">[\S\s]+?(.+?)<\/a>/g, {
                 link: 1, id: 2, name: 3
             });
 
-            const pool = new AsyncMapperPool(banks, bank => {
-                const htmlBank = ext.read('fund/banks/' + bank.id, 'http://www.fg.gov.ua' + bank.link);
-                const dateIssue = _.min(regex.findManyValues(htmlBank, /<td[^>]*>Термін [^<]*<\/td>\s*<td[^>]*>[^<]*?(\d{2}\.\d{2}\.\d{4})[^<]*<\/td>/g).map(date => dates.format(date)));
-                return {
-                    name: names.extractBankPureName(bank.name),
-                    issue: dateIssue,
-                    link: bank.link,
-                    active: false
-                };
-            });
-            pool.start().then(banks => resolve(banks));
+            return new AsyncMapperPool(banks, bank =>
+                ext.read('fund/banks/' + bank.id, 'http://www.fg.gov.ua' + bank.link)
+                    .then(htmlBank => {
+                        const issueDates = regex.findManyValues(htmlBank, /<td[^>]*>Термін [^<]*<\/td>\s*<td[^>]*>[^<]*?(\d{2}\.\d{2}\.\d{4})[^<]*<\/td>/g)
+                            .map(date => dates.format(date));
+                        return {
+                            name: names.extractBankPureName(bank.name),
+                            issue: _.min(issueDates),
+                            link: bank.link,
+                            active: false
+                        };
+                    })
+            ).start();
         });
     },
 

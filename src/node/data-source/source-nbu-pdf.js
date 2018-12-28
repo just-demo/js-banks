@@ -1,4 +1,3 @@
-const utils = require('../utils');
 const _ = require('lodash');
 const names = require('../names');
 const ext = require('../external');
@@ -31,74 +30,72 @@ module.exports = {
     },
 
     saveBanks() {
-        // TODO: wrap everything into a promise
         const startTime = new Date();
-
         // TODO: why does "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК" fall into different buckets?
-        const html = ext.read('nbu/not-banks', 'https://bank.gov.ua/control/uk/publish/article?art_id=52047'); //TODO: is id the same? consider fetching the link from UI page
-        const bankFiles = {};
-        regex.findManyObjects(html, /<a\s+href="files\/Licences_bank\/(.+?)".*?>([\s\S]+?)<\/a>/g, {
-            file: 1, name: 2
-        }).forEach(bank => {
-            bankFiles[bank.file] = bankFiles[bank.file] || [];
-            bankFiles[bank.file].push(names.normalize(names.removeTags(bank.name)));
-        });
-
-        const files = Object.keys(bankFiles);
-        const pool = new AsyncMapperPool(files, file => new Promise(resolve => {
-            const url = 'https://bank.gov.ua/files/Licences_bank/' + file;
-            const textFile = 'nbu/not-banks/text/' + path.parse(file).name + '.txt';
-
-            // TODO: remove this temporary optimization and inline process function when there only one usage left
-            const text = ext.calc(textFile, () => null);
-            if (text) {
-                process(text);
-                return;
-            }
-
-            const pdf = ext.download('nbu/not-banks/pdf/' + file, url);
-            // TODO: if performance is too bad consider finding a way to read the first page only
-            const pdfParser = new PDFParser();
-            pdfParser.on("pdfParser_dataError", data => {
-                console.error(data.parserError);
-                resolve(null);
+        //TODO: is art_id the same? consider fetching the link from UI page
+        ext.read('nbu/not-banks', 'https://bank.gov.ua/control/uk/publish/article?art_id=52047').then(html => {
+            const bankFiles = {};
+            regex.findManyObjects(html, /<a\s+href="files\/Licences_bank\/(.+?)".*?>([\s\S]+?)<\/a>/g, {
+                file: 1, name: 2
+            }).forEach(bank => {
+                bankFiles[bank.file] = bankFiles[bank.file] || [];
+                bankFiles[bank.file].push(names.normalize(names.removeTags(bank.name)));
             });
-            pdfParser.on("pdfParser_dataReady", data => {
-                // Process immediately to save memory
-                const text = ext.calc(textFile, () => this.extractText(data));
-                process(text);
+            const files = Object.keys(bankFiles);
+            const pool = new AsyncMapperPool(files, file => {
+                const url = 'https://bank.gov.ua/files/Licences_bank/' + file;
+                const textFile = 'nbu/not-banks/text/' + path.parse(file).name + '.txt';
+                // TODO: to optimize performance consider parsing first page only
+                // TODO: remove this temporary optimization and inline process function when there only one usage left
+                return ext.calc(textFile, () => null)
+                    .then(text => text || ext.download('nbu/not-banks/pdf/' + file, url).then(pdf => ext.calc(textFile, () => parsePdf(pdf))))
+                    .then(text => {
+                        const bank = regex.findObject(text, /^(.+?)Назва банку(.*?Дата відкликання(\d{2}\.\d{2}\.\d{4}))?/g, {
+                            name: 1, dateIssue: 3
+                        });
+                        const bankNames = [names.extractBankPureName(bank.name), ...bankFiles[file]].map(names.normalize);
+                        return {
+                            name: _.uniq(bankNames),
+                            dateIssue: dates.format(bank.dateIssue),
+                            link: url
+                        };
+                    });
             });
-            pdfParser.parseBuffer(pdf);
-            function process(text) {
-                const bank = regex.findObject(text,/^(.+?)Назва банку(.*?Дата відкликання(\d{2}\.\d{2}\.\d{4}))?/g, {
-                    name: 1, dateIssue: 3
-                });
-                const bankNames = [names.extractBankPureName(bank.name), ...bankFiles[file]].map(names.normalize);
-                resolve({
-                    name: _.uniq(bankNames),
-                    dateIssue: dates.format(bank.dateIssue),
-                    link: url
-                });
-            }
-        }));
-        return pool.start().then(banks => {
-            banks.sort(names.compareNames);
-            int.write('nbu/banks-pdf', banks);
-            console.log(banks.length);
-            console.log('PDF Time:', new Date() - startTime);
-            return banks;
-        });
-    },
 
-    extractText(object) {
-        const text = [];
-        _.forOwn(object, (value, key) => {
-            if (key === 'T') {
-                text.push(decodeURIComponent(value));
-            } else if (_.isObject(value)) {
-                text.push(...this.extractText(value));
-            }
+            return pool.start().then(banks => {
+                banks.sort(names.compareNames);
+                int.write('nbu/banks-pdf', banks);
+                console.log(banks.length);
+                console.log('PDF Time:', new Date() - startTime);
+                return banks;
+            });
         });
-        return text.join('');
     }
 };
+
+function parsePdf(pdf) {
+    return new Promise(resolve => {
+        const pdfParser = new PDFParser();
+        pdfParser.on("pdfParser_dataError", data => {
+            console.error(data.parserError);
+            resolve(null);
+        });
+        pdfParser.on("pdfParser_dataReady", data => {
+            // Process immediately to save memory
+            resolve(extractText(data));
+        });
+        pdfParser.parseBuffer(pdf);
+    });
+}
+
+function extractText(object) {
+    const text = [];
+    _.forOwn(object, (value, key) => {
+        if (key === 'T') {
+            text.push(decodeURIComponent(value));
+        } else if (_.isObject(value)) {
+            text.push(...extractText(value));
+        }
+    });
+    return text.join('');
+}

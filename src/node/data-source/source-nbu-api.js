@@ -20,8 +20,7 @@ module.exports = {
     },
 
     saveBanks() {
-        return new Promise(resolve => {
-            const xml = ext.read('nbu/banks-api', 'https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251');
+        return ext.read('nbu/banks-api', 'https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251').then(xml => {
             const json = convert.xml2js(xml, {compact: true});
             const banks = json['BANKBRANCH']['ROW']
                 .map(row => _.forOwn(row, (value, key) => row[key] = value['_text'] || value['_cdata']))
@@ -37,7 +36,7 @@ module.exports = {
                 });
             banks.sort(names.compareName);
             int.write('nbu/banks-api', banks);
-            resolve(banks);
+            return banks;
         });
     }
 };

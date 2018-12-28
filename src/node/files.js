@@ -3,12 +3,13 @@ let mkdirp = require('mkdirp');
 let path = require('path');
 let iconv = require('iconv-lite');
 
+// TODO: log errors
 module.exports = {
     write(file, data, encoding) {
         return new Promise(resolve =>
             mkdirp(path.dirname(file), () =>
                 fs.writeFile(file, data, encoding, () =>
-                    resolve()
+                    resolve(data)
                 )
             )
         );

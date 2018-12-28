@@ -1,5 +1,6 @@
 let utils = require('./utils');
 
+// TODO: make async
 module.exports = {
     read(file) {
         return utils.fromJson(utils.readFile(this.path(file)))

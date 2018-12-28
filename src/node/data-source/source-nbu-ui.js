@@ -33,6 +33,7 @@ module.exports = {
     },
 
     readActiveBanks() {
+        // TODO: start here: make remaining ext.read async!
         return new Promise(resolve => {
             const htmls = [];
             const html = ext.read('nbu/banks/pages/' + htmls.length, 'https://bank.gov.ua/control/bankdict/banks');

@@ -20,8 +20,7 @@ module.exports = {
     },
 
     saveBanks() {
-        return new Promise(resolve => {
-            const arjContent = ext.download('nbu/rcukru.arj', 'https://bank.gov.ua/files/RcuKru.arj');
+        ext.download('nbu/rcukru.arj', 'https://bank.gov.ua/files/RcuKru.arj').then(arjContent => {
             const dbfContent = arj.unpack(arjContent);
             const records = dbf.parse(dbfContent);
             const header = records[0];
@@ -54,7 +53,6 @@ module.exports = {
             });
             banks.sort(names.compareName);
             int.write('nbu/banks-dbf', banks);
-            resolve(banks);
         });
     }
 };
