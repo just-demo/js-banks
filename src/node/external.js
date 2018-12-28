@@ -2,6 +2,7 @@ const files = require('./files');
 const urls = require('./urls');
 
 // TODO: rename the module to cacheable
+// TODO: make it an interface and pass no-cache instance in browser mode
 module.exports = {
     read(file, url, encoding) {
         file = '../../data/html/' + file + '.html';
