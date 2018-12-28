@@ -1,17 +1,19 @@
-let nbuAPI = require('./data-source/source-nbu-api');
-let nbuDBF = require('./data-source/source-nbu-dbf');
-let nbuPDF = require('./data-source/source-nbu-pdf');
-let nbuUI = require('./data-source/source-nbu-ui');
-let fund = require('./data-source/source-fund');
-let minfin = require('./data-source/source-minfin');
-let _ = require('lodash');
-let names = require('./names');
-let assert = require('./assert');
-let dbf = require('./dbf');
-let int = require('./internal');
+const nbuAPI = require('./data-source/source-nbu-api');
+const nbuDBF = require('./data-source/source-nbu-dbf');
+const nbuPDF = require('./data-source/source-nbu-pdf');
+const nbuUI = require('./data-source/source-nbu-ui');
+const fund = require('./data-source/source-fund');
+const minfin = require('./data-source/source-minfin');
+const _ = require('lodash');
+const names = require('./names');
+const assert = require('./assert');
+const dbf = require('./dbf');
+const int = require('./internal');
 const mapAsync = require('./map-async');
 const urls = require('./urls');
 const files = require('./files');
+const Source = require('./data-source/source');
+const SourceExample = require('./data-source/source-example');
 
 // let t = require('../src/test');
 // console.log(t.hello());
@@ -25,22 +27,30 @@ const files = require('./files');
 //     });
 // }, 2).then(result => console.log(result));
 
-const startTime = new Date();
+// class Source {
+//     getBanks() {
+//         return 'test!';
+//     }
+// }
 
-// TODO: switch from sync request to async and same for file system operations
-Promise.all([
-    nbuAPI.saveBanks(),
-    nbuDBF.saveBanks(),
-    nbuPDF.saveBanks(),
-    nbuUI.saveBanks(),
-    fund.saveBanks(),
-    minfin.saveBanks(),
-    minfin.saveRatings()
-]).then(() => {
-    names.rebuildBankNames();
-    combineBanks();
-    console.log('Total time:', new Date() - startTime);
-});
+new Source().getBanks().then(console.log);
+new SourceExample().getBanks().then(console.log);
+
+// const startTime = new Date();
+//
+// Promise.all([
+//     nbuAPI.saveBanks(),
+//     nbuDBF.saveBanks(),
+//     nbuPDF.saveBanks(),
+//     nbuUI.saveBanks(),
+//     fund.saveBanks(),
+//     minfin.saveBanks(),
+//     minfin.saveRatings()
+// ]).then(() => {
+//     names.rebuildBankNames();
+//     combineBanks();
+//     console.log('Total time:', new Date() - startTime);
+// });
 // names.rebuildBankNames();
 
 // Promise.all([
