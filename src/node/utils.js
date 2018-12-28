@@ -33,11 +33,12 @@ module.exports = {
             encoding: 'binary',
             // transform: body => encoding ? iconv.decode(body, encoding) : body
             // TODO: test timing and simplify if encoding is default
+            // TODO: try https://github.com/ashtuchkin/iconv-lite
         }).then(response => iconv.decode(response.body, encoding || 'utf8'));
     },
 
     downloadURL(url) {
-        // TODO: reuse readURL?
+        // TODO: reuse readURL? try new Buffer(binaryString, 'binary') if performance is acceptable or, even better encoding: null, which shuld produce Buffer according to official documentation
         return request('GET', url, {headers: {'User-Agent': 'javascript'}}).getBody();
     },
 

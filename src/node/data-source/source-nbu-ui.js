@@ -102,14 +102,5 @@ module.exports = {
         const decoded = name.replace(/&#034;/g, '"');
         assert.notEquals('No xml encoded quotes', decoded, name);
         return names.extractBankPureName(decoded)
-    },
-
-    // TODO: fetch based on ids from DBF file
-    fetchAndSaveBanksById(id) {
-        const html = utils.readURL('https://bank.gov.ua/control/uk/bankdict/bank?id=' + id);
-        const type = regex.findSingleValue(html, /<td.*?>Тип<\/td>\s*?<td.*?>(.+?)<\/td>/);
-        if (type === 'Банк') {
-            // TODO: cache and parse html same as in this.saveBanks
-        }
     }
 };
