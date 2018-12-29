@@ -1,7 +1,8 @@
-let int = require('./internal');
-let assert = require('./assert');
-let _ = require('lodash');
-let regex = require('./regex');
+const _ = require('lodash');
+const int = require('./internal');
+const assert = require('./assert');
+const regex = require('./regex');
+const arrays = require('./arrays');
 
 module.exports = {
     bankNames: null,
@@ -27,12 +28,12 @@ module.exports = {
         // TODO: add more sources!!!
         const dbfNames = int.read('nbu/banks-dbf').map(bank => buildVariants(bank.names));
         const pdfNames = int.read('nbu/banks-pdf').map(bank => buildVariants(bank.names));
-        dbfNames.sort(compareArrays);
-        pdfNames.sort(compareArrays);
+        dbfNames.sort(arrays.compare);
+        pdfNames.sort(arrays.compare);
         int.write('names/banks-dbf', dbfNames);
         int.write('names/banks-pdf', pdfNames);
         const manualNames = int.read('names/banks-manual');
-        int.write('names/banks', combineIntersected(
+        int.write('names/banks', arrays.combineIntersected(
             dbfNames,
             pdfNames,
             manualNames
@@ -63,25 +64,9 @@ module.exports = {
     // TODO: move to a better place?
     // Just for predictable sorting taking into account asynchrony being introduced
     compareNames(a, b) {
-        return compareArrays(a.names, b.names);
+        return arrays.compare(a.names, b.names);
     }
 };
-
-// TODO: move to arrays
-function compareArrays(a, b) {
-    const len = Math.min(a.length, b.length);
-    for (let i = 0; i < len; i++) {
-        const diff = compare(a[i], b[i]);
-        if (diff) {
-            return diff;
-        }
-    }
-    return compare(a.length, b.length);
-}
-
-function compare(a, b) {
-    return a > b ? 1 : a < b ? -1 : 0;
-}
 
 function buildVariants(names) {
     const variants = [];
@@ -93,25 +78,6 @@ function buildVariants(names) {
         [name1, name2, name3, name4].forEach(name => variants.push(name));
     });
     return _.uniq(variants);
-}
-
-// TODO: move to arrays
-function combineIntersected(...arrays) {
-    const combined = [];
-    arrays.forEach(array => array.forEach(values => {
-        const existing = combined.find(v => intersected(v, values));
-        if (existing) {
-            existing.push(...values);
-        } else {
-            combined.push([...values]);
-        }
-    }));
-    return combined.map(array => _.uniq(array));
-}
-
-function intersected(array1, array2) {
-    // TODO: optimize
-    return !!_.intersection(array1, array2).length;
 }
 
 function toLookupMap(values) {
