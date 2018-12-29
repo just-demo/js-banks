@@ -55,8 +55,7 @@ module.exports = {
                     };
                 });
                 banks.sort(names.compareNames);
-                int.write('nbu/banks-dbf', banks);
-                return banks;
+                return int.write('nbu/banks-dbf', banks);
             });
     }
 };

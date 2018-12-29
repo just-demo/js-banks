@@ -15,16 +15,9 @@ module.exports = {
     getBanks() {
         const banks = {};
         int.read('nbu/banks-pdf').forEach(bank => {
-            bank.names.forEach(name => {
-                name = names.bankName(name);
-                assert.false('Duplicate bank name', banks[name], name);
-                banks[name] = {
-                    name: name,
-                    problem: bank.problem,
-                    link: bank.link,
-                    active: !bank.problem
-                };
-            })
+            bank.name = names.bankName(bank.names[0]);
+            assert.false('Duplicate bank name', banks[bank.name], bank.name);
+            banks[bank.name] = bank;
         });
         return banks;
     },
@@ -56,16 +49,15 @@ module.exports = {
                         const bankNames = [names.extractBankPureName(bank.name), ...bankFiles[file]].map(names.normalize);
                         return {
                             names: _.uniq(bankNames),
-                            problem: dates.format(bank.problem),
-                            link: url
+                            problem: dates.format(bank.problem) || undefined,
+                            link: url,
+                            active: !bank.problem
                         };
                     });
             }).then(banks => {
                 banks.sort(names.compareNames);
-                int.write('nbu/banks-pdf', banks);
-                console.log(banks.length);
-                console.log('PDF Time:', new Date() - startTime);
-                return banks;
+                console.log('PDF time:', new Date() - startTime);
+                return int.write('nbu/banks-pdf', banks);
             });
         });
     }

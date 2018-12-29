@@ -30,14 +30,13 @@ module.exports = {
                         // TODO: is there full name? if so - add it as well
                         names: [names.extractBankPureName(record['SHORTNAME'])],
                         start: dates.format(record['D_OPEN']),
-                        problem: dates.format(record['D_STAN']),
+                        problem: dates.format(record['D_STAN']) || undefined,
                         // 'Нормальний', 'Режим ліквідації', 'Реорганізація', 'Неплатоспроможний'
                         active: ['Нормальний'.toUpperCase(), 'Реорганізація'.toUpperCase()].includes(record['N_STAN'].toUpperCase())
                     };
                 });
             banks.sort(names.compareNames);
-            int.write('nbu/banks-api', banks);
-            return banks;
+            return int.write('nbu/banks-api', banks);
         });
     }
 };

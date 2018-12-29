@@ -47,8 +47,7 @@ Promise.all([
     minfin.saveBanks(),
     minfin.saveRatings()
 ]).then(() => {
-    names.rebuildBankNames();
-    combineBanks();
+    names.rebuildBankNames().then(() => combineBanks());
     console.log('Total time:', new Date() - startTime);
 });
 // names.rebuildBankNames();
@@ -139,10 +138,9 @@ function combineBanks() {
                 nbu: (nbuBanks[id] || {}).start
             },
             dateIssue: {
-                // TODO: fix undefined before this
-                api: (apiBanks[id] || {}).problem || undefined,
+                api: (apiBanks[id] || {}).problem,
                 nbu: (nbuBanks[id] || {}).problem,
-                pdf: (pdfBanks[id] || {}).problem || undefined,
+                pdf: (pdfBanks[id] || {}).problem,
                 fund: (fundBanks[id] || {}).problem,
             },
             site: {

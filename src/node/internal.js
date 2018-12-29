@@ -1,18 +1,15 @@
 const fs = require('fs');
-const mkdirp = require('mkdirp');
-const path = require('path');
+const files = require('./files');
 
-// TODO: make async
 module.exports = {
     read(file) {
-        file = fullPath(file);
-        return JSON.parse(fs.readFileSync(file, 'utf8'));
+        // TODO: make async
+        return JSON.parse(fs.readFileSync(fullPath(file), 'utf8'));
+        //return files.read(fullPath(file)).then(json => JSON.parse(json));
     },
 
     write(file, obj) {
-        file = fullPath(file);
-        mkdirp.sync(path.dirname(file));
-        fs.writeFileSync(file, JSON.stringify(obj, null, 2), 'utf8');
+        return files.write(fullPath(file), JSON.stringify(obj, null, 2)).then(() => obj)
     }
 };
 

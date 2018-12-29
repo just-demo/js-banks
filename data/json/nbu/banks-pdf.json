@@ -4,7 +4,8 @@
       "ЄВРОБАНК"
     ],
     "problem": "2016-08-16",
-    "link": "https://bank.gov.ua/files/Licences_bank/380355.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380355.pdf",
+    "active": false
   },
   {
     "names": [
@@ -13,14 +14,16 @@
       "ХІАЛАБАНК"
     ],
     "problem": "2000-04-24",
-    "link": "https://bank.gov.ua/files/Licences_bank/353166.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/353166.pdf",
+    "active": false
   },
   {
     "names": [
       "ЄВРОПЕЙСЬКИЙ"
     ],
     "problem": "2009-08-19",
-    "link": "https://bank.gov.ua/files/Licences_bank/380184.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380184.pdf",
+    "active": false
   },
   {
     "names": [
@@ -30,7 +33,8 @@
       "УКРАЇН КРЕДИТНО ТРАНСПОРТНИЙ БАНК"
     ],
     "problem": "2006-06-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/320779.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/320779.pdf",
+    "active": false
   },
   {
     "names": [
@@ -40,7 +44,8 @@
       "СІНК"
     ],
     "problem": "2008-02-25",
-    "link": "https://bank.gov.ua/files/Licences_bank/324485.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/324485.pdf",
+    "active": false
   },
   {
     "names": [
@@ -48,15 +53,16 @@
       "ЄВРОГАЗБАНК"
     ],
     "problem": "2014-11-17",
-    "link": "https://bank.gov.ua/files/Licences_bank/380430.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380430.pdf",
+    "active": false
   },
   {
     "names": [
       "ЄВРОПЕЙСЬКИЙ ПРОМИСЛОВИЙ БАНК",
       "ЄВРОПРОМБАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/377090.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/377090.pdf",
+    "active": true
   },
   {
     "names": [
@@ -66,15 +72,16 @@
       "ПРИКАРПАТЛІСБАНК",
       "ПРИКАРПАТТЯ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/336310.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/336310.pdf",
+    "active": true
   },
   {
     "names": [
       "ІМЕКСБАНК"
     ],
     "problem": "2015-05-27",
-    "link": "https://bank.gov.ua/files/Licences_bank/328384.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/328384.pdf",
+    "active": false
   },
   {
     "names": [
@@ -83,7 +90,8 @@
       "ІНВЕСТ БАНК УКРАЇНА"
     ],
     "problem": "2000-10-24",
-    "link": "https://bank.gov.ua/files/Licences_bank/351953.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/351953.pdf",
+    "active": false
   },
   {
     "names": [
@@ -91,7 +99,8 @@
       "ОДЕСЬКИЙ КОМЕРЦІЙНИЙ БАНК ІНВЕСТБАНК"
     ],
     "problem": "2017-01-11",
-    "link": "https://bank.gov.ua/files/Licences_bank/328210.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/328210.pdf",
+    "active": false
   },
   {
     "names": [
@@ -99,14 +108,15 @@
       "ІНВЕСТИЦІЙНО ТРАСТОВИЙ БАНК"
     ],
     "problem": "2016-05-31",
-    "link": "https://bank.gov.ua/files/Licences_bank/380957.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380957.pdf",
+    "active": false
   },
   {
     "names": [
       "ІНГ БАНК УКРАЇНА"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300539.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300539.pdf",
+    "active": true
   },
   {
     "names": [
@@ -114,8 +124,8 @@
       "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК СПІВДРУЖНІСТЬ",
       "СПІВДРУЖНІСТЬ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/313849.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/313849.pdf",
+    "active": true
   },
   {
     "names": [
@@ -124,7 +134,8 @@
       "ІННОВАЦІЙНО ПРОМИСЛОВИЙ БАНК"
     ],
     "problem": "2003-06-27",
-    "link": "https://bank.gov.ua/files/Licences_bank/322863.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322863.pdf",
+    "active": false
   },
   {
     "names": [
@@ -134,7 +145,8 @@
       "УБТС"
     ],
     "problem": "2012-03-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/351878.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/351878.pdf",
+    "active": false
   },
   {
     "names": [
@@ -143,21 +155,24 @@
       "ІНТЕГРАЛ БАНК"
     ],
     "problem": "2015-11-25",
-    "link": "https://bank.gov.ua/files/Licences_bank/320735.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/320735.pdf",
+    "active": false
   },
   {
     "names": [
       "ІНТЕРБАНК"
     ],
     "problem": "2014-07-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/300216.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300216.pdf",
+    "active": false
   },
   {
     "names": [
       "ІНТЕРКОНТБАНК"
     ],
     "problem": "1999-10-20",
-    "link": "https://bank.gov.ua/files/Licences_bank/324678.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/324678.pdf",
+    "active": false
   },
   {
     "names": [
@@ -166,21 +181,24 @@
       "СИНДИКАТ"
     ],
     "problem": "2006-04-04",
-    "link": "https://bank.gov.ua/files/Licences_bank/300313.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300313.pdf",
+    "active": false
   },
   {
     "names": [
       "ІНТЕРКРЕДИТБАНК"
     ],
     "problem": "2015-01-16",
-    "link": "https://bank.gov.ua/files/Licences_bank/307424.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/307424.pdf",
+    "active": false
   },
   {
     "names": [
       "ІПОБАНК"
     ],
     "problem": "2010-03-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/380270.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380270.pdf",
+    "active": false
   },
   {
     "names": [
@@ -189,7 +207,8 @@
       "ІПОТЕЧНИЙ КАБ"
     ],
     "problem": "1999-03-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/322636.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322636.pdf",
+    "active": false
   },
   {
     "names": [
@@ -197,7 +216,8 @@
       "АБСОЛЮТБАНК"
     ],
     "problem": "1999-12-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/324827.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/324827.pdf",
+    "active": false
   },
   {
     "names": [
@@ -205,14 +225,16 @@
       "АВАНТ БАНК"
     ],
     "problem": "2016-02-25",
-    "link": "https://bank.gov.ua/files/Licences_bank/380708.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380708.pdf",
+    "active": false
   },
   {
     "names": [
       "АВТОКРАЗБАНК"
     ],
     "problem": "2014-08-29",
-    "link": "https://bank.gov.ua/files/Licences_bank/331100.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/331100.pdf",
+    "active": false
   },
   {
     "names": [
@@ -220,8 +242,8 @@
       "АГРОПРОСПЕРІС БАНК (АСТРА БАНК)",
       "АСТРА"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380548.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380548.pdf",
+    "active": true
   },
   {
     "names": [
@@ -229,7 +251,8 @@
       "АЗОВ БАНК"
     ],
     "problem": "1999-04-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/335010.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/335010.pdf",
+    "active": false
   },
   {
     "names": [
@@ -238,15 +261,15 @@
       "АГРАРНИЙ КОМЕРЦІЙНИЙ БАНК",
       "АЙБОКС БАНК (АГРОКОМБАНК)"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/322302.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322302.pdf",
+    "active": true
   },
   {
     "names": [
       "АКОРДБАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380634.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380634.pdf",
+    "active": true
   },
   {
     "names": [
@@ -255,14 +278,16 @@
       "СИГМАБАНК"
     ],
     "problem": "2015-01-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/307305.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/307305.pdf",
+    "active": false
   },
   {
     "names": [
       "АКТАБАНК"
     ],
     "problem": "2015-01-15",
-    "link": "https://bank.gov.ua/files/Licences_bank/307394.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/307394.pdf",
+    "active": false
   },
   {
     "names": [
@@ -270,7 +295,8 @@
       "АКТИВ БАНК"
     ],
     "problem": "2014-12-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/300852.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300852.pdf",
+    "active": false
   },
   {
     "names": [
@@ -278,7 +304,8 @@
       "КРЕДІ СВІСС ФЬОРСТ БОСТОН"
     ],
     "problem": "2004-03-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/300562.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300562.pdf",
+    "active": false
   },
   {
     "names": [
@@ -286,8 +313,8 @@
       "ПРОМІНВЕСТБАНК",
       "ПРОМІНВЕСТБАНК УКРАЇНИ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300012.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300012.pdf",
+    "active": true
   },
   {
     "names": [
@@ -296,22 +323,23 @@
       "КИЇВПРИВАТБАНК",
       "УКРАЇНСЬКИЙ КРЕДИТНИЙ БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/307770.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/307770.pdf",
+    "active": true
   },
   {
     "names": [
       "АЛЛОНЖ"
     ],
     "problem": "2004-08-11",
-    "link": "https://bank.gov.ua/files/Licences_bank/321659.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/321659.pdf",
+    "active": false
   },
   {
     "names": [
       "АЛЬПАРІ БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380894.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380894.pdf",
+    "active": true
   },
   {
     "names": [
@@ -322,8 +350,8 @@
       "КОМЕРЦІЙНИЙ АВТОЗАЗБАНК",
       "НЕОС БАНК (БАНК КІПРУ)"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/320940.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/320940.pdf",
+    "active": true
   },
   {
     "names": [
@@ -332,8 +360,8 @@
       "ВІТО",
       "КИЇВІНВЕСТБАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300346.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300346.pdf",
+    "active": true
   },
   {
     "names": [
@@ -341,7 +369,8 @@
       "КОМЕРЦІЙНИЙ БАНК АМАСКО"
     ],
     "problem": "1999-09-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/311517.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/311517.pdf",
+    "active": false
   },
   {
     "names": [
@@ -349,35 +378,39 @@
       "АПЕКС БАНК"
     ],
     "problem": "2017-12-26",
-    "link": "https://bank.gov.ua/files/Licences_bank/380720.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380720.pdf",
+    "active": false
   },
   {
     "names": [
       "АРКАДІЯ"
     ],
     "problem": "2000-03-22",
-    "link": "https://bank.gov.ua/files/Licences_bank/328094.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/328094.pdf",
+    "active": false
   },
   {
     "names": [
       "АРКАДА"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/322335.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322335.pdf",
+    "active": true
   },
   {
     "names": [
       "АРМА"
     ],
     "problem": "2010-02-22",
-    "link": "https://bank.gov.ua/files/Licences_bank/380300.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380300.pdf",
+    "active": false
   },
   {
     "names": [
       "АРМАНД"
     ],
     "problem": "1999-06-14",
-    "link": "https://bank.gov.ua/files/Licences_bank/328652.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/328652.pdf",
+    "active": false
   },
   {
     "names": [
@@ -385,7 +418,8 @@
       "АРТЕМ БАНК"
     ],
     "problem": "2016-12-15",
-    "link": "https://bank.gov.ua/files/Licences_bank/300885.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300885.pdf",
+    "active": false
   },
   {
     "names": [
@@ -394,8 +428,8 @@
       "ПРИВАТІНВЕСТ",
       "ЧЕРНІГІВБАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/353489.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/353489.pdf",
+    "active": true
   },
   {
     "names": [
@@ -403,37 +437,39 @@
       "ЗЕВС"
     ],
     "problem": "2010-03-01",
-    "link": "https://bank.gov.ua/files/Licences_bank/322603.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322603.pdf",
+    "active": false
   },
   {
     "names": [
       "БАЗИС"
     ],
     "problem": "2012-08-28",
-    "link": "https://bank.gov.ua/files/Licences_bank/351760.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/351760.pdf",
+    "active": false
   },
   {
     "names": [
       "БАНК 3/4"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380645.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380645.pdf",
+    "active": true
   },
   {
     "names": [
       "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
       "БАНК ІНВЕСТ ТА ЗАОЩАДЖЕНЬ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380281.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380281.pdf",
+    "active": true
   },
   {
     "names": [
       "БАНК АВАНГАРД",
       "АВАНГАРД"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380946.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380946.pdf",
+    "active": true
   },
   {
     "names": [
@@ -441,8 +477,8 @@
       "АЛЬЯНС",
       "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК АЛЬЯНС КРЕДИТ БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300119.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300119.pdf",
+    "active": true
   },
   {
     "names": [
@@ -450,7 +486,8 @@
       "БОГУСЛАВ"
     ],
     "problem": "2017-11-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/380322.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380322.pdf",
+    "active": false
   },
   {
     "names": [
@@ -460,7 +497,8 @@
       "КОРН"
     ],
     "problem": "2015-12-10",
-    "link": "https://bank.gov.ua/files/Licences_bank/322799.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322799.pdf",
+    "active": false
   },
   {
     "names": [
@@ -470,8 +508,8 @@
       "ХОУМ КРЕДИТ БАНК",
       "ХОУМ КРЕДІТ БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/307123.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/307123.pdf",
+    "active": true
   },
   {
     "names": [
@@ -479,7 +517,8 @@
       "ЗОЛОТІ ВОРОТА"
     ],
     "problem": "2014-12-04",
-    "link": "https://bank.gov.ua/files/Licences_bank/351931.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/351931.pdf",
+    "active": false
   },
   {
     "names": [
@@ -487,7 +526,8 @@
       "КАМБІО"
     ],
     "problem": "2015-02-27",
-    "link": "https://bank.gov.ua/files/Licences_bank/380399.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380399.pdf",
+    "active": false
   },
   {
     "names": [
@@ -495,8 +535,8 @@
       "КРЕДИТ ДНІПРО",
       "МУНІЦИПАЛЬНИЙ БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/305749.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/305749.pdf",
+    "active": true
   },
   {
     "names": [
@@ -504,7 +544,8 @@
       "МИХАЙЛІВСЬКИЙ"
     ],
     "problem": "2016-07-12",
-    "link": "https://bank.gov.ua/files/Licences_bank/380935.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380935.pdf",
+    "active": false
   },
   {
     "names": [
@@ -514,7 +555,8 @@
       "ФЕРМЕРСЬКИЙ ЗЕМЕЛЬНИЙ БАНК"
     ],
     "problem": "2017-03-07",
-    "link": "https://bank.gov.ua/files/Licences_bank/322432.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322432.pdf",
+    "active": false
   },
   {
     "names": [
@@ -523,7 +565,8 @@
       "НАЦІОНАЛЬНИЙ КРЕДИТ"
     ],
     "problem": "2015-08-31",
-    "link": "https://bank.gov.ua/files/Licences_bank/320702.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/320702.pdf",
+    "active": false
   },
   {
     "names": [
@@ -533,7 +576,8 @@
       "ПЕТРОКОММЕРЦ УКРАЇНА"
     ],
     "problem": "2016-04-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/300120.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300120.pdf",
+    "active": false
   },
   {
     "names": [
@@ -542,7 +586,8 @@
       "ПРОФІН БАНК (ІКАР БАНК)"
     ],
     "problem": "2015-04-15",
-    "link": "https://bank.gov.ua/files/Licences_bank/334594.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/334594.pdf",
+    "active": false
   },
   {
     "names": [
@@ -551,7 +596,8 @@
       "КОМЕРЦІЙНИЙ БАНК КАРПАТИ"
     ],
     "problem": "2009-12-07",
-    "link": "https://bank.gov.ua/files/Licences_bank/300540.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300540.pdf",
+    "active": false
   },
   {
     "names": [
@@ -560,14 +606,15 @@
       "РЕНЕСАНС КАПІТАЛ"
     ],
     "problem": "2015-03-16",
-    "link": "https://bank.gov.ua/files/Licences_bank/380010.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380010.pdf",
+    "active": false
   },
   {
     "names": [
       "БАНК СІЧ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380816.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380816.pdf",
+    "active": true
   },
   {
     "names": [
@@ -575,23 +622,24 @@
       "СТОЛИЦЯ"
     ],
     "problem": "2012-01-31",
-    "link": "https://bank.gov.ua/files/Licences_bank/380623.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380623.pdf",
+    "active": false
   },
   {
     "names": [
       "БАНК ТРАСТ-КАПІТАЛ",
       "ТРАСТ КАПІТАЛ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380106.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380106.pdf",
+    "active": true
   },
   {
     "names": [
       "БАНК ФАМІЛЬНИЙ",
       "ДОНБІРЖБАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/334840.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/334840.pdf",
+    "active": true
   },
   {
     "names": [
@@ -601,8 +649,8 @@
       "БАНК ФОРВАРД (БАНК РУСКИЙ СТАНДАРТ)",
       "РУСКИЙ СТАНДАРТ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380418.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380418.pdf",
+    "active": true
   },
   {
     "names": [
@@ -611,7 +659,8 @@
       "ФОРУМ"
     ],
     "problem": "2014-06-13",
-    "link": "https://bank.gov.ua/files/Licences_bank/322948.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322948.pdf",
+    "active": false
   },
   {
     "names": [
@@ -624,21 +673,24 @@
       "УНІВЕРС БАНК РОЗВИТКУ ТА ПАРТН"
     ],
     "problem": "2015-02-26",
-    "link": "https://bank.gov.ua/files/Licences_bank/320995.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/320995.pdf",
+    "active": false
   },
   {
     "names": [
       "БМ БАНК"
     ],
     "problem": "2018-11-06",
-    "link": "https://bank.gov.ua/files/Licences_bank/380913.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380913.pdf",
+    "active": false
   },
   {
     "names": [
       "БРОКБІЗНЕСБАНК"
     ],
     "problem": "2014-06-10",
-    "link": "https://bank.gov.ua/files/Licences_bank/300249.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300249.pdf",
+    "active": false
   },
   {
     "names": [
@@ -646,8 +698,8 @@
       "ГЕОСАНТРІС",
       "УКРАЇНСЬКИЙ КРЕДИТНО ТОРГОВИЙ БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/321723.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/321723.pdf",
+    "active": true
   },
   {
     "names": [
@@ -658,21 +710,24 @@
       "ФОЛЬКСБАНК"
     ],
     "problem": "2018-10-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/325213.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/325213.pdf",
+    "active": false
   },
   {
     "names": [
       "ВІКТОРІЯ"
     ],
     "problem": "1999-05-17",
-    "link": "https://bank.gov.ua/files/Licences_bank/315353.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/315353.pdf",
+    "active": false
   },
   {
     "names": [
       "ВЕКТОР БАНК"
     ],
     "problem": "2017-03-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/339038.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/339038.pdf",
+    "active": false
   },
   {
     "names": [
@@ -680,30 +735,32 @@
       "ВЕРНУМ БАНК (ДІАПАЗОН МАКСИМУМ БАНК)",
       "ДІАПАЗОН МАКСИМУМ БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380689.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380689.pdf",
+    "active": true
   },
   {
     "names": [
       "ВЕСТ ФАЙНЕНС ЕНД КРЕДИТ БАНК",
       "КРЕДИТВЕСТ БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380441.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380441.pdf",
+    "active": true
   },
   {
     "names": [
       "ВНЄШТОРГБАНК (УКРАЇНА)"
     ],
     "problem": "2007-10-19",
-    "link": "https://bank.gov.ua/files/Licences_bank/380195.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380195.pdf",
+    "active": false
   },
   {
     "names": [
       "ВОЛОДИМИРСЬКИЙ"
     ],
     "problem": "2011-08-31",
-    "link": "https://bank.gov.ua/files/Licences_bank/337933.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/337933.pdf",
+    "active": false
   },
   {
     "names": [
@@ -713,7 +770,8 @@
       "ВСЕУКРАЇНСЬКИЙ ВАБАНК КИЇВ"
     ],
     "problem": "2015-03-19",
-    "link": "https://bank.gov.ua/files/Licences_bank/380537.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380537.pdf",
+    "active": false
   },
   {
     "names": [
@@ -721,7 +779,8 @@
       "ВБР"
     ],
     "problem": "2015-12-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/380719.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380719.pdf",
+    "active": false
   },
   {
     "names": [
@@ -730,7 +789,8 @@
       "МРІЯ"
     ],
     "problem": "2018-12-18",
-    "link": "https://bank.gov.ua/files/Licences_bank/321767.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/321767.pdf",
+    "active": false
   },
   {
     "names": [
@@ -738,7 +798,8 @@
       "ІКО"
     ],
     "problem": "2006-02-28",
-    "link": "https://bank.gov.ua/files/Licences_bank/300807.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300807.pdf",
+    "active": false
   },
   {
     "names": [
@@ -746,21 +807,23 @@
       "НОРД БАНК"
     ],
     "problem": "1998-06-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/328072.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/328072.pdf",
+    "active": false
   },
   {
     "names": [
       "ГЕФЕСТ"
     ],
     "problem": "2017-09-29",
-    "link": "https://bank.gov.ua/files/Licences_bank/377120.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/377120.pdf",
+    "active": false
   },
   {
     "names": [
       "ГЛОБУС"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380526.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380526.pdf",
+    "active": true
   },
   {
     "names": [
@@ -771,15 +834,16 @@
       "ПОЛІССЯ"
     ],
     "problem": "2015-01-22",
-    "link": "https://bank.gov.ua/files/Licences_bank/322324.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322324.pdf",
+    "active": false
   },
   {
     "names": [
       "ГРАНТ",
       "БАНК ГРАНТ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/351607.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/351607.pdf",
+    "active": true
   },
   {
     "names": [
@@ -789,7 +853,8 @@
       "КОРОНА"
     ],
     "problem": "2011-05-11",
-    "link": "https://bank.gov.ua/files/Licences_bank/307112.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/307112.pdf",
+    "active": false
   },
   {
     "names": [
@@ -797,21 +862,24 @@
       "ДІАМАНТ"
     ],
     "problem": "2017-06-22",
-    "link": "https://bank.gov.ua/files/Licences_bank/320854.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/320854.pdf",
+    "active": false
   },
   {
     "names": [
       "ДІВІ БАНК"
     ],
     "problem": "2018-08-14",
-    "link": "https://bank.gov.ua/files/Licences_bank/380827.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380827.pdf",
+    "active": false
   },
   {
     "names": [
       "ДАНІЕЛЬ"
     ],
     "problem": "2014-04-15",
-    "link": "https://bank.gov.ua/files/Licences_bank/380980.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380980.pdf",
+    "active": false
   },
   {
     "names": [
@@ -819,7 +887,8 @@
       "ДЕЛЬТА"
     ],
     "problem": "2015-10-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/380236.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380236.pdf",
+    "active": false
   },
   {
     "names": [
@@ -827,7 +896,8 @@
       "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК ДЕМАРК"
     ],
     "problem": "2015-01-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/353575.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/353575.pdf",
+    "active": false
   },
   {
     "names": [
@@ -835,15 +905,16 @@
       "ТРАЙДЕНТ БАНК"
     ],
     "problem": "1998-02-04",
-    "link": "https://bank.gov.ua/files/Licences_bank/322272.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322272.pdf",
+    "active": false
   },
   {
     "names": [
       "ДЕРЖАВНИЙ ЕКСПОРТНО-ІМПОРТНИЙ БАНК УКРАЇНИ",
       "УКРЕКСІМБАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/322313.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322313.pdf",
+    "active": true
   },
   {
     "names": [
@@ -851,7 +922,8 @@
       "ДЕРЖЗЕМБАНК"
     ],
     "problem": "2016-09-27",
-    "link": "https://bank.gov.ua/files/Licences_bank/380968.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380968.pdf",
+    "active": false
   },
   {
     "names": [
@@ -860,22 +932,23 @@
       "ОЩАДБАНК УКРАЇНИ",
       "ОЩАДНИЙ БАНК УКРАЇНИ ОЩАДБАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300465.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300465.pdf",
+    "active": true
   },
   {
     "names": [
       "ДНІСТЕР"
     ],
     "problem": "2010-03-15",
-    "link": "https://bank.gov.ua/files/Licences_bank/325569.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/325569.pdf",
+    "active": false
   },
   {
     "names": [
       "ДОЙЧЕ БАНК ДБУ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380731.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380731.pdf",
+    "active": true
   },
   {
     "names": [
@@ -883,7 +956,8 @@
       "ДОНЕЦЬКИЙ АКЦІОНЕРНИЙ БАНК ДОНВУГЛЕКОМБАНК"
     ],
     "problem": "2001-10-31",
-    "link": "https://bank.gov.ua/files/Licences_bank/334895.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/334895.pdf",
+    "active": false
   },
   {
     "names": [
@@ -893,7 +967,8 @@
       "КОМЕРЦІЙНИЙ БАНК АКЦЕПТБАНК"
     ],
     "problem": "2011-07-20",
-    "link": "https://bank.gov.ua/files/Licences_bank/334970.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/334970.pdf",
+    "active": false
   },
   {
     "names": [
@@ -901,7 +976,8 @@
       "КОМЕРЦІЙНИЙ БАНК КРЕДИТНО ФІНАНСОВА СПІЛКА ЕКСПОБАНК"
     ],
     "problem": "2015-01-22",
-    "link": "https://bank.gov.ua/files/Licences_bank/322294.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322294.pdf",
+    "active": false
   },
   {
     "names": [
@@ -909,7 +985,8 @@
       "ЕКСПРЕС БАНК"
     ],
     "problem": "2017-12-14",
-    "link": "https://bank.gov.ua/files/Licences_bank/322959.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322959.pdf",
+    "active": false
   },
   {
     "names": [
@@ -917,7 +994,8 @@
       "ГАЛУЗЕВИЙ ЕНЕРГОБАНК КИЇВ"
     ],
     "problem": "2015-06-11",
-    "link": "https://bank.gov.ua/files/Licences_bank/300272.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300272.pdf",
+    "active": false
   },
   {
     "names": [
@@ -925,7 +1003,8 @@
       "ЕРА БАНК"
     ],
     "problem": "1998-09-11",
-    "link": "https://bank.gov.ua/files/Licences_bank/351793.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/351793.pdf",
+    "active": false
   },
   {
     "names": [
@@ -933,14 +1012,16 @@
       "РД БАНК"
     ],
     "problem": "2013-01-09",
-    "link": "https://bank.gov.ua/files/Licences_bank/380667.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380667.pdf",
+    "active": false
   },
   {
     "names": [
       "ЕТАЛОН"
     ],
     "problem": "2002-10-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/322904.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322904.pdf",
+    "active": false
   },
   {
     "names": [
@@ -949,7 +1030,8 @@
       "ІНПРОМБАНК"
     ],
     "problem": "1998-09-14",
-    "link": "https://bank.gov.ua/files/Licences_bank/306544.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/306544.pdf",
+    "active": false
   },
   {
     "names": [
@@ -957,14 +1039,16 @@
       "СКІФІЯ БАНК"
     ],
     "problem": "2014-07-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/303484.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/303484.pdf",
+    "active": false
   },
   {
     "names": [
       "ЗАХІДБУДГАЗБАНК"
     ],
     "problem": "2004-04-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/336291.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/336291.pdf",
+    "active": false
   },
   {
     "names": [
@@ -972,22 +1056,24 @@
       "ХАРКІВСЬКИЙ КОМЕРЦІЙНИЙ ЗЕМЕЛЬНИЙ БАНК"
     ],
     "problem": "2010-08-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/351652.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/351652.pdf",
+    "active": false
   },
   {
     "names": [
       "ЗЕМЕЛЬНИЙ КАПІТАЛ",
       "БАНК ЗЕМЕЛЬНИЙ КАПІТАЛ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/305880.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/305880.pdf",
+    "active": true
   },
   {
     "names": [
       "ЗЛАТОБАНК"
     ],
     "problem": "2015-05-12",
-    "link": "https://bank.gov.ua/files/Licences_bank/380612.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380612.pdf",
+    "active": false
   },
   {
     "names": [
@@ -995,14 +1081,16 @@
       "КОМЕРЦІЙНИЙ БАНК ЗОРЯ"
     ],
     "problem": "1998-10-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/333238.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/333238.pdf",
+    "active": false
   },
   {
     "names": [
       "КАПІТАЛ"
     ],
     "problem": "2015-10-29",
-    "link": "https://bank.gov.ua/files/Licences_bank/334828.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/334828.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1011,7 +1099,8 @@
       "КИЄВО ПЕЧЕРСЬКИЙ АКБ"
     ],
     "problem": "2000-07-07",
-    "link": "https://bank.gov.ua/files/Licences_bank/320564.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/320564.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1019,14 +1108,16 @@
       "КИЇВЩИНА"
     ],
     "problem": "2015-06-24",
-    "link": "https://bank.gov.ua/files/Licences_bank/322498.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322498.pdf",
+    "active": false
   },
   {
     "names": [
       "КИЇВСЬКА РУСЬ"
     ],
     "problem": "2015-07-16",
-    "link": "https://bank.gov.ua/files/Licences_bank/319092.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/319092.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1034,7 +1125,8 @@
       "КМБ"
     ],
     "problem": "2000-11-20",
-    "link": "https://bank.gov.ua/files/Licences_bank/320791.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/320791.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1042,14 +1134,15 @@
       "БУКОВИНА"
     ],
     "problem": "2006-05-29",
-    "link": "https://bank.gov.ua/files/Licences_bank/380087.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380087.pdf",
+    "active": false
   },
   {
     "names": [
       "КЛІРИНГОВИЙ ДІМ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300647.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300647.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1057,7 +1150,8 @@
       "КОМЕРЦІЙНИЙ БАНК КЛАСИК"
     ],
     "problem": "2016-08-11",
-    "link": "https://bank.gov.ua/files/Licences_bank/306704.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/306704.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1065,7 +1159,8 @@
       "КОМЕРЦІЙНИЙ БАНК КНЯЖИЙ"
     ],
     "problem": "1999-06-10",
-    "link": "https://bank.gov.ua/files/Licences_bank/333874.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/333874.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1074,8 +1169,8 @@
       "КОМІНВЕСТБАНК",
       "КООПІНВЕСТБАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/312248.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/312248.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1083,22 +1178,23 @@
       "КІБ",
       "КОНКОРДІЯ БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/322540.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322540.pdf",
+    "active": true
   },
   {
     "names": [
       "КОНКОРД"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/307350.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/307350.pdf",
+    "active": true
   },
   {
     "names": [
       "КОНТАКТ БАНК"
     ],
     "problem": "2000-05-15",
-    "link": "https://bank.gov.ua/files/Licences_bank/328083.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/328083.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1107,7 +1203,8 @@
       "БАНК АНТАРЕС"
     ],
     "problem": "2015-12-10",
-    "link": "https://bank.gov.ua/files/Licences_bank/322465.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322465.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1119,7 +1216,8 @@
       "ЛІОНСЬКИЙ КРЕДИТ УКРАЇНА"
     ],
     "problem": "2012-11-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/300379.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300379.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1129,16 +1227,16 @@
       "ІНДУСТРІАЛЬНО ЕКСПОРТНИЙ БАНК",
       "КРЕДІ АГРІКОЛЬ БАНК (ІНДЕКС БАНК)"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300614.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300614.pdf",
+    "active": true
   },
   {
     "names": [
       "КРЕДИТ ЄВРОПА БАНК",
       "ФІНАНСБАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380366.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380366.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1148,7 +1246,8 @@
       "УКРФІНАНСБАНК"
     ],
     "problem": "2017-12-28",
-    "link": "https://bank.gov.ua/files/Licences_bank/380571.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380571.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1156,7 +1255,8 @@
       "ІНКОМБАНК УКРАЇНА"
     ],
     "problem": "2015-06-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/300863.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300863.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1164,8 +1264,8 @@
       "ЗАХІДНО УКРАЇНСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
       "КРЕДИТ БАНК (УКРАЇНА)"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/325365.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/325365.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1173,7 +1273,8 @@
       "ІМДАТ БАНК ( СПРИЯННЯ )"
     ],
     "problem": "1998-10-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/324667.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/324667.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1182,7 +1283,8 @@
       "КРИМСЬКИЙ КООПЕРАТИВНИЙ БАНК КРИМ БАНК"
     ],
     "problem": "1997-02-03",
-    "link": "https://bank.gov.ua/files/Licences_bank/324816.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/324816.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1190,15 +1292,16 @@
       "КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ БАНК КРИМКРЕДИТ"
     ],
     "problem": "1998-10-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/324355.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/324355.pdf",
+    "active": false
   },
   {
     "names": [
       "КРИСТАЛБАНК",
       "ПЕРЕХІДНИЙ БАНК КРИСТАЛБАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/339050.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/339050.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1208,36 +1311,38 @@
       "КСГ БАНК (ЄВРОПЕЙСЬКИЙ БАНК РАЦІОН ФІНАНСУВАННЯ)"
     ],
     "problem": "2016-08-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/380292.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380292.pdf",
+    "active": false
   },
   {
     "names": [
       "ЛЕГБАНК"
     ],
     "problem": "2015-02-26",
-    "link": "https://bank.gov.ua/files/Licences_bank/300056.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300056.pdf",
+    "active": false
   },
   {
     "names": [
       "ЛЬВІВ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/325268.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/325268.pdf",
+    "active": true
   },
   {
     "names": [
       "МІЖНАРОДНИЙ ІНВЕСТИЦІЙНИЙ БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380582.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380582.pdf",
+    "active": true
   },
   {
     "names": [
       "МІСТО БАНК",
       "ШИРЯЄВЕ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/328760.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/328760.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1248,29 +1353,32 @@
       "ПАРТНЕР БАНК"
     ],
     "problem": "2015-03-19",
-    "link": "https://bank.gov.ua/files/Licences_bank/339339.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/339339.pdf",
+    "active": false
   },
   {
     "names": [
       "МЕГАБАНК",
       "ХАРКІВСЬКИЙ ДОБРОДІЙ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/351629.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/351629.pdf",
+    "active": true
   },
   {
     "names": [
       "МЕЛІОР БАНК"
     ],
     "problem": "2015-02-10",
-    "link": "https://bank.gov.ua/files/Licences_bank/307435.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/307435.pdf",
+    "active": false
   },
   {
     "names": [
       "МЕРКУРІЙ"
     ],
     "problem": "2014-06-11",
-    "link": "https://bank.gov.ua/files/Licences_bank/351663.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/351663.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1278,7 +1386,8 @@
       "МЕТА БАНК"
     ],
     "problem": "1997-02-03",
-    "link": "https://bank.gov.ua/files/Licences_bank/322818.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322818.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1287,23 +1396,24 @@
       "МЕТАЛБАНК",
       "МЕТАЛУРГ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/313582.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/313582.pdf",
+    "active": true
   },
   {
     "names": [
       "МОРСЬКИЙ"
     ],
     "problem": "2014-05-06",
-    "link": "https://bank.gov.ua/files/Licences_bank/324742.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/324742.pdf",
+    "active": false
   },
   {
     "names": [
       "МОТОР-БАНК",
       "МОТОР БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/313009.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/313009.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1312,7 +1422,8 @@
       "МТ БАНК"
     ],
     "problem": "2006-01-17",
-    "link": "https://bank.gov.ua/files/Licences_bank/331304.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/331304.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1323,15 +1434,16 @@
       "МОРТОРГБАНК",
       "МТБ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/328168.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/328168.pdf",
+    "active": true
   },
   {
     "names": [
       "НАДРА"
     ],
     "problem": "2015-06-04",
-    "link": "https://bank.gov.ua/files/Licences_bank/380764.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380764.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1340,7 +1452,8 @@
       "КИЇВСЬКИЙ НАРОДНИЙ БАНК"
     ],
     "problem": "2002-06-27",
-    "link": "https://bank.gov.ua/files/Licences_bank/300090.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300090.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1348,7 +1461,8 @@
       "ЮЗІВСЬКИЙ"
     ],
     "problem": "2015-12-01",
-    "link": "https://bank.gov.ua/files/Licences_bank/300498.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300498.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1356,7 +1470,8 @@
       "СЛАВУТИЧ"
     ],
     "problem": "2009-08-19",
-    "link": "https://bank.gov.ua/files/Licences_bank/321466.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/321466.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1365,14 +1480,16 @@
       "КОМЕРЦІЙНИЙ БАНК ЕЛІТА"
     ],
     "problem": "2003-11-20",
-    "link": "https://bank.gov.ua/files/Licences_bank/313690.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/313690.pdf",
+    "active": false
   },
   {
     "names": [
       "НЕЗАЛЕЖНІСТЬ"
     ],
     "problem": "1997-07-14",
-    "link": "https://bank.gov.ua/files/Licences_bank/322476.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322476.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1380,7 +1497,8 @@
       "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК НОВИЙ"
     ],
     "problem": "2017-08-31",
-    "link": "https://bank.gov.ua/files/Licences_bank/305062.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/305062.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1389,7 +1507,8 @@
       "ОДЕСА БАНК"
     ],
     "problem": "2009-07-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/328102.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/328102.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1399,15 +1518,16 @@
       "ОКСІ БАНК ( ГАЛС )",
       "ПЛАСТИК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/325990.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/325990.pdf",
+    "active": true
   },
   {
     "names": [
       "ОЛБАНК"
     ],
     "problem": "2003-04-22",
-    "link": "https://bank.gov.ua/files/Licences_bank/322885.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322885.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1419,15 +1539,16 @@
       "ТАС КОМЕРЦБАНК"
     ],
     "problem": "2015-07-06",
-    "link": "https://bank.gov.ua/files/Licences_bank/300164.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300164.pdf",
+    "active": false
   },
   {
     "names": [
       "ОТП БАНК",
       "РАЙФФАЙЗЕНБАНК УКРАЇНА"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300528.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300528.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1435,14 +1556,15 @@
       "ДНІПРОПЕТРОВСЬКИЙ КІІБ ПІВДЕНКОМІНБАНК"
     ],
     "problem": "2014-09-26",
-    "link": "https://bank.gov.ua/files/Licences_bank/335946.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/335946.pdf",
+    "active": false
   },
   {
     "names": [
       "ПІВДЕННИЙ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/328209.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/328209.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1450,8 +1572,8 @@
       "ЛЕВАДА",
       "МІЖНАРОДНИЙ КОМЕРЦІЙНИЙ БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300658.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300658.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1459,14 +1581,15 @@
       "КОМЕРЦІЙНИЙ БАНК ПАРИТЕТ"
     ],
     "problem": "1998-01-04",
-    "link": "https://bank.gov.ua/files/Licences_bank/334958.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/334958.pdf",
+    "active": false
   },
   {
     "names": [
       "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300506.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300506.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1474,8 +1597,8 @@
       "ПЕРШИЙ УКР МІЖНАРОДНИЙ БАНК",
       "ПУМБ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/334851.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/334851.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1485,7 +1608,8 @@
       "ПЛАТИНУМ БАНК (МІЖНАРОД ІПОТЕЧНИЙ БАНК)"
     ],
     "problem": "2017-02-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/380388.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380388.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1493,14 +1617,15 @@
       "СПОЖИВ КООПЕР ПОДІЛЛЯ"
     ],
     "problem": "2000-02-08",
-    "link": "https://bank.gov.ua/files/Licences_bank/315568.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/315568.pdf",
+    "active": false
   },
   {
     "names": [
       "ПОЛІКОМБАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/353100.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/353100.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1508,16 +1633,16 @@
       "ПОЛТАВА БАНК",
       "ПОЛТАВСЬКИЙ ПОЛТАВА БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/331489.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/331489.pdf",
+    "active": true
   },
   {
     "names": [
       "ПОРТАЛ",
       "БАНК ПОРТАЛ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/339016.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/339016.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1526,14 +1651,15 @@
       "ПОРТО ФРАНКО"
     ],
     "problem": "2015-01-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/328180.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/328180.pdf",
+    "active": false
   },
   {
     "names": [
       "ПРАВЕКС БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380838.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380838.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1541,7 +1667,8 @@
       "ПРАЙМ БАНК"
     ],
     "problem": "2015-01-13",
-    "link": "https://bank.gov.ua/files/Licences_bank/300669.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300669.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1549,28 +1676,31 @@
       "ЮГТОКОБАНК"
     ],
     "problem": "2005-03-11",
-    "link": "https://bank.gov.ua/files/Licences_bank/305686.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/305686.pdf",
+    "active": false
   },
   {
     "names": [
       "ПРЕМІУМ"
     ],
     "problem": "2016-02-10",
-    "link": "https://bank.gov.ua/files/Licences_bank/339555.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/339555.pdf",
+    "active": false
   },
   {
     "names": [
       "ПРИВАТБАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/305299.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/305299.pdf",
+    "active": true
   },
   {
     "names": [
       "ПРИЧОРНОМОР'Я"
     ],
     "problem": "2009-05-25",
-    "link": "https://bank.gov.ua/files/Licences_bank/306759.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/306759.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1578,8 +1708,8 @@
       "МІКРОФІНАНСОВИЙ БАНК",
       "МФБ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/320984.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/320984.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1587,7 +1717,8 @@
       "ЮВЕСБАНК"
     ],
     "problem": "2014-09-08",
-    "link": "https://bank.gov.ua/files/Licences_bank/334992.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/334992.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1595,38 +1726,40 @@
       "ПРОМИСЛОВО ФІНАНСОВИЙ БАНК"
     ],
     "problem": "2017-12-26",
-    "link": "https://bank.gov.ua/files/Licences_bank/331768.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/331768.pdf",
+    "active": false
   },
   {
     "names": [
       "РАДАБАНК",
       "БАНК АГРОС"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/306500.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/306500.pdf",
+    "active": true
   },
   {
     "names": [
       "РАДИКАЛ БАНК"
     ],
     "problem": "2015-11-09",
-    "link": "https://bank.gov.ua/files/Licences_bank/319111.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/319111.pdf",
+    "active": false
   },
   {
     "names": [
       "РАЙФФАЙЗЕН БАНК АВАЛЬ",
       "АВАЛЬ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300335.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300335.pdf",
+    "active": true
   },
   {
     "names": [
       "РВС БАНК",
       "ПЕРЕХІДНИЙ БАНК РВС БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/339072.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/339072.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1634,7 +1767,8 @@
       "ІК НПК БАНК"
     ],
     "problem": "2014-05-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/351588.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/351588.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1643,37 +1777,40 @@
       "ПЕРСОНАЛЬНИЙ КОМП'ЮТЕР"
     ],
     "problem": "2017-12-19",
-    "link": "https://bank.gov.ua/files/Licences_bank/321712.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/321712.pdf",
+    "active": false
   },
   {
     "names": [
       "РОЗРАХУНКОВИЙ ЦЕНТР З ОБСЛУГОВУВАННЯ ДОГОВОРІВ НА ФІНАНСОВИХ РИНКАХ",
       "РОЗРАХУНКОВИЙ ЦЕНТР"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/344443.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/344443.pdf",
+    "active": true
   },
   {
     "names": [
       "РОСТОК БАНК"
     ],
     "problem": "2004-03-11",
-    "link": "https://bank.gov.ua/files/Licences_bank/322692.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322692.pdf",
+    "active": false
   },
   {
     "names": [
       "РОСЬ"
     ],
     "problem": "1998-03-26",
-    "link": "https://bank.gov.ua/files/Licences_bank/321325.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/321325.pdf",
+    "active": false
   },
   {
     "names": [
       "СІТІБАНК",
       "СІТІБАНК (УКРАЇНА)"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300584.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300584.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1681,8 +1818,8 @@
       "БАНК НРБ",
       "НРБ УКРАЇНА"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/320627.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/320627.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1691,7 +1828,8 @@
       "ТАС ІНВЕСТБАНК"
     ],
     "problem": "2009-11-18",
-    "link": "https://bank.gov.ua/files/Licences_bank/320650.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/320650.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1699,30 +1837,32 @@
       "АКЦЕПТ БАНК",
       "СЕБ КОРПОРАТИВНИЙ БАНК (АКЦЕПТ БАНК)"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380797.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380797.pdf",
+    "active": true
   },
   {
     "names": [
       "СЕРВІС"
     ],
     "problem": "1998-10-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/312776.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/312776.pdf",
+    "active": false
   },
   {
     "names": [
       "СИНТЕЗ"
     ],
     "problem": "2010-11-03",
-    "link": "https://bank.gov.ua/files/Licences_bank/322711.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322711.pdf",
+    "active": false
   },
   {
     "names": [
       "СКАЙ БАНК",
       "РЕГІОН БАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/351254.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/351254.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1730,14 +1870,16 @@
       "БІЗНЕСБАНК"
     ],
     "problem": "2000-09-04",
-    "link": "https://bank.gov.ua/files/Licences_bank/337535.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/337535.pdf",
+    "active": false
   },
   {
     "names": [
       "СЛОВ'ЯНСЬКИЙ"
     ],
     "problem": "2001-01-11",
-    "link": "https://bank.gov.ua/files/Licences_bank/313797.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/313797.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1746,14 +1888,16 @@
       "СМАРТБАНК (БАНК РИНКОВІ ТЕХНОЛОГІЇ)"
     ],
     "problem": "2016-07-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/380786.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380786.pdf",
+    "active": false
   },
   {
     "names": [
       "СОФІЙСЬКИЙ"
     ],
     "problem": "2016-04-22",
-    "link": "https://bank.gov.ua/files/Licences_bank/380861.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380861.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1761,21 +1905,24 @@
       "СОЦКОМБАНК"
     ],
     "problem": "2011-10-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/388313.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/388313.pdf",
+    "active": false
   },
   {
     "names": [
       "СОЮЗ"
     ],
     "problem": "2016-03-15",
-    "link": "https://bank.gov.ua/files/Licences_bank/380515.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380515.pdf",
+    "active": false
   },
   {
     "names": [
       "СТАНДАРТ"
     ],
     "problem": "2015-06-18",
-    "link": "https://bank.gov.ua/files/Licences_bank/380690.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380690.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1783,7 +1930,8 @@
       "ПОШТАБАНК"
     ],
     "problem": "2014-09-18",
-    "link": "https://bank.gov.ua/files/Licences_bank/321477.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/321477.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1791,7 +1939,8 @@
       "БОНУС БАНК"
     ],
     "problem": "2015-09-17",
-    "link": "https://bank.gov.ua/files/Licences_bank/397133.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/397133.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1800,7 +1949,8 @@
       "СХІДНО ЄВРОПЕЙСЬКИЙ БАНК"
     ],
     "problem": "2009-12-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/322658.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322658.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1809,14 +1959,16 @@
       "СХІДНО ПРОМИСЛОВИЙ КОМЕРЦІЙНИЙ БАНК"
     ],
     "problem": "2015-09-09",
-    "link": "https://bank.gov.ua/files/Licences_bank/304706.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/304706.pdf",
+    "active": false
   },
   {
     "names": [
       "ТАВРІЯ"
     ],
     "problem": "2001-05-11",
-    "link": "https://bank.gov.ua/files/Licences_bank/384685.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/384685.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1824,7 +1976,8 @@
       "ТАВРІКА"
     ],
     "problem": "2013-03-20",
-    "link": "https://bank.gov.ua/files/Licences_bank/300788.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300788.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1835,8 +1988,8 @@
       "ТАС БІЗНЕСБАНК",
       "ТАСКОМБАНК (БІЗНЕС СТАНДАРТ)"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/339500.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/339500.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1844,7 +1997,8 @@
       "ТЕРНОПІЛЬ КРЕДИТ"
     ],
     "problem": "1998-08-05",
-    "link": "https://bank.gov.ua/files/Licences_bank/338255.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/338255.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1855,7 +2009,8 @@
       "УБМС ІНВЕСТ КРИВБАС БАНК"
     ],
     "problem": "2014-12-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/380601.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380601.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1864,7 +2019,8 @@
       "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК ТК КРЕДИТ"
     ],
     "problem": "2016-04-07",
-    "link": "https://bank.gov.ua/files/Licences_bank/322830.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322830.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1874,7 +2030,8 @@
       "ТОРГПРОМБАНК"
     ],
     "problem": "1999-05-13",
-    "link": "https://bank.gov.ua/files/Licences_bank/321660.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/321660.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1882,7 +2039,8 @@
       "КИЇВШЛЯХБАНК"
     ],
     "problem": "2010-03-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/300089.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300089.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1891,14 +2049,16 @@
       "ТРАСТ (РОЗДРІБНИЙ НЕОБМЕЖЕНИЙ СЕРВІС)"
     ],
     "problem": "2016-12-29",
-    "link": "https://bank.gov.ua/files/Licences_bank/380474.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380474.pdf",
+    "active": false
   },
   {
     "names": [
       "УКООПСПІЛКА"
     ],
     "problem": "2015-04-22",
-    "link": "https://bank.gov.ua/files/Licences_bank/322625.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322625.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1907,14 +2067,16 @@
       "БАНК УКРАЇНА АК"
     ],
     "problem": "2001-07-16",
-    "link": "https://bank.gov.ua/files/Licences_bank/300410.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300410.pdf",
+    "active": false
   },
   {
     "names": [
       "УКРАЇНСЬКА ФІНАНСОВА ГРУПА"
     ],
     "problem": "2010-01-05",
-    "link": "https://bank.gov.ua/files/Licences_bank/380128.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380128.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1922,7 +2084,8 @@
       "УКРІНБАНК"
     ],
     "problem": "2016-03-22",
-    "link": "https://bank.gov.ua/files/Licences_bank/300142.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300142.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1931,7 +2094,8 @@
       "УКРНАФТОГАЗБАНК"
     ],
     "problem": "2000-03-22",
-    "link": "https://bank.gov.ua/files/Licences_bank/300294.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300294.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1942,15 +2106,16 @@
       "УКРБІЗНЕСБАНК"
     ],
     "problem": "2015-04-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/334969.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/334969.pdf",
+    "active": false
   },
   {
     "names": [
       "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
       "УКР БАНК РЕКОНСТР ТА РОЗВИТКУ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380883.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380883.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1958,8 +2123,8 @@
       "УКРБУДІНВЕСТБАНК",
       "ФОКАС"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380377.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380377.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1968,8 +2133,8 @@
       "ЗАКАРПАТСЬКИЙ ЗАКАРПАТТЯ",
       "ЗАКАРПАТТЯ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/320371.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/320371.pdf",
+    "active": true
   },
   {
     "names": [
@@ -1978,7 +2143,8 @@
       "УКРКОМУНБАНК ЛУГАНСЬК"
     ],
     "problem": "2015-09-14",
-    "link": "https://bank.gov.ua/files/Licences_bank/304988.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/304988.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1988,7 +2154,8 @@
       "УКРПРОМБАНК"
     ],
     "problem": "2010-01-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/321228.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/321228.pdf",
+    "active": false
   },
   {
     "names": [
@@ -1999,7 +2166,8 @@
       "УПБ"
     ],
     "problem": "2015-08-28",
-    "link": "https://bank.gov.ua/files/Licences_bank/300205.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300205.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2007,7 +2175,8 @@
       "УФС"
     ],
     "problem": "2014-11-10",
-    "link": "https://bank.gov.ua/files/Licences_bank/377777.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/377777.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2015,8 +2184,8 @@
       "ІНТЕРГАЗБАНК",
       "ХАДЖИБЕЙ"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/320478.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/320478.pdf",
+    "active": true
   },
   {
     "names": [
@@ -2024,23 +2193,24 @@
       "АКЦІОНЕРНИЙ БАНК УКРГАЗПРОМБАНК"
     ],
     "problem": "2015-09-14",
-    "link": "https://bank.gov.ua/files/Licences_bank/320843.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/320843.pdf",
+    "active": false
   },
   {
     "names": [
       "УКРСИББАНК",
       "ХАРКІВІНКОМБАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/351005.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/351005.pdf",
+    "active": true
   },
   {
     "names": [
       "УКРСОЦБАНК",
       "РЕСПУБЛІКАНСЬКИЙ АКЦІОНЕРНО КОМЕРЦІЙНИЙ БАНК СОЦІАЛЬНОГО РОЗВИТКУ УКРСОЦБАНК"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/300023.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300023.pdf",
+    "active": true
   },
   {
     "names": [
@@ -2049,7 +2219,8 @@
       "БАНКІРСЬКИЙ ДІМ"
     ],
     "problem": "2003-07-29",
-    "link": "https://bank.gov.ua/files/Licences_bank/322368.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322368.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2057,14 +2228,16 @@
       "БЕРЕГИНЯ"
     ],
     "problem": "1999-04-01",
-    "link": "https://bank.gov.ua/files/Licences_bank/321916.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/321916.pdf",
+    "active": false
   },
   {
     "names": [
       "УКРХАРЧОПРОМБАНК"
     ],
     "problem": "1998-10-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/322164.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322164.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2074,8 +2247,8 @@
       "ЄВРОЦЕНТР",
       "КБ ОАЗИС"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/322001.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322001.pdf",
+    "active": true
   },
   {
     "names": [
@@ -2085,7 +2258,8 @@
       "УНІКОМБАНК (БАНК ПЕРСПЕКТИВА)"
     ],
     "problem": "2015-12-03",
-    "link": "https://bank.gov.ua/files/Licences_bank/335902.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/335902.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2096,7 +2270,8 @@
       "БДК (УКРАЇНА) ЛТД В ЛУЦЬКУ"
     ],
     "problem": "2013-12-05",
-    "link": "https://bank.gov.ua/files/Licences_bank/303536.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/303536.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2106,7 +2281,8 @@
       "ФІДОБАНК (СЕБ БАНК)"
     ],
     "problem": "2016-07-18",
-    "link": "https://bank.gov.ua/files/Licences_bank/300175.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300175.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2116,7 +2292,8 @@
       "ФБАНК (ЕРСТЕ БАНК)"
     ],
     "problem": "2013-10-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/380009.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380009.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2127,7 +2304,8 @@
       "ФІНАНС БАНК (ТММ БАНК)"
     ],
     "problem": "2016-05-31",
-    "link": "https://bank.gov.ua/files/Licences_bank/300896.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300896.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2137,28 +2315,31 @@
       "ФІНАНСИ І КРЕДИТ"
     ],
     "problem": "2015-12-17",
-    "link": "https://bank.gov.ua/files/Licences_bank/300131.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300131.pdf",
+    "active": false
   },
   {
     "names": [
       "ФІНАНСОВА ІНІЦІАТИВА"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/380054.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380054.pdf",
+    "active": true
   },
   {
     "names": [
       "ФІНАНСОВИЙ ПАРТНЕР"
     ],
     "problem": "2017-11-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/380872.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380872.pdf",
+    "active": false
   },
   {
     "names": [
       "ФІНБАНК"
     ],
     "problem": "2017-04-27",
-    "link": "https://bank.gov.ua/files/Licences_bank/328685.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/328685.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2168,7 +2349,8 @@
       "КРИМУНІВЕРСАЛБАНК"
     ],
     "problem": "2016-11-18",
-    "link": "https://bank.gov.ua/files/Licences_bank/380311.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380311.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2176,7 +2358,8 @@
       "ФЕБ"
     ],
     "problem": "2014-10-16",
-    "link": "https://bank.gov.ua/files/Licences_bank/328599.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/328599.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2185,7 +2368,8 @@
       "ФАКТОРІАЛ БАНК"
     ],
     "problem": "2009-12-15",
-    "link": "https://bank.gov.ua/files/Licences_bank/351715.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/351715.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2193,7 +2377,8 @@
       "ФОРТУНА БАНК"
     ],
     "problem": "2017-02-21",
-    "link": "https://bank.gov.ua/files/Licences_bank/300904.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300904.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2202,7 +2387,8 @@
       "ХРЕЩАТИК БАНК"
     ],
     "problem": "2016-06-02",
-    "link": "https://bank.gov.ua/files/Licences_bank/300670.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/300670.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2211,14 +2397,16 @@
       "КРЕДИТАНШТАЛЬТ УКРАЇНА"
     ],
     "problem": "2007-10-22",
-    "link": "https://bank.gov.ua/files/Licences_bank/320724.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/320724.pdf",
+    "active": false
   },
   {
     "names": [
       "ЦЕНТР"
     ],
     "problem": "2018-10-30",
-    "link": "https://bank.gov.ua/files/Licences_bank/380742.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380742.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2229,7 +2417,8 @@
       "ЧОРНОМОР БАНК РОЗВИТКУ ТА РЕКОНСТР"
     ],
     "problem": "2014-05-06",
-    "link": "https://bank.gov.ua/files/Licences_bank/384577.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/384577.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2237,7 +2426,8 @@
       "МАКІЇВСЬКИЙ ШАХТЕКОНОМБАНК"
     ],
     "problem": "1999-02-23",
-    "link": "https://bank.gov.ua/files/Licences_bank/334936.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/334936.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2249,7 +2439,8 @@
       "ЮНІОН СТАНДАРД БАНК (ЄКАТЕРИНОСЛАВСЬКИЙ КОМЕРЦІЙНИЙ БАНК)"
     ],
     "problem": "2015-12-24",
-    "link": "https://bank.gov.ua/files/Licences_bank/305987.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/305987.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2257,7 +2448,8 @@
       "БАНК ЮНІСОН"
     ],
     "problem": "2018-06-18",
-    "link": "https://bank.gov.ua/files/Licences_bank/380902.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/380902.pdf",
+    "active": false
   },
   {
     "names": [
@@ -2265,14 +2457,15 @@
       "ТРАНСКРЕДОБАНК",
       "ЮНЕКС"
     ],
-    "problem": null,
-    "link": "https://bank.gov.ua/files/Licences_bank/322539.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/322539.pdf",
+    "active": true
   },
   {
     "names": [
       "ЯЛТАБАНК"
     ],
     "problem": "1999-03-15",
-    "link": "https://bank.gov.ua/files/Licences_bank/324850.pdf"
+    "link": "https://bank.gov.ua/files/Licences_bank/324850.pdf",
+    "active": false
   }
 ]

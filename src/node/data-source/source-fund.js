@@ -6,7 +6,6 @@ const dates = require('../dates');
 const assert = require('../assert');
 const regex = require('../regex');
 const mapAsync = require('../map-async');
-const arrays = require('../arrays');
 
 module.exports = {
     getBanks() {
@@ -39,8 +38,7 @@ module.exports = {
                 }
             });
             banks.sort(names.compareNames);
-            int.write('fund/banks', banks);
-            return banks;
+            return int.write('fund/banks', banks);
         });
     },
 

@@ -38,8 +38,7 @@ module.exports = {
             );
         }).then(banks => {
             banks.sort(names.compareNames);
-            int.write('minfin/banks', banks);
-            return banks;
+            return int.write('minfin/banks', banks);
         })
     },
 
@@ -58,8 +57,7 @@ module.exports = {
             ).then(allDateRatings => {
                 const ratings = {};
                 _.sortBy(allDateRatings, 'date').forEach(dateRatings => ratings[dateRatings.date] = dateRatings.ratings);
-                int.write('minfin/ratings', ratings);
-                return ratings;
+                return int.write('minfin/ratings', ratings);
             });
         });
     }

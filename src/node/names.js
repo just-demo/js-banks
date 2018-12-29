@@ -30,10 +30,10 @@ module.exports = {
         const pdfNames = int.read('nbu/banks-pdf').map(bank => buildVariants(bank.names));
         dbfNames.sort(arrays.compare);
         pdfNames.sort(arrays.compare);
-        int.write('names/banks-dbf', dbfNames);
-        int.write('names/banks-pdf', pdfNames);
+        int.write('names/banks-dbf', dbfNames); // it's debug, no need to wait
+        int.write('names/banks-pdf', pdfNames); // it's debug, no need to wait
         const manualNames = int.read('names/banks-manual');
-        int.write('names/banks', arrays.combineIntersected(
+        return int.write('names/banks', arrays.combineIntersected(
             dbfNames,
             pdfNames,
             manualNames

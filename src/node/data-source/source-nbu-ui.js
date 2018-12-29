@@ -26,8 +26,7 @@ module.exports = {
         return Promise.all([this.readActiveBanks(), this.readInactiveBanks()]).then(allBanks => {
             const banks = _.flatten(allBanks);
             banks.sort(names.compareNames);
-            int.write('nbu/banks', banks);
-            return banks;
+            return int.write('nbu/banks', banks);
         });
     },
 
