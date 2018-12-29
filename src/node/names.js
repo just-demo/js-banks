@@ -24,15 +24,19 @@ module.exports = {
     },
 
     rebuildBankNames() {
-        const compareFirst = (a, b) => compare(a[0], b[0]);
-        const dbfNames = int.read('nbu/banks-dbf').map(bank => buildVariants([bank.name, bank.fullName]));
-        dbfNames.sort(compareFirst);
+        // TODO: add more sources!!!
+        const dbfNames = int.read('nbu/banks-dbf').map(bank => buildVariants(bank.names));
+        const pdfNames = int.read('nbu/banks-pdf').map(bank => buildVariants(bank.names));
+        dbfNames.sort(compareArrays);
+        pdfNames.sort(compareArrays);
         int.write('names/banks-dbf', dbfNames);
-        const pdfNames = int.read('nbu/banks-pdf').map(bank => buildVariants(bank.name));
-        pdfNames.sort(compareFirst);
         int.write('names/banks-pdf', pdfNames);
         const manualNames = int.read('names/banks-manual');
-        int.write('names/banks', combineArrays(dbfNames, pdfNames, manualNames));
+        int.write('names/banks', combineIntersected(
+            dbfNames,
+            pdfNames,
+            manualNames
+        ));
     },
 
     extractBankPureName(bankFullName) {
@@ -59,15 +63,11 @@ module.exports = {
     // TODO: move to a better place?
     // Just for predictable sorting taking into account asynchrony being introduced
     compareNames(a, b) {
-        // TODO: switch "name" to "names" everywhere
-        return compareArrays(a.name, b.name);
-    },
-
-    compareName(a, b) {
-        return compare(a.name, b.name);
+        return compareArrays(a.names, b.names);
     }
 };
 
+// TODO: move to arrays
 function compareArrays(a, b) {
     const len = Math.min(a.length, b.length);
     for (let i = 0; i < len; i++) {
@@ -95,7 +95,8 @@ function buildVariants(names) {
     return _.uniq(variants);
 }
 
-function combineArrays(...arrays) {
+// TODO: move to arrays
+function combineIntersected(...arrays) {
     const combined = [];
     arrays.forEach(array => array.forEach(values => {
         const existing = combined.find(v => intersected(v, values));

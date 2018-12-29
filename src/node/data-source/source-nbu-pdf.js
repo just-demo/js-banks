@@ -15,14 +15,14 @@ module.exports = {
     getBanks() {
         const banks = {};
         int.read('nbu/banks-pdf').forEach(bank => {
-            bank.name.forEach(name => {
+            bank.names.forEach(name => {
                 name = names.bankName(name);
                 assert.false('Duplicate bank name', banks[name], name);
                 banks[name] = {
                     name: name,
-                    dateIssue: bank.dateIssue,
+                    problem: bank.problem,
                     link: bank.link,
-                    active: !bank.dateIssue
+                    active: !bank.problem
                 };
             })
         });
@@ -51,12 +51,12 @@ module.exports = {
                     .then(text => text || ext.download('nbu/not-banks/pdf/' + file, url).then(pdf => ext.calc(textFile, () => parsePdf(pdf))))
                     .then(text => {
                         const bank = regex.findObject(text, /^(.+?)Назва банку(.*?Дата відкликання(\d{2}\.\d{2}\.\d{4}))?/g, {
-                            name: 1, dateIssue: 3
+                            name: 1, problem: 3
                         });
                         const bankNames = [names.extractBankPureName(bank.name), ...bankFiles[file]].map(names.normalize);
                         return {
-                            name: _.uniq(bankNames),
-                            dateIssue: dates.format(bank.dateIssue),
+                            names: _.uniq(bankNames),
+                            problem: dates.format(bank.problem),
                             link: url
                         };
                     });

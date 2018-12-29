@@ -1,35 +1,47 @@
 [
   {
-    "name": "IНТЕРКОНТИНЕНТБАНК",
+    "names": [
+      "IНТЕРКОНТИНЕНТБАНК"
+    ],
     "link": "/not-paying/completed/82-interkontinent",
     "active": false
   },
   {
-    "name": "ЄВРОБАНК",
-    "issue": "2016-06-17",
+    "names": [
+      "ЄВРОБАНК"
+    ],
+    "problem": "2016-06-17",
     "link": "/not-paying/liquidation/175-pat-kb-yevrobank",
     "active": false
   },
   {
-    "name": "ЄВРОГАЗБАНК",
-    "issue": "2014-07-17",
+    "names": [
+      "ЄВРОГАЗБАНК"
+    ],
+    "problem": "2014-07-17",
     "link": "/not-paying/liquidation/44-evrogazbank",
     "active": false
   },
   {
-    "name": "ЄВРОПЕЙСЬКИЙ",
+    "names": [
+      "ЄВРОПЕЙСЬКИЙ"
+    ],
     "link": "/not-paying/completed/77-evropeisky",
     "active": false
   },
   {
-    "name": "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ",
+    "names": [
+      "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ"
+    ],
     "link": "/not-paying/completed/80-evro-bank-rz",
     "active": false
   },
   {
-    "name": "ЄВРОПЕЙСЬКИЙ ПРОМИСЛОВИЙ БАНК",
+    "names": [
+      "ЄВРОПЕЙСЬКИЙ ПРОМИСЛОВИЙ БАНК"
+    ],
     "start": "2008-10-06",
-    "site": [
+    "sites": [
       "http://mtb.ua",
       "http://europrombank.kiev.ua",
       "http://www.europrombank.com"
@@ -37,1305 +49,1701 @@
     "active": true
   },
   {
-    "name": "ІДЕЯ БАНК",
+    "names": [
+      "ІДЕЯ БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.ideabank.ua"
     ],
     "active": true
   },
   {
-    "name": "ІМЕКСБАНК",
-    "issue": "2015-05-27",
+    "names": [
+      "ІМЕКСБАНК"
+    ],
+    "problem": "2015-05-27",
     "link": "/not-paying/liquidation/96-imexbank",
     "active": false
   },
   {
-    "name": "ІНВЕСТБАНК",
-    "issue": "2016-12-16",
+    "names": [
+      "ІНВЕСТБАНК"
+    ],
+    "problem": "2016-12-16",
     "link": "/not-paying/liquidation/186-pat-kb-investbank",
     "active": false
   },
   {
-    "name": "ІНГ БАНК УКРАЇНА",
+    "names": [
+      "ІНГ БАНК УКРАЇНА"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.ingcommercialbanking.com"
     ],
     "active": true
   },
   {
-    "name": "ІНДУСТРІАЛБАНК",
+    "names": [
+      "ІНДУСТРІАЛБАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.industrialbank.ua"
     ],
     "active": true
   },
   {
-    "name": "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК",
+    "names": [
+      "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК"
+    ],
     "link": "/not-paying/completed/60-inno-prom-bank",
     "active": false
   },
   {
-    "name": "ІНТЕГРАЛ-БАНК",
-    "issue": "2015-09-16",
+    "names": [
+      "ІНТЕГРАЛ-БАНК"
+    ],
+    "problem": "2015-09-16",
     "link": "/not-paying/liquidation/144-pat-intehral-bank",
     "active": false
   },
   {
-    "name": "ІНТЕРБАНК",
-    "issue": "2014-04-24",
+    "names": [
+      "ІНТЕРБАНК"
+    ],
+    "problem": "2014-04-24",
     "link": "/not-paying/liquidation/51-interbank",
     "active": false
   },
   {
-    "name": "ІНТЕРКРЕДИТБАНК",
-    "issue": "2014-10-10",
+    "names": [
+      "ІНТЕРКРЕДИТБАНК"
+    ],
+    "problem": "2014-10-10",
     "link": "/not-paying/liquidation/32-interkredytbank",
     "active": false
   },
   {
-    "name": "ІПОБАНК",
+    "names": [
+      "ІПОБАНК"
+    ],
     "link": "/not-paying/completed/67-ipobank",
     "active": false
   },
   {
-    "name": "АВАНТ-БАНК",
-    "issue": "2016-01-26",
+    "names": [
+      "АВАНТ-БАНК"
+    ],
+    "problem": "2016-01-26",
     "link": "/not-paying/liquidation/157-pat-avant-bank",
     "active": false
   },
   {
-    "name": "АГРОПРОСПЕРІС БАНК",
+    "names": [
+      "АГРОПРОСПЕРІС БАНК"
+    ],
     "start": "2008-03-14",
-    "site": [
+    "sites": [
       "http://www.ap-bank.com",
       "http://www.astrabank.ua"
     ],
     "active": true
   },
   {
-    "name": "АЙБОКС БАНК",
+    "names": [
+      "АЙБОКС БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.agrocombank.kiev.ua"
     ],
     "active": true
   },
   {
-    "name": "АКБ БАНК",
-    "issue": "2014-05-30",
+    "names": [
+      "АКБ БАНК"
+    ],
+    "problem": "2014-05-30",
     "link": "/not-paying/liquidation/47-avtokrazbank",
     "active": false
   },
   {
-    "name": "АКОРДБАНК",
+    "names": [
+      "АКОРДБАНК"
+    ],
     "start": "2008-08-14",
-    "site": [
+    "sites": [
       "http://www.accordbank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "АКСІОМА",
-    "issue": "2014-10-10",
+    "names": [
+      "АКСІОМА"
+    ],
+    "problem": "2014-10-10",
     "link": "/not-paying/liquidation/33-aksioma",
     "active": false
   },
   {
-    "name": "АКТАБАНК",
-    "issue": "2014-09-17",
+    "names": [
+      "АКТАБАНК"
+    ],
+    "problem": "2014-09-17",
     "link": "/not-paying/liquidation/39-aktabank",
     "active": false
   },
   {
-    "name": "АКТИВ-БАНК",
-    "issue": "2014-09-03",
+    "names": [
+      "АКТИВ-БАНК"
+    ],
+    "problem": "2014-09-03",
     "link": "/not-paying/liquidation/40-aktyv-bank",
     "active": false
   },
   {
-    "name": "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ ПРОМИСЛОВО-ІНВЕСТИЦІЙНИЙ БАНК",
+    "names": [
+      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ ПРОМИСЛОВО-ІНВЕСТИЦІЙНИЙ БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.pib.com.ua"
     ],
     "active": true
   },
   {
-    "name": "АКЦЕНТ-БАНК",
+    "names": [
+      "АКЦЕНТ-БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.a-bank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "АЛЛОНЖ",
+    "names": [
+      "АЛЛОНЖ"
+    ],
     "link": "/not-paying/completed/85-allonz",
     "active": false
   },
   {
-    "name": "АЛЬПАРІ БАНК",
+    "names": [
+      "АЛЬПАРІ БАНК"
+    ],
     "start": "2012-11-06",
-    "site": [
+    "sites": [
       "http://www.alpari-bank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "АЛЬТБАНК",
+    "names": [
+      "АЛЬТБАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "https://altbank.ua"
     ],
     "active": true
   },
   {
-    "name": "АЛЬФА-БАНК",
+    "names": [
+      "АЛЬФА-БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.alfabank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "АРКАДА",
+    "names": [
+      "АРКАДА"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.arkada.ua"
     ],
     "active": true
   },
   {
-    "name": "АРМА",
+    "names": [
+      "АРМА"
+    ],
     "link": "/not-paying/completed/71-arma",
     "active": false
   },
   {
-    "name": "АРТЕМ-БАНК",
-    "issue": "2016-11-16",
+    "names": [
+      "АРТЕМ-БАНК"
+    ],
+    "problem": "2016-11-16",
     "link": "/not-paying/liquidation/183-at-artem-bank",
     "active": false
   },
   {
-    "name": "АСВІО БАНК",
+    "names": [
+      "АСВІО БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.asviobank.ua"
     ],
     "active": true
   },
   {
-    "name": "АСТРА БАНК",
+    "names": [
+      "АСТРА БАНК"
+    ],
     "link": "/not-paying/banky-prodani-investoram/115-astra",
     "active": false
   },
   {
-    "name": "БІГ ЕНЕРГІЯ",
+    "names": [
+      "БІГ ЕНЕРГІЯ"
+    ],
     "link": "/not-paying/completed/69-big-energy",
     "active": false
   },
   {
-    "name": "БАЗИС",
+    "names": [
+      "БАЗИС"
+    ],
     "link": "/not-paying/completed/59-bazis",
     "active": false
   },
   {
-    "name": "БАНК 3/4",
+    "names": [
+      "БАНК 3/4"
+    ],
     "start": "2008-11-27",
-    "site": [
+    "sites": [
       "http://www.bank34.kiev.ua"
     ],
     "active": true
   },
   {
-    "name": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
+    "names": [
+      "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ"
+    ],
     "start": "2005-12-01",
-    "site": [
+    "sites": [
       "http://www.bisbank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "БАНК АВАНГАРД",
+    "names": [
+      "БАНК АВАНГАРД"
+    ],
     "start": "2013-07-16",
-    "site": [],
+    "sites": [],
     "active": true
   },
   {
-    "name": "БАНК АЛЬЯНС",
+    "names": [
+      "БАНК АЛЬЯНС"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://bankalliance.ua"
     ],
     "active": true
   },
   {
-    "name": "БАНК БОГУСЛАВ",
-    "issue": "2017-11-06",
+    "names": [
+      "БАНК БОГУСЛАВ"
+    ],
+    "problem": "2017-11-06",
     "link": "/not-paying/liquidation/219-at-bank-bohuslav",
     "active": false
   },
   {
-    "name": "БАНК ВЕЛЕС",
-    "issue": "2015-12-11",
+    "names": [
+      "БАНК ВЕЛЕС"
+    ],
+    "problem": "2015-12-11",
     "link": "/not-paying/liquidation/152-at-bank-veles",
     "active": false
   },
   {
-    "name": "БАНК ВОСТОК",
+    "names": [
+      "БАНК ВОСТОК"
+    ],
     "start": "2003-01-21",
-    "site": [
+    "sites": [
       "http://www.bankvostok.com.ua"
     ],
     "active": true
   },
   {
-    "name": "БАНК ЗОЛОТІ ВОРОТА",
-    "issue": "2014-08-04",
+    "names": [
+      "БАНК ЗОЛОТІ ВОРОТА"
+    ],
+    "problem": "2014-08-04",
     "link": "/not-paying/liquidation/43-zoloti-vorota",
     "active": false
   },
   {
-    "name": "БАНК КАМБІО",
-    "issue": "2014-12-05",
+    "names": [
+      "БАНК КАМБІО"
+    ],
+    "problem": "2014-12-05",
     "link": "/not-paying/liquidation/22-kambio",
     "active": false
   },
   {
-    "name": "БАНК КРЕДИТ ДНІПРО",
+    "names": [
+      "БАНК КРЕДИТ ДНІПРО"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.creditdnepr.com.ua"
     ],
     "active": true
   },
   {
-    "name": "БАНК МИХАЙЛІВСЬКИЙ",
-    "issue": "2016-05-23",
+    "names": [
+      "БАНК МИХАЙЛІВСЬКИЙ"
+    ],
+    "problem": "2016-05-23",
     "link": "/not-paying/liquidation/171-pat-bank-mykhaylivskyy",
     "active": false
   },
   {
-    "name": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
-    "issue": "2015-06-08",
+    "names": [
+      "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ"
+    ],
+    "problem": "2015-06-08",
     "link": "/not-paying/liquidation/127-national-credit",
     "active": false
   },
   {
-    "name": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
-    "issue": "2016-03-18",
+    "names": [
+      "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА"
+    ],
+    "problem": "2016-03-18",
     "link": "/not-paying/liquidation/164-pat-bank-petrokommerts-ukrayina",
     "active": false
   },
   {
-    "name": "БАНК РЕГІОНАЛЬНОГО РОЗВИТКУ",
+    "names": [
+      "БАНК РЕГІОНАЛЬНОГО РОЗВИТКУ"
+    ],
     "link": "/not-paying/completed/75-bank-reg-rozv",
     "active": false
   },
   {
-    "name": "БАНК СІЧ",
+    "names": [
+      "БАНК СІЧ"
+    ],
     "start": "2011-07-18",
-    "site": [
+    "sites": [
       "http://www.sichbank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "БАНК ТРАСТ-КАПІТАЛ",
+    "names": [
+      "БАНК ТРАСТ-КАПІТАЛ"
+    ],
     "start": "2004-04-28",
-    "site": [
+    "sites": [
       "http://www.tc-bank.com"
     ],
     "active": true
   },
   {
-    "name": "БАНК ФАМІЛЬНИЙ",
+    "names": [
+      "БАНК ФАМІЛЬНИЙ"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.fbank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "БАНК ФОРВАРД",
+    "names": [
+      "БАНК ФОРВАРД"
+    ],
     "start": "2006-05-19",
-    "site": [
+    "sites": [
       "http://www.bank-rs.com.ua"
     ],
     "active": true
   },
   {
-    "name": "БАНК ФОРУМ",
-    "issue": "2014-03-14",
+    "names": [
+      "БАНК ФОРУМ"
+    ],
+    "problem": "2014-03-14",
     "link": "/not-paying/liquidation/52-forum",
     "active": false
   },
   {
-    "name": "БГ БАНК",
-    "issue": "2014-11-28",
+    "names": [
+      "БГ БАНК"
+    ],
+    "problem": "2014-11-28",
     "link": "/not-paying/liquidation/27-bg-bank",
     "active": false
   },
   {
-    "name": "БРОКБІЗНЕСБАНК",
-    "issue": "2014-03-03",
+    "names": [
+      "БРОКБІЗНЕСБАНК"
+    ],
+    "problem": "2014-03-03",
     "link": "/not-paying/liquidation/54-brokbiznesbank",
     "active": false
   },
   {
-    "name": "БТА БАНК",
+    "names": [
+      "БТА БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.btabank.ua"
     ],
     "active": true
   },
   {
-    "name": "ВІЕЙБІ БАНК",
-    "issue": "2014-11-21",
+    "names": [
+      "ВІЕЙБІ БАНК"
+    ],
+    "problem": "2014-11-21",
     "link": "/not-paying/liquidation/29-vab-bank",
     "active": false
   },
   {
-    "name": "ВБР",
-    "issue": "2014-11-28",
+    "names": [
+      "ВБР"
+    ],
+    "problem": "2014-11-28",
     "link": "/not-paying/liquidation/26-vseukr-bank-rozv",
     "active": false
   },
   {
-    "name": "ВЕКТОР БАНК",
-    "issue": "2017-03-03",
+    "names": [
+      "ВЕКТОР БАНК"
+    ],
+    "problem": "2017-03-03",
     "link": "/not-paying/liquidation/198-pat-vektor-bank",
     "active": false
   },
   {
-    "name": "ВЕРНУМ БАНК",
+    "names": [
+      "ВЕРНУМ БАНК"
+    ],
     "start": "2009-06-16",
-    "site": [
+    "sites": [
       "http://vernumbank.com"
     ],
     "active": true
   },
   {
-    "name": "ВЕСТ ФАЙНЕНС ЕНД КРЕДИТ БАНК",
+    "names": [
+      "ВЕСТ ФАЙНЕНС ЕНД КРЕДИТ БАНК"
+    ],
     "start": "2007-03-05",
-    "site": [
+    "sites": [
       "http://www.creditwest.kiev.ua"
     ],
     "active": true
   },
   {
-    "name": "ВОЛОДИМИРСЬКИЙ",
+    "names": [
+      "ВОЛОДИМИРСЬКИЙ"
+    ],
     "link": "/not-paying/completed/63-volodymyrskyi",
     "active": false
   },
   {
-    "name": "ВТБ БАНК",
-    "issue": "2018-11-28",
+    "names": [
+      "ВТБ БАНК"
+    ],
+    "problem": "2018-11-28",
     "link": "/not-paying/liquidation/234-at-vtb-bank",
     "active": false
   },
   {
-    "name": "ГАРАНТ",
+    "names": [
+      "ГАРАНТ"
+    ],
     "link": "/not-paying/completed/83-garant",
     "active": false
   },
   {
-    "name": "ГЕФЕСТ",
+    "names": [
+      "ГЕФЕСТ"
+    ],
     "link": "/not-paying/liquidation/210-pat-komertsiynyy-bank-hefest",
     "active": false
   },
   {
-    "name": "ГЛОБУС",
+    "names": [
+      "ГЛОБУС"
+    ],
     "start": "2008-02-13",
-    "site": [
+    "sites": [
       "http://www.globusbank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "ГРІН БАНК",
-    "issue": "2014-09-25",
+    "names": [
+      "ГРІН БАНК"
+    ],
+    "problem": "2014-09-25",
     "link": "/not-paying/liquidation/38-grin-bank",
     "active": false
   },
   {
-    "name": "ГРАНТ",
+    "names": [
+      "ГРАНТ"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.grant.kharkov.ua"
     ],
     "active": true
   },
   {
-    "name": "ДІАЛОГБАНК",
+    "names": [
+      "ДІАЛОГБАНК"
+    ],
     "link": "/not-paying/completed/64-dialogbank",
     "active": false
   },
   {
-    "name": "ДІАМАНТБАНК",
-    "issue": "2017-04-24",
+    "names": [
+      "ДІАМАНТБАНК"
+    ],
+    "problem": "2017-04-24",
     "link": "/not-paying/liquidation/203-pat-diamantbank",
     "active": false
   },
   {
-    "name": "ДАНІЕЛЬ",
-    "issue": "2014-01-17",
+    "names": [
+      "ДАНІЕЛЬ"
+    ],
+    "problem": "2014-01-17",
     "link": "/not-paying/liquidation/56-daniel",
     "active": false
   },
   {
-    "name": "ДЕЛЬТА БАНК",
-    "issue": "2015-03-03",
+    "names": [
+      "ДЕЛЬТА БАНК"
+    ],
+    "problem": "2015-03-03",
     "link": "/not-paying/liquidation/118-delta",
     "active": false
   },
   {
-    "name": "ДЕМАРК",
-    "issue": "2014-09-29",
+    "names": [
+      "ДЕМАРК"
+    ],
+    "problem": "2014-09-29",
     "link": "/not-paying/liquidation/36-demark",
     "active": false
   },
   {
-    "name": "ДЕРЖАВНИЙ ЕКСПОРТНО-ІМПОРТНИЙ БАНК УКРАЇНИ",
+    "names": [
+      "ДЕРЖАВНИЙ ЕКСПОРТНО-ІМПОРТНИЙ БАНК УКРАЇНИ"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.eximb.com"
     ],
     "active": true
   },
   {
-    "name": "ДЕРЖЗЕМБАНК",
+    "names": [
+      "ДЕРЖЗЕМБАНК"
+    ],
     "link": "/not-paying/banky-likvidovani-fondom/179-pat-derzhzembank",
     "active": false
   },
   {
-    "name": "ДНІСТЕР",
+    "names": [
+      "ДНІСТЕР"
+    ],
     "link": "/not-paying/completed/68-dnister",
     "active": false
   },
   {
-    "name": "ДОЙЧЕ БАНК ДБУ",
+    "names": [
+      "ДОЙЧЕ БАНК ДБУ"
+    ],
     "start": "2009-10-12",
-    "site": [
+    "sites": [
       "http://www.db.com/ukraine"
     ],
     "active": true
   },
   {
-    "name": "ЕКСПОБАНК",
-    "issue": "2014-09-25",
+    "names": [
+      "ЕКСПОБАНК"
+    ],
+    "problem": "2014-09-25",
     "link": "/not-paying/liquidation/37-ekspobank",
     "active": false
   },
   {
-    "name": "ЕНЕРГОБАНК",
-    "issue": "2015-02-13",
+    "names": [
+      "ЕНЕРГОБАНК"
+    ],
+    "problem": "2015-02-13",
     "link": "/not-paying/liquidation/111-energobank",
     "active": false
   },
   {
-    "name": "ЕРДЕ БАНК",
+    "names": [
+      "ЕРДЕ БАНК"
+    ],
     "link": "/not-paying/banky-likvidovani-fondom/58-erde-bank",
     "active": false
   },
   {
-    "name": "ЗАХІДІНКОМБАНК",
-    "issue": "2014-05-29",
+    "names": [
+      "ЗАХІДІНКОМБАНК"
+    ],
+    "problem": "2014-05-29",
     "link": "/not-paying/liquidation/48-zahidinkombank",
     "active": false
   },
   {
-    "name": "ЗЕМЕЛЬНИЙ БАНК",
+    "names": [
+      "ЗЕМЕЛЬНИЙ БАНК"
+    ],
     "link": "/not-paying/completed/66-zemel-bank",
     "active": false
   },
   {
-    "name": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
+    "names": [
+      "ЗЕМЕЛЬНИЙ КАПІТАЛ"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.zemcap.dp.ua"
     ],
     "active": true
   },
   {
-    "name": "ЗЛАТОБАНК",
-    "issue": "2015-02-14",
+    "names": [
+      "ЗЛАТОБАНК"
+    ],
+    "problem": "2015-02-14",
     "link": "/not-paying/liquidation/121-zlato",
     "active": false
   },
   {
-    "name": "КАПІТАЛ",
-    "issue": "2015-07-21",
+    "names": [
+      "КАПІТАЛ"
+    ],
+    "problem": "2015-07-21",
     "link": "/not-paying/liquidation/131-pat-akb-kapital",
     "active": false
   },
   {
-    "name": "КБ ПРИЧОРНОМОР’Я",
+    "names": [
+      "КБ ПРИЧОРНОМОР’Я"
+    ],
     "link": "/not-paying/completed/79-prychornomor",
     "active": false
   },
   {
-    "name": "КИЇВ",
-    "issue": "2015-02-25",
+    "names": [
+      "КИЇВ"
+    ],
+    "problem": "2015-02-25",
     "link": "/not-paying/liquidation/119-kiyv",
     "active": false
   },
   {
-    "name": "КИЇВСЬКА РУСЬ",
-    "issue": "2015-03-20",
+    "names": [
+      "КИЇВСЬКА РУСЬ"
+    ],
+    "problem": "2015-03-20",
     "link": "/not-paying/liquidation/114-kyivska-rus",
     "active": false
   },
   {
-    "name": "КИЇВСЬКИЙ УНIВЕРСАЛЬНИЙ БАНК",
+    "names": [
+      "КИЇВСЬКИЙ УНIВЕРСАЛЬНИЙ БАНК"
+    ],
     "link": "/not-paying/completed/81-kyiv-universal",
     "active": false
   },
   {
-    "name": "КЛІРИНГОВИЙ ДІМ",
+    "names": [
+      "КЛІРИНГОВИЙ ДІМ"
+    ],
     "start": "2002-02-14",
-    "site": [
+    "sites": [
       "http://www.clhs.kiev.ua"
     ],
     "active": true
   },
   {
-    "name": "КЛАСИКБАНК",
+    "names": [
+      "КЛАСИКБАНК"
+    ],
     "link": "/not-paying/banky-likvidovani-fondom/174-pat-klasykbank",
     "active": false
   },
   {
-    "name": "КОМЕРЦІЙНИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+    "names": [
+      "КОМЕРЦІЙНИЙ ІНВЕСТИЦІЙНИЙ БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.coopinvest.com.ua"
     ],
     "active": true
   },
   {
-    "name": "КОМЕРЦІЙНИЙ ІНДУСТРІАЛЬНИЙ БАНК",
+    "names": [
+      "КОМЕРЦІЙНИЙ ІНДУСТРІАЛЬНИЙ БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.cib.com.ua"
     ],
     "active": true
   },
   {
-    "name": "КОНКОРД",
+    "names": [
+      "КОНКОРД"
+    ],
     "start": "2007-01-18",
-    "site": [
+    "sites": [
       "http://www.concord.ua"
     ],
     "active": true
   },
   {
-    "name": "КОНТРАКТ",
-    "issue": "2015-10-07",
+    "names": [
+      "КОНТРАКТ"
+    ],
+    "problem": "2015-10-07",
     "link": "/not-paying/liquidation/148-bank-kontrakt",
     "active": false
   },
   {
-    "name": "КРЕДІ АГРІКОЛЬ БАНК",
+    "names": [
+      "КРЕДІ АГРІКОЛЬ БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.indexbank.ua",
       "http://credit-agricole.com.ua"
     ],
     "active": true
   },
   {
-    "name": "КРЕДИТ ЄВРОПА БАНК",
+    "names": [
+      "КРЕДИТ ЄВРОПА БАНК"
+    ],
     "start": "2007-01-22",
-    "site": [
+    "sites": [
       "http://www.crediteurope.com.ua"
     ],
     "active": true
   },
   {
-    "name": "КРЕДИТПРОМБАНК",
-    "issue": "2015-03-03",
+    "names": [
+      "КРЕДИТПРОМБАНК"
+    ],
+    "problem": "2015-03-03",
     "link": "/not-paying/liquidation/116-kreditprombank",
     "active": false
   },
   {
-    "name": "КРЕДОБАНК",
+    "names": [
+      "КРЕДОБАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.kredobank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "КРИСТАЛБАНК",
+    "names": [
+      "КРИСТАЛБАНК"
+    ],
     "start": "2014-12-29",
-    "site": [
+    "sites": [
       "http://cristalbank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "КСГ БАНК",
-    "issue": "2016-08-31",
+    "names": [
+      "КСГ БАНК"
+    ],
+    "problem": "2016-08-31",
     "link": "/not-paying/liquidation/180-pat-ksh-bank",
     "active": false
   },
   {
-    "name": "ЛЕГБАНК",
-    "issue": "2014-11-28",
+    "names": [
+      "ЛЕГБАНК"
+    ],
+    "problem": "2014-11-28",
     "link": "/not-paying/liquidation/28-legbank",
     "active": false
   },
   {
-    "name": "ЛЬВІВ",
+    "names": [
+      "ЛЬВІВ"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.banklviv.com"
     ],
     "active": true
   },
   {
-    "name": "МІЖНАРОДНИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+    "names": [
+      "МІЖНАРОДНИЙ ІНВЕСТИЦІЙНИЙ БАНК"
+    ],
     "start": "2008-05-19",
-    "site": [
+    "sites": [
       "http://www.ii-bank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "МІСТО БАНК",
+    "names": [
+      "МІСТО БАНК"
+    ],
     "start": "2002-02-28",
-    "site": [
+    "sites": [
       "http://www.mistobank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
-    "issue": "2014-11-21",
+    "names": [
+      "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК"
+    ],
+    "problem": "2014-11-21",
     "link": "/not-paying/liquidation/30-mis-kom-bank",
     "active": false
   },
   {
-    "name": "МЕГАБАНК",
+    "names": [
+      "МЕГАБАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "https://www.megabank.ua",
       "http://www"
     ],
     "active": true
   },
   {
-    "name": "МЕЛІОР БАНК",
-    "issue": "2014-10-10",
+    "names": [
+      "МЕЛІОР БАНК"
+    ],
+    "problem": "2014-10-10",
     "link": "/not-paying/liquidation/31-melior-bank",
     "active": false
   },
   {
-    "name": "МЕРКУРІЙ",
-    "issue": "2014-03-14",
+    "names": [
+      "МЕРКУРІЙ"
+    ],
+    "problem": "2014-03-14",
     "link": "/not-paying/liquidation/53-mercury",
     "active": false
   },
   {
-    "name": "МЕТАБАНК",
+    "names": [
+      "МЕТАБАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.mbank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "МОРСЬКИЙ",
-    "issue": "2015-09-04",
+    "names": [
+      "МОРСЬКИЙ"
+    ],
+    "problem": "2015-09-04",
     "link": "/not-paying/liquidation/137-bank-morskyi",
     "active": false
   },
   {
-    "name": "МОТОР-БАНК",
+    "names": [
+      "МОТОР-БАНК"
+    ],
     "start": "2008-01-23",
-    "site": [
+    "sites": [
       "http://www.motor-bank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "МТБ БАНК",
+    "names": [
+      "МТБ БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://mtb.ua",
       "http://www.mtb.ua"
     ],
     "active": true
   },
   {
-    "name": "НАДРА",
-    "issue": "2015-02-06",
+    "names": [
+      "НАДРА"
+    ],
+    "problem": "2015-02-06",
     "link": "/not-paying/liquidation/97-nadra",
     "active": false
   },
   {
-    "name": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
-    "issue": "2015-09-18",
+    "names": [
+      "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ"
+    ],
+    "problem": "2015-09-18",
     "link": "/not-paying/liquidation/146-at-bank-natsionalni-investytsii",
     "active": false
   },
   {
-    "name": "НАЦІОНАЛЬНИЙ СТАНДАРТ",
+    "names": [
+      "НАЦІОНАЛЬНИЙ СТАНДАРТ"
+    ],
     "link": "/not-paying/completed/76-natsional-standart",
     "active": false
   },
   {
-    "name": "НАШ БАНК",
+    "names": [
+      "НАШ БАНК"
+    ],
     "link": "/not-paying/completed/87-nash-bank",
     "active": false
   },
   {
-    "name": "НК БАНК",
-    "issue": "2017-01-20",
+    "names": [
+      "НК БАНК"
+    ],
+    "problem": "2017-01-20",
     "link": "/not-paying/liquidation/192-at-nk-bank",
     "active": false
   },
   {
-    "name": "НОВИЙ",
-    "issue": "2017-07-14",
+    "names": [
+      "НОВИЙ"
+    ],
+    "problem": "2017-07-14",
     "link": "/not-paying/liquidation/208-akb-novyy",
     "active": false
   },
   {
-    "name": "ОДЕСА-БАНК",
+    "names": [
+      "ОДЕСА-БАНК"
+    ],
     "link": "/not-paying/completed/78-odesa-bank",
     "active": false
   },
   {
-    "name": "ОКСІ БАНК",
+    "names": [
+      "ОКСІ БАНК"
+    ],
     "start": "2008-11-03",
-    "site": [
+    "sites": [
       "http://www.okcibank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "ОЛБАНК",
+    "names": [
+      "ОЛБАНК"
+    ],
     "link": "/not-paying/completed/88-olbank",
     "active": false
   },
   {
-    "name": "ОМЕГА БАНК",
-    "issue": "2015-03-03",
+    "names": [
+      "ОМЕГА БАНК"
+    ],
+    "problem": "2015-03-03",
     "link": "/not-paying/liquidation/117-omega",
     "active": false
   },
   {
-    "name": "ОТП БАНК",
+    "names": [
+      "ОТП БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.otpbank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "ПІВДЕНКОМБАНК",
-    "issue": "2014-05-26",
+    "names": [
+      "ПІВДЕНКОМБАНК"
+    ],
+    "problem": "2014-05-26",
     "link": "/not-paying/liquidation/49-pivdenkombank",
     "active": false
   },
   {
-    "name": "ПІВДЕННИЙ",
+    "names": [
+      "ПІВДЕННИЙ"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.pivdenny.com"
     ],
     "active": true
   },
   {
-    "name": "ПІРЕУС БАНК МКБ",
+    "names": [
+      "ПІРЕУС БАНК МКБ"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.piraeusbank.ua"
     ],
     "active": true
   },
   {
-    "name": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
+    "names": [
+      "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК"
+    ],
     "start": "2000-08-08",
-    "site": [
+    "sites": [
       "http://www.pinbank.ua"
     ],
     "active": true
   },
   {
-    "name": "ПЕРШИЙ УКРАЇНСЬКИЙ МІЖНАРОДНИЙ БАНК",
+    "names": [
+      "ПЕРШИЙ УКРАЇНСЬКИЙ МІЖНАРОДНИЙ БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.fuib.com"
     ],
     "active": true
   },
   {
-    "name": "ПЛАТИНУМ БАНК",
-    "issue": "2017-01-11",
+    "names": [
+      "ПЛАТИНУМ БАНК"
+    ],
+    "problem": "2017-01-11",
     "link": "/not-paying/liquidation/190-pat-platynum-bank",
     "active": false
   },
   {
-    "name": "ПОЛІКОМБАНК",
+    "names": [
+      "ПОЛІКОМБАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.poli.com.ua"
     ],
     "active": true
   },
   {
-    "name": "ПОЛТАВА-БАНК",
+    "names": [
+      "ПОЛТАВА-БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.poltavabank.com"
     ],
     "active": true
   },
   {
-    "name": "ПОРТАЛ",
+    "names": [
+      "ПОРТАЛ"
+    ],
     "start": "2013-09-26",
-    "site": [],
+    "sites": [],
     "active": true
   },
   {
-    "name": "ПОРТО-ФРАНКО",
-    "issue": "2014-09-29",
+    "names": [
+      "ПОРТО-ФРАНКО"
+    ],
+    "problem": "2014-09-29",
     "link": "/not-paying/liquidation/35-porto-franko",
     "active": false
   },
   {
-    "name": "ПРАВЕКС-БАНК",
+    "names": [
+      "ПРАВЕКС-БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.pravex.com"
     ],
     "active": true
   },
   {
-    "name": "ПРАЙМ-БАНК",
-    "issue": "2014-10-03",
+    "names": [
+      "ПРАЙМ-БАНК"
+    ],
+    "problem": "2014-10-03",
     "link": "/not-paying/liquidation/34-praym-bank",
     "active": false
   },
   {
-    "name": "ПРЕМ'ЄРБАНК",
+    "names": [
+      "ПРЕМ'ЄРБАНК"
+    ],
     "link": "/not-paying/completed/84-premierbank",
     "active": false
   },
   {
-    "name": "ПРЕМІУМ",
-    "issue": "2016-02-11",
+    "names": [
+      "ПРЕМІУМ"
+    ],
+    "problem": "2016-02-11",
     "link": "/not-paying/liquidation/159-pat-kb-premium",
     "active": false
   },
   {
-    "name": "ПРИВАТБАНК",
+    "names": [
+      "ПРИВАТБАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.privatbank.com.ua"
     ],
-    "active": true,
-    "link": "/not-paying/banks-sold-to-state/188-pat-kb-pryvatbank"
+    "link": "/not-paying/banks-sold-to-state/188-pat-kb-pryvatbank",
+    "active": true
   },
   {
-    "name": "ПРОКРЕДИТ БАНК",
+    "names": [
+      "ПРОКРЕДИТ БАНК"
+    ],
     "start": "2001-02-27",
-    "site": [
+    "sites": [
       "http://www.procreditbank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "ПРОМЕКОНОМБАНК",
-    "issue": "2014-05-22",
+    "names": [
+      "ПРОМЕКОНОМБАНК"
+    ],
+    "problem": "2014-05-22",
     "link": "/not-paying/liquidation/50-promekonombank",
     "active": false
   },
   {
-    "name": "ПРОФІН БАНК",
-    "issue": "2015-01-20",
+    "names": [
+      "ПРОФІН БАНК"
+    ],
+    "problem": "2015-01-20",
     "link": "/not-paying/liquidation/94-profin-bank",
     "active": false
   },
   {
-    "name": "РАДАБАНК",
+    "names": [
+      "РАДАБАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.radabank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "РАДИКАЛ БАНК",
-    "issue": "2015-07-10",
+    "names": [
+      "РАДИКАЛ БАНК"
+    ],
+    "problem": "2015-07-10",
     "link": "/not-paying/liquidation/130-pat-radykal-bank",
     "active": false
   },
   {
-    "name": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
+    "names": [
+      "РАЙФФАЙЗЕН БАНК АВАЛЬ"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.aval.ua"
     ],
     "active": true
   },
   {
-    "name": "РВС БАНК",
+    "names": [
+      "РВС БАНК"
+    ],
     "start": "2015-07-15",
-    "site": [],
+    "sites": [],
     "active": true
   },
   {
-    "name": "РЕАЛ БАНК",
-    "issue": "2014-03-03",
+    "names": [
+      "РЕАЛ БАНК"
+    ],
+    "problem": "2014-03-03",
     "link": "/not-paying/liquidation/55-real-bank",
     "active": false
   },
   {
-    "name": "РОДОВІД БАНК",
-    "issue": "2016-02-26",
+    "names": [
+      "РОДОВІД БАНК"
+    ],
+    "problem": "2016-02-26",
     "link": "/not-paying/liquidation/160-at-rodovid-bank",
     "active": false
   },
   {
-    "name": "РОЗРАХУНКОВИЙ ЦЕНТР З ОБСЛУГОВУВАННЯ ДОГОВОРІВ НА ФІНАНСОВИХ РИНКАХ",
+    "names": [
+      "РОЗРАХУНКОВИЙ ЦЕНТР З ОБСЛУГОВУВАННЯ ДОГОВОРІВ НА ФІНАНСОВИХ РИНКАХ"
+    ],
     "start": "2013-09-12",
-    "site": [],
+    "sites": [],
     "active": true
   },
   {
-    "name": "РОСТОК БАНК",
+    "names": [
+      "РОСТОК БАНК"
+    ],
     "link": "/not-paying/completed/86-rostok-bank",
     "active": false
   },
   {
-    "name": "СІТІБАНК",
+    "names": [
+      "СІТІБАНК"
+    ],
     "start": "2000-11-28",
-    "site": [],
+    "sites": [],
     "active": true
   },
   {
-    "name": "СБЕРБАНК",
+    "names": [
+      "СБЕРБАНК"
+    ],
     "start": "2001-10-18",
-    "site": [
+    "sites": [
       "https://www.sberbank.ua",
       "http://sberbank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "СЕБ КОРПОРАТИВНИЙ БАНК",
+    "names": [
+      "СЕБ КОРПОРАТИВНИЙ БАНК"
+    ],
     "start": "2011-05-06",
-    "site": [],
+    "sites": [],
     "active": true
   },
   {
-    "name": "СИНТЕЗ",
+    "names": [
+      "СИНТЕЗ"
+    ],
     "link": "/not-paying/completed/65-syntez",
     "active": false
   },
   {
-    "name": "СКАЙ БАНК",
+    "names": [
+      "СКАЙ БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "https://sky.bank"
     ],
     "active": true
   },
   {
-    "name": "СЛОВ'ЯНСЬКИЙ",
+    "names": [
+      "СЛОВ'ЯНСЬКИЙ"
+    ],
     "link": "/not-paying/completed/90-sloviansky",
     "active": false
   },
   {
-    "name": "СМАРТБАНК",
-    "issue": "2016-05-25",
+    "names": [
+      "СМАРТБАНК"
+    ],
+    "problem": "2016-05-25",
     "link": "/not-paying/liquidation/173-puat-smartbank",
     "active": false
   },
   {
-    "name": "СОФІЙСЬКИЙ",
-    "issue": "2015-12-23",
+    "names": [
+      "СОФІЙСЬКИЙ"
+    ],
+    "problem": "2015-12-23",
     "link": "/not-paying/liquidation/153-pat-bank-sofiyskyy",
     "active": false
   },
   {
-    "name": "СОЦКОМ БАНК",
+    "names": [
+      "СОЦКОМ БАНК"
+    ],
     "link": "/not-paying/completed/62-kb-sotskom-bank",
     "active": false
   },
   {
-    "name": "СОЮЗ",
-    "issue": "2016-03-16",
+    "names": [
+      "СОЮЗ"
+    ],
+    "problem": "2016-03-16",
     "link": "/not-paying/liquidation/163-at-kb-soyuz",
     "active": false
   },
   {
-    "name": "СП БАНК",
-    "issue": "2015-09-11",
+    "names": [
+      "СП БАНК"
+    ],
+    "problem": "2015-09-11",
     "link": "/not-paying/liquidation/138-at-sp-bank",
     "active": false
   },
   {
-    "name": "СТАНДАРТ",
-    "issue": "2015-02-20",
+    "names": [
+      "СТАНДАРТ"
+    ],
+    "problem": "2015-02-20",
     "link": "/not-paying/liquidation/120-standart",
     "active": false
   },
   {
-    "name": "СТАРОКИЇВСЬКИЙ БАНК",
-    "issue": "2014-06-18",
+    "names": [
+      "СТАРОКИЇВСЬКИЙ БАНК"
+    ],
+    "problem": "2014-06-18",
     "link": "/not-paying/liquidation/46-starokyiv-bank",
     "active": false
   },
   {
-    "name": "СТОЛИЦЯ",
+    "names": [
+      "СТОЛИЦЯ"
+    ],
     "link": "/not-paying/completed/61-stolytsia",
     "active": false
   },
   {
-    "name": "СТОЛИЧНИЙ",
-    "issue": "2015-07-10",
+    "names": [
+      "СТОЛИЧНИЙ"
+    ],
+    "problem": "2015-07-10",
     "link": "/not-paying/liquidation/129-pat-ab-stolychnyy",
     "active": false
   },
   {
-    "name": "СХІДНО-ЄВРОПЕЙСЬКИЙ БАНК",
+    "names": [
+      "СХІДНО-ЄВРОПЕЙСЬКИЙ БАНК"
+    ],
     "link": "/not-paying/completed/73-shid-evro-bank",
     "active": false
   },
   {
-    "name": "ТАВРИКА",
+    "names": [
+      "ТАВРИКА"
+    ],
     "link": "/not-paying/banky-likvidovani-fondom/57-tavryka",
     "active": false
   },
   {
-    "name": "ТАСКОМБАНК",
+    "names": [
+      "ТАСКОМБАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "https://tascombank.ua",
       "http://www.tascombank.ua"
     ],
     "active": true
   },
   {
-    "name": "ТЕРРА БАНК",
-    "issue": "2014-08-22",
+    "names": [
+      "ТЕРРА БАНК"
+    ],
+    "problem": "2014-08-22",
     "link": "/not-paying/liquidation/41-terra-bank",
     "active": false
   },
   {
-    "name": "ТК КРЕДИТ",
-    "issue": "2016-02-10",
+    "names": [
+      "ТК КРЕДИТ"
+    ],
+    "problem": "2016-02-10",
     "link": "/not-paying/liquidation/158-at-kb-tk-kredyt",
     "active": false
   },
   {
-    "name": "ТРАНСБАНК",
+    "names": [
+      "ТРАНСБАНК"
+    ],
     "link": "/not-paying/completed/70-transbank",
     "active": false
   },
   {
-    "name": "ТРАСТ",
-    "issue": "2016-12-07",
+    "names": [
+      "ТРАСТ"
+    ],
+    "problem": "2016-12-07",
     "link": "/not-paying/liquidation/185-pat-bank-trast",
     "active": false
   },
   {
-    "name": "УКООПСПІЛКА",
-    "issue": "2015-01-23",
+    "names": [
+      "УКООПСПІЛКА"
+    ],
+    "problem": "2015-01-23",
     "link": "/not-paying/liquidation/95-ukoopspilka",
     "active": false
   },
   {
-    "name": "УКРІНБАНК",
-    "issue": "2015-12-25",
+    "names": [
+      "УКРІНБАНК"
+    ],
+    "problem": "2015-12-25",
     "link": "/not-paying/liquidation/154-pat-ukrinbank",
     "active": false
   },
   {
-    "name": "УКРАЇНА",
+    "names": [
+      "УКРАЇНА"
+    ],
     "link": "/not-paying/completed/89-ukraina",
     "active": false
   },
   {
-    "name": "УКРАЇНСЬКА ФІНАНСОВА ГРУПА",
+    "names": [
+      "УКРАЇНСЬКА ФІНАНСОВА ГРУПА"
+    ],
     "link": "/not-paying/completed/74-ukr-fin-group",
     "active": false
   },
   {
-    "name": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
+    "names": [
+      "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ"
+    ],
     "start": "2004-10-21",
-    "site": [
+    "sites": [
       "http://www.ubrr.com.ua"
     ],
     "active": true
   },
   {
-    "name": "УКРАЇНСЬКИЙ БУДІВЕЛЬНО-ІНВЕСТИЦІЙНИЙ БАНК",
+    "names": [
+      "УКРАЇНСЬКИЙ БУДІВЕЛЬНО-ІНВЕСТИЦІЙНИЙ БАНК"
+    ],
     "start": "2004-07-22",
-    "site": [
+    "sites": [
       "https://ubib.com.ua",
       "http://www.uci-bank.com"
     ],
     "active": true
   },
   {
-    "name": "УКРАЇНСЬКИЙ КАПІТАЛ",
+    "names": [
+      "УКРАЇНСЬКИЙ КАПІТАЛ"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.ukrcapital.com.ua"
     ],
     "active": true
   },
   {
-    "name": "УКРАЇНСЬКИЙ ПРОМИСЛОВИЙ БАНК",
+    "names": [
+      "УКРАЇНСЬКИЙ ПРОМИСЛОВИЙ БАНК"
+    ],
     "link": "/not-paying/completed/72-ukr-prom-bank",
     "active": false
   },
   {
-    "name": "УКРБІЗНЕСБАНК",
-    "issue": "2014-12-26",
+    "names": [
+      "УКРБІЗНЕСБАНК"
+    ],
+    "problem": "2014-12-26",
     "link": "/not-paying/liquidation/93-ukrbiznesbank",
     "active": false
   },
   {
-    "name": "УКРГАЗБАНК",
+    "names": [
+      "УКРГАЗБАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.ukrgasbank.com"
     ],
     "active": true
   },
   {
-    "name": "УКРГАЗПРОМБАНК",
-    "issue": "2015-04-08",
+    "names": [
+      "УКРГАЗПРОМБАНК"
+    ],
+    "problem": "2015-04-08",
     "link": "/not-paying/liquidation/113-ukrgazprombank",
     "active": false
   },
   {
-    "name": "УКРКОМУНБАНК",
-    "issue": "2015-09-14",
+    "names": [
+      "УКРКОМУНБАНК"
+    ],
+    "problem": "2015-09-14",
     "link": "/not-paying/liquidation/124-ukr-komun-bank",
     "active": false
   },
   {
-    "name": "УКРСИББАНК",
+    "names": [
+      "УКРСИББАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.ukrsibbank.com"
     ],
     "active": true
   },
   {
-    "name": "УКРСОЦБАНК",
+    "names": [
+      "УКРСОЦБАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "https://www.ukrsotsbank.com"
     ],
     "active": true
   },
   {
-    "name": "УНІВЕРСАЛ БАНК",
+    "names": [
+      "УНІВЕРСАЛ БАНК"
+    ],
     "start": "1999-09-02",
-    "site": [
+    "sites": [
       "http://www.universalbank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "УНІКОМБАНК",
-    "issue": "2015-10-16",
+    "names": [
+      "УНІКОМБАНК"
+    ],
+    "problem": "2015-10-16",
     "link": "/not-paying/liquidation/149-pat-unikombank",
     "active": false
   },
   {
-    "name": "УПБ",
-    "issue": "2015-05-29",
+    "names": [
+      "УПБ"
+    ],
+    "problem": "2015-05-29",
     "link": "/not-paying/liquidation/126-upb",
     "active": false
   },
   {
-    "name": "УФС",
-    "issue": "2014-08-15",
+    "names": [
+      "УФС"
+    ],
+    "problem": "2014-08-15",
     "link": "/not-paying/liquidation/42-ukr-fin-svit",
     "active": false
   },
   {
-    "name": "ФІДОБАНК",
-    "issue": "2016-05-20",
+    "names": [
+      "ФІДОБАНК"
+    ],
+    "problem": "2016-05-20",
     "link": "/not-paying/liquidation/170-puat-fidobank",
     "active": false
   },
   {
-    "name": "ФІНАНСИ ТА КРЕДИТ",
-    "issue": "2015-09-18",
+    "names": [
+      "ФІНАНСИ ТА КРЕДИТ"
+    ],
+    "problem": "2015-09-18",
     "link": "/not-paying/liquidation/145-at-bank-finansy-ta-kredyt",
     "active": false
   },
   {
-    "name": "ФІНАНСОВА ІНІЦІАТИВА",
+    "names": [
+      "ФІНАНСОВА ІНІЦІАТИВА"
+    ],
     "start": "2005-05-06",
-    "site": [
+    "problem": "2015-06-24",
+    "sites": [
       "http://www.the-bank.com.ua"
     ],
-    "active": true,
-    "issue": "2015-06-24",
-    "link": "/not-paying/temporary/128-finansovaya-iniciativa"
+    "link": "/not-paying/temporary/128-finansovaya-iniciativa",
+    "active": true
   },
   {
-    "name": "ФІНБАНК",
-    "issue": "2017-04-10",
+    "names": [
+      "ФІНБАНК"
+    ],
+    "problem": "2017-04-10",
     "link": "/not-paying/liquidation/202-pat-finbank",
     "active": false
   },
   {
-    "name": "ФІНРОСТБАНК",
-    "issue": "2014-07-16",
+    "names": [
+      "ФІНРОСТБАНК"
+    ],
+    "problem": "2014-07-16",
     "link": "/not-paying/liquidation/45-finrostbank",
     "active": false
   },
   {
-    "name": "ФОРТУНА-БАНК",
-    "issue": "2017-01-27",
+    "names": [
+      "ФОРТУНА-БАНК"
+    ],
+    "problem": "2017-01-27",
     "link": "/not-paying/liquidation/194-at-fortuna-bank",
     "active": false
   },
   {
-    "name": "ХРЕЩАТИК",
-    "issue": "2016-04-05",
+    "names": [
+      "ХРЕЩАТИК"
+    ],
+    "problem": "2016-04-05",
     "link": "/not-paying/liquidation/165-pat-kb-khreshchatyk",
     "active": false
   },
   {
-    "name": "ЧБРР",
-    "issue": "2015-09-04",
+    "names": [
+      "ЧБРР"
+    ],
+    "problem": "2015-09-04",
     "link": "/not-paying/liquidation/136-pat-chbrr",
     "active": false
   },
   {
-    "name": "ЮНІСОН",
-    "issue": "2016-04-28",
+    "names": [
+      "ЮНІСОН"
+    ],
+    "problem": "2016-04-28",
     "link": "/not-paying/liquidation/167-pat-bank-yunison",
     "active": false
   },
   {
-    "name": "ЮНЕКС БАНК",
+    "names": [
+      "ЮНЕКС БАНК"
+    ],
     "start": "2002-11-05",
-    "site": [
+    "sites": [
       "http://www.unexbank.com.ua"
     ],
     "active": true
   },
   {
-    "name": "ЮСБ БАНК",
-    "issue": "2015-12-28",
+    "names": [
+      "ЮСБ БАНК"
+    ],
+    "problem": "2015-12-28",
     "link": "/not-paying/liquidation/147-pat-yusb-bank",
     "active": false
   }

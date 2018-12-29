@@ -5,12 +5,13 @@ const int = require('../internal');
 const assert = require('../assert');
 const regex = require('../regex');
 const mapAsync = require('../map-async');
+const arrays = require('../arrays');
 
 module.exports = {
     getBanks() {
         const banks = {};
         int.read('minfin/banks').forEach(bank => {
-            bank.name = names.bankName(bank.name);
+            bank.name = names.bankName(bank.names[0]);
             assert.false('Duplicate bank name', banks[bank.name], bank.name);
             banks[bank.name] = bank;
         });
@@ -29,14 +30,14 @@ module.exports = {
                         assert.true('No site', site, bank.name);
                         return {
                             id: parseInt(bank.id),
-                            name: bank.name,
+                            names: [bank.name],
                             link: 'https://minfin.com.ua/ua/company/' + bank.alias,
-                            site: site
+                            sites: arrays.of(site)
                         };
                     })
             );
         }).then(banks => {
-            banks.sort(names.compareName);
+            banks.sort(names.compareNames);
             int.write('minfin/banks', banks);
             return banks;
         })

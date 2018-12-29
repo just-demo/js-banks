@@ -33,24 +33,24 @@ const SourceExample = require('./data-source/source-example');
 //     }
 // }
 
-new Source().getBanks().then(console.log);
-new SourceExample().getBanks().then(console.log);
+// new Source().getBanks().then(console.log);
+// new SourceExample().getBanks().then(console.log);
 
-// const startTime = new Date();
-//
-// Promise.all([
-//     nbuAPI.saveBanks(),
-//     nbuDBF.saveBanks(),
-//     nbuPDF.saveBanks(),
-//     nbuUI.saveBanks(),
-//     fund.saveBanks(),
-//     minfin.saveBanks(),
-//     minfin.saveRatings()
-// ]).then(() => {
-//     names.rebuildBankNames();
-//     combineBanks();
-//     console.log('Total time:', new Date() - startTime);
-// });
+const startTime = new Date();
+
+Promise.all([
+    nbuAPI.saveBanks(),
+    nbuDBF.saveBanks(),
+    nbuPDF.saveBanks(),
+    nbuUI.saveBanks(),
+    fund.saveBanks(),
+    minfin.saveBanks(),
+    minfin.saveRatings()
+]).then(() => {
+    names.rebuildBankNames();
+    combineBanks();
+    console.log('Total time:', new Date() - startTime);
+});
 // names.rebuildBankNames();
 
 // Promise.all([
@@ -118,6 +118,7 @@ function combineBanks() {
         const bank = {
             id: id,
             name: {
+                // TODO: collect names somehow as well
                 dbf: (dbfBanks[id] || {}).name,
                 api: (apiBanks[id] || {}).name,
                 nbu: (nbuBanks[id] || {}).name,
@@ -133,20 +134,21 @@ function combineBanks() {
                 fund: (fundBanks[id] || {}).active
             },
             dateOpen: {
-                dbf: (dbfBanks[id] || {}).dateOpen,
-                api: (apiBanks[id] || {}).dateOpen,
-                nbu: (nbuBanks[id] || {}).dateOpen
+                dbf: (dbfBanks[id] || {}).start,
+                api: (apiBanks[id] || {}).start,
+                nbu: (nbuBanks[id] || {}).start
             },
             dateIssue: {
                 // TODO: fix undefined before this
-                api: (apiBanks[id] || {}).dateIssue || undefined,
-                nbu: (nbuBanks[id] || {}).dateIssue,
-                pdf: (pdfBanks[id] || {}).dateIssue || undefined,
-                fund: (fundBanks[id] || {}).issue,
+                api: (apiBanks[id] || {}).problem || undefined,
+                nbu: (nbuBanks[id] || {}).problem,
+                pdf: (pdfBanks[id] || {}).problem || undefined,
+                fund: (fundBanks[id] || {}).problem,
             },
             site: {
-                fund: (fundBanks[id] || {}).site,
-                minfin: [(minfinBanks[id] || {}).site].filter(site => site)
+                // TODO: do need empty array be default?
+                fund: (fundBanks[id] || {}).sites,
+                minfin: (minfinBanks[id] || {}).sites
             },
             internal: {
                 id: {

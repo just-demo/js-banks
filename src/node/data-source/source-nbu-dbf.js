@@ -1,3 +1,4 @@
+const _ = require('lodash');
 const names = require('../names');
 const ext = require('../external');
 const int = require('../internal');
@@ -12,7 +13,7 @@ module.exports = {
     getBanks() {
         const banks = {};
         int.read('nbu/banks-dbf').forEach(bank => {
-            bank.name = names.bankName(bank.name);
+            bank.name = names.bankName(bank.names[0]);
             assert.false('Duplicate bank name', banks[bank.name], bank.name);
             banks[bank.name] = bank;
         });
@@ -45,14 +46,15 @@ module.exports = {
                     assert.equals('Different date - ' + record['FULLNAME'], record['DATAR'], record['D_OPEN']);
                     return {
                         id: record['SID'],
-                        name: names.extractBankPureName(record['SHORTNAME']),
-                        fullName: names.extractBankPureName(record['FULLNAME']),
-                        dateRegister: dates.formatTimestamp(record['DATAR']),
-                        dateOpen: dates.formatTimestamp(record['D_OPEN']),
+                        names: _.uniq([
+                            names.extractBankPureName(record['SHORTNAME']),
+                            names.extractBankPureName(record['FULLNAME'])
+                        ]),
+                        start: dates.formatTimestamp(record['D_OPEN']),
                         active: record['REESTR'].toUpperCase() !== 'Л'
                     };
                 });
-                banks.sort(names.compareName);
+                banks.sort(names.compareNames);
                 int.write('nbu/banks-dbf', banks);
                 return banks;
             });

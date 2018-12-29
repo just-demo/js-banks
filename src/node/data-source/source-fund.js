@@ -6,12 +6,13 @@ const dates = require('../dates');
 const assert = require('../assert');
 const regex = require('../regex');
 const mapAsync = require('../map-async');
+const arrays = require('../arrays');
 
 module.exports = {
     getBanks() {
         const banks = {};
         int.read('fund/banks').forEach(bank => {
-            bank.name = names.bankName(bank.name);
+            bank.name = names.bankName(bank.names[0]);
             banks[bank.name] = bank;
         });
         return banks;
@@ -19,18 +20,25 @@ module.exports = {
 
     saveBanks() {
         return Promise.all([this.readActiveBanks(), this.readInactiveBanks()]).then(allBanks => {
-            const banks = allBanks[0];
-            const bankByName = _.keyBy(banks, 'name');
-            allBanks[1].forEach(bank => {
-                const existing = bankByName[bank.name];
-                if (assert.false('Bank is still active', existing, bank.name)) {
-                    banks.push(bank);
-                } else {
-                    existing.issue = bank.issue;
-                    existing.link = bank.link;
+            const activeBanks = _.keyBy(allBanks[0], 'name');
+            const inactiveBanks = _.keyBy(allBanks[1], 'name');
+            const banks = _.union(Object.keys(activeBanks), Object.keys(inactiveBanks)).map(name => {
+                assert.false('Bank is still active', activeBanks[name] && inactiveBanks[name], name);
+                return {
+                    ...(inactiveBanks[name] || {}),
+                    ...(activeBanks[name] || {})
+                };
+            }).map(bank => {
+                return {
+                    names: [bank.name],
+                    start: bank.start,
+                    problem: bank.problem,
+                    sites: bank.sites,
+                    link: bank.link,
+                    active: bank.active
                 }
             });
-            banks.sort(names.compareName);
+            banks.sort(names.compareNames);
             int.write('fund/banks', banks);
             return banks;
         });
@@ -44,11 +52,11 @@ module.exports = {
                 return {
                     name: names.extractBankPureName(bank.name),
                     start: dates.format(bank.date),
-                    site: this.extractBankPureSites(bank.site),
+                    sites: this.extractBankPureSites(bank.site),
                     active: true
                 };
             });
-            banks.forEach(bank => assert.false('Many sites', bank.site.length > 1, bank.name, bank.site));
+            banks.forEach(bank => assert.false('Many sites', bank.sites.length > 1, bank.name, bank.sites));
             return banks;
         });
     },
@@ -62,11 +70,11 @@ module.exports = {
             return mapAsync(banks, bank =>
                 ext.read('fund/banks/' + bank.id, 'http://www.fg.gov.ua' + bank.link)
                     .then(htmlBank => {
-                        const issueDates = regex.findManyValues(htmlBank, /<td[^>]*>Термін [^<]*<\/td>\s*<td[^>]*>[^<]*?(\d{2}\.\d{2}\.\d{4})[^<]*<\/td>/g)
+                        const problems = regex.findManyValues(htmlBank, /<td[^>]*>Термін [^<]*<\/td>\s*<td[^>]*>[^<]*?(\d{2}\.\d{2}\.\d{4})[^<]*<\/td>/g)
                             .map(date => dates.format(date));
                         return {
                             name: names.extractBankPureName(bank.name),
-                            issue: _.min(issueDates),
+                            problem: _.min(problems),
                             link: bank.link,
                             active: false
                         };

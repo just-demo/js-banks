@@ -1,1185 +1,1523 @@
 [
   {
     "id": 318,
-    "name": "ЄВРОБАНК",
-    "dateOpen": "2005-01-18",
-    "dateIssue": "2016-08-16",
+    "names": [
+      "ЄВРОБАНК"
+    ],
+    "start": "2005-01-18",
+    "problem": "2016-08-16",
     "active": false
   },
   {
     "id": 330,
-    "name": "ЄВРОГАЗБАНК",
-    "dateOpen": "2006-10-17",
-    "dateIssue": "2014-11-17",
+    "names": [
+      "ЄВРОГАЗБАНК"
+    ],
+    "start": "2006-10-17",
+    "problem": "2014-11-17",
     "active": false
   },
   {
     "id": 395,
-    "name": "ЄПБ",
-    "dateOpen": "2008-08-13",
-    "dateIssue": null,
+    "names": [
+      "ЄПБ"
+    ],
+    "start": "2008-08-13",
+    "problem": null,
     "active": true
   },
   {
     "id": 142,
-    "name": "ІДЕЯ БАНК",
-    "dateOpen": "1991-10-22",
-    "dateIssue": null,
+    "names": [
+      "ІДЕЯ БАНК"
+    ],
+    "start": "1991-10-22",
+    "problem": null,
     "active": true
   },
   {
     "id": 258,
-    "name": "ІМЕКСБАНК",
-    "dateOpen": "1994-03-29",
-    "dateIssue": "2015-05-21",
+    "names": [
+      "ІМЕКСБАНК"
+    ],
+    "start": "1994-03-29",
+    "problem": "2015-05-21",
     "active": false
   },
   {
     "id": 109,
-    "name": "ІНВЕСТБАНК",
-    "dateOpen": "1992-03-31",
-    "dateIssue": "2017-01-11",
+    "names": [
+      "ІНВЕСТБАНК"
+    ],
+    "start": "1992-03-31",
+    "problem": "2017-01-11",
     "active": false
   },
   {
     "id": 573,
-    "name": "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК",
-    "dateOpen": "2013-08-30",
-    "dateIssue": "2016-05-31",
+    "names": [
+      "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК"
+    ],
+    "start": "2013-08-30",
+    "problem": "2016-05-31",
     "active": false
   },
   {
     "id": 295,
-    "name": "ІНГ БАНК УКРАЇНА",
-    "dateOpen": "1997-12-15",
-    "dateIssue": null,
+    "names": [
+      "ІНГ БАНК УКРАЇНА"
+    ],
+    "start": "1997-12-15",
+    "problem": null,
     "active": true
   },
   {
     "id": 101,
-    "name": "ІНДУСТРІАЛБАНК",
-    "dateOpen": "1991-10-16",
-    "dateIssue": null,
+    "names": [
+      "ІНДУСТРІАЛБАНК"
+    ],
+    "start": "1991-10-16",
+    "problem": null,
     "active": true
   },
   {
     "id": 30,
-    "name": "ІНТЕГРАЛ-БАНК",
-    "dateOpen": "1994-09-30",
-    "dateIssue": "2015-11-25",
+    "names": [
+      "ІНТЕГРАЛ-БАНК"
+    ],
+    "start": "1994-09-30",
+    "problem": "2015-11-25",
     "active": false
   },
   {
     "id": 35,
-    "name": "ІНТЕРБАНК",
-    "dateOpen": "1992-03-23",
-    "dateIssue": "2014-07-23",
+    "names": [
+      "ІНТЕРБАНК"
+    ],
+    "start": "1992-03-23",
+    "problem": "2014-07-23",
     "active": false
   },
   {
     "id": 466,
-    "name": "ІНТЕРКРЕДИТБАНК",
-    "dateOpen": "2011-06-14",
-    "dateIssue": "2015-01-16",
+    "names": [
+      "ІНТЕРКРЕДИТБАНК"
+    ],
+    "start": "2011-06-14",
+    "problem": "2015-01-16",
     "active": false
   },
   {
     "id": 96,
-    "name": "А-БАНК",
-    "dateOpen": "1992-10-30",
-    "dateIssue": null,
+    "names": [
+      "А-БАНК"
+    ],
+    "start": "1992-10-30",
+    "problem": null,
     "active": true
   },
   {
     "id": 403,
-    "name": "АВАНТ-БАНК",
-    "dateOpen": "2009-03-05",
-    "dateIssue": "2016-02-25",
+    "names": [
+      "АВАНТ-БАНК"
+    ],
+    "start": "2009-03-05",
+    "problem": "2016-02-25",
     "active": false
   },
   {
     "id": 241,
-    "name": "АЙБОКС БАНК",
-    "dateOpen": "1993-12-24",
-    "dateIssue": null,
+    "names": [
+      "АЙБОКС БАНК"
+    ],
+    "start": "1993-12-24",
+    "problem": null,
     "active": true
   },
   {
     "id": 198,
-    "name": "АКБ БАНК",
-    "dateOpen": "1993-07-07",
-    "dateIssue": "2014-08-29",
+    "names": [
+      "АКБ БАНК"
+    ],
+    "start": "1993-07-07",
+    "problem": "2014-08-29",
     "active": false
   },
   {
     "id": 392,
-    "name": "АКОРДБАНК",
-    "dateOpen": "2008-06-04",
-    "dateIssue": null,
+    "names": [
+      "АКОРДБАНК"
+    ],
+    "start": "2008-06-04",
+    "problem": null,
     "active": true
   },
   {
     "id": 323,
-    "name": "АКСІОМА",
-    "dateOpen": "2006-01-10",
-    "dateIssue": "2015-01-30",
+    "names": [
+      "АКСІОМА"
+    ],
+    "start": "2006-01-10",
+    "problem": "2015-01-30",
     "active": false
   },
   {
     "id": 390,
-    "name": "АКТАБАНК",
-    "dateOpen": "2008-04-23",
-    "dateIssue": "2015-01-16",
+    "names": [
+      "АКТАБАНК"
+    ],
+    "start": "2008-04-23",
+    "problem": "2015-01-16",
     "active": false
   },
   {
     "id": 302,
-    "name": "АКТИВ-БАНК",
-    "dateOpen": "2002-08-06",
-    "dateIssue": "2014-12-23",
+    "names": [
+      "АКТИВ-БАНК"
+    ],
+    "start": "2002-08-06",
+    "problem": "2014-12-23",
     "active": false
   },
   {
     "id": 512,
-    "name": "АЛЬПАРІ БАНК",
-    "dateOpen": "2012-10-26",
-    "dateIssue": null,
+    "names": [
+      "АЛЬПАРІ БАНК"
+    ],
+    "start": "2012-10-26",
+    "problem": null,
     "active": true
   },
   {
     "id": 43,
-    "name": "АЛЬТБАНК",
-    "dateOpen": "1991-10-21",
-    "dateIssue": null,
+    "names": [
+      "АЛЬТБАНК"
+    ],
+    "start": "1991-10-21",
+    "problem": null,
     "active": true
   },
   {
     "id": 272,
-    "name": "АЛЬФА-БАНК",
-    "dateOpen": "1993-03-24",
-    "dateIssue": null,
+    "names": [
+      "АЛЬФА-БАНК"
+    ],
+    "start": "1993-03-24",
+    "problem": null,
     "active": true
   },
   {
     "id": 387,
-    "name": "АП БАНК",
-    "dateOpen": "2007-11-28",
-    "dateIssue": "2015-10-02",
+    "names": [
+      "АП БАНК"
+    ],
+    "start": "2007-11-28",
+    "problem": "2015-10-02",
     "active": true
   },
   {
     "id": 191,
-    "name": "АРКАДА",
-    "dateOpen": "1993-06-23",
-    "dateIssue": null,
+    "names": [
+      "АРКАДА"
+    ],
+    "start": "1993-06-23",
+    "problem": null,
     "active": true
   },
   {
     "id": 303,
-    "name": "АРТЕМ-БАНК",
-    "dateOpen": "2002-08-06",
-    "dateIssue": "2016-12-15",
+    "names": [
+      "АРТЕМ-БАНК"
+    ],
+    "start": "2002-08-06",
+    "problem": "2016-12-15",
     "active": false
   },
   {
     "id": 133,
-    "name": "АСВІО БАНК",
-    "dateOpen": "1991-10-30",
-    "dateIssue": null,
+    "names": [
+      "АСВІО БАНК"
+    ],
+    "start": "1991-10-30",
+    "problem": null,
     "active": true
   },
   {
     "id": 394,
-    "name": "БАНК 3/4",
-    "dateOpen": "2008-07-25",
-    "dateIssue": null,
+    "names": [
+      "БАНК 3/4"
+    ],
+    "start": "2008-07-25",
+    "problem": null,
     "active": true
   },
   {
     "id": 320,
-    "name": "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ",
-    "dateOpen": "2005-08-09",
-    "dateIssue": null,
+    "names": [
+      "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ"
+    ],
+    "start": "2005-08-09",
+    "problem": null,
     "active": true
   },
   {
     "id": 553,
-    "name": "БАНК АВАНГАРД",
-    "dateOpen": "2013-07-05",
-    "dateIssue": null,
+    "names": [
+      "БАНК АВАНГАРД"
+    ],
+    "start": "2013-07-05",
+    "problem": null,
     "active": true
   },
   {
     "id": 29,
-    "name": "БАНК АЛЬЯНС",
-    "dateOpen": "1992-03-10",
-    "dateIssue": null,
+    "names": [
+      "БАНК АЛЬЯНС"
+    ],
+    "start": "1992-03-10",
+    "problem": null,
     "active": true
   },
   {
     "id": 328,
-    "name": "БАНК БОГУСЛАВ",
-    "dateOpen": "2006-08-04",
-    "dateIssue": "2017-11-30",
+    "names": [
+      "БАНК БОГУСЛАВ"
+    ],
+    "start": "2006-08-04",
+    "problem": "2017-11-30",
     "active": false
   },
   {
     "id": 255,
-    "name": "БАНК ВЕЛЕС",
-    "dateOpen": "1994-03-18",
-    "dateIssue": "2015-12-10",
+    "names": [
+      "БАНК ВЕЛЕС"
+    ],
+    "start": "1994-03-18",
+    "problem": "2015-12-10",
     "active": false
   },
   {
     "id": 305,
-    "name": "БАНК ВОСТОК",
-    "dateOpen": "2002-10-17",
-    "dateIssue": null,
+    "names": [
+      "БАНК ВОСТОК"
+    ],
+    "start": "2002-10-17",
+    "problem": null,
     "active": true
   },
   {
     "id": 209,
-    "name": "БАНК ЗОЛОТІ ВОРОТА",
-    "dateOpen": "1993-08-18",
-    "dateIssue": "2014-12-04",
+    "names": [
+      "БАНК ЗОЛОТІ ВОРОТА"
+    ],
+    "start": "1993-08-18",
+    "problem": "2014-12-04",
     "active": false
   },
   {
     "id": 315,
-    "name": "БАНК КАМБІО",
-    "dateOpen": "2004-06-30",
-    "dateIssue": "2015-02-27",
+    "names": [
+      "БАНК КАМБІО"
+    ],
+    "start": "2004-06-30",
+    "problem": "2015-02-27",
     "active": false
   },
   {
     "id": 270,
-    "name": "БАНК КРЕДИТ ДНІПРО",
-    "dateOpen": "1993-07-07",
-    "dateIssue": null,
+    "names": [
+      "БАНК КРЕДИТ ДНІПРО"
+    ],
+    "start": "1993-07-07",
+    "problem": null,
     "active": true
   },
   {
     "id": 533,
-    "name": "БАНК МИХАЙЛІВСЬКИЙ",
-    "dateOpen": "2013-06-14",
-    "dateIssue": "2016-07-12",
+    "names": [
+      "БАНК МИХАЙЛІВСЬКИЙ"
+    ],
+    "start": "2013-06-14",
+    "problem": "2016-07-12",
     "active": false
   },
   {
     "id": 277,
-    "name": "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ",
-    "dateOpen": "1996-01-31",
-    "dateIssue": "2015-08-31",
+    "names": [
+      "БАНК НАЦІОНАЛЬНИЙ КРЕДИТ"
+    ],
+    "start": "1996-01-31",
+    "problem": "2015-08-31",
     "active": false
   },
   {
     "id": 283,
-    "name": "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА",
-    "dateOpen": "1996-09-26",
-    "dateIssue": "2016-04-21",
+    "names": [
+      "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА"
+    ],
+    "start": "1996-09-26",
+    "problem": "2016-04-21",
     "active": false
   },
   {
     "id": 460,
-    "name": "БАНК СІЧ",
-    "dateOpen": "2011-05-24",
-    "dateIssue": null,
+    "names": [
+      "БАНК СІЧ"
+    ],
+    "start": "2011-05-24",
+    "problem": null,
     "active": true
   },
   {
     "id": 311,
-    "name": "БАНК ТРАСТ-КАПІТАЛ",
-    "dateOpen": "2004-03-10",
-    "dateIssue": null,
+    "names": [
+      "БАНК ТРАСТ-КАПІТАЛ"
+    ],
+    "start": "2004-03-10",
+    "problem": null,
     "active": true
   },
   {
     "id": 72,
-    "name": "БАНК ФАМІЛЬНИЙ",
-    "dateOpen": "1991-12-27",
-    "dateIssue": null,
+    "names": [
+      "БАНК ФАМІЛЬНИЙ"
+    ],
+    "start": "1991-12-27",
+    "problem": null,
     "active": true
   },
   {
     "id": 325,
-    "name": "БАНК ФОРВАРД",
-    "dateOpen": "2006-02-28",
-    "dateIssue": null,
+    "names": [
+      "БАНК ФОРВАРД"
+    ],
+    "start": "2006-02-28",
+    "problem": null,
     "active": true
   },
   {
     "id": 248,
-    "name": "БАНК ФОРУМ",
-    "dateOpen": "1994-01-31",
-    "dateIssue": "2014-06-16",
+    "names": [
+      "БАНК ФОРУМ"
+    ],
+    "start": "1994-01-31",
+    "problem": "2014-06-16",
     "active": false
   },
   {
     "id": 228,
-    "name": "БГ БАНК",
-    "dateOpen": "1994-01-26",
-    "dateIssue": "2015-02-27",
+    "names": [
+      "БГ БАНК"
+    ],
+    "start": "1994-01-26",
+    "problem": "2015-02-27",
     "active": false
   },
   {
     "id": 37,
-    "name": "БРОКБІЗНЕСБАНК",
-    "dateOpen": "1991-10-07",
-    "dateIssue": "2014-06-11",
+    "names": [
+      "БРОКБІЗНЕСБАНК"
+    ],
+    "start": "1991-10-07",
+    "problem": "2014-06-11",
     "active": false
   },
   {
     "id": 129,
-    "name": "БТА БАНК",
-    "dateOpen": "1992-12-10",
-    "dateIssue": null,
+    "names": [
+      "БТА БАНК"
+    ],
+    "start": "1992-12-10",
+    "problem": null,
     "active": true
   },
   {
     "id": 76,
-    "name": "ВІЕЙБІ БАНК",
-    "dateOpen": "1992-07-02",
-    "dateIssue": "2015-03-19",
+    "names": [
+      "ВІЕЙБІ БАНК"
+    ],
+    "start": "1992-07-02",
+    "problem": "2015-03-19",
     "active": false
   },
   {
     "id": 405,
-    "name": "ВБР",
-    "dateOpen": "2009-04-30",
-    "dateIssue": "2015-12-21",
+    "names": [
+      "ВБР"
+    ],
+    "start": "2009-04-30",
+    "problem": "2015-12-21",
     "active": false
   },
   {
     "id": 674,
-    "name": "ВЕКТОР БАНК",
-    "dateOpen": "2014-01-31",
-    "dateIssue": "2017-03-21",
+    "names": [
+      "ВЕКТОР БАНК"
+    ],
+    "start": "2014-01-31",
+    "problem": "2017-03-21",
     "active": false
   },
   {
     "id": 402,
-    "name": "ВЕРНУМ БАНК",
-    "dateOpen": "2009-02-17",
-    "dateIssue": "2018-11-09",
+    "names": [
+      "ВЕРНУМ БАНК"
+    ],
+    "start": "2009-02-17",
+    "problem": "2018-11-09",
     "active": false
   },
   {
     "id": 42,
-    "name": "ВТБ БАНК",
-    "dateOpen": "1992-11-11",
-    "dateIssue": "2018-12-18",
+    "names": [
+      "ВТБ БАНК"
+    ],
+    "start": "1992-11-11",
+    "problem": "2018-12-18",
     "active": false
   },
   {
     "id": 654,
-    "name": "ГЕФЕСТ",
-    "dateOpen": "2013-10-04",
-    "dateIssue": "2017-09-29",
+    "names": [
+      "ГЕФЕСТ"
+    ],
+    "start": "2013-10-04",
+    "problem": "2017-09-29",
     "active": false
   },
   {
     "id": 386,
-    "name": "ГЛОБУС",
-    "dateOpen": "2007-11-29",
-    "dateIssue": null,
+    "names": [
+      "ГЛОБУС"
+    ],
+    "start": "2007-11-29",
+    "problem": null,
     "active": true
   },
   {
     "id": 127,
-    "name": "ГРІН БАНК",
-    "dateOpen": "1992-01-09",
-    "dateIssue": "2015-01-23",
+    "names": [
+      "ГРІН БАНК"
+    ],
+    "start": "1992-01-09",
+    "problem": "2015-01-23",
     "active": false
   },
   {
     "id": 123,
-    "name": "ГРАНТ",
-    "dateOpen": "1991-10-29",
-    "dateIssue": null,
+    "names": [
+      "ГРАНТ"
+    ],
+    "start": "1991-10-29",
+    "problem": null,
     "active": true
   },
   {
     "id": 232,
-    "name": "ДІАМАНТБАНК",
-    "dateOpen": "1993-11-17",
-    "dateIssue": "2017-06-22",
+    "names": [
+      "ДІАМАНТБАНК"
+    ],
+    "start": "1993-11-17",
+    "problem": "2017-06-22",
     "active": false
   },
   {
     "id": 60,
-    "name": "ДАНІЕЛЬ",
-    "dateOpen": "2003-11-27",
-    "dateIssue": "2014-04-15",
+    "names": [
+      "ДАНІЕЛЬ"
+    ],
+    "start": "2003-11-27",
+    "problem": "2014-04-15",
     "active": false
   },
   {
     "id": 324,
-    "name": "ДЕЛЬТА БАНК",
-    "dateOpen": "2006-02-15",
-    "dateIssue": "2015-10-02",
+    "names": [
+      "ДЕЛЬТА БАНК"
+    ],
+    "start": "2006-02-15",
+    "problem": "2015-10-02",
     "active": false
   },
   {
     "id": 137,
-    "name": "ДЕМАРК",
-    "dateOpen": "1992-07-10",
-    "dateIssue": "2015-01-30",
+    "names": [
+      "ДЕМАРК"
+    ],
+    "start": "1992-07-10",
+    "problem": "2015-01-30",
     "active": false
   },
   {
     "id": 407,
-    "name": "ДОЙЧЕ БАНК ДБУ",
-    "dateOpen": "2009-06-19",
-    "dateIssue": null,
+    "names": [
+      "ДОЙЧЕ БАНК ДБУ"
+    ],
+    "start": "2009-06-19",
+    "problem": null,
     "active": true
   },
   {
     "id": 67,
-    "name": "ЕКСПОБАНК",
-    "dateOpen": "1991-12-26",
-    "dateIssue": "2015-01-23",
+    "names": [
+      "ЕКСПОБАНК"
+    ],
+    "start": "1991-12-26",
+    "problem": "2015-01-23",
     "active": false
   },
   {
     "id": 31,
-    "name": "ЕНЕРГОБАНК",
-    "dateOpen": "1991-10-31",
-    "dateIssue": "2015-06-11",
+    "names": [
+      "ЕНЕРГОБАНК"
+    ],
+    "start": "1991-10-31",
+    "problem": "2015-06-11",
     "active": false
   },
   {
     "id": 273,
-    "name": "ЗАХІДІНКОМБАНК",
-    "dateOpen": "1993-03-11",
-    "dateIssue": "2014-07-23",
+    "names": [
+      "ЗАХІДІНКОМБАНК"
+    ],
+    "start": "1993-03-11",
+    "problem": "2014-07-23",
     "active": false
   },
   {
     "id": 243,
-    "name": "ЗЕМЕЛЬНИЙ КАПІТАЛ",
-    "dateOpen": "1994-01-31",
-    "dateIssue": null,
+    "names": [
+      "ЗЕМЕЛЬНИЙ КАПІТАЛ"
+    ],
+    "start": "1994-01-31",
+    "problem": null,
     "active": true
   },
   {
     "id": 391,
-    "name": "ЗЛАТОБАНК",
-    "dateOpen": "2008-05-16",
-    "dateIssue": "2015-05-12",
+    "names": [
+      "ЗЛАТОБАНК"
+    ],
+    "start": "2008-05-16",
+    "problem": "2015-05-12",
     "active": false
   },
   {
     "id": 240,
-    "name": "КІБ",
-    "dateOpen": "1993-12-03",
-    "dateIssue": null,
+    "names": [
+      "КІБ"
+    ],
+    "start": "1993-12-03",
+    "problem": null,
     "active": true
   },
   {
     "id": 57,
-    "name": "КАПІТАЛ",
-    "dateOpen": "1991-10-31",
-    "dateIssue": "2015-10-29",
+    "names": [
+      "КАПІТАЛ"
+    ],
+    "start": "1991-10-31",
+    "problem": "2015-10-29",
     "active": false
   },
   {
     "id": 203,
-    "name": "КИЇВ",
-    "dateOpen": "1993-05-19",
-    "dateIssue": "2015-06-24",
+    "names": [
+      "КИЇВ"
+    ],
+    "start": "1993-05-19",
+    "problem": "2015-06-24",
     "active": false
   },
   {
     "id": 280,
-    "name": "КИЇВСЬКА РУСЬ",
-    "dateOpen": "1996-05-30",
-    "dateIssue": "2015-07-16",
+    "names": [
+      "КИЇВСЬКА РУСЬ"
+    ],
+    "start": "1996-05-30",
+    "problem": "2015-07-16",
     "active": false
   },
   {
     "id": 288,
-    "name": "КЛІРИНГОВИЙ ДІМ",
-    "dateOpen": "1996-12-30",
-    "dateIssue": null,
+    "names": [
+      "КЛІРИНГОВИЙ ДІМ"
+    ],
+    "start": "1996-12-30",
+    "problem": null,
     "active": true
   },
   {
     "id": 276,
-    "name": "КЛАСИКБАНК",
-    "dateOpen": "1995-10-06",
-    "dateIssue": "2016-08-11",
+    "names": [
+      "КЛАСИКБАНК"
+    ],
+    "start": "1995-10-06",
+    "problem": "2016-08-11",
     "active": false
   },
   {
     "id": 143,
-    "name": "КОМІНВЕСТБАНК",
-    "dateOpen": "1992-12-16",
-    "dateIssue": null,
+    "names": [
+      "КОМІНВЕСТБАНК"
+    ],
+    "start": "1992-12-16",
+    "problem": null,
     "active": true
   },
   {
     "id": 326,
-    "name": "КОНКОРД",
-    "dateOpen": "2006-08-07",
-    "dateIssue": null,
+    "names": [
+      "КОНКОРД"
+    ],
+    "start": "2006-08-07",
+    "problem": null,
     "active": true
   },
   {
     "id": 201,
-    "name": "КОНТРАКТ",
-    "dateOpen": "1993-05-18",
-    "dateIssue": "2015-12-10",
+    "names": [
+      "КОНТРАКТ"
+    ],
+    "start": "1993-05-18",
+    "problem": "2015-12-10",
     "active": false
   },
   {
     "id": 171,
-    "name": "КРЕДІ АГРІКОЛЬ БАНК",
-    "dateOpen": "1993-02-10",
-    "dateIssue": null,
+    "names": [
+      "КРЕДІ АГРІКОЛЬ БАНК"
+    ],
+    "start": "1993-02-10",
+    "problem": null,
     "active": true
   },
   {
     "id": 329,
-    "name": "КРЕДИТ ЄВРОПА БАНК",
-    "dateOpen": "2006-08-28",
-    "dateIssue": null,
+    "names": [
+      "КРЕДИТ ЄВРОПА БАНК"
+    ],
+    "start": "2006-08-28",
+    "problem": null,
     "active": true
   },
   {
     "id": 331,
-    "name": "КРЕДИТВЕСТ БАНК",
-    "dateOpen": "2006-10-04",
-    "dateIssue": null,
+    "names": [
+      "КРЕДИТВЕСТ БАНК"
+    ],
+    "start": "2006-10-04",
+    "problem": null,
     "active": true
   },
   {
     "id": 289,
-    "name": "КРЕДИТПРОМБАНК",
-    "dateOpen": "1997-05-20",
-    "dateIssue": "2015-06-02",
+    "names": [
+      "КРЕДИТПРОМБАНК"
+    ],
+    "start": "1997-05-20",
+    "problem": "2015-06-02",
     "active": false
   },
   {
     "id": 88,
-    "name": "КРЕДОБАНК",
-    "dateOpen": "1992-03-31",
-    "dateIssue": null,
+    "names": [
+      "КРЕДОБАНК"
+    ],
+    "start": "1992-03-31",
+    "problem": null,
     "active": true
   },
   {
     "id": 694,
-    "name": "КРИСТАЛБАНК",
-    "dateOpen": "2014-12-16",
-    "dateIssue": null,
+    "names": [
+      "КРИСТАЛБАНК"
+    ],
+    "start": "2014-12-16",
+    "problem": null,
     "active": true
   },
   {
     "id": 237,
-    "name": "КСГ БАНК",
-    "dateOpen": "1993-11-24",
-    "dateIssue": "2016-08-30",
+    "names": [
+      "КСГ БАНК"
+    ],
+    "start": "1993-11-24",
+    "problem": "2016-08-30",
     "active": false
   },
   {
     "id": 13,
-    "name": "ЛЕГБАНК",
-    "dateOpen": "1991-10-08",
-    "dateIssue": "2015-02-27",
+    "names": [
+      "ЛЕГБАНК"
+    ],
+    "start": "1991-10-08",
+    "problem": "2015-02-27",
     "active": false
   },
   {
     "id": 91,
-    "name": "ЛЬВІВ",
-    "dateOpen": "1991-10-14",
-    "dateIssue": null,
+    "names": [
+      "ЛЬВІВ"
+    ],
+    "start": "1991-10-14",
+    "problem": null,
     "active": true
   },
   {
     "id": 389,
-    "name": "МІБ",
-    "dateOpen": "2008-03-11",
-    "dateIssue": null,
+    "names": [
+      "МІБ"
+    ],
+    "start": "2008-03-11",
+    "problem": null,
     "active": true
   },
   {
     "id": 206,
-    "name": "МІСТО БАНК",
-    "dateOpen": "1993-07-23",
-    "dateIssue": null,
+    "names": [
+      "МІСТО БАНК"
+    ],
+    "start": "1993-07-23",
+    "problem": null,
     "active": true
   },
   {
     "id": 333,
-    "name": "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК",
-    "dateOpen": "2006-05-06",
-    "dateIssue": "2015-03-19",
+    "names": [
+      "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК"
+    ],
+    "start": "2006-05-06",
+    "problem": "2015-03-19",
     "active": false
   },
   {
     "id": 126,
-    "name": "МЕГАБАНК",
-    "dateOpen": "1991-10-28",
-    "dateIssue": null,
+    "names": [
+      "МЕГАБАНК"
+    ],
+    "start": "1991-10-28",
+    "problem": null,
     "active": true
   },
   {
     "id": 470,
-    "name": "МЕЛІОР БАНК",
-    "dateOpen": "2012-02-24",
-    "dateIssue": "2015-02-10",
+    "names": [
+      "МЕЛІОР БАНК"
+    ],
+    "start": "2012-02-24",
+    "problem": "2015-02-10",
     "active": false
   },
   {
     "id": 98,
-    "name": "МЕРКУРІЙ",
-    "dateOpen": "1992-11-18",
-    "dateIssue": "2014-06-12",
+    "names": [
+      "МЕРКУРІЙ"
+    ],
+    "start": "1992-11-18",
+    "problem": "2014-06-12",
     "active": false
   },
   {
     "id": 205,
-    "name": "МЕТАБАНК",
-    "dateOpen": "1993-07-12",
-    "dateIssue": null,
+    "names": [
+      "МЕТАБАНК"
+    ],
+    "start": "1993-07-12",
+    "problem": null,
     "active": true
   },
   {
     "id": 381,
-    "name": "МОТОР-БАНК",
-    "dateOpen": "2007-08-10",
-    "dateIssue": null,
+    "names": [
+      "МОТОР-БАНК"
+    ],
+    "start": "2007-08-10",
+    "problem": null,
     "active": true
   },
   {
     "id": 105,
-    "name": "МТБ БАНК",
-    "dateOpen": "1993-11-05",
-    "dateIssue": "2018-12-10",
+    "names": [
+      "МТБ БАНК"
+    ],
+    "start": "1993-11-05",
+    "problem": "2018-12-10",
     "active": true
   },
   {
     "id": 225,
-    "name": "НАДРА",
-    "dateOpen": "1993-10-26",
-    "dateIssue": "2015-06-04",
+    "names": [
+      "НАДРА"
+    ],
+    "start": "1993-10-26",
+    "problem": "2015-06-04",
     "active": false
   },
   {
     "id": 227,
-    "name": "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ",
-    "dateOpen": "1993-11-09",
-    "dateIssue": "2015-12-01",
+    "names": [
+      "НАЦІОНАЛЬНІ ІНВЕСТИЦІЇ"
+    ],
+    "start": "1993-11-09",
+    "problem": "2015-12-01",
     "active": false
   },
   {
     "id": 169,
-    "name": "НК БАНК",
-    "dateOpen": "1993-09-21",
-    "dateIssue": "2017-03-07",
+    "names": [
+      "НК БАНК"
+    ],
+    "start": "1993-09-21",
+    "problem": "2017-03-07",
     "active": false
   },
   {
     "id": 48,
-    "name": "НОВИЙ",
-    "dateOpen": "1992-04-06",
-    "dateIssue": "2017-08-31",
+    "names": [
+      "НОВИЙ"
+    ],
+    "start": "1992-04-06",
+    "problem": "2017-08-31",
     "active": false
   },
   {
     "id": 95,
-    "name": "ОКСІ БАНК",
-    "dateOpen": "1991-10-14",
-    "dateIssue": null,
+    "names": [
+      "ОКСІ БАНК"
+    ],
+    "start": "1991-10-14",
+    "problem": null,
     "active": true
   },
   {
     "id": 11,
-    "name": "ОМЕГА БАНК",
-    "dateOpen": "1991-10-31",
-    "dateIssue": "2015-07-06",
+    "names": [
+      "ОМЕГА БАНК"
+    ],
+    "start": "1991-10-31",
+    "problem": "2015-07-06",
     "active": false
   },
   {
     "id": 296,
-    "name": "ОТП БАНК",
-    "dateOpen": "1998-03-02",
-    "dateIssue": null,
+    "names": [
+      "ОТП БАНК"
+    ],
+    "start": "1998-03-02",
+    "problem": null,
     "active": true
   },
   {
     "id": 6,
-    "name": "ОЩАДБАНК",
-    "dateOpen": "1991-12-31",
-    "dateIssue": null,
+    "names": [
+      "ОЩАДБАНК"
+    ],
+    "start": "1991-12-31",
+    "problem": null,
     "active": true
   },
   {
     "id": 45,
-    "name": "ПІВДЕНКОМБАНК",
-    "dateOpen": "1991-10-03",
-    "dateIssue": "2014-09-26",
+    "names": [
+      "ПІВДЕНКОМБАНК"
+    ],
+    "start": "1991-10-03",
+    "problem": "2014-09-26",
     "active": false
   },
   {
     "id": 106,
-    "name": "ПІВДЕННИЙ",
-    "dateOpen": "1993-12-03",
-    "dateIssue": null,
+    "names": [
+      "ПІВДЕННИЙ"
+    ],
+    "start": "1993-12-03",
+    "problem": null,
     "active": true
   },
   {
     "id": 251,
-    "name": "ПІРЕУС БАНК МКБ",
-    "dateOpen": "1994-01-31",
-    "dateIssue": null,
+    "names": [
+      "ПІРЕУС БАНК МКБ"
+    ],
+    "start": "1994-01-31",
+    "problem": null,
     "active": true
   },
   {
     "id": 290,
-    "name": "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК",
-    "dateOpen": "1997-06-20",
-    "dateIssue": null,
+    "names": [
+      "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК"
+    ],
+    "start": "1997-06-20",
+    "problem": null,
     "active": true
   },
   {
     "id": 49,
-    "name": "ПОЛІКОМБАНК",
-    "dateOpen": "1994-08-18",
-    "dateIssue": null,
+    "names": [
+      "ПОЛІКОМБАНК"
+    ],
+    "start": "1994-08-18",
+    "problem": null,
     "active": true
   },
   {
     "id": 113,
-    "name": "ПОЛТАВА-БАНК",
-    "dateOpen": "1991-10-16",
-    "dateIssue": null,
+    "names": [
+      "ПОЛТАВА-БАНК"
+    ],
+    "start": "1991-10-16",
+    "problem": null,
     "active": true
   },
   {
     "id": 634,
-    "name": "ПОРТАЛ",
-    "dateOpen": "2013-09-20",
-    "dateIssue": null,
+    "names": [
+      "ПОРТАЛ"
+    ],
+    "start": "2013-09-20",
+    "problem": null,
     "active": true
   },
   {
     "id": 107,
-    "name": "ПОРТО-ФРАНКО",
-    "dateOpen": "1991-10-17",
-    "dateIssue": "2015-01-30",
+    "names": [
+      "ПОРТО-ФРАНКО"
+    ],
+    "start": "1991-10-17",
+    "problem": "2015-01-30",
     "active": false
   },
   {
     "id": 153,
-    "name": "ПРАВЕКС БАНК",
-    "dateOpen": "1992-12-29",
-    "dateIssue": null,
+    "names": [
+      "ПРАВЕКС БАНК"
+    ],
+    "start": "1992-12-29",
+    "problem": null,
     "active": true
   },
   {
     "id": 300,
-    "name": "ПРАЙМ-БАНК",
-    "dateOpen": "2001-07-30",
-    "dateIssue": "2015-01-15",
+    "names": [
+      "ПРАЙМ-БАНК"
+    ],
+    "start": "2001-07-30",
+    "problem": "2015-01-15",
     "active": false
   },
   {
     "id": 379,
-    "name": "ПРЕМІУМ",
-    "dateOpen": "2007-07-24",
-    "dateIssue": "2016-02-10",
+    "names": [
+      "ПРЕМІУМ"
+    ],
+    "start": "2007-07-24",
+    "problem": "2016-02-10",
     "active": false
   },
   {
     "id": 46,
-    "name": "ПРИВАТБАНК",
-    "dateOpen": "1992-03-19",
-    "dateIssue": "2016-12-22",
+    "names": [
+      "ПРИВАТБАНК"
+    ],
+    "start": "1992-03-19",
+    "problem": "2016-12-22",
     "active": true
   },
   {
     "id": 298,
-    "name": "ПРОКРЕДИТ БАНК",
-    "dateOpen": "2000-12-28",
-    "dateIssue": null,
+    "names": [
+      "ПРОКРЕДИТ БАНК"
+    ],
+    "start": "2000-12-28",
+    "problem": null,
     "active": true
   },
   {
     "id": 3,
-    "name": "ПРОМІНВЕСТБАНК",
-    "dateOpen": "1992-08-26",
-    "dateIssue": null,
+    "names": [
+      "ПРОМІНВЕСТБАНК"
+    ],
+    "start": "1992-08-26",
+    "problem": null,
     "active": true
   },
   {
     "id": 59,
-    "name": "ПРОМЕКОНОМБАНК",
-    "dateOpen": "1993-08-25",
-    "dateIssue": "2014-09-08",
+    "names": [
+      "ПРОМЕКОНОМБАНК"
+    ],
+    "start": "1993-08-25",
+    "problem": "2014-09-08",
     "active": false
   },
   {
     "id": 53,
-    "name": "ПРОФІН БАНК",
-    "dateOpen": "1991-10-01",
-    "dateIssue": "2015-04-15",
+    "names": [
+      "ПРОФІН БАНК"
+    ],
+    "start": "1991-10-01",
+    "problem": "2015-04-15",
     "active": false
   },
   {
     "id": 316,
-    "name": "ПТБ",
-    "dateOpen": "2005-01-13",
-    "dateIssue": "2017-02-23",
+    "names": [
+      "ПТБ"
+    ],
+    "start": "2005-01-13",
+    "problem": "2017-02-23",
     "active": false
   },
   {
     "id": 115,
-    "name": "ПУМБ",
-    "dateOpen": "1991-12-23",
-    "dateIssue": null,
+    "names": [
+      "ПУМБ"
+    ],
+    "start": "1991-12-23",
+    "problem": null,
     "active": true
   },
   {
     "id": 286,
-    "name": "РАДАБАНК",
-    "dateOpen": "1993-12-03",
-    "dateIssue": null,
+    "names": [
+      "РАДАБАНК"
+    ],
+    "start": "1993-12-03",
+    "problem": null,
     "active": true
   },
   {
     "id": 409,
-    "name": "РАДИКАЛ БАНК",
-    "dateOpen": "2010-03-23",
-    "dateIssue": "2015-11-09",
+    "names": [
+      "РАДИКАЛ БАНК"
+    ],
+    "start": "2010-03-23",
+    "problem": "2015-11-09",
     "active": false
   },
   {
     "id": 36,
-    "name": "РАЙФФАЙЗЕН БАНК АВАЛЬ",
-    "dateOpen": "1992-03-27",
-    "dateIssue": null,
+    "names": [
+      "РАЙФФАЙЗЕН БАНК АВАЛЬ"
+    ],
+    "start": "1992-03-27",
+    "problem": null,
     "active": true
   },
   {
     "id": 774,
-    "name": "РВС БАНК",
-    "dateOpen": "2015-06-25",
-    "dateIssue": "2015-06-25",
+    "names": [
+      "РВС БАНК"
+    ],
+    "start": "2015-06-25",
+    "problem": "2015-06-25",
     "active": true
   },
   {
     "id": 124,
-    "name": "РЕАЛ БАНК",
-    "dateOpen": "1991-10-29",
-    "dateIssue": "2014-05-21",
+    "names": [
+      "РЕАЛ БАНК"
+    ],
+    "start": "1991-10-29",
+    "problem": "2014-05-21",
     "active": false
   },
   {
     "id": 66,
-    "name": "РОДОВІД БАНК",
-    "dateOpen": "1991-10-07",
-    "dateIssue": "2017-12-19",
+    "names": [
+      "РОДОВІД БАНК"
+    ],
+    "start": "1991-10-07",
+    "problem": "2017-12-19",
     "active": false
   },
   {
     "id": 593,
-    "name": "РОЗРАХУНКОВИЙ ЦЕНТР",
-    "dateOpen": "2013-09-06",
-    "dateIssue": null,
+    "names": [
+      "РОЗРАХУНКОВИЙ ЦЕНТР"
+    ],
+    "start": "2013-09-06",
+    "problem": null,
     "active": true
   },
   {
     "id": 297,
-    "name": "СІТІБАНК",
-    "dateOpen": "1998-05-11",
-    "dateIssue": null,
+    "names": [
+      "СІТІБАНК"
+    ],
+    "start": "1998-05-11",
+    "problem": null,
     "active": true
   },
   {
     "id": 299,
-    "name": "СБЕРБАНК",
-    "dateOpen": "2001-06-15",
-    "dateIssue": null,
+    "names": [
+      "СБЕРБАНК"
+    ],
+    "start": "2001-06-15",
+    "problem": null,
     "active": true
   },
   {
     "id": 455,
-    "name": "СЕБ КОРПОРАТИВНИЙ БАНК",
-    "dateOpen": "2011-01-19",
-    "dateIssue": null,
+    "names": [
+      "СЕБ КОРПОРАТИВНИЙ БАНК"
+    ],
+    "start": "2011-01-19",
+    "problem": null,
     "active": true
   },
   {
     "id": 128,
-    "name": "СКАЙ БАНК",
-    "dateOpen": "1991-10-28",
-    "dateIssue": null,
+    "names": [
+      "СКАЙ БАНК"
+    ],
+    "start": "1991-10-28",
+    "problem": null,
     "active": true
   },
   {
     "id": 433,
-    "name": "СМАРТБАНК",
-    "dateOpen": "2010-09-13",
-    "dateIssue": "2016-07-21",
+    "names": [
+      "СМАРТБАНК"
+    ],
+    "start": "2010-09-13",
+    "problem": "2016-07-21",
     "active": false
   },
   {
     "id": 490,
-    "name": "СОФІЙСЬКИЙ",
-    "dateOpen": "2012-03-16",
-    "dateIssue": "2016-04-22",
+    "names": [
+      "СОФІЙСЬКИЙ"
+    ],
+    "start": "2012-03-16",
+    "problem": "2016-04-22",
     "active": false
   },
   {
     "id": 385,
-    "name": "СОЮЗ",
-    "dateOpen": "2007-11-26",
-    "dateIssue": "2016-04-28",
+    "names": [
+      "СОЮЗ"
+    ],
+    "start": "2007-11-26",
+    "problem": "2016-04-28",
     "active": false
   },
   {
     "id": 275,
-    "name": "СП БАНК",
-    "dateOpen": "1995-09-13",
-    "dateIssue": "2015-09-09",
+    "names": [
+      "СП БАНК"
+    ],
+    "start": "1995-09-13",
+    "problem": "2015-09-09",
     "active": false
   },
   {
     "id": 398,
-    "name": "СТАНДАРТ",
-    "dateOpen": "2008-12-31",
-    "dateIssue": "2015-06-18",
+    "names": [
+      "СТАНДАРТ"
+    ],
+    "start": "2008-12-31",
+    "problem": "2015-06-18",
     "active": false
   },
   {
     "id": 75,
-    "name": "СТАРОКИЇВСЬКИЙ БАНК",
-    "dateOpen": "1991-12-31",
-    "dateIssue": "2014-09-11",
+    "names": [
+      "СТАРОКИЇВСЬКИЙ БАНК"
+    ],
+    "start": "1991-12-31",
+    "problem": "2014-09-11",
     "active": false
   },
   {
     "id": 223,
-    "name": "СТОЛИЧНИЙ",
-    "dateOpen": "1993-10-22",
-    "dateIssue": "2015-09-17",
+    "names": [
+      "СТОЛИЧНИЙ"
+    ],
+    "start": "1993-10-22",
+    "problem": "2015-09-17",
     "active": false
   },
   {
     "id": 62,
-    "name": "ТАСКОМБАНК",
-    "dateOpen": "1991-10-21",
-    "dateIssue": "2018-12-10",
+    "names": [
+      "ТАСКОМБАНК"
+    ],
+    "start": "1991-10-21",
+    "problem": "2018-12-10",
     "active": true
   },
   {
     "id": 285,
-    "name": "ТЕРРА БАНК",
-    "dateOpen": "1996-10-18",
-    "dateIssue": "2014-12-23",
+    "names": [
+      "ТЕРРА БАНК"
+    ],
+    "start": "1996-10-18",
+    "problem": "2014-12-23",
     "active": false
   },
   {
     "id": 260,
-    "name": "ТК КРЕДИТ",
-    "dateOpen": "1994-04-28",
-    "dateIssue": "2016-04-07",
+    "names": [
+      "ТК КРЕДИТ"
+    ],
+    "start": "1994-04-28",
+    "problem": "2016-04-07",
     "active": false
   },
   {
     "id": 380,
-    "name": "ТРАСТ",
-    "dateOpen": "2007-08-22",
-    "dateIssue": "2016-12-29",
+    "names": [
+      "ТРАСТ"
+    ],
+    "start": "2007-08-22",
+    "problem": "2016-12-29",
     "active": false
   },
   {
     "id": 222,
-    "name": "УКООПСПІЛКА",
-    "dateOpen": "1993-10-25",
-    "dateIssue": "2015-04-22",
+    "names": [
+      "УКООПСПІЛКА"
+    ],
+    "start": "1993-10-25",
+    "problem": "2015-04-22",
     "active": false
   },
   {
     "id": 18,
-    "name": "УКРІНБАНК",
-    "dateOpen": "1991-10-02",
-    "dateIssue": "2016-03-22",
+    "names": [
+      "УКРІНБАНК"
+    ],
+    "start": "1991-10-02",
+    "problem": "2016-03-22",
     "active": false
   },
   {
     "id": 313,
-    "name": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
-    "dateOpen": "2004-03-19",
-    "dateIssue": null,
+    "names": [
+      "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ"
+    ],
+    "start": "2004-03-19",
+    "problem": null,
     "active": true
   },
   {
     "id": 146,
-    "name": "УКРАЇНСЬКИЙ КАПІТАЛ",
-    "dateOpen": "1992-12-25",
-    "dateIssue": null,
+    "names": [
+      "УКРАЇНСЬКИЙ КАПІТАЛ"
+    ],
+    "start": "1992-12-25",
+    "problem": null,
     "active": true
   },
   {
     "id": 186,
-    "name": "УКРБІЗНЕСБАНК",
-    "dateOpen": "1993-05-19",
-    "dateIssue": "2015-04-23",
+    "names": [
+      "УКРБІЗНЕСБАНК"
+    ],
+    "start": "1993-05-19",
+    "problem": "2015-04-23",
     "active": false
   },
   {
     "id": 377,
-    "name": "УКРБУДІНВЕСТБАНК",
-    "dateOpen": "2004-04-20",
-    "dateIssue": null,
+    "names": [
+      "УКРБУДІНВЕСТБАНК"
+    ],
+    "start": "2004-04-20",
+    "problem": null,
     "active": true
   },
   {
     "id": 274,
-    "name": "УКРГАЗБАНК",
-    "dateOpen": "1993-07-21",
-    "dateIssue": null,
+    "names": [
+      "УКРГАЗБАНК"
+    ],
+    "start": "1993-07-21",
+    "problem": null,
     "active": true
   },
   {
     "id": 278,
-    "name": "УКРГАЗПРОМБАНК",
-    "dateOpen": "1996-03-27",
-    "dateIssue": "2015-09-14",
+    "names": [
+      "УКРГАЗПРОМБАНК"
+    ],
+    "start": "1996-03-27",
+    "problem": "2015-09-14",
     "active": false
   },
   {
     "id": 2,
-    "name": "УКРЕКСІМБАНК",
-    "dateOpen": "1992-01-23",
-    "dateIssue": "2014-05-23",
+    "names": [
+      "УКРЕКСІМБАНК"
+    ],
+    "start": "1992-01-23",
+    "problem": "2014-05-23",
     "active": true
   },
   {
     "id": 195,
-    "name": "УКРКОМУНБАНК",
-    "dateOpen": "1993-08-10",
-    "dateIssue": "2015-09-14",
+    "names": [
+      "УКРКОМУНБАНК"
+    ],
+    "start": "1993-08-10",
+    "problem": "2015-09-14",
     "active": false
   },
   {
     "id": 136,
-    "name": "УКРСИББАНК",
-    "dateOpen": "1991-10-28",
-    "dateIssue": null,
+    "names": [
+      "УКРСИББАНК"
+    ],
+    "start": "1991-10-28",
+    "problem": null,
     "active": true
   },
   {
     "id": 5,
-    "name": "УКРСОЦБАНК",
-    "dateOpen": "1991-09-27",
-    "dateIssue": null,
+    "names": [
+      "УКРСОЦБАНК"
+    ],
+    "start": "1991-09-27",
+    "problem": null,
     "active": true
   },
   {
     "id": 242,
-    "name": "УНІВЕРСАЛ БАНК",
-    "dateOpen": "1994-01-20",
-    "dateIssue": null,
+    "names": [
+      "УНІВЕРСАЛ БАНК"
+    ],
+    "start": "1994-01-20",
+    "problem": null,
     "active": true
   },
   {
     "id": 306,
-    "name": "УНІКОМБАНК",
-    "dateOpen": "2002-10-28",
-    "dateIssue": "2015-12-03",
+    "names": [
+      "УНІКОМБАНК"
+    ],
+    "start": "2002-10-28",
+    "problem": "2015-12-03",
     "active": false
   },
   {
     "id": 34,
-    "name": "УПБ",
-    "dateOpen": "1992-01-30",
-    "dateIssue": "2015-08-28",
+    "names": [
+      "УПБ"
+    ],
+    "start": "1992-01-30",
+    "problem": "2015-08-28",
     "active": false
   },
   {
     "id": 310,
-    "name": "УФС",
-    "dateOpen": "2003-11-12",
-    "dateIssue": "2014-11-10",
+    "names": [
+      "УФС"
+    ],
+    "start": "2003-11-12",
+    "problem": "2014-11-10",
     "active": false
   },
   {
     "id": 22,
-    "name": "ФІДОБАНК",
-    "dateOpen": "1991-10-02",
-    "dateIssue": "2016-07-18",
+    "names": [
+      "ФІДОБАНК"
+    ],
+    "start": "1991-10-02",
+    "problem": "2016-07-18",
     "active": false
   },
   {
     "id": 159,
-    "name": "ФІНАНС БАНК",
-    "dateOpen": "1992-01-20",
-    "dateIssue": "2016-05-31",
+    "names": [
+      "ФІНАНС БАНК"
+    ],
+    "start": "1992-01-20",
+    "problem": "2016-05-31",
     "active": false
   },
   {
     "id": 17,
-    "name": "ФІНАНСИ ТА КРЕДИТ",
-    "dateOpen": "1991-10-30",
-    "dateIssue": "2015-12-17",
+    "names": [
+      "ФІНАНСИ ТА КРЕДИТ"
+    ],
+    "start": "1991-10-30",
+    "problem": "2015-12-17",
     "active": false
   },
   {
     "id": 317,
-    "name": "ФІНАНСОВА ІНІЦІАТИВА",
-    "dateOpen": "2005-01-19",
-    "dateIssue": "2015-06-23",
+    "names": [
+      "ФІНАНСОВА ІНІЦІАТИВА"
+    ],
+    "start": "2005-01-19",
+    "problem": "2015-06-23",
     "active": false
   },
   {
     "id": 122,
-    "name": "ФІНБАНК",
-    "dateOpen": "1993-12-24",
-    "dateIssue": "2017-04-27",
+    "names": [
+      "ФІНБАНК"
+    ],
+    "start": "1993-12-24",
+    "problem": "2017-04-27",
     "active": false
   },
   {
     "id": 167,
-    "name": "ФІНРОСТБАНК",
-    "dateOpen": "1993-01-29",
-    "dateIssue": "2014-10-16",
+    "names": [
+      "ФІНРОСТБАНК"
+    ],
+    "start": "1993-01-29",
+    "problem": "2014-10-16",
     "active": false
   },
   {
     "id": 304,
-    "name": "ФОРТУНА-БАНК",
-    "dateOpen": "2002-10-17",
-    "dateIssue": "2017-02-21",
+    "names": [
+      "ФОРТУНА-БАНК"
+    ],
+    "start": "2002-10-17",
+    "problem": "2017-02-21",
     "active": false
   },
   {
     "id": 202,
-    "name": "ХРЕЩАТИК",
-    "dateOpen": "1993-05-19",
-    "dateIssue": "2016-06-02",
+    "names": [
+      "ХРЕЩАТИК"
+    ],
+    "start": "1993-05-19",
+    "problem": "2016-06-02",
     "active": false
   },
   {
     "id": 513,
-    "name": "ЮНІСОН",
-    "dateOpen": "2013-02-08",
-    "dateIssue": "2018-06-18",
+    "names": [
+      "ЮНІСОН"
+    ],
+    "start": "2013-02-08",
+    "problem": "2018-06-18",
     "active": false
   },
   {
     "id": 231,
-    "name": "ЮНЕКС БАНК",
-    "dateOpen": "1993-12-03",
-    "dateIssue": null,
+    "names": [
+      "ЮНЕКС БАНК"
+    ],
+    "start": "1993-12-03",
+    "problem": null,
     "active": true
   },
   {
     "id": 47,
-    "name": "ЮСБ БАНК",
-    "dateOpen": "1994-06-23",
-    "dateIssue": "2015-12-24",
+    "names": [
+      "ЮСБ БАНК"
+    ],
+    "start": "1994-06-23",
+    "problem": "2015-12-24",
     "active": false
   }
 ]

@@ -14,6 +14,17 @@ class Source {
         });
     }
 
+    /**
+     * {
+     *     id: number
+     *     names: string[]
+     *     sites: string[]
+     *     active: boolean
+     *     link: string //TODO: links?
+     *     start: date
+     *     problem: date
+     * }
+     */
     saveBanks() {
         return Promise.resolve([]);
     }

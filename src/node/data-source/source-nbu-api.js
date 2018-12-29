@@ -12,9 +12,9 @@ module.exports = {
     getBanks() {
         const banks = {};
         int.read('nbu/banks-api').forEach(bank => {
-            const name = names.bankName(bank.name);
-            assert.false('Duplicate bank name', banks[name], name);
-            banks[name] = bank;
+            bank.name = names.bankName(bank.names[0]);
+            assert.false('Duplicate bank name', banks[bank.name], bank.name);
+            banks[bank.name] = bank;
         });
         return banks;
     },
@@ -27,14 +27,15 @@ module.exports = {
                 .map(record => {
                     return {
                         id: parseInt(record['NKB']),
-                        name: names.extractBankPureName(record['SHORTNAME']),
-                        dateOpen: dates.format(record['D_OPEN']),
-                        dateIssue: dates.format(record['D_STAN']),
+                        // TODO: is there full name? if so - add it as well
+                        names: [names.extractBankPureName(record['SHORTNAME'])],
+                        start: dates.format(record['D_OPEN']),
+                        problem: dates.format(record['D_STAN']),
                         // 'Нормальний', 'Режим ліквідації', 'Реорганізація', 'Неплатоспроможний'
                         active: ['Нормальний'.toUpperCase(), 'Реорганізація'.toUpperCase()].includes(record['N_STAN'].toUpperCase())
                     };
                 });
-            banks.sort(names.compareName);
+            banks.sort(names.compareNames);
             int.write('nbu/banks-api', banks);
             return banks;
         });
