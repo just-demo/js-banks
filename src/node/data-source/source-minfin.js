@@ -20,7 +20,7 @@ module.exports = {
                         assert.true('No site', site, bank.name);
                         return {
                             id: parseInt(bank.id),
-                            names: [bank.name],
+                            names: [names.normalize(bank.name)],
                             link: 'https://minfin.com.ua/ua/company/' + bank.alias,
                             sites: arrays.of(site)
                         };

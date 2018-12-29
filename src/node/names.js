@@ -5,18 +5,6 @@ const regex = require('./regex');
 const arrays = require('./arrays');
 
 module.exports = {
-    // TODO: simplify
-    lookupName(bankNames, name) {
-        name = name.toUpperCase();
-        return bankNames[name] ||
-            bankNames[name + ' БАНК'] ||
-            bankNames['БАНК ' + name] ||
-            bankNames[name.replace(/^БАНК /, '')] ||
-            bankNames[name.replace(/^БАНК /, '') + ' БАНК'] ||
-            bankNames[name.replace(/ БАНК$/, '')] ||
-            bankNames['БАНК ' + name.replace(/ БАНК$/, '')] ||
-            this.normalize(name);
-    },
 
     siteName(site) {
         return site.replace(/(?<!:|:\/)\/(?!ukraine$).*/g, '');
@@ -53,7 +41,9 @@ module.exports = {
         return name.toUpperCase()
             .replace(/`/g, '\'')
             .replace(/\s+/g, ' ')
-            .replace(/\s*-\s*/g, '-');
+            .replace(/\s*-\s*/g, '-')
+            .replace(/^БАНК /, '')
+            .replace(/ БАНК$/, '');
     },
 
     removeTags(name) {
@@ -82,7 +72,7 @@ function buildVariants(names) {
 function toLookupMap(values) {
     const map = {};
     values.forEach(sameValues => {
-        sameValues.forEach(value => map[value.toUpperCase()] = sameValues[0]);
+        sameValues.forEach(value => map[value] = sameValues[0]);
     });
     return map;
 }

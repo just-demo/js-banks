@@ -99,19 +99,19 @@ Promise.all([
 
 ///home/pc/Desktop/projects/js-banks/data/json/nbu/banks-pdf.json
 
-function mapByName(bankNames, banks) {
-    const bankMap = {};
-    banks.forEach(bank => {
-        bank.name = names.lookupName(bankNames, bank.names[0]);
-        assert.false('Duplicate bank name', bankMap[bank.name], bank.name);
-        bankMap[bank.name] = bank;
-    });
-    return bankMap;
-}
+function combineBanks(allBanks) {
+    names.rebuildBankNames(allBanks).then(bankNameMap => {
+        const bankMap = _.mapValues(allBanks, typeBanks => {
+            const typeBankMap = {};
+            typeBanks.forEach(bank => {
+                const name = bank.names[0];
+                bank.name = bankNameMap[name] || name;
+                assert.false('Duplicate bank name', typeBankMap[bank.name], bank.name);
+                typeBankMap[bank.name] = bank;
+            });
+            return typeBankMap;
+        });
 
-function combineBanks(bankMap) {
-    names.rebuildBankNames(bankMap).then(bankNames => {
-        bankMap = _.mapValues(bankMap, typeBanks => mapByName(bankNames, typeBanks));
         _.forOwn(bankMap, (typeBanks, type) => console.log(type + ':', Object.keys(typeBanks).length));
         const ids = _.union(...Object.values(bankMap).map(typeBanks => Object.keys(typeBanks))).sort();
         console.log('Union:', ids.length);

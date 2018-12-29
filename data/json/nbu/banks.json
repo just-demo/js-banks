@@ -1,6 +1,14 @@
 [
   {
     "names": [
+      "3/4"
+    ],
+    "start": "2008-07-25",
+    "link": "/control/uk/bankdict/bank?id=35128",
+    "active": true
+  },
+  {
+    "names": [
       "ЄВРОБАНК"
     ],
     "problem": "2016-06-17",
@@ -18,7 +26,7 @@
   {
     "names": [
       "ЄПБ",
-      "ЄВРОПЕЙСЬКИЙ ПРОМИСЛОВИЙ БАНК"
+      "ЄВРОПЕЙСЬКИЙ ПРОМИСЛОВИЙ"
     ],
     "start": "2008-08-13",
     "link": "/control/uk/bankdict/bank?id=35386",
@@ -26,7 +34,7 @@
   },
   {
     "names": [
-      "ІДЕЯ БАНК"
+      "ІДЕЯ"
     ],
     "start": "1991-10-22",
     "link": "/control/uk/bankdict/bank?id=243",
@@ -50,7 +58,15 @@
   },
   {
     "names": [
-      "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ БАНК"
+      "ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ"
+    ],
+    "start": "2005-08-09",
+    "link": "/control/uk/bankdict/bank?id=22799",
+    "active": true
+  },
+  {
+    "names": [
+      "ІНВЕСТИЦІЙНО-ТРАСТОВИЙ"
     ],
     "problem": "2016-05-31",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -107,6 +123,14 @@
   },
   {
     "names": [
+      "АВАНГАРД"
+    ],
+    "start": "2013-07-05",
+    "link": "/control/uk/bankdict/bank?id=46526",
+    "active": true
+  },
+  {
+    "names": [
       "АВАНТ-БАНК"
     ],
     "problem": "2016-01-29",
@@ -123,7 +147,7 @@
   },
   {
     "names": [
-      "АЙБОКС БАНК"
+      "АЙБОКС"
     ],
     "start": "1993-12-24",
     "link": "/control/uk/bankdict/bank?id=269",
@@ -163,7 +187,7 @@
   },
   {
     "names": [
-      "АЛЬПАРІ БАНК"
+      "АЛЬПАРІ"
     ],
     "start": "2012-10-26",
     "link": "/control/uk/bankdict/bank?id=44804",
@@ -187,8 +211,16 @@
   },
   {
     "names": [
-      "АП БАНК",
-      "АГРОПРОСПЕРІС БАНК"
+      "АЛЬЯНС"
+    ],
+    "start": "1992-03-10",
+    "link": "/control/uk/bankdict/bank?id=214",
+    "active": true
+  },
+  {
+    "names": [
+      "АП",
+      "АГРОПРОСПЕРІС"
     ],
     "start": "2007-11-28",
     "link": "/control/uk/bankdict/bank?id=32183",
@@ -204,7 +236,7 @@
   },
   {
     "names": [
-      "АРТЕМ БАНК"
+      "АРТЕМ"
     ],
     "problem": "2016-11-15",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -212,7 +244,7 @@
   },
   {
     "names": [
-      "АСВІО БАНК"
+      "АСВІО"
     ],
     "start": "1991-10-30",
     "link": "/control/uk/bankdict/bank?id=240",
@@ -220,7 +252,7 @@
   },
   {
     "names": [
-      "АСТРА БАНК"
+      "АСТРА"
     ],
     "problem": "2015-03-19",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -228,177 +260,17 @@
   },
   {
     "names": [
-      "БАНК 3/4"
-    ],
-    "start": "2008-07-25",
-    "link": "/control/uk/bankdict/bank?id=35128",
-    "active": true
-  },
-  {
-    "names": [
-      "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ"
-    ],
-    "start": "2005-08-09",
-    "link": "/control/uk/bankdict/bank?id=22799",
-    "active": true
-  },
-  {
-    "names": [
-      "БАНК АВАНГАРД"
-    ],
-    "start": "2013-07-05",
-    "link": "/control/uk/bankdict/bank?id=46526",
-    "active": true
-  },
-  {
-    "names": [
-      "БАНК АЛЬЯНС"
-    ],
-    "start": "1992-03-10",
-    "link": "/control/uk/bankdict/bank?id=214",
-    "active": true
-  },
-  {
-    "names": [
-      "БАНК БОГУСЛАВ"
-    ],
-    "problem": "2017-11-06",
-    "link": "/control/uk/publish/article?art_id=75535",
-    "active": false
-  },
-  {
-    "names": [
-      "БАНК ВЕЛЕС"
-    ],
-    "problem": "2015-12-10",
-    "link": "/control/uk/publish/article?art_id=75535",
-    "active": false
-  },
-  {
-    "names": [
-      "БАНК ВОСТОК"
-    ],
-    "start": "2002-10-17",
-    "link": "/control/uk/bankdict/bank?id=198",
-    "active": true
-  },
-  {
-    "names": [
-      "БАНК ЗОЛОТІ ВОРОТА"
-    ],
-    "problem": "2014-07-31",
-    "link": "/control/uk/publish/article?art_id=75535",
-    "active": false
-  },
-  {
-    "names": [
-      "БАНК КРЕДИТ ДНІПРО"
-    ],
-    "start": "1993-07-07",
-    "link": "/control/uk/bankdict/bank?id=278",
-    "active": true
-  },
-  {
-    "names": [
-      "БАНК МИХАЙЛІВСЬКИЙ"
-    ],
-    "problem": "2016-05-23",
-    "link": "/control/uk/publish/article?art_id=75535",
-    "active": false
-  },
-  {
-    "names": [
-      "БАНК НАРОДНИЙ КАПІТАЛ"
-    ],
-    "problem": "2017-01-19",
-    "link": "/control/uk/publish/article?art_id=75535",
-    "active": false
-  },
-  {
-    "names": [
-      "БАНК ПЕТРОКОММЕРЦ-УКРАЇНА"
-    ],
-    "problem": "2016-03-17",
-    "link": "/control/uk/publish/article?art_id=75535",
-    "active": false
-  },
-  {
-    "names": [
-      "БАНК ПРОФЕСІЙНОГО ФІНАНСУВАННЯ"
-    ],
-    "problem": "2015-01-19",
-    "link": "/control/uk/publish/article?art_id=75535",
-    "active": false
-  },
-  {
-    "names": [
-      "БАНК СІЧ"
-    ],
-    "start": "2011-05-24",
-    "link": "/control/uk/bankdict/bank?id=41118",
-    "active": true
-  },
-  {
-    "names": [
-      "БАНК СОФІЙСЬКИЙ"
-    ],
-    "problem": "2015-12-22",
-    "link": "/control/uk/publish/article?art_id=75535",
-    "active": false
-  },
-  {
-    "names": [
-      "БАНК ТРАСТ"
-    ],
-    "problem": "2016-12-06",
-    "link": "/control/uk/publish/article?art_id=75535",
-    "active": false
-  },
-  {
-    "names": [
-      "БАНК ТРАСТ-КАПІТАЛ"
-    ],
-    "start": "2004-03-10",
-    "link": "/control/uk/bankdict/bank?id=17923",
-    "active": true
-  },
-  {
-    "names": [
-      "БАНК ФІНАНСИ ТА КРЕДИТ"
-    ],
-    "problem": "2015-09-17",
-    "link": "/control/uk/publish/article?art_id=75535",
-    "active": false
-  },
-  {
-    "names": [
-      "БАНК ФАМІЛЬНИЙ"
-    ],
-    "start": "1991-12-27",
-    "link": "/control/uk/bankdict/bank?id=49",
-    "active": true
-  },
-  {
-    "names": [
-      "БАНК ФОРВАРД"
-    ],
-    "start": "2006-02-28",
-    "link": "/control/uk/bankdict/bank?id=24345",
-    "active": true
-  },
-  {
-    "names": [
-      "БАНК ФОРУМ"
-    ],
-    "problem": "2014-03-13",
-    "link": "/control/uk/publish/article?art_id=75535",
-    "active": false
-  },
-  {
-    "names": [
-      "БГ БАНК"
+      "БГ"
     ],
     "problem": "2014-11-27",
+    "link": "/control/uk/publish/article?art_id=75535",
+    "active": false
+  },
+  {
+    "names": [
+      "БОГУСЛАВ"
+    ],
+    "problem": "2017-11-06",
     "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
@@ -412,7 +284,7 @@
   },
   {
     "names": [
-      "БТА БАНК"
+      "БТА"
     ],
     "start": "1992-12-10",
     "link": "/control/uk/bankdict/bank?id=239",
@@ -420,7 +292,7 @@
   },
   {
     "names": [
-      "ВІЕЙБІ БАНК"
+      "ВІЕЙБІ"
     ],
     "problem": "2014-11-20",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -436,7 +308,7 @@
   },
   {
     "names": [
-      "ВЕКТОР БАНК"
+      "ВЕКТОР"
     ],
     "problem": "2017-03-02",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -444,10 +316,26 @@
   },
   {
     "names": [
-      "ВЕРНУМ БАНК"
+      "ВЕЛЕС"
+    ],
+    "problem": "2015-12-10",
+    "link": "/control/uk/publish/article?art_id=75535",
+    "active": false
+  },
+  {
+    "names": [
+      "ВЕРНУМ"
     ],
     "start": "2009-02-17",
     "link": "/control/uk/bankdict/bank?id=37186",
+    "active": true
+  },
+  {
+    "names": [
+      "ВОСТОК"
+    ],
+    "start": "2002-10-17",
+    "link": "/control/uk/bankdict/bank?id=198",
     "active": true
   },
   {
@@ -468,7 +356,7 @@
   },
   {
     "names": [
-      "ГРІН БАНК"
+      "ГРІН"
     ],
     "problem": "2014-09-24",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -500,7 +388,7 @@
   },
   {
     "names": [
-      "ДЕЛЬТА БАНК"
+      "ДЕЛЬТА"
     ],
     "problem": "2015-03-02",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -572,8 +460,16 @@
   },
   {
     "names": [
+      "ЗОЛОТІ ВОРОТА"
+    ],
+    "problem": "2014-07-31",
+    "link": "/control/uk/publish/article?art_id=75535",
+    "active": false
+  },
+  {
+    "names": [
       "КІБ",
-      "КОМЕРЦІЙНИЙ ІНДУСТРІАЛЬНИЙ БАНК"
+      "КОМЕРЦІЙНИЙ ІНДУСТРІАЛЬНИЙ"
     ],
     "start": "1993-12-03",
     "link": "/control/uk/bankdict/bank?id=268",
@@ -630,7 +526,7 @@
   {
     "names": [
       "КОМІНВЕСТБАНК",
-      "КОМЕРЦІЙНИЙ ІНВЕСТИЦІЙНИЙ БАНК"
+      "КОМЕРЦІЙНИЙ ІНВЕСТИЦІЙНИЙ"
     ],
     "start": "1992-12-16",
     "link": "/control/uk/bankdict/bank?id=95",
@@ -654,7 +550,7 @@
   },
   {
     "names": [
-      "КРЕДІ АГРІКОЛЬ БАНК"
+      "КРЕДІ АГРІКОЛЬ"
     ],
     "start": "1993-02-10",
     "link": "/control/uk/bankdict/bank?id=249",
@@ -662,7 +558,7 @@
   },
   {
     "names": [
-      "КРЕДИТ ЄВРОПА БАНК"
+      "КРЕДИТ ЄВРОПА"
     ],
     "start": "2006-08-28",
     "link": "/control/uk/bankdict/bank?id=25655",
@@ -670,8 +566,16 @@
   },
   {
     "names": [
-      "КРЕДИТВЕСТ БАНК",
-      "ВЕСТ ФАЙНЕНС ЕНД КРЕДИТ БАНК"
+      "КРЕДИТ ДНІПРО"
+    ],
+    "start": "1993-07-07",
+    "link": "/control/uk/bankdict/bank?id=278",
+    "active": true
+  },
+  {
+    "names": [
+      "КРЕДИТВЕСТ",
+      "ВЕСТ ФАЙНЕНС ЕНД КРЕДИТ"
     ],
     "start": "2006-10-04",
     "link": "/control/uk/bankdict/bank?id=26321",
@@ -703,7 +607,7 @@
   },
   {
     "names": [
-      "КСГ БАНК"
+      "КСГ"
     ],
     "problem": "2016-08-30",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -728,7 +632,7 @@
   {
     "names": [
       "МІБ",
-      "МІЖНАРОДНИЙ ІНВЕСТИЦІЙНИЙ БАНК"
+      "МІЖНАРОДНИЙ ІНВЕСТИЦІЙНИЙ"
     ],
     "start": "2008-03-11",
     "link": "/control/uk/bankdict/bank?id=33468",
@@ -736,7 +640,7 @@
   },
   {
     "names": [
-      "МІСТО БАНК"
+      "МІСТО"
     ],
     "start": "1993-07-23",
     "link": "/control/uk/bankdict/bank?id=258",
@@ -744,7 +648,7 @@
   },
   {
     "names": [
-      "МІСЬКИЙ КОМЕРЦІЙНИЙ БАНК"
+      "МІСЬКИЙ КОМЕРЦІЙНИЙ"
     ],
     "problem": "2014-11-20",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -760,7 +664,7 @@
   },
   {
     "names": [
-      "МЕЛІОР БАНК"
+      "МЕЛІОР"
     ],
     "problem": "2014-10-09",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -784,6 +688,14 @@
   },
   {
     "names": [
+      "МИХАЙЛІВСЬКИЙ"
+    ],
+    "problem": "2016-05-23",
+    "link": "/control/uk/publish/article?art_id=75535",
+    "active": false
+  },
+  {
+    "names": [
       "МОРСЬКИЙ"
     ],
     "problem": "2015-09-02",
@@ -800,7 +712,7 @@
   },
   {
     "names": [
-      "МТБ БАНК"
+      "МТБ"
     ],
     "start": "1993-11-05",
     "link": "/control/uk/bankdict/bank?id=231",
@@ -811,6 +723,14 @@
       "НАДРА"
     ],
     "problem": "2015-02-05",
+    "link": "/control/uk/publish/article?art_id=75535",
+    "active": false
+  },
+  {
+    "names": [
+      "НАРОДНИЙ КАПІТАЛ"
+    ],
+    "problem": "2017-01-19",
     "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
@@ -840,7 +760,7 @@
   },
   {
     "names": [
-      "ОКСІ БАНК"
+      "ОКСІ"
     ],
     "start": "1991-10-14",
     "link": "/control/uk/bankdict/bank?id=64",
@@ -848,7 +768,7 @@
   },
   {
     "names": [
-      "ОМЕГА БАНК"
+      "ОМЕГА"
     ],
     "problem": "2015-03-02",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -856,7 +776,7 @@
   },
   {
     "names": [
-      "ОТП БАНК"
+      "ОТП"
     ],
     "start": "1998-03-02",
     "link": "/control/uk/bankdict/bank?id=190",
@@ -897,7 +817,7 @@
   },
   {
     "names": [
-      "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК"
+      "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ"
     ],
     "start": "1997-06-20",
     "link": "/control/uk/bankdict/bank?id=186",
@@ -905,7 +825,15 @@
   },
   {
     "names": [
-      "ПЛАТИНУМ БАНК"
+      "ПЕТРОКОММЕРЦ-УКРАЇНА"
+    ],
+    "problem": "2016-03-17",
+    "link": "/control/uk/publish/article?art_id=75535",
+    "active": false
+  },
+  {
+    "names": [
+      "ПЛАТИНУМ"
     ],
     "problem": "2017-01-10",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -945,7 +873,7 @@
   },
   {
     "names": [
-      "ПРАВЕКС БАНК"
+      "ПРАВЕКС"
     ],
     "start": "1992-12-29",
     "link": "/control/uk/bankdict/bank?id=100",
@@ -977,7 +905,7 @@
   },
   {
     "names": [
-      "ПРОКРЕДИТ БАНК"
+      "ПРОКРЕДИТ"
     ],
     "start": "2000-12-28",
     "link": "/control/uk/bankdict/bank?id=192",
@@ -986,7 +914,7 @@
   {
     "names": [
       "ПРОМІНВЕСТБАНК",
-      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ ПРОМИСЛОВО-ІНВЕСТИЦІЙНИЙ БАНК"
+      "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ ПРОМИСЛОВО-ІНВЕСТИЦІЙНИЙ"
     ],
     "start": "1992-08-26",
     "link": "/control/uk/bankdict/bank?id=3",
@@ -1002,8 +930,16 @@
   },
   {
     "names": [
+      "ПРОФЕСІЙНОГО ФІНАНСУВАННЯ"
+    ],
+    "problem": "2015-01-19",
+    "link": "/control/uk/publish/article?art_id=75535",
+    "active": false
+  },
+  {
+    "names": [
       "ПУМБ",
-      "ПЕРШИЙ УКРАЇНСЬКИЙ МІЖНАРОДНИЙ БАНК"
+      "ПЕРШИЙ УКРАЇНСЬКИЙ МІЖНАРОДНИЙ"
     ],
     "start": "1991-12-23",
     "link": "/control/uk/bankdict/bank?id=80",
@@ -1019,7 +955,7 @@
   },
   {
     "names": [
-      "РАДИКАЛ БАНК"
+      "РАДИКАЛ"
     ],
     "problem": "2015-07-09",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -1035,7 +971,7 @@
   },
   {
     "names": [
-      "РВС БАНК"
+      "РВС"
     ],
     "start": "2015-06-25",
     "link": "/control/uk/bankdict/bank?id=52883",
@@ -1043,7 +979,7 @@
   },
   {
     "names": [
-      "РЕАЛ БАНК"
+      "РЕАЛ"
     ],
     "problem": "2014-02-28",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -1051,7 +987,7 @@
   },
   {
     "names": [
-      "РОДОВІД БАНК"
+      "РОДОВІД"
     ],
     "problem": "2016-02-25",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -1076,6 +1012,14 @@
   },
   {
     "names": [
+      "СІЧ"
+    ],
+    "start": "2011-05-24",
+    "link": "/control/uk/bankdict/bank?id=41118",
+    "active": true
+  },
+  {
+    "names": [
       "СБЕРБАНК"
     ],
     "start": "2001-06-15",
@@ -1084,7 +1028,7 @@
   },
   {
     "names": [
-      "СЕБ КОРПОРАТИВНИЙ БАНК"
+      "СЕБ КОРПОРАТИВНИЙ"
     ],
     "start": "2011-01-19",
     "link": "/control/uk/bankdict/bank?id=40403",
@@ -1092,7 +1036,7 @@
   },
   {
     "names": [
-      "СКАЙ БАНК"
+      "СКАЙ"
     ],
     "start": "1991-10-28",
     "link": "/control/uk/bankdict/bank?id=87",
@@ -1108,6 +1052,14 @@
   },
   {
     "names": [
+      "СОФІЙСЬКИЙ"
+    ],
+    "problem": "2015-12-22",
+    "link": "/control/uk/publish/article?art_id=75535",
+    "active": false
+  },
+  {
+    "names": [
       "СОЮЗ"
     ],
     "problem": "16-04-28",
@@ -1116,7 +1068,7 @@
   },
   {
     "names": [
-      "СП БАНК"
+      "СП"
     ],
     "problem": "2015-09-09",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -1132,7 +1084,7 @@
   },
   {
     "names": [
-      "СТАРОКИЇВСЬКИЙ БАНК"
+      "СТАРОКИЇВСЬКИЙ"
     ],
     "problem": "2014-06-17",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -1156,7 +1108,7 @@
   },
   {
     "names": [
-      "ТЕРРА БАНК"
+      "ТЕРРА"
     ],
     "problem": "2014-08-21",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -1169,6 +1121,22 @@
     "problem": "2016-02-09",
     "link": "/control/uk/publish/article?art_id=75535",
     "active": false
+  },
+  {
+    "names": [
+      "ТРАСТ"
+    ],
+    "problem": "2016-12-06",
+    "link": "/control/uk/publish/article?art_id=75535",
+    "active": false
+  },
+  {
+    "names": [
+      "ТРАСТ-КАПІТАЛ"
+    ],
+    "start": "2004-03-10",
+    "link": "/control/uk/bankdict/bank?id=17923",
+    "active": true
   },
   {
     "names": [
@@ -1188,7 +1156,7 @@
   },
   {
     "names": [
-      "УКРАЇНСЬКИЙ БІЗНЕС БАНК"
+      "УКРАЇНСЬКИЙ БІЗНЕС"
     ],
     "problem": "2014-12-25",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -1212,7 +1180,7 @@
   },
   {
     "names": [
-      "УКРАЇНСЬКИЙ ПРОФЕСІЙНИЙ БАНК"
+      "УКРАЇНСЬКИЙ ПРОФЕСІЙНИЙ"
     ],
     "problem": "2015-05-28",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -1229,7 +1197,7 @@
   {
     "names": [
       "УКРБУДІНВЕСТБАНК",
-      "УКРАЇНСЬКИЙ БУДІВЕЛЬНО-ІНВЕСТИЦІЙНИЙ БАНК"
+      "УКРАЇНСЬКИЙ БУДІВЕЛЬНО-ІНВЕСТИЦІЙНИЙ"
     ],
     "start": "2004-04-20",
     "link": "/control/uk/bankdict/bank?id=18334",
@@ -1286,7 +1254,7 @@
   },
   {
     "names": [
-      "УНІВЕРСАЛ БАНК"
+      "УНІВЕРСАЛ"
     ],
     "start": "1994-01-20",
     "link": "/control/uk/bankdict/bank?id=270",
@@ -1310,9 +1278,17 @@
   },
   {
     "names": [
-      "ФІНАНС БАНК"
+      "ФІНАНС"
     ],
     "problem": "2016-05-31",
+    "link": "/control/uk/publish/article?art_id=75535",
+    "active": false
+  },
+  {
+    "names": [
+      "ФІНАНСИ ТА КРЕДИТ"
+    ],
+    "problem": "2015-09-17",
     "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
@@ -1358,9 +1334,33 @@
   },
   {
     "names": [
+      "ФАМІЛЬНИЙ"
+    ],
+    "start": "1991-12-27",
+    "link": "/control/uk/bankdict/bank?id=49",
+    "active": true
+  },
+  {
+    "names": [
+      "ФОРВАРД"
+    ],
+    "start": "2006-02-28",
+    "link": "/control/uk/bankdict/bank?id=24345",
+    "active": true
+  },
+  {
+    "names": [
       "ФОРТУНА-БАНК"
     ],
     "problem": "2017-01-26",
+    "link": "/control/uk/publish/article?art_id=75535",
+    "active": false
+  },
+  {
+    "names": [
+      "ФОРУМ"
+    ],
+    "problem": "2014-03-13",
     "link": "/control/uk/publish/article?art_id=75535",
     "active": false
   },
@@ -1382,7 +1382,7 @@
   },
   {
     "names": [
-      "ЮНІОН СТАНДАРД БАНК"
+      "ЮНІОН СТАНДАРД"
     ],
     "problem": "2015-10-02",
     "link": "/control/uk/publish/article?art_id=75535",
@@ -1398,7 +1398,7 @@
   },
   {
     "names": [
-      "ЮНЕКС БАНК"
+      "ЮНЕКС"
     ],
     "start": "1993-12-03",
     "link": "/control/uk/bankdict/bank?id=265",
