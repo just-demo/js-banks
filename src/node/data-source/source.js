@@ -2,6 +2,7 @@ const names = require('../names');
 const assert = require('../assert');
 
 class Source {
+    // TODO: might not be needed anymore since moved outside source
     getBanks() {
         return this.saveBanks().then(banks => {
             const bankMap = {};

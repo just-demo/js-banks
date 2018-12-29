@@ -13,16 +13,6 @@ module.exports = {
     // Банківський нагляд -> Реєстрація та ліцензування -> Банківські ліцензії та види діяльності банків України:
     // https://bank.gov.ua/control/uk/publish/article?art_id=52047
     getBanks() {
-        const banks = {};
-        int.read('nbu/banks-pdf').forEach(bank => {
-            bank.name = names.bankName(bank.names[0]);
-            assert.false('Duplicate bank name', banks[bank.name], bank.name);
-            banks[bank.name] = bank;
-        });
-        return banks;
-    },
-
-    saveBanks() {
         const startTime = new Date();
         // TODO: why does "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК" fall into different buckets?
         // TODO: is art_id the same? consider fetching the link from UI page

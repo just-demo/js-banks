@@ -38,19 +38,27 @@ const SourceExample = require('./data-source/source-example');
 
 const startTime = new Date();
 
-// Promise.all([
-//     nbuAPI.saveBanks(),
-//     nbuDBF.saveBanks(),
-//     nbuPDF.saveBanks(),
-//     nbuUI.saveBanks(),
-//     fund.saveBanks(),
-//     minfin.saveBanks(),
-//     minfin.saveRatings()
-// ]).then(() => {
-//     names.rebuildBankNames().then(() => combineBanks());
-//     console.log('Total time:', new Date() - startTime);
-// });
-combineBanks();
+Promise.all([
+    nbuDBF.getBanks(),
+    nbuAPI.getBanks(),
+    nbuUI.getBanks(),
+    nbuPDF.getBanks(),
+    fund.getBanks(),
+    minfin.getBanks(),
+    minfin.getRatings()
+]).then((results) => {
+    const bankMap = {
+        dbf: mapByName(results[0]),
+        api: mapByName(results[1]),
+        nbu: mapByName(results[2]),
+        pdf: mapByName(results[3]),
+        fund: mapByName(results[4]),
+        minfin: mapByName(results[5])
+    };
+    names.rebuildBankNames().then(() => combineBanks(bankMap));
+    console.log('Total time:', new Date() - startTime);
+});
+// combineBanks();
 // names.rebuildBankNames();
 
 // Promise.all([
@@ -91,16 +99,17 @@ combineBanks();
 
 ///home/pc/Desktop/projects/js-banks/data/json/nbu/banks-pdf.json
 
-function combineBanks() {
-    const bankMap = {
-        dbf: nbuDBF.getBanks(),
-        api: nbuAPI.getBanks(),
-        nbu: nbuUI.getBanks(),
-        pdf: nbuPDF.getBanks(),
-        fund: fund.getBanks(),
-        minfin: minfin.getBanks()
-    };
+function mapByName(banks) {
+    const bankMap = {};
+    banks.forEach(bank => {
+        bank.name = names.bankName(bank.names[0]);
+        assert.false('Duplicate bank name', bankMap[bank.name], bank.name);
+        bankMap[bank.name] = bank;
+    });
+    return bankMap;
+}
 
+function combineBanks(bankMap) {
     _.forOwn(bankMap, (typeBanks, type) => console.log(type + ':', Object.keys(typeBanks).length));
     const ids = _.union(...Object.values(bankMap).map(typeBanks => Object.keys(typeBanks))).sort();
     console.log('Union:', ids.length);

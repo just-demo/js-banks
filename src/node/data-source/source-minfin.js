@@ -9,16 +9,6 @@ const arrays = require('../arrays');
 
 module.exports = {
     getBanks() {
-        const banks = {};
-        int.read('minfin/banks').forEach(bank => {
-            bank.name = names.bankName(bank.names[0]);
-            assert.false('Duplicate bank name', banks[bank.name], bank.name);
-            banks[bank.name] = bank;
-        });
-        return banks;
-    },
-
-    saveBanks() {
         return ext.read('minfin/banks', 'https://minfin.com.ua/ua/banks/all/').then(banksHtml => {
             const banks = regex.findManyObjects(banksHtml, /class="bank-emblem--desktop"[\S\s]+?\/company\/(.+?)\/[\S\s]+?<a href="\/ua\/company\/(.+?)\/">(.+?)<\/a>/g, {
                 id: 1, alias: 2, name: 3
@@ -42,7 +32,7 @@ module.exports = {
         })
     },
 
-    saveRatings() {
+    getRatings() {
         return ext.read('minfin/dates', 'https://minfin.com.ua/ua/banks/rating/').then(html => {
             const dates = regex.findManyValues(html, /<option value="(.+?)".*?>.*?<\/option>/g);
             return mapAsync(dates, date =>

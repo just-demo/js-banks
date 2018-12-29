@@ -1320,17 +1320,17 @@
     "names": [
       "ФІНАНСОВА ІНІЦІАТИВА"
     ],
-    "start": "2005-01-19",
-    "link": "/control/uk/bankdict/bank?id=21393",
-    "active": true
+    "problem": "2015-06-23",
+    "link": "/control/uk/publish/article?art_id=75535",
+    "active": false
   },
   {
     "names": [
       "ФІНАНСОВА ІНІЦІАТИВА"
     ],
-    "problem": "2015-06-23",
-    "link": "/control/uk/publish/article?art_id=75535",
-    "active": false
+    "start": "2005-01-19",
+    "link": "/control/uk/bankdict/bank?id=21393",
+    "active": true
   },
   {
     "names": [

@@ -9034,17 +9034,17 @@
     "active": {
       "dbf": true,
       "api": false,
-      "nbu": false,
+      "nbu": true,
       "pdf": true,
       "fund": true
     },
     "dateOpen": {
       "dbf": "2005-01-19",
-      "api": "2005-01-19"
+      "api": "2005-01-19",
+      "nbu": "2005-01-19"
     },
     "dateIssue": {
       "api": "2015-06-23",
-      "nbu": "2015-06-23",
       "fund": "2015-06-24"
     },
     "site": {
@@ -9060,7 +9060,7 @@
         "minfin": 73
       },
       "link": {
-        "nbu": "/control/uk/publish/article?art_id=75535",
+        "nbu": "/control/uk/bankdict/bank?id=21393",
         "pdf": "https://bank.gov.ua/files/Licences_bank/380054.pdf",
         "fund": "/not-paying/temporary/128-finansovaya-iniciativa",
         "minfin": "https://minfin.com.ua/ua/company/finansovaya-iniciativa"

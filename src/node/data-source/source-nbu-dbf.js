@@ -11,16 +11,6 @@ module.exports = {
     // Банківський нагляд -> Реєстрація та ліцензування -> Довідник банків -> Імпорт:
     // https://bank.gov.ua/control/uk/bankdict/search
     getBanks() {
-        const banks = {};
-        int.read('nbu/banks-dbf').forEach(bank => {
-            bank.name = names.bankName(bank.names[0]);
-            assert.false('Duplicate bank name', banks[bank.name], bank.name);
-            banks[bank.name] = bank;
-        });
-        return banks;
-    },
-
-    saveBanks() {
         return ext.download('nbu/rcukru.arj', 'https://bank.gov.ua/files/RcuKru.arj')
             .then(arjContent => arj.unpack(arjContent))
             .then(dbfContent => dbf.parse(dbfContent))

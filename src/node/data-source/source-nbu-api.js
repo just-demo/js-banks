@@ -4,22 +4,11 @@ const convert = require('xml-js');
 const ext = require('../external');
 const int = require('../internal');
 const dates = require('../dates');
-const assert = require('../assert');
 
 module.exports = {
     // Публічна інформація у формі відкритих даних -> API сторінки -> Структурні підрозділи банків України:
     // https://bank.gov.ua/control/uk/publish/article?art_id=38441973#get_data_branch
     getBanks() {
-        const banks = {};
-        int.read('nbu/banks-api').forEach(bank => {
-            bank.name = names.bankName(bank.names[0]);
-            assert.false('Duplicate bank name', banks[bank.name], bank.name);
-            banks[bank.name] = bank;
-        });
-        return banks;
-    },
-
-    saveBanks() {
         return ext.read('nbu/banks-api', 'https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251').then(xml => {
             const json = convert.xml2js(xml, {compact: true});
             const banks = json['BANKBRANCH']['ROW']
