@@ -48,14 +48,14 @@ Promise.all([
     minfin.getRatings()
 ]).then((results) => {
     const bankMap = {
-        dbf: mapByName(results[0]),
-        api: mapByName(results[1]),
-        nbu: mapByName(results[2]),
-        pdf: mapByName(results[3]),
-        fund: mapByName(results[4]),
-        minfin: mapByName(results[5])
+        dbf: results[0],
+        api: results[1],
+        nbu: results[2],
+        pdf: results[3],
+        fund: results[4],
+        minfin: results[5]
     };
-    names.rebuildBankNames().then(() => combineBanks(bankMap));
+    names.rebuildBankNames(bankMap).then(() => combineBanks(bankMap));
     console.log('Total time:', new Date() - startTime);
 });
 // combineBanks();
@@ -99,10 +99,10 @@ Promise.all([
 
 ///home/pc/Desktop/projects/js-banks/data/json/nbu/banks-pdf.json
 
-function mapByName(banks) {
+function mapByName(bankNames, banks) {
     const bankMap = {};
     banks.forEach(bank => {
-        bank.name = names.bankName(bank.names[0]);
+        bank.name = names.lookupName(bankNames, bank.names[0]);
         assert.false('Duplicate bank name', bankMap[bank.name], bank.name);
         bankMap[bank.name] = bank;
     });
@@ -110,44 +110,47 @@ function mapByName(banks) {
 }
 
 function combineBanks(bankMap) {
-    _.forOwn(bankMap, (typeBanks, type) => console.log(type + ':', Object.keys(typeBanks).length));
-    const ids = _.union(...Object.values(bankMap).map(typeBanks => Object.keys(typeBanks))).sort();
-    console.log('Union:', ids.length);
+    names.rebuildBankNames(bankMap).then(bankNames => {
+        bankMap = _.mapValues(bankMap, typeBanks => mapByName(bankNames, typeBanks));
+        _.forOwn(bankMap, (typeBanks, type) => console.log(type + ':', Object.keys(typeBanks).length));
+        const ids = _.union(...Object.values(bankMap).map(typeBanks => Object.keys(typeBanks))).sort();
+        console.log('Union:', ids.length);
 
-    const banks = ids.map(id => {
-        const bank = {
-            id: id,
-            // TODO: collect 'names' field somehow as well, then rename 'id' field to 'name'
-            name: {},
-            active: {},
-            dateOpen: {},
-            dateIssue: {},
-            site: {},
-            internal: {
-                id: {},
-                link: {}
-            }
-        };
-        _.forOwn(bankMap, (typeBanks, type) => {
-            const typeBank = typeBanks[id] || {};
-            bank.name[type] = typeBank.name;
-            bank.active[type] = typeBank.active;
-            // TODO: make field names consistent
-            bank.dateOpen[type] = typeBank.start;
-            bank.dateIssue[type] = typeBank.problem;
-            bank.site[type] = typeBank.sites;
-            bank.internal.id[type] = typeBank.id;
-            bank.internal.link[type] = typeBank.link;
+        const banks = ids.map(id => {
+            const bank = {
+                id: id,
+                // TODO: collect 'names' field somehow as well, then rename 'id' field to 'name'
+                name: {},
+                active: {},
+                dateOpen: {},
+                dateIssue: {},
+                site: {},
+                internal: {
+                    id: {},
+                    link: {}
+                }
+            };
+            _.forOwn(bankMap, (typeBanks, type) => {
+                const typeBank = typeBanks[id] || {};
+                bank.name[type] = typeBank.name;
+                bank.active[type] = typeBank.active;
+                // TODO: make field names consistent
+                bank.dateOpen[type] = typeBank.start;
+                bank.dateIssue[type] = typeBank.problem;
+                bank.site[type] = typeBank.sites;
+                bank.internal.id[type] = typeBank.id;
+                bank.internal.link[type] = typeBank.link;
+            });
+            assert.equals('Name mismatch - ' + id + ' - ' + JSON.stringify(bank.name), ...definedValues(bank.name));
+            assert.equals('Active mismatch - ' + id + ' - ' + JSON.stringify(bank.active), ...definedValues(bank.active));
+            assert.equals('DateOpen mismatch - ' + id + ' - ' + JSON.stringify(bank.dateOpen), ...definedValues(bank.dateOpen));
+            return bank;
         });
-        assert.equals('Name mismatch - ' + id + ' - ' + JSON.stringify(bank.name), ...definedValues(bank.name));
-        assert.equals('Active mismatch - ' + id + ' - ' + JSON.stringify(bank.active), ...definedValues(bank.active));
-        assert.equals('DateOpen mismatch - ' + id + ' - ' + JSON.stringify(bank.dateOpen), ...definedValues(bank.dateOpen));
-        return bank;
-    });
 
-    files.write('../../public/banks.json', JSON.stringify(banks, null, 2));
-    files.read('../../data/json/minfin/ratings.json')
-        .then(ratings => files.write('../../public/minfin-ratings.json', ratings));
+        files.write('../../public/banks.json', JSON.stringify(banks, null, 2));
+        files.read('../../data/json/minfin/ratings.json')
+            .then(ratings => files.write('../../public/minfin-ratings.json', ratings));
+    });
 }
 
 function definedValues(object) {

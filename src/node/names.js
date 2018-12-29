@@ -5,18 +5,16 @@ const regex = require('./regex');
 const arrays = require('./arrays');
 
 module.exports = {
-    bankNames: null,
-
-    bankName(name) {
-        this.bankNames = this.bankNames || toLookupMap(int.read('names/banks'));
+    // TODO: simplify
+    lookupName(bankNames, name) {
         name = name.toUpperCase();
-        return this.bankNames[name] ||
-            this.bankNames[name + ' БАНК'] ||
-            this.bankNames['БАНК ' + name] ||
-            this.bankNames[name.replace(/^БАНК /, '')] ||
-            this.bankNames[name.replace(/^БАНК /, '') + ' БАНК'] ||
-            this.bankNames[name.replace(/ БАНК$/, '')] ||
-            this.bankNames['БАНК ' + name.replace(/ БАНК$/, '')] ||
+        return bankNames[name] ||
+            bankNames[name + ' БАНК'] ||
+            bankNames['БАНК ' + name] ||
+            bankNames[name.replace(/^БАНК /, '')] ||
+            bankNames[name.replace(/^БАНК /, '') + ' БАНК'] ||
+            bankNames[name.replace(/ БАНК$/, '')] ||
+            bankNames['БАНК ' + name.replace(/ БАНК$/, '')] ||
             this.normalize(name);
     },
 
@@ -24,20 +22,21 @@ module.exports = {
         return site.replace(/(?<!:|:\/)\/(?!ukraine$).*/g, '');
     },
 
-    rebuildBankNames() {
+    rebuildBankNames(bankMap) {
         // TODO: add more sources!!!
-        const dbfNames = int.read('nbu/banks-dbf').map(bank => buildVariants(bank.names));
-        const pdfNames = int.read('nbu/banks-pdf').map(bank => buildVariants(bank.names));
+        const dbfNames = bankMap.dbf.map(bank => buildVariants(bank.names));
+        const pdfNames = bankMap.pdf.map(bank => buildVariants(bank.names));
         dbfNames.sort(arrays.compare);
         pdfNames.sort(arrays.compare);
         int.write('names/banks-dbf', dbfNames); // it's debug, no need to wait
         int.write('names/banks-pdf', pdfNames); // it's debug, no need to wait
-        const manualNames = int.read('names/banks-manual');
-        return int.write('names/banks', arrays.combineIntersected(
-            dbfNames,
-            pdfNames,
-            manualNames
-        ));
+        return int.read('names/banks-manual').then(manualNames =>
+            int.write('names/banks', arrays.combineIntersected(
+                dbfNames,
+                pdfNames,
+                manualNames
+            )).then(bankNames => toLookupMap(bankNames))
+        );
     },
 
     extractBankPureName(bankFullName) {

@@ -1,7 +1,7 @@
 const Source = require('./source');
 
 class SourceExample extends Source {
-    saveBanks() {
+    getBanks() {
         return Promise.resolve([{name: 'Example'}]);
     }
 }
