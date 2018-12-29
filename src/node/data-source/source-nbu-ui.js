@@ -52,7 +52,7 @@ module.exports = {
                         const shortName = this.extractBankPureNameSPC(html.match(/<td.*?>Коротка назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
                         assert.equals('Short name mismatch', name, shortName);
                         return {
-                            id: id,
+                            // id: id, // not used
                             names: _.uniq([name, shortName, fullName]),
                             start: dates.format(bank.startDate),
                             link: link,

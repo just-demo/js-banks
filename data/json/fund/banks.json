@@ -40,7 +40,6 @@
     "names": [
       "ЄВРОПЕЙСЬКИЙ ПРОМИСЛОВИЙ БАНК"
     ],
-    "start": "2008-10-06",
     "sites": [
       "http://mtb.ua",
       "http://europrombank.kiev.ua",
@@ -52,7 +51,6 @@
     "names": [
       "ІДЕЯ БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.ideabank.ua"
     ],
@@ -78,7 +76,6 @@
     "names": [
       "ІНГ БАНК УКРАЇНА"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.ingcommercialbanking.com"
     ],
@@ -88,7 +85,6 @@
     "names": [
       "ІНДУСТРІАЛБАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.industrialbank.ua"
     ],
@@ -144,7 +140,6 @@
     "names": [
       "АГРОПРОСПЕРІС БАНК"
     ],
-    "start": "2008-03-14",
     "sites": [
       "http://www.ap-bank.com",
       "http://www.astrabank.ua"
@@ -155,7 +150,6 @@
     "names": [
       "АЙБОКС БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.agrocombank.kiev.ua"
     ],
@@ -173,7 +167,6 @@
     "names": [
       "АКОРДБАНК"
     ],
-    "start": "2008-08-14",
     "sites": [
       "http://www.accordbank.com.ua"
     ],
@@ -207,7 +200,6 @@
     "names": [
       "АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ ПРОМИСЛОВО-ІНВЕСТИЦІЙНИЙ БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.pib.com.ua"
     ],
@@ -217,7 +209,6 @@
     "names": [
       "АКЦЕНТ-БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.a-bank.com.ua"
     ],
@@ -234,7 +225,6 @@
     "names": [
       "АЛЬПАРІ БАНК"
     ],
-    "start": "2012-11-06",
     "sites": [
       "http://www.alpari-bank.com.ua"
     ],
@@ -244,7 +234,6 @@
     "names": [
       "АЛЬТБАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "https://altbank.ua"
     ],
@@ -254,7 +243,6 @@
     "names": [
       "АЛЬФА-БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.alfabank.com.ua"
     ],
@@ -264,7 +252,6 @@
     "names": [
       "АРКАДА"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.arkada.ua"
     ],
@@ -289,7 +276,6 @@
     "names": [
       "АСВІО БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.asviobank.ua"
     ],
@@ -320,7 +306,6 @@
     "names": [
       "БАНК 3/4"
     ],
-    "start": "2008-11-27",
     "sites": [
       "http://www.bank34.kiev.ua"
     ],
@@ -330,7 +315,6 @@
     "names": [
       "БАНК ІНВЕСТИЦІЙ ТА ЗАОЩАДЖЕНЬ"
     ],
-    "start": "2005-12-01",
     "sites": [
       "http://www.bisbank.com.ua"
     ],
@@ -340,7 +324,6 @@
     "names": [
       "БАНК АВАНГАРД"
     ],
-    "start": "2013-07-16",
     "sites": [],
     "active": true
   },
@@ -348,7 +331,6 @@
     "names": [
       "БАНК АЛЬЯНС"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://bankalliance.ua"
     ],
@@ -374,7 +356,6 @@
     "names": [
       "БАНК ВОСТОК"
     ],
-    "start": "2003-01-21",
     "sites": [
       "http://www.bankvostok.com.ua"
     ],
@@ -400,7 +381,6 @@
     "names": [
       "БАНК КРЕДИТ ДНІПРО"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.creditdnepr.com.ua"
     ],
@@ -441,7 +421,6 @@
     "names": [
       "БАНК СІЧ"
     ],
-    "start": "2011-07-18",
     "sites": [
       "http://www.sichbank.com.ua"
     ],
@@ -451,7 +430,6 @@
     "names": [
       "БАНК ТРАСТ-КАПІТАЛ"
     ],
-    "start": "2004-04-28",
     "sites": [
       "http://www.tc-bank.com"
     ],
@@ -461,7 +439,6 @@
     "names": [
       "БАНК ФАМІЛЬНИЙ"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.fbank.com.ua"
     ],
@@ -471,7 +448,6 @@
     "names": [
       "БАНК ФОРВАРД"
     ],
-    "start": "2006-05-19",
     "sites": [
       "http://www.bank-rs.com.ua"
     ],
@@ -505,7 +481,6 @@
     "names": [
       "БТА БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.btabank.ua"
     ],
@@ -539,7 +514,6 @@
     "names": [
       "ВЕРНУМ БАНК"
     ],
-    "start": "2009-06-16",
     "sites": [
       "http://vernumbank.com"
     ],
@@ -549,7 +523,6 @@
     "names": [
       "ВЕСТ ФАЙНЕНС ЕНД КРЕДИТ БАНК"
     ],
-    "start": "2007-03-05",
     "sites": [
       "http://www.creditwest.kiev.ua"
     ],
@@ -588,7 +561,6 @@
     "names": [
       "ГЛОБУС"
     ],
-    "start": "2008-02-13",
     "sites": [
       "http://www.globusbank.com.ua"
     ],
@@ -606,7 +578,6 @@
     "names": [
       "ГРАНТ"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.grant.kharkov.ua"
     ],
@@ -655,7 +626,6 @@
     "names": [
       "ДЕРЖАВНИЙ ЕКСПОРТНО-ІМПОРТНИЙ БАНК УКРАЇНИ"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.eximb.com"
     ],
@@ -679,7 +649,6 @@
     "names": [
       "ДОЙЧЕ БАНК ДБУ"
     ],
-    "start": "2009-10-12",
     "sites": [
       "http://www.db.com/ukraine"
     ],
@@ -727,7 +696,6 @@
     "names": [
       "ЗЕМЕЛЬНИЙ КАПІТАЛ"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.zemcap.dp.ua"
     ],
@@ -783,7 +751,6 @@
     "names": [
       "КЛІРИНГОВИЙ ДІМ"
     ],
-    "start": "2002-02-14",
     "sites": [
       "http://www.clhs.kiev.ua"
     ],
@@ -800,7 +767,6 @@
     "names": [
       "КОМЕРЦІЙНИЙ ІНВЕСТИЦІЙНИЙ БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.coopinvest.com.ua"
     ],
@@ -810,7 +776,6 @@
     "names": [
       "КОМЕРЦІЙНИЙ ІНДУСТРІАЛЬНИЙ БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.cib.com.ua"
     ],
@@ -820,7 +785,6 @@
     "names": [
       "КОНКОРД"
     ],
-    "start": "2007-01-18",
     "sites": [
       "http://www.concord.ua"
     ],
@@ -838,7 +802,6 @@
     "names": [
       "КРЕДІ АГРІКОЛЬ БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.indexbank.ua",
       "http://credit-agricole.com.ua"
@@ -849,7 +812,6 @@
     "names": [
       "КРЕДИТ ЄВРОПА БАНК"
     ],
-    "start": "2007-01-22",
     "sites": [
       "http://www.crediteurope.com.ua"
     ],
@@ -867,7 +829,6 @@
     "names": [
       "КРЕДОБАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.kredobank.com.ua"
     ],
@@ -877,7 +838,6 @@
     "names": [
       "КРИСТАЛБАНК"
     ],
-    "start": "2014-12-29",
     "sites": [
       "http://cristalbank.com.ua"
     ],
@@ -903,7 +863,6 @@
     "names": [
       "ЛЬВІВ"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.banklviv.com"
     ],
@@ -913,7 +872,6 @@
     "names": [
       "МІЖНАРОДНИЙ ІНВЕСТИЦІЙНИЙ БАНК"
     ],
-    "start": "2008-05-19",
     "sites": [
       "http://www.ii-bank.com.ua"
     ],
@@ -923,7 +881,6 @@
     "names": [
       "МІСТО БАНК"
     ],
-    "start": "2002-02-28",
     "sites": [
       "http://www.mistobank.com.ua"
     ],
@@ -941,7 +898,6 @@
     "names": [
       "МЕГАБАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "https://www.megabank.ua",
       "http://www"
@@ -968,7 +924,6 @@
     "names": [
       "МЕТАБАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.mbank.com.ua"
     ],
@@ -986,7 +941,6 @@
     "names": [
       "МОТОР-БАНК"
     ],
-    "start": "2008-01-23",
     "sites": [
       "http://www.motor-bank.com.ua"
     ],
@@ -996,7 +950,6 @@
     "names": [
       "МТБ БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://mtb.ua",
       "http://www.mtb.ua"
@@ -1060,7 +1013,6 @@
     "names": [
       "ОКСІ БАНК"
     ],
-    "start": "2008-11-03",
     "sites": [
       "http://www.okcibank.com.ua"
     ],
@@ -1085,7 +1037,6 @@
     "names": [
       "ОТП БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.otpbank.com.ua"
     ],
@@ -1103,7 +1054,6 @@
     "names": [
       "ПІВДЕННИЙ"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.pivdenny.com"
     ],
@@ -1113,7 +1063,6 @@
     "names": [
       "ПІРЕУС БАНК МКБ"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.piraeusbank.ua"
     ],
@@ -1123,7 +1072,6 @@
     "names": [
       "ПЕРШИЙ ІНВЕСТИЦІЙНИЙ БАНК"
     ],
-    "start": "2000-08-08",
     "sites": [
       "http://www.pinbank.ua"
     ],
@@ -1133,7 +1081,6 @@
     "names": [
       "ПЕРШИЙ УКРАЇНСЬКИЙ МІЖНАРОДНИЙ БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.fuib.com"
     ],
@@ -1151,7 +1098,6 @@
     "names": [
       "ПОЛІКОМБАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.poli.com.ua"
     ],
@@ -1161,7 +1107,6 @@
     "names": [
       "ПОЛТАВА-БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.poltavabank.com"
     ],
@@ -1171,7 +1116,6 @@
     "names": [
       "ПОРТАЛ"
     ],
-    "start": "2013-09-26",
     "sites": [],
     "active": true
   },
@@ -1187,7 +1131,6 @@
     "names": [
       "ПРАВЕКС-БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.pravex.com"
     ],
@@ -1220,7 +1163,6 @@
     "names": [
       "ПРИВАТБАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.privatbank.com.ua"
     ],
@@ -1231,7 +1173,6 @@
     "names": [
       "ПРОКРЕДИТ БАНК"
     ],
-    "start": "2001-02-27",
     "sites": [
       "http://www.procreditbank.com.ua"
     ],
@@ -1257,7 +1198,6 @@
     "names": [
       "РАДАБАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.radabank.com.ua"
     ],
@@ -1275,7 +1215,6 @@
     "names": [
       "РАЙФФАЙЗЕН БАНК АВАЛЬ"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.aval.ua"
     ],
@@ -1285,7 +1224,6 @@
     "names": [
       "РВС БАНК"
     ],
-    "start": "2015-07-15",
     "sites": [],
     "active": true
   },
@@ -1309,7 +1247,6 @@
     "names": [
       "РОЗРАХУНКОВИЙ ЦЕНТР З ОБСЛУГОВУВАННЯ ДОГОВОРІВ НА ФІНАНСОВИХ РИНКАХ"
     ],
-    "start": "2013-09-12",
     "sites": [],
     "active": true
   },
@@ -1324,7 +1261,6 @@
     "names": [
       "СІТІБАНК"
     ],
-    "start": "2000-11-28",
     "sites": [],
     "active": true
   },
@@ -1332,7 +1268,6 @@
     "names": [
       "СБЕРБАНК"
     ],
-    "start": "2001-10-18",
     "sites": [
       "https://www.sberbank.ua",
       "http://sberbank.com.ua"
@@ -1343,7 +1278,6 @@
     "names": [
       "СЕБ КОРПОРАТИВНИЙ БАНК"
     ],
-    "start": "2011-05-06",
     "sites": [],
     "active": true
   },
@@ -1358,7 +1292,6 @@
     "names": [
       "СКАЙ БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "https://sky.bank"
     ],
@@ -1459,7 +1392,6 @@
     "names": [
       "ТАСКОМБАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "https://tascombank.ua",
       "http://www.tascombank.ua"
@@ -1531,7 +1463,6 @@
     "names": [
       "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ"
     ],
-    "start": "2004-10-21",
     "sites": [
       "http://www.ubrr.com.ua"
     ],
@@ -1541,7 +1472,6 @@
     "names": [
       "УКРАЇНСЬКИЙ БУДІВЕЛЬНО-ІНВЕСТИЦІЙНИЙ БАНК"
     ],
-    "start": "2004-07-22",
     "sites": [
       "https://ubib.com.ua",
       "http://www.uci-bank.com"
@@ -1552,7 +1482,6 @@
     "names": [
       "УКРАЇНСЬКИЙ КАПІТАЛ"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.ukrcapital.com.ua"
     ],
@@ -1577,7 +1506,6 @@
     "names": [
       "УКРГАЗБАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.ukrgasbank.com"
     ],
@@ -1603,7 +1531,6 @@
     "names": [
       "УКРСИББАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.ukrsibbank.com"
     ],
@@ -1613,7 +1540,6 @@
     "names": [
       "УКРСОЦБАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "https://www.ukrsotsbank.com"
     ],
@@ -1623,7 +1549,6 @@
     "names": [
       "УНІВЕРСАЛ БАНК"
     ],
-    "start": "1999-09-02",
     "sites": [
       "http://www.universalbank.com.ua"
     ],
@@ -1673,7 +1598,6 @@
     "names": [
       "ФІНАНСОВА ІНІЦІАТИВА"
     ],
-    "start": "2005-05-06",
     "problem": "2015-06-24",
     "sites": [
       "http://www.the-bank.com.ua"
@@ -1733,7 +1657,6 @@
     "names": [
       "ЮНЕКС БАНК"
     ],
-    "start": "2002-11-05",
     "sites": [
       "http://www.unexbank.com.ua"
     ],

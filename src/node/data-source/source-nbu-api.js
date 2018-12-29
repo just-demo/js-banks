@@ -26,7 +26,7 @@ module.exports = {
                 .map(row => _.forOwn(row, (value, key) => row[key] = value['_text'] || value['_cdata']))
                 .map(record => {
                     return {
-                        id: parseInt(record['NKB']),
+                        // id: parseInt(record['NKB']), // not used
                         // TODO: is there full name? if so - add it as well
                         names: [names.extractBankPureName(record['SHORTNAME'])],
                         start: dates.format(record['D_OPEN']),

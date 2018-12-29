@@ -30,7 +30,7 @@ module.exports = {
             }).map(bank => {
                 return {
                     names: [bank.name],
-                    start: bank.start,
+                    // start: bank.start, // this start is different from bank opening date
                     problem: bank.problem,
                     sites: bank.sites,
                     link: bank.link,

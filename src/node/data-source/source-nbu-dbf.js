@@ -45,7 +45,7 @@ module.exports = {
                 }).map(record => {
                     assert.equals('Different date - ' + record['FULLNAME'], record['DATAR'], record['D_OPEN']);
                     return {
-                        id: record['SID'],
+                        // id: record['SID'], // not used
                         names: _.uniq([
                             names.extractBankPureName(record['SHORTNAME']),
                             names.extractBankPureName(record['FULLNAME'])

@@ -93,63 +93,43 @@ combineBanks();
 
 function combineBanks() {
     const bankMap = {
-        api: nbuAPI.getBanks(),
         dbf: nbuDBF.getBanks(),
-        pdf: nbuPDF.getBanks(),
+        api: nbuAPI.getBanks(),
         nbu: nbuUI.getBanks(),
+        pdf: nbuPDF.getBanks(),
         fund: fund.getBanks(),
         minfin: minfin.getBanks()
     };
 
-    const idMap = _.mapValues(bankMap, banks => Object.keys(banks));
-    _.forOwn(idMap, (ids, type) => console.log(type + ':', ids.length));
+    _.forOwn(bankMap, (typeBanks, type) => console.log(type + ':', Object.keys(typeBanks).length));
+    const ids = _.union(...Object.values(bankMap).map(typeBanks => Object.keys(typeBanks))).sort();
+    console.log('Union:', ids.length);
 
-    const banks = _.union(...Object.values(idMap)).sort().map(id => {
+    const banks = ids.map(id => {
         const bank = {
             id: id,
-            name: {
-                // TODO: collect names somehow as well
-                dbf: (bankMap.dbf[id] || {}).name,
-                api: (bankMap.api[id] || {}).name,
-                nbu: (bankMap.nbu[id] || {}).name,
-                pdf: (bankMap.pdf[id] || {}).name,
-                fund: (bankMap.fund[id] || {}).name,
-                minfin: (bankMap.minfin[id] || {}).name
-            },
-            active: {
-                dbf: (bankMap.dbf[id] || {}).active,
-                api: (bankMap.api[id] || {}).active,
-                nbu: (bankMap.nbu[id] || {}).active,
-                pdf: (bankMap.pdf[id] || {}).active,
-                fund: (bankMap.fund[id] || {}).active
-            },
-            dateOpen: {
-                dbf: (bankMap.dbf[id] || {}).start,
-                api: (bankMap.api[id] || {}).start,
-                nbu: (bankMap.nbu[id] || {}).start
-            },
-            dateIssue: {
-                api: (bankMap.api[id] || {}).problem,
-                nbu: (bankMap.nbu[id] || {}).problem,
-                pdf: (bankMap.pdf[id] || {}).problem,
-                fund: (bankMap.fund[id] || {}).problem,
-            },
-            site: {
-                fund: (bankMap.fund[id] || {}).sites,
-                minfin: (bankMap.minfin[id] || {}).sites
-            },
+            // TODO: collect 'names' field somehow as well, then rename 'id' field to 'name'
+            name: {},
+            active: {},
+            dateOpen: {},
+            dateIssue: {},
+            site: {},
             internal: {
-                id: {
-                    minfin: (bankMap.minfin[id] || {}).id
-                },
-                link: {
-                    nbu: (bankMap.nbu[id] || {}).link,
-                    pdf: (bankMap.pdf[id] || {}).link,
-                    fund: (bankMap.fund[id] || {}).link,
-                    minfin: (bankMap.minfin[id] || {}).link
-                }
+                id: {},
+                link: {}
             }
         };
+        _.forOwn(bankMap, (typeBanks, type) => {
+            const typeBank = typeBanks[id] || {};
+            bank.name[type] = typeBank.name;
+            bank.active[type] = typeBank.active;
+            // TODO: make field names consistent
+            bank.dateOpen[type] = typeBank.start;
+            bank.dateIssue[type] = typeBank.problem;
+            bank.site[type] = typeBank.sites;
+            bank.internal.id[type] = typeBank.id;
+            bank.internal.link[type] = typeBank.link;
+        });
         assert.equals('Name mismatch - ' + id + ' - ' + JSON.stringify(bank.name), ...definedValues(bank.name));
         assert.equals('Active mismatch - ' + id + ' - ' + JSON.stringify(bank.active), ...definedValues(bank.active));
         assert.equals('DateOpen mismatch - ' + id + ' - ' + JSON.stringify(bank.dateOpen), ...definedValues(bank.dateOpen));
