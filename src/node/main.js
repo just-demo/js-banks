@@ -38,18 +38,19 @@ const SourceExample = require('./data-source/source-example');
 
 const startTime = new Date();
 
-Promise.all([
-    nbuAPI.saveBanks(),
-    nbuDBF.saveBanks(),
-    nbuPDF.saveBanks(),
-    nbuUI.saveBanks(),
-    fund.saveBanks(),
-    minfin.saveBanks(),
-    minfin.saveRatings()
-]).then(() => {
-    names.rebuildBankNames().then(() => combineBanks());
-    console.log('Total time:', new Date() - startTime);
-});
+// Promise.all([
+//     nbuAPI.saveBanks(),
+//     nbuDBF.saveBanks(),
+//     nbuPDF.saveBanks(),
+//     nbuUI.saveBanks(),
+//     fund.saveBanks(),
+//     minfin.saveBanks(),
+//     minfin.saveRatings()
+// ]).then(() => {
+//     names.rebuildBankNames().then(() => combineBanks());
+//     console.log('Total time:', new Date() - startTime);
+// });
+combineBanks();
 // names.rebuildBankNames();
 
 // Promise.all([
@@ -91,81 +92,67 @@ Promise.all([
 ///home/pc/Desktop/projects/js-banks/data/json/nbu/banks-pdf.json
 
 function combineBanks() {
-    const apiBanks = nbuAPI.getBanks();
-    const dbfBanks = nbuDBF.getBanks();
-    const pdfBanks = nbuPDF.getBanks();
-    const nbuBanks = nbuUI.getBanks();
-    const fundBanks = fund.getBanks();
-    const minfinBanks = minfin.getBanks();
+    const bankMap = {
+        api: nbuAPI.getBanks(),
+        dbf: nbuDBF.getBanks(),
+        pdf: nbuPDF.getBanks(),
+        nbu: nbuUI.getBanks(),
+        fund: fund.getBanks(),
+        minfin: minfin.getBanks()
+    };
 
-    const dbfBankIds = Object.keys(dbfBanks);
-    const apiBankIds = Object.keys(apiBanks);
-    const nbuBankIds = Object.keys(nbuBanks);
-    const pdfBankIds = Object.keys(pdfBanks);
-    const fundBankIds = Object.keys(fundBanks);
-    const minfinBankIds = Object.keys(minfinBanks);
-    console.log('DBF:', dbfBankIds.length);
-    console.log('API:', apiBankIds.length);
-    console.log('NBU UI:', nbuBankIds.length);
-    console.log('NBU PDF:', pdfBankIds.length);
-    console.log('Fund:', fundBankIds.length);
-    console.log('Minfin:', minfinBankIds.length);
-    console.log('Intersection:', _.intersection(dbfBankIds, apiBankIds, nbuBankIds, pdfBankIds, fundBankIds, minfinBankIds).length);
-    console.log('Union:', _.union(dbfBankIds, apiBankIds, nbuBankIds, pdfBankIds, fundBankIds, minfinBankIds).length);
+    const idMap = _.mapValues(bankMap, banks => Object.keys(banks));
+    _.forOwn(idMap, (ids, type) => console.log(type + ':', ids.length));
 
-    const banks = _.union(dbfBankIds, apiBankIds, nbuBankIds, pdfBankIds, fundBankIds, minfinBankIds).sort().map(id => {
+    const banks = _.union(...Object.values(idMap)).sort().map(id => {
         const bank = {
             id: id,
             name: {
                 // TODO: collect names somehow as well
-                dbf: (dbfBanks[id] || {}).name,
-                api: (apiBanks[id] || {}).name,
-                nbu: (nbuBanks[id] || {}).name,
-                pdf: (pdfBanks[id] || {}).name,
-                fund: (fundBanks[id] || {}).name,
-                minfin: (minfinBanks[id] || {}).name
+                dbf: (bankMap.dbf[id] || {}).name,
+                api: (bankMap.api[id] || {}).name,
+                nbu: (bankMap.nbu[id] || {}).name,
+                pdf: (bankMap.pdf[id] || {}).name,
+                fund: (bankMap.fund[id] || {}).name,
+                minfin: (bankMap.minfin[id] || {}).name
             },
             active: {
-                dbf: (dbfBanks[id] || {}).active,
-                api: (apiBanks[id] || {}).active,
-                nbu: (nbuBanks[id] || {}).active,
-                pdf: (pdfBanks[id] || {}).active,
-                fund: (fundBanks[id] || {}).active
+                dbf: (bankMap.dbf[id] || {}).active,
+                api: (bankMap.api[id] || {}).active,
+                nbu: (bankMap.nbu[id] || {}).active,
+                pdf: (bankMap.pdf[id] || {}).active,
+                fund: (bankMap.fund[id] || {}).active
             },
             dateOpen: {
-                dbf: (dbfBanks[id] || {}).start,
-                api: (apiBanks[id] || {}).start,
-                nbu: (nbuBanks[id] || {}).start
+                dbf: (bankMap.dbf[id] || {}).start,
+                api: (bankMap.api[id] || {}).start,
+                nbu: (bankMap.nbu[id] || {}).start
             },
             dateIssue: {
-                api: (apiBanks[id] || {}).problem,
-                nbu: (nbuBanks[id] || {}).problem,
-                pdf: (pdfBanks[id] || {}).problem,
-                fund: (fundBanks[id] || {}).problem,
+                api: (bankMap.api[id] || {}).problem,
+                nbu: (bankMap.nbu[id] || {}).problem,
+                pdf: (bankMap.pdf[id] || {}).problem,
+                fund: (bankMap.fund[id] || {}).problem,
             },
             site: {
-                // TODO: do need empty array be default?
-                fund: (fundBanks[id] || {}).sites,
-                minfin: (minfinBanks[id] || {}).sites
+                fund: (bankMap.fund[id] || {}).sites,
+                minfin: (bankMap.minfin[id] || {}).sites
             },
             internal: {
                 id: {
-                    minfin: (minfinBanks[id] || {}).id
+                    minfin: (bankMap.minfin[id] || {}).id
                 },
                 link: {
-                    nbu: (nbuBanks[id] || {}).link,
-                    pdf: (pdfBanks[id] || {}).link,
-                    fund: (fundBanks[id] || {}).link,
-                    minfin: (minfinBanks[id] || {}).link
+                    nbu: (bankMap.nbu[id] || {}).link,
+                    pdf: (bankMap.pdf[id] || {}).link,
+                    fund: (bankMap.fund[id] || {}).link,
+                    minfin: (bankMap.minfin[id] || {}).link
                 }
             }
         };
         assert.equals('Name mismatch - ' + id + ' - ' + JSON.stringify(bank.name), ...definedValues(bank.name));
         assert.equals('Active mismatch - ' + id + ' - ' + JSON.stringify(bank.active), ...definedValues(bank.active));
         assert.equals('DateOpen mismatch - ' + id + ' - ' + JSON.stringify(bank.dateOpen), ...definedValues(bank.dateOpen));
-        if (bank.dateOpen.dbf && Object.values(bank.dateOpen).filter(d => d).length < 2) {
-            console.log('AAA - ' + id + ' - ' + JSON.stringify(bank.dateOpen))
-        }
         return bank;
     });
 
