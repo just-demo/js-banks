@@ -6,8 +6,13 @@ const dates = require('../dates');
 const assert = require('../assert');
 const regex = require('../regex');
 const mapAsync = require('../map-async');
+const Source = require('./source');
 
-module.exports = {
+class SourceFund extends Source {
+    constructor() {
+        super('fund');
+    }
+
     getBanks() {
         return Promise.all([readActiveBanks(), readInactiveBanks()]).then(allBanks => {
             const activeBanks = _.keyBy(allBanks[0], 'name');
@@ -32,7 +37,9 @@ module.exports = {
             return int.write('fund/banks', banks);
         });
     }
-};
+}
+
+module.exports = SourceFund;
 
 function readActiveBanks() {
     return ext.read('fund/banks-active', 'http://www.fg.gov.ua/uchasnyky-fondu').then(html => {
@@ -54,7 +61,9 @@ function readActiveBanks() {
 function readInactiveBanks() {
     return ext.read('fund/banks-not-paying', 'http://www.fg.gov.ua/not-paying').then(html => {
         const banks = regex.findManyObjects(html, /<h3 class="item-title"><a href="(\/.+?\/.+?\/(\d+?)-.+?)">[\S\s]+?(.+?)<\/a>/g, {
-            link: 1, id: 2, name: 3
+            link: 1,
+            id: 2,
+            name: 3
         });
 
         return mapAsync(banks, bank =>
@@ -83,7 +92,9 @@ function extractBankPureSites(bankFullSite) {
     }
 
     const sites = removeDuplicateSites(regex.findManyObjects(bankFullSite, /href="(.+?)"|(http[^"<\s]+)|[^/](www[^"<\s]+)/g, {
-        href: 1, http: 2, www: 3
+        href: 1,
+        http: 2,
+        www: 3
     }).map(sites => names.siteName(sites.href || sites.http || sites.www)));
 
     if (!assert.true('No site matches', sites.length, bankFullSite)) {

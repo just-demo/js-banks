@@ -4,8 +4,13 @@ const convert = require('xml-js');
 const ext = require('../external');
 const int = require('../internal');
 const dates = require('../dates');
+const Source = require('./source');
 
-module.exports = {
+class SourceNbuAPI extends Source {
+    constructor() {
+        super('api');
+    }
+
     // Публічна інформація у формі відкритих даних -> API сторінки -> Структурні підрозділи банків України:
     // https://bank.gov.ua/control/uk/publish/article?art_id=38441973#get_data_branch
     getBanks() {
@@ -28,4 +33,6 @@ module.exports = {
             return int.write('nbu/banks-api', banks);
         });
     }
-};
+}
+
+module.exports = SourceNbuAPI;

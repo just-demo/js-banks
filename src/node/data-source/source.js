@@ -1,4 +1,7 @@
 class Source {
+    constructor(type) {
+        this.type = type;
+    }
     /**
      * {
      *     id: number

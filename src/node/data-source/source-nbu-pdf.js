@@ -3,13 +3,17 @@ const names = require('../names');
 const ext = require('../external');
 const int = require('../internal');
 const dates = require('../dates');
-const assert = require('../assert');
 const regex = require('../regex');
 const PDFParser = require('pdf2json');
 const path = require('path');
 const mapAsync = require('../map-async');
+const Source = require('./source');
 
-module.exports = {
+class SourceNbuPDF extends Source {
+    constructor() {
+        super('pdf');
+    }
+
     // Банківський нагляд -> Реєстрація та ліцензування -> Банківські ліцензії та види діяльності банків України:
     // https://bank.gov.ua/control/uk/publish/article?art_id=52047
     getBanks() {
@@ -51,7 +55,9 @@ module.exports = {
             });
         });
     }
-};
+}
+
+module.exports = SourceNbuPDF;
 
 function parsePdf(pdf) {
     return new Promise(resolve => {

@@ -1,9 +1,3 @@
-const nbuAPI = require('./data-source/source-nbu-api');
-const nbuDBF = require('./data-source/source-nbu-dbf');
-const nbuPDF = require('./data-source/source-nbu-pdf');
-const nbuUI = require('./data-source/source-nbu-ui');
-const fund = require('./data-source/source-fund');
-const minfin = require('./data-source/source-minfin');
 const _ = require('lodash');
 const names = require('./names');
 const assert = require('./assert');
@@ -12,95 +6,64 @@ const int = require('./internal');
 const mapAsync = require('./map-async');
 const urls = require('./urls');
 const files = require('./files');
+const arrays = require('./arrays');
 const Source = require('./data-source/source');
 const SourceExample = require('./data-source/source-example');
+const SourceNbuAPI = require('./data-source/source-nbu-api');
+const SourceNbuDBF = require('./data-source/source-nbu-dbf');
+const SourceNbuPDF = require('./data-source/source-nbu-pdf');
+const SourceNbuUI = require('./data-source/source-nbu-ui');
+const SourceFund = require('./data-source/source-fund');
+const SourceMinfin = require('./data-source/source-minfin');
 
 // let t = require('../src/test');
 // console.log(t.hello());
 
-// mapAsync(['a', 'b', 'c', 'd', 'e'], file => {
-//     return new Promise(resolve => {
-//         setTimeout(() => {
-//             console.log(file);
-//             resolve(file + '_done');
-//         }, 1000);
-//     });
-// }, 2).then(result => console.log(result));
-
-// class Source {
-//     getBanks() {
-//         return 'test!';
-//     }
-// }
-
 // new Source().getBanks().then(console.log);
 // new SourceExample().getBanks().then(console.log);
 
+// const sources = _.keyBy([
+//     new SourceNbuDBF(),
+//     new SourceNbuAPI(),
+//     new SourceNbuUI(),
+//     new SourceNbuPDF(),
+//     new SourceFund(),
+//     new SourceMinfin()
+// ], 'type');
+
 const startTime = new Date();
-
+const sourceMinfin = new SourceMinfin();
 Promise.all([
-    nbuDBF.getBanks(),
-    nbuAPI.getBanks(),
-    nbuUI.getBanks(),
-    nbuPDF.getBanks(),
-    fund.getBanks(),
-    minfin.getBanks(),
-    minfin.getRatings()
-]).then((results) => {
-    const bankMap = {
-        dbf: results[0],
-        api: results[1],
-        nbu: results[2],
-        pdf: results[3],
-        fund: results[4],
-        minfin: results[5]
-    };
-    names.rebuildBankNames(bankMap).then(() => combineBanks(bankMap));
-    console.log('Total time:', new Date() - startTime);
-});
-// combineBanks();
-// names.rebuildBankNames();
+    getBanks().then(banks => files.write('../../public/banks.json', toJson(banks))),
+    getRatings().then(ratings => files.write('../../public/minfin-ratings.json', toJson(ratings)))
+]).then(() => console.log('Total time:', new Date() - startTime));
 
-// Promise.all([
-//     test(),
-//     test(),
-//     test()
-// ]).then((results) => {
-//     console.log('Total time:', new Date() - startTime);
-//     console.log(results);
-// });
-//
-// function test() {
-//     return new Promise(resolve => resolve(utils.asyncReadURL("http://localhost:3333/")));
-// }
+// TODO: do it inside files.write?
+function toJson(obj) {
+    return JSON.stringify(obj, null, 2);
+}
 
-// utils.asyncReadURL('https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251').then(data => console.log(data));
-// urls.read('https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251').then(data =>
-//     files.write('../../tmp/1.txt', data));
-// urls.download('https://bank.gov.ua/files/Licences_bank/320779.pdf').then(data =>
-//     files.writeRaw('../../tmp/1.pdf', data));
-//
-//
-// files.exists('../../tmp/1.txt').then(res => console.log(res));
-// files.exists('../../tmp/2.txt').then(res => console.log(res));
-//
-// files.read('../../tmp/1.txt').then(data =>
-//     files.write('../../tmp/2.txt', data));
-// files.readRaw('../../tmp/1.pdf').then(data =>
-//     files.writeRaw('../../tmp/2.pdf', data));
+function getBanks() {
+    const sources = [
+        new SourceNbuDBF(),
+        new SourceNbuAPI(),
+        new SourceNbuUI(),
+        new SourceNbuPDF(),
+        new SourceFund(),
+        sourceMinfin
+    ];
+    return Promise.all(sources.map(source => source.getBanks())).then((results) => {
+        const bankMap = arrays.toMap(sources, source => source.type, (source, index) => results[index]);
+        return combineBanks(bankMap);
+    });
+}
 
-
-// combineBanks();
-// dbf.parse('../../data/binary/nbu/RCUKRU.DBF');
-
-// const banks = int.read('nbu/banks-pdf');
-// banks.sort(names.compareNames);
-// int.write('nbu/banks-pdf0', banks);
-
-///home/pc/Desktop/projects/js-banks/data/json/nbu/banks-pdf.json
+function getRatings() {
+    return sourceMinfin.getRatings();
+}
 
 function combineBanks(allBanks) {
-    names.rebuildBankNames(allBanks).then(bankNameMap => {
+    return names.rebuildBankNames(allBanks).then(bankNameMap => {
         const bankMap = _.mapValues(allBanks, typeBanks => {
             const typeBankMap = {};
             typeBanks.forEach(bank => {
@@ -116,7 +79,7 @@ function combineBanks(allBanks) {
         const ids = _.union(...Object.values(bankMap).map(typeBanks => Object.keys(typeBanks))).sort();
         console.log('Union:', ids.length);
 
-        const banks = ids.map(id => {
+        return ids.map(id => {
             const bank = {
                 id: id,
                 // TODO: collect 'names' field somehow as well, then rename 'id' field to 'name'
@@ -146,10 +109,6 @@ function combineBanks(allBanks) {
             assert.equals('DateOpen mismatch - ' + id + ' - ' + JSON.stringify(bank.dateOpen), ...definedValues(bank.dateOpen));
             return bank;
         });
-
-        files.write('../../public/banks.json', JSON.stringify(banks, null, 2));
-        files.read('../../data/json/minfin/ratings.json')
-            .then(ratings => files.write('../../public/minfin-ratings.json', ratings));
     });
 }
 

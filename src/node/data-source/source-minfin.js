@@ -6,8 +6,13 @@ const assert = require('../assert');
 const regex = require('../regex');
 const mapAsync = require('../map-async');
 const arrays = require('../arrays');
+const Source = require('./source');
 
-module.exports = {
+class SourceMinfin extends Source {
+    constructor() {
+        super('minfin');
+    }
+
     getBanks() {
         return ext.read('minfin/banks', 'https://minfin.com.ua/ua/banks/all/').then(banksHtml => {
             const banks = regex.findManyObjects(banksHtml, /class="bank-emblem--desktop"[\S\s]+?\/company\/(.+?)\/[\S\s]+?<a href="\/ua\/company\/(.+?)\/">(.+?)<\/a>/g, {
@@ -30,7 +35,7 @@ module.exports = {
             banks.sort(names.compareNames);
             return int.write('minfin/banks', banks);
         })
-    },
+    }
 
     getRatings() {
         return ext.read('minfin/dates', 'https://minfin.com.ua/ua/banks/rating/').then(html => {
@@ -51,4 +56,6 @@ module.exports = {
             });
         });
     }
-};
+}
+
+module.exports = SourceMinfin;

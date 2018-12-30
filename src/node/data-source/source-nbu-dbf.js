@@ -6,8 +6,13 @@ const dates = require('../dates');
 const assert = require('../assert');
 const arj = require('../arj');
 const dbf = require('../dbf');
+const Source = require('./source');
 
-module.exports = {
+class SourceNbuDBF extends Source {
+    constructor() {
+        super('dbf');
+    }
+
     // Банківський нагляд -> Реєстрація та ліцензування -> Довідник банків -> Імпорт:
     // https://bank.gov.ua/control/uk/bankdict/search
     getBanks() {
@@ -48,4 +53,6 @@ module.exports = {
                 return int.write('nbu/banks-dbf', banks);
             });
     }
-};
+}
+
+module.exports = SourceNbuDBF;

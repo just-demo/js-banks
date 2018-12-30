@@ -6,8 +6,13 @@ const dates = require('../dates');
 const assert = require('../assert');
 const regex = require('../regex');
 const mapAsync = require('../map-async');
+const Source = require('./source');
 
-module.exports = {
+class SourceNbuUI extends Source {
+    constructor() {
+        super('nbu');
+    }
+
     // Банківський нагляд -> Реєстрація та ліцензування -> Довідник банків -> Повний перелік банківських установ:
     // https://bank.gov.ua/control/bankdict/banks
     // Банківський нагляд -> Реорганізація, припинення та ліквідація:
@@ -19,7 +24,9 @@ module.exports = {
             return int.write('nbu/banks', banks);
         });
     }
-};
+}
+
+module.exports = SourceNbuUI;
 
 function readActiveBanks() {
     return ext.read('nbu/banks/pages/' + 0, 'https://bank.gov.ua/control/bankdict/banks').then(firstHtml => {

@@ -5,6 +5,12 @@ module.exports = {
         return item ? [item] : [];
     },
 
+    toMap(array, keyMapper, valueMapper) {
+        const map = {};
+        array.forEach((value, index) => map[keyMapper(value, index)] = valueMapper(value, index));
+        return map
+    },
+
     compare(array1, array2) {
         const len = Math.min(array1.length, array2.length);
         for (let i = 0; i < len; i++) {
