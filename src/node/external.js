@@ -30,7 +30,6 @@ module.exports = {
             exists ?
                 perform('READ', file, () => files.read(file)) :
                 perform('CALC', cache, operation)
-                // TODO: test empty data
                     .then(data => data && files.write(file, data))
         );
     }
