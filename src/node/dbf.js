@@ -89,14 +89,12 @@ function DbfParser(encoding) {
         return str ? [str.substring(0, 4), str.substring(4, 6), str.substring(6, 8)].join('-') : null;
     };
 
-    this.parseFieldDesc = (buffer) => {
-        return {
-            name: buffer.slice(0, 11).toString().replace(/\0+/, ''),
-            type: buffer.slice(11, 12).toString(),
-            length: this.parseInt(buffer.slice(16, 18)),
-            decimalCount: 0, // TODO: research this.parseInt(buffer.slice(17, 18)),
-        };
-    };
+    this.parseFieldDesc = (buffer) => ({
+        name: buffer.slice(0, 11).toString().replace(/\0+/, ''),
+        type: buffer.slice(11, 12).toString(),
+        length: this.parseInt(buffer.slice(16, 18)),
+        decimalCount: 0, // TODO: research this.parseInt(buffer.slice(17, 18)),
+    });
 
     this.parseInt = (buffer) => {
         return buffer.readIntLE(0, buffer.length);

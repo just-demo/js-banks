@@ -1,33 +1,30 @@
 const express = require('express');
 const ext = require('../../src/node/external');
+const files = require('../../src/node/files');
+const logs = require('../../src/node/logs');
+const arrays = require('../../src/node/arrays');
 
+const port = 3333;
 express()
-    // .get('/', (req, res) => {
-    //     const startTime = new Date();
-    //     ext[req.query.type](req.query.file).then(data => {
-    //         const timeOut = Math.max(0, getTimeout(req.query.url) - (new Date() - startTime));
-    //         setTimeout(() => res.send(data), timeOut);
-    //     });
-    // })
-    // .get('/:type', (req, res) => {
-    //     const startTime = new Date();
-    //     ext[req.params.type](req.query.file).then(data => {
-    //         const timeOut = Math.max(0, getTimeout(req.query.url) - (new Date() - startTime));
-    //         setTimeout(() => res.send(data), timeOut);
-    //     });
-    // })
     .get('/:type/*', (req, res) => {
         const startTime = new Date();
         ext[req.params.type](req.param(0)).then(data => {
-            const timeOut = Math.max(0, getTimeout(req.query.url) - (new Date() - startTime));
-            setTimeout(() => res.send(data), timeOut);
+            const timeout = Math.max(0, getTimeout(req.query.url) - (new Date() - startTime));
+            console.log('Setting timeout:', timeout);
+            setTimeout(() => res.send(data), timeout);
         });
     })
-    .listen(3333, () => console.log('Started!'));
+    .listen(port, () => console.log('Proxy server started:', port));
+
+let timeouts = {};
+files.read('../../public/logs/log1.txt').then(log => {
+    timeouts = arrays.toMap(logs.parse(log), req => req.url, req => req.time);
+    console.log('Timeouts initiated:', Object.keys(timeouts).length);
+});
 
 function getTimeout(url) {
-    return 0;
+    return timeouts[url] || 0;
 }
 
-// http://localhost:3333/read/fund/banks-active
+// http://localhost:3333/read/fund/banks-active?url=http://www.fg.gov.ua/uchasnyky-fondu
 // http://localhost:3333/download/nbu/not-banks/pdf/320779.pdf

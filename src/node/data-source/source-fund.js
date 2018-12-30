@@ -19,16 +19,14 @@ class SourceFund extends Source {
                     ...(inactiveBanks[name] || {}),
                     ...(activeBanks[name] || {})
                 };
-            }).map(bank => {
-                return {
-                    names: [bank.name],
-                    // start: bank.start, // this start is different from bank opening date
-                    problem: bank.problem,
-                    sites: bank.sites,
-                    link: bank.link,
-                    active: bank.active
-                }
-            });
+            }).map(bank => ({
+                names: [bank.name],
+                // start: bank.start, // this start is different from bank opening date
+                problem: bank.problem,
+                sites: bank.sites,
+                link: bank.link,
+                active: bank.active
+            }));
             banks.sort(names.compareNames);
             return int.write('fund/banks', banks);
         });
@@ -40,15 +38,15 @@ module.exports = SourceFund;
 function readActiveBanks() {
     return ext.read('fund/banks-active', 'http://www.fg.gov.ua/uchasnyky-fondu').then(html => {
         const banks = regex.findManyObjects(html, /<tr.*?>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>([\S\s]*?)<\/td>\s+?<\/tr>/g, {
-            name: 2, date: 4, site: 7
-        }).map(bank => {
-            return {
-                name: names.extractBankPureName(bank.name),
-                start: dates.format(bank.date),
-                sites: extractBankPureSites(bank.site),
-                active: true
-            };
-        });
+            name: 2,
+            date: 4,
+            site: 7
+        }).map(bank => ({
+            name: names.extractBankPureName(bank.name),
+            start: dates.format(bank.date),
+            sites: extractBankPureSites(bank.site),
+            active: true
+        }));
         banks.forEach(bank => assert.false('Many sites', bank.sites.length > 1, bank.name, bank.sites));
         return banks;
     });

@@ -14,17 +14,15 @@ class SourceNbuAPI extends Source {
             const json = convert.xml2js(xml, {compact: true});
             const banks = json['BANKBRANCH']['ROW']
                 .map(row => _.forOwn(row, (value, key) => row[key] = value['_text'] || value['_cdata']))
-                .map(record => {
-                    return {
-                        // id: parseInt(record['NKB']), // not used
-                        // TODO: is there full name? if so - add it as well
-                        names: [names.extractBankPureName(record['SHORTNAME'])],
-                        start: dates.format(record['D_OPEN']),
-                        problem: dates.format(record['D_STAN']) || undefined,
-                        // 'Нормальний', 'Режим ліквідації', 'Реорганізація', 'Неплатоспроможний'
-                        active: ['Нормальний'.toUpperCase(), 'Реорганізація'.toUpperCase()].includes(record['N_STAN'].toUpperCase())
-                    };
-                });
+                .map(record => ({
+                    // id: parseInt(record['NKB']), // not used
+                    // TODO: is there full name? if so - add it as well
+                    names: [names.extractBankPureName(record['SHORTNAME'])],
+                    start: dates.format(record['D_OPEN']),
+                    problem: dates.format(record['D_STAN']) || undefined,
+                    // 'Нормальний', 'Режим ліквідації', 'Реорганізація', 'Неплатоспроможний'
+                    active: ['Нормальний'.toUpperCase(), 'Реорганізація'.toUpperCase()].includes(record['N_STAN'].toUpperCase())
+                }));
             banks.sort(names.compareNames);
             return int.write('nbu/banks-api', banks);
         });

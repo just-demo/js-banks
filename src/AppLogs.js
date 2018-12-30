@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import './AppLogs.css';
 import _ from 'lodash';
-import regex from './node/regex';
+import logs from './node/logs';
 import classNames from 'classnames';
 
 class AppLogs extends Component {
@@ -39,20 +39,8 @@ class AppLogs extends Component {
         if (suffix) {
             fetch(this.logPath(suffix))
                 .then(log => log.text())
-                .then(log => this.setState({requests: this.parseLog(log)}));
+                .then(log => this.setState({requests: logs.parse(log)}));
         }
-    }
-
-    parseLog(log) {
-        return log.split('\n')
-            .map(line => regex.findObject(line, /GET (.*) (\d+)ms/, {url: 1, time: 2}))
-            .filter(line => line)
-            .map(request => {
-                return {
-                    url: request.url,
-                    time: parseInt(request.time)
-                }
-            });
     }
 
     componentDidMount() {

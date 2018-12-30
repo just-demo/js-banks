@@ -14,13 +14,11 @@ class AppDBF extends Component {
     }
 
     render() {
-        // const columns = (this.state.banks[0] || []).map((value, index) => {
-        //     return {
-        //         id: value,
-        //         Header: value,
-        //         accessor: values => values[index]
-        //     };
-        // });
+        // const columns = (this.state.banks[0] || []).map((value, index) => ({
+        //     id: value,
+        //     Header: value,
+        //     accessor: values => values[index]
+        // }));
         // const data = this.state.banks.slice(1);
         // console.log(data.length);
         //
