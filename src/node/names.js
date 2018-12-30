@@ -18,7 +18,7 @@ module.exports = {
     },
 
     normalize(name) {
-        return name.toUpperCase()
+        return name.trim().toUpperCase()
             .replace(/`/g, '\'')
             .replace(/\s+/g, ' ')
             .replace(/\s*-\s*/g, '-')

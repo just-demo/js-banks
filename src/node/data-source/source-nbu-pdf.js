@@ -28,7 +28,6 @@ class SourceNbuPDF extends Source {
             return mapAsync(files, file => {
                 const url = 'https://bank.gov.ua/files/Licences_bank/' + file;
                 const textFile = 'nbu/not-banks/text/' + path.parse(file).name + '.txt';
-                // TODO: to optimize performance consider parsing first page only
                 // TODO: remove this temporary optimization and inline process function when there only one usage left
                 return ext.calc(textFile, () => null)
                     .then(text => text || ext.download('nbu/not-banks/pdf/' + file, url).then(pdf => ext.calc(textFile, () => pdfs.parse(pdf))))

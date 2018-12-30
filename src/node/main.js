@@ -22,18 +22,11 @@ const test = require('../test');
 console.log(test.testNode());
 
 const startTime = new Date();
-const file = '../../data/binary/nbu/not-banks/pdf/300012.pdf';
-files.readRaw(file).then(pdf => pdfs.parse2(pdf).then(text => {
-    console.log(text);
-    console.log('Time:', new Date() - startTime);
-}));
-
-// const startTime = new Date();
-// const sourceMinfin = new SourceMinfin();
-// Promise.all([
-//     getBanks().then(banks => files.write('../../public/banks.json', toJson(banks))),
-//     getRatings().then(ratings => files.write('../../public/minfin-ratings.json', toJson(ratings)))
-// ]).then(() => console.log('Total time:', new Date() - startTime));
+const sourceMinfin = new SourceMinfin();
+Promise.all([
+    getBanks().then(banks => files.write('../../public/banks.json', toJson(banks))),
+    getRatings().then(ratings => files.write('../../public/minfin-ratings.json', toJson(ratings)))
+]).then(() => console.log('Total time:', new Date() - startTime));
 
 // TODO: do it inside files.write?
 function toJson(obj) {
