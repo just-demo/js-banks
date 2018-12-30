@@ -7,6 +7,7 @@ const mapAsync = require('./map-async');
 const urls = require('./urls');
 const files = require('./files');
 const arrays = require('./arrays');
+const pdfs = require('./pdfs');
 const BankNameLookup = require('./bank-name-lookup');
 const Source = require('./data-source/source');
 const SourceExample = require('./data-source/source-example');
@@ -16,16 +17,23 @@ const SourceNbuPDF = require('./data-source/source-nbu-pdf');
 const SourceNbuUI = require('./data-source/source-nbu-ui');
 const SourceFund = require('./data-source/source-fund');
 const SourceMinfin = require('./data-source/source-minfin');
-const test = require('../test');
 
+const test = require('../test');
 console.log(test.testNode());
 
 const startTime = new Date();
-const sourceMinfin = new SourceMinfin();
-Promise.all([
-    getBanks().then(banks => files.write('../../public/banks.json', toJson(banks))),
-    getRatings().then(ratings => files.write('../../public/minfin-ratings.json', toJson(ratings)))
-]).then(() => console.log('Total time:', new Date() - startTime));
+const file = '../../data/binary/nbu/not-banks/pdf/300012.pdf';
+files.readRaw(file).then(pdf => pdfs.parse2(pdf).then(text => {
+    console.log(text);
+    console.log('Time:', new Date() - startTime);
+}));
+
+// const startTime = new Date();
+// const sourceMinfin = new SourceMinfin();
+// Promise.all([
+//     getBanks().then(banks => files.write('../../public/banks.json', toJson(banks))),
+//     getRatings().then(ratings => files.write('../../public/minfin-ratings.json', toJson(ratings)))
+// ]).then(() => console.log('Total time:', new Date() - startTime));
 
 // TODO: do it inside files.write?
 function toJson(obj) {

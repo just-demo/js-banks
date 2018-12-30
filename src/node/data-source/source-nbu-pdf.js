@@ -4,7 +4,7 @@ const ext = require('../external');
 const int = require('../internal');
 const dates = require('../dates');
 const regex = require('../regex');
-const PDFParser = require('pdf2json');
+const pdfs = require('../pdfs');
 const path = require('path');
 const mapAsync = require('../map-async');
 const Source = require('./source');
@@ -31,7 +31,7 @@ class SourceNbuPDF extends Source {
                 // TODO: to optimize performance consider parsing first page only
                 // TODO: remove this temporary optimization and inline process function when there only one usage left
                 return ext.calc(textFile, () => null)
-                    .then(text => text || ext.download('nbu/not-banks/pdf/' + file, url).then(pdf => ext.calc(textFile, () => parsePdf(pdf))))
+                    .then(text => text || ext.download('nbu/not-banks/pdf/' + file, url).then(pdf => ext.calc(textFile, () => pdfs.parse(pdf))))
                     .then(text => {
                         const bank = regex.findObject(text, /^(.+?)Назва банку(.*?Дата відкликання(\d{2}\.\d{2}\.\d{4}))?/g, {
                             name: 1, problem: 3
@@ -55,29 +55,3 @@ class SourceNbuPDF extends Source {
 
 module.exports = SourceNbuPDF;
 
-function parsePdf(pdf) {
-    return new Promise(resolve => {
-        const pdfParser = new PDFParser();
-        pdfParser.on("pdfParser_dataError", data => {
-            console.error(data.parserError);
-            resolve(null);
-        });
-        pdfParser.on("pdfParser_dataReady", data => {
-            // Process immediately to save memory
-            resolve(extractText(data));
-        });
-        pdfParser.parseBuffer(pdf);
-    });
-}
-
-function extractText(object) {
-    const text = [];
-    _.forOwn(object, (value, key) => {
-        if (key === 'T') {
-            text.push(decodeURIComponent(value));
-        } else if (_.isObject(value)) {
-            text.push(...extractText(value));
-        }
-    });
-    return text.join('');
-}
