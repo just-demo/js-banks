@@ -11,20 +11,20 @@ module.exports = {
     },
 
     rebuildBankNames(bankMap) {
-        // TODO: add more sources!!!
-        const dbfNames = bankMap.dbf.map(bank => buildVariants(bank.names));
-        const pdfNames = bankMap.pdf.map(bank => buildVariants(bank.names));
-        dbfNames.sort(arrays.compare);
-        pdfNames.sort(arrays.compare);
-        int.write('names/banks-dbf', dbfNames); // it's debug, no need to wait
-        int.write('names/banks-pdf', pdfNames); // it's debug, no need to wait
-        return int.read('names/banks-manual').then(manualNames =>
-            int.write('names/banks', arrays.combineIntersected(
-                dbfNames,
-                pdfNames,
-                manualNames
-            )).then(bankNames => toLookupMap(bankNames))
-        );
+        return int.read('names/banks-manual').then(manualNames => {
+            let nameGroups = _.flatten(Object.values(bankMap)).map(bank => bank.names);
+            nameGroups.push(...manualNames);
+            nameGroups = nameGroups.map(names => _.sortBy(names, 'length'));
+            // Do not sort final groups because we should make sure PDF groups go last (there is implicit dependency on bankMap order),
+            // otherwise merged/renamed banks from PDF source will override relevant names from other sources
+            nameGroups = nameGroups.map(names => buildVariants(names));
+            return int.write('names/banks', arrays.combineIntersected(nameGroups).sort(arrays.compare))
+                .then(bankNames => {
+                    const lookupMap = {};
+                    bankNames.forEach(sameNames => sameNames.forEach(value => lookupMap[value] = sameNames[0]));
+                    return lookupMap;
+                })
+        });
     },
 
     extractBankPureName(bankFullName) {
@@ -36,7 +36,6 @@ module.exports = {
         return this.normalize(name);
     },
 
-    // TODO: consider creating normalizeBankName that would additionally remove "БАНК" prefix and suffix
     normalize(name) {
         return name.toUpperCase()
             .replace(/`/g, '\'')
@@ -61,18 +60,9 @@ function buildVariants(names) {
     const variants = [];
     names.map(name => name.toUpperCase()).forEach(name1 => {
         // TODO: simplify after every place start using names.normalize
-        const name2 = name1.replace(/\s*-\s*/g, '-');
-        const name3 = name2.replace(/\s+/g, '-');
-        const name4 = name3.replace(/-/g, ' ');
-        [name1, name2, name3, name4].forEach(name => variants.push(name));
+        const name2 = name1.replace(/\s+/g, '-');
+        const name3 = name2.replace(/-/g, ' ');
+        variants.push(name1, name2, name3);
     });
     return _.uniq(variants);
-}
-
-function toLookupMap(values) {
-    const map = {};
-    values.forEach(sameValues => {
-        sameValues.forEach(value => map[value] = sameValues[0]);
-    });
-    return map;
 }

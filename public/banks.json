@@ -82,6 +82,29 @@
     }
   },
   {
+    "id": "VG",
+    "name": {
+      "pdf": "VG",
+      "fund": "VG"
+    },
+    "active": {
+      "pdf": false,
+      "fund": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2008-02-25"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/324485.pdf",
+        "fund": "/not-paying/completed/80-evro-bank-rz"
+      }
+    }
+  },
+  {
     "id": "ЄВРОБАНК",
     "name": {
       "dbf": "ЄВРОБАНК",
@@ -193,29 +216,6 @@
     }
   },
   {
-    "id": "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ",
-    "name": {
-      "pdf": "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ",
-      "fund": "ЄВРОПЕЙСЬКИЙ БАНК РОЗВИТКУ ТА ЗАОЩАДЖЕНЬ"
-    },
-    "active": {
-      "pdf": false,
-      "fund": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2008-02-25"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/324485.pdf",
-        "fund": "/not-paying/completed/80-evro-bank-rz"
-      }
-    }
-  },
-  {
     "id": "ЄПБ",
     "name": {
       "dbf": "ЄПБ",
@@ -298,6 +298,49 @@
         "nbu": "/control/uk/bankdict/bank?id=243",
         "pdf": "https://bank.gov.ua/files/Licences_bank/336310.pdf",
         "minfin": "https://minfin.com.ua/ua/company/ideabank"
+      }
+    }
+  },
+  {
+    "id": "ІКАБ",
+    "name": {
+      "pdf": "ІКАБ"
+    },
+    "active": {
+      "pdf": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "1999-03-02"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/322636.pdf"
+      }
+    }
+  },
+  {
+    "id": "ІКО",
+    "name": {
+      "pdf": "ІКО",
+      "fund": "ІКО"
+    },
+    "active": {
+      "pdf": false,
+      "fund": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2006-02-28"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/300807.pdf",
+        "fund": "/not-paying/completed/83-garant"
       }
     }
   },
@@ -556,37 +599,6 @@
     }
   },
   {
-    "id": "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ",
-    "name": {
-      "pdf": "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ",
-      "fund": "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ",
-      "minfin": "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ"
-    },
-    "active": {
-      "pdf": false,
-      "fund": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1998-09-14"
-    },
-    "site": {
-      "minfin": [
-        "http://www.inprombank.ua"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 184
-      },
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/306544.pdf",
-        "fund": "/not-paying/completed/60-inno-prom-bank",
-        "minfin": "https://minfin.com.ua/ua/company/inprombank"
-      }
-    }
-  },
-  {
     "id": "ІНТЕГРАЛ-БАНК",
     "name": {
       "dbf": "ІНТЕГРАЛ-БАНК",
@@ -695,26 +707,6 @@
     }
   },
   {
-    "id": "ІНТЕРКОНТИНЕНТБАНК",
-    "name": {
-      "pdf": "ІНТЕРКОНТИНЕНТБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2006-04-04"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300313.pdf"
-      }
-    }
-  },
-  {
     "id": "ІНТЕРКРЕДИТБАНК",
     "name": {
       "dbf": "ІНТЕРКРЕДИТБАНК",
@@ -778,26 +770,6 @@
       "link": {
         "pdf": "https://bank.gov.ua/files/Licences_bank/380270.pdf",
         "fund": "/not-paying/completed/67-ipobank"
-      }
-    }
-  },
-  {
-    "id": "ІПОТЕЧНИЙ КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ",
-    "name": {
-      "pdf": "ІПОТЕЧНИЙ КОМЕРЦІЙНИЙ АКЦІОНЕРНИЙ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1999-03-02"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322636.pdf"
       }
     }
   },
@@ -948,9 +920,9 @@
     }
   },
   {
-    "id": "АЗОВ-БАНК",
+    "id": "АЗОВ",
     "name": {
-      "pdf": "АЗОВ-БАНК"
+      "pdf": "АЗОВ"
     },
     "active": {
       "pdf": false
@@ -1228,26 +1200,6 @@
     }
   },
   {
-    "id": "АКЦІОНЕРНИЙ БАНК КРЕДІ СВІСС ФЬОРСТ БОСТОН (УКРАЇНА)",
-    "name": {
-      "pdf": "АКЦІОНЕРНИЙ БАНК КРЕДІ СВІСС ФЬОРСТ БОСТОН (УКРАЇНА)"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2004-03-23"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300562.pdf"
-      }
-    }
-  },
-  {
     "id": "АЛЛОНЖ",
     "name": {
       "pdf": "АЛЛОНЖ",
@@ -1459,6 +1411,37 @@
     }
   },
   {
+    "id": "АНДРІЇВСЬКИЙ",
+    "name": {
+      "pdf": "АНДРІЇВСЬКИЙ",
+      "fund": "АНДРІЇВСЬКИЙ",
+      "minfin": "АНДРІЇВСЬКИЙ"
+    },
+    "active": {
+      "pdf": false,
+      "fund": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "1998-09-14"
+    },
+    "site": {
+      "minfin": [
+        "http://www.inprombank.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 184
+      },
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/306544.pdf",
+        "fund": "/not-paying/completed/60-inno-prom-bank",
+        "minfin": "https://minfin.com.ua/ua/company/inprombank"
+      }
+    }
+  },
+  {
     "id": "АП",
     "name": {
       "dbf": "АП",
@@ -1501,10 +1484,10 @@
     }
   },
   {
-    "id": "АПЕКС-БАНК",
+    "id": "АПЕКС",
     "name": {
-      "pdf": "АПЕКС-БАНК",
-      "minfin": "АПЕКС-БАНК"
+      "pdf": "АПЕКС",
+      "minfin": "АПЕКС"
     },
     "active": {
       "pdf": false
@@ -1678,6 +1661,29 @@
     }
   },
   {
+    "id": "АРЧ",
+    "name": {
+      "pdf": "АРЧ",
+      "fund": "АРЧ"
+    },
+    "active": {
+      "pdf": false,
+      "fund": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2010-01-21"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/321228.pdf",
+        "fund": "/not-paying/completed/72-ukr-prom-bank"
+      }
+    }
+  },
+  {
     "id": "АСВІО",
     "name": {
       "dbf": "АСВІО",
@@ -1720,25 +1726,62 @@
     }
   },
   {
-    "id": "БІГ ЕНЕРГІЯ",
+    "id": "АСКОЛЬД",
     "name": {
-      "pdf": "БІГ ЕНЕРГІЯ",
-      "fund": "БІГ ЕНЕРГІЯ"
+      "pdf": "АСКОЛЬД"
     },
     "active": {
-      "pdf": false,
-      "fund": false
+      "pdf": false
     },
     "dateOpen": {},
     "dateIssue": {
-      "pdf": "2010-03-01"
+      "pdf": "2003-07-29"
     },
     "site": {},
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322603.pdf",
-        "fund": "/not-paying/completed/69-big-energy"
+        "pdf": "https://bank.gov.ua/files/Licences_bank/322368.pdf"
+      }
+    }
+  },
+  {
+    "id": "БІЗНЕСБАНК",
+    "name": {
+      "pdf": "БІЗНЕСБАНК"
+    },
+    "active": {
+      "pdf": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2000-09-04"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/337535.pdf"
+      }
+    }
+  },
+  {
+    "id": "БА КА УКРАЇНА",
+    "name": {
+      "pdf": "БА КА УКРАЇНА"
+    },
+    "active": {
+      "pdf": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2007-10-22"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/320724.pdf"
       }
     }
   },
@@ -1770,28 +1813,6 @@
         "pdf": "https://bank.gov.ua/files/Licences_bank/351760.pdf",
         "fund": "/not-paying/completed/59-bazis",
         "minfin": "https://minfin.com.ua/ua/company/basis"
-      }
-    }
-  },
-  {
-    "id": "БАНК РЕНЕСАНС КАПІТАЛ",
-    "name": {
-      "minfin": "БАНК РЕНЕСАНС КАПІТАЛ"
-    },
-    "active": {},
-    "dateOpen": {},
-    "dateIssue": {},
-    "site": {
-      "minfin": [
-        "https://pumb.ua/ru"
-      ]
-    },
-    "internal": {
-      "id": {
-        "minfin": 122
-      },
-      "link": {
-        "minfin": "https://minfin.com.ua/ua/company/rccf"
       }
     }
   },
@@ -1836,6 +1857,26 @@
         "pdf": "https://bank.gov.ua/files/Licences_bank/320995.pdf",
         "fund": "/not-paying/liquidation/27-bg-bank",
         "minfin": "https://minfin.com.ua/ua/company/bg-bank"
+      }
+    }
+  },
+  {
+    "id": "БЕРЕГИНЯ",
+    "name": {
+      "pdf": "БЕРЕГИНЯ"
+    },
+    "active": {
+      "pdf": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "1999-04-01"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/321916.pdf"
       }
     }
   },
@@ -1994,6 +2035,26 @@
         "nbu": "/control/uk/bankdict/bank?id=239",
         "pdf": "https://bank.gov.ua/files/Licences_bank/321723.pdf",
         "minfin": "https://minfin.com.ua/ua/company/bta-bank"
+      }
+    }
+  },
+  {
+    "id": "БУКОВИНА",
+    "name": {
+      "pdf": "БУКОВИНА"
+    },
+    "active": {
+      "pdf": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2006-05-29"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/380087.pdf"
       }
     }
   },
@@ -2264,6 +2325,26 @@
     }
   },
   {
+    "id": "ВЕРХОВИНА",
+    "name": {
+      "pdf": "ВЕРХОВИНА"
+    },
+    "active": {
+      "pdf": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2000-07-07"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/320564.pdf"
+      }
+    }
+  },
+  {
     "id": "ВНЄШТОРГБАНК (УКРАЇНА)",
     "name": {
       "pdf": "ВНЄШТОРГБАНК (УКРАЇНА)"
@@ -2385,49 +2466,6 @@
         "pdf": "https://bank.gov.ua/files/Licences_bank/321767.pdf",
         "fund": "/not-paying/liquidation/234-at-vtb-bank",
         "minfin": "https://minfin.com.ua/ua/company/vtb-bank"
-      }
-    }
-  },
-  {
-    "id": "ГАРАНТ",
-    "name": {
-      "pdf": "ГАРАНТ",
-      "fund": "ГАРАНТ"
-    },
-    "active": {
-      "pdf": false,
-      "fund": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2006-02-28"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300807.pdf",
-        "fund": "/not-paying/completed/83-garant"
-      }
-    }
-  },
-  {
-    "id": "ГЕНЕРАЛЬНИЙ ІНВЕСТИЦІЙНИЙ",
-    "name": {
-      "pdf": "ГЕНЕРАЛЬНИЙ ІНВЕСТИЦІЙНИЙ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1998-06-30"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/328072.pdf"
       }
     }
   },
@@ -2599,29 +2637,6 @@
         "nbu": "/control/uk/bankdict/bank?id=85",
         "pdf": "https://bank.gov.ua/files/Licences_bank/351607.pdf",
         "minfin": "https://minfin.com.ua/ua/company/grant"
-      }
-    }
-  },
-  {
-    "id": "ДІАЛОГБАНК",
-    "name": {
-      "pdf": "ДІАЛОГБАНК",
-      "fund": "ДІАЛОГБАНК"
-    },
-    "active": {
-      "pdf": false,
-      "fund": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2011-05-11"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/307112.pdf",
-        "fund": "/not-paying/completed/64-dialogbank"
       }
     }
   },
@@ -2850,12 +2865,12 @@
     }
   },
   {
-    "id": "ДЕРЖАВНИЙ ЗЕМЕЛЬНИЙ",
+    "id": "ДЕРЖЗЕМБАНК",
     "name": {
-      "nbu": "ДЕРЖАВНИЙ ЗЕМЕЛЬНИЙ",
-      "pdf": "ДЕРЖАВНИЙ ЗЕМЕЛЬНИЙ",
-      "fund": "ДЕРЖАВНИЙ ЗЕМЕЛЬНИЙ",
-      "minfin": "ДЕРЖАВНИЙ ЗЕМЕЛЬНИЙ"
+      "nbu": "ДЕРЖЗЕМБАНК",
+      "pdf": "ДЕРЖЗЕМБАНК",
+      "fund": "ДЕРЖЗЕМБАНК",
+      "minfin": "ДЕРЖЗЕМБАНК"
     },
     "active": {
       "nbu": false,
@@ -2998,6 +3013,26 @@
     }
   },
   {
+    "id": "ЕДЛАНД",
+    "name": {
+      "pdf": "ЕДЛАНД"
+    },
+    "active": {
+      "pdf": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2006-04-04"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/300313.pdf"
+      }
+    }
+  },
+  {
     "id": "ЕКСПОБАНК",
     "name": {
       "dbf": "ЕКСПОБАНК",
@@ -3042,10 +3077,10 @@
     }
   },
   {
-    "id": "ЕКСПРЕС-БАНК",
+    "id": "ЕКСПРЕС",
     "name": {
-      "pdf": "ЕКСПРЕС-БАНК",
-      "minfin": "ЕКСПРЕС-БАНК"
+      "pdf": "ЕКСПРЕС",
+      "minfin": "ЕКСПРЕС"
     },
     "active": {
       "pdf": false
@@ -3134,33 +3169,22 @@
     }
   },
   {
-    "id": "ЕРДЕ",
+    "id": "ЕРСТЕ",
     "name": {
-      "pdf": "ЕРДЕ",
-      "fund": "ЕРДЕ",
-      "minfin": "ЕРДЕ"
+      "pdf": "ЕРСТЕ"
     },
     "active": {
-      "pdf": false,
-      "fund": false
+      "pdf": false
     },
     "dateOpen": {},
     "dateIssue": {
-      "pdf": "2013-01-09"
+      "pdf": "2013-10-30"
     },
-    "site": {
-      "minfin": [
-        "http://www.rdbank.com.ua"
-      ]
-    },
+    "site": {},
     "internal": {
-      "id": {
-        "minfin": 211
-      },
+      "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380667.pdf",
-        "fund": "/not-paying/banky-likvidovani-fondom/58-erde-bank",
-        "minfin": "https://minfin.com.ua/ua/company/rd-bank"
+        "pdf": "https://bank.gov.ua/files/Licences_bank/380009.pdf"
       }
     }
   },
@@ -3245,6 +3269,29 @@
       "id": {},
       "link": {
         "pdf": "https://bank.gov.ua/files/Licences_bank/336291.pdf"
+      }
+    }
+  },
+  {
+    "id": "ЗЕВС",
+    "name": {
+      "pdf": "ЗЕВС",
+      "fund": "ЗЕВС"
+    },
+    "active": {
+      "pdf": false,
+      "fund": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2010-03-01"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/322603.pdf",
+        "fund": "/not-paying/completed/69-big-energy"
       }
     }
   },
@@ -3560,6 +3607,29 @@
     }
   },
   {
+    "id": "КАРПАТИ МБ",
+    "name": {
+      "pdf": "КАРПАТИ МБ",
+      "fund": "КАРПАТИ МБ"
+    },
+    "active": {
+      "pdf": false,
+      "fund": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2009-12-07"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/300540.pdf",
+        "fund": "/not-paying/completed/75-bank-reg-rozv"
+      }
+    }
+  },
+  {
     "id": "КБ ПРИЧОРНОМОР’Я",
     "name": {
       "fund": "КБ ПРИЧОРНОМОР’Я"
@@ -3574,26 +3644,6 @@
       "id": {},
       "link": {
         "fund": "/not-paying/completed/79-prychornomor"
-      }
-    }
-  },
-  {
-    "id": "КИЄВО-ПЕЧЕРСЬКИЙ АКЦІОНЕРНО-КОМЕРЦІЙНИЙ",
-    "name": {
-      "pdf": "КИЄВО-ПЕЧЕРСЬКИЙ АКЦІОНЕРНО-КОМЕРЦІЙНИЙ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2000-07-07"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320564.pdf"
       }
     }
   },
@@ -3686,26 +3736,6 @@
     }
   },
   {
-    "id": "КИЇВСЬКИЙ МІЖНАРОДНИЙ",
-    "name": {
-      "pdf": "КИЇВСЬКИЙ МІЖНАРОДНИЙ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2000-11-20"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320791.pdf"
-      }
-    }
-  },
-  {
     "id": "КИЇВСЬКИЙ УНIВЕРСАЛЬНИЙ",
     "name": {
       "fund": "КИЇВСЬКИЙ УНIВЕРСАЛЬНИЙ"
@@ -3720,26 +3750,6 @@
       "id": {},
       "link": {
         "fund": "/not-paying/completed/81-kyiv-universal"
-      }
-    }
-  },
-  {
-    "id": "КИЇВСЬКИЙ УНІВЕРСАЛЬНИЙ",
-    "name": {
-      "pdf": "КИЇВСЬКИЙ УНІВЕРСАЛЬНИЙ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2006-05-29"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380087.pdf"
       }
     }
   },
@@ -3825,6 +3835,26 @@
         "pdf": "https://bank.gov.ua/files/Licences_bank/306704.pdf",
         "fund": "/not-paying/banky-likvidovani-fondom/174-pat-klasykbank",
         "minfin": "https://minfin.com.ua/ua/company/classic-bank"
+      }
+    }
+  },
+  {
+    "id": "КМБ",
+    "name": {
+      "pdf": "КМБ"
+    },
+    "active": {
+      "pdf": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2000-11-20"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/320791.pdf"
       }
     }
   },
@@ -3997,22 +4027,25 @@
     }
   },
   {
-    "id": "КОРПОРАТИВНИЙ ТА ІНВЕСТИЦІЙНИЙ БАНК КРЕДІ АГРІКОЛЬ",
+    "id": "КОРОНА",
     "name": {
-      "pdf": "КОРПОРАТИВНИЙ ТА ІНВЕСТИЦІЙНИЙ БАНК КРЕДІ АГРІКОЛЬ"
+      "pdf": "КОРОНА",
+      "fund": "КОРОНА"
     },
     "active": {
-      "pdf": false
+      "pdf": false,
+      "fund": false
     },
     "dateOpen": {},
     "dateIssue": {
-      "pdf": "2012-11-21"
+      "pdf": "2011-05-11"
     },
     "site": {},
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300379.pdf"
+        "pdf": "https://bank.gov.ua/files/Licences_bank/307112.pdf",
+        "fund": "/not-paying/completed/64-dialogbank"
       }
     }
   },
@@ -4056,6 +4089,46 @@
         "nbu": "/control/uk/bankdict/bank?id=249",
         "pdf": "https://bank.gov.ua/files/Licences_bank/300614.pdf",
         "minfin": "https://minfin.com.ua/ua/company/credit-agricole"
+      }
+    }
+  },
+  {
+    "id": "КРЕДІ ЛІОНЕ УКРАЇНА",
+    "name": {
+      "pdf": "КРЕДІ ЛІОНЕ УКРАЇНА"
+    },
+    "active": {
+      "pdf": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2012-11-21"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/300379.pdf"
+      }
+    }
+  },
+  {
+    "id": "КРЕДІ СВІСС ФЬОРСТ БОСТОН",
+    "name": {
+      "pdf": "КРЕДІ СВІСС ФЬОРСТ БОСТОН"
+    },
+    "active": {
+      "pdf": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2004-03-23"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/300562.pdf"
       }
     }
   },
@@ -4119,27 +4192,30 @@
       "fund": true
     },
     "dateOpen": {
-      "dbf": "1993-07-07",
-      "api": "1993-07-07",
-      "nbu": "1993-07-07"
+      "dbf": "1991-10-21",
+      "api": "1991-10-21",
+      "nbu": "1991-10-21"
     },
-    "dateIssue": {},
+    "dateIssue": {
+      "api": "2018-12-10"
+    },
     "site": {
       "fund": [
-        "http://www.creditdnepr.com.ua"
+        "https://tascombank.ua",
+        "http://www.tascombank.ua"
       ],
       "minfin": [
-        "http://www.creditdnepr.com.ua/"
+        "http://www.tascombank.com.ua/"
       ]
     },
     "internal": {
       "id": {
-        "minfin": 43
+        "minfin": 84
       },
       "link": {
-        "nbu": "/control/uk/bankdict/bank?id=278",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/305749.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/credit-dnepr"
+        "nbu": "/control/uk/bankdict/bank?id=221",
+        "pdf": "https://bank.gov.ua/files/Licences_bank/339500.pdf",
+        "minfin": "https://minfin.com.ua/ua/company/taskombank"
       }
     }
   },
@@ -4442,6 +4518,26 @@
         "pdf": "https://bank.gov.ua/files/Licences_bank/380292.pdf",
         "fund": "/not-paying/liquidation/180-pat-ksh-bank",
         "minfin": "https://minfin.com.ua/ua/company/ksgbank"
+      }
+    }
+  },
+  {
+    "id": "ЛІДЕР",
+    "name": {
+      "pdf": "ЛІДЕР"
+    },
+    "active": {
+      "pdf": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2015-03-16"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/380010.pdf"
       }
     }
   },
@@ -4791,9 +4887,9 @@
     }
   },
   {
-    "id": "МЕТА-БАНК",
+    "id": "МЕТА",
     "name": {
-      "pdf": "МЕТА-БАНК"
+      "pdf": "МЕТА"
     },
     "active": {
       "pdf": false
@@ -4973,9 +5069,9 @@
     }
   },
   {
-    "id": "МТ-БАНК",
+    "id": "МТ",
     "name": {
-      "pdf": "МТ-БАНК"
+      "pdf": "МТ"
     },
     "active": {
       "pdf": false
@@ -5190,29 +5286,6 @@
     }
   },
   {
-    "id": "НАЦІОНАЛЬНИЙ СТАНДАРТ",
-    "name": {
-      "pdf": "НАЦІОНАЛЬНИЙ СТАНДАРТ",
-      "fund": "НАЦІОНАЛЬНИЙ СТАНДАРТ"
-    },
-    "active": {
-      "pdf": false,
-      "fund": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2009-08-19"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/321466.pdf",
-        "fund": "/not-paying/completed/76-natsional-standart"
-      }
-    }
-  },
-  {
     "id": "НАШ",
     "name": {
       "pdf": "НАШ",
@@ -5344,10 +5417,30 @@
     }
   },
   {
-    "id": "ОДЕСА-БАНК",
+    "id": "НОРД",
     "name": {
-      "pdf": "ОДЕСА-БАНК",
-      "fund": "ОДЕСА-БАНК"
+      "pdf": "НОРД"
+    },
+    "active": {
+      "pdf": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "1998-06-30"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/328072.pdf"
+      }
+    }
+  },
+  {
+    "id": "ОДЕСА",
+    "name": {
+      "pdf": "ОДЕСА",
+      "fund": "ОДЕСА"
     },
     "active": {
       "pdf": false,
@@ -6070,29 +6163,6 @@
     }
   },
   {
-    "id": "ПРЕМ'ЄРБАНК",
-    "name": {
-      "pdf": "ПРЕМ'ЄРБАНК",
-      "fund": "ПРЕМ'ЄРБАНК"
-    },
-    "active": {
-      "pdf": false,
-      "fund": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2005-03-11"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/305686.pdf",
-        "fund": "/not-paying/completed/84-premierbank"
-      }
-    }
-  },
-  {
     "id": "ПРЕМІУМ",
     "name": {
       "dbf": "ПРЕМІУМ",
@@ -6658,6 +6728,37 @@
     }
   },
   {
+    "id": "РД",
+    "name": {
+      "pdf": "РД",
+      "fund": "РД",
+      "minfin": "РД"
+    },
+    "active": {
+      "pdf": false,
+      "fund": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2013-01-09"
+    },
+    "site": {
+      "minfin": [
+        "http://www.rdbank.com.ua"
+      ]
+    },
+    "internal": {
+      "id": {
+        "minfin": 211
+      },
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/380667.pdf",
+        "fund": "/not-paying/banky-likvidovani-fondom/58-erde-bank",
+        "minfin": "https://minfin.com.ua/ua/company/rd-bank"
+      }
+    }
+  },
+  {
     "id": "РЕАЛ",
     "name": {
       "dbf": "РЕАЛ",
@@ -6702,45 +6803,24 @@
     }
   },
   {
-    "id": "РЕГІОНАЛЬНОГО РОЗВИТКУ",
+    "id": "РЕНЕСАНС КРЕДИТ",
     "name": {
-      "pdf": "РЕГІОНАЛЬНОГО РОЗВИТКУ",
-      "fund": "РЕГІОНАЛЬНОГО РОЗВИТКУ"
+      "minfin": "РЕНЕСАНС КРЕДИТ"
     },
-    "active": {
-      "pdf": false,
-      "fund": false
-    },
+    "active": {},
     "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2009-12-07"
+    "dateIssue": {},
+    "site": {
+      "minfin": [
+        "https://pumb.ua/ru"
+      ]
     },
-    "site": {},
     "internal": {
-      "id": {},
+      "id": {
+        "minfin": 122
+      },
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300540.pdf",
-        "fund": "/not-paying/completed/75-bank-reg-rozv"
-      }
-    }
-  },
-  {
-    "id": "РЕНЕСАНС КАПІТАЛ",
-    "name": {
-      "pdf": "РЕНЕСАНС КАПІТАЛ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2015-03-16"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380010.pdf"
+        "minfin": "https://minfin.com.ua/ua/company/rccf"
       }
     }
   },
@@ -6997,26 +7077,6 @@
     }
   },
   {
-    "id": "СВЕДБАНК ІНВЕСТ",
-    "name": {
-      "pdf": "СВЕДБАНК ІНВЕСТ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2009-11-18"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320650.pdf"
-      }
-    }
-  },
-  {
     "id": "СЕБ КОРПОРАТИВНИЙ",
     "name": {
       "dbf": "СЕБ КОРПОРАТИВНИЙ",
@@ -7142,22 +7202,25 @@
     }
   },
   {
-    "id": "СЛОБОЖАНЩИНА",
+    "id": "СЛАВУТИЧ",
     "name": {
-      "pdf": "СЛОБОЖАНЩИНА"
+      "pdf": "СЛАВУТИЧ",
+      "fund": "СЛАВУТИЧ"
     },
     "active": {
-      "pdf": false
+      "pdf": false,
+      "fund": false
     },
     "dateOpen": {},
     "dateIssue": {
-      "pdf": "2000-09-04"
+      "pdf": "2009-08-19"
     },
     "site": {},
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/337535.pdf"
+        "pdf": "https://bank.gov.ua/files/Licences_bank/321466.pdf",
+        "fund": "/not-paying/completed/76-natsional-standart"
       }
     }
   },
@@ -7613,47 +7676,22 @@
     }
   },
   {
-    "id": "ТАСКОМБАНК",
+    "id": "ТАС ІНВЕСТБАНК",
     "name": {
-      "dbf": "ТАСКОМБАНК",
-      "api": "ТАСКОМБАНК",
-      "nbu": "ТАСКОМБАНК",
-      "pdf": "ТАСКОМБАНК",
-      "fund": "ТАСКОМБАНК",
-      "minfin": "ТАСКОМБАНК"
+      "pdf": "ТАС ІНВЕСТБАНК"
     },
     "active": {
-      "dbf": true,
-      "api": true,
-      "nbu": true,
-      "pdf": true,
-      "fund": true
+      "pdf": false
     },
-    "dateOpen": {
-      "dbf": "1991-10-21",
-      "api": "1991-10-21",
-      "nbu": "1991-10-21"
-    },
+    "dateOpen": {},
     "dateIssue": {
-      "api": "2018-12-10"
+      "pdf": "2009-11-18"
     },
-    "site": {
-      "fund": [
-        "https://tascombank.ua",
-        "http://www.tascombank.ua"
-      ],
-      "minfin": [
-        "http://www.tascombank.com.ua/"
-      ]
-    },
+    "site": {},
     "internal": {
-      "id": {
-        "minfin": 84
-      },
+      "id": {},
       "link": {
-        "nbu": "/control/uk/bankdict/bank?id=221",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/339500.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/taskombank"
+        "pdf": "https://bank.gov.ua/files/Licences_bank/320650.pdf"
       }
     }
   },
@@ -7766,9 +7804,9 @@
     }
   },
   {
-    "id": "ТОРГОВО-ПРОМИСЛОВИЙ",
+    "id": "ТОРГПРОМБАНК",
     "name": {
-      "pdf": "ТОРГОВО-ПРОМИСЛОВИЙ"
+      "pdf": "ТОРГПРОМБАНК"
     },
     "active": {
       "pdf": false
@@ -8029,26 +8067,6 @@
     }
   },
   {
-    "id": "УКРАЇНСЬКИЙ АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК РОЗВИТКУ НАФТОГАЗОВОГО КОМПЛЕКСУ",
-    "name": {
-      "pdf": "УКРАЇНСЬКИЙ АКЦІОНЕРНИЙ КОМЕРЦІЙНИЙ БАНК РОЗВИТКУ НАФТОГАЗОВОГО КОМПЛЕКСУ"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2000-03-22"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300294.pdf"
-      }
-    }
-  },
-  {
     "id": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
     "name": {
       "dbf": "УКРАЇНСЬКИЙ БАНК РЕКОНСТРУКЦІЇ ТА РОЗВИТКУ",
@@ -8129,29 +8147,6 @@
         "nbu": "/control/uk/bankdict/bank?id=244",
         "pdf": "https://bank.gov.ua/files/Licences_bank/320371.pdf",
         "minfin": "https://minfin.com.ua/ua/company/ukrcapital"
-      }
-    }
-  },
-  {
-    "id": "УКРАЇНСЬКИЙ ПРОМИСЛОВИЙ",
-    "name": {
-      "pdf": "УКРАЇНСЬКИЙ ПРОМИСЛОВИЙ",
-      "fund": "УКРАЇНСЬКИЙ ПРОМИСЛОВИЙ"
-    },
-    "active": {
-      "pdf": false,
-      "fund": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2010-01-21"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/321228.pdf",
-        "fund": "/not-paying/completed/72-ukr-prom-bank"
       }
     }
   },
@@ -8417,6 +8412,26 @@
     }
   },
   {
+    "id": "УКРНАФТОГАЗБАНК",
+    "name": {
+      "pdf": "УКРНАФТОГАЗБАНК"
+    },
+    "active": {
+      "pdf": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2000-03-22"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/300294.pdf"
+      }
+    }
+  },
+  {
     "id": "УКРСИББАНК",
     "name": {
       "dbf": "УКРСИББАНК",
@@ -8497,46 +8512,6 @@
         "nbu": "/control/uk/bankdict/bank?id=5",
         "pdf": "https://bank.gov.ua/files/Licences_bank/300023.pdf",
         "minfin": "https://minfin.com.ua/ua/company/ukrsocbank"
-      }
-    }
-  },
-  {
-    "id": "УКРСПЕЦІМПЕКСБАНК",
-    "name": {
-      "pdf": "УКРСПЕЦІМПЕКСБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2003-07-29"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322368.pdf"
-      }
-    }
-  },
-  {
-    "id": "УКРУНІВЕРСАЛБАНК",
-    "name": {
-      "pdf": "УКРУНІВЕРСАЛБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "1999-04-01"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/321916.pdf"
       }
     }
   },
@@ -8795,26 +8770,6 @@
         "pdf": "https://bank.gov.ua/files/Licences_bank/300175.pdf",
         "fund": "/not-paying/liquidation/170-puat-fidobank",
         "minfin": "https://minfin.com.ua/ua/company/fidobank"
-      }
-    }
-  },
-  {
-    "id": "ФІДОКОМБАНК",
-    "name": {
-      "pdf": "ФІДОКОМБАНК"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2013-10-30"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380009.pdf"
       }
     }
   },
@@ -9097,9 +9052,9 @@
     }
   },
   {
-    "id": "ФАКТОРІАЛ-БАНК",
+    "id": "ФАКТОРІАЛ",
     "name": {
-      "pdf": "ФАКТОРІАЛ-БАНК"
+      "pdf": "ФАКТОРІАЛ"
     },
     "active": {
       "pdf": false
@@ -9333,26 +9288,6 @@
     }
   },
   {
-    "id": "ХФБ БАНК УКРАЇНА",
-    "name": {
-      "pdf": "ХФБ БАНК УКРАЇНА"
-    },
-    "active": {
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "pdf": "2007-10-22"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320724.pdf"
-      }
-    }
-  },
-  {
     "id": "ЦЕНТР",
     "name": {
       "pdf": "ЦЕНТР",
@@ -9381,12 +9316,12 @@
     }
   },
   {
-    "id": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ",
+    "id": "ЧБРР",
     "name": {
-      "nbu": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ",
-      "pdf": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ",
-      "fund": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ",
-      "minfin": "ЧОРНОМОРСЬКИЙ БАНК РОЗВИТКУ ТА РЕКОНСТРУКЦІЇ"
+      "nbu": "ЧБРР",
+      "pdf": "ЧБРР",
+      "fund": "ЧБРР",
+      "minfin": "ЧБРР"
     },
     "active": {
       "nbu": false,
@@ -9431,6 +9366,29 @@
       "id": {},
       "link": {
         "pdf": "https://bank.gov.ua/files/Licences_bank/334936.pdf"
+      }
+    }
+  },
+  {
+    "id": "ЮГТОКОБАНК",
+    "name": {
+      "pdf": "ЮГТОКОБАНК",
+      "fund": "ЮГТОКОБАНК"
+    },
+    "active": {
+      "pdf": false,
+      "fund": false
+    },
+    "dateOpen": {},
+    "dateIssue": {
+      "pdf": "2005-03-11"
+    },
+    "site": {},
+    "internal": {
+      "id": {},
+      "link": {
+        "pdf": "https://bank.gov.ua/files/Licences_bank/305686.pdf",
+        "fund": "/not-paying/completed/84-premierbank"
       }
     }
   },
