@@ -1,5 +1,7 @@
+const isNode = require('detect-node');
+
 module.exports = {
-    hello() {
-        return 'It is working!!!';
+    testNode() {
+        return 'Is node: ' + isNode;
     }
 };

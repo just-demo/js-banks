@@ -4,7 +4,7 @@ import './AppRatings.css';
 import _ from 'lodash';
 import 'bootstrap/dist/css/bootstrap.css'
 import Scale from './Scale';
-import t from './test';
+import test from './test';
 import classNames from 'classnames';
 import Bank from './Bank';
 
@@ -29,7 +29,7 @@ class AppRatings extends Component {
             .then(ratings => ratings.json())
             .then(ratings => this.setState({ratings: ratings}));
 
-        console.log(t.hello());
+        console.log(test.testNode());
     }
 
     render() {

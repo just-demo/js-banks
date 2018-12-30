@@ -16,9 +16,9 @@ const SourceNbuPDF = require('./data-source/source-nbu-pdf');
 const SourceNbuUI = require('./data-source/source-nbu-ui');
 const SourceFund = require('./data-source/source-fund');
 const SourceMinfin = require('./data-source/source-minfin');
+const test = require('../test');
 
-// let t = require('../src/test');
-// console.log(t.hello());
+console.log(test.testNode());
 
 const startTime = new Date();
 const sourceMinfin = new SourceMinfin();

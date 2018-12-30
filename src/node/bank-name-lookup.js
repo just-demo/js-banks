@@ -18,24 +18,20 @@ class BankNameLookup {
         nameGroups = nameGroups.map(names => _.sortBy(names, 'length'));
         // Do not sort final groups because we should make sure PDF groups go last (there is implicit dependency on bankMap order),
         // otherwise merged/renamed banks from PDF source will override relevant names from other sources
-        nameGroups = nameGroups.map(names => buildVariants(names));
+        // nameGroups = nameGroups.map(names => buildVariants(names));
         nameGroups = arrays.combineIntersected(nameGroups).sort(arrays.compare);
-        int.write('names/banks', nameGroups); // it's debug, not need to wait
+        int.write('names/banks', nameGroups); // it's debug, no need to wait
         this.lookupMap = {};
-        nameGroups.forEach(names => names.forEach(name => this.lookupMap[name] = names[0]));
+        nameGroups.forEach(names => names.forEach(name => this.lookupMap[lookupKey(name)] = names[0]));
     }
 
     lookup(name) {
-        return this.lookupMap[name] || name;
+        return this.lookupMap[lookupKey(name)] || name;
     }
 }
 
 module.exports = BankNameLookup;
 
-function buildVariants(names) {
-    return _.uniq(_.flatten(names.map(name => [
-        name,
-        name.replace(/ /g, '-'),
-        name.replace(/-/g, ' ')
-    ])));
+function lookupKey(name) {
+    return name.replace(/-/g, ' ');
 }

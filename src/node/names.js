@@ -22,6 +22,7 @@ module.exports = {
             .replace(/`/g, '\'')
             .replace(/\s+/g, ' ')
             .replace(/\s*-\s*/g, '-')
+            // TODO: replace "( " => "(" as well
             .replace(/^БАНК /, '')
             .replace(/ БАНК$/, '');
     },

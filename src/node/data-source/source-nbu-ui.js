@@ -15,7 +15,18 @@ class SourceNbuUI extends Source {
     // https://bank.gov.ua/control/uk/publish/article?art_id=75535
     getBanks() {
         return Promise.all([readActiveBanks(), readInactiveBanks()]).then(allBanks => {
-            const banks = _.flatten(allBanks);
+            // Extra complexity is needed just to handle the same banks falling into both active and inactive lists.
+            // Since there is only one name per an inactive bank it is ok to group by the first name only.
+            // For the same reason it is safe to override inactive bank names by active ones.
+            const activeBanks = _.keyBy(allBanks[0], bank => bank.names[0]);
+            const inactiveBanks = _.keyBy(allBanks[1], bank => bank.names[0]);
+            const banks = _.union(Object.keys(activeBanks), Object.keys(inactiveBanks)).map(name => {
+                assert.false('Bank is still active', activeBanks[name] && inactiveBanks[name], name);
+                return {
+                    ...(inactiveBanks[name] || {}),
+                    ...(activeBanks[name] || {})
+                };
+            });
             banks.sort(names.compareNames);
             return int.write('nbu/banks', banks);
         });
