@@ -9,10 +9,6 @@ const mapAsync = require('../map-async');
 const Source = require('./source');
 
 class SourceNbuUI extends Source {
-    constructor() {
-        super('nbu');
-    }
-
     // Банківський нагляд -> Реєстрація та ліцензування -> Довідник банків -> Повний перелік банківських установ:
     // https://bank.gov.ua/control/bankdict/banks
     // Банківський нагляд -> Реорганізація, припинення та ліквідація:

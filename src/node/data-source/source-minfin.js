@@ -9,10 +9,6 @@ const arrays = require('../arrays');
 const Source = require('./source');
 
 class SourceMinfin extends Source {
-    constructor() {
-        super('minfin');
-    }
-
     getBanks() {
         return ext.read('minfin/banks', 'https://minfin.com.ua/ua/banks/all/').then(banksHtml => {
             const banks = regex.findManyObjects(banksHtml, /class="bank-emblem--desktop"[\S\s]+?\/company\/(.+?)\/[\S\s]+?<a href="\/ua\/company\/(.+?)\/">(.+?)<\/a>/g, {

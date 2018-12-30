@@ -10,10 +10,6 @@ const mapAsync = require('../map-async');
 const Source = require('./source');
 
 class SourceNbuPDF extends Source {
-    constructor() {
-        super('pdf');
-    }
-
     // Банківський нагляд -> Реєстрація та ліцензування -> Банківські ліцензії та види діяльності банків України:
     // https://bank.gov.ua/control/uk/publish/article?art_id=52047
     getBanks() {

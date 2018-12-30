@@ -9,10 +9,6 @@ const mapAsync = require('../map-async');
 const Source = require('./source');
 
 class SourceFund extends Source {
-    constructor() {
-        super('fund');
-    }
-
     getBanks() {
         return Promise.all([readActiveBanks(), readInactiveBanks()]).then(allBanks => {
             const activeBanks = _.keyBy(allBanks[0], 'name');

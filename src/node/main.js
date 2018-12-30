@@ -19,18 +19,6 @@ const SourceMinfin = require('./data-source/source-minfin');
 // let t = require('../src/test');
 // console.log(t.hello());
 
-// new Source().getBanks().then(console.log);
-// new SourceExample().getBanks().then(console.log);
-
-// const sources = _.keyBy([
-//     new SourceNbuDBF(),
-//     new SourceNbuAPI(),
-//     new SourceNbuUI(),
-//     new SourceNbuPDF(),
-//     new SourceFund(),
-//     new SourceMinfin()
-// ], 'type');
-
 const startTime = new Date();
 const sourceMinfin = new SourceMinfin();
 Promise.all([
@@ -44,16 +32,16 @@ function toJson(obj) {
 }
 
 function getBanks() {
-    const sources = [
-        new SourceNbuDBF(),
-        new SourceNbuAPI(),
-        new SourceNbuUI(),
-        new SourceNbuPDF(),
-        new SourceFund(),
-        sourceMinfin
-    ];
-    return Promise.all(sources.map(source => source.getBanks())).then((results) => {
-        const bankMap = arrays.toMap(sources, source => source.type, (source, index) => results[index]);
+    const sources = {
+        dbf: new SourceNbuDBF(),
+        api: new SourceNbuAPI(),
+        nbu: new SourceNbuUI(),
+        pdf: new SourceNbuPDF(),
+        fund: new SourceFund(),
+        minfin: sourceMinfin
+    };
+    return Promise.all(Object.values(sources).map(source => source.getBanks())).then(results => {
+        const bankMap = arrays.toMap(Object.keys(sources), _.identity, (type, index) => results[index]);
         return combineBanks(bankMap);
     });
 }

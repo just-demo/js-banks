@@ -9,10 +9,6 @@ const dbf = require('../dbf');
 const Source = require('./source');
 
 class SourceNbuDBF extends Source {
-    constructor() {
-        super('dbf');
-    }
-
     // Банківський нагляд -> Реєстрація та ліцензування -> Довідник банків -> Імпорт:
     // https://bank.gov.ua/control/uk/bankdict/search
     getBanks() {
