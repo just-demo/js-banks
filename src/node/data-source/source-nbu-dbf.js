@@ -5,9 +5,8 @@ const dates = require('../dates');
 const assert = require('../assert');
 const arj = require('../arj');
 const dbf = require('../dbf');
-const Source = require('./source');
 
-class SourceNbuDBF extends Source {
+class SourceNbuDBF {
     // Банківський нагляд -> Реєстрація та ліцензування -> Довідник банків -> Імпорт:
     // https://bank.gov.ua/control/uk/bankdict/search
     getBanks() {

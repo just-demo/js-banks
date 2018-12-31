@@ -6,9 +6,8 @@ const regex = require('../regex');
 const pdfs = require('../pdfs');
 const path = require('path');
 const mapAsync = require('../map-async');
-const Source = require('./source');
 
-class SourceNbuPDF extends Source {
+class SourceNbuPDF {
     // Банківський нагляд -> Реєстрація та ліцензування -> Банківські ліцензії та види діяльності банків України:
     // https://bank.gov.ua/control/uk/publish/article?art_id=52047
     getBanks() {

@@ -5,9 +5,8 @@ const assert = require('../assert');
 const regex = require('../regex');
 const mapAsync = require('../map-async');
 const arrays = require('../arrays');
-const Source = require('./source');
 
-class SourceMinfin extends Source {
+class SourceMinfin {
     getBanks() {
         return cache.read('minfin/banks', 'https://minfin.com.ua/ua/banks/all/').then(banksHtml => {
             const banks = regex.findManyObjects(banksHtml, /class="bank-emblem--desktop"[\S\s]+?\/company\/(.+?)\/[\S\s]+?<a href="\/ua\/company\/(.+?)\/">(.+?)<\/a>/g, {

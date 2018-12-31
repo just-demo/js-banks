@@ -5,9 +5,8 @@ const dates = require('../dates');
 const assert = require('../assert');
 const regex = require('../regex');
 const mapAsync = require('../map-async');
-const Source = require('./source');
 
-class SourceNbuUI extends Source {
+class SourceNbuUI {
     // Банківський нагляд -> Реєстрація та ліцензування -> Довідник банків -> Повний перелік банківських установ:
     // https://bank.gov.ua/control/bankdict/banks
     // Банківський нагляд -> Реорганізація, припинення та ліквідація:

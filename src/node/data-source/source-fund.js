@@ -5,9 +5,8 @@ const dates = require('../dates');
 const assert = require('../assert');
 const regex = require('../regex');
 const mapAsync = require('../map-async');
-const Source = require('./source');
 
-class SourceFund extends Source {
+class SourceFund {
     getBanks() {
         return Promise.all([readActiveBanks(), readInactiveBanks()]).then(allBanks => {
             const activeBanks = _.keyBy(allBanks[0], 'name');

@@ -19,6 +19,10 @@ module.exports = {
         return this.write(file, data, null);
     },
 
+    writeJson(file, obj) {
+        return this.write(file, JSON.stringify(obj, null, 2));
+    },
+
     read(file, encoding) {
         return new Promise(resolve =>
             fs.readFile(file, (err, data) =>

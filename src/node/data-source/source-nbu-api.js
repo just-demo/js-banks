@@ -3,9 +3,8 @@ const names = require('../names');
 const convert = require('xml-js');
 const cache = require('../cache');
 const dates = require('../dates');
-const Source = require('./source');
 
-class SourceNbuAPI extends Source {
+class SourceNbuAPI {
     // Публічна інформація у формі відкритих даних -> API сторінки -> Структурні підрозділи банків України:
     // https://bank.gov.ua/control/uk/publish/article?art_id=38441973#get_data_branch
     getBanks() {

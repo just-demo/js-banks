@@ -6,8 +6,7 @@ module.exports = {
     // debug just for troubleshooting
     write(file, obj) {
         file = '../../data/json/' + file + '.json';
-        return perform('WRITE', file, () =>
-            files.write(file, JSON.stringify(obj, null, 2)).then(() => obj))
+        return perform('WRITE', file, () => files.writeJson(file, obj).then(() => obj))
     },
 
     read(file, url, encoding) {
