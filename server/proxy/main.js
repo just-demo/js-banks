@@ -1,12 +1,14 @@
 // npx babel-node main.js
-const express = require('express');
-const cache = require('../../src/node/cache');
-const files = require('../../src/node/files');
-const logs = require('../../src/node/logs');
-const arrays = require('../../src/node/arrays');
+import express from 'express';
+import cors from 'cors';
+import cache from '../../src/node/cache';
+import files from '../../src/node/files';
+import logs from '../../src/node/logs';
+import arrays from '../../src/node/arrays';
 
 const port = 3333;
 express()
+    .use(cors())
     .get('/:type/*', (req, res) => {
         const startTime = new Date();
         cache[req.params.type](req.param(0)).then(data => {

@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-// TODO: fix the import
-// const Source = require('./node/data-source/source');
-const isNode = require('detect-node');
+import Source from './node/data-source/source';
+import isNode from 'detect-node';
 
 class Refresh extends Component {
     render() {
@@ -14,12 +13,12 @@ class Refresh extends Component {
 
     handleRefresh() {
         console.log('Refreshing...', isNode);
-        // const startTime = new Date();
-        // const source = new Source();
-        // Promise.all([
-        //     source.getBanks().then(banks => console.log(banks)),
-        //     source.getRatings().then(ratings => console.log(ratings))
-        // ]).then(() => console.log('Total time:', new Date() - startTime));
+        const startTime = new Date();
+        const source = new Source();
+        Promise.all([
+            source.getBanks().then(banks => console.log(banks)),
+            source.getRatings().then(ratings => console.log(ratings))
+        ]).then(() => console.log('Total time:', new Date() - startTime));
     }
 }
 
