@@ -1,5 +1,3 @@
-const _ = require('lodash');
-
 module.exports = {
     of(item) {
         return item ? [item] : [];
@@ -60,37 +58,3 @@ module.exports = {
 function compare(a, b) {
     return a > b ? 1 : a < b ? -1 : 0;
 }
-
-// function intersected(array1, array2) {
-//     // TODO: optimize
-//     return !!_.intersection(array1, array2).length;
-// }
-
-//
-// private List<List<DictsWord>> fetchGroups(Map<String, DictsWord> dictsWords) {
-//     List<List<DictsWord>> groups = new ArrayList<List<DictsWord>>();
-//     Set<DictsWord> words = new HashSet<DictsWord>(dictsWords.values());
-//     for (DictsWord word : dictsWords.values()) {
-//         if (words.contains(word)) {
-//             groups.add(fetchGroup(word, words));
-//         }
-//     }
-//     return groups;
-// }
-//
-// private List<DictsWord> fetchGroup(DictsWord word, Set<DictsWord> words) {
-//     List<DictsWord> group = new ArrayList<DictsWord>();
-//     group.add(word);
-//     words.remove(word);
-//     for (DictsWord child : word.getChildren()) {
-//         if (words.contains(child)) {
-//             group.addAll(fetchGroup(child, words));
-//         }
-//     }
-//     for (DictsWord parent : word.getParents()) {
-//         if (words.contains(parent)) {
-//             group.addAll(fetchGroup(parent, words));
-//         }
-//     }
-//     return group;
-// }
