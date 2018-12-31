@@ -10,7 +10,7 @@ class AppBanks extends Component {
             filter: {
                 green: true,
                 blue: true,
-                red: true,
+                // red: true,
                 pink: true,
                 deeppink: true,
                 orange: true,
@@ -27,12 +27,12 @@ class AppBanks extends Component {
                 href: 'https://bank.gov.ua/control/uk/publish/article?art_id=52047',
                 color: 'deeppink',
             },
-            {
-                type: 'dbf',
-                title: 'RCUCRU.dbf',
-                href: 'https://bank.gov.ua/control/uk/bankdict/search',
-                color: 'red',
-            },
+            // {
+            //     type: 'dbf',
+            //     title: 'RCUCRU.dbf',
+            //     href: 'https://bank.gov.ua/control/uk/bankdict/search',
+            //     color: 'red',
+            // },
             {
                 type: 'api',
                 title: 'NBU API',

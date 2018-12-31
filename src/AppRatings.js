@@ -43,7 +43,7 @@ class AppRatings extends Component {
                 index: index,
                 // site: (bank.site.minfin || [])[0],
                 // link: bank.internal.link.minfin,
-                dateOpen: this.projectDate(bank.dateOpen.dbf),
+                dateOpen: this.projectDate(bank.dateOpen.api),
                 dateClosed: this.projectDate(bank.dateIssue.pdf),
                 dateIssueMin: this.projectDate(_.min(datesIssue)),
                 dateIssueMax: this.projectDate(_.max(datesIssue))

@@ -1,3 +1,4 @@
+const isNode = require('detect-node');
 const files = require('./files');
 const urls = require('./urls');
 
@@ -5,11 +6,19 @@ const urls = require('./urls');
 module.exports = {
     // debug just for troubleshooting
     write(file, obj) {
+        if (!isNode) {
+            return Promise.resolve(obj);
+        }
+
         file = '../../data/json/' + file + '.json';
         return perform('WRITE', file, () => files.writeJson(file, obj).then(() => obj))
     },
 
     read(file, url, encoding) {
+        if (!isNode) {
+            return proxy('read', file, url)
+        }
+
         file = '../../data/html/' + file + '.html';
         return files.exists(file).then(exists =>
             exists ?
@@ -20,6 +29,10 @@ module.exports = {
     },
 
     download(file, url) {
+        if (!isNode) {
+            return proxy('download', file, url)
+        }
+
         file = '../../data/binary/' + file;
         return files.exists(file).then(exists =>
             exists ?
@@ -30,6 +43,10 @@ module.exports = {
     },
 
     calc(cache, operation) {
+        if (!isNode) {
+            return perform('CALC', cache, operation);
+        }
+
         const file = '../../data/calc/' + cache;
         return files.exists(file).then(exists =>
             exists ?
@@ -39,6 +56,11 @@ module.exports = {
         );
     }
 };
+
+function proxy(type, file, url) {
+    const proxyUrl = `http://localhost:3333/${type}/${file}?url=${url}`;
+    return perform('PROXY', proxyUrl, () => urls[type](proxyUrl));
+}
 
 function perform(type, source, operation) {
     const startTime = new Date();

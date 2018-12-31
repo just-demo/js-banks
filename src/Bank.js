@@ -19,10 +19,10 @@ class Bank extends Component {
             name: 'НБУ PDF',
             link: (link) => link || 'https://bank.gov.ua/control/uk/publish/article?art_id=52047'
         },
-        dbf: {
-            name: 'НБУ DBF',
-            link: () => 'https://bank.gov.ua/control/uk/bankdict/search' //TODO: link to download?
-        },
+        // dbf: {
+        //     name: 'НБУ DBF',
+        //     link: () => 'https://bank.gov.ua/control/uk/bankdict/search' //TODO: link to download?
+        // },
         fund: {
             name: 'ФГВФО',
             link: (link) => 'http://www.fg.gov.ua' + (link || '/uchasnyky-fondu')

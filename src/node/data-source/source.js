@@ -12,7 +12,9 @@ const SourceMinfin = require('./source-minfin');
 class Source {
     constructor() {
         this.sources = {
-            dbf: new SourceNbuDBF(),
+            // TODO: remove DBF from UI
+            // DBF is not supported in browser and needs manual actions in node
+            // dbf: new SourceNbuDBF(),
             api: new SourceNbuAPI(),
             nbu: new SourceNbuUI(),
             pdf: new SourceNbuPDF(),
