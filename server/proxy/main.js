@@ -26,7 +26,7 @@ files.read('../../public/logs/log1.txt').then(log => {
 });
 
 function getTimeout(url) {
-    return timeouts[url] || 0;
+    return 0; //timeouts[url] || 0;
 }
 
 // http://localhost:3333/read/fund/banks-active?url=http://www.fg.gov.ua/uchasnyky-fondu

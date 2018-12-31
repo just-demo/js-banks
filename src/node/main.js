@@ -1,10 +1,12 @@
 // npx babel-node main.js
 import files from './files';
 import Source from './data-source/source';
+// import urls from './urls'
+// import pdfs from './pdfs'
 
-import testES6 from './testES6';
-// import test from '../test';
-console.log(testES6.test());
+// urls.download('http://localhost:3333/download/nbu/not-banks/pdf/320779.pdf?url=https://bank.gov.ua/files/Licences_bank/320779.pdf')
+//     .then(pdf => pdfs.parse(pdf))
+//     .then(text => console.log(text));
 
 const startTime = new Date();
 const source = new Source();

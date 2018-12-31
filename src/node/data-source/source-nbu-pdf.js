@@ -39,7 +39,8 @@ class SourceNbuPDF {
                             link: url,
                             active: !bank.problem
                         };
-                    });
+                    })
+                    .catch(error => console.log('PDF error:', file, error));
             }).then(banks => {
                 banks.sort(names.compareNames);
                 console.log('PDF time:', new Date() - startTime);
