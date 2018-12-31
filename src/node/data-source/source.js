@@ -35,7 +35,7 @@ class Source {
     }
 }
 
-module.exports = Source;
+export default Source;
 
 function combineBanks(allBanks) {
     const bankNameLookup = new BankNameLookup(allBanks);
