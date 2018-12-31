@@ -3,9 +3,11 @@ import iconv from 'iconv-lite';
 
 export default {
     read(url, encoding) {
-        return new Promise(resolve => {
+        return new Promise((resolve, reject) => {
             const options = {
                 url: url,
+                // TODO: find a way to disable cors, this one does not work in browser
+                // mode: 'no-cors',
                 headers: {'User-Agent': 'javascript'}
             };
 
@@ -14,7 +16,7 @@ export default {
             }
 
             request(options, (error, response, body) => {
-                resolve(encoding ? iconv.decode(body, encoding) : body);
+                error ? reject(error) : resolve(encoding ? iconv.decode(body, encoding) : body);
             });
         });
     },
