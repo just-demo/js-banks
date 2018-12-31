@@ -4,7 +4,6 @@ import cache from '../cache';
 import dates from '../dates';
 import regex from '../regex';
 import pdfs from '../pdfs';
-import path from 'path';
 import mapAsync from '../map-async';
 
 class SourceNbuPDF {
@@ -25,7 +24,7 @@ class SourceNbuPDF {
             const files = Object.keys(bankFiles);
             return mapAsync(files, file => {
                 const url = 'https://bank.gov.ua/files/Licences_bank/' + file;
-                const textFile = 'nbu/not-banks/text/' + path.parse(file).name + '.txt';
+                const textFile = 'nbu/not-banks/text/' + file.split('.')[0] + '.txt';
                 // TODO: remove this temporary optimization and inline process function when there only one usage left
                 return cache.calc(textFile, () => null)
                     .then(text => text || cache.download('nbu/not-banks/pdf/' + file, url).then(pdf => cache.calc(textFile, () => pdfs.parse(pdf))))
