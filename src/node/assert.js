@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     equals(message, ...args) {
         return this.false(message, new Set(args).size > 1, ...args);
     },

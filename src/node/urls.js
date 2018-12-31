@@ -1,7 +1,7 @@
-const request = require('request');
-const iconv = require('iconv-lite');
+import request from 'request';
+import iconv from 'iconv-lite';
 
-module.exports = {
+export default {
     read(url, encoding) {
         return new Promise(resolve => {
             const options = {

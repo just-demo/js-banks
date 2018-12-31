@@ -1,10 +1,10 @@
-const _ = require('lodash');
-const names = require('../names');
-const cache = require('../cache');
-const dates = require('../dates');
-const assert = require('../assert');
-const regex = require('../regex');
-const mapAsync = require('../map-async');
+import _ from 'lodash';
+import names from '../names';
+import cache from '../cache';
+import dates from '../dates';
+import assert from '../assert';
+import regex from '../regex';
+import mapAsync from '../map-async';
 
 class SourceFund {
     getBanks() {
@@ -31,7 +31,7 @@ class SourceFund {
     }
 }
 
-module.exports = SourceFund;
+export default SourceFund;
 
 function readActiveBanks() {
     return cache.read('fund/banks-active', 'http://www.fg.gov.ua/uchasnyky-fondu').then(html => {

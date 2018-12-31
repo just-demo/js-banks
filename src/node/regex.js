@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     findSingleValue(string, regex, mapping) {
         mapping = mapping || 1;
         const match = regex.exec(string);

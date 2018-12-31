@@ -1,6 +1,6 @@
-const _ = require('lodash');
-const arrays = require('./arrays');
-const cache = require('./cache');
+import _ from 'lodash';
+import arrays from './arrays';
+import cache from './cache';
 
 const DEFAULT_NAMES = [
     ["ПРОМИСЛОВО-ФІНАНСОВИЙ", "ПФБ"],
@@ -30,7 +30,7 @@ class BankNameLookup {
     }
 }
 
-module.exports = BankNameLookup;
+export default BankNameLookup;
 
 function lookupKey(name) {
     return name.replace(/-/g, ' ');

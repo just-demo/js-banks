@@ -1,6 +1,6 @@
-const regex = require('./regex');
+import regex from './regex';
 
-module.exports = {
+export default {
     parse(text) {
         return regex.findManyObjects(text, /^GET (.*) (\d+)ms$/gm, {
             url: 1,

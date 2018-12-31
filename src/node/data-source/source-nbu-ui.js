@@ -1,10 +1,10 @@
-const _ = require('lodash');
-const names = require('../names');
-const cache = require('../cache');
-const dates = require('../dates');
-const assert = require('../assert');
-const regex = require('../regex');
-const mapAsync = require('../map-async');
+import _ from 'lodash';
+import names from '../names';
+import cache from '../cache';
+import dates from '../dates';
+import assert from '../assert';
+import regex from '../regex';
+import mapAsync from '../map-async';
 
 class SourceNbuUI {
     // Банківський нагляд -> Реєстрація та ліцензування -> Довідник банків -> Повний перелік банківських установ:
@@ -31,7 +31,7 @@ class SourceNbuUI {
     }
 }
 
-module.exports = SourceNbuUI;
+export default SourceNbuUI;
 
 function readActiveBanks() {
     return cache.read('nbu/banks/pages/' + 0, 'https://bank.gov.ua/control/bankdict/banks').then(firstHtml => {

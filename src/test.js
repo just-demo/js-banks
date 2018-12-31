@@ -1,6 +1,6 @@
-const isNode = require('detect-node');
+import isNode from 'detect-node';
 
-module.exports = {
+export default {
     testNode() {
         return 'Is node: ' + isNode;
     }

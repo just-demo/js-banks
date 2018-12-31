@@ -1,3 +1,4 @@
+// npx babel-node main.js
 const express = require('express');
 const cache = require('../../src/node/cache');
 const files = require('../../src/node/files');

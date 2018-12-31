@@ -1,10 +1,10 @@
-const _ = require('lodash');
-const names = require('../names');
-const cache = require('../cache');
-const dates = require('../dates');
-const assert = require('../assert');
-const arj = require('../arj');
-const dbf = require('../dbf');
+import _ from 'lodash';
+import names from '../names';
+import cache from '../cache';
+import dates from '../dates';
+import assert from '../assert';
+import arj from '../arj';
+import dbf from '../dbf';
 
 class SourceNbuDBF {
     // Банківський нагляд -> Реєстрація та ліцензування -> Довідник банків -> Імпорт:
@@ -49,4 +49,4 @@ class SourceNbuDBF {
     }
 }
 
-module.exports = SourceNbuDBF;
+export default SourceNbuDBF;

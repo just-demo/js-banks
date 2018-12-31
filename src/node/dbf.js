@@ -1,8 +1,8 @@
-const iconv = require('iconv-lite');
-const _ = require('lodash');
-const files = require('./files');
+import iconv from 'iconv-lite';
+import _ from 'lodash';
+import files from './files';
 
-module.exports = {
+export default {
     parse(fileOrBuffer) {
         return Promise.resolve(_.isString(fileOrBuffer) ? files.readRaw(fileOrBuffer) : fileOrBuffer)
             .then(buffer => new DbfParser('cp866').parse(buffer));

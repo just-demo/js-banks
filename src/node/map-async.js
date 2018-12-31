@@ -1,6 +1,6 @@
-const PromisePool = require('es6-promise-pool');
+import PromisePool from 'es6-promise-pool';
 
-module.exports = function (items, itemMapper, poolSize) {
+export default function (items, itemMapper, poolSize) {
     const promises = function* () {
         for (let item of items) {
             yield Promise.resolve(itemMapper(item));

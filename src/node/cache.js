@@ -1,9 +1,9 @@
-const isNode = require('detect-node');
-const files = require('./files');
-const urls = require('./urls');
+import isNode from 'detect-node';
+import files from './files';
+import urls from './urls';
 
 // TODO: make it an interface and pass no-cache instance in browser mode
-module.exports = {
+export default {
     // debug just for troubleshooting
     write(file, obj) {
         if (!isNode) {

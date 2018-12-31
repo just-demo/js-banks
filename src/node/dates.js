@@ -1,6 +1,6 @@
-const moment = require('moment');
+import moment from 'moment';
 
-module.exports = {
+export default {
     format(date) {
         return date ? date.split('.').reverse().map(part => part.trim()).join('-') : null;
     },

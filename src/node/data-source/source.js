@@ -1,13 +1,13 @@
-const _ = require('lodash');
-const arrays = require('../arrays');
-const assert = require('../assert');
-const BankNameLookup = require('../bank-name-lookup');
-const SourceNbuAPI = require('./source-nbu-api');
-const SourceNbuDBF = require('./source-nbu-dbf');
-const SourceNbuPDF = require('./source-nbu-pdf');
-const SourceNbuUI = require('./source-nbu-ui');
-const SourceFund = require('./source-fund');
-const SourceMinfin = require('./source-minfin');
+import _ from 'lodash';
+import arrays from '../arrays';
+import assert from '../assert';
+import BankNameLookup from '../bank-name-lookup';
+import SourceNbuAPI from './source-nbu-api';
+import SourceNbuDBF from './source-nbu-dbf';
+import SourceNbuPDF from './source-nbu-pdf';
+import SourceNbuUI from './source-nbu-ui';
+import SourceFund from './source-fund';
+import SourceMinfin from './source-minfin';
 
 class Source {
     constructor() {

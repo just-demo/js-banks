@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     of(item) {
         return item ? [item] : [];
     },

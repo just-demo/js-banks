@@ -1,6 +1,6 @@
-const pdfjs = require('pdfjs-dist');
+import pdfjs from 'pdfjs-dist';
 
-module.exports = {
+export default {
     parse(buffer) {
         return pdfjs.getDocument({data: buffer})
             .then(pdf => pdf.getPage(1))

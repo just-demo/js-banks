@@ -1,8 +1,8 @@
-const assert = require('./assert');
-const regex = require('./regex');
-const arrays = require('./arrays');
+import assert from './assert';
+import regex from './regex';
+import arrays from './arrays';
 
-module.exports = {
+export default {
 
     siteName(site) {
         return site.replace(/(?<!:|:\/)\/(?!ukraine$).*/g, '');

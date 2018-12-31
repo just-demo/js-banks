@@ -1,8 +1,8 @@
-const _ = require('lodash');
-const names = require('../names');
-const convert = require('xml-js');
-const cache = require('../cache');
-const dates = require('../dates');
+import _ from 'lodash';
+import names from '../names';
+import convert from 'xml-js';
+import cache from '../cache';
+import dates from '../dates';
 
 class SourceNbuAPI {
     // Публічна інформація у формі відкритих даних -> API сторінки -> Структурні підрозділи банків України:
@@ -27,4 +27,4 @@ class SourceNbuAPI {
     }
 }
 
-module.exports = SourceNbuAPI;
+export default SourceNbuAPI;

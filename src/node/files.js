@@ -1,10 +1,10 @@
-const fs = require('fs');
-const mkdirp = require('mkdirp');
-const path = require('path');
-const iconv = require('iconv-lite');
+import fs from 'fs';
+import mkdirp from 'mkdirp';
+import path from 'path';
+import iconv from 'iconv-lite';
 
 // TODO: log errors
-module.exports = {
+export default {
     write(file, data, encoding) {
         return new Promise(resolve =>
             mkdirp(path.dirname(file), () =>

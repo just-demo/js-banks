@@ -1,11 +1,11 @@
-const _ = require('lodash');
-const names = require('../names');
-const cache = require('../cache');
-const dates = require('../dates');
-const regex = require('../regex');
-const pdfs = require('../pdfs');
-const path = require('path');
-const mapAsync = require('../map-async');
+import _ from 'lodash';
+import names from '../names';
+import cache from '../cache';
+import dates from '../dates';
+import regex from '../regex';
+import pdfs from '../pdfs';
+import path from 'path';
+import mapAsync from '../map-async';
 
 class SourceNbuPDF {
     // Банківський нагляд -> Реєстрація та ліцензування -> Банківські ліцензії та види діяльності банків України:
@@ -50,5 +50,5 @@ class SourceNbuPDF {
     }
 }
 
-module.exports = SourceNbuPDF;
+export default SourceNbuPDF;
 

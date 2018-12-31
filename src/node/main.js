@@ -1,9 +1,9 @@
 // npx babel-node main.js
-const files = require('./files');
+import files from './files';
 import Source from './data-source/source';
 
 import testES6 from './testES6';
-// const test = require('../test');
+// import test from '../test';
 console.log(testES6.test());
 
 const startTime = new Date();

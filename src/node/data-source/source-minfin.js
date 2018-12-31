@@ -1,10 +1,10 @@
-const _ = require('lodash');
-const names = require('../names');
-const cache = require('../cache');
-const assert = require('../assert');
-const regex = require('../regex');
-const mapAsync = require('../map-async');
-const arrays = require('../arrays');
+import _ from 'lodash';
+import names from '../names';
+import cache from '../cache';
+import assert from '../assert';
+import regex from '../regex';
+import mapAsync from '../map-async';
+import arrays from '../arrays';
 
 class SourceMinfin {
     getBanks() {
@@ -52,4 +52,4 @@ class SourceMinfin {
     }
 }
 
-module.exports = SourceMinfin;
+export default SourceMinfin;
