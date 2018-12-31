@@ -1,6 +1,6 @@
 const _ = require('lodash');
 const arrays = require('./arrays');
-const int = require('./internal');
+const cache = require('./cache');
 
 const DEFAULT_NAMES = [
     ["ПРОМИСЛОВО-ФІНАНСОВИЙ", "ПФБ"],
@@ -20,7 +20,7 @@ class BankNameLookup {
         // otherwise merged/renamed banks from PDF source will override relevant names from other sources
         // nameGroups = nameGroups.map(names => buildVariants(names));
         nameGroups = arrays.combineIntersected(nameGroups).sort(arrays.compare);
-        int.write('names/banks', nameGroups); // it's debug, no need to wait
+        cache.write('names/banks', nameGroups); // it's debug, no need to wait
         this.lookupMap = {};
         nameGroups.forEach(names => names.forEach(name => this.lookupMap[lookupKey(name)] = names[0]));
     }

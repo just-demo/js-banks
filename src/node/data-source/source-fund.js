@@ -1,7 +1,6 @@
 const _ = require('lodash');
 const names = require('../names');
-const ext = require('../external');
-const int = require('../internal');
+const cache = require('../cache');
 const dates = require('../dates');
 const assert = require('../assert');
 const regex = require('../regex');
@@ -28,7 +27,7 @@ class SourceFund extends Source {
                 active: bank.active
             }));
             banks.sort(names.compareNames);
-            return int.write('fund/banks', banks);
+            return cache.write('fund/banks', banks);
         });
     }
 }
@@ -36,7 +35,7 @@ class SourceFund extends Source {
 module.exports = SourceFund;
 
 function readActiveBanks() {
-    return ext.read('fund/banks-active', 'http://www.fg.gov.ua/uchasnyky-fondu').then(html => {
+    return cache.read('fund/banks-active', 'http://www.fg.gov.ua/uchasnyky-fondu').then(html => {
         const banks = regex.findManyObjects(html, /<tr.*?>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>([\S\s]*?)<\/td>\s+?<\/tr>/g, {
             name: 2,
             date: 4,
@@ -53,7 +52,7 @@ function readActiveBanks() {
 }
 
 function readInactiveBanks() {
-    return ext.read('fund/banks-not-paying', 'http://www.fg.gov.ua/not-paying').then(html => {
+    return cache.read('fund/banks-not-paying', 'http://www.fg.gov.ua/not-paying').then(html => {
         const banks = regex.findManyObjects(html, /<h3 class="item-title"><a href="(\/.+?\/.+?\/(\d+?)-.+?)">[\S\s]+?(.+?)<\/a>/g, {
             link: 1,
             id: 2,
@@ -61,7 +60,7 @@ function readInactiveBanks() {
         });
 
         return mapAsync(banks, bank =>
-            ext.read('fund/banks/' + bank.id, 'http://www.fg.gov.ua' + bank.link)
+            cache.read('fund/banks/' + bank.id, 'http://www.fg.gov.ua' + bank.link)
                 .then(htmlBank => {
                     const problems = regex.findManyValues(htmlBank, /<td[^>]*>Термін [^<]*<\/td>\s*<td[^>]*>[^<]*?(\d{2}\.\d{2}\.\d{4})[^<]*<\/td>/g)
                         .map(date => dates.format(date));

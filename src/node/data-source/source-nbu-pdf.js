@@ -1,7 +1,6 @@
 const _ = require('lodash');
 const names = require('../names');
-const ext = require('../external');
-const int = require('../internal');
+const cache = require('../cache');
 const dates = require('../dates');
 const regex = require('../regex');
 const pdfs = require('../pdfs');
@@ -16,7 +15,7 @@ class SourceNbuPDF extends Source {
         const startTime = new Date();
         // TODO: why does "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК" fall into different buckets?
         // TODO: is art_id the same? consider fetching the link from UI page
-        return ext.read('nbu/not-banks', 'https://bank.gov.ua/control/uk/publish/article?art_id=52047').then(html => {
+        return cache.read('nbu/not-banks', 'https://bank.gov.ua/control/uk/publish/article?art_id=52047').then(html => {
             const bankFiles = {};
             regex.findManyObjects(html, /<a\s+href="files\/Licences_bank\/(.+?)".*?>([\s\S]+?)<\/a>/g, {
                 file: 1, name: 2
@@ -29,8 +28,8 @@ class SourceNbuPDF extends Source {
                 const url = 'https://bank.gov.ua/files/Licences_bank/' + file;
                 const textFile = 'nbu/not-banks/text/' + path.parse(file).name + '.txt';
                 // TODO: remove this temporary optimization and inline process function when there only one usage left
-                return ext.calc(textFile, () => null)
-                    .then(text => text || ext.download('nbu/not-banks/pdf/' + file, url).then(pdf => ext.calc(textFile, () => pdfs.parse(pdf))))
+                return cache.calc(textFile, () => null)
+                    .then(text => text || cache.download('nbu/not-banks/pdf/' + file, url).then(pdf => cache.calc(textFile, () => pdfs.parse(pdf))))
                     .then(text => {
                         const bank = regex.findObject(text, /^(.+?)Назва банку(.*?Дата відкликання(\d{2}\.\d{2}\.\d{4}))?/g, {
                             name: 1, problem: 3
@@ -46,7 +45,7 @@ class SourceNbuPDF extends Source {
             }).then(banks => {
                 banks.sort(names.compareNames);
                 console.log('PDF time:', new Date() - startTime);
-                return int.write('nbu/banks-pdf', banks);
+                return cache.write('nbu/banks-pdf', banks);
             });
         });
     }

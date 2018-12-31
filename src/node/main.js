@@ -2,7 +2,6 @@ const _ = require('lodash');
 const names = require('./names');
 const assert = require('./assert');
 const dbf = require('./dbf');
-const int = require('./internal');
 const mapAsync = require('./map-async');
 const urls = require('./urls');
 const files = require('./files');

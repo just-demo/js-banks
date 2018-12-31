@@ -1,9 +1,15 @@
 const files = require('./files');
 const urls = require('./urls');
 
-// TODO: rename the module to cacheable
 // TODO: make it an interface and pass no-cache instance in browser mode
 module.exports = {
+    // debug just for troubleshooting
+    write(file, obj) {
+        file = '../../data/json/' + file + '.json';
+        return perform('WRITE', file, () =>
+            files.write(file, JSON.stringify(obj, null, 2)).then(() => obj))
+    },
+
     read(file, url, encoding) {
         file = '../../data/html/' + file + '.html';
         return files.exists(file).then(exists =>

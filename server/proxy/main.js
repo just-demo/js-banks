@@ -1,5 +1,5 @@
 const express = require('express');
-const ext = require('../../src/node/external');
+const cache = require('../../src/node/cache');
 const files = require('../../src/node/files');
 const logs = require('../../src/node/logs');
 const arrays = require('../../src/node/arrays');
@@ -8,7 +8,7 @@ const port = 3333;
 express()
     .get('/:type/*', (req, res) => {
         const startTime = new Date();
-        ext[req.params.type](req.param(0)).then(data => {
+        cache[req.params.type](req.param(0)).then(data => {
             const timeout = Math.max(0, getTimeout(req.query.url) - (new Date() - startTime));
             console.log('Setting timeout:', timeout);
             setTimeout(() => res.send(data), timeout);

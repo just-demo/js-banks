@@ -1,7 +1,6 @@
 const _ = require('lodash');
 const names = require('../names');
-const ext = require('../external');
-const int = require('../internal');
+const cache = require('../cache');
 const dates = require('../dates');
 const assert = require('../assert');
 const arj = require('../arj');
@@ -12,7 +11,7 @@ class SourceNbuDBF extends Source {
     // Банківський нагляд -> Реєстрація та ліцензування -> Довідник банків -> Імпорт:
     // https://bank.gov.ua/control/uk/bankdict/search
     getBanks() {
-        return ext.download('nbu/rcukru.arj', 'https://bank.gov.ua/files/RcuKru.arj')
+        return cache.download('nbu/rcukru.arj', 'https://bank.gov.ua/files/RcuKru.arj')
             .then(arjContent => arj.unpack(arjContent))
             .then(dbfContent => dbf.parse(dbfContent))
             .then(records => {
@@ -46,7 +45,7 @@ class SourceNbuDBF extends Source {
                     };
                 });
                 banks.sort(names.compareNames);
-                return int.write('nbu/banks-dbf', banks);
+                return cache.write('nbu/banks-dbf', banks);
             });
     }
 }

@@ -1,7 +1,6 @@
 const _ = require('lodash');
 const names = require('../names');
-const ext = require('../external');
-const int = require('../internal');
+const cache = require('../cache');
 const dates = require('../dates');
 const assert = require('../assert');
 const regex = require('../regex');
@@ -28,7 +27,7 @@ class SourceNbuUI extends Source {
                 };
             });
             banks.sort(names.compareNames);
-            return int.write('nbu/banks', banks);
+            return cache.write('nbu/banks', banks);
         });
     }
 }
@@ -36,9 +35,9 @@ class SourceNbuUI extends Source {
 module.exports = SourceNbuUI;
 
 function readActiveBanks() {
-    return ext.read('nbu/banks/pages/' + 0, 'https://bank.gov.ua/control/bankdict/banks').then(firstHtml => {
+    return cache.read('nbu/banks/pages/' + 0, 'https://bank.gov.ua/control/bankdict/banks').then(firstHtml => {
         const otherLinks = regex.findManyValues(firstHtml, /<li>\s+?<a href="(.+?)">/g);
-        const otherHtmlPromises = otherLinks.map((link, index) => ext.read('nbu/banks/pages/' + (index + 1), 'https://bank.gov.ua/' + link));
+        const otherHtmlPromises = otherLinks.map((link, index) => cache.read('nbu/banks/pages/' + (index + 1), 'https://bank.gov.ua/' + link));
         return Promise.all([firstHtml, ...otherHtmlPromises]).then(htmls => {
             const banks = _.flatten(htmls.map(html => regex.findManyObjects(html, /<tr>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<\/tr>/g, {
                 link: 1,
@@ -52,7 +51,7 @@ function readActiveBanks() {
                 const id = parseInt(linkInfo.id);
                 const link = '/control/uk/bankdict/bank?id=' + id;
                 const name = extractBankPureNameSPC(linkInfo.name);
-                return ext.read('nbu/banks/' + id, 'https://bank.gov.ua' + link).then(html => {
+                return cache.read('nbu/banks/' + id, 'https://bank.gov.ua' + link).then(html => {
                     const fullName = extractBankPureNameSPC(html.match(/<td.*?>Назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
                     const shortName = extractBankPureNameSPC(html.match(/<td.*?>Коротка назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
                     assert.equals('Short name mismatch', name, shortName);
@@ -72,7 +71,7 @@ function readActiveBanks() {
 function readInactiveBanks() {
     //TODO: is art_id always the same? consider fetching the link from UI page if possible
     const link = '/control/uk/publish/article?art_id=75535';
-    return ext.read('nbu/banks-inactive', 'https://bank.gov.ua' + link).then(html => {
+    return cache.read('nbu/banks-inactive', 'https://bank.gov.ua' + link).then(html => {
         return regex.findManyObjects(html, new RegExp('<tr[^>]*>\\s*?' + '(<td[^>]*>\\s*?(<p[^>]*>\\s*?<span[^>]*>([\\S\\s]*?)<o:p>.*?<\\/o:p><\\/span><\\/p>)?\\s*?<\\/td>\\s*?)'.repeat(4) + '[\\S\\s]*?<\\/tr>', 'g'), {
             name: 3, date1: 6, date2: 9, date3: 12
         }).map(bank => {
