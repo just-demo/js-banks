@@ -2,23 +2,14 @@ import isNode from 'detect-node';
 import files from './files';
 import urls from './urls';
 
-// TODO: make it an interface and pass no-cache instance in browser mode
-export default {
+const nodeCache = {
     // debug just for troubleshooting
     write(file, obj) {
-        if (!isNode) {
-            return Promise.resolve(obj);
-        }
-
         file = '../../data/json/' + file + '.json';
         return perform('WRITE', file, () => files.writeJson(file, obj).then(() => obj))
     },
 
     read(file, url, encoding) {
-        if (!isNode) {
-            return proxy('read', file, url)
-        }
-
         file = '../../data/html/' + file + '.html';
         return files.exists(file).then(exists =>
             exists ?
@@ -29,10 +20,6 @@ export default {
     },
 
     download(file, url) {
-        if (!isNode) {
-            return proxy('download', file, url)
-        }
-
         file = '../../data/binary/' + file;
         return files.exists(file).then(exists =>
             exists ?
@@ -43,10 +30,6 @@ export default {
     },
 
     calc(cache, operation) {
-        if (!isNode) {
-            return perform('CALC', cache, operation);
-        }
-
         const file = '../../data/calc/' + cache;
         return files.exists(file).then(exists =>
             exists ?
@@ -56,6 +39,27 @@ export default {
         );
     }
 };
+
+const browserCache = {
+    // debug just for troubleshooting
+    write(file, obj) {
+        return Promise.resolve(obj);
+    },
+
+    read(file, url) {
+        return proxy('read', file, url);
+    },
+
+    download(file, url) {
+        return proxy('download', file, url);
+    },
+
+    calc(cache, operation) {
+        return perform('CALC', cache, operation);
+    }
+};
+
+export default isNode ? nodeCache : browserCache;
 
 function proxy(type, file, url) {
     const proxyUrl = `http://localhost:3333/${type}/${file}?url=${url}`;
