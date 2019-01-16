@@ -7,8 +7,12 @@ import regex from '../regex';
 import mapAsync from '../map-async';
 
 class SourceFund {
+    constructor(audit) {
+        this.audit = audit;
+    }
+
     getBanks() {
-        return Promise.all([readActiveBanks(), readInactiveBanks()]).then(allBanks => {
+        return Promise.all([readActiveBanks(this.audit), readInactiveBanks(this.audit)]).then(allBanks => {
             const activeBanks = _.keyBy(allBanks[0], 'name');
             const inactiveBanks = _.keyBy(allBanks[1], 'name');
             const banks = _.union(Object.keys(activeBanks), Object.keys(inactiveBanks)).map(name => {
@@ -33,7 +37,8 @@ class SourceFund {
 
 export default SourceFund;
 
-function readActiveBanks() {
+function readActiveBanks(audit) {
+    audit.start('fund/banks-active');
     return cache.read('fund/banks-active', 'http://www.fg.gov.ua/uchasnyky-fondu').then(html => {
         const banks = regex.findManyObjects(html, /<tr.*?>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>([\S\s]*?)<\/td>\s+?<\/tr>/g, {
             name: 2,
@@ -46,11 +51,13 @@ function readActiveBanks() {
             active: true
         }));
         banks.forEach(bank => assert.false('Many sites', bank.sites.length > 1, bank.name, bank.sites));
+        audit.end('fund/banks-active');
         return banks;
     });
 }
 
-function readInactiveBanks() {
+function readInactiveBanks(audit) {
+    audit.start('fund/banks-not-paying');
     return cache.read('fund/banks-not-paying', 'http://www.fg.gov.ua/not-paying').then(html => {
         const banks = regex.findManyObjects(html, /<h3 class="item-title"><a href="(\/.+?\/.+?\/(\d+?)-.+?)">[\S\s]+?(.+?)<\/a>/g, {
             link: 1,
@@ -58,11 +65,14 @@ function readInactiveBanks() {
             name: 3
         });
 
+        audit.end('fund/banks-not-paying');
+        audit.start('fund/bank', banks.length);
         return mapAsync(banks, bank =>
             cache.read('fund/banks/' + bank.id, 'http://www.fg.gov.ua' + bank.link)
                 .then(htmlBank => {
                     const problems = regex.findManyValues(htmlBank, /<td[^>]*>Термін [^<]*<\/td>\s*<td[^>]*>[^<]*?(\d{2}\.\d{2}\.\d{4})[^<]*<\/td>/g)
                         .map(date => dates.format(date));
+                    audit.end('fund/bank');
                     return {
                         name: names.extractBankPureName(bank.name),
                         problem: _.min(problems),
