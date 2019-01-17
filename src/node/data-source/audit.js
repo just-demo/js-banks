@@ -6,11 +6,10 @@ class Audit {
     start(key, count) {
         count = count || 1;
         this.items[key] = {
-            start: new Date(),
-            count: count,
+            start: new Date().getTime(),
+            total: count,
             done: 0
         };
-        this.print();
     }
 
     end(key) {
@@ -19,7 +18,7 @@ class Audit {
     }
 
     print() {
-        let now = new Date().getTime(); // getTime just to suppress a warning
+        let now = new Date().getTime();
         let start = now;
         let end = now;
         Object.values(this.items).forEach(item => {
@@ -28,7 +27,7 @@ class Audit {
                 end = Math.max(end, item.start + (now - item.start) * item.total / item.done);
             }
         });
-        // TODO: fix the calculation, debug on a simple example
+
         console.log('Audit (total/taken/left): ', end - start, now - start, end - now);
     }
 }
