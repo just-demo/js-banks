@@ -17,7 +17,7 @@ class Audit {
         this.print();
     }
 
-    print() {
+    get() {
         let now = new Date().getTime();
         let start = now;
         let end = now;
@@ -27,8 +27,16 @@ class Audit {
                 end = Math.max(end, item.start + (now - item.start) * item.total / item.done);
             }
         });
+        return {
+            total: end - start,
+            taken: now - start,
+            left: end - now
+        }
+    }
 
-        console.log('Audit (total/taken/left): ', end - start, now - start, end - now);
+    print() {
+        const audit = this.get();
+        console.log('Audit (total/taken/left): ', audit.total, audit.taken, audit.left);
     }
 }
 
