@@ -31,6 +31,6 @@ function refresh(restart) {
     }
 
     return result ? result : {
-        audit: audit.get()
+        progress: audit.get()
     };
 }
