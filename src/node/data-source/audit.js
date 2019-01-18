@@ -1,6 +1,19 @@
 class Audit {
-    constructor() {
+    constructor(name, count) {
+        this.name = name;
+        this.count = count;
         this.items = {};
+        this.branches = [];
+    }
+
+    branch(name, count) {
+        const branch = new Audit(name, count);
+        this.branches.push(branch);
+        return branch;
+    }
+
+    ready() {
+        return Object.values(this.items) >= this.count && _.every(this.branches, branch => branch.ready());
     }
 
     start(key, count) {
@@ -28,11 +41,17 @@ class Audit {
                 end = Math.max(end, item.start + (now - item.start) * item.total / item.done);
             }
         });
-        return {
-            total: end - start,
-            taken: now - start,
-            left: end - now
-        }
+        const curr = {
+            start: start,
+            end: end
+        };
+        // TODO: start here!!!
+        this.branches.map(branch => branch.get)
+        // return {
+        //     total: end - start,
+        //     taken: now - start,
+        //     left: end - now
+        // }
     }
 
     print() {
