@@ -8,23 +8,23 @@ import arrays from '../arrays';
 
 class SourceMinfin {
     constructor(audit) {
-        this.audit = audit;
+        this.audit = audit.branch('minfin', 4);
     }
 
     getBanks() {
-        this.audit.start('minfin/banks');
+        this.audit.start('banks');
         return cache.read('minfin/banks', 'https://minfin.com.ua/ua/banks/all/').then(banksHtml => {
             const banks = regex.findManyObjects(banksHtml, /class="bank-emblem--desktop"[\S\s]+?\/company\/(.+?)\/[\S\s]+?<a href="\/ua\/company\/(.+?)\/">(.+?)<\/a>/g, {
                 id: 1, alias: 2, name: 3
             });
-            this.audit.end('minfin/banks');
-            this.audit.start('minfin/bank', banks.length);
+            this.audit.end('banks');
+            this.audit.start('bank', banks.length);
             return mapAsync(banks, bank =>
                 cache.read('minfin/banks/' + bank.id, 'https://minfin.com.ua/ua/company/' + bank.alias + '/')
                     .then(bankHtml => {
                         const site = regex.findSingleValue(bankHtml, /<div class="item-title">Офіційний сайт<\/div>[\S\s]+?<a.*? href="(.+?)" target="_blank">/g);
                         assert.true('No site', site, bank.name);
-                        this.audit.end('minfin/bank');
+                        this.audit.end('bank');
                         return {
                             id: parseInt(bank.id),
                             names: [names.normalize(bank.name)],
@@ -40,16 +40,16 @@ class SourceMinfin {
     }
 
     getRatings() {
-        this.audit.start('minfin/dates');
+        this.audit.start('dates');
         return cache.read('minfin/dates', 'https://minfin.com.ua/ua/banks/rating/').then(html => {
             const dates = regex.findManyValues(html, /<option value="(.+?)".*?>.*?<\/option>/g);
-            this.audit.end('minfin/dates');
-            this.audit.start('minfin/rating', dates.length);
+            this.audit.end('dates');
+            this.audit.start('rating', dates.length);
             return mapAsync(dates, date =>
                 cache.read('minfin/ratings/' + date, 'https://minfin.com.ua/ua/banks/rating/?date=' + date)
                     .then(dateHtml => {
                         const dateRatings = regex.findManyKeyValue(dateHtml, /data-id="(.+?)"[\S\s]+?data-title="Загальний рейтинг"><span.*?>(.+?)<\/span>/g);
-                        this.audit.end('minfin/rating');
+                        this.audit.end('rating');
                         return {
                             date: date,
                             ratings: dateRatings

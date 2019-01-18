@@ -6,13 +6,13 @@ import dates from '../dates';
 
 class SourceNbuAPI {
     constructor(audit) {
-        this.audit = audit;
+        this.audit = audit.branch('nbu-api', 1);
     }
 
     // Публічна інформація у формі відкритих даних -> API сторінки -> Структурні підрозділи банків України:
     // https://bank.gov.ua/control/uk/publish/article?art_id=38441973#get_data_branch
     getBanks() {
-        this.audit.start('nbu/banks-api');
+        this.audit.start('banks');
         return cache.read('nbu/banks-api', 'https://bank.gov.ua/NBU_BankInfo/get_data_branch?typ=0', 'cp1251').then(xml => {
             const json = convert.xml2js(xml, {compact: true});
             const banks = json['BANKBRANCH']['ROW']
@@ -27,7 +27,7 @@ class SourceNbuAPI {
                     active: ['Нормальний'.toUpperCase(), 'Реорганізація'.toUpperCase()].includes(record['N_STAN'].toUpperCase())
                 }));
             banks.sort(names.compareNames);
-            this.audit.end('nbu/banks-api');
+            this.audit.end('banks');
             return cache.write('nbu/banks-api', banks);
         });
     }

@@ -8,13 +8,13 @@ import dbf from '../dbf';
 
 class SourceNbuDBF {
     constructor(audit) {
-        this.audit = audit;
+        this.audit = audit.branch('nbu-dbf', 1);
     }
 
     // Банківський нагляд -> Реєстрація та ліцензування -> Довідник банків -> Імпорт:
     // https://bank.gov.ua/control/uk/bankdict/search
     getBanks() {
-        this.audit.start('nbu/dbf');
+        this.audit.start('arj');
         return cache.download('nbu/rcukru.arj', 'https://bank.gov.ua/files/RcuKru.arj')
             .then(arjContent => arj.unpack(arjContent))
             .then(dbfContent => dbf.parse(dbfContent))
@@ -49,7 +49,7 @@ class SourceNbuDBF {
                     };
                 });
                 banks.sort(names.compareNames);
-                this.audit.end('nbu/dbf');
+                this.audit.end('arj');
                 return cache.write('nbu/banks-dbf', banks);
             });
     }

@@ -7,11 +7,9 @@ import SourceNbuPDF from './source-nbu-pdf';
 import SourceNbuUI from './source-nbu-ui';
 import SourceFund from './source-fund';
 import SourceMinfin from './source-minfin';
-import Audit from "./audit";
 
 class Source {
     constructor(audit) {
-        audit = audit || new Audit(); // TODO: is it needed?
         this.sources = {
             // TODO: remove DBF from UI
             // DBF is not supported in browser and needs manual actions in node

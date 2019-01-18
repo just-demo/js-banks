@@ -1,7 +1,9 @@
+import _ from 'lodash';
+
 class Audit {
     constructor(name, count) {
         this.name = name;
-        this.count = count;
+        this.count = count || 0;
         this.items = {};
         this.branches = [];
     }
@@ -13,7 +15,8 @@ class Audit {
     }
 
     ready() {
-        return Object.values(this.items) >= this.count && _.every(this.branches, branch => branch.ready());
+        return Object.values(this.items).filter(item => item.done).length >= this.count &&
+            _.every(this.branches, branch => branch.ready());
     }
 
     start(key, count) {
@@ -27,36 +30,24 @@ class Audit {
 
     end(key) {
         this.items[key].done++;
-        this.print();
     }
 
-    // TODO: introduce .ready() method in conjunction with audit branching to make sure progress starts calculating only after all queries are known and progress is never reduced
-    get() {
-        let now = new Date().getTime();
-        let start = now;
-        let end = now;
+    progress() {
+        const ranges = this.branches.map(branch => branch.progress());
+        const now = new Date().getTime();
+        let start = _.min(ranges.map(range => range.start)) || now;
+        let end = _.max(ranges.map(range => range.end)) || now;
         Object.values(this.items).forEach(item => {
             start = Math.min(start, item.start);
             if (item.done && item.done < item.total) {
                 end = Math.max(end, item.start + (now - item.start) * item.total / item.done);
             }
         });
-        const curr = {
+
+        return {
             start: start,
             end: end
         };
-        // TODO: start here!!!
-        this.branches.map(branch => branch.get)
-        // return {
-        //     total: end - start,
-        //     taken: now - start,
-        //     left: end - now
-        // }
-    }
-
-    print() {
-        const audit = this.get();
-        console.log('Audit (total/taken/left): ', audit.total, audit.taken, audit.left);
     }
 }
 

@@ -8,7 +8,7 @@ import mapAsync from '../map-async';
 
 class SourceFund {
     constructor(audit) {
-        this.audit = audit;
+        this.audit = audit.branch('fund', 3);
     }
 
     getBanks() {
@@ -38,7 +38,7 @@ class SourceFund {
 export default SourceFund;
 
 function readActiveBanks(audit) {
-    audit.start('fund/banks-active');
+    audit.start('banks-active');
     return cache.read('fund/banks-active', 'http://www.fg.gov.ua/uchasnyky-fondu').then(html => {
         const banks = regex.findManyObjects(html, /<tr.*?>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>(.*?)<\/td>\s+?<td.*?>([\S\s]*?)<\/td>\s+?<\/tr>/g, {
             name: 2,
@@ -51,13 +51,13 @@ function readActiveBanks(audit) {
             active: true
         }));
         banks.forEach(bank => assert.false('Many sites', bank.sites.length > 1, bank.name, bank.sites));
-        audit.end('fund/banks-active');
+        audit.end('banks-active');
         return banks;
     });
 }
 
 function readInactiveBanks(audit) {
-    audit.start('fund/banks-not-paying');
+    audit.start('banks-not-paying');
     return cache.read('fund/banks-not-paying', 'http://www.fg.gov.ua/not-paying').then(html => {
         const banks = regex.findManyObjects(html, /<h3 class="item-title"><a href="(\/.+?\/.+?\/(\d+?)-.+?)">[\S\s]+?(.+?)<\/a>/g, {
             link: 1,
@@ -65,14 +65,14 @@ function readInactiveBanks(audit) {
             name: 3
         });
 
-        audit.end('fund/banks-not-paying');
-        audit.start('fund/bank', banks.length);
+        audit.end('banks-not-paying');
+        audit.start('bank', banks.length);
         return mapAsync(banks, bank =>
             cache.read('fund/banks/' + bank.id, 'http://www.fg.gov.ua' + bank.link)
                 .then(htmlBank => {
                     const problems = regex.findManyValues(htmlBank, /<td[^>]*>Термін [^<]*<\/td>\s*<td[^>]*>[^<]*?(\d{2}\.\d{2}\.\d{4})[^<]*<\/td>/g)
                         .map(date => dates.format(date));
-                    audit.end('fund/bank');
+                    audit.end('bank');
                     return {
                         name: names.extractBankPureName(bank.name),
                         problem: _.min(problems),

@@ -9,13 +9,13 @@ import mapAsync from '../map-async';
 // TODO: rename not-banks to just pdf everywhere, including cache and audit
 class SourceNbuPDF {
     constructor(audit) {
-        this.audit = audit;
+        this.audit = audit.branch('nbu-pdf', 2);
     }
 
     // Банківський нагляд -> Реєстрація та ліцензування -> Банківські ліцензії та види діяльності банків України:
     // https://bank.gov.ua/control/uk/publish/article?art_id=52047
     getBanks() {
-        this.audit.start('nbu/pdfs');
+        this.audit.start('pdfs');
         const startTime = new Date();
         // TODO: why does "ІННОВАЦІЙНО-ПРОМИСЛОВИЙ БАНК" fall into different buckets?
         // TODO: is art_id the same? consider fetching the link from UI page
@@ -28,8 +28,8 @@ class SourceNbuPDF {
                 bankFiles[bank.file].push(names.normalize(names.removeTags(bank.name)));
             });
             const files = Object.keys(bankFiles);
-            this.audit.end('nbu/pdfs');
-            this.audit.start('nbu/pdf', files.length);
+            this.audit.end('pdfs');
+            this.audit.start('pdf', files.length);
             return mapAsync(files, file => {
                 const url = 'https://bank.gov.ua/files/Licences_bank/' + file;
                 const textFile = 'nbu/not-banks/text/' + file.split('.')[0] + '.txt';
@@ -49,7 +49,7 @@ class SourceNbuPDF {
                         };
                     })
                     .catch(error => console.log('PDF error:', file, error))
-                    .finally(() => this.audit.end('nbu/pdf'));
+                    .finally(() => this.audit.end('pdf'));
             }).then(banks => {
                 banks.sort(names.compareNames);
                 console.log('PDF time:', new Date() - startTime);

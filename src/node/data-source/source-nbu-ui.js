@@ -8,7 +8,7 @@ import mapAsync from '../map-async';
 
 class SourceNbuUI {
     constructor(audit) {
-        this.audit = audit;
+        this.audit = audit.branch('nbu-ui', 4);
     }
 
     // Банківський нагляд -> Реєстрація та ліцензування -> Довідник банків -> Повний перелік банківських установ:
@@ -38,18 +38,18 @@ class SourceNbuUI {
 export default SourceNbuUI;
 
 function readActiveBanks(audit) {
-    audit.start('nbu/banks/pages/0');
+    audit.start('banks/pages/0');
     return cache.read('nbu/banks/pages/' + 0, 'https://bank.gov.ua/control/bankdict/banks').then(firstHtml => {
         const otherLinks = regex.findManyValues(firstHtml, /<li>\s+?<a href="(.+?)">/g);
-        audit.end('nbu/banks/pages/0');
-        audit.start('nbu/banks/pages/1+', otherLinks.length);
-        const otherHtmlPromises = otherLinks.map((link, index) => cache.read('nbu/banks/pages/' + (index + 1), 'https://bank.gov.ua/' + link).finally(() => audit.end('nbu/banks/pages/1+')));
+        audit.end('banks/pages/0');
+        audit.start('banks/pages/1+', otherLinks.length);
+        const otherHtmlPromises = otherLinks.map((link, index) => cache.read('nbu/banks/pages/' + (index + 1), 'https://bank.gov.ua/' + link).finally(() => audit.end('banks/pages/1+')));
         return Promise.all([firstHtml, ...otherHtmlPromises]).then(htmls => {
             const banks = _.flatten(htmls.map(html => regex.findManyObjects(html, /<tr>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<td class="cell".*?>([\S\s]*?)<\/td>\s+?<\/tr>/g, {
                 link: 1,
                 startDate: 4
             })));
-            audit.start('nbu/bank', banks.length);
+            audit.start('bank', banks.length);
             return mapAsync(banks, bank => {
                 const linkInfo = regex.findObject(bank.link.trim(), /<a href=".*?(\d+)">\s*(.+?)\s*<\/a>/, {
                     id: 1,
@@ -62,7 +62,7 @@ function readActiveBanks(audit) {
                     const fullName = extractBankPureNameSPC(html.match(/<td.*?>Назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
                     const shortName = extractBankPureNameSPC(html.match(/<td.*?>Коротка назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
                     assert.equals('Short name mismatch', name, shortName);
-                    audit.end('nbu/bank');
+                    audit.end('bank');
                     return {
                         // id: id, // not used
                         names: _.uniq([name, shortName, fullName]),
@@ -77,7 +77,7 @@ function readActiveBanks(audit) {
 }
 
 function readInactiveBanks(audit) {
-    audit.start('nbu/banks-inactive');
+    audit.start('banks-inactive');
     //TODO: is art_id always the same? consider fetching the link from UI page if possible
     const link = '/control/uk/publish/article?art_id=75535';
     return cache.read('nbu/banks-inactive', 'https://bank.gov.ua' + link).then(html => {
@@ -95,7 +95,7 @@ function readInactiveBanks(audit) {
                 active: false
             };
         });
-    }).finally(() => audit.end('nbu/banks-inactive'));
+    }).finally(() => audit.end('banks-inactive'));
 }
 
 function extractBankPureNameSPC(name) {

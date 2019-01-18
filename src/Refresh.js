@@ -26,21 +26,6 @@ class Refresh extends Component {
         fetch(REFRESH_SERVICE, {method: 'POST'}).then(() => console.log('Refreshing...'));
         // TODO: make result a Promise
         this.checkResult();
-        // TODO: fix PDF parsing issue, save as https://github.com/mozilla/pdf.js/issues/10329
-        // TODO: fix CORS related issue when fetching data directly from external sites without proxy server
-        // urls.download('http://localhost:3333/download/nbu/not-banks/pdf/320779.pdf?url=https://bank.gov.ua/files/Licences_bank/320779.pdf')
-        //     .then(pdf => pdfs.parse(pdf))
-        //     .then(text => console.log(text));
-
-        // urls.download('https://bank.gov.ua/files/Licences_bank/320779.pdf')
-        //     .then(pdf => pdfs.parse(pdf))
-        //     .then(text => console.log(text));
-        // const startTime = new Date();
-        // const source = new Source();
-        // Promise.all([
-        //     source.getBanks().then(banks => console.log(banks)),
-        //     source.getRatings().then(ratings => console.log(ratings))
-        // ]).then(() => console.log('Total time:', new Date() - startTime));
     }
 
     checkResult() {
@@ -49,8 +34,10 @@ class Refresh extends Component {
             .then(result => {
                 if (result.progress) {
                     console.log('In progress...', result.progress);
-                    if (result.progress.left) {
-                        this.setProgress(result.progress.taken / result.progress.total);
+                    if (result.progress.ready) {
+                        const taken = new Date().getTime() - result.progress.start;
+                        const total = result.progress.end - result.progress.start;
+                        this.setProgress(taken / total);
                     }
                     setTimeout(() => this.checkResult(), 100);
                 } else {
