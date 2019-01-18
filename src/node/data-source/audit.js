@@ -17,6 +17,7 @@ class Audit {
         this.print();
     }
 
+    // TODO: introduce .ready() method in conjunction with audit branching to make sure progress starts calculating only after all queries are known and progress is never reduced
     get() {
         let now = new Date().getTime();
         let start = now;
