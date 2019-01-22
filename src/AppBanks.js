@@ -75,7 +75,7 @@ class AppBanks extends Component {
         return (
             <div>
                 {Object.keys(this.state.filter).map(color => (
-                    <span style={{backgroundColor: color, marginRight: 5, padding: 5}}>
+                    <span key={color} style={{backgroundColor: color, marginRight: 5, padding: 5}}>
                         <input
                             type="checkbox"
                             id={'filter-' + color}
@@ -91,7 +91,7 @@ class AppBanks extends Component {
                         <th>Active</th>
                         <th>Site</th>
                         {this.enabledSources().map(source => (
-                            <th><a href={source.href}>{source.title}</a></th>
+                            <th key={source.type}><a href={source.href}>{source.title}</a></th>
                         ))}
                     </tr>
                     {this.state.banks.map(bank => (
@@ -100,12 +100,12 @@ class AppBanks extends Component {
                             <td>{this.allTrue(bank.active) ? 'Yes' : 'No'}</td>
                             {/*TODO: filter out duplicate sites and show source of each site*/}
                             <td>
-                                {_.flatten(Object.values(bank.site) || []).map(site => (
-                                    <p><a href={site}>{this.truncateSite(site)}</a></p>
+                                {_.uniq(_.flatten(Object.values(bank.site) || [])).map(site => (
+                                    <p key={site}><a href={site}>{this.truncateSite(site)}</a></p>
                                 ))}
                             </td>
                             {this.enabledSources().map(source => (
-                                <td style={this.styleForCell(bank, source)}>{bank.name[source.type]}</td>
+                                <td key={source.type} style={this.styleForCell(bank, source)}>{bank.name[source.type]}</td>
                             ))}
                         </tr>
                     ))}

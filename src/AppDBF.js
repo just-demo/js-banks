@@ -34,11 +34,11 @@ class AppDBF extends Component {
             <div>
                 <table className="banks">
                     <tbody>
-                    {this.filter(this.state.banks).map((bank, index) => (
-                        <tr>
-                            <td>{index}</td>
-                            {bank.map(field => (
-                                <td style={{whiteSpace: 'nowrap'}}>{field}</td>
+                    {this.filter(this.state.banks).map((bank, lineIndex) => (
+                        <tr key={lineIndex}>
+                            <td>{lineIndex}</td>
+                            {bank.map((field, cellIndex)  => (
+                                <td key={cellIndex} style={{whiteSpace: 'nowrap'}}>{field}</td>
                             ))}
                         </tr>
                     ))}
