@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import {HashRouter, Link, Route} from 'react-router-dom';
-import AppRatings from "./AppRatings";
-import AppBanks from "./AppBanks";
-import AppDBF from "./AppDBF";
-import AppLogs from "./AppLogs";
-import Refresh from "./Refresh";
+import PageRatings from "./component/page/PageRatings";
+import PageBanks from "./component/page/PageBanks";
+import PageDBF from "./component/page/PageDBF";
+import PageLogs from "./component/page/PageLogs";
+import Refresh from "./component/Refresh";
 
 const App = () => (
     <HashRouter>
@@ -18,10 +18,10 @@ const App = () => (
                 <Refresh/>
             </nav>
             <div>
-                <Route exact path="/" component={AppRatings}/>
-                <Route exact path="/banks" component={AppBanks}/>
-                <Route path="/banks/dbf" component={AppDBF}/>
-                <Route path="/logs" component={AppLogs}/>
+                <Route exact path="/" component={PageRatings}/>
+                <Route exact path="/banks" component={PageBanks}/>
+                <Route path="/banks/dbf" component={PageDBF}/>
+                <Route path="/logs" component={PageLogs}/>
             </div>
         </div>
     </HashRouter>

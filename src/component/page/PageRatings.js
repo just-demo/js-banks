@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
-import './App.css';
-import './AppRatings.css';
+import '../../App.css';
+import './PageRatings.css';
 import _ from 'lodash';
 import 'bootstrap/dist/css/bootstrap.css'
-import Scale from './Scale';
-import test from './test';
+import Scale from '../Scale';
 import classNames from 'classnames';
-import Bank from './Bank';
+import Bank from '../Bank';
 
-class AppRatings extends Component {
+class PageRatings extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -28,8 +27,6 @@ class AppRatings extends Component {
         fetch('/minfin-ratings.json')
             .then(ratings => ratings.json())
             .then(ratings => this.setState({ratings: ratings}));
-
-        console.log(test.testNode());
     }
 
     render() {
@@ -202,4 +199,4 @@ class AppRatings extends Component {
     }
 }
 
-export default AppRatings;
+export default PageRatings;

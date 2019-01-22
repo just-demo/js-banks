@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import './App.css';
-import './AppLogs.css';
+import '../../App.css';
+import './PageLogs.css';
 import _ from 'lodash';
-import logs from './node/logs';
+import logs from '../../node/logs';
 import classNames from 'classnames';
 
-class AppLogs extends Component {
+class PageLogs extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -82,4 +82,4 @@ class AppLogs extends Component {
     }
 }
 
-export default AppLogs;
+export default PageLogs;

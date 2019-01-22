@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import './App.css';
+import '../../App.css';
 import _ from 'lodash';
 import 'bootstrap/dist/css/bootstrap.css'
 
-class AppBanks extends Component {
+class PageBanks extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -157,4 +157,4 @@ class AppBanks extends Component {
     }
 }
 
-export default AppBanks;
+export default PageBanks;

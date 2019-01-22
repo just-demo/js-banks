@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './App.css';
+import '../../App.css';
 
-class AppDBF extends Component {
+class PageDBF extends Component {
     constructor(props) {
         super(props);
         this.state = {banks: []};
@@ -55,4 +55,4 @@ class AppDBF extends Component {
     }
 }
 
-export default AppDBF;
+export default PageDBF;
