@@ -3625,23 +3625,18 @@
   {
     "id": "КЛАСИКБАНК",
     "name": {
-      "api": "КЛАСИКБАНК",
       "nbu": "КЛАСИКБАНК",
       "pdf": "КЛАСИКБАНК",
       "fund": "КЛАСИКБАНК",
       "minfin": "КЛАСИКБАНК"
     },
     "active": {
-      "api": false,
       "nbu": false,
       "pdf": false,
       "fund": false
     },
-    "dateOpen": {
-      "api": "1995-10-06"
-    },
+    "dateOpen": {},
     "dateIssue": {
-      "api": "2016-08-11",
       "nbu": "2016-06-14",
       "pdf": "2016-08-11"
     },
@@ -4158,7 +4153,7 @@
         "http://www.kredobank.com.ua"
       ],
       "minfin": [
-        "http://www.kredobank.com.ua/"
+        "https://kredobank.com.ua/"
       ]
     },
     "internal": {
@@ -8558,8 +8553,7 @@
     "dateIssue": {
       "api": "2017-04-27",
       "nbu": "2017-04-07",
-      "pdf": "2017-04-27",
-      "fund": "2017-04-10"
+      "pdf": "2017-04-27"
     },
     "site": {
       "minfin": [
@@ -8573,7 +8567,7 @@
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
         "pdf": "https://bank.gov.ua/files/Licences_bank/328685.pdf",
-        "fund": "/not-paying/liquidation/202-pat-finbank",
+        "fund": "/not-paying/banky-likvidovani-fondom/202-pat-finbank",
         "minfin": "https://minfin.com.ua/ua/company/finbank"
       }
     }
