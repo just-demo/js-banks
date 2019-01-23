@@ -8,6 +8,7 @@ class Scale extends Component {
         }
     }
 
+    // TODO: change -+ to 1 - 2 - 5 - 10 - 100 transition and instead of free form input make a dropdown
     render() {
         return (
             <div>
