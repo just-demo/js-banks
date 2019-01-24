@@ -74,13 +74,12 @@ class PageRatings extends Component {
                 <table className="ratings">
                     <tbody>
                     <tr>
-                        <th>&nbsp;</th>
+                        <th rowSpan={2}>&nbsp;</th>
                         {Object.keys(datesByYear).sort().reverse().map(year => (
                             <th key={year} colSpan={datesByYear[year].length}>{year}</th>
                         ))}
                     </tr>
                     <tr>
-                        <th>&nbsp;</th>
                         {this.dates.map(date => (
                             <th key={date}>{this.formatDayMonth(date)}</th>
                         ))}

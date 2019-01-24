@@ -17,7 +17,7 @@ import _ from 'lodash';
 class ToolBar extends Component {
     constructor(props) {
         super(props);
-        this.state = {access: 0};
+        this.state = {access: 1};
         this.links = [{
             path: '/',
             title: 'Рейтинги',

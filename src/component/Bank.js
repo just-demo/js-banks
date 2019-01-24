@@ -35,8 +35,6 @@ class Bank extends Component {
 
     render() {
         const bank = this.props.data;
-
-        // TODO: show links to problems and start dates
         return (
             <table className="bank">
                 <tbody>
