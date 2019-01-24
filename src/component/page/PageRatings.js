@@ -66,10 +66,11 @@ class PageRatings extends Component {
         }).reverse();
 
         const datesByYear = _.groupBy(this.dates, date => date.split('-')[0]);
-        console.log(datesByYear);
         const r = (
             <div>
-                <Scale value={this.state.scale} min={1} max={100} onChange={(scale) => this.setState({scale: scale})}/>
+                <div style={{flexGrow: 1, textAlign: 'center'}}>
+                    <Scale value={this.state.scale} values={[1, 2, 5, 10, 100]} onChange={(scale) => this.setState({scale: scale})}/>
+                </div>
                 <table className="ratings">
                     <tbody>
                     <tr>

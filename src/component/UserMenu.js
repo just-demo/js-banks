@@ -6,7 +6,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 function UserMenu(props) {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const [userSelected, setUserSelected] = React.useState(props.selected);
-    const users = ['Звичайний', 'Питливий'];
+    const users = ['Користувач', 'Нишпора'];
 
     function handleClick(event) {
         setAnchorEl(event.currentTarget);
@@ -30,7 +30,7 @@ function UserMenu(props) {
                 aria-haspopup="true"
                 onClick={handleClick}
             >
-                {users[userSelected]} користувач
+                {users[userSelected]}
             </Button>
             <Menu id="simple-menu" anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
                 {users.map((user, index) => (

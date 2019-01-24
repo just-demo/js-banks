@@ -2,3 +2,7 @@ th, td {
   border: 1px solid #aaa;
   white-space: nowrap;
 }
+
+.selectedLink {
+  text-decoration: underline;
+}

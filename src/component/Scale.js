@@ -1,56 +1,51 @@
 import React, {Component} from 'react';
+import _ from 'lodash';
+import FormControl from "@material-ui/core/FormControl";
+import Select from "@material-ui/core/Select";
+import MenuItem from "@material-ui/core/MenuItem";
 
 class Scale extends Component {
     constructor(props) {
         super(props);
+        this.min = _.min(this.props.values);
+        this.max = _.max(this.props.values);
         this.state = {
             value: this.props.value
         }
     }
 
-    // TODO: change -+ to 1 - 2 - 5 - 10 - 100 transition and instead of free form input make a dropdown
     render() {
         return (
             <div>
-                <button onClick={() => this.handleScaleDown()}>-</button>
-                <input value={this.state.value} onChange={(event) => this.handleScaleType(event)}/>x
-                <button onClick={() => this.handleScaleUp()}>+</button>
-                <button onClick={() => this.setValue(1)}>1x</button>
-                <button onClick={() => this.setValue(2)}>2x</button>
-                <button onClick={() => this.setValue(5)}>5x</button>
-                <button onClick={() => this.setValue(10)}>10x</button>
-                <button onClick={() => this.setValue(100)}>100x</button>
+                <button style={{margin: 5, width: 35, height: 35, fontSize: 20}} onClick={this.handleScaleDown}>-</button>
+                <FormControl variant="outlined" style={{marginTop: 5}}>
+                    <Select value={this.state.value} onChange={this.handleScaleSelect}
+                            MenuProps={{PaperProps: {style: {maxHeight: 300}}}}>
+                        {_.range(this.min, this.max + 1).map(value => (
+                            <MenuItem key={value} value={value}>{value}</MenuItem>
+                        ))}
+                    </Select>
+                </FormControl>
+                <button style={{margin: 5, width: 35, height: 35, fontSize: 20}} onClick={this.handleScaleUp}>+</button>
             </div>
         );
     }
 
-    handleScaleDown() {
-        this.handleScale((current, step) => current - step);
-    }
+    handleScaleDown = () => {
+        this.setValue(_.max(this.props.values.filter(value => value < this.state.value)) || this.min);
+    };
 
-    handleScaleUp() {
-        this.handleScale((current, step) => current + step);
-    }
+    handleScaleUp = () => {
+        this.setValue(_.min(this.props.values.filter(value => value > this.state.value)) || this.max);
+    };
 
-    handleScaleType(event) {
-        this.setValue(parseInt(event.target.value) || 0);
-    }
-
-    handleScale(strategy) {
-        const current = this.props.value;
-        const step = this.getStep(current);
-        this.setValue(Math.round(strategy(current, step) / (step / 10)) * (step / 10));
-    }
+    handleScaleSelect = event => {
+        this.setValue(parseInt(event.target.value));
+    };
 
     setValue(value) {
-        value = Math.max(this.props.min, Math.min(this.props.max, value));
         this.setState({value: value});
         this.props.onChange(value);
-    }
-
-    getStep(value) {
-        const round = value > 100 ? Math.floor : Math.ceil;
-        return Math.max(1, Math.pow(10, round(Math.log10(Math.max(1, value)))) / 10);
     }
 }
 
