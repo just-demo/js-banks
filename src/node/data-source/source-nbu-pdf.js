@@ -1,4 +1,5 @@
 import _ from 'lodash';
+import promiseRetry from 'promise-retry';
 import names from '../names';
 import cache from '../cache';
 import dates from '../dates';
@@ -35,7 +36,14 @@ class SourceNbuPDF {
                 const textFile = 'nbu/not-banks/text/' + file.split('.')[0] + '.txt';
                 // TODO: remove this temporary optimization and inline process function when there only one usage left
                 return cache.calc(textFile, () => null)
-                    .then(text => text || cache.download('nbu/not-banks/pdf/' + file, url).then(pdf => cache.calc(textFile, () => pdfs.parse(pdf))))
+                    .then(text => text ||
+                        promiseRetry( (retry, number) => {
+                            const cacheFile = 'nbu/not-banks/pdf/' + file;
+                            return Promise.resolve(number > 1 && cache.deleteDownload(cacheFile))
+                                .then(() => cache.download(cacheFile, url))
+                                .then(pdf => cache.calc(textFile, () => pdfs.parse(pdf)))
+                                .catch(retry);
+                        }))
                     .then(text => {
                         const bank = regex.findObject(text, /^(.+?)Назва банку(.*?Дата відкликання(\d{2}\.\d{2}\.\d{4}))?/g, {
                             name: 1, problem: 3

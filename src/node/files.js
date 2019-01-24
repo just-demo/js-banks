@@ -41,5 +41,13 @@ export default {
                 resolve(exists)
             )
         );
+    },
+
+    delete(file) {
+        return new Promise(resolve =>
+            fs.unlink(file, () =>
+                resolve(true)
+            )
+        );
     }
 };

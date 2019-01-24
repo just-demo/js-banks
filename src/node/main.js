@@ -17,7 +17,7 @@ Promise.all([
     source.getBanks().then(banks => files.writeJson('../../public/banks.json', banks)),
     source.getRatings().then(ratings => files.writeJson('../../public/minfin-ratings.json', ratings))
 ]).then(() => console.log('Total time:', new Date() - startTime));
-printProgress();
+//printProgress();
 
 function printProgress() {
     if (audit.ready()) {

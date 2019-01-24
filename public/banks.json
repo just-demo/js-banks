@@ -2326,12 +2326,14 @@
     "id": "ВТБ",
     "name": {
       "api": "ВТБ",
+      "nbu": "ВТБ",
       "pdf": "ВТБ",
       "fund": "ВТБ",
       "minfin": "ВТБ"
     },
     "active": {
       "api": false,
+      "nbu": false,
       "pdf": false,
       "fund": false
     },
@@ -2340,6 +2342,7 @@
     },
     "dateIssue": {
       "api": "2018-12-18",
+      "nbu": "2018-11-27",
       "pdf": "2018-12-18",
       "fund": "2018-11-28"
     },
@@ -2353,6 +2356,7 @@
         "minfin": 81
       },
       "link": {
+        "nbu": "/control/uk/publish/article?art_id=75535",
         "pdf": "https://bank.gov.ua/files/Licences_bank/321767.pdf",
         "fund": "/not-paying/liquidation/234-at-vtb-bank",
         "minfin": "https://minfin.com.ua/ua/company/vtb-bank"
@@ -6158,11 +6162,15 @@
     "id": "ПРОФІН",
     "name": {
       "api": "ПРОФІН",
+      "nbu": "ПРОФІН",
+      "pdf": "ПРОФІН",
       "fund": "ПРОФІН",
       "minfin": "ПРОФІН"
     },
     "active": {
       "api": false,
+      "nbu": false,
+      "pdf": false,
       "fund": false
     },
     "dateOpen": {
@@ -6170,6 +6178,8 @@
     },
     "dateIssue": {
       "api": "2015-04-15",
+      "nbu": "2015-01-19",
+      "pdf": "2015-04-15",
       "fund": "2015-01-20"
     },
     "site": {
@@ -6182,32 +6192,10 @@
         "minfin": 91
       },
       "link": {
+        "nbu": "/control/uk/publish/article?art_id=75535",
+        "pdf": "https://bank.gov.ua/files/Licences_bank/334594.pdf",
         "fund": "/not-paying/liquidation/94-profin-bank",
         "minfin": "https://minfin.com.ua/ua/company/profin-bank"
-      }
-    }
-  },
-  {
-    "id": "ПРОФЕСІЙНОГО ФІНАНСУВАННЯ",
-    "name": {
-      "nbu": "ПРОФЕСІЙНОГО ФІНАНСУВАННЯ",
-      "pdf": "ПРОФЕСІЙНОГО ФІНАНСУВАННЯ"
-    },
-    "active": {
-      "nbu": false,
-      "pdf": false
-    },
-    "dateOpen": {},
-    "dateIssue": {
-      "nbu": "2015-01-19",
-      "pdf": "2015-04-15"
-    },
-    "site": {},
-    "internal": {
-      "id": {},
-      "link": {
-        "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/334594.pdf"
       }
     }
   },

@@ -15,6 +15,7 @@
     "lodash": "^4.17.11",
     "moment": "^2.23.0",
     "pdfjs-dist": "^2.0.943",
+    "promise-retry": "^1.1.1",
     "prop-types": "^15.6.2",
     "react": "16.8.0-alpha.1",
     "react-bootstrap": "^0.32.4",

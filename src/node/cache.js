@@ -29,6 +29,16 @@ const nodeCache = {
         );
     },
 
+    deleteRead(file) {
+        file = '../../data/html/' + file + '.html';
+        return files.exists(file).then(exists => exists && perform('DELETE', file, () => files.delete(file)));
+    },
+
+    deleteDownload(file) {
+        file = '../../data/binary/' + file;
+        return files.exists(file).then(exists => exists && perform('DELETE', file, () => files.delete(file)));
+    },
+
     calc(cache, operation) {
         const file = '../../data/calc/' + cache;
         return files.exists(file).then(exists =>

@@ -1,10 +1,12 @@
 import _ from 'lodash';
+import promiseRetry from 'promise-retry';
 import names from '../names';
 import cache from '../cache';
 import dates from '../dates';
 import assert from '../assert';
 import regex from '../regex';
 import mapAsync from '../map-async';
+import pdfs from "../pdfs";
 
 class SourceNbuUI {
     constructor(audit) {
@@ -58,7 +60,18 @@ function readActiveBanks(audit) {
                 const id = parseInt(linkInfo.id);
                 const link = '/control/uk/bankdict/bank?id=' + id;
                 const name = extractBankPureNameSPC(linkInfo.name);
-                return cache.read('nbu/banks/' + id, 'https://bank.gov.ua' + link).then(html => {
+                return promiseRetry( (retry, number) => {
+                    const cacheFile = 'nbu/banks/' + id;
+                    return Promise.resolve(number > 1 && cache.deleteRead(cacheFile))
+                        .then(() => cache.read(cacheFile, 'https://bank.gov.ua' + link))
+                        .then(html => {
+                            if (html.includes('<head><title>503 Service Temporarily Unavailable</title></head>')) {
+                                throw 'Error response: 503';
+                            }
+                            return html;
+                        })
+                        .catch(retry);
+                }).then(html => {
                     const fullName = extractBankPureNameSPC(html.match(/<td.*?>Назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
                     const shortName = extractBankPureNameSPC(html.match(/<td.*?>Коротка назва<\/td>\s*?<td.*?>(.+?)<\/td>/)[1]);
                     assert.equals('Short name mismatch', name, shortName);
