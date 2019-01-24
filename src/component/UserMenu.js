@@ -6,7 +6,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 function UserMenu(props) {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const [userSelected, setUserSelected] = React.useState(props.selected);
-    const users = ['Користувач', 'Нишпора'];
+    const users = ['Користувач', 'Розробник'];
 
     function handleClick(event) {
         setAnchorEl(event.currentTarget);

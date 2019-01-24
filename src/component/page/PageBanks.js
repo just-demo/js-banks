@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import '../../App.css';
 import _ from 'lodash';
 import 'bootstrap/dist/css/bootstrap.css'
+import Done from '@material-ui/icons/Done'
+import Clear from '@material-ui/icons/Clear'
 
 class PageBanks extends Component {
     constructor(props) {
@@ -10,9 +12,8 @@ class PageBanks extends Component {
             filter: {
                 green: true,
                 blue: true,
-                // red: true,
-                pink: true,
                 deeppink: true,
+                red: true,
                 orange: true,
                 yellow: true,
                 brown: true
@@ -23,37 +24,31 @@ class PageBanks extends Component {
         this.sources = [
             {
                 type: 'pdf',
-                title: 'NBU PDF',
+                title: 'НБУ PDF',
                 href: 'https://bank.gov.ua/control/uk/publish/article?art_id=52047',
                 color: 'deeppink',
             },
-            // {
-            //     type: 'dbf',
-            //     title: 'RCUCRU.dbf',
-            //     href: 'https://bank.gov.ua/control/uk/bankdict/search',
-            //     color: 'red',
-            // },
             {
                 type: 'api',
-                title: 'NBU API',
+                title: 'НБУ API',
                 href: 'https://bank.gov.ua/control/uk/publish/article?art_id=38441973&cat_id=38459171#get_data_branch',
-                color: 'pink',
+                color: 'red',
             },
             {
                 type: 'nbu',
-                title: 'bank.gov.ua',
+                title: 'НБУ',
                 href: 'https://bank.gov.ua',
                 color: 'orange',
             },
             {
                 type: 'fund',
-                title: 'www.fg.gov.ua',
+                title: 'ФГВФО',
                 href: 'http://www.fg.gov.ua',
                 color: 'yellow',
             },
             {
                 type: 'minfin',
-                title: 'minfin.com.ua',
+                title: 'Міфін',
                 href: 'https://minfin.com.ua',
                 color: 'brown',
             }
@@ -71,9 +66,15 @@ class PageBanks extends Component {
     }
 
     render() {
+        const filterNames = {
+            green: 'Повний збіг',
+            blue: 'Неоднозначність',
+        };
+        this.sources.forEach(source => filterNames[source.color] = source.title);
         //TODO: make filter component reusable?
         return (
             <div>
+                <div style={{padding: 10}}>
                 {Object.keys(this.state.filter).map(color => (
                     <span key={color} style={{backgroundColor: color, marginRight: 5, padding: 5}}>
                         <input
@@ -82,14 +83,15 @@ class PageBanks extends Component {
                             checked={this.state.filter[color]}
                             onChange={() => this.handleFilterChange(color)}
                         />
-                        <label htmlFor={'filter-' + color}>{color}</label>
+                        <label htmlFor={'filter-' + color}>{filterNames[color]}</label>
                     </span>
                 ))}
+                </div>
                 <table className="banks">
                     <tbody>
                     <tr>
-                        <th>Active</th>
-                        <th>Site</th>
+                        <th>&nbsp;</th>
+                        <th>Сайт</th>
                         {this.enabledSources().map(source => (
                             <th key={source.type}><a href={source.href}>{source.title}</a></th>
                         ))}
@@ -97,7 +99,7 @@ class PageBanks extends Component {
                     {this.state.banks.map(bank => (
                         <tr key={bank.id} style={this.styleForRow(bank)}>
                             {/*TODO: style for active if there is a mismatch*/}
-                            <td>{this.allTrue(bank.active) ? 'Yes' : 'No'}</td>
+                            <td style={{textAlign: 'center'}}>{this.allTrue(bank.active) ? <Done/> : <Clear/>}</td>
                             {/*TODO: filter out duplicate sites and show source of each site*/}
                             <td>
                                 {_.uniq(_.flatten(Object.values(bank.site) || [])).map(site => (
@@ -105,7 +107,13 @@ class PageBanks extends Component {
                                 ))}
                             </td>
                             {this.enabledSources().map(source => (
-                                <td key={source.type} style={this.styleForCell(bank, source)}>{bank.name[source.type]}</td>
+                                <td
+                                    key={source.type}
+                                    style={this.styleForCell(bank, source)}
+                                    title={this.ifExceeds(bank.name[source.type], 20)}
+                                >
+                                {this.truncate(bank.name[source.type], 20)}
+                                </td>
                             ))}
                         </tr>
                     ))}
@@ -113,6 +121,14 @@ class PageBanks extends Component {
                 </table>
             </div>
         );
+    }
+
+    truncate(str, length) {
+        return str && str.length > length ? str.substring(0, length - 3) + '...' : str;
+    }
+
+    ifExceeds(str, length) {
+        return str && str.length > length ? str : null;
     }
 
     truncateSite(site) {
