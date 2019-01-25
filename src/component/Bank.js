@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './Bank.css';
 import _ from 'lodash';
 import classNames from 'classnames';
+import urls from '../node/urls'
 
 class Bank extends Component {
     // TODO: share link with code that fetches data
@@ -66,12 +67,8 @@ class Bank extends Component {
     }
 
     buildLink(url, title) {
-        title = title || this.truncateUrl(url);
-        return <a key={url} href={url} target="_blank" rel="noopener noreferrer">{title}</a> ;
-    }
-
-    truncateUrl(url) {
-        return (url.match(/\/\/([^/]+)/) || [])[1] || url;
+        title = title || urls.getHost(url);
+        return <a key={url} href={url} target="_blank" rel="noopener noreferrer">{title}</a>;
     }
 }
 

@@ -13,6 +13,7 @@ import UserMenu from "./UserMenu";
 import PageRefresh from "./page/PageRefresh";
 import classNames from 'classnames';
 import _ from 'lodash';
+import urls from '../node/urls'
 
 class ToolBar extends Component {
     constructor(props) {
@@ -69,6 +70,15 @@ class ToolBar extends Component {
                         <UserMenu selected={this.state.access} onSelect={this.handleAccessChange}/>
                     </Toolbar>
                 </AppBar>
+                <div style={{flexGrow: 1, backgroundColor: 'pink', fontSize: 13}}>
+                    <div>
+                        Вся інформація зібрана з відкритих джерел: {
+                            ["https://wwww.bank.gov.ua", "http://www.fg.gov.ua", "https://www.minfin.com.ua"]
+                                .map(url => <a key={url} href={url} target="_blank" rel="noopener noreferrer">{urls.getHost(url)}</a>)
+                                .map((link, index) => index > 0 ? [<span>, </span>, link] : link)
+                        }. Щодо політики копіювання і розміщення информації на інших сайтах звертайтесь до першоджерел.
+                    </div>
+                </div>
                 <Route exact path="/" component={PageRatings}/>
                 <Route exact path="/banks" component={PageBanks}/>
                 <Route path="/banks/dbf" component={PageDBF}/>
