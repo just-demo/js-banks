@@ -115,9 +115,9 @@ class PageBanks extends Component {
                                 <td
                                     key={source.type}
                                     style={this.styleForCell(bank, source)}
-                                    title={this.ifExceeds(bank.name[source.type], 20)}
+                                    title={this.ifExceeds(bank.name[source.type], 30)}
                                 >
-                                {this.truncate(bank.name[source.type], 20)}
+                                {this.truncate(bank.name[source.type], 30)}
                                 </td>
                             ))}
                         </tr>
