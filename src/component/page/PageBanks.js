@@ -108,7 +108,7 @@ class PageBanks extends Component {
                             {/*TODO: filter out duplicate sites and show source of each site*/}
                             <td>
                                 {_.uniq(_.flatten(Object.values(bank.site) || [])).map(site => (
-                                    <p key={site}><a href={site}>{this.truncateSite(site)}</a></p>
+                                    <p key={site}><a href={site} style={{color: 'black'}}>{this.truncateSite(site)}</a></p>
                                 ))}
                             </td>
                             {this.enabledSources().map(source => (

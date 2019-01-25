@@ -99,8 +99,10 @@ class PageRatings extends Component {
                             </tr>
                             {bankId === this.state.bankSelected && (
                                 <tr className="details">
-                                    {/*<td>&nbsp;</td>*/}
-                                    <td colSpan={this.dates.length + 1}><Bank data={this.state.banks[this.banks[bankId].index]}/></td>
+                                    <td>{_.uniq(_.flatten(Object.values(this.state.banks[this.banks[bankId].index].names))).map(name => (
+                                        <div title={this.ifExceeds(name, 23)}>{this.truncate(name, 23)}</div>
+                                    ))}</td>
+                                    <td colSpan={this.dates.length}><Bank data={this.state.banks[this.banks[bankId].index]}/></td>
                                 </tr>
                             )}
                         </React.Fragment>

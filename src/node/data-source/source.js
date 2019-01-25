@@ -59,6 +59,7 @@ function combineBanks(allBanks) {
             id: id,
             // TODO: collect 'names' field somehow as well, then rename 'id' field to 'name'
             name: {},
+            names: {},
             active: {},
             dateOpen: {},
             dateIssue: {},
@@ -71,6 +72,7 @@ function combineBanks(allBanks) {
         _.forOwn(bankMap, (typeBanks, type) => {
             const typeBank = typeBanks[id] || {};
             bank.name[type] = typeBank.name;
+            bank.names[type] = typeBank.names;
             bank.active[type] = typeBank.active;
             // TODO: make field names consistent
             bank.dateOpen[type] = typeBank.start;
