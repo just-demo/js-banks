@@ -11,13 +11,14 @@ class PageBanks extends Component {
         this.state = {
             filter: {
                 green: true,
-                blue: true,
+                royalblue: true,
                 deeppink: true,
                 red: true,
                 orange: true,
                 yellow: true,
                 brown: true
             },
+            filterActive: false,
             banks: []
         };
 
@@ -65,10 +66,14 @@ class PageBanks extends Component {
         this.setState({filter});
     }
 
+    handleFilterActiveChange = event => {
+        this.setState({filterActive: event.target.checked})
+    };
+
     render() {
         const filterNames = {
             green: 'Повний збіг',
-            blue: 'Неоднозначність',
+            royalblue: 'Неоднозначність',
         };
         this.sources.forEach(source => filterNames[source.color] = source.title);
         //TODO: make filter component reusable?
@@ -90,13 +95,13 @@ class PageBanks extends Component {
                 <table className="banks">
                     <tbody>
                     <tr>
-                        <th>&nbsp;</th>
+                        <th><input type="checkbox" checked={this.state.filterActive} onChange={this.handleFilterActiveChange}/></th>
                         <th>Сайт</th>
                         {this.enabledSources().map(source => (
                             <th key={source.type}><a href={source.href}>{source.title}</a></th>
                         ))}
                     </tr>
-                    {this.state.banks.map(bank => (
+                    {this.state.banks.filter(bank => !this.state.filterActive || this.allTrue(bank.active)).map(bank => (
                         <tr key={bank.id} style={this.styleForRow(bank)}>
                             {/*TODO: style for active if there is a mismatch*/}
                             <td style={{textAlign: 'center'}}>{this.allTrue(bank.active) ? <Done/> : <Clear/>}</td>
@@ -148,19 +153,17 @@ class PageBanks extends Component {
         const enabledSources = this.enabledSources();
         const allNames = enabledSources.length;
         const populatedNames = enabledSources.filter(source => bank.name[source.type]).length;
-        const color = populatedNames === allNames || !populatedNames ? 'green' :
-            (populatedNames === 1 && bank.name[currentSource.type]) || (populatedNames === allNames - 1 && !bank.name[currentSource.type]) ? currentSource.color :
-                (populatedNames === 1 || populatedNames === allNames - 1) ? 'white' : 'blue';
-        return {
-            backgroundColor: color
-        };
+        return (populatedNames === 1 && bank.name[currentSource.type]) || (populatedNames === allNames - 1 && !bank.name[currentSource.type]) ? {
+            backgroundColor: currentSource.color
+        } : {};
     }
 
     styleForRow(bank) {
         const enabledSources = this.enabledSources();
         const allNames = enabledSources.length;
         const populatedNames = enabledSources.filter(source => bank.name[source.type]).length;
-        const color = populatedNames === allNames || !populatedNames ? 'green' : 'white';
+        const color = populatedNames === allNames || !populatedNames ? 'green' :
+            populatedNames === 1 || populatedNames === allNames - 1 ? 'white' : 'royalblue';
         const style = {
             backgroundColor: color
         };
