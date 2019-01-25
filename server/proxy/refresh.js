@@ -31,6 +31,6 @@ function refresh(restart) {
     }
 
     return result ? result : {
-        progress: {ready: audit.ready(), ...audit.progress()}
+        progress: {ready: audit.ready(), now: new Date().getTime(),...audit.progress()}
     };
 }

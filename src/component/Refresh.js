@@ -6,16 +6,46 @@ class Refresh extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            progress: 0
+            progress: 0,
+            error: false
         };
     }
 
     render() {
         return (
-            <div style={{margin: 5, marginLeft: 20}}>
-                <button onClick={() => this.handleRefresh()}>Refresh</button>
-                <div style={{width: 300, border: '1px solid black', display: 'inline-block', marginLeft: 20}}>
-                    <div style={{width: this.state.progress + '%', backgroundColor: 'skyblue'}}>{this.state.progress}%</div>
+            <div>
+                <div style={{margin: 10, marginLeft: 20}}>
+                    <button onClick={() => this.handleRefresh()}>Старт</button>
+                    <div style={{
+                        width: 300,
+                        height: 25,
+                        border: '1px solid black',
+                        display: 'inline-block',
+                        margin: 5,
+                        marginLeft: 20,
+                        position: 'relative',
+                        textAlign: 'center'
+                    }}>
+                        {this.state.progress}%
+                        <div style={{
+                            width: this.state.progress + '%',
+                            height: '100%',
+                            backgroundColor: 'skyblue',
+                            position: 'absolute',
+                            top: 0,
+                            left: 0,
+                            zIndex: -1
+                        }}>&nbsp;</div>
+                    </div>
+                    <div style={{
+                        display: 'inline-block',
+                        margin: 5,
+                        marginLeft: 20,
+                        textAlign: 'center'
+                    }}>{this.formatTime(this.state.taken)}</div>
+                </div>
+                <div style={{color: 'red', marginLeft: 20}}>
+                    {this.state.error && 'Сервіс тимчасово недоступний'}
                 </div>
             </div>
         );
@@ -23,21 +53,26 @@ class Refresh extends Component {
 
     handleRefresh() {
         this.setProgress(0);
-        fetch(REFRESH_SERVICE, {method: 'POST'}).then(() => console.log('Refreshing...'));
-        // TODO: make result a Promise
-        this.checkResult();
+        fetch(REFRESH_SERVICE, {method: 'POST'})
+            .then(() => {
+                console.log('Refreshing...');
+                this.setState({error: false})
+                // TODO: make result a Promise?
+                this.checkResult();
+            })
+            .catch(() => this.setState({error: true}));
     }
 
     checkResult() {
-        fetch('http://localhost:3333')
+        fetch(REFRESH_SERVICE)
             .then(result => result.json())
             .then(result => {
                 if (result.progress) {
                     console.log('In progress...', result.progress);
                     if (result.progress.ready) {
-                        const taken = new Date().getTime() - result.progress.start;
+                        const taken = result.progress.now - result.progress.start;
                         const total = result.progress.end - result.progress.start;
-                        this.setProgress(taken / total);
+                        this.setProgress(taken / total, taken);
                     }
                     setTimeout(() => this.checkResult(), 100);
                 } else {
@@ -47,8 +82,15 @@ class Refresh extends Component {
             });
     }
 
-    setProgress(progress) {
-        this.setState({progress: Math.round(progress * 100)});
+    setProgress(progress, taken) {
+        this.setState({
+            progress: Math.min(Math.round(progress * 100), progress < 1 ? 99 : 100),
+            taken: taken || this.state.taken
+        });
+    }
+
+    formatTime(time) {
+        return time && new Date(time).toISOString().substr(11, 8);
     }
 }
 
