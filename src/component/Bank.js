@@ -39,10 +39,10 @@ class Bank extends Component {
             <table className="bank">
                 <tbody>
                 <tr>
-                    <td>Source</td>
-                    <td>Start</td>
-                    <td>Problem</td>
-                    <td>Site</td>
+                    <td>Лжерело</td>
+                    <td>Початок</td>
+                    <td>Подія</td>
+                    <td>Сайт</td>
                 </tr>
                 {Object.keys(this.source).map(type => (
                     <tr key={type}>

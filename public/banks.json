@@ -3306,12 +3306,16 @@
     "id": "ВТБ",
     "name": {
       "api": "ВТБ",
+      "nbu": "ВТБ",
       "pdf": "ВТБ",
       "fund": "ВТБ",
       "minfin": "ВТБ"
     },
     "names": {
       "api": [
+        "ВТБ"
+      ],
+      "nbu": [
         "ВТБ"
       ],
       "pdf": [
@@ -3328,6 +3332,7 @@
     },
     "active": {
       "api": false,
+      "nbu": false,
       "pdf": false,
       "fund": false
     },
@@ -3336,6 +3341,7 @@
     },
     "dateIssue": {
       "api": "2018-12-18",
+      "nbu": "2018-11-27",
       "pdf": "2018-12-18",
       "fund": "2018-11-28"
     },
@@ -3349,6 +3355,7 @@
         "minfin": 81
       },
       "link": {
+        "nbu": "/control/uk/publish/article?art_id=75535",
         "pdf": "https://bank.gov.ua/files/Licences_bank/321767.pdf",
         "fund": "/not-paying/liquidation/234-at-vtb-bank",
         "minfin": "https://minfin.com.ua/ua/company/vtb-bank"
@@ -12178,7 +12185,7 @@
       "api": "1993-12-24"
     },
     "dateIssue": {
-      "api": "2017-04-27",
+      "api": "2019-01-23",
       "nbu": "2017-04-07",
       "pdf": "2017-04-27"
     },

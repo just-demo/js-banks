@@ -21,13 +21,13 @@ class PageLogs extends Component {
         return '/logs/' + file;
     }
 
-    tryLog(suffix) {
-        const file = `log${suffix}.txt`;
+    tryLog(number) {
+        const file = number + '.txt';
         return fetch(this.logPath(file), {method: 'HEAD'}).then(response => {
             if (response.status !== 404) {
                 this.setState({files: [...this.state.files, file]});
-                if (suffix < 10) {
-                    return this.tryLog(suffix + 1);
+                if (number < 10) {
+                    return this.tryLog(number + 1);
                 }
             }
         });
@@ -58,7 +58,7 @@ class PageLogs extends Component {
                         ))}
                     </Tabs>
                 </AppBar>
-                <div style={{padding: 10}}>Total time: {this.formatTime(totalTime)}</div>
+                <div style={{padding: 10}}>Загальний час: {this.formatTime(totalTime)}</div>
                 <table className="request">
                     <tbody>
                     {this.state.requests.map((request, index) => (
