@@ -3,7 +3,3 @@ th, td {
   white-space: nowrap;
   font-size: 12px;
 }
-
-.selectedLink {
-  text-decoration: underline;
-}

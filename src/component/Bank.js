@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './Bank.css';
 import _ from 'lodash';
 import classNames from 'classnames';
-import urls from '../node/urls'
+import ExternalLink from "./ExternalLink";
 
 class Bank extends Component {
     // TODO: share link with code that fetches data
@@ -43,7 +43,7 @@ class Bank extends Component {
                 </tr>
                 {Object.keys(this.source).map(type => (
                     <tr key={type}>
-                        <td>{this.buildLink(this.source[type].link(bank.internal.link[type]), this.source[type].name)}</td>
+                        <td><ExternalLink url={this.source[type].link(bank.internal.link[type])} title={this.source[type].name}/></td>
                         <td>{bank.dateOpen[type] || '-'}</td>
                         <td>{bank.dateIssue[type] || '-'}</td>
                         <td className={classNames({site: !_.isEmpty(bank.site[type])})}>{this.buildLinks(bank.site[type]) || '-'}</td>
@@ -57,14 +57,9 @@ class Bank extends Component {
     buildLinks(urls) {
         let links = urls && urls
             .filter(url => url)
-            .map(url => this.buildLink(url))
+            .map(url => <ExternalLink url={url}/>)
             .map((link, index) => index > 0 ? [<br key={index}/>, link] : link);
         return _.isEmpty(links) ? null : links;
-    }
-
-    buildLink(url, title) {
-        title = title || urls.getHost(url);
-        return <a key={url} href={url} target="_blank" rel="noopener noreferrer">{title}</a>;
     }
 }
 

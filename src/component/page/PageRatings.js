@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import Scale from '../Scale';
 import classNames from 'classnames';
 import Bank from '../Bank';
+import Utils from "../Utils";
 
 class PageRatings extends Component {
     constructor(props) {
@@ -94,8 +95,8 @@ class PageRatings extends Component {
                     {bankIds.map(bankId => (
                         <React.Fragment key={bankId}>
                             <tr onClick={() => this.handleBankSelected(bankId)}>
-                                <td title={this.ifExceeds(this.banks[bankId].name, 30)}><a
-                                    href={this.banks[bankId].link}>{this.truncate(this.banks[bankId].name, 30)}</a></td>
+                                <td title={Utils.ifExceeds(this.banks[bankId].name, 30)}><a
+                                    href={this.banks[bankId].link}>{Utils.truncate(this.banks[bankId].name, 30)}</a></td>
                                 {this.dates.map(date => (
                                     <td key={date} className={this.classForCell(this.banks[bankId], date)}
                                         style={this.styleForCell(this.state.ratings[date][bankId])}>
@@ -109,7 +110,7 @@ class PageRatings extends Component {
                                 <tr className="details">
                                     <td>
                                         {_.uniq(_.flatten(Object.values(this.state.banks[this.banks[bankId].index].names))).map(name => (
-                                            <div key={name} title={this.ifExceeds(name, 23)}>{this.truncate(name, 23)}</div>
+                                            <div key={name} title={Utils.ifExceeds(name, 23)}>{Utils.truncate(name, 23)}</div>
                                         ))}
                                     </td>
                                     <td colSpan={this.dates.length}><Bank
@@ -128,7 +129,6 @@ class PageRatings extends Component {
         return r;
     }
 
-    // TODO: move to dates util?
     formatDayMonth(date) {
         date = new Date(date);
         return _.padStart('' + date.getDate(), 2, '0') + '.' + _.padStart('' + (date.getMonth() + 1), 2,'0');
@@ -136,14 +136,6 @@ class PageRatings extends Component {
 
     handleBankSelected(bankId) {
         this.setState({bankSelected: this.state.bankSelected === bankId ? null : bankId});
-    }
-
-    truncate(str, length) {
-        return str.length > length ? str.substring(0, length - 3) + '...' : str;
-    }
-
-    ifExceeds(str, length) {
-        return str.length > length ? str : null;
     }
 
     compare(a, b) {
@@ -193,7 +185,6 @@ class PageRatings extends Component {
             return {};
         }
 
-        // TODO: show range per color matrix with color=from-to
         const max = 5;    // green  - rgb(  0, 128, 0)
         const middle = 3; // yellow - rgb(255, 255, 0)
         const min = 1;    // red    - rgb(255,   0, 0)

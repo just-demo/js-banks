@@ -1,8 +1,18 @@
 import React, {Component} from 'react';
 import _ from 'lodash';
+import {withStyles} from '@material-ui/core/styles';
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
 import MenuItem from "@material-ui/core/MenuItem";
+
+const styles = () => ({
+    scaleButton: {
+        margin: 5,
+        width: 35,
+        height: 35,
+        fontSize: 20
+    }
+});
 
 class Scale extends Component {
     constructor(props) {
@@ -15,9 +25,10 @@ class Scale extends Component {
     }
 
     render() {
+        const {classes} = this.props;
         return (
             <div>
-                <button style={{margin: 5, width: 35, height: 35, fontSize: 20}} onClick={this.handleScaleDown}>-</button>
+                <button className={classes.scaleButton} onClick={this.handleScaleDown}>-</button>
                 <FormControl variant="outlined" style={{marginTop: 5}}>
                     <Select value={this.state.value} onChange={this.handleScaleSelect}
                             MenuProps={{PaperProps: {style: {maxHeight: 300}}}}>
@@ -26,7 +37,7 @@ class Scale extends Component {
                         ))}
                     </Select>
                 </FormControl>
-                <button style={{margin: 5, width: 35, height: 35, fontSize: 20}} onClick={this.handleScaleUp}>+</button>
+                <button className={classes.scaleButton} onClick={this.handleScaleUp}>+</button>
             </div>
         );
     }
@@ -49,4 +60,4 @@ class Scale extends Component {
     }
 }
 
-export default Scale;
+export default withStyles(styles)(Scale);

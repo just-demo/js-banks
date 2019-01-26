@@ -28,19 +28,6 @@ td.open {
   border-right-color: green;
 }
 
-/*td.issue {*/
-  /*border-width: 3px 0 3px 0;*/
-  /*border-color: red;*/
-/*}*/
-
-/*td.issue-max {*/
-  /*border-left-width: 3px;*/
-/*}*/
-
-/*td.issue-min {*/
-  /*border-right-width: 3px;*/
-/*}*/
-
 td.issue div {
   background: repeating-linear-gradient(45deg, transparent, transparent 1px, red 1px, red 5px);
 }

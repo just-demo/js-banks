@@ -4,6 +4,8 @@ import _ from 'lodash';
 import 'bootstrap/dist/css/bootstrap.css'
 import Done from '@material-ui/icons/Done'
 import Clear from '@material-ui/icons/Clear'
+import Utils from "../Utils";
+import ExternalLink from "../ExternalLink";
 
 class PageBanks extends Component {
     constructor(props) {
@@ -108,16 +110,16 @@ class PageBanks extends Component {
                             {/*TODO: filter out duplicate sites and show source of each site*/}
                             <td>
                                 {_.uniq(_.flatten(Object.values(bank.site) || [])).map(site => (
-                                    <p key={site}><a href={site} style={{color: 'black'}}>{this.truncateSite(site)}</a></p>
+                                    <p key={site}><ExternalLink url={this.truncateSite(site)} style={{color: 'black'}}/></p>
                                 ))}
                             </td>
                             {this.enabledSources().map(source => (
                                 <td
                                     key={source.type}
                                     style={this.styleForCell(bank, source)}
-                                    title={this.ifExceeds(bank.name[source.type], 30)}
+                                    title={Utils.ifExceeds(bank.name[source.type], 30)}
                                 >
-                                {this.truncate(bank.name[source.type], 30)}
+                                {Utils.truncate(bank.name[source.type], 30)}
                                 </td>
                             ))}
                         </tr>
@@ -126,14 +128,6 @@ class PageBanks extends Component {
                 </table>
             </div>
         );
-    }
-
-    truncate(str, length) {
-        return str && str.length > length ? str.substring(0, length - 3) + '...' : str;
-    }
-
-    ifExceeds(str, length) {
-        return str && str.length > length ? str : null;
     }
 
     truncateSite(site) {

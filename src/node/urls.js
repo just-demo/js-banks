@@ -23,9 +23,5 @@ export default {
 
     download(url) {
         return this.read(url, null);
-    },
-
-    getHost(url) {
-        return (url.match(/\/\/([^/]+)/) || [])[1] || url;
     }
 };

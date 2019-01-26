@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {withStyles} from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -13,7 +14,13 @@ import UserMenu from "./UserMenu";
 import PageRefresh from "./page/PageRefresh";
 import classNames from 'classnames';
 import _ from 'lodash';
-import urls from '../node/urls'
+import Disclaimer from "./Disclaimer";
+
+const styles = () => ({
+    activeLink: {
+        textDecoration: 'underline'
+    }
+});
 
 class ToolBar extends Component {
     constructor(props) {
@@ -52,6 +59,7 @@ class ToolBar extends Component {
     }
 
     render() {
+        const {classes} = this.props;
         const selectedPath = this.props.location.pathname;
         if (this.getPageAccess(selectedPath) > this.state.access) {
             this.props.history.push('/');
@@ -62,23 +70,15 @@ class ToolBar extends Component {
                 <AppBar position="static">
                     <Toolbar>
                         {this.links.filter(link => link.access <= this.state.access).map(link => (
-                            <Link key={link.path} style={{color: 'white'}} className={classNames({
-                                selectedLink: link.path === selectedPath
-                            })} to={link.path}><Button color="inherit">{link.title}</Button></Link>
+                            <Link key={link.path} to={link.path} style={{color: 'white'}} className={classNames({
+                                [classes.activeLink]: link.path === selectedPath
+                            })}><Button color="inherit">{link.title}</Button></Link>
                         ))}
                         <Typography color="inherit" style={{flexGrow: 1}}/>
                         <UserMenu selected={this.state.access} onSelect={this.handleAccessChange}/>
                     </Toolbar>
                 </AppBar>
-                <div style={{flexGrow: 1, backgroundColor: 'pink', fontSize: 13}}>
-                    <div>
-                        Вся інформація зібрана з відкритих джерел: {
-                            ["https://wwww.bank.gov.ua", "http://www.fg.gov.ua", "https://www.minfin.com.ua"]
-                                .map(url => <a key={url} href={url} target="_blank" rel="noopener noreferrer">{urls.getHost(url)}</a>)
-                                .map((link, index) => index > 0 ? [<span>, </span>, link] : link)
-                        }. Щодо політики копіювання і розміщення информації на інших сайтах звертайтесь до першоджерел.
-                    </div>
-                </div>
+                <Disclaimer/>
                 <Route exact path="/" component={PageRatings}/>
                 <Route exact path="/banks" component={PageBanks}/>
                 <Route path="/banks/dbf" component={PageDBF}/>
@@ -89,4 +89,4 @@ class ToolBar extends Component {
     }
 }
 
-export default withRouter(ToolBar);
+export default withRouter(withStyles(styles)(ToolBar));
