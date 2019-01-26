@@ -2,17 +2,16 @@ import React, {Component} from 'react';
 import '../../App.css';
 import _ from 'lodash';
 import 'bootstrap/dist/css/bootstrap.css'
-import Done from '@material-ui/icons/Done'
-import Clear from '@material-ui/icons/Clear'
 import Utils from "../Utils";
 import ExternalLink from "../ExternalLink";
+import ActiveIndicator from "../ActiveIndicator";
 
 class PageBanks extends Component {
     constructor(props) {
         super(props);
         this.state = {
             filter: {
-                green: true,
+                seagreen: true,
                 royalblue: true,
                 deeppink: true,
                 red: true,
@@ -74,7 +73,7 @@ class PageBanks extends Component {
 
     render() {
         const filterNames = {
-            green: 'Повний збіг',
+            seagreen: 'Повний збіг',
             royalblue: 'Неоднозначність',
         };
         this.sources.forEach(source => filterNames[source.color] = source.title);
@@ -97,7 +96,9 @@ class PageBanks extends Component {
                 <table className="banks">
                     <tbody>
                     <tr>
-                        <th><input type="checkbox" checked={this.state.filterActive} onChange={this.handleFilterActiveChange}/></th>
+                        <th>
+                            <input type="checkbox" onChange={this.handleFilterActiveChange} style={{marginTop: 5}}/>
+                        </th>
                         <th>Сайт</th>
                         {this.enabledSources().map(source => (
                             <th key={source.type}><a href={source.href}>{source.title}</a></th>
@@ -106,7 +107,9 @@ class PageBanks extends Component {
                     {this.state.banks.filter(bank => !this.state.filterActive || this.allTrue(bank.active)).map(bank => (
                         <tr key={bank.id} style={this.styleForRow(bank)}>
                             {/*TODO: style for active if there is a mismatch*/}
-                            <td style={{textAlign: 'center'}}>{this.allTrue(bank.active) ? <Done/> : <Clear/>}</td>
+                            <td style={{textAlign: 'center'}}>
+                                <ActiveIndicator value={this.allTrue(bank.active)}/>
+                            </td>
                             {/*TODO: filter out duplicate sites and show source of each site*/}
                             <td>
                                 {_.uniq(_.flatten(Object.values(bank.site) || [])).map(site => (
@@ -156,7 +159,7 @@ class PageBanks extends Component {
         const enabledSources = this.enabledSources();
         const allNames = enabledSources.length;
         const populatedNames = enabledSources.filter(source => bank.name[source.type]).length;
-        const color = populatedNames === allNames || !populatedNames ? 'green' :
+        const color = populatedNames === allNames || !populatedNames ? 'seagreen' :
             populatedNames === 1 || populatedNames === allNames - 1 ? 'white' : 'royalblue';
         const style = {
             backgroundColor: color

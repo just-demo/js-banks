@@ -9,6 +9,7 @@ import Bank from '../Bank';
 import Utils from "../Utils";
 import ExternalLink from "../ExternalLink";
 import Search from "../Search";
+import ActiveIndicator from "../ActiveIndicator";
 
 class PageRatings extends Component {
     constructor(props) {
@@ -39,15 +40,18 @@ class PageRatings extends Component {
     }
 
     applyFilter(bank) {
+        if (this.state.filterActive && !bank.active) {
+            return false;
+        }
         const term = (this.state.search || '').toUpperCase();
         const hasTerm = array => array.some(item => item.toUpperCase().includes(term));
-        return !term || hasTerm(Object.values(bank.name)) || Object.values(bank.names).some(names => hasTerm(names));
+        return !term || hasTerm(Object.values(bank.name)) || Object.values(bank.data.names).some(names => hasTerm(names));
     }
 
     render() {
         const start = new Date();
         this.dates = Object.keys(this.state.ratings).sort().reverse();
-        this.banks = _.keyBy(this.state.banks.filter(bank => this.applyFilter(bank)).map((bank, index) => {
+        this.banks = _.keyBy(this.state.banks.map(bank => {
             const datesIssue = Object.values(bank.dateIssue);
             return {
                 id: bank.internal.id.minfin,
@@ -58,9 +62,11 @@ class PageRatings extends Component {
                 dateClosed: this.projectDate(bank.dateIssue.pdf),
                 dateIssueMin: this.projectDate(_.min(datesIssue)),
                 dateIssueMax: this.projectDate(_.max(datesIssue)),
+                active: _.every(Object.values(bank.active)),
                 data: bank
-            };
-        }).filter(bank => bank.name), 'id');
+            }})
+            .filter(bank => bank.name)
+            .filter(bank => this.applyFilter(bank)), 'id');
 
         // Sort by latest rating in reverse order
         const bankIds = Object.keys(this.banks).sort((bankId1, bankId2) => {
@@ -86,12 +92,18 @@ class PageRatings extends Component {
                 <div style={{display: 'flex', justifyContent: 'center', padding: 5}}>
                         <Scale value={this.state.scale} values={[1, 2, 5, 10, 100]}
                                onChange={scale => this.setState({scale: scale})}/>
-                        <Search onChange={search => this.setState({search: search})}/>
                 </div>
                 <table className="ratings">
                     <tbody>
                     <tr>
-                        <th style={{minWidth: 215}} rowSpan={2}>&nbsp;</th>
+                        <th rowSpan={2}>
+                            <input type="checkbox" onChange={event => this.setState({filterActive: event.target.checked})} style={{
+                                marginTop: 5
+                            }}/>
+                        </th>
+                        <th style={{minWidth: 215}} rowSpan={2}>
+                            <Search onChange={search => this.setState({search: search})}/>
+                        </th>
                         {Object.keys(datesByYear).sort().reverse().map(year => (
                             <th key={year} colSpan={datesByYear[year].length}>{year}</th>
                         ))}
@@ -104,7 +116,8 @@ class PageRatings extends Component {
                     {bankIds.map(bankId => (
                         <React.Fragment key={bankId}>
                             <tr onClick={() => this.handleBankSelected(bankId)}>
-                                <td title={Utils.ifExceeds(this.banks[bankId].name, 30)}><a
+                                <td style={{textAlign: 'center'}}><ActiveIndicator value={this.banks[bankId].active}/></td>
+                                <td style={{paddingLeft: 3}} title={Utils.ifExceeds(this.banks[bankId].name, 30)}><a
                                     href={this.banks[bankId].link}>{Utils.truncate(this.banks[bankId].name, 30)}</a></td>
                                 {this.dates.map(date => (
                                     <td key={date} className={this.classForCell(this.banks[bankId], date)}
@@ -117,12 +130,13 @@ class PageRatings extends Component {
                             </tr>
                             {bankId === this.state.bankSelected && (
                                 <tr className="details">
-                                    <td>
+                                    <td>&nbsp;</td>
+                                    <td style={{paddingLeft: 20}}>
                                         {_.uniq(_.flatten(Object.values(this.banks[bankId].data.names))).map(name => (
                                             <div key={name} title={Utils.ifExceeds(name, 23)}>{Utils.truncate(name, 23)}</div>
                                         ))}
                                     </td>
-                                    <td colSpan={this.dates.length}><Bank data={this.banks[bankId].data}/></td>
+                                    <td colSpan={this.dates.length} style={{padding: 20}}><Bank data={this.banks[bankId].data}/></td>
                                 </tr>
                             )}
                         </React.Fragment>

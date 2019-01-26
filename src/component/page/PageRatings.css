@@ -7,12 +7,8 @@ table.ratings > tbody > tr:not(.details):hover {
   cursor: pointer;
 }
 
-table.ratings > tbody > tr:not(.details):hover td:first-child {
+table.ratings > tbody > tr:not(.details):hover td:nth-child(-n+2) {
   background-color: #ddd;
-}
-
-table.ratings tr.details > td {
-  padding: 20px;
 }
 
 td.rating div {

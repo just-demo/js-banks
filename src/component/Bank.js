@@ -57,7 +57,7 @@ class Bank extends Component {
     buildLinks(urls) {
         let links = urls && urls
             .filter(url => url)
-            .map(url => <ExternalLink url={url}/>)
+            .map(url => <ExternalLink key={url} url={url}/>)
             .map((link, index) => index > 0 ? [<br key={index}/>, link] : link);
         return _.isEmpty(links) ? null : links;
     }
