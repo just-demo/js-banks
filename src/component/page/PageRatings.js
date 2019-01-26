@@ -8,6 +8,7 @@ import classNames from 'classnames';
 import Bank from '../Bank';
 import Utils from "../Utils";
 import ExternalLink from "../ExternalLink";
+import Search from "../Search";
 
 class PageRatings extends Component {
     constructor(props) {
@@ -37,21 +38,27 @@ class PageRatings extends Component {
         return _.maxBy(Object.keys(nameCounts), name => nameCounts[name]) || bank.name.minfin
     }
 
+    applyFilter(bank) {
+        const term = (this.state.search || '').toUpperCase();
+        const hasTerm = array => array.some(item => item.toUpperCase().includes(term));
+        return !term || hasTerm(Object.values(bank.name)) || Object.values(bank.names).some(names => hasTerm(names));
+    }
+
     render() {
         const start = new Date();
         this.dates = Object.keys(this.state.ratings).sort().reverse();
-        this.banks = _.keyBy(this.state.banks.map((bank, index) => {
+        this.banks = _.keyBy(this.state.banks.filter(bank => this.applyFilter(bank)).map((bank, index) => {
             const datesIssue = Object.values(bank.dateIssue);
             return {
                 id: bank.internal.id.minfin,
                 name: this.getMostRelevantBankName(bank),
-                index: index,
                 // site: (bank.site.minfin || [])[0],
                 // link: bank.internal.link.minfin,
                 dateOpen: this.projectDate(bank.dateOpen.api),
                 dateClosed: this.projectDate(bank.dateIssue.pdf),
                 dateIssueMin: this.projectDate(_.min(datesIssue)),
-                dateIssueMax: this.projectDate(_.max(datesIssue))
+                dateIssueMax: this.projectDate(_.max(datesIssue)),
+                data: bank
             };
         }).filter(bank => bank.name), 'id');
 
@@ -76,14 +83,15 @@ class PageRatings extends Component {
         const datesByYear = _.groupBy(this.dates, date => date.split('-')[0]);
         const r = (
             <div>
-                <div style={{flexGrow: 1, textAlign: 'center'}}>
-                    <Scale value={this.state.scale} values={[1, 2, 5, 10, 100]}
-                           onChange={(scale) => this.setState({scale: scale})}/>
+                <div style={{display: 'flex', justifyContent: 'center', padding: 5}}>
+                        <Scale value={this.state.scale} values={[1, 2, 5, 10, 100]}
+                               onChange={scale => this.setState({scale: scale})}/>
+                        <Search onChange={search => this.setState({search: search})}/>
                 </div>
                 <table className="ratings">
                     <tbody>
                     <tr>
-                        <th rowSpan={2}>&nbsp;</th>
+                        <th style={{minWidth: 215}} rowSpan={2}>&nbsp;</th>
                         {Object.keys(datesByYear).sort().reverse().map(year => (
                             <th key={year} colSpan={datesByYear[year].length}>{year}</th>
                         ))}
@@ -110,12 +118,11 @@ class PageRatings extends Component {
                             {bankId === this.state.bankSelected && (
                                 <tr className="details">
                                     <td>
-                                        {_.uniq(_.flatten(Object.values(this.state.banks[this.banks[bankId].index].names))).map(name => (
+                                        {_.uniq(_.flatten(Object.values(this.banks[bankId].data.names))).map(name => (
                                             <div key={name} title={Utils.ifExceeds(name, 23)}>{Utils.truncate(name, 23)}</div>
                                         ))}
                                     </td>
-                                    <td colSpan={this.dates.length}><Bank
-                                        data={this.state.banks[this.banks[bankId].index]}/></td>
+                                    <td colSpan={this.dates.length}><Bank data={this.banks[bankId].data}/></td>
                                 </tr>
                             )}
                         </React.Fragment>
