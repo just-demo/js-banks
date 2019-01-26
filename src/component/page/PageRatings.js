@@ -7,6 +7,7 @@ import Scale from '../Scale';
 import classNames from 'classnames';
 import Bank from '../Bank';
 import Utils from "../Utils";
+import ExternalLink from "../ExternalLink";
 
 class PageRatings extends Component {
     constructor(props) {
@@ -89,7 +90,7 @@ class PageRatings extends Component {
                     </tr>
                     <tr>
                         {this.dates.map(date => (
-                            <th key={date}>{this.formatDayMonth(date)}</th>
+                            <th key={date}><ExternalLink url={this.getRatingSourceLink(date)} title={this.formatDayMonth(date)}/></th>
                         ))}
                     </tr>
                     {bankIds.map(bankId => (
@@ -127,6 +128,10 @@ class PageRatings extends Component {
         console.log('Rendering time:', new Date() - start);
 
         return r;
+    }
+
+    getRatingSourceLink(date) {
+        return 'https://minfin.com.ua/ua/banks/rating/?date=' + date;
     }
 
     formatDayMonth(date) {
