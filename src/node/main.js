@@ -14,8 +14,8 @@ const startTime = new Date();
 const audit = new Audit();
 const source = new Source(audit);
 Promise.all([
-    source.getBanks().then(banks => files.writeJson('../../public/banks.json', banks)),
-    source.getRatings().then(ratings => files.writeJson('../../public/minfin-ratings.json', ratings))
+    source.getBanks().then(banks => files.writeJson('../../public/data/banks.json', banks)),
+    source.getRatings().then(ratings => files.writeJson('../../public/data/minfin-ratings.json', ratings))
 ]).then(() => console.log('Total time:', new Date() - startTime));
 //printProgress();
 

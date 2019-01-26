@@ -19,12 +19,12 @@ class PageRatings extends Component {
     }
 
     componentDidMount() {
-        fetch('/banks.json')
+        fetch('/data/banks.json')
             .then(banks => banks.json())
             .then(banks => this.setState({banks: banks}));
 
 
-        fetch('/minfin-ratings.json')
+        fetch('/data/minfin-ratings.json')
             .then(ratings => ratings.json())
             .then(ratings => this.setState({ratings: ratings}));
     }

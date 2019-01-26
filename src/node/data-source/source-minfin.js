@@ -28,7 +28,7 @@ class SourceMinfin {
                         return {
                             id: parseInt(bank.id),
                             names: [names.normalize(bank.name)],
-                            link: 'https://minfin.com.ua/ua/company/' + bank.alias,
+                            link: '/ua/company/' + bank.alias,
                             sites: arrays.of(site)
                         };
                     })

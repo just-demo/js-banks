@@ -8,7 +8,7 @@ class PageDBF extends Component {
     }
 
     componentDidMount() {
-        fetch('/dbf.json')
+        fetch('/data/dbf.json')
             .then(banks => banks.json())
             .then(banks => this.setState({banks: banks}));
     }

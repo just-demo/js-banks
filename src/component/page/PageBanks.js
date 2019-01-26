@@ -55,7 +55,7 @@ class PageBanks extends Component {
             }
         ];
 
-        fetch('/banks.json')
+        fetch('/data/banks.json')
             .then(banks => banks.json())
             .then(banks => this.setState({banks: banks}));
     }

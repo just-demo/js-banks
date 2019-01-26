@@ -18,19 +18,15 @@ class Bank extends Component {
         },
         pdf: {
             name: 'НБУ PDF',
-            link: (link) => link || 'https://bank.gov.ua/control/uk/publish/article?art_id=52047'
+            link: (link) => 'https://bank.gov.ua' + (link || '/control/uk/publish/article?art_id=52047')
         },
-        // dbf: {
-        //     name: 'НБУ DBF',
-        //     link: () => 'https://bank.gov.ua/control/uk/bankdict/search' //TODO: link to download?
-        // },
         fund: {
             name: 'ФГВФО',
             link: (link) => 'http://www.fg.gov.ua' + (link || '/uchasnyky-fondu')
         },
         minfin: {
             name: 'Міфін',
-            link: (link) => link || 'https://minfin.com.ua/' //TODO: cut site name from minfin link in banks.json file
+            link: (link) => 'https://minfin.com.ua' + (link || '')
         }
     };
 

@@ -1,6 +1,7 @@
 th, td {
   border: 1px solid #aaa;
   white-space: nowrap;
+  font-size: 12px;
 }
 
 .selectedLink {

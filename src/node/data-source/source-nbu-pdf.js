@@ -32,7 +32,7 @@ class SourceNbuPDF {
             this.audit.end('pdfs');
             this.audit.start('pdf', files.length);
             return mapAsync(files, file => {
-                const url = 'https://bank.gov.ua/files/Licences_bank/' + file;
+                const link = '/files/Licences_bank/' + file;
                 const textFile = 'nbu/not-banks/text/' + file.split('.')[0] + '.txt';
                 // TODO: remove this temporary optimization and inline process function when there only one usage left
                 return cache.calc(textFile, () => null)
@@ -40,7 +40,7 @@ class SourceNbuPDF {
                         promiseRetry( (retry, number) => {
                             const cacheFile = 'nbu/not-banks/pdf/' + file;
                             return Promise.resolve(number > 1 && cache.deleteDownload(cacheFile))
-                                .then(() => cache.download(cacheFile, url))
+                                .then(() => cache.download(cacheFile, 'https://bank.gov.ua' + link))
                                 .then(pdf => cache.calc(textFile, () => pdfs.parse(pdf)))
                                 .catch(retry);
                         }))
@@ -52,7 +52,7 @@ class SourceNbuPDF {
                         return {
                             names: _.uniq(bankNames),
                             problem: dates.format(bank.problem) || undefined,
-                            link: url,
+                            link: link,
                             active: !bank.problem
                         };
                     })

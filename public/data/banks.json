@@ -50,8 +50,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=35128",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380645.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/bank-3-4"
+        "pdf": "/files/Licences_bank/380645.pdf",
+        "minfin": "/ua/company/bank-3-4"
       }
     }
   },
@@ -101,7 +101,7 @@
         "minfin": 658
       },
       "link": {
-        "minfin": "https://minfin.com.ua/ua/company/monobank"
+        "minfin": "/ua/company/monobank"
       }
     }
   },
@@ -134,7 +134,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/324485.pdf",
+        "pdf": "/files/Licences_bank/324485.pdf",
         "fund": "/not-paying/completed/80-evro-bank-rz"
       }
     }
@@ -193,9 +193,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/353166.pdf",
+        "pdf": "/files/Licences_bank/353166.pdf",
         "fund": "/not-paying/liquidation/175-pat-kb-yevrobank",
-        "minfin": "https://minfin.com.ua/ua/company/eurobank"
+        "minfin": "/ua/company/eurobank"
       }
     }
   },
@@ -252,9 +252,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380430.pdf",
+        "pdf": "/files/Licences_bank/380430.pdf",
         "fund": "/not-paying/liquidation/44-evrogazbank",
-        "minfin": "https://minfin.com.ua/ua/company/eurogasbank"
+        "minfin": "/ua/company/eurogasbank"
       }
     }
   },
@@ -284,7 +284,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380184.pdf",
+        "pdf": "/files/Licences_bank/380184.pdf",
         "fund": "/not-paying/completed/77-evropeisky"
       }
     }
@@ -344,8 +344,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=35386",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/377090.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/europrombank"
+        "pdf": "/files/Licences_bank/377090.pdf",
+        "minfin": "/ua/company/europrombank"
       }
     }
   },
@@ -404,8 +404,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=243",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/336310.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/ideabank"
+        "pdf": "/files/Licences_bank/336310.pdf",
+        "minfin": "/ua/company/ideabank"
       }
     }
   },
@@ -432,7 +432,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322636.pdf"
+        "pdf": "/files/Licences_bank/322636.pdf"
       }
     }
   },
@@ -463,7 +463,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300807.pdf",
+        "pdf": "/files/Licences_bank/300807.pdf",
         "fund": "/not-paying/completed/83-garant"
       }
     }
@@ -520,9 +520,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/328384.pdf",
+        "pdf": "/files/Licences_bank/328384.pdf",
         "fund": "/not-paying/liquidation/96-imexbank",
-        "minfin": "https://minfin.com.ua/ua/company/imexbank"
+        "minfin": "/ua/company/imexbank"
       }
     }
   },
@@ -579,9 +579,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/328210.pdf",
+        "pdf": "/files/Licences_bank/328210.pdf",
         "fund": "/not-paying/liquidation/186-pat-kb-investbank",
-        "minfin": "https://minfin.com.ua/ua/company/investbank"
+        "minfin": "/ua/company/investbank"
       }
     }
   },
@@ -637,8 +637,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=22799",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380281.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/bis"
+        "pdf": "/files/Licences_bank/380281.pdf",
+        "minfin": "/ua/company/bis"
       }
     }
   },
@@ -689,8 +689,8 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380957.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/investtrustbank"
+        "pdf": "/files/Licences_bank/380957.pdf",
+        "minfin": "/ua/company/investtrustbank"
       }
     }
   },
@@ -745,8 +745,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=189",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300539.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/ing"
+        "pdf": "/files/Licences_bank/300539.pdf",
+        "minfin": "/ua/company/ing"
       }
     }
   },
@@ -803,8 +803,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=230",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/313849.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/industrialbank"
+        "pdf": "/files/Licences_bank/313849.pdf",
+        "minfin": "/ua/company/industrialbank"
       }
     }
   },
@@ -861,9 +861,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320735.pdf",
+        "pdf": "/files/Licences_bank/320735.pdf",
         "fund": "/not-paying/liquidation/144-pat-intehral-bank",
-        "minfin": "https://minfin.com.ua/ua/company/integral"
+        "minfin": "/ua/company/integral"
       }
     }
   },
@@ -919,9 +919,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300216.pdf",
+        "pdf": "/files/Licences_bank/300216.pdf",
         "fund": "/not-paying/liquidation/51-interbank",
-        "minfin": "https://minfin.com.ua/ua/company/interbank"
+        "minfin": "/ua/company/interbank"
       }
     }
   },
@@ -946,7 +946,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/324678.pdf"
+        "pdf": "/files/Licences_bank/324678.pdf"
       }
     }
   },
@@ -1002,9 +1002,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/307424.pdf",
+        "pdf": "/files/Licences_bank/307424.pdf",
         "fund": "/not-paying/liquidation/32-interkredytbank",
-        "minfin": "https://minfin.com.ua/ua/company/inter-credit-bank"
+        "minfin": "/ua/company/inter-credit-bank"
       }
     }
   },
@@ -1034,7 +1034,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380270.pdf",
+        "pdf": "/files/Licences_bank/380270.pdf",
         "fund": "/not-paying/completed/67-ipobank"
       }
     }
@@ -1094,8 +1094,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=65",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/307770.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/a-bank"
+        "pdf": "/files/Licences_bank/307770.pdf",
+        "minfin": "/ua/company/a-bank"
       }
     }
   },
@@ -1121,7 +1121,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/324827.pdf"
+        "pdf": "/files/Licences_bank/324827.pdf"
       }
     }
   },
@@ -1174,8 +1174,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=46526",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380946.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/avangardbank"
+        "pdf": "/files/Licences_bank/380946.pdf",
+        "minfin": "/ua/company/avangardbank"
       }
     }
   },
@@ -1232,9 +1232,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380708.pdf",
+        "pdf": "/files/Licences_bank/380708.pdf",
         "fund": "/not-paying/liquidation/157-pat-avant-bank",
-        "minfin": "https://minfin.com.ua/ua/company/avantbank"
+        "minfin": "/ua/company/avantbank"
       }
     }
   },
@@ -1276,8 +1276,8 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/331100.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/avtokrazbank"
+        "pdf": "/files/Licences_bank/331100.pdf",
+        "minfin": "/ua/company/avtokrazbank"
       }
     }
   },
@@ -1303,7 +1303,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/335010.pdf"
+        "pdf": "/files/Licences_bank/335010.pdf"
       }
     }
   },
@@ -1361,8 +1361,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=269",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322302.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/iboxbank"
+        "pdf": "/files/Licences_bank/322302.pdf",
+        "minfin": "/ua/company/iboxbank"
       }
     }
   },
@@ -1450,8 +1450,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=34501",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380634.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/accordbank"
+        "pdf": "/files/Licences_bank/380634.pdf",
+        "minfin": "/ua/company/accordbank"
       }
     }
   },
@@ -1509,9 +1509,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/307305.pdf",
+        "pdf": "/files/Licences_bank/307305.pdf",
         "fund": "/not-paying/liquidation/33-aksioma",
-        "minfin": "https://minfin.com.ua/ua/company/axiomabank"
+        "minfin": "/ua/company/axiomabank"
       }
     }
   },
@@ -1567,9 +1567,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/307394.pdf",
+        "pdf": "/files/Licences_bank/307394.pdf",
         "fund": "/not-paying/liquidation/39-aktabank",
-        "minfin": "https://minfin.com.ua/ua/company/aktabank"
+        "minfin": "/ua/company/aktabank"
       }
     }
   },
@@ -1626,9 +1626,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300852.pdf",
+        "pdf": "/files/Licences_bank/300852.pdf",
         "fund": "/not-paying/liquidation/40-aktyv-bank",
-        "minfin": "https://minfin.com.ua/ua/company/active-bank"
+        "minfin": "/ua/company/active-bank"
       }
     }
   },
@@ -1658,7 +1658,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/321659.pdf",
+        "pdf": "/files/Licences_bank/321659.pdf",
         "fund": "/not-paying/completed/85-allonz"
       }
     }
@@ -1714,8 +1714,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=44804",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380894.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/bankalpari"
+        "pdf": "/files/Licences_bank/380894.pdf",
+        "minfin": "/ua/company/bankalpari"
       }
     }
   },
@@ -1775,8 +1775,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=29",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320940.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/altbank"
+        "pdf": "/files/Licences_bank/320940.pdf",
+        "minfin": "/ua/company/altbank"
       }
     }
   },
@@ -1834,8 +1834,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=279",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300346.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/alfa-bank"
+        "pdf": "/files/Licences_bank/300346.pdf",
+        "minfin": "/ua/company/alfa-bank"
       }
     }
   },
@@ -1891,8 +1891,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=214",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300119.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/alliance"
+        "pdf": "/files/Licences_bank/300119.pdf",
+        "minfin": "/ua/company/alliance"
       }
     }
   },
@@ -1918,7 +1918,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/311517.pdf"
+        "pdf": "/files/Licences_bank/311517.pdf"
       }
     }
   },
@@ -1960,9 +1960,9 @@
         "minfin": 184
       },
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/306544.pdf",
+        "pdf": "/files/Licences_bank/306544.pdf",
         "fund": "/not-paying/completed/60-inno-prom-bank",
-        "minfin": "https://minfin.com.ua/ua/company/inprombank"
+        "minfin": "/ua/company/inprombank"
       }
     }
   },
@@ -2018,9 +2018,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380548.pdf",
+        "pdf": "/files/Licences_bank/380548.pdf",
         "fund": "/not-paying/banky-prodani-investoram/115-astra",
-        "minfin": "https://minfin.com.ua/ua/company/agroprosperis-bank"
+        "minfin": "/ua/company/agroprosperis-bank"
       }
     }
   },
@@ -2056,8 +2056,8 @@
         "minfin": 71
       },
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380720.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/apeks-bank"
+        "pdf": "/files/Licences_bank/380720.pdf",
+        "minfin": "/ua/company/apeks-bank"
       }
     }
   },
@@ -2082,7 +2082,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/328094.pdf"
+        "pdf": "/files/Licences_bank/328094.pdf"
       }
     }
   },
@@ -2137,8 +2137,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=127",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322335.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/arkada"
+        "pdf": "/files/Licences_bank/322335.pdf",
+        "minfin": "/ua/company/arkada"
       }
     }
   },
@@ -2168,7 +2168,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380300.pdf",
+        "pdf": "/files/Licences_bank/380300.pdf",
         "fund": "/not-paying/completed/71-arma"
       }
     }
@@ -2194,7 +2194,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/328652.pdf"
+        "pdf": "/files/Licences_bank/328652.pdf"
       }
     }
   },
@@ -2251,9 +2251,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300885.pdf",
+        "pdf": "/files/Licences_bank/300885.pdf",
         "fund": "/not-paying/liquidation/183-at-artem-bank",
-        "minfin": "https://minfin.com.ua/ua/company/artem-bank"
+        "minfin": "/ua/company/artem-bank"
       }
     }
   },
@@ -2286,7 +2286,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/321228.pdf",
+        "pdf": "/files/Licences_bank/321228.pdf",
         "fund": "/not-paying/completed/72-ukr-prom-bank"
       }
     }
@@ -2345,8 +2345,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=240",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/353489.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/asvio_bank"
+        "pdf": "/files/Licences_bank/353489.pdf",
+        "minfin": "/ua/company/asvio_bank"
       }
     }
   },
@@ -2373,7 +2373,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322368.pdf"
+        "pdf": "/files/Licences_bank/322368.pdf"
       }
     }
   },
@@ -2399,7 +2399,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/337535.pdf"
+        "pdf": "/files/Licences_bank/337535.pdf"
       }
     }
   },
@@ -2426,7 +2426,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320724.pdf"
+        "pdf": "/files/Licences_bank/320724.pdf"
       }
     }
   },
@@ -2466,9 +2466,9 @@
         "minfin": 101
       },
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/351760.pdf",
+        "pdf": "/files/Licences_bank/351760.pdf",
         "fund": "/not-paying/completed/59-bazis",
-        "minfin": "https://minfin.com.ua/ua/company/basis"
+        "minfin": "/ua/company/basis"
       }
     }
   },
@@ -2530,9 +2530,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320995.pdf",
+        "pdf": "/files/Licences_bank/320995.pdf",
         "fund": "/not-paying/liquidation/27-bg-bank",
-        "minfin": "https://minfin.com.ua/ua/company/bg-bank"
+        "minfin": "/ua/company/bg-bank"
       }
     }
   },
@@ -2558,7 +2558,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/321916.pdf"
+        "pdf": "/files/Licences_bank/321916.pdf"
       }
     }
   },
@@ -2593,8 +2593,8 @@
         "minfin": 142
       },
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380913.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/bm-bank"
+        "pdf": "/files/Licences_bank/380913.pdf",
+        "minfin": "/ua/company/bm-bank"
       }
     }
   },
@@ -2650,9 +2650,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380322.pdf",
+        "pdf": "/files/Licences_bank/380322.pdf",
         "fund": "/not-paying/liquidation/219-at-bank-bohuslav",
-        "minfin": "https://minfin.com.ua/ua/company/bank-boguslav"
+        "minfin": "/ua/company/bank-boguslav"
       }
     }
   },
@@ -2708,9 +2708,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300249.pdf",
+        "pdf": "/files/Licences_bank/300249.pdf",
         "fund": "/not-paying/liquidation/54-brokbiznesbank",
-        "minfin": "https://minfin.com.ua/ua/company/brokbiznesbank"
+        "minfin": "/ua/company/brokbiznesbank"
       }
     }
   },
@@ -2767,8 +2767,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=239",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/321723.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/bta-bank"
+        "pdf": "/files/Licences_bank/321723.pdf",
+        "minfin": "/ua/company/bta-bank"
       }
     }
   },
@@ -2794,7 +2794,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380087.pdf"
+        "pdf": "/files/Licences_bank/380087.pdf"
       }
     }
   },
@@ -2853,9 +2853,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380537.pdf",
+        "pdf": "/files/Licences_bank/380537.pdf",
         "fund": "/not-paying/liquidation/29-vab-bank",
-        "minfin": "https://minfin.com.ua/ua/company/vab-bank"
+        "minfin": "/ua/company/vab-bank"
       }
     }
   },
@@ -2894,8 +2894,8 @@
         "minfin": 82
       },
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/325213.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/volksbank"
+        "pdf": "/files/Licences_bank/325213.pdf",
+        "minfin": "/ua/company/volksbank"
       }
     }
   },
@@ -2920,7 +2920,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/315353.pdf"
+        "pdf": "/files/Licences_bank/315353.pdf"
       }
     }
   },
@@ -2977,9 +2977,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380719.pdf",
+        "pdf": "/files/Licences_bank/380719.pdf",
         "fund": "/not-paying/liquidation/26-vseukr-bank-rozv",
-        "minfin": "https://minfin.com.ua/ua/company/vbr"
+        "minfin": "/ua/company/vbr"
       }
     }
   },
@@ -3035,9 +3035,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/339038.pdf",
+        "pdf": "/files/Licences_bank/339038.pdf",
         "fund": "/not-paying/liquidation/198-pat-vektor-bank",
-        "minfin": "https://minfin.com.ua/ua/company/vectorbank"
+        "minfin": "/ua/company/vectorbank"
       }
     }
   },
@@ -3093,9 +3093,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322799.pdf",
+        "pdf": "/files/Licences_bank/322799.pdf",
         "fund": "/not-paying/liquidation/152-at-bank-veles",
-        "minfin": "https://minfin.com.ua/ua/company/bank-veles"
+        "minfin": "/ua/company/bank-veles"
       }
     }
   },
@@ -3154,8 +3154,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=37186",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380689.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/vernum-bank"
+        "pdf": "/files/Licences_bank/380689.pdf",
+        "minfin": "/ua/company/vernum-bank"
       }
     }
   },
@@ -3182,7 +3182,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320564.pdf"
+        "pdf": "/files/Licences_bank/320564.pdf"
       }
     }
   },
@@ -3207,7 +3207,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380195.pdf"
+        "pdf": "/files/Licences_bank/380195.pdf"
       }
     }
   },
@@ -3237,7 +3237,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/337933.pdf",
+        "pdf": "/files/Licences_bank/337933.pdf",
         "fund": "/not-paying/completed/63-volodymyrskyi"
       }
     }
@@ -3297,8 +3297,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=198",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/307123.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/bank-vostok"
+        "pdf": "/files/Licences_bank/307123.pdf",
+        "minfin": "/ua/company/bank-vostok"
       }
     }
   },
@@ -3356,9 +3356,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/321767.pdf",
+        "pdf": "/files/Licences_bank/321767.pdf",
         "fund": "/not-paying/liquidation/234-at-vtb-bank",
-        "minfin": "https://minfin.com.ua/ua/company/vtb-bank"
+        "minfin": "/ua/company/vtb-bank"
       }
     }
   },
@@ -3413,9 +3413,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/377120.pdf",
+        "pdf": "/files/Licences_bank/377120.pdf",
         "fund": "/not-paying/liquidation/210-pat-komertsiynyy-bank-hefest",
-        "minfin": "https://minfin.com.ua/ua/company/bankgefest"
+        "minfin": "/ua/company/bankgefest"
       }
     }
   },
@@ -3470,8 +3470,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=32050",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380526.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/globus"
+        "pdf": "/files/Licences_bank/380526.pdf",
+        "minfin": "/ua/company/globus"
       }
     }
   },
@@ -3531,9 +3531,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322324.pdf",
+        "pdf": "/files/Licences_bank/322324.pdf",
         "fund": "/not-paying/liquidation/38-grin-bank",
-        "minfin": "https://minfin.com.ua/ua/company/olympic-ukraine"
+        "minfin": "/ua/company/olympic-ukraine"
       }
     }
   },
@@ -3588,8 +3588,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=85",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/351607.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/grant"
+        "pdf": "/files/Licences_bank/351607.pdf",
+        "minfin": "/ua/company/grant"
       }
     }
   },
@@ -3646,9 +3646,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320854.pdf",
+        "pdf": "/files/Licences_bank/320854.pdf",
         "fund": "/not-paying/liquidation/203-pat-diamantbank",
-        "minfin": "https://minfin.com.ua/ua/company/diamantbank"
+        "minfin": "/ua/company/diamantbank"
       }
     }
   },
@@ -3683,8 +3683,8 @@
         "minfin": 461
       },
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380827.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/divi-bank"
+        "pdf": "/files/Licences_bank/380827.pdf",
+        "minfin": "/ua/company/divi-bank"
       }
     }
   },
@@ -3740,9 +3740,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380980.pdf",
+        "pdf": "/files/Licences_bank/380980.pdf",
         "fund": "/not-paying/liquidation/56-daniel",
-        "minfin": "https://minfin.com.ua/ua/company/daniel"
+        "minfin": "/ua/company/daniel"
       }
     }
   },
@@ -3798,9 +3798,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380236.pdf",
+        "pdf": "/files/Licences_bank/380236.pdf",
         "fund": "/not-paying/liquidation/118-delta",
-        "minfin": "https://minfin.com.ua/ua/company/delta-bank"
+        "minfin": "/ua/company/delta-bank"
       }
     }
   },
@@ -3857,9 +3857,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/353575.pdf",
+        "pdf": "/files/Licences_bank/353575.pdf",
         "fund": "/not-paying/liquidation/36-demark",
-        "minfin": "https://minfin.com.ua/ua/company/demark"
+        "minfin": "/ua/company/demark"
       }
     }
   },
@@ -3885,7 +3885,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322272.pdf"
+        "pdf": "/files/Licences_bank/322272.pdf"
       }
     }
   },
@@ -3933,9 +3933,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380968.pdf",
+        "pdf": "/files/Licences_bank/380968.pdf",
         "fund": "/not-paying/banky-likvidovani-fondom/179-pat-derzhzembank",
-        "minfin": "https://minfin.com.ua/ua/company/dzbank"
+        "minfin": "/ua/company/dzbank"
       }
     }
   },
@@ -3965,7 +3965,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/325569.pdf",
+        "pdf": "/files/Licences_bank/325569.pdf",
         "fund": "/not-paying/completed/68-dnister"
       }
     }
@@ -4021,8 +4021,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=37648",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380731.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/db"
+        "pdf": "/files/Licences_bank/380731.pdf",
+        "minfin": "/ua/company/db"
       }
     }
   },
@@ -4048,7 +4048,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/334895.pdf"
+        "pdf": "/files/Licences_bank/334895.pdf"
       }
     }
   },
@@ -4086,8 +4086,8 @@
         "minfin": 50
       },
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/334970.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/dongorbank"
+        "pdf": "/files/Licences_bank/334970.pdf",
+        "minfin": "/ua/company/dongorbank"
       }
     }
   },
@@ -4114,7 +4114,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300313.pdf"
+        "pdf": "/files/Licences_bank/300313.pdf"
       }
     }
   },
@@ -4171,9 +4171,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322294.pdf",
+        "pdf": "/files/Licences_bank/322294.pdf",
         "fund": "/not-paying/liquidation/37-ekspobank",
-        "minfin": "https://minfin.com.ua/ua/company/expobank"
+        "minfin": "/ua/company/expobank"
       }
     }
   },
@@ -4209,8 +4209,8 @@
         "minfin": 27
       },
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322959.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/express-bank"
+        "pdf": "/files/Licences_bank/322959.pdf",
+        "minfin": "/ua/company/express-bank"
       }
     }
   },
@@ -4267,9 +4267,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300272.pdf",
+        "pdf": "/files/Licences_bank/300272.pdf",
         "fund": "/not-paying/liquidation/111-energobank",
-        "minfin": "https://minfin.com.ua/ua/company/energobank"
+        "minfin": "/ua/company/energobank"
       }
     }
   },
@@ -4294,7 +4294,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/351793.pdf"
+        "pdf": "/files/Licences_bank/351793.pdf"
       }
     }
   },
@@ -4322,7 +4322,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380009.pdf"
+        "pdf": "/files/Licences_bank/380009.pdf"
       }
     }
   },
@@ -4347,7 +4347,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322904.pdf"
+        "pdf": "/files/Licences_bank/322904.pdf"
       }
     }
   },
@@ -4404,9 +4404,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/303484.pdf",
+        "pdf": "/files/Licences_bank/303484.pdf",
         "fund": "/not-paying/liquidation/48-zahidinkombank",
-        "minfin": "https://minfin.com.ua/ua/company/zakhidinkombank"
+        "minfin": "/ua/company/zakhidinkombank"
       }
     }
   },
@@ -4431,7 +4431,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/336291.pdf"
+        "pdf": "/files/Licences_bank/336291.pdf"
       }
     }
   },
@@ -4462,7 +4462,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322603.pdf",
+        "pdf": "/files/Licences_bank/322603.pdf",
         "fund": "/not-paying/completed/69-big-energy"
       }
     }
@@ -4504,9 +4504,9 @@
         "minfin": 75
       },
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/351652.pdf",
+        "pdf": "/files/Licences_bank/351652.pdf",
         "fund": "/not-paying/completed/66-zemel-bank",
-        "minfin": "https://minfin.com.ua/ua/company/zembank"
+        "minfin": "/ua/company/zembank"
       }
     }
   },
@@ -4561,8 +4561,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=157",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/305880.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/zemelnyi-kapital"
+        "pdf": "/files/Licences_bank/305880.pdf",
+        "minfin": "/ua/company/zemelnyi-kapital"
       }
     }
   },
@@ -4618,9 +4618,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380612.pdf",
+        "pdf": "/files/Licences_bank/380612.pdf",
         "fund": "/not-paying/liquidation/121-zlato",
-        "minfin": "https://minfin.com.ua/ua/company/zlatobank"
+        "minfin": "/ua/company/zlatobank"
       }
     }
   },
@@ -4676,9 +4676,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/351931.pdf",
+        "pdf": "/files/Licences_bank/351931.pdf",
         "fund": "/not-paying/liquidation/43-zoloti-vorota",
-        "minfin": "https://minfin.com.ua/ua/company/zolotye-vorota"
+        "minfin": "/ua/company/zolotye-vorota"
       }
     }
   },
@@ -4704,7 +4704,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/333238.pdf"
+        "pdf": "/files/Licences_bank/333238.pdf"
       }
     }
   },
@@ -4762,8 +4762,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=268",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322540.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/cib"
+        "pdf": "/files/Licences_bank/322540.pdf",
+        "minfin": "/ua/company/cib"
       }
     }
   },
@@ -4819,9 +4819,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380399.pdf",
+        "pdf": "/files/Licences_bank/380399.pdf",
         "fund": "/not-paying/liquidation/22-kambio",
-        "minfin": "https://minfin.com.ua/ua/company/cambio"
+        "minfin": "/ua/company/cambio"
       }
     }
   },
@@ -4877,9 +4877,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/334828.pdf",
+        "pdf": "/files/Licences_bank/334828.pdf",
         "fund": "/not-paying/liquidation/131-pat-akb-kapital",
-        "minfin": "https://minfin.com.ua/ua/company/capital"
+        "minfin": "/ua/company/capital"
       }
     }
   },
@@ -4911,7 +4911,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300540.pdf",
+        "pdf": "/files/Licences_bank/300540.pdf",
         "fund": "/not-paying/completed/75-bank-reg-rozv"
       }
     }
@@ -4992,9 +4992,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322498.pdf",
+        "pdf": "/files/Licences_bank/322498.pdf",
         "fund": "/not-paying/liquidation/119-kiyv",
-        "minfin": "https://minfin.com.ua/ua/company/kiev"
+        "minfin": "/ua/company/kiev"
       }
     }
   },
@@ -5050,9 +5050,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/319092.pdf",
+        "pdf": "/files/Licences_bank/319092.pdf",
         "fund": "/not-paying/liquidation/114-kyivska-rus",
-        "minfin": "https://minfin.com.ua/ua/company/kievskaya-rus"
+        "minfin": "/ua/company/kievskaya-rus"
       }
     }
   },
@@ -5130,8 +5130,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=185",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300647.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/clearing-house"
+        "pdf": "/files/Licences_bank/300647.pdf",
+        "minfin": "/ua/company/clearing-house"
       }
     }
   },
@@ -5179,9 +5179,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/306704.pdf",
+        "pdf": "/files/Licences_bank/306704.pdf",
         "fund": "/not-paying/banky-likvidovani-fondom/174-pat-klasykbank",
-        "minfin": "https://minfin.com.ua/ua/company/classic-bank"
+        "minfin": "/ua/company/classic-bank"
       }
     }
   },
@@ -5207,7 +5207,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320791.pdf"
+        "pdf": "/files/Licences_bank/320791.pdf"
       }
     }
   },
@@ -5233,7 +5233,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/333874.pdf"
+        "pdf": "/files/Licences_bank/333874.pdf"
       }
     }
   },
@@ -5292,8 +5292,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=95",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/312248.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/cominvestbank"
+        "pdf": "/files/Licences_bank/312248.pdf",
+        "minfin": "/ua/company/cominvestbank"
       }
     }
   },
@@ -5348,8 +5348,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=25482",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/307350.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/concord"
+        "pdf": "/files/Licences_bank/307350.pdf",
+        "minfin": "/ua/company/concord"
       }
     }
   },
@@ -5374,7 +5374,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/328083.pdf"
+        "pdf": "/files/Licences_bank/328083.pdf"
       }
     }
   },
@@ -5431,9 +5431,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322465.pdf",
+        "pdf": "/files/Licences_bank/322465.pdf",
         "fund": "/not-paying/liquidation/148-bank-kontrakt",
-        "minfin": "https://minfin.com.ua/ua/company/contract"
+        "minfin": "/ua/company/contract"
       }
     }
   },
@@ -5466,7 +5466,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/307112.pdf",
+        "pdf": "/files/Licences_bank/307112.pdf",
         "fund": "/not-paying/completed/64-dialogbank"
       }
     }
@@ -5527,8 +5527,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=249",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300614.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/credit-agricole"
+        "pdf": "/files/Licences_bank/300614.pdf",
+        "minfin": "/ua/company/credit-agricole"
       }
     }
   },
@@ -5557,7 +5557,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300379.pdf"
+        "pdf": "/files/Licences_bank/300379.pdf"
       }
     }
   },
@@ -5583,7 +5583,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300562.pdf"
+        "pdf": "/files/Licences_bank/300562.pdf"
       }
     }
   },
@@ -5639,8 +5639,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=25655",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380366.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/credit-europe-bank"
+        "pdf": "/files/Licences_bank/380366.pdf",
+        "minfin": "/ua/company/credit-europe-bank"
       }
     }
   },
@@ -5703,8 +5703,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=221",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/339500.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/taskombank"
+        "pdf": "/files/Licences_bank/339500.pdf",
+        "minfin": "/ua/company/taskombank"
       }
     }
   },
@@ -5741,8 +5741,8 @@
         "minfin": 45
       },
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380571.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/credit-optima"
+        "pdf": "/files/Licences_bank/380571.pdf",
+        "minfin": "/ua/company/credit-optima"
       }
     }
   },
@@ -5799,8 +5799,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=26321",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380441.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/creditwest-bank"
+        "pdf": "/files/Licences_bank/380441.pdf",
+        "minfin": "/ua/company/creditwest-bank"
       }
     }
   },
@@ -5857,9 +5857,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300863.pdf",
+        "pdf": "/files/Licences_bank/300863.pdf",
         "fund": "/not-paying/liquidation/116-kreditprombank",
-        "minfin": "https://minfin.com.ua/ua/company/creditprombank"
+        "minfin": "/ua/company/creditprombank"
       }
     }
   },
@@ -5916,8 +5916,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=227",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/325365.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/kredobank"
+        "pdf": "/files/Licences_bank/325365.pdf",
+        "minfin": "/ua/company/kredobank"
       }
     }
   },
@@ -5943,7 +5943,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/324667.pdf"
+        "pdf": "/files/Licences_bank/324667.pdf"
       }
     }
   },
@@ -5970,7 +5970,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/324816.pdf"
+        "pdf": "/files/Licences_bank/324816.pdf"
       }
     }
   },
@@ -5996,7 +5996,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/324355.pdf"
+        "pdf": "/files/Licences_bank/324355.pdf"
       }
     }
   },
@@ -6052,8 +6052,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=51316",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/339050.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/crystalbank"
+        "pdf": "/files/Licences_bank/339050.pdf",
+        "minfin": "/ua/company/crystalbank"
       }
     }
   },
@@ -6112,9 +6112,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380292.pdf",
+        "pdf": "/files/Licences_bank/380292.pdf",
         "fund": "/not-paying/liquidation/180-pat-ksh-bank",
-        "minfin": "https://minfin.com.ua/ua/company/ksgbank"
+        "minfin": "/ua/company/ksgbank"
       }
     }
   },
@@ -6140,7 +6140,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380010.pdf"
+        "pdf": "/files/Licences_bank/380010.pdf"
       }
     }
   },
@@ -6196,9 +6196,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300056.pdf",
+        "pdf": "/files/Licences_bank/300056.pdf",
         "fund": "/not-paying/liquidation/28-legbank",
-        "minfin": "https://minfin.com.ua/ua/company/legbank"
+        "minfin": "/ua/company/legbank"
       }
     }
   },
@@ -6253,8 +6253,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=62",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/325268.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/lvov"
+        "pdf": "/files/Licences_bank/325268.pdf",
+        "minfin": "/ua/company/lvov"
       }
     }
   },
@@ -6310,8 +6310,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=33468",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380582.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/ii-bank"
+        "pdf": "/files/Licences_bank/380582.pdf",
+        "minfin": "/ua/company/ii-bank"
       }
     }
   },
@@ -6367,8 +6367,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=258",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/328760.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/misto-bank"
+        "pdf": "/files/Licences_bank/328760.pdf",
+        "minfin": "/ua/company/misto-bank"
       }
     }
   },
@@ -6428,9 +6428,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/339339.pdf",
+        "pdf": "/files/Licences_bank/339339.pdf",
         "fund": "/not-paying/liquidation/30-mis-kom-bank",
-        "minfin": "https://minfin.com.ua/ua/company/citycommercebank"
+        "minfin": "/ua/company/citycommercebank"
       }
     }
   },
@@ -6487,8 +6487,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=237",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/351629.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/megabank"
+        "pdf": "/files/Licences_bank/351629.pdf",
+        "minfin": "/ua/company/megabank"
       }
     }
   },
@@ -6544,9 +6544,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/307435.pdf",
+        "pdf": "/files/Licences_bank/307435.pdf",
         "fund": "/not-paying/liquidation/31-melior-bank",
-        "minfin": "https://minfin.com.ua/ua/company/melior"
+        "minfin": "/ua/company/melior"
       }
     }
   },
@@ -6602,9 +6602,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/351663.pdf",
+        "pdf": "/files/Licences_bank/351663.pdf",
         "fund": "/not-paying/liquidation/53-mercury",
-        "minfin": "https://minfin.com.ua/ua/company/mercury"
+        "minfin": "/ua/company/mercury"
       }
     }
   },
@@ -6630,7 +6630,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322818.pdf"
+        "pdf": "/files/Licences_bank/322818.pdf"
       }
     }
   },
@@ -6688,8 +6688,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=134",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/313582.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/metabank"
+        "pdf": "/files/Licences_bank/313582.pdf",
+        "minfin": "/ua/company/metabank"
       }
     }
   },
@@ -6745,9 +6745,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380935.pdf",
+        "pdf": "/files/Licences_bank/380935.pdf",
         "fund": "/not-paying/liquidation/171-pat-bank-mykhaylivskyy",
-        "minfin": "https://minfin.com.ua/ua/company/mihailovskiy"
+        "minfin": "/ua/company/mihailovskiy"
       }
     }
   },
@@ -6793,9 +6793,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/324742.pdf",
+        "pdf": "/files/Licences_bank/324742.pdf",
         "fund": "/not-paying/liquidation/137-bank-morskyi",
-        "minfin": "https://minfin.com.ua/ua/company/morskoy"
+        "minfin": "/ua/company/morskoy"
       }
     }
   },
@@ -6851,8 +6851,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=30620",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/313009.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/motor-bank"
+        "pdf": "/files/Licences_bank/313009.pdf",
+        "minfin": "/ua/company/motor-bank"
       }
     }
   },
@@ -6879,7 +6879,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/331304.pdf"
+        "pdf": "/files/Licences_bank/331304.pdf"
       }
     }
   },
@@ -6941,8 +6941,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=231",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/328168.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/marfinbank"
+        "pdf": "/files/Licences_bank/328168.pdf",
+        "minfin": "/ua/company/marfinbank"
       }
     }
   },
@@ -6998,9 +6998,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380764.pdf",
+        "pdf": "/files/Licences_bank/380764.pdf",
         "fund": "/not-paying/liquidation/97-nadra",
-        "minfin": "https://minfin.com.ua/ua/company/nadra"
+        "minfin": "/ua/company/nadra"
       }
     }
   },
@@ -7027,7 +7027,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300090.pdf"
+        "pdf": "/files/Licences_bank/300090.pdf"
       }
     }
   },
@@ -7071,8 +7071,8 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322432.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/narodniy-kapital"
+        "pdf": "/files/Licences_bank/322432.pdf",
+        "minfin": "/ua/company/narodniy-kapital"
       }
     }
   },
@@ -7129,9 +7129,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300498.pdf",
+        "pdf": "/files/Licences_bank/300498.pdf",
         "fund": "/not-paying/liquidation/146-at-bank-natsionalni-investytsii",
-        "minfin": "https://minfin.com.ua/ua/company/bni"
+        "minfin": "/ua/company/bni"
       }
     }
   },
@@ -7188,9 +7188,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320702.pdf",
+        "pdf": "/files/Licences_bank/320702.pdf",
         "fund": "/not-paying/liquidation/127-national-credit",
-        "minfin": "https://minfin.com.ua/ua/company/natsionalniy-kredit"
+        "minfin": "/ua/company/natsionalniy-kredit"
       }
     }
   },
@@ -7222,7 +7222,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/313690.pdf",
+        "pdf": "/files/Licences_bank/313690.pdf",
         "fund": "/not-paying/completed/87-nash-bank"
       }
     }
@@ -7248,7 +7248,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322476.pdf"
+        "pdf": "/files/Licences_bank/322476.pdf"
       }
     }
   },
@@ -7338,9 +7338,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/305062.pdf",
+        "pdf": "/files/Licences_bank/305062.pdf",
         "fund": "/not-paying/liquidation/208-akb-novyy",
-        "minfin": "https://minfin.com.ua/ua/company/new"
+        "minfin": "/ua/company/new"
       }
     }
   },
@@ -7366,7 +7366,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/328072.pdf"
+        "pdf": "/files/Licences_bank/328072.pdf"
       }
     }
   },
@@ -7397,7 +7397,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/328102.pdf",
+        "pdf": "/files/Licences_bank/328102.pdf",
         "fund": "/not-paying/completed/78-odesa-bank"
       }
     }
@@ -7457,8 +7457,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=64",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/325990.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/oksi-bank"
+        "pdf": "/files/Licences_bank/325990.pdf",
+        "minfin": "/ua/company/oksi-bank"
       }
     }
   },
@@ -7488,7 +7488,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322885.pdf",
+        "pdf": "/files/Licences_bank/322885.pdf",
         "fund": "/not-paying/completed/88-olbank"
       }
     }
@@ -7540,7 +7540,7 @@
       "id": {},
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300164.pdf",
+        "pdf": "/files/Licences_bank/300164.pdf",
         "fund": "/not-paying/liquidation/117-omega"
       }
     }
@@ -7597,8 +7597,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=190",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300528.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/otp-bank"
+        "pdf": "/files/Licences_bank/300528.pdf",
+        "minfin": "/ua/company/otp-bank"
       }
     }
   },
@@ -7649,8 +7649,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=6",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300465.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/oschadbank"
+        "pdf": "/files/Licences_bank/300465.pdf",
+        "minfin": "/ua/company/oschadbank"
       }
     }
   },
@@ -7707,9 +7707,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/335946.pdf",
+        "pdf": "/files/Licences_bank/335946.pdf",
         "fund": "/not-paying/liquidation/49-pivdenkombank",
-        "minfin": "https://minfin.com.ua/ua/company/pivdencombank"
+        "minfin": "/ua/company/pivdencombank"
       }
     }
   },
@@ -7764,8 +7764,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=72",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/328209.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/pivdenny"
+        "pdf": "/files/Licences_bank/328209.pdf",
+        "minfin": "/ua/company/pivdenny"
       }
     }
   },
@@ -7822,8 +7822,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=272",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300658.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/piraeus-bank"
+        "pdf": "/files/Licences_bank/300658.pdf",
+        "minfin": "/ua/company/piraeus-bank"
       }
     }
   },
@@ -7849,7 +7849,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/334958.pdf"
+        "pdf": "/files/Licences_bank/334958.pdf"
       }
     }
   },
@@ -7904,8 +7904,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=186",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300506.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/fib"
+        "pdf": "/files/Licences_bank/300506.pdf",
+        "minfin": "/ua/company/fib"
       }
     }
   },
@@ -7963,9 +7963,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300120.pdf",
+        "pdf": "/files/Licences_bank/300120.pdf",
         "fund": "/not-paying/liquidation/164-pat-bank-petrokommerts-ukrayina",
-        "minfin": "https://minfin.com.ua/ua/company/pku"
+        "minfin": "/ua/company/pku"
       }
     }
   },
@@ -8016,9 +8016,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380388.pdf",
+        "pdf": "/files/Licences_bank/380388.pdf",
         "fund": "/not-paying/liquidation/190-pat-platynum-bank",
-        "minfin": "https://minfin.com.ua/ua/company/platinumbank"
+        "minfin": "/ua/company/platinumbank"
       }
     }
   },
@@ -8044,7 +8044,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/315568.pdf"
+        "pdf": "/files/Licences_bank/315568.pdf"
       }
     }
   },
@@ -8099,8 +8099,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=33",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/353100.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/policombank"
+        "pdf": "/files/Licences_bank/353100.pdf",
+        "minfin": "/ua/company/policombank"
       }
     }
   },
@@ -8157,8 +8157,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=78",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/331489.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/poltava-bank"
+        "pdf": "/files/Licences_bank/331489.pdf",
+        "minfin": "/ua/company/poltava-bank"
       }
     }
   },
@@ -8211,8 +8211,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=47216",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/339016.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/bankportal"
+        "pdf": "/files/Licences_bank/339016.pdf",
+        "minfin": "/ua/company/bankportal"
       }
     }
   },
@@ -8270,9 +8270,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/328180.pdf",
+        "pdf": "/files/Licences_bank/328180.pdf",
         "fund": "/not-paying/liquidation/35-porto-franko",
-        "minfin": "https://minfin.com.ua/ua/company/porto-franko"
+        "minfin": "/ua/company/porto-franko"
       }
     }
   },
@@ -8319,8 +8319,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=100",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380838.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/pravex-bank"
+        "pdf": "/files/Licences_bank/380838.pdf",
+        "minfin": "/ua/company/pravex-bank"
       }
     }
   },
@@ -8402,9 +8402,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300669.pdf",
+        "pdf": "/files/Licences_bank/300669.pdf",
         "fund": "/not-paying/liquidation/34-praym-bank",
-        "minfin": "https://minfin.com.ua/ua/company/prime-bank"
+        "minfin": "/ua/company/prime-bank"
       }
     }
   },
@@ -8460,9 +8460,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/339555.pdf",
+        "pdf": "/files/Licences_bank/339555.pdf",
         "fund": "/not-paying/liquidation/159-pat-kb-premium",
-        "minfin": "https://minfin.com.ua/ua/company/premium"
+        "minfin": "/ua/company/premium"
       }
     }
   },
@@ -8519,9 +8519,9 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=31",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/305299.pdf",
+        "pdf": "/files/Licences_bank/305299.pdf",
         "fund": "/not-paying/banks-sold-to-state/188-pat-kb-pryvatbank",
-        "minfin": "https://minfin.com.ua/ua/company/privatbank"
+        "minfin": "/ua/company/privatbank"
       }
     }
   },
@@ -8546,7 +8546,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/306759.pdf"
+        "pdf": "/files/Licences_bank/306759.pdf"
       }
     }
   },
@@ -8603,8 +8603,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=192",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320984.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/procredit_bank"
+        "pdf": "/files/Licences_bank/320984.pdf",
+        "minfin": "/ua/company/procredit_bank"
       }
     }
   },
@@ -8662,8 +8662,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=3",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300012.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/prominvestbank"
+        "pdf": "/files/Licences_bank/300012.pdf",
+        "minfin": "/ua/company/prominvestbank"
       }
     }
   },
@@ -8720,9 +8720,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/334992.pdf",
+        "pdf": "/files/Licences_bank/334992.pdf",
         "fund": "/not-paying/liquidation/50-promekonombank",
-        "minfin": "https://minfin.com.ua/ua/company/promeconombank"
+        "minfin": "/ua/company/promeconombank"
       }
     }
   },
@@ -8758,8 +8758,8 @@
         "minfin": 210
       },
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/331768.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/pfb"
+        "pdf": "/files/Licences_bank/331768.pdf",
+        "minfin": "/ua/company/pfb"
       }
     }
   },
@@ -8817,9 +8817,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/334594.pdf",
+        "pdf": "/files/Licences_bank/334594.pdf",
         "fund": "/not-paying/liquidation/94-profin-bank",
-        "minfin": "https://minfin.com.ua/ua/company/profin-bank"
+        "minfin": "/ua/company/profin-bank"
       }
     }
   },
@@ -8902,8 +8902,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=80",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/334851.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/pumb"
+        "pdf": "/files/Licences_bank/334851.pdf",
+        "minfin": "/ua/company/pumb"
       }
     }
   },
@@ -8959,8 +8959,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=286",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/306500.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/radabank"
+        "pdf": "/files/Licences_bank/306500.pdf",
+        "minfin": "/ua/company/radabank"
       }
     }
   },
@@ -9016,9 +9016,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/319111.pdf",
+        "pdf": "/files/Licences_bank/319111.pdf",
         "fund": "/not-paying/liquidation/130-pat-radykal-bank",
-        "minfin": "https://minfin.com.ua/ua/company/radical-bank"
+        "minfin": "/ua/company/radical-bank"
       }
     }
   },
@@ -9074,8 +9074,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=24",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300335.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/aval"
+        "pdf": "/files/Licences_bank/300335.pdf",
+        "minfin": "/ua/company/aval"
       }
     }
   },
@@ -9131,8 +9131,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=52883",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/339072.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/rwsbank"
+        "pdf": "/files/Licences_bank/339072.pdf",
+        "minfin": "/ua/company/rwsbank"
       }
     }
   },
@@ -9173,9 +9173,9 @@
         "minfin": 211
       },
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380667.pdf",
+        "pdf": "/files/Licences_bank/380667.pdf",
         "fund": "/not-paying/banky-likvidovani-fondom/58-erde-bank",
-        "minfin": "https://minfin.com.ua/ua/company/rd-bank"
+        "minfin": "/ua/company/rd-bank"
       }
     }
   },
@@ -9232,9 +9232,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/351588.pdf",
+        "pdf": "/files/Licences_bank/351588.pdf",
         "fund": "/not-paying/liquidation/55-real-bank",
-        "minfin": "https://minfin.com.ua/ua/company/real-bank"
+        "minfin": "/ua/company/real-bank"
       }
     }
   },
@@ -9261,7 +9261,7 @@
         "minfin": 122
       },
       "link": {
-        "minfin": "https://minfin.com.ua/ua/company/rccf"
+        "minfin": "/ua/company/rccf"
       }
     }
   },
@@ -9319,9 +9319,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/321712.pdf",
+        "pdf": "/files/Licences_bank/321712.pdf",
         "fund": "/not-paying/liquidation/160-at-rodovid-bank",
-        "minfin": "https://minfin.com.ua/ua/company/rodovid-bank"
+        "minfin": "/ua/company/rodovid-bank"
       }
     }
   },
@@ -9376,8 +9376,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=38874",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/344443.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/settlement"
+        "pdf": "/files/Licences_bank/344443.pdf",
+        "minfin": "/ua/company/settlement"
       }
     }
   },
@@ -9407,7 +9407,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322692.pdf",
+        "pdf": "/files/Licences_bank/322692.pdf",
         "fund": "/not-paying/completed/86-rostok-bank"
       }
     }
@@ -9433,7 +9433,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/321325.pdf"
+        "pdf": "/files/Licences_bank/321325.pdf"
       }
     }
   },
@@ -9487,8 +9487,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=191",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300584.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/citibank"
+        "pdf": "/files/Licences_bank/300584.pdf",
+        "minfin": "/ua/company/citibank"
       }
     }
   },
@@ -9543,8 +9543,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=41118",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380816.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/bank-sich"
+        "pdf": "/files/Licences_bank/380816.pdf",
+        "minfin": "/ua/company/bank-sich"
       }
     }
   },
@@ -9602,8 +9602,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=193",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320627.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/sberbank"
+        "pdf": "/files/Licences_bank/320627.pdf",
+        "minfin": "/ua/company/sberbank"
       }
     }
   },
@@ -9658,8 +9658,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=40403",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380797.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/sebcorpratebank"
+        "pdf": "/files/Licences_bank/380797.pdf",
+        "minfin": "/ua/company/sebcorpratebank"
       }
     }
   },
@@ -9684,7 +9684,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/312776.pdf"
+        "pdf": "/files/Licences_bank/312776.pdf"
       }
     }
   },
@@ -9714,7 +9714,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322711.pdf",
+        "pdf": "/files/Licences_bank/322711.pdf",
         "fund": "/not-paying/completed/65-syntez"
       }
     }
@@ -9771,8 +9771,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=87",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/351254.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/skybank"
+        "pdf": "/files/Licences_bank/351254.pdf",
+        "minfin": "/ua/company/skybank"
       }
     }
   },
@@ -9803,7 +9803,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/321466.pdf",
+        "pdf": "/files/Licences_bank/321466.pdf",
         "fund": "/not-paying/completed/76-natsional-standart"
       }
     }
@@ -9834,7 +9834,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/313797.pdf",
+        "pdf": "/files/Licences_bank/313797.pdf",
         "fund": "/not-paying/completed/90-sloviansky"
       }
     }
@@ -9893,9 +9893,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380786.pdf",
+        "pdf": "/files/Licences_bank/380786.pdf",
         "fund": "/not-paying/liquidation/173-puat-smartbank",
-        "minfin": "https://minfin.com.ua/ua/company/smartbank"
+        "minfin": "/ua/company/smartbank"
       }
     }
   },
@@ -9951,9 +9951,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380861.pdf",
+        "pdf": "/files/Licences_bank/380861.pdf",
         "fund": "/not-paying/liquidation/153-pat-bank-sofiyskyy",
-        "minfin": "https://minfin.com.ua/ua/company/sf"
+        "minfin": "/ua/company/sf"
       }
     }
   },
@@ -9984,7 +9984,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/388313.pdf",
+        "pdf": "/files/Licences_bank/388313.pdf",
         "fund": "/not-paying/completed/62-kb-sotskom-bank"
       }
     }
@@ -10041,9 +10041,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380515.pdf",
+        "pdf": "/files/Licences_bank/380515.pdf",
         "fund": "/not-paying/liquidation/163-at-kb-soyuz",
-        "minfin": "https://minfin.com.ua/ua/company/soyuz"
+        "minfin": "/ua/company/soyuz"
       }
     }
   },
@@ -10094,7 +10094,7 @@
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
         "fund": "/not-paying/liquidation/138-at-sp-bank",
-        "minfin": "https://minfin.com.ua/ua/company/vpbank"
+        "minfin": "/ua/company/vpbank"
       }
     }
   },
@@ -10150,9 +10150,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380690.pdf",
+        "pdf": "/files/Licences_bank/380690.pdf",
         "fund": "/not-paying/liquidation/120-standart",
-        "minfin": "https://minfin.com.ua/ua/company/standart"
+        "minfin": "/ua/company/standart"
       }
     }
   },
@@ -10209,9 +10209,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/321477.pdf",
+        "pdf": "/files/Licences_bank/321477.pdf",
         "fund": "/not-paying/liquidation/46-starokyiv-bank",
-        "minfin": "https://minfin.com.ua/ua/company/starokievskiy-bank"
+        "minfin": "/ua/company/starokievskiy-bank"
       }
     }
   },
@@ -10241,7 +10241,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380623.pdf",
+        "pdf": "/files/Licences_bank/380623.pdf",
         "fund": "/not-paying/completed/61-stolytsia"
       }
     }
@@ -10299,9 +10299,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/397133.pdf",
+        "pdf": "/files/Licences_bank/397133.pdf",
         "fund": "/not-paying/liquidation/129-pat-ab-stolychnyy",
-        "minfin": "https://minfin.com.ua/ua/company/stolichnyi"
+        "minfin": "/ua/company/stolichnyi"
       }
     }
   },
@@ -10328,7 +10328,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/304706.pdf"
+        "pdf": "/files/Licences_bank/304706.pdf"
       }
     }
   },
@@ -10360,7 +10360,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322658.pdf",
+        "pdf": "/files/Licences_bank/322658.pdf",
         "fund": "/not-paying/completed/73-shid-evro-bank"
       }
     }
@@ -10386,7 +10386,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/384685.pdf"
+        "pdf": "/files/Licences_bank/384685.pdf"
       }
     }
   },
@@ -10427,9 +10427,9 @@
         "minfin": 60
       },
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300788.pdf",
+        "pdf": "/files/Licences_bank/300788.pdf",
         "fund": "/not-paying/banky-likvidovani-fondom/57-tavryka",
-        "minfin": "https://minfin.com.ua/ua/company/tavrika"
+        "minfin": "/ua/company/tavrika"
       }
     }
   },
@@ -10456,7 +10456,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320650.pdf"
+        "pdf": "/files/Licences_bank/320650.pdf"
       }
     }
   },
@@ -10482,7 +10482,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/338255.pdf"
+        "pdf": "/files/Licences_bank/338255.pdf"
       }
     }
   },
@@ -10542,9 +10542,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380601.pdf",
+        "pdf": "/files/Licences_bank/380601.pdf",
         "fund": "/not-paying/liquidation/41-terra-bank",
-        "minfin": "https://minfin.com.ua/ua/company/terra-bank"
+        "minfin": "/ua/company/terra-bank"
       }
     }
   },
@@ -10602,9 +10602,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322830.pdf",
+        "pdf": "/files/Licences_bank/322830.pdf",
         "fund": "/not-paying/liquidation/158-at-kb-tk-kredyt",
-        "minfin": "https://minfin.com.ua/ua/company/tk-credit"
+        "minfin": "/ua/company/tk-credit"
       }
     }
   },
@@ -10632,7 +10632,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/321660.pdf"
+        "pdf": "/files/Licences_bank/321660.pdf"
       }
     }
   },
@@ -10663,7 +10663,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300089.pdf",
+        "pdf": "/files/Licences_bank/300089.pdf",
         "fund": "/not-paying/completed/70-transbank"
       }
     }
@@ -10722,9 +10722,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380474.pdf",
+        "pdf": "/files/Licences_bank/380474.pdf",
         "fund": "/not-paying/liquidation/185-pat-bank-trast",
-        "minfin": "https://minfin.com.ua/ua/company/bank-trust"
+        "minfin": "/ua/company/bank-trust"
       }
     }
   },
@@ -10780,8 +10780,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=17923",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380106.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/trust-capital"
+        "pdf": "/files/Licences_bank/380106.pdf",
+        "minfin": "/ua/company/trust-capital"
       }
     }
   },
@@ -10837,9 +10837,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322625.pdf",
+        "pdf": "/files/Licences_bank/322625.pdf",
         "fund": "/not-paying/liquidation/95-ukoopspilka",
-        "minfin": "https://minfin.com.ua/ua/company/ukoopspilka"
+        "minfin": "/ua/company/ukoopspilka"
       }
     }
   },
@@ -10896,9 +10896,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300142.pdf",
+        "pdf": "/files/Licences_bank/300142.pdf",
         "fund": "/not-paying/liquidation/154-pat-ukrinbank",
-        "minfin": "https://minfin.com.ua/ua/company/ukrinbank"
+        "minfin": "/ua/company/ukrinbank"
       }
     }
   },
@@ -10929,7 +10929,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300410.pdf",
+        "pdf": "/files/Licences_bank/300410.pdf",
         "fund": "/not-paying/completed/89-ukraina"
       }
     }
@@ -10960,7 +10960,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380128.pdf",
+        "pdf": "/files/Licences_bank/380128.pdf",
         "fund": "/not-paying/completed/74-ukr-fin-group"
       }
     }
@@ -11017,8 +11017,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=17985",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380883.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/ubrr"
+        "pdf": "/files/Licences_bank/380883.pdf",
+        "minfin": "/ua/company/ubrr"
       }
     }
   },
@@ -11075,8 +11075,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=244",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320371.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/ukrcapital"
+        "pdf": "/files/Licences_bank/320371.pdf",
+        "minfin": "/ua/company/ukrcapital"
       }
     }
   },
@@ -11136,9 +11136,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/334969.pdf",
+        "pdf": "/files/Licences_bank/334969.pdf",
         "fund": "/not-paying/liquidation/93-ukrbiznesbank",
-        "minfin": "https://minfin.com.ua/ua/company/ubb"
+        "minfin": "/ua/company/ubb"
       }
     }
   },
@@ -11197,8 +11197,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=18334",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380377.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/ukrstroyinvestbank"
+        "pdf": "/files/Licences_bank/380377.pdf",
+        "minfin": "/ua/company/ukrstroyinvestbank"
       }
     }
   },
@@ -11255,8 +11255,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=281",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320478.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/ukrgasbank"
+        "pdf": "/files/Licences_bank/320478.pdf",
+        "minfin": "/ua/company/ukrgasbank"
       }
     }
   },
@@ -11313,9 +11313,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/320843.pdf",
+        "pdf": "/files/Licences_bank/320843.pdf",
         "fund": "/not-paying/liquidation/113-ukrgazprombank",
-        "minfin": "https://minfin.com.ua/ua/company/ukrgazprombank"
+        "minfin": "/ua/company/ukrgazprombank"
       }
     }
   },
@@ -11374,8 +11374,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=2",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322313.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/ukreximbank"
+        "pdf": "/files/Licences_bank/322313.pdf",
+        "minfin": "/ua/company/ukreximbank"
       }
     }
   },
@@ -11433,9 +11433,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/304988.pdf",
+        "pdf": "/files/Licences_bank/304988.pdf",
         "fund": "/not-paying/liquidation/124-ukr-komun-bank",
-        "minfin": "https://minfin.com.ua/ua/company/ukrcommunbank"
+        "minfin": "/ua/company/ukrcommunbank"
       }
     }
   },
@@ -11462,7 +11462,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300294.pdf"
+        "pdf": "/files/Licences_bank/300294.pdf"
       }
     }
   },
@@ -11518,8 +11518,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=91",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/351005.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/ukrsibbank"
+        "pdf": "/files/Licences_bank/351005.pdf",
+        "minfin": "/ua/company/ukrsibbank"
       }
     }
   },
@@ -11575,8 +11575,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=5",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300023.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/ukrsocbank"
+        "pdf": "/files/Licences_bank/300023.pdf",
+        "minfin": "/ua/company/ukrsocbank"
       }
     }
   },
@@ -11601,7 +11601,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322164.pdf"
+        "pdf": "/files/Licences_bank/322164.pdf"
       }
     }
   },
@@ -11660,8 +11660,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=270",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322001.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/universal-bank"
+        "pdf": "/files/Licences_bank/322001.pdf",
+        "minfin": "/ua/company/universal-bank"
       }
     }
   },
@@ -11720,9 +11720,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/335902.pdf",
+        "pdf": "/files/Licences_bank/335902.pdf",
         "fund": "/not-paying/liquidation/149-pat-unikombank",
-        "minfin": "https://minfin.com.ua/ua/company/ukrincombank"
+        "minfin": "/ua/company/ukrincombank"
       }
     }
   },
@@ -11751,7 +11751,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/303536.pdf"
+        "pdf": "/files/Licences_bank/303536.pdf"
       }
     }
   },
@@ -11811,9 +11811,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300205.pdf",
+        "pdf": "/files/Licences_bank/300205.pdf",
         "fund": "/not-paying/liquidation/126-upb",
-        "minfin": "https://minfin.com.ua/ua/company/upb"
+        "minfin": "/ua/company/upb"
       }
     }
   },
@@ -11870,9 +11870,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/377777.pdf",
+        "pdf": "/files/Licences_bank/377777.pdf",
         "fund": "/not-paying/liquidation/42-ukr-fin-svit",
-        "minfin": "https://minfin.com.ua/ua/company/ufw-bank"
+        "minfin": "/ua/company/ufw-bank"
       }
     }
   },
@@ -11931,9 +11931,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300175.pdf",
+        "pdf": "/files/Licences_bank/300175.pdf",
         "fund": "/not-paying/liquidation/170-puat-fidobank",
-        "minfin": "https://minfin.com.ua/ua/company/fidobank"
+        "minfin": "/ua/company/fidobank"
       }
     }
   },
@@ -11987,8 +11987,8 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300896.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/tmm-bank"
+        "pdf": "/files/Licences_bank/300896.pdf",
+        "minfin": "/ua/company/tmm-bank"
       }
     }
   },
@@ -12046,9 +12046,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300131.pdf",
+        "pdf": "/files/Licences_bank/300131.pdf",
         "fund": "/not-paying/liquidation/145-at-bank-finansy-ta-kredyt",
-        "minfin": "https://minfin.com.ua/ua/company/finansy-i-kredit"
+        "minfin": "/ua/company/finansy-i-kredit"
       }
     }
   },
@@ -12107,9 +12107,9 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=21393",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380054.pdf",
+        "pdf": "/files/Licences_bank/380054.pdf",
         "fund": "/not-paying/temporary/128-finansovaya-iniciativa",
-        "minfin": "https://minfin.com.ua/ua/company/finansovaya-iniciativa"
+        "minfin": "/ua/company/finansovaya-iniciativa"
       }
     }
   },
@@ -12144,8 +12144,8 @@
         "minfin": 469
       },
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380872.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/financial-partner"
+        "pdf": "/files/Licences_bank/380872.pdf",
+        "minfin": "/ua/company/financial-partner"
       }
     }
   },
@@ -12185,7 +12185,7 @@
       "api": "1993-12-24"
     },
     "dateIssue": {
-      "api": "2019-01-23",
+      "api": "2017-04-27",
       "nbu": "2017-04-07",
       "pdf": "2017-04-27"
     },
@@ -12200,9 +12200,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/328685.pdf",
+        "pdf": "/files/Licences_bank/328685.pdf",
         "fund": "/not-paying/banky-likvidovani-fondom/202-pat-finbank",
-        "minfin": "https://minfin.com.ua/ua/company/finbank"
+        "minfin": "/ua/company/finbank"
       }
     }
   },
@@ -12247,8 +12247,8 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380311.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/finexbank"
+        "pdf": "/files/Licences_bank/380311.pdf",
+        "minfin": "/ua/company/finexbank"
       }
     }
   },
@@ -12305,9 +12305,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/328599.pdf",
+        "pdf": "/files/Licences_bank/328599.pdf",
         "fund": "/not-paying/liquidation/45-finrostbank",
-        "minfin": "https://minfin.com.ua/ua/company/finrostbank"
+        "minfin": "/ua/company/finrostbank"
       }
     }
   },
@@ -12334,7 +12334,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/351715.pdf"
+        "pdf": "/files/Licences_bank/351715.pdf"
       }
     }
   },
@@ -12390,8 +12390,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=49",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/334840.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/bank-familnyi"
+        "pdf": "/files/Licences_bank/334840.pdf",
+        "minfin": "/ua/company/bank-familnyi"
       }
     }
   },
@@ -12449,8 +12449,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=24345",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380418.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/forward-bank"
+        "pdf": "/files/Licences_bank/380418.pdf",
+        "minfin": "/ua/company/forward-bank"
       }
     }
   },
@@ -12507,9 +12507,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300904.pdf",
+        "pdf": "/files/Licences_bank/300904.pdf",
         "fund": "/not-paying/liquidation/194-at-fortuna-bank",
-        "minfin": "https://minfin.com.ua/ua/company/fortuna-bank"
+        "minfin": "/ua/company/fortuna-bank"
       }
     }
   },
@@ -12566,9 +12566,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322948.pdf",
+        "pdf": "/files/Licences_bank/322948.pdf",
         "fund": "/not-paying/liquidation/52-forum",
-        "minfin": "https://minfin.com.ua/ua/company/bank-forum"
+        "minfin": "/ua/company/bank-forum"
       }
     }
   },
@@ -12625,9 +12625,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/300670.pdf",
+        "pdf": "/files/Licences_bank/300670.pdf",
         "fund": "/not-paying/liquidation/165-pat-kb-khreshchatyk",
-        "minfin": "https://minfin.com.ua/ua/company/khreschatyk"
+        "minfin": "/ua/company/khreschatyk"
       }
     }
   },
@@ -12662,8 +12662,8 @@
         "minfin": 249
       },
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380742.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/center"
+        "pdf": "/files/Licences_bank/380742.pdf",
+        "minfin": "/ua/company/center"
       }
     }
   },
@@ -12713,9 +12713,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/384577.pdf",
+        "pdf": "/files/Licences_bank/384577.pdf",
         "fund": "/not-paying/liquidation/136-pat-chbrr",
-        "minfin": "https://minfin.com.ua/ua/company/chbrr"
+        "minfin": "/ua/company/chbrr"
       }
     }
   },
@@ -12741,7 +12741,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/334936.pdf"
+        "pdf": "/files/Licences_bank/334936.pdf"
       }
     }
   },
@@ -12772,7 +12772,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/305686.pdf",
+        "pdf": "/files/Licences_bank/305686.pdf",
         "fund": "/not-paying/completed/84-premierbank"
       }
     }
@@ -12820,8 +12820,8 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/305987.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/unionstandardbank"
+        "pdf": "/files/Licences_bank/305987.pdf",
+        "minfin": "/ua/company/unionstandardbank"
       }
     }
   },
@@ -12877,9 +12877,9 @@
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/380902.pdf",
+        "pdf": "/files/Licences_bank/380902.pdf",
         "fund": "/not-paying/liquidation/167-pat-bank-yunison",
-        "minfin": "https://minfin.com.ua/ua/company/unisonbank"
+        "minfin": "/ua/company/unisonbank"
       }
     }
   },
@@ -12935,8 +12935,8 @@
       },
       "link": {
         "nbu": "/control/uk/bankdict/bank?id=265",
-        "pdf": "https://bank.gov.ua/files/Licences_bank/322539.pdf",
-        "minfin": "https://minfin.com.ua/ua/company/unexbank"
+        "pdf": "/files/Licences_bank/322539.pdf",
+        "minfin": "/ua/company/unexbank"
       }
     }
   },
@@ -12994,7 +12994,7 @@
     "internal": {
       "id": {},
       "link": {
-        "pdf": "https://bank.gov.ua/files/Licences_bank/324850.pdf"
+        "pdf": "/files/Licences_bank/324850.pdf"
       }
     }
   }
