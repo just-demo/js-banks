@@ -26,7 +26,7 @@ class SourceMinfin {
                         assert.true('No site', site, bank.name);
                         this.audit.end('bank');
                         return {
-                            id: parseInt(bank.id),
+                            id: fixIdMismatch(parseInt(bank.id)),
                             names: [names.normalize(bank.name)],
                             link: '/ua/company/' + bank.alias,
                             sites: arrays.of(site)
@@ -62,6 +62,12 @@ class SourceMinfin {
             });
         });
     }
+}
+
+function fixIdMismatch(id) {
+    // Fix id to match the one in ratings
+    // TODO: why did they change id for Дельта Банк?
+    return id === 174 ? 65 : id;
 }
 
 export default SourceMinfin;

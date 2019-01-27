@@ -2,6 +2,7 @@
 // Node.js configuration -> Node interpreter -> .../node_modules/.bin/babel-node
 import Source from './data-source/source';
 import Audit from "./data-source/audit";
+import files from "./files";
 
 const startTime = new Date();
 const audit = new Audit();

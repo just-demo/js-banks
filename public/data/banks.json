@@ -3794,7 +3794,7 @@
     },
     "internal": {
       "id": {
-        "minfin": 174
+        "minfin": 65
       },
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
@@ -12152,16 +12152,12 @@
   {
     "id": "ФІНБАНК",
     "name": {
-      "api": "ФІНБАНК",
       "nbu": "ФІНБАНК",
       "pdf": "ФІНБАНК",
       "fund": "ФІНБАНК",
       "minfin": "ФІНБАНК"
     },
     "names": {
-      "api": [
-        "ФІНБАНК"
-      ],
       "nbu": [
         "ФІНБАНК"
       ],
@@ -12176,16 +12172,12 @@
       ]
     },
     "active": {
-      "api": false,
       "nbu": false,
       "pdf": false,
       "fund": false
     },
-    "dateOpen": {
-      "api": "1993-12-24"
-    },
+    "dateOpen": {},
     "dateIssue": {
-      "api": "2017-04-27",
       "nbu": "2017-04-07",
       "pdf": "2017-04-27"
     },
