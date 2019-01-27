@@ -15,6 +15,7 @@ import PageRefresh from "./page/PageRefresh";
 import classNames from 'classnames';
 import _ from 'lodash';
 import Disclaimer from "./Disclaimer";
+import PageCharts from "./page/PageCharts";
 
 const styles = () => ({
     activeLink: {
@@ -31,11 +32,15 @@ class ToolBar extends Component {
             title: 'Рейтинги',
             access: 0
         }, {
+            path: '/charts',
+            title: 'Графіки',
+            access: 0
+        }, {
             path: '/banks',
             title: 'Банки',
             access: 1
         }, {
-            path: '/banks/dbf',
+            path: '/dbf',
             title: 'База НБУ',
             access: 1
         }, {
@@ -80,8 +85,9 @@ class ToolBar extends Component {
                 </AppBar>
                 <Disclaimer/>
                 <Route exact path="/" component={PageRatings}/>
-                <Route exact path="/banks" component={PageBanks}/>
-                <Route path="/banks/dbf" component={PageDBF}/>
+                <Route path="/charts" component={PageCharts}/>
+                <Route path="/banks" component={PageBanks}/>
+                <Route path="/dbf" component={PageDBF}/>
                 <Route path="/refresh" component={PageRefresh}/>
                 <Route path="/logs" component={PageLogs}/>
             </div>
