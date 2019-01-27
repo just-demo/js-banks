@@ -1,8 +1,9 @@
-// npx babel-node refresh.js
+// npx babel-node refresh.js > log.txt
 import express from 'express';
 import cors from 'cors';
-import Source from "../../src/node/data-source/source";
-import Audit from "../../src/node/data-source/audit";
+import Source from '../../src/node/data-source/source';
+import Audit from '../../src/node/data-source/audit';
+import cache from '../../src/node/cache';
 
 const port = 3333;
 
@@ -20,7 +21,9 @@ function refresh(restart) {
         audit = new Audit();
         result = null;
         const source = new Source(audit);
-        Promise.all([source.getBanks(), source.getRatings()])
+        // cache.clear()
+        Promise.resolve(true) // do not clear cache in dev mode
+            .then(() => Promise.all([source.getBanks(), source.getRatings()]))
             .then(results => {
                 result = {
                     banks: results[0],

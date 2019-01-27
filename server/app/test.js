@@ -1,4 +1,4 @@
-// npx babel-node app.js
+// npx babel-node test.js
 import express from 'express';
 
 express()

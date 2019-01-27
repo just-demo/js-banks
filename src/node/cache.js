@@ -1,16 +1,17 @@
-import isNode from 'detect-node';
+import _ from 'lodash';
+import path from 'path';
 import files from './files';
 import urls from './urls';
 
-const nodeCache = {
+export default {
     // debug just for troubleshooting
     write(file, obj) {
-        file = '../../data/json/' + file + '.json';
+        file = filePath(file + '.json');
         return perform('WRITE', file, () => files.writeJson(file, obj).then(() => obj))
     },
 
     read(file, url, encoding) {
-        file = '../../data/html/' + file + '.html';
+        file = filePath(file);
         return files.exists(file).then(exists =>
             exists ?
                 perform('READ', file, () => files.read(file)) :
@@ -20,7 +21,7 @@ const nodeCache = {
     },
 
     download(file, url) {
-        file = '../../data/binary/' + file;
+        file = filePath(file);
         return files.exists(file).then(exists =>
             exists ?
                 perform('READ', file, () => files.readRaw(file)) :
@@ -29,51 +30,37 @@ const nodeCache = {
         );
     },
 
-    deleteRead(file) {
-        file = '../../data/html/' + file + '.html';
-        return files.exists(file).then(exists => exists && perform('DELETE', file, () => files.delete(file)));
-    },
-
-    deleteDownload(file) {
-        file = '../../data/binary/' + file;
-        return files.exists(file).then(exists => exists && perform('DELETE', file, () => files.delete(file)));
-    },
-
     calc(cache, operation) {
-        const file = '../../data/calc/' + cache;
+        const file = filePath(cache);
         return files.exists(file).then(exists =>
             exists ?
                 perform('READ', file, () => files.read(file)) :
                 perform('CALC', cache, operation)
                     .then(data => data && files.write(file, data))
         );
+    },
+
+    delete(file) {
+        file = filePath(file);
+        return files.exists(file).then(exists => exists && perform('DELETE', file, () => files.delete(file)));
+    },
+
+    clear() {
+        const dir = cacheDir();
+        return files.exists(dir).then(exists => exists && files.rename(dir, dir + new Date().getTime()));
     }
 };
 
-const browserCache = {
-    // debug just for troubleshooting
-    write(file, obj) {
-        return Promise.resolve(obj);
-    },
-
-    read(file, url) {
-        return proxy('read', file, url);
-    },
-
-    download(file, url) {
-        return proxy('download', file, url);
-    },
-
-    calc(cache, operation) {
-        return perform('CALC', cache, operation);
+function filePath(file) {
+    if (!path.extname(file)) {
+        file += '.html';
     }
-};
+    const subFolder = _.trimStart(path.extname(file), '.');
+    return cacheDir() + '/' + subFolder + '/' + file;
+}
 
-export default isNode ? nodeCache : browserCache;
-
-function proxy(type, file, url) {
-    const proxyUrl = `http://localhost:3333/${type}/${file}?url=${url}`;
-    return perform('PROXY', proxyUrl, () => urls[type](proxyUrl));
+function cacheDir() {
+    return '../../data';
 }
 
 function perform(type, source, operation) {

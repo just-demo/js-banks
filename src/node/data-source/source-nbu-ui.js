@@ -62,7 +62,7 @@ function readActiveBanks(audit) {
                 const name = extractBankPureNameSPC(linkInfo.name);
                 return promiseRetry( (retry, number) => {
                     const cacheFile = 'nbu/banks/' + id;
-                    return Promise.resolve(number > 1 && cache.deleteRead(cacheFile))
+                    return Promise.resolve(number > 1 && cache.delete(cacheFile))
                         .then(() => cache.read(cacheFile, 'https://bank.gov.ua' + link))
                         .then(html => {
                             if (html.includes('<head><title>503 Service Temporarily Unavailable</title></head>')) {

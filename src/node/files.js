@@ -49,5 +49,13 @@ export default {
                 resolve(true)
             )
         );
+    },
+
+    rename(oldFile, newFile) {
+        return new Promise(resolve =>
+            fs.rename(oldFile, newFile, () =>
+                resolve(true)
+            )
+        );
     }
 };

@@ -39,7 +39,7 @@ class SourceNbuPDF {
                     .then(text => text ||
                         promiseRetry( (retry, number) => {
                             const cacheFile = 'nbu/not-banks/pdf/' + file;
-                            return Promise.resolve(number > 1 && cache.deleteDownload(cacheFile))
+                            return Promise.resolve(number > 1 && cache.delete(cacheFile))
                                 .then(() => cache.download(cacheFile, 'https://bank.gov.ua' + link))
                                 .then(pdf => cache.calc(textFile, () => pdfs.parse(pdf)))
                                 .catch(retry);

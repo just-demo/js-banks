@@ -1,14 +1,7 @@
 // npx babel-node main.js
 // Node.js configuration -> Node interpreter -> .../node_modules/.bin/babel-node
-import files from './files';
 import Source from './data-source/source';
 import Audit from "./data-source/audit";
-// import urls from './urls'
-// import pdfs from './pdfs'
-
-// urls.download('http://localhost:3333/download/nbu/not-banks/pdf/320779.pdf?url=https://bank.gov.ua/files/Licences_bank/320779.pdf')
-//     .then(pdf => pdfs.parse(pdf))
-//     .then(text => console.log(text));
 
 const startTime = new Date();
 const audit = new Audit();
