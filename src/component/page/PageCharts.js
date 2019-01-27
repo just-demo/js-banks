@@ -2,12 +2,16 @@ import React, {Component} from 'react';
 import {Line} from 'react-chartjs-2';
 import rcolor from 'rcolor';
 import _ from "lodash";
+import FormControl from "@material-ui/core/FormControl";
+import Select from "@material-ui/core/Select";
+import MenuItem from "@material-ui/core/MenuItem";
 
 class PageCharts extends Component {
     constructor(props) {
         super(props);
         this.state = {
             top: 3,
+            lastOnly: true,
             banks: [],
             ratings: {}
         };
@@ -30,6 +34,21 @@ class PageCharts extends Component {
         return _.maxBy(Object.keys(nameCounts), name => nameCounts[name]) || bank.name.minfin
     }
 
+    topBy(array, number, iteratee) {
+        if (!number || array.length <= number) {
+            return array;
+        }
+
+        array = _.sortBy(array, iteratee).reverse();
+        // Can't simply use slice because multiple equal values may fall into top and thereby exceed requested number
+        const top = [];
+        for (let i = 0; i < array.length && (top.length < number || iteratee(_.last(top)) <= iteratee(array[i])); i++) {
+            top.push(array[i]);
+        }
+
+        return top;
+    }
+
     render() {
         const dates = Object.keys(this.state.ratings).sort();
         const nameById = {};
@@ -37,10 +56,9 @@ class PageCharts extends Component {
             .filter(bank => bank.internal.id.minfin)
             .forEach(bank => nameById[bank.internal.id.minfin] = this.getMostRelevantBankName(bank));
 
-
+        const topSearchScope = this.state.lastOnly && dates.length ? [this.state.ratings[_.last(dates)]] : Object.values(this.state.ratings);
         const top = _.uniq(_.flatten(
-            Object.values(this.state.ratings)
-                .map(dateRatings => _.sortBy(Object.keys(dateRatings), id => dateRatings[id]).reverse().slice(0, this.state.top))
+            topSearchScope.map(dateRatings => this.topBy(Object.keys(dateRatings), this.state.top, id => dateRatings[id]))
         ));
 
         const ratings = top.map(id => {
@@ -73,7 +91,26 @@ class PageCharts extends Component {
         };
 
         return (
-            <Line height={100} data={data}/>
+            <div>
+                <div>
+                    <FormControl variant="outlined" style={{margin: 5}}>
+                        <Select value={this.state.top} onChange={event => this.setState({top: event.target.value})}>
+                            {_.range(0, 11).map(value => (
+                                <MenuItem key={value} value={value}>{value ? 'Топ-' + value : 'Всі'}</MenuItem>
+                            ))}
+                        </Select>
+                    </FormControl>
+                    <FormControl variant="outlined" style={{margin: 5}}>
+                        <Select value={this.state.lastOnly}
+                                onChange={event => this.setState({lastOnly: event.target.value})}>
+                            {[true, false].map(value => (
+                                <MenuItem key={value} value={value}>{value ? 'за останніми показниками' : 'за весь період'}</MenuItem>
+                            ))}
+                        </Select>
+                    </FormControl>
+                </div>
+                <Line height={100} data={data}/>
+            </div>
         );
     }
 }

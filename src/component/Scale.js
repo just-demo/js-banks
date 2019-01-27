@@ -51,7 +51,7 @@ class Scale extends Component {
     };
 
     handleScaleSelect = event => {
-        this.setValue(parseInt(event.target.value));
+        this.setValue(event.target.value);
     };
 
     setValue(value) {

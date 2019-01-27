@@ -29,11 +29,11 @@ class ToolBar extends Component {
         this.state = {access: 1};
         this.links = [{
             path: '/',
-            title: 'Рейтинги',
+            title: 'Графіки',
             access: 0
         }, {
-            path: '/charts',
-            title: 'Графіки',
+            path: '/ratings',
+            title: 'Таблиця',
             access: 0
         }, {
             path: '/banks',
@@ -84,8 +84,8 @@ class ToolBar extends Component {
                     </Toolbar>
                 </AppBar>
                 <Disclaimer/>
-                <Route exact path="/" component={PageRatings}/>
-                <Route path="/charts" component={PageCharts}/>
+                <Route exact path="/" component={PageCharts}/>
+                <Route path="/ratings" component={PageRatings}/>
                 <Route path="/banks" component={PageBanks}/>
                 <Route path="/dbf" component={PageDBF}/>
                 <Route path="/refresh" component={PageRefresh}/>
