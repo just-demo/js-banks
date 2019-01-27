@@ -9,20 +9,20 @@ const port = 3333;
 
 express()
     .use(cors())
-    .post('', (req, res) => res.send(refresh(true)))
+    .use(express.json())
+    .post('', (req, res) => res.send(refresh(true, req.body.clearCache)))
     .get('', (req, res) => res.send(refresh()))
     .listen(port, () => console.log('Server started:', port));
 
 let audit = null;
 let result = null;
 
-function refresh(restart) {
+function refresh(restart, clearCache) {
     if ((restart || !result) && !audit) {
         audit = new Audit();
         result = null;
         const source = new Source(audit);
-        // cache.clear()
-        Promise.resolve(true) // do not clear cache in dev mode
+        Promise.resolve(clearCache && cache.clear())
             .then(() => Promise.all([source.getBanks(), source.getRatings()]))
             .then(results => {
                 result = {

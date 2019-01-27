@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import Checkbox from '@material-ui/core/Checkbox';
+import FormControlLabel from "@material-ui/core/FormControlLabel";
 
 const REFRESH_SERVICE = 'http://localhost:3333';
 
@@ -7,6 +9,7 @@ class PageRefresh extends Component {
         super(props);
         this.state = {
             progress: 0,
+            clearCache: false,
             error: false
         };
     }
@@ -15,6 +18,16 @@ class PageRefresh extends Component {
         return (
             <div>
                 <div style={{margin: 10, marginLeft: 20}}>
+                    <FormControlLabel
+                        control={
+                            <Checkbox
+                                checked={this.state.clearCache}
+                                onChange={event => this.setState({clearCache: event.target.checked})}
+                                color="primary"
+                            />
+                        } label="Очистити кеш"
+                    />
+                    <br/>
                     <button onClick={() => this.handleRefresh()}>Старт</button>
                     <div style={{
                         width: 300,
@@ -53,14 +66,16 @@ class PageRefresh extends Component {
 
     handleRefresh() {
         this.setProgress(0);
-        fetch(REFRESH_SERVICE, {method: 'POST'})
-            .then(() => {
-                console.log('Refreshing...');
-                this.setState({error: false})
-                // TODO: make result a Promise?
-                this.checkResult();
-            })
-            .catch(() => this.setState({error: true}));
+        fetch(REFRESH_SERVICE, {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({clearCache: this.state.clearCache})
+        }).then(() => {
+            console.log('Refreshing...');
+            this.setState({error: false});
+            // TODO: make result a Promise?
+            this.checkResult();
+        }).catch(() => this.setState({error: true}));
     }
 
     checkResult() {

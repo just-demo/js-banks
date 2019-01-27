@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import '../../App.css';
 import _ from 'lodash';
 import logs from '../../node/logs';
-
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
@@ -34,7 +33,7 @@ class PageLogs extends Component {
     }
 
     selectFile(fileIndex) {
-        this.setState({ fileIndex });
+        this.setState({fileIndex});
         fetch(this.logPath(this.state.files[fileIndex]))
             .then(log => log.text())
             .then(log => this.setState({requests: logs.parse(log)}));
@@ -52,13 +51,14 @@ class PageLogs extends Component {
         return (
             <div>
                 <AppBar position="static">
-                    <Tabs value={fileIndex} onChange={(event, fileIndex) => this.selectFile(fileIndex)} style={{backgroundColor: 'white', color: 'black'}}>
+                    <Tabs value={fileIndex} onChange={(event, fileIndex) => this.selectFile(fileIndex)}
+                          style={{backgroundColor: 'white', color: 'black'}}>
                         {this.state.files.map(file => (
                             <Tab key={file} label={file}/>
                         ))}
                     </Tabs>
                 </AppBar>
-                <div style={{padding: 10}}>Загальний час: {this.formatTime(totalTime)}</div>
+                <div style={{padding: 10}}>Сумарний час: {this.formatTime(totalTime)}</div>
                 <table className="request">
                     <tbody>
                     {this.state.requests.map((request, index) => (
@@ -66,7 +66,12 @@ class PageLogs extends Component {
                             <td>{index}</td>
                             <td>{request.url}</td>
                             <td>{request.time}</td>
-                            <td><div style={{backgroundColor: 'skyblue', width: Math.round(request.time / 5)}}>&nbsp;</div></td>
+                            <td>
+                                <div style={{
+                                    backgroundColor: 'skyblue',
+                                    width: Math.round(request.time / 5)
+                                }}>&nbsp;</div>
+                            </td>
                         </tr>
                     ))}
                     </tbody>
