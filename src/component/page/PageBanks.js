@@ -101,7 +101,9 @@ class PageBanks extends Component {
                         </th>
                         <th>Сайт</th>
                         {this.enabledSources().map(source => (
-                            <th key={source.type}><a href={source.href}>{source.title}</a></th>
+                            <th key={source.type}>
+                                <ExternalLink url={source.href} title={source.title}/>
+                            </th>
                         ))}
                     </tr>
                     {this.state.banks.filter(bank => !this.state.filterActive || this.allTrue(bank.active)).map(bank => (
