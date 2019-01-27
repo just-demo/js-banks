@@ -26,10 +26,10 @@ const styles = () => ({
 class ToolBar extends Component {
     constructor(props) {
         super(props);
-        this.state = {access: 1};
+        this.state = {access: 0};
         this.links = [{
             path: '/',
-            title: 'Графіки',
+            title: 'Графік',
             access: 0
         }, {
             path: '/ratings',
