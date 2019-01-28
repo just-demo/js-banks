@@ -26,7 +26,7 @@ class PageLogs extends Component {
         return fetch(this.logPath(file), {method: 'HEAD'}).then(response => {
             if (response.status !== 404) {
                 this.setState({files: [...this.state.files, file]});
-                if (number <= this.maxNumber) {
+                if (number < this.maxNumber) {
                     return this.tryLog(number + 1);
                 }
             }
