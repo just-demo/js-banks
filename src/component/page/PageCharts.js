@@ -109,7 +109,7 @@ class PageCharts extends Component {
                         </Select>
                     </FormControl>
                 </div>
-                <Line height={100} data={data}/>
+                <Line data={data}/>
             </div>
         );
     }
