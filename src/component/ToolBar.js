@@ -16,6 +16,7 @@ import classNames from 'classnames';
 import _ from 'lodash';
 import Disclaimer from "./Disclaimer";
 import PageCharts from "./page/PageCharts";
+import ExternalLink from "./ExternalLink";
 
 const styles = () => ({
     activeLink: {
@@ -79,7 +80,14 @@ class ToolBar extends Component {
                                 [classes.activeLink]: link.path === selectedPath
                             })}><Button color="inherit">{link.title}</Button></Link>
                         ))}
-                        <Typography color="inherit" style={{flexGrow: 1}}/>
+                        <Typography color="inherit" style={{
+                            flexGrow: 1,
+                            textAlign: 'center',
+                            textTransform: 'uppercase',
+                            color: 'skyblue',
+                        }}>
+                            <ExternalLink url="https://minfin.com.ua/ua/banks/rating" title="Рейтинг банків України за версією сайту Мінфін" style={{color: 'skyblue'}}/>
+                        </Typography>
                         <UserMenu selected={this.state.access} onSelect={this.handleAccessChange}/>
                     </Toolbar>
                 </AppBar>

@@ -9,6 +9,7 @@ import Tab from '@material-ui/core/Tab';
 class PageLogs extends Component {
     constructor(props) {
         super(props);
+        this.maxNumber = 3;
         this.state = {
             files: [],
             fileIndex: 0,
@@ -25,7 +26,7 @@ class PageLogs extends Component {
         return fetch(this.logPath(file), {method: 'HEAD'}).then(response => {
             if (response.status !== 404) {
                 this.setState({files: [...this.state.files, file]});
-                if (number < 10) {
+                if (number <= this.maxNumber) {
                     return this.tryLog(number + 1);
                 }
             }
