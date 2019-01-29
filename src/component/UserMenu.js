@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
+import Person from '@material-ui/icons/Person'
 
 function UserMenu(props) {
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -30,11 +31,14 @@ function UserMenu(props) {
                 aria-haspopup="true"
                 onClick={handleClick}
             >
-                {users[userSelected]}
+                <Person style={{marginTop: -3}}/>{users[userSelected]}
             </Button>
             <Menu id="simple-menu" anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleClose}>
                 {users.map((user, index) => (
-                    <MenuItem key={index} onClick={() => handleSelect(index)}>{user}</MenuItem>
+                    <MenuItem key={index} onClick={() => handleSelect(index)} style={{
+                        fontSize: 14,
+                        textTransform: 'uppercase'
+                    }}>{user}</MenuItem>
                 ))}
             </Menu>
         </div>

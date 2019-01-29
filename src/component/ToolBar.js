@@ -17,6 +17,12 @@ import _ from 'lodash';
 import Disclaimer from "./Disclaimer";
 import PageCharts from "./page/PageCharts";
 import ExternalLink from "./ExternalLink";
+import Grid from '@material-ui/icons/Apps'
+import Chart from '@material-ui/icons/EqualizerSharp'
+import Bank from '@material-ui/icons/AccountBalance'
+import Log from '@material-ui/icons/LibraryBooks'
+import Refresh from '@material-ui/icons/Sync'
+import Database from '@material-ui/icons/School'
 
 const styles = () => ({
     activeLink: {
@@ -30,28 +36,34 @@ class ToolBar extends Component {
         this.state = {access: 0};
         this.links = [{
             path: '/',
-            title: 'Графік',
-            access: 0
-        }, {
-            path: '/ratings',
             title: 'Таблиця',
-            access: 0
+            access: 0,
+            icon: <Grid/>
+        }, {
+            path: '/chart',
+            title: 'Графік',
+            access: 0,
+            icon: <Chart style={{marginTop: -2}}/>
         }, {
             path: '/banks',
             title: 'Банки',
-            access: 1
+            access: 1,
+            icon: <Bank style={{transform: 'scale(0.9)'}}/>
         }, {
             path: '/dbf',
             title: 'База НБУ',
-            access: 1
+            access: 1,
+            icon: <Database style={{marginRight: 3}}/>
         }, {
             path: '/refresh',
             title: 'Оновлення',
-            access: 1
+            access: 1,
+            icon: <Refresh style={{transform: 'scale(0.9)'}}/>
         }, {
             path: '/logs',
             title: 'Логи',
-            access: 1
+            access: 1,
+            icon: <Log style={{marginRight: 3}}/>
         }];
     }
 
@@ -78,7 +90,10 @@ class ToolBar extends Component {
                         {this.links.filter(link => link.access <= this.state.access).map(link => (
                             <Link key={link.path} to={link.path} style={{color: 'white'}} className={classNames({
                                 [classes.activeLink]: link.path === selectedPath
-                            })}><Button color="inherit">{link.title}</Button></Link>
+                            })}><Button style={{
+                                color: 'white',
+                                paddingRight: 10
+                            }}>{link.icon}{link.title}</Button></Link>
                         ))}
                         <Typography color="inherit" style={{flexGrow: 1, textAlign: 'center'}}>
                             <ExternalLink url="https://minfin.com.ua/ua/banks/rating" title="Рейтинг банків України за версією сайту Мінфін" style={{
@@ -90,8 +105,8 @@ class ToolBar extends Component {
                     </Toolbar>
                 </AppBar>
                 <Disclaimer/>
-                <Route exact path="/" component={PageCharts}/>
-                <Route path="/ratings" component={PageRatings}/>
+                <Route exact path="/" component={PageRatings}/>
+                <Route path="/chart" component={PageCharts}/>
                 <Route path="/banks" component={PageBanks}/>
                 <Route path="/dbf" component={PageDBF}/>
                 <Route path="/refresh" component={PageRefresh}/>
