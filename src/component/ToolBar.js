@@ -25,8 +25,16 @@ import Refresh from '@material-ui/icons/Sync'
 import Database from '@material-ui/icons/School'
 
 const styles = () => ({
-    activeLink: {
-        textDecoration: 'underline'
+    routerLink: {
+        '&:hover': {
+            textDecoration: 'none'
+        }
+    },
+    activeRouterLink: {
+        textDecoration: 'underline',
+        '&:hover': {
+            textDecoration: 'underline'
+        }
     }
 });
 
@@ -89,17 +97,20 @@ class ToolBar extends Component {
                     <Toolbar>
                         {this.links.filter(link => link.access <= this.state.access).map(link => (
                             <Link key={link.path} to={link.path} style={{color: 'white'}} className={classNames({
-                                [classes.activeLink]: link.path === selectedPath
+                                [classes.routerLink]: true,
+                                [classes.activeRouterLink]: link.path === selectedPath
                             })}><Button style={{
                                 color: 'white',
                                 paddingRight: 10
                             }}>{link.icon}{link.title}</Button></Link>
                         ))}
-                        <Typography color="inherit" style={{flexGrow: 1, textAlign: 'center'}}>
-                            <ExternalLink url="https://minfin.com.ua/ua/banks/rating" title="Рейтинг банків України за версією сайту Мінфін" style={{
-                                color: 'skyblue',
-                                textTransform: 'uppercase'
-                            }}/>
+                        <Typography color="inherit" style={{
+                            flexGrow: 1,
+                            textAlign: 'center',
+                            textTransform: 'uppercase',
+                            color: 'skyblue'
+                        }}>
+                            Рейтинг банків України за версією сайту <ExternalLink url="https://minfin.com.ua/ua/banks/rating" title="Мінфін" style={{color: 'skyblue'}}/>
                         </Typography>
                         <UserMenu selected={this.state.access} onSelect={this.handleAccessChange}/>
                     </Toolbar>
