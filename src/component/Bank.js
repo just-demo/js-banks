@@ -36,7 +36,7 @@ class Bank extends Component {
             <table className="bank">
                 <tbody>
                 <tr>
-                    <td>Лжерело</td>
+                    <td>Джерело</td>
                     <td>Початок</td>
                     <td>Подія</td>
                     <td>Сайт</td>
