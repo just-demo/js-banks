@@ -6530,8 +6530,7 @@
     "dateIssue": {
       "api": "2015-02-10",
       "nbu": "2014-10-09",
-      "pdf": "2015-02-10",
-      "fund": "2014-10-10"
+      "pdf": "2015-02-10"
     },
     "site": {
       "minfin": [
@@ -6545,7 +6544,7 @@
       "link": {
         "nbu": "/control/uk/publish/article?art_id=75535",
         "pdf": "/files/Licences_bank/307435.pdf",
-        "fund": "/not-paying/liquidation/31-melior-bank",
+        "fund": "/not-paying/banky-likvidovani-fondom/31-melior-bank",
         "minfin": "/ua/company/melior"
       }
     }
